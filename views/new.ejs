@@ -1,32 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TestApp</title>
-</head>
-<body>
-    <h3>Add questions</h3>
-    <form method="POST" action="/">
-        <input name="Subject" placeholder="Enter subjest" type="text">
-        <br>
-        <textarea name="Question" placeholder="Enter Question" type="text"> Enter Question</textarea>
-        <br>
-        <input name="Option1" placeholder="Enter Option" type="text">
-        <br>
-        <input name="Option2" placeholder="Enter Option" type="text">
-        <br>
-        <input name="Option3" placeholder="Enter Option" type="text">
-        <br>
-        <input name="Option4" placeholder="Enter Option" type="text">
-        <br>
-        <input name="Answer" placeholder="Enter Answer" type="text">
-        <br>
-        <input name="Marks" placeholder="Enter Marks" type="number">
-        <br>
-        <input name="Topic" placeholder="Enter Topic" type="text">
-        <br>
-        <button>Add</button>
-    </form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WanderLust</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      h3 {
+        text-align: center;
+        color: #333;
+      }
+
+      form {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 300px;
+      }
+
+      input[type="text"],
+      input[type="number"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+
+      textarea {
+        resize: none;
+        height: 80px;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      input::placeholder,
+      textarea::placeholder {
+        color: #888;
+      }
+
+      @media (max-width: 480px) {
+        form {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <form method="POST" action="/questions">
+      <h3>Create a New Question</h3>
+      <input name="questions[subject]" placeholder="Enter Subject" type="text" />
+      <textarea name="questions[question]" placeholder="Enter question"></textarea>
+      <input name="questions[option1]" placeholder="Enter option1" type="text" />
+      <input name="questions[option2]" placeholder="Enter option2" type="text" />
+      <input name="questions[option3]" placeholder="Enter option3" type="text" />
+      <input name="questions[option4]" placeholder="Enter option4" type="text" />
+      <input name="questions[Answer]" placeholder="Enter Answer" type="text" />
+      <input name="questions[marks]" placeholder="Enter Marks" type="number" />
+      <input name="questions[topic]" placeholder="Enter Topic" type="text" />
+      <button>Add</button>
+
+    </form> -->
+    <form action="/questions" method="POST">
+      <label for="Subject">Subject:</label>
+      <input type="text" name="questions[subject]" >
+
+      <label for="question">Question:</label>
+      <input type="text" name="questions[question]">
+      
+      <label for="option1">Option 1:</label>
+      <input type="text" name="questions[option1]">
+      
+      <label for="option2">Option 2:</label>
+      <input type="text" name="questions[option2]">
+      
+      <label for="option3">Option 3:</label>
+      <input type="text" name="questions[option3]">
+      
+      <label for="option4">Option 4:</label>
+      <input type="text" name="questions[option4]">
+      
+      <label for="Answer">Answer:</label>
+      <input type="text" name="questions[Answer]" required>
+
+      <label for="Marks">Marks:</label>
+      <input type="number" name="questions[marks]" >
+
+      <label for="Topic">Topic:</label>
+      <input type="text" name="questions[topic]" required>
+      
+      <button type="submit">Submit</button>
+  </form>
+  
+  </body>
 </html>

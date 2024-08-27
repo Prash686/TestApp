@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WanderLust</title>
+  </head>
+  <body>
+    <h3>All Listings</h3>
+    <form method="GET" action="/new">
+      <button>Create New questions</button>
+    </form>
+    <ul>
+      <% for(let questions of allquestions) { %>
+      <li>
+        <p>Q. <%= questions.question %>        (marks <%= questions.marks %>)</p><br>
+        <p>1)<%= questions.option1 %></p><br>
+        <p>2)<%= questions.option2 %></p><br>
+        <p>2)<%= questions.option3 %></p><br>
+        <p>2)<%= questions.option4 %></p><br>
+       </li>
+      <% } %>
+    </ul>
+  </body>
+</html>

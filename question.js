@@ -1,45 +1,17 @@
-const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
+const mongoose = require('mongoose');
 
-const questionsSchema = new Schema({
-    subject : {
-        type: String,
-    },
-    q : {
-        type: String,
-        required: true,
-    },
-    op1 :{
-        type: String,
-        required: true,
-    },
-    op2 : {
-        type: String,
-        required: true,
-    },
-    op3 : {
-        type: String,
-    },
-    op4 : {
-        type: String,
-    },
-    ans :{
-        type: String,
-        required: true,
-    },
-    marks : {
-        type: Number,
-        default:
-      1,
-    set: (v) =>
-      v === null
-        ? 1
-        : v,
-    },
-    topic : {
-        type: Number,
-    },
+const questionSchema = new mongoose.Schema({
+    subject : {type: String, default: "est"},
+    question: { type: String, },
+    option1: { type: String, },
+    option2: { type: String,  },
+    option3: { type: String }, // Assuming this is optional
+    option4: { type: String }, // Assuming this is optional
+    Answer: { type: String,  },
+    marks : {type: Number, default: 1, set: (v) => v === null ? 1: v,},
+    topic : {type: Number,default: 1},
 });
 
-const qes = mongoose.model("qes", questionsSchema);
-module.exports = qes;
+const questions = mongoose.model('questions', questionSchema);
+
+module.exports = questions;

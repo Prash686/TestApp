@@ -1,12 +1,17 @@
-const express = require("express");
+const express = require('express');
 const app = express();
 const mongoose = require("mongoose");
+const questions = require("./question.js");
 const ejs = require("ejs");
-const qes = require("./question.js");
-const path = require("path")
+const path = require("path");
 
 const Mongo = "mongodb://127.0.0.1:27017/TestApp";
 
+// Middleware to parse URL-encoded form data
+app.use(express.urlencoded({ extended: true }));
+
+// Middleware to parse JSON bodies
+app.use(express.json());
 
 main().then(() => {
     console.log("connected");
@@ -21,18 +26,43 @@ async function main() {
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-
-app.get("/", (req,res) => {
+app.get("/", (req, res) => {
     res.send("hi");
 });
 
-app.get('/your-route', (req, res) => {
-    res.render('new'); // This will look for 'new.ejs' in the views directory
+app.get("/questions", async (req, res) => {
+    const allquestions = await questions.find({});
+    res.render("./index.ejs", { allquestions });
+});
+
+app.get('/new', (req, res) => {
+    res.render('new');
+});
+
+// app.post("/questions", async (req, res) => {
+//     const  newquestion = new questions (req.body.question);
+//     await newquestion.save();
+//     // let  newquestion = req.body.questions;
+//     console.log(newquestion);
+//     res.send("Form received!");
+// });
+
+app.post("/questions", async (req, res) => {
+    // Create a new question document with the data from the request body
+    const newQuestion = new questions(req.body.questios);
+    console.log(newQuestion);
+    try {
+        // await newQuestion.save();
+        res.send("Form received and question saved!");
+    } catch (err) {
+        console.error(err);
+        res.status(400).send("Error saving the question: " + err.message);
+    }
 });
 
 // app.get("/testqes", async (req, res) => {
 //     let sampleqes = new qes({
-//         q : "how much percentage water is prasent on earth.",
+//         q : "how much percentage water is present on earth.",
 //         op1 : "71%",
 //         op2 : "29%",
 //         op3 : "72%",
@@ -45,30 +75,6 @@ app.get('/your-route', (req, res) => {
 //     res.send("successful testing");
 // });
 
-
-
 app.listen(8080, () => {
-    console.log("sucess");
+    console.log("success");
 });
-
-
-// const express = require('express');
-// const path = require('path');
-// const app = express();
-
-// // Set the views directory
-// app.set('views', path.join(__dirname, 'views'));
-
-// // Set the view engine to EJS
-// app.set('view engine', 'ejs');
-
-// // Define a route
-// app.get('/your-route', (req, res) => {
-//     res.render('new'); // This will look for 'new.ejs' in the views directory
-// });
-
-// // Start the server
-// const PORT = 3000;
-// app.listen(PORT, () => {
-//     console.log(`Server is running on http://localhost:${PORT}`);
-// });
