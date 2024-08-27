@@ -1,25 +1,139 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WanderLust</title>
-  </head>
-  <body>
-    <h3>All Listings</h3>
-    <form method="GET" action="/new">
-      <button>Create New questions</button>
-    </form>
-    <ul>
-      <% for(let questions of allquestions) { %>
-      <li>
-        <p>Q. <%= questions.question %>(marks <%= questions.marks %>)</p><br>
-        <p>1)<%= questions.option1 %></p><br>
-        <p>2)<%= questions.option2 %></p><br>
-        <p>3)<%= questions.option3 %></p><br>
-        <p>4)<%= questions.option4 %></p><br>
-       </li>
-      <% } %>
-    </ul>
-  </body>
-</html>
+<% layout('boilerplate') %>
+<body>
+  <h3>Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
+
+  <!-- Hidden input field to store the JSON string of questions -->
+  <input type="hidden" id="questions-data" value="<%- JSON.stringify(allquestions).replace(/"/g, '&quot;') %>">
+
+  <form method="GET" action="/submit">
+    <div id="question-container">
+      <!-- The first question will be rendered here by JavaScript -->
+    </div>
+
+    <button type="button" id="prev-btn" disabled>Previous</button>
+    <button type="button" id="next-btn">Next</button>
+    <button type="button" id="submit-btn">Submit</button>
+  </form>
+
+  <script>
+    try {
+      // Fetch the JSON string from the hidden input field
+        jsonData = document.getElementById('questions-data').value;
+      console.log('Raw JSON Data:', jsonData); // Debugging output to inspect JSON data
+
+      // Replace HTML entities and parse JSON
+      const cleanedJsonData = jsonData.replace(/&quot;/g, '"');
+      console.log('Cleaned JSON Data:', cleanedJsonData); // Debugging output to inspect cleaned JSON data
+
+      const questions = JSON.parse(cleanedJsonData);
+      console.log('Questions array:', questions); // Debugging output to ensure questions array is populated
+
+      const questionContainer = document.getElementById('question-container');
+      const questionNumber = document.getElementById('question-number');
+      const prevBtn = document.getElementById('prev-btn');
+      const nextBtn = document.getElementById('next-btn');
+      const submitBtn = document.getElementById('submit-btn');
+
+      let currentQuestionIndex = 0;
+
+      // Store the selected answers
+      const selectedAnswers = {};
+
+      function renderQuestion(index) {
+        if (!questions || questions.length === 0) {
+          questionContainer.textContent = 'No questions available.';
+          return;
+        }
+
+        const question = questions[index];
+        questionContainer.innerHTML = ''; // Clear previous content
+
+        // Question text
+        const questionText = document.createElement('p');
+        questionText.textContent = `Q. ${question.question} (marks ${question.marks})`;
+        questionContainer.appendChild(questionText);
+
+        // Creating radio buttons for options
+        for (let i = 1; i <= 4; i++) {
+          const div = document.createElement('div');
+          div.classList.add('form-check');
+
+          const input = document.createElement('input');
+          input.type = 'radio';
+          input.classList.add('form-check-input');
+          input.name = 'answer';
+          input.id = `option${i}`;
+          input.value = `option${i}`;
+
+          const label = document.createElement('label');
+          label.classList.add('form-check-label');
+          label.setAttribute('for', `option${i}`);
+          label.textContent = `${i}) ${question[`option${i}`]}`;
+
+          // Check if this option was previously selected
+          if (selectedAnswers[index] === i.toString()) {
+            input.checked = true;
+          }
+
+          div.appendChild(input);
+          div.appendChild(label);
+          questionContainer.appendChild(div);
+        }
+
+        // Update the question number and button states
+        questionNumber.textContent = index + 1;
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === questions.length - 1;
+      }
+
+      function saveAnswer() {
+        const selectedOption = document.querySelector('input[name="answer"]:checked');
+        if (selectedOption) {
+          selectedAnswers[currentQuestionIndex] = selectedOption.value;
+        }
+      }
+
+      function checkAnswer() {
+        const selectedOption = document.querySelector('input[name="answer"]:checked');
+        if (selectedOption) {
+          const correctAnswer = questions[currentQuestionIndex].Answer;
+          console.log(selectedOption);
+          if (selectedOption.value === correctAnswer) {
+            alert('Correct Answer!');
+          } else {
+            alert('Wrong Answer!');
+          }
+        } else {
+          alert('Please select an answer.');
+        }
+      }
+
+      prevBtn.addEventListener('click', () => {
+        saveAnswer();
+        if (currentQuestionIndex > 0) {
+          currentQuestionIndex--;
+          renderQuestion(currentQuestionIndex);
+        }
+      });
+
+      nextBtn.addEventListener('click', () => {
+        saveAnswer();
+        if (currentQuestionIndex < questions.length - 1) {
+          currentQuestionIndex++;
+          renderQuestion(currentQuestionIndex);
+        }
+      });
+
+      submitBtn.addEventListener('click', () => {
+        saveAnswer();
+        checkAnswer();
+      });
+
+      // Initial render
+      renderQuestion(currentQuestionIndex);
+
+    } catch (error) {
+      console.error('Error parsing JSON data:', error);
+    }
+  </script>
+</body>

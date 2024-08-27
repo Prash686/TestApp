@@ -3,16 +3,10 @@ const app = express();
 const mongoose = require("mongoose");
 const questions = require("./question.js");
 const ejs = require("ejs");
+const ejsMate = require("ejs-mate");
 const path = require("path");
 
 const Mongo = "mongodb://127.0.0.1:27017/TestApp";
-
-// Middleware to parse URL-encoded form data
-app.use(express.urlencoded({ extended: true }));
-
-// Middleware to parse JSON bodies
-app.use(express.json());
-
 main().then(() => {
     console.log("connected");
 }).catch(err => {
@@ -22,9 +16,15 @@ main().then(() => {
 async function main() {
     await mongoose.connect(Mongo);
 }
+// Middleware to parse URL-encoded form data
+app.use(express.urlencoded({ extended: true }));
 
+// Middleware to parse JSON bodies
+app.use(express.json());
+app.engine('ejs', ejsMate);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.use(express.static(path.join(__dirname, '/public')));
 
 app.get("/", (req, res) => {
     res.send("hi");
