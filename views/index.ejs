@@ -19,14 +19,14 @@
     try {
       // Fetch the JSON string from the hidden input field
         jsonData = document.getElementById('questions-data').value;
-      console.log('Raw JSON Data:', jsonData); // Debugging output to inspect JSON data
+      //console.log('Raw JSON Data:', jsonData); // Debugging output to inspect JSON data
 
       // Replace HTML entities and parse JSON
       const cleanedJsonData = jsonData.replace(/&quot;/g, '"');
-      console.log('Cleaned JSON Data:', cleanedJsonData); // Debugging output to inspect cleaned JSON data
+      //console.log('Cleaned JSON Data:', cleanedJsonData); // Debugging output to inspect cleaned JSON data
 
       const questions = JSON.parse(cleanedJsonData);
-      console.log('Questions array:', questions); // Debugging output to ensure questions array is populated
+      //console.log('Questions array:', questions); // Debugging output to ensure questions array is populated
 
       const questionContainer = document.getElementById('question-container');
       const questionNumber = document.getElementById('question-number');
@@ -97,7 +97,7 @@
         const selectedOption = document.querySelector('input[name="answer"]:checked');
         if (selectedOption) {
           const correctAnswer = questions[currentQuestionIndex].Answer;
-          console.log(selectedOption);
+          //console.log(selectedOption);
           if (selectedOption.value === correctAnswer) {
             alert('Correct Answer!');
           } else {

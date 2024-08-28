@@ -51,7 +51,7 @@ app.post("/questions", async (req, res) => {
     // Create a new question document with the data from the request body
     const que = req.body;
     const newQuestion = new questions(que);
-    console.log(newQuestion);
+    // console.log(newQuestion);
     try {
         await newQuestion.save();
         res.send("Form received and question saved!");
