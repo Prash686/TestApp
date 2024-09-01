@@ -11533,4 +11533,2960 @@ const samplequestions = [
     
 ];
 
-module.exports = { data: samplequestions };
+const unitTest =[
+    {
+        "question": "Nuclear accidents affect global temperature.",
+        "option1": "Increase",
+        "option2": "Decrease",
+        "option3": "Multiply",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Nuclear accidents cause a decrease in temperature."
+    },
+    {
+        "question": "Environmental education is important only at:",
+        "option1": "Primary school stage",
+        "option2": "Secondary school stage",
+        "option3": "College stage",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Environmental education is important at all stages."
+    },
+    {
+        "question": "The 4Rs principle is applicable for...",
+        "option1": "Public awareness",
+        "option2": "Environmental protection",
+        "option3": "Saving natural resources",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The 4Rs principle is applicable for public awareness, environmental protection, and saving natural resources."
+    },
+    {
+        "question": "The ozone layer is found in ...",
+        "option1": "Thermosphere",
+        "option2": "Stratosphere",
+        "option3": "Troposphere",
+        "option4": "Mesosphere",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The ozone layer is found in the Stratosphere."
+    },
+    {
+        "question": "Which one of the following is an abiotic component of the ecosystem?",
+        "option1": "Bacteria",
+        "option2": "Plants",
+        "option3": "Humus",
+        "option4": "Fungi",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Humus is an abiotic component of the ecosystem."
+    },
+    {
+        "question": "The major cause of increment in population growth is...",
+        "option1": "Decrease in birth rate",
+        "option2": "Decrease in mortality rate",
+        "option3": "Illiteracy",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Decrease in mortality rate is a major cause of increment in population growth."
+    },
+    {
+        "question": "Zone consisting of air, water, and soil is known as...",
+        "option1": "Atmosphere",
+        "option2": "Hydrosphere",
+        "option3": "Biosphere",
+        "option4": "Lithosphere",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Zone consisting of air, water, and soil is known as Biosphere."
+    },
+    {
+        "question": "Abiotic environment does not include...",
+        "option1": "Air",
+        "option2": "Water",
+        "option3": "Soil",
+        "option4": "Plants",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Abiotic environment means non-living things."
+    },
+    {
+        "question": "Physical environment is also called as...",
+        "option1": "Abiotic environment",
+        "option2": "Biotic environment",
+        "option3": "Man-made environment",
+        "option4": "Psychological environment",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Physical environment is also called as Abiotic environment."
+    },
+    {
+        "question": "The production of biogas from waste is included in...",
+        "option1": "Reduce",
+        "option2": "Reuse",
+        "option3": "Recycle",
+        "option4": "Recover",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The production of biogas from waste is included in Recover."
+    },
+    {
+        "question": "% of the Earth's surface is covered with water.",
+        "option1": "20",
+        "option2": "80",
+        "option3": "71",
+        "option4": "100",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "71% of the Earth's surface is covered with water."
+    },
+    {
+        "question": "Formation of Ozone is?",
+        "option1": "Oxidation Reaction",
+        "option2": "Reduction Reaction",
+        "option3": "Photochemical Reaction",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Formation of Ozone is a Photochemical Reaction."
+    },
+    {
+        "question": "The environment which has been modified by humans is called...",
+        "option1": "Natural environment",
+        "option2": "Anthropogenic environment",
+        "option3": "Modern environment",
+        "option4": "Urban environment",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The environment which has been modified by humans is called Anthropogenic environment."
+    },
+    {
+        "question": "One of the following is not a type of environment.",
+        "option1": "Physical environment",
+        "option2": "Man-made environment",
+        "option3": "Social environment",
+        "option4": "Hydrosphere",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Hydrosphere is not a type of environment."
+    },
+    {
+        "question": "O3 is known as...",
+        "option1": "Atmosphere",
+        "option2": "Ozone",
+        "option3": "Oxygen",
+        "option4": "All of these",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "O3 is known as Ozone."
+    },
+    {
+        "question": "Environmental education emphasizes on...",
+        "option1": "Air",
+        "option2": "Water",
+        "option3": "Environmental issues",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Environmental education emphasizes on Environmental issues."
+    },
+    {
+        "question": "Our natural environment has _______ and _______ values.",
+        "option1": "Qualitative and quantitative",
+        "option2": "Preservation and conservation",
+        "option3": "Utilization and recreation",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Our natural environment has Qualitative and Quantitative values."
+    },
+    {
+        "question": "Land covers up only % of the earth's surface.",
+        "option1": "10",
+        "option2": "29",
+        "option3": "40",
+        "option4": "30",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Land covers up only 29% of the earth's surface."
+    },
+    {
+        "question": "The 4Rs principle is applicable for...",
+        "option1": "Public awareness",
+        "option2": "Environmental protection",
+        "option3": "Saving natural resources",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The 4Rs principle is applicable in all areas."
+    },
+    
+    {
+        "question": "Ozone layer is found in ....",
+        "option1": "Thermosphere",
+        "option2": "Stratosphere",
+        "option3": "Troposphere",
+        "option4": "Mesosphere",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Ozone layer is found in Stratosphere."
+    },
+    {
+        "question": "Which one of the following is an abiotic component of the ecosystem?",
+        "option1": "Bacteria",
+        "option2": "Plants",
+        "option3": "Humus",
+        "option4": "Fungi",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Humus is an abiotic component of the ecosystem."
+    },
+    {
+        "question": "Which of the following is an example of the impact of development activities on the Hydrosphere?",
+        "option1": "Air Pollution",
+        "option2": "Soil Pollution",
+        "option3": "Noise Pollution",
+        "option4": "Water Pollution",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Water Pollution is the impact of development activities on the Hydrosphere."
+    },
+    {
+        "question": "Nuclear accidents affect global temperature.",
+        "option1": "Increase",
+        "option2": "Decrease",
+        "option3": "Multiply",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Nuclear accidents cause a decrease in temperature."
+    },
+    {
+        "question": "The Environmental awareness starts with:",
+        "option1": "Country",
+        "option2": "State",
+        "option3": "Individual",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Environmental awareness starts with the individual."
+    },
+    {
+        "question": "For sustainable development, R are followed:",
+        "option1": "5",
+        "option2": "2",
+        "option3": "4",
+        "option4": "3",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "For sustainable development, 4 Rs are followed."
+    },
+    {
+        "question": "The amount of solar radiation reaching the surface of the earth is called as...",
+        "option1": "Solar flux",
+        "option2": "Reflected light",
+        "option3": "Minerals",
+        "option4": "Solvents",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The amount of solar radiation reaching the surface of the earth is called Reflected light."
+    },
+    {
+        "question": "Acid rain occurs due to the dissolution of _______ in rainwater.",
+        "option1": "Gases",
+        "option2": "Particles",
+        "option3": "Smoke",
+        "option4": "Soot",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Acid rain occurs due to the dissolution of gases in rainwater."
+    },
+    {
+        "question": "The Hydrosphere covers about _______ of the surface of the Earth.",
+        "option1": "70%",
+        "option2": "90%",
+        "option3": "60%",
+        "option4": "50%",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The Hydrosphere covers about 70% of the surface of the Earth."
+    },
+    {
+        "question": "Color of the ozone molecule is...",
+        "option1": "Pale Blue",
+        "option2": "White",
+        "option3": "Pale Yellow",
+        "option4": "Pale Green",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The color of the ozone molecule is Pale Blue."
+    },
+    {
+        "question": "The major cause of ozone depletion is due to which chemical?",
+        "option1": "Chlorofluorocarbons",
+        "option2": "Polyphenols",
+        "option3": "Dioxins",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The major cause of ozone depletion is due to Chlorofluorocarbons."
+    },
+    {
+        "question": "Acid rain contains...",
+        "option1": "Sulphuric acid",
+        "option2": "Hydrochloric acid",
+        "option3": "Oxalic acid",
+        "option4": "Acetic acid",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Acid rain contains Sulphuric acid."
+    },
+    {
+        "question": "Biosphere is...",
+        "option1": "The solid shell of inorganic materials on the surface of the Earth",
+        "option2": "The thin shell of organic matter on the surface of the Earth comprising of all living things",
+        "option3": "The sphere which occupies the maximum volume of all the spheres",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Biosphere is the thin shell of organic matter on the surface of the Earth comprising of all living things."
+    },
+    {
+        "question": "The portion of the Earth and its environment which can support life is known as...",
+        "option1": "Crust",
+        "option2": "Exosphere",
+        "option3": "Biosphere",
+        "option4": "Mesosphere",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The portion of the Earth and its environment which can support life is known as the Biosphere."
+    },
+    {
+        "question": "How are the atmosphere, hydrosphere, and lithosphere connected?",
+        "option1": "Hydrological cycle",
+        "option2": "Nitrogen cycle",
+        "option3": "Oxygen cycle",
+        "option4": "Carbon cycle",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The atmosphere, hydrosphere, and lithosphere are connected by the Carbon cycle."
+    },
+    {
+        "question": "The exchange of outgoing and incoming radiations that keep Earth warm is known as...",
+        "option1": "Greenhouse effect",
+        "option2": "Radiation effect",
+        "option3": "Infrared effect",
+        "option4": "Ozone layer depletion",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The exchange of outgoing and incoming radiations that keep Earth warm is known as the Greenhouse effect."
+    },
+    {
+        "question": "Public awareness of the environment creates _______.",
+        "option1": "Environment protection",
+        "option2": "Environment degradation",
+        "option3": "Environmental improvement",
+        "option4": "Environmental cultivation",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Public awareness of the environment creates Environment protection."
+    },
+    {
+        "question": "Biotic environment includes...",
+        "option1": "Producers",
+        "option2": "Consumers",
+        "option3": "Decomposers",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Biotic environment includes Producers, Consumers, and Decomposers."
+    },
+    {
+        "question": "The 4Rs principle is applicable in...",
+        "option1": "Agricultural areas",
+        "option2": "Industrial areas",
+        "option3": "Municipal areas",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The 4Rs principle is applicable in all areas."
+    },
+    {
+        "question": "DDT is a pesticide which is...",
+        "option1": "Not soluble in water",
+        "option2": "More soluble in fat than water",
+        "option3": "Less soluble in fat than water",
+        "option4": "Not soluble in fat",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "DDT is more soluble in fat than in water."
+    },
+    {
+        "question": "National Science Day is celebrated on...",
+        "option1": "22 February",
+        "option2": "28 February",
+        "option3": "26 February",
+        "option4": "27 February",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "National Science Day is celebrated on 28 February."
+    },
+    {
+        "question": "Environmentally friendly products are given ISO certification called ISO...",
+        "option1": "12000",
+        "option2": "13000",
+        "option3": "14000",
+        "option4": "15000",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Environmentally friendly products are given ISO certification called ISO 14000."
+    },
+    {
+        "question": "A sudden uncontrolled descent of a mass of earth under the force of gravity is called...",
+        "option1": "Soil erosion",
+        "option2": "Mining",
+        "option3": "Earthquake",
+        "option4": "Landslide",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "A sudden uncontrolled descent of a mass of earth under the force of gravity is called a Landslide."
+    },
+    {
+        "question": "Public awareness can be generated by...",
+        "option1": "Campaigns",
+        "option2": "Posters",
+        "option3": "Mass Media",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Public awareness can be generated by Campaigns, Posters, and Mass Media."
+    },
+    {
+        "question": "Along with government, _____ are also found effective to educate people regarding environment protection.",
+        "option1": "Company",
+        "option2": "School",
+        "option3": "None of the above",
+        "option4": "NGOs",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Along with government, NGOs are also found effective to educate people regarding environment protection."
+    },
+    {
+        "question": "The study of living organisms with the environment is known as...",
+        "option1": "Ecosystem",
+        "option2": "Environment",
+        "option3": "Community",
+        "option4": "Ecology",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The study of living organisms with the environment is known as Ecology."
+    },
+    {
+        "question": "The word 'Environment' is derived from...",
+        "option1": "Greek",
+        "option2": "French",
+        "option3": "Spanish",
+        "option4": "English",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The word 'Environment' is derived from French."
+    },
+    {
+        "question": "WF stands for...",
+        "option1": "World Wildlife fund for Nature",
+        "option2": "World Wildlife found in Nature",
+        "option3": "World Wide fund for Nature",
+        "option4": "World Wide fund for Wildlife",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "WF stands for World Wide Fund for Nature."
+    },
+    {
+        "question": "The collection of the same species within an area is called a population.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The collection of the same species within an area is called a population."
+    },
+    {
+        "question": "World Environment Day is on...",
+        "option1": "5 May",
+        "option2": "5 June",
+        "option3": "18 July",
+        "option4": "16 August",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "World Environment Day is on 5 June."
+    },
+    {
+        "question": "Social awareness encourages people to use",
+        "option1": "Biomass and solar energy",
+        "option2": "Fossil fuel",
+        "option3": "Both A & B",
+        "option4": "Electricity",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Social awareness encourages people to use Biomass and solar energy."
+    },
+    {
+        "question": "Rain fall is measured in. .......... units",
+        "option1": "Pounds",
+        "option2": "mm/cms",
+        "option3": "Kg/Tons",
+        "option4": "Metres",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Rainfall is measured in mm/cms."
+    },
+    {
+        "question": "Conservation of forests by planting trees is",
+        "option1": "Afforestation",
+        "option2": "None of the above",
+        "option3": "Reforestation",
+        "option4": "Deforestation",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Conservation of forests by planting trees is Afforestation."
+    },
+    {
+        "question": "Environmental Studies means",
+        "option1": "is an interdisciplinary academic field",
+        "option2": "includes the natural environment, built environment, and the sets of relationships between them",
+        "option3": "methodically studies human interaction with the environment",
+        "option4": "all of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Environmental Studies is an interdisciplinary academic field that includes the natural environment, built environment, and the sets of relationships between them, and methodically studies human interaction with the environment."
+    },
+    {
+        "question": "Environmental degradation is due to",
+        "option1": "rapid industrialization",
+        "option2": "deforestation",
+        "option3": "growing urbanization",
+        "option4": "all above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Environmental degradation is due to rapid industrialization, deforestation, and growing urbanization."
+    },
+    {
+        "question": "Non-Governmental Organizations",
+        "option1": "are located primarily in more developed countries",
+        "option2": "have become a powerful aspect of environmental protection",
+        "option3": "Work for a social change",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Non-Governmental Organizations have become a powerful aspect of environmental protection and work for social change."
+    },
+    {
+        "question": "Addition of contaminants to atmosphere causing disturbance in natural condition",
+        "option1": "Polluter",
+        "option2": "Polluting",
+        "option3": "Pollution",
+        "option4": "Pollutant",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Addition of contaminants to the atmosphere causing disturbance in natural condition is called Pollution."
+    },
+    {
+        "question": "The Unlimited exploitation of nature by human being has not resulted in",
+        "option1": "Health Problem",
+        "option2": "Decrease in biodiversity",
+        "option3": "Tsunamis",
+        "option4": "Environmental pollution",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The unlimited exploitation of nature by humans has not resulted in Tsunamis."
+    },
+    {
+        "question": "Acid rain occurs due to dissolution of in rain water",
+        "option1": "Smoke",
+        "option2": "Particles",
+        "option3": "Gases",
+        "option4": "Soot",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Acid rain occurs due to the dissolution of gases in rainwater."
+    },
+    {
+        "question": "The unlimited Exploitation of Nature by Human being resulted in..",
+        "option1": "Environmental pollution",
+        "option2": "Health Problems",
+        "option3": "decrease in biodiversity",
+        "option4": "all the given",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The unlimited exploitation of nature by humans resulted in Environmental pollution, Health Problems, and decrease in biodiversity."
+    },
+    {
+        "question": "The conservation of natural resources",
+        "option1": "Was not encouraged in ancient India",
+        "option2": "was encouraged in ancient India.",
+        "option3": "Is recently being used in India",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The conservation of natural resources was encouraged in ancient India."
+    },
+    {
+        "question": "The Global Action plan adopted at Earth summit held at Rio de Janeiro in June 1972 is also known as",
+        "option1": "Agenda 20",
+        "option2": "Agenda 22",
+        "option3": "Agenda 23",
+        "option4": "Agenda 21",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The Global Action plan adopted at the Earth summit held at Rio de Janeiro in June 1972 is also known as Agenda 21."
+    },
+    {
+        "question": "Environmental Issues are discussed and solved in subject",
+        "option1": "Sociology",
+        "option2": "Economics",
+        "option3": "EVS",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Environmental Issues are discussed and solved in the subject EVS (Environmental Studies)."
+    },
+    {
+        "question": "As per the French word Environner means",
+        "option1": "Atmosphere",
+        "option2": "Earth & Sun",
+        "option3": "Encircle & Surround",
+        "option4": "Earth & Energy",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "As per the French word 'Environner', it means Encircle & Surround."
+    },
+    {
+        "question": "USCB is short form for",
+        "option1": "United States Census Bureau",
+        "option2": "United States Community Bureau",
+        "option3": "United Society for Communist & Bureaucrats",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "USCB stands for United States Census Bureau."
+    },
+    {
+        "question": "Earth Day is on",
+        "option1": "Jan-22",
+        "option2": "Feb-22",
+        "option3": "Mar-22",
+        "option4": "Apr-22",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Earth Day is on April 22."
+    },
+    {
+        "question": "Environmental Studies does not involve:",
+        "option1": "psychology",
+        "option2": "demography",
+        "option3": "ethics",
+        "option4": "literature",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Environmental Studies does not involve literature."
+    },
+    {
+        "question": "Which of the following global trends is of great concern for the future of our environment?",
+        "option1": "degradation of fertile soils",
+        "option2": "change in the global atmosphere",
+        "option3": "species extinction leading to the loss of biodiversity",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "All of the listed global trends are of great concern for the future of our environment."
+    },
+    {
+        "question": "High level radioactive waste can be managed in which of the following ways?",
+        "option1": "Open dumping",
+        "option2": "Composting",
+        "option3": "Incineration",
+        "option4": "Dumping in sealed container",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "High level radioactive waste can be managed by dumping in sealed containers."
+    },
+    {
+        "question": "The objective of environmental education is",
+        "option1": "Raise consciousness about environmental education",
+        "option2": "To teach environmentally appropriate behavior",
+        "option3": "Create an environmental ethic that fosters awareness about ecological inter-dependence of economics, social and political",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The objective of environmental education includes raising consciousness, teaching environmentally appropriate behavior, and creating an environmental ethic that fosters awareness about ecological inter-dependence."
+    },
+    {
+        "question": "Which of the following is an example of the impact of development activities on the Hydrosphere?",
+        "option1": "Air pollution",
+        "option2": "Noise pollution",
+        "option3": "Soil erosion",
+        "option4": "Water pollution",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Water pollution is an example of the impact of development activities on the Hydrosphere."
+    },
+    {
+        "question": "Important abiotic factors in the environment include which of the following?",
+        "option1": "Temperature",
+        "option2": "Wind",
+        "option3": "Water",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Important abiotic factors in the environment include Temperature, Wind, and Water."
+    },
+    {
+        "question": "Atmosphere may extend to a height of ............. km above the earth surface",
+        "option1": "80",
+        "option2": "8000",
+        "option3": "800",
+        "option4": "8",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The atmosphere may extend to a height of 800 km above the earth's surface."
+    },
+    {
+        "question": "Which of the following is the correct sequence of 4Rs principle in waste hierarchy?",
+        "option1": "Reduce-Reuse-Recycle-Recover",
+        "option2": "Recover-Recycle-Reuse-Reduce",
+        "option3": "Recycle - Recover - Reuse- Reduce",
+        "option4": "Reuse-Recover-Reduce - Recycle",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The correct sequence of the 4Rs principle in waste hierarchy is Reduce-Reuse-Recycle-Recover."
+    },
+    {
+        "question": "Why is carbon dioxide called a greenhouse gas?",
+        "option1": "Because it absorbs heat",
+        "option2": "Because it absorbs moisture",
+        "option3": "Because it absorbs oxygen",
+        "option4": "Because it absorbs hydrogen",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Carbon dioxide is called a greenhouse gas because it absorbs heat."
+    },
+    {
+        "question": "Which of the following statements means water vapor?",
+        "option1": "Water vapor is the gaseous phase of water",
+        "option2": "Water vapor is the liquid phase of water",
+        "option3": "Water vapor is the solid phase of water",
+        "option4": "All of the mentioned",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Water vapor is the gaseous phase of water."
+    },
+    {
+        "question": "Which of the following is a renewable source of energy?",
+        "option1": "Ocean currents",
+        "option2": "Solar energy",
+        "option3": "Biomass",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Ocean currents, Solar energy, and Biomass are all renewable sources of energy."
+    },
+    {
+        "question": "The size of the particles categorized as aerosols?",
+        "option1": "Less than 0.01 micron",
+        "option2": "Greater than 1 micron",
+        "option3": "Less than 1 micron",
+        "option4": "Between 0.01-1 micron",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Aerosols are particles with sizes ranging from 0.01 to 1 micron."
+    },
+    {
+        "question": "Which of these is NOT a primary pollutant?",
+        "option1": "Oxygen",
+        "option2": "Ground-level ozone",
+        "option3": "Carbon monoxide",
+        "option4": "Carbon dioxide",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Oxygen is not a primary pollutant."
+    },
+    {
+        "question": "Which gas is released when alum is added to water?",
+        "option1": "Ca(OH)3",
+        "option2": "CO2",
+        "option3": "Al(OH)3",
+        "option4": "CaSO4",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Carbon dioxide gas is released when alum is added to water."
+    },
+    {
+        "question": "Which of the following plants is extremely sensitive towards sulphur dioxide?",
+        "option1": "Tomato",
+        "option2": "Onion",
+        "option3": "Potato",
+        "option4": "Corn",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Tomato is extremely sensitive to sulphur dioxide."
+    },
+    {
+        "question": "Which of the following is not commonly used as a filter material in the treatment of water?",
+        "option1": "Garnet sand",
+        "option2": "Crushed rock",
+        "option3": "Sand",
+        "option4": "Anthracite",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Crushed rock is not commonly used as a filter material in the treatment of water."
+    },
+    {
+        "question": "The value of specific gravity for Garnet sand is",
+        "option1": "4.2",
+        "option2": "5.1",
+        "option3": "3.6",
+        "option4": "2.1",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The specific gravity of Garnet sand is 4.2."
+    },
+    {
+        "question": "The process of decomposition of biodegradable solid waste by earthworms is called",
+        "option1": "Composting",
+        "option2": "Landfills",
+        "option3": "Shredding",
+        "option4": "Vermi-composting",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The decomposition of biodegradable solid waste by earthworms is called Vermicomposting."
+    },
+    {
+        "question": "What is the frequency of cleaning of a slow sand filter?",
+        "option1": "2-3 days",
+        "option2": "2-3 weeks",
+        "option3": "1-3 months",
+        "option4": "1 week",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "A slow sand filter typically requires cleaning every 1-3 months."
+    },
+    {
+        "question": "Which type of filter is used in treating swimming pool water?",
+        "option1": "Pressure filter",
+        "option2": "Dual media filter",
+        "option3": "Slow sand filter",
+        "option4": "Rapid sand filter",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Pressure filters are used for treating swimming pool water."
+    },
+    {
+        "question": "Which of the following is a biodegradable waste?",
+        "option1": "Paper",
+        "option2": "Food waste",
+        "option3": "Polythene bags",
+        "option4": "Synthetic fiber",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Food waste is an example of biodegradable waste."
+    },
+    {
+        "question": "Which water treatment process is done after filtration of water?",
+        "option1": "Secondary sedimentation",
+        "option2": "Flocculation",
+        "option3": "Primary sedimentation",
+        "option4": "Disinfection",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Disinfection is the process done after filtration of water."
+    },
+    {
+        "question": "In the lower layers of the atmosphere, what range of wavelengths of light is predominant?",
+        "option1": "Between 100-300 nm",
+        "option2": "Less than 100 nm",
+        "option3": "Greater than 300 nm",
+        "option4": "All wavelengths are equally present",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "In the lower layers of the atmosphere, light of wavelengths greater than 300 nm is predominant."
+    },
+    {
+        "question": "What is the significance of the ionosphere?",
+        "option1": "Regulates weather",
+        "option2": "Aviation movements",
+        "option3": "High-frequency radio transmission",
+        "option4": "All of the mentioned",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The ionosphere is significant for high-frequency radio transmission."
+    },
+    {
+        "question": "Which of the following radiations of the sun do greenhouse gases trap?",
+        "option1": "Infrared radiations",
+        "option2": "UV radiations",
+        "option3": "Visible radiations",
+        "option4": "All the radiations",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Greenhouse gases trap infrared radiations from the sun."
+    },
+    {
+        "question": "Below which of the following pH is rain regarded as 'acid rain'?",
+        "option1": "5.6",
+        "option2": "7.4",
+        "option3": "2.7",
+        "option4": "8",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Rain is regarded as 'acid rain' if its pH is below 5.6."
+    },
+    {
+        "question": "Which of the following greenhouse gases is contributed by cattle farming?",
+        "option1": "Carbon monoxide",
+        "option2": "Nitrous oxide",
+        "option3": "Methane",
+        "option4": "All of the mentioned",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Methane is released by cattle farming and contributes to the greenhouse effect."
+    },
+    {
+        "question": "Organic contaminants are removed from the water by the process of",
+        "option1": "Adsorption",
+        "option2": "Absorption",
+        "option3": "Demineralization",
+        "option4": "Water softening",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Organic contaminants are removed from the water through adsorption."
+    },
+    {
+        "question": "Which of the following gases are main contributors to acid rain?",
+        "option1": "Carbon dioxide and carbon monoxide",
+        "option2": "Sulphur dioxide and carbon dioxide",
+        "option3": "Sulphur dioxide and nitrogen dioxide",
+        "option4": "Sulphur dioxide and nitrous oxide",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Sulphur dioxide and nitrous oxide are the main contributors to acid rain."
+    },
+    {
+        "question": "Glass containers are generally not preferred for sampling rain water. Why?",
+        "option1": "Glass containers are expensive",
+        "option2": "Glass containers are not easy to maintain",
+        "option3": "Glass containers affect the pH of the rain water",
+        "option4": "All of the mentioned",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Glass containers can alter the pH of rainwater, making them unsuitable for sampling."
+    },
+    {
+        "question": "Who discovered the phenomenon of acid rain?",
+        "option1": "George Brown",
+        "option2": "James T. Stewart",
+        "option3": "Robert Angus Smith",
+        "option4": "Charles David",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The phenomenon of acid rain was discovered by Robert Angus Smith."
+    },
+    {
+        "question": "What is the pH required for the survival of aquatic animals and plants?",
+        "option1": "7",
+        "option2": "7.5",
+        "option3": "6.5",
+        "option4": "4.8",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Aquatic animals and plants generally require a pH of around 4.8 for survival."
+    },
+    {
+        "question": "Which of the following gases is responsible for the yellowing of the Taj Mahal?",
+        "option1": "Organic carbon",
+        "option2": "Black carbon",
+        "option3": "Brown carbon",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Organic carbon, black carbon, and brown carbon all contribute to the yellowing of the Taj Mahal."
+    },
+    {
+        "question": "Energy resources derived from natural organic materials are called?",
+        "option1": "Geothermal energy sources",
+        "option2": "Fossil fuels",
+        "option3": "Biomass",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Energy resources derived from natural organic materials are called natural resources."
+    },
+    {
+        "question": "Transfer of energy from source of plants through a series of organisms is known as?",
+        "option1": "Food web",
+        "option2": "Energy cycle",
+        "option3": "Food chain",
+        "option4": "Biological system",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Transfer of energy from source of plants through a series of organisms is known as Biological system."
+    },
+    {
+        "question": "Which of the following is a disadvantage of renewable energy?",
+        "option1": "High pollution",
+        "option2": "Available only in few places",
+        "option3": "High running cost",
+        "option4": "Unreliable",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Renewable energy often relies on the weather for its sources of power. Hydro generators need rain to fill dams and thereby provide electricity. Wind turbines need wind to turn the blades. Solar collectors need clear skies and sunshine."
+    },
+    {
+        "question": "A Solar cell is an electrical device that converts the energy of light directly into electricity by the?",
+        "option1": "Photovoltaic effect",
+        "option2": "Chemical effect",
+        "option3": "Atmospheric effect",
+        "option4": "Physical effect",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The photovoltaic effect was first discovered in 1839 by Edmond Becquerel. The photovoltaic effect is a process that generates voltage or electric current in a photovoltaic cell when it is exposed to sunlight."
+    },
+    {
+        "question": "In hydroelectric power, what is necessary for the production of power throughout the year?",
+        "option1": "Dams filled with water",
+        "option2": "High amount of air",
+        "option3": "High intense sunlight",
+        "option4": "Nuclear power",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Dams are used for power generation. The reservoir water is stored at a higher level than the turbines, which are housed in a power station. The dam feeds water directly to the turbines in the power station."
+    },
+    {
+        "question": "The main composition of biogas is?",
+        "option1": "Methane",
+        "option2": "Carbon dioxide",
+        "option3": "Nitrogen",
+        "option4": "Hydrogen",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Biogas is one of the types of biofuel that is produced from the decomposition of organic waste. Biogas is known as an environmentally-friendly energy source since it converts organic waste into energy. The composition of biogas is as follows: Methane 50-75%, Carbon dioxide 25-50%, Nitrogen 0-10%, Hydrogen 0-1%."
+    },
+    {
+        "question": "Which Ministry is mainly responsible for research and development in renewable energy sources such as wind power, small hydro, biogas, and solar power?",
+        "option1": "Human Resource Development",
+        "option2": "Agriculture and Farmers Welfare",
+        "option3": "Ministry of New and Renewable Energy",
+        "option4": "Health and Family Welfare",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The Ministry of New and Renewable Energy is a ministry of the Government of India. The ministry is working to develop renewable energy for supplementing the energy requirements of India. It is headquartered in Lodhi Road, New Delhi."
+    },
+    {
+        "question": "Which among the following has a large amount of installed grid interactive renewable power capacity in India?",
+        "option1": "Wind power",
+        "option2": "Solar power",
+        "option3": "Biomass power",
+        "option4": "Small Hydro power",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Wind power, having a capacity of 29,000 MW, holds 56.80%. Solar power, with a capacity of 9,500 MW, holds 18.5%. Biomass power, with a capacity of 8,200 MW, holds 16%. Small Hydro power, with a capacity of 4,400 MW, holds 8.5%."
+    },
+    {
+        "question": "The world's first 100% solar powered airport is located at?",
+        "option1": "Cochin, Kerala",
+        "option2": "Bengaluru, Karnataka",
+        "option3": "Chennai, Tamil Nadu",
+        "option4": "Mumbai, Maharashtra",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Cochin International Airport, the fourth-largest airport in India in terms of international traffic, now runs entirely on solar power. Cochin International Airport became the world's first fully solar powered airport on 18 August 2015."
+    },
+    {
+        "question": "Which of the following is not under the Ministry of New and Renewable Energy?",
+        "option1": "Wind energy",
+        "option2": "Solar energy",
+        "option3": "Tidal energy",
+        "option4": "Large hydro",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "According to a recent survey, large hydro installed capacity was 44.41 GW. The large hydro is administered separately by the Ministry of Power and is not included in the Ministry of New and Renewable Energy."
+    },
+    {
+        "question": "Where is the largest Wind Farm located in India?",
+        "option1": "Jaisalmer Wind Park, Rajasthan",
+        "option2": "Muppandal Wind Farm, Tamil Nadu",
+        "option3": "Vaspet Wind Farm, Maharashtra",
+        "option4": "Chakala Wind Farm, Maharashtra",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Muppandal Wind Farm produces 1500 MW of current capacity. Muppandal Wind Farm is the second largest onshore wind farm in the world. This Wind Farm supplies power to many regions in Tamil Nadu."
+    },
+    {
+        "question": "Which Indian enterprise has the motto “ENERGY FOREVER”?",
+        "option1": "Indian Renewable Energy Development Agency",
+        "option2": "Indian Non-Renewable Energy Development",
+        "option3": "Indian Agricultural Development",
+        "option4": "Indian Biotechnology Development",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Indian Renewable Energy Development Agency established in 1987 as a Non-Banking Financial Institution. It is engaged in promoting, developing, and extending financial assistance for setting up projects relating to new and renewable sources of energy."
+    },
+    {
+        "question": "The primary composition of coal is?",
+        "option1": "Nitrogen",
+        "option2": "Carbon",
+        "option3": "Oxygen",
+        "option4": "Hydrogen",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Coal is a naturally found fossil fuel formed by the anaerobic decay of plant life taking place over millions of years. It is extracted from the underground by coal mining. The primary composition of coal is carbon, while nitrogen, oxygen, and hydrogen come under secondary composition."
+    },
+    {
+        "question": "Which Ministry is mainly responsible for refining, distribution, import, and export of petroleum products and natural gas in India?",
+        "option1": "Ministry of Petroleum and Natural Gas",
+        "option2": "Ministry of Fossil Fuel",
+        "option3": "Ministry of Non-Renewable Energy",
+        "option4": "Ministry of Oil",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The Ministry of Petroleum and Natural Gas is a ministry of the Government of India. The ministry is working to develop the exploration and exploitation of petroleum resources for supplementing the energy requirements of India. The ministry is currently headed by Cabinet Minister Dharmendra Pradhan (2014-Incumbent)."
+    },
+    {
+        "question": "Where was the first oil well drilled in Asia?",
+        "option1": "Karachi, Pakistan",
+        "option2": "Assam, India",
+        "option3": "Tokyo, Japan",
+        "option4": "Kandy, Sri Lanka",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Oil deposits were first discovered in Assam-Arrakan Basin at Digboi in 1889. In 1901, Asia's first oil refinery was set up at Digboi in Assam. Digboi is the oldest oil well operating in India. The Assam Oil Company was formed in 1899 to look after the oil business in this area."
+    },
+    {
+        "question": "The most abundantly available fossil fuel in India is?",
+        "option1": "Coal",
+        "option2": "Natural Gas",
+        "option3": "Petroleum",
+        "option4": "Oil",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Coal is the most abundantly available fossil fuel in India. There are different forms of coal available: Peat (produced by the decaying of plants in swamps), Bituminous (derived from bitumen), Lignite (used to produce electricity), and Anthracite (with more than 90% carbon content per kg, and the best quality coal)."
+    },
+    {
+        "question": "What is Palar Pani?",
+        "option1": "Spring",
+        "option2": "Milk",
+        "option3": "River water",
+        "option4": "Rain water",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Palar Pani is the commonly used name for rain water. This term is mainly used in Rajasthan. In Rajasthan, Palar Pani means “Meetha Pani” which is mainly stored and used for household work like drinking and other purposes."
+    },
+    {
+        "question": "Which of the following is the major source of fresh water available in India?",
+        "option1": "Ocean water",
+        "option2": "River water",
+        "option3": "Pond water",
+        "option4": "Ground water",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Ground water is the major source of fresh water in India. Ground water is not easily visible or accessible. It plays an important role in the water cycle and is a primary source for human consumption."
+    },
+    {
+        "question": "At what time is rainfall usually recorded in India?",
+        "option1": "4 P.M.",
+        "option2": "6 P.M.",
+        "option3": "8 P.M.",
+        "option4": "10 P.M.",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The amount of rainfall is recorded using a rain gauge. In India, rainfall is typically recorded at 8 A.M. The total of all measurements during the previous 24 hours is registered at this time."
+    },
+    {
+        "question": "The total surface of water on the Earth's surface is?",
+        "option1": "65%",
+        "option2": "69%",
+        "option3": "71%",
+        "option4": "75%",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The total surface of water on the Earth's surface is 71%, while the remaining 29% consists of continents and islands. The oceans hold about 96.5% of all Earth's water, and the remaining 3.5% is stored in other water bodies."
+    },
+    {
+        "question": "Which planet is also known as the blue planet?",
+        "option1": "Mercury",
+        "option2": "Venus",
+        "option3": "Earth",
+        "option4": "Mars",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "About 71% of Earth's surface is covered in water, which appears blue from space. Earth is known as the blue planet because of its blue visibility when seen from outer space."
+    },
+    {
+        "question": "Ground water is accessed by?",
+        "option1": "Drilling wells",
+        "option2": "Drip irrigation",
+        "option3": "Check bunds",
+        "option4": "Constructing canals",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Ground water is commonly accessed through a bore or well. A well is a vertical shaft dug into the ground."
+    },
+    {
+        "question": "Which Indian state is the largest producer of gold?",
+        "option1": "Karnataka",
+        "option2": "Kerala",
+        "option3": "Assam",
+        "option4": "Goa",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Karnataka is the largest producer of gold in India, with significant gold mines in Hutti and Raichur."
+    },
+    {
+        "question": "For the policy level guidelines for the mineral sector, which policy is formed?",
+        "option1": "National Resources Policy",
+        "option2": "National Mineral Policy",
+        "option3": "National Regulation Policy",
+        "option4": "National Legislation Policy",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The National Mineral Policy was introduced in 1993 to liberalize the mining sector and encourage private investment."
+    },
+    {
+        "question": "Which state in India is the largest producer of diamond ores?",
+        "option1": "Karnataka",
+        "option2": "West Bengal",
+        "option3": "Rajasthan",
+        "option4": "Madhya Pradesh",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Madhya Pradesh is the only state in India that produces diamonds, with the Bunder project being the largest diamond project."
+    },
+    {
+        "question": "The copper production in India compared to the world's production is about?",
+        "option1": "1%",
+        "option2": "2%",
+        "option3": "0.5%",
+        "option4": "0.2%",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "India's copper production is about 0.2% of the world's total, though refined copper production is about 4%."
+    },
+    {
+        "question": "India's position in terms of aluminium production is?",
+        "option1": "4th",
+        "option2": "3rd",
+        "option3": "2nd",
+        "option4": "1st",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "India ranks 4th in aluminium production globally."
+    },
+    {
+        "question": "Kudremukh Hills, known for iron ore deposits, is situated in?",
+        "option1": "Kerala",
+        "option2": "Karnataka",
+        "option3": "Goa",
+        "option4": "Tamil Nadu",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Kudremukh is an iron ore mining town located in Karnataka."
+    },
+    {
+        "question": "A continuous area of land surrounded by ocean is called?",
+        "option1": "Seashore",
+        "option2": "Beach",
+        "option3": "Landmass",
+        "option4": "Wetland",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "A continuous area of land surrounded by oceans is called a landmass."
+    },
+    {
+        "question": "How many major continuous landmasses are there?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "There are four major continuous landmasses on Earth: Afro-Eurasia, the Americas, Antarctica, and Australia."
+    },
+    {
+        "question": "Land capable of being ploughed and used to grow crops is called?",
+        "option1": "Domestic land",
+        "option2": "Arable land",
+        "option3": "Unarable land",
+        "option4": "Dry land",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Arable land is land that can be used for growing crops."
+    },
+    {
+        "question": "Out of the total land area, how many million hectares of land suffer from degradation?",
+        "option1": "150",
+        "option2": "175",
+        "option3": "200",
+        "option4": "225",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "175 million hectares of land area suffer from degradation, mainly due to soil erosion, water logging, and salinity."
+    },
+    {
+        "question": "Wearing away of a field's topsoil by the natural physical forces of water and wind is known as?",
+        "option1": "Wind erosion",
+        "option2": "Soil erosion",
+        "option3": "Water erosion",
+        "option4": "Sand erosion",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Soil erosion refers to the wearing away of topsoil by natural forces such as wind and water."
+    },
+    {
+        "question": "Estimate of the ability of soils to resist erosion, based on the physical characteristics of each soil is known as?",
+        "option1": "Soil erodibility",
+        "option2": "Soil erosion",
+        "option3": "Soil potentiality",
+        "option4": "Soil neutrality",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Soil erodibility refers to the ability of soil to resist erosion based on its physical characteristics."
+    },
+    {
+        "question": "A low-lying tract of land enclosed by dikes that forms an artificial hydrological entity is known as?",
+        "option1": "Polder",
+        "option2": "Resign",
+        "option3": "Derelict",
+        "option4": "Catchment",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "A polder is a low-lying tract of land enclosed by dikes to form an artificial hydrological entity."
+    },
+    {
+        "question": "Hydroponics is a technique of growing crops without?",
+        "option1": "Water",
+        "option2": "Air",
+        "option3": "Soil",
+        "option4": "Sunlight",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Hydroponics is the technique of growing plants in a soil-less medium, using mineral nutrient solutions."
+    },
+    {
+        "question": "The thin layer of grainy substance covering the surface of the earth is called?",
+        "option1": "Mineral",
+        "option2": "Soil",
+        "option3": "Sand",
+        "option4": "Chemical fertilizers",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Soil is the layer covering the Earth's surface, composed of organic and inorganic material."
+    },
+    {
+        "question": "The process of conversion of productive land to arid or semi-arid lands is known as?",
+        "option1": "Deforestation",
+        "option2": "Deformation",
+        "option3": "Landform",
+        "option4": "Desertification",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Desertification is the process by which productive land becomes arid or semi-arid."
+    },
+    {
+        "question": "In which forest do we see deforestation to a large extent?",
+        "option1": "Atlantic forest",
+        "option2": "Amazon forest",
+        "option3": "Borneo forest",
+        "option4": "Sumatra forest",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The Amazon forest experiences significant deforestation, making it the region with the highest projected loss."
+    },
+    {
+        "question": "The biggest driver of deforestation is?",
+        "option1": "Agriculture",
+        "option2": "Forest fire",
+        "option3": "Volcanic activities",
+        "option4": "Soil erosion",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Agriculture is the largest driver of deforestation due to clearing forests for crop planting and livestock grazing."
+    },
+    {
+        "question": "Identify the uses of water?",
+        "option1": "Domestic",
+        "option2": "Industrial",
+        "option3": "Agricultural",
+        "option4": "All the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Water is used for domestic, industrial, and agricultural purposes."
+    },
+    {
+        "question": "Write an example of non-metallic minerals?",
+        "option1": "Lime",
+        "option2": "Haematite",
+        "option3": "Cuprite",
+        "option4": "Bauxite",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Lime is an example of a non-metallic mineral."
+    },
+    {
+        "question": "Resources that can be replenished naturally in the course of time are called?",
+        "option1": "Cyclic resources",
+        "option2": "Renewable Resources",
+        "option3": "Non-renewable Resources",
+        "option4": "None",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Renewable resources are those that can be replenished naturally over time."
+    },
+    {
+        "question": "Solar energy is a form of energy?",
+        "option1": "Conventional",
+        "option2": "Non-conventional",
+        "option3": "Both a and b",
+        "option4": "None",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Solar energy is classified as a non-conventional source of energy."
+    },
+    {
+        "question": "The productive functions of forests include the availability of?",
+        "option1": "Timber",
+        "option2": "Bamboo",
+        "option3": "Medicines",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Forests provide various productive functions, including timber, bamboo, and medicines."
+    },
+    {
+        "question": "Nuclear fission, nuclear decay, and nuclear fusion are?",
+        "option1": "General processes",
+        "option2": "Special processes",
+        "option3": "Nuclear processes",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Nuclear fission, nuclear decay, and nuclear fusion are types of nuclear processes."
+    },
+    {
+        "question": "Minerals such as Gasoline, Copper, and Zinc production are estimated to decline in the next?",
+        "option1": "5 years",
+        "option2": "10 years",
+        "option3": "15 years",
+        "option4": "20 years",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The production of minerals like gasoline, copper, and zinc is expected to decline over the next 20 years."
+    },
+    {
+        "question": "About % of the Earth's water is strong saline?",
+        "option1": "50",
+        "option2": "25",
+        "option3": "97",
+        "option4": "100",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Approximately 97% of the Earth's water is saline, found in oceans and seas."
+    },
+    {
+        "question": "Private companies misuse?",
+        "option1": "Natural resources",
+        "option2": "Money",
+        "option3": "Manpower",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Private companies are known to misuse natural resources for profit."
+    },
+    {
+        "question": "In 2018, the total world energy came from % fossil fuels?",
+        "option1": "64%",
+        "option2": "60%",
+        "option3": "74%",
+        "option4": "70%",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "In 2018, fossil fuels accounted for 64% of the total world energy consumption."
+    },
+    {
+        "question": "Deregulation and privatization of the energy sector is a strategy for sustainability?",
+        "option1": "Medium-term strategy",
+        "option2": "Long-term strategy",
+        "option3": "Immediate term strategy",
+        "option4": "None",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Deregulation and privatization are strategies aimed at long-term sustainability by improving efficiency and promoting competition."
+    },
+    {
+        "question": "Dams constructed across rivers are used for generating?",
+        "option1": "Thermal power",
+        "option2": "Wind power",
+        "option3": "Tidal power",
+        "option4": "Hydro electricity",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Dams generate hydroelectric power by harnessing the energy of flowing water."
+    },
+    {
+        "question": "Which one among the following covers the highest percentage of forest area in the world?",
+        "option1": "Temperate Coniferous forests",
+        "option2": "Temperate Deciduous forest",
+        "option3": "Tropical Monsoon forests",
+        "option4": "Tropical Rain forests",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Temperate Coniferous forests cover a significant portion of the world's forested areas."
+    },
+    {
+        "question": "Plants get their nitrogen from?",
+        "option1": "Rain",
+        "option2": "Soil",
+        "option3": "Air",
+        "option4": "Bed",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Plants obtain nitrogen primarily from the soil, where it is available in various forms."
+    },
+    {
+        "question": "Forest is responsible for?",
+        "option1": "Watershed protection",
+        "option2": "Land erosion control",
+        "option3": "Providing economic and environmental benefits",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Forests provide a wide range of benefits including watershed protection, erosion control, and various economic and environmental advantages."
+    },
+    {
+        "question": "--- is the perpetual source of energy.",
+        "option1": "Nuclear reactor",
+        "option2": "Hydro power",
+        "option3": "Solar energy",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Solar energy is considered a perpetual source as it is constantly available and not depleted by use."
+    },
+    {
+        "question": "Which of the following is not a renewable resource?",
+        "option1": "Coal",
+        "option2": "Wind power",
+        "option3": "Geothermal energy",
+        "option4": "Thermal energy",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Coal is a non-renewable resource as it takes millions of years to form and cannot be replenished quickly."
+    },
+    {
+        "question": "The main causes of deforestation are?",
+        "option1": "Overgrazing",
+        "option2": "Agriculture, industry, and other developmental projects",
+        "option3": "Timber extraction",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Deforestation is caused by various factors including overgrazing, agricultural expansion, industrial activities, and timber extraction."
+    },
+    {
+        "question": "Waterlogging and soil salinity are outcomes of?",
+        "option1": "Over-irrigation",
+        "option2": "Mining",
+        "option3": "Soil erosion",
+        "option4": "Acid rain",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Over-irrigation can lead to waterlogging and soil salinity by causing the accumulation of water and salts in the soil."
+    },
+    {
+        "question": "Wind energy is harnessed as __________ energy with the help of windmills.",
+        "option1": "Mechanical",
+        "option2": "Solar",
+        "option3": "Electrical",
+        "option4": "Heat",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Wind energy is primarily harnessed as mechanical energy which can then be converted into electrical energy."
+    },
+    {
+        "question": "Any material that can be transformed into a more valuable and useful product for all services is called?",
+        "option1": "Resource",
+        "option2": "Minerals",
+        "option3": "Product",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "A resource is any material that can be transformed into valuable products or services."
+    },
+    {
+        "question": "Burning of fossil fuels?",
+        "option1": "Decreases greenhouse gases",
+        "option2": "Increases greenhouse gases",
+        "option3": "Increases level of oxygen",
+        "option4": "Increases level of ethane",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Burning fossil fuels increases the concentration of greenhouse gases in the atmosphere, contributing to global warming."
+    },
+    {
+        "question": "All forms of water that come down on Earth, including rain, snow, hail, etc., is called?",
+        "option1": "Precipitation",
+        "option2": "Calcification",
+        "option3": "Fixation",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Precipitation refers to any form of water that falls from the atmosphere to the Earth's surface."
+    },
+    {
+        "question": "When water is ejected from Earth's interior in the form of hot water, it is called?",
+        "option1": "Geyser",
+        "option2": "Hot springs",
+        "option3": "Both (a) and (b)",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Hot springs are naturally occurring hot groundwater sources, as opposed to geysers which periodically erupt."
+    },
+    {
+        "question": "Green Revolution is associated with?",
+        "option1": "Sericulture",
+        "option2": "Agriculture",
+        "option3": "Fish culture",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The Green Revolution refers to the significant increase in agricultural production due to improved practices and technology."
+    },
+    {
+        "question": "Which gas is likely to be reduced in the atmosphere by deforestation?",
+        "option1": "Carbon dioxide",
+        "option2": "Nitrogen",
+        "option3": "Oxygen",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Deforestation leads to a reduction in atmospheric oxygen because trees and plants that produce oxygen are removed."
+    },
+    {
+        "question": "Which of the following enhances soil fertility?",
+        "option1": "Improved methods of agriculture",
+        "option2": "Crop rotation",
+        "option3": "Using new seed varieties",
+        "option4": "Irrigation",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Crop rotation helps in maintaining and enhancing soil fertility by varying the crops grown and preventing soil depletion."
+    },
+    {
+        "question": "Forest is an example of?",
+        "option1": "Marine ecosystem",
+        "option2": "Limnic ecosystem",
+        "option3": "Artificial Ecosystem",
+        "option4": "Terrestrial Ecosystem",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "A forest is an example of a terrestrial ecosystem as it consists of land-based biotic communities."
+    },
+    {
+        "question": "The resources that can be replaced by the natural ecological cycle are called?",
+        "option1": "Renewable",
+        "option2": "Non-renewable",
+        "option3": "Exhaustible",
+        "option4": "Natural",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Renewable resources are those that can be replenished naturally through ecological processes."
+    },
+    {
+        "question": "The amount of oil that may become available for use is called oil?",
+        "option1": "Reserves",
+        "option2": "Reservoir",
+        "option3": "Resources",
+        "option4": "Trap",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Oil resources refer to the total amount of oil that could potentially be extracted and used."
+    },
+    {
+        "question": "A coal deposit that is not economical to mine today would be considered part of our?",
+        "option1": "Coal reserves",
+        "option2": "Coal resources",
+        "option3": "Coal reservoir",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Coal resources include deposits that are not currently economical to mine but may become so in the future."
+    },
+    {
+        "question": "What is the leading source of energy used in the United States today?",
+        "option1": "Coal",
+        "option2": "Oil resources",
+        "option3": "Natural gas",
+        "option4": "Nuclear power",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "As of recent data, oil resources remain the leading source of energy used in the United States."
+    },
+    {
+        "question": "Energy resources derived from natural organic materials are called?",
+        "option1": "Geothermal energy sources",
+        "option2": "Fossil fuels",
+        "option3": "Biomass",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Fossil fuels are derived from natural organic materials that have been transformed over millions of years."
+    },
+    {
+        "question": "All oil traps contain?",
+        "option1": "An impermeable layer",
+        "option2": "An anticline",
+        "option3": "Fault",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Oil traps typically contain an impermeable layer that prevents the oil from escaping."
+    },
+    {
+        "question": "The world has the least amount of which of the following fuel types?",
+        "option1": "Oil",
+        "option2": "Coal",
+        "option3": "Uranium",
+        "option4": "There are roughly equal amounts of each of these fuels",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Oil reserves are relatively lower compared to coal and uranium."
+    },
+    {
+        "question": "Burning of which of the following fuels produces the least amount of carbon dioxide per unit of energy?",
+        "option1": "Coal",
+        "option2": "Oil",
+        "option3": "Natural gas",
+        "option4": "All of these produce the same amount of carbon dioxide.",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Natural gas produces the least amount of carbon dioxide per unit of energy compared to coal and oil."
+    },
+    {
+        "question": "Nuclear energy is derived by?",
+        "option1": "Combustion of atoms of U-235",
+        "option2": "Fission of atoms of U-235",
+        "option3": "Fusion of atoms of U-235",
+        "option4": "The breaking of U-235 bonds",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Nuclear energy is primarily derived from the fission of uranium-235 atoms."
+    },
+    {
+        "question": "Solar energy stored in materials such as wood, grain, sugar, and municipal waste is called?",
+        "option1": "Fossil fuels",
+        "option2": "Biomass",
+        "option3": "Geothermal energy",
+        "option4": "Natural gas",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Biomass refers to organic materials that store solar energy and can be used as fuel."
+    },
+    {
+        "question": "The most nuclear fuel used in the world is?",
+        "option1": "Thorium-232",
+        "option2": "Uranium-238",
+        "option3": "Uranium-235",
+        "option4": "Plutonium-239",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Uranium-235 is the most commonly used nuclear fuel due to its suitability for fission reactions."
+    },
+    {
+        "question": "What type of energy is derived from heated groundwater?",
+        "option1": "Solar",
+        "option2": "Geothermal",
+        "option3": "Hydro electrical",
+        "option4": "Nuclear",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Geothermal energy is obtained from the heat stored in the Earth's interior, including heated groundwater."
+    },
+    {
+        "question": "The world faces an energy crisis because?",
+        "option1": "World demand for energy will increase",
+        "option2": "World oil production will peak and begin to decline",
+        "option3": "Shortages and the resulting escalation of prices can shock the economic and political order",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The energy crisis is driven by increasing demand, declining oil production, and potential economic and political impacts."
+    },
+    {
+        "question": "Fossil fuels are rich in carbon and?",
+        "option1": "Nitrogen",
+        "option2": "Hydrogen",
+        "option3": "Oxygen",
+        "option4": "Nitrite",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Fossil fuels contain a high amount of carbon and hydrogen, which are the primary elements in their chemical composition."
+    },
+    {
+        "question": "Wind is a beneficial resource of energy as it doesn't cause?",
+        "option1": "Pollution",
+        "option2": "Echo",
+        "option3": "Noise",
+        "option4": "Sound",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Wind energy is advantageous because it does not produce air pollution."
+    },
+    {
+        "question": "Fossil fuel is an important source of energy for?",
+        "option1": "Transport",
+        "option2": "Homes",
+        "option3": "Industries",
+        "option4": "All of them",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Fossil fuels are widely used for transport, home heating, and industrial processes."
+    },
+    {
+        "question": "Energy is released from fossil fuels when they are?",
+        "option1": "Pumped",
+        "option2": "Cooled",
+        "option3": "Burnt",
+        "option4": "Pressurized",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Fossil fuels release energy when they are burned through combustion."
+    },
+    {
+        "question": "Black painted panels which are hanged at roofs to trap heat and energy from the sun are?",
+        "option1": "Solar cell",
+        "option2": "Solar heater",
+        "option3": "Solar furnace",
+        "option4": "Solar battery",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Solar heaters are used to capture and utilize solar energy for heating purposes."
+    },
+    {
+        "question": "As per Energy Outlook 2019, world energy consumption will grow by nearly between 2018 to 2050.",
+        "option1": "50%",
+        "option2": "60%",
+        "option3": "70%",
+        "option4": "80%",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "World energy consumption is projected to grow by approximately 50% from 2018 to 2050."
+    },
+    {
+        "question": "What are necessary conditions for socio-economic change for a sustainable world?",
+        "option1": "Satisfaction of basic needs",
+        "option2": "Economic viability",
+        "option3": "Harmony with environment",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "A sustainable world requires meeting basic needs, economic viability, and environmental harmony."
+    },
+    {
+        "question": "A tidal barrage is a barrier built over a?",
+        "option1": "River bed",
+        "option2": "River estuary",
+        "option3": "River end",
+        "option4": "River starting",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "A tidal barrage is constructed across a river estuary to harness tidal energy."
+    },
+    {
+        "question": "The blades in wind turbines are connected to?",
+        "option1": "Nacelle",
+        "option2": "Tower",
+        "option3": "Foundation",
+        "option4": "String",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The nacelle is the housing on top of the tower that contains the machinery for converting wind energy."
+    },
+    {
+        "question": "In order to produce solar energy during sunlight, where is the energy stored in the batteries?",
+        "option1": "Nickel Sulfur",
+        "option2": "Zinc Cadmium",
+        "option3": "Nickel Cadmium",
+        "option4": "Nickel Cadmium",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Solar energy is stored in batteries using Nickel Cadmium cells."
+    },
+    {
+        "question": "Trapped heat inside the Earth is known as?",
+        "option1": "Heat energy",
+        "option2": "Geothermal energy",
+        "option3": "Kinetic energy",
+        "option4": "Thermal energy",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The heat stored inside the Earth is referred to as geothermal energy."
+    },
+    {
+        "question": "SI unit for energy is?",
+        "option1": "Joule",
+        "option2": "Watt",
+        "option3": "Kilogram",
+        "option4": "Newton",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The SI unit for measuring energy is the Joule."
+    },
+    {
+        "question": "Common energy source in Indian villages is?",
+        "option1": "Electricity",
+        "option2": "Coal",
+        "option3": "Sun",
+        "option4": "Wood and animal dung",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "In many Indian villages, wood and animal dung are common sources of energy."
+    },
+    {
+        "question": "Photovoltaic cell converts solar energy into?",
+        "option1": "Heat energy",
+        "option2": "Mechanical energy",
+        "option3": "Electrical energy",
+        "option4": "Chemical energy",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Photovoltaic cells convert solar energy directly into electrical energy."
+    },
+    {
+        "question": "Biomass can be converted to?",
+        "option1": "Methane gas",
+        "option2": "Ethanol",
+        "option3": "Biodiesel",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Biomass can be processed into various forms of energy such as methane gas, ethanol, and biodiesel."
+    },
+    {
+        "question": "In which of the following regions are winds stronger and constant?",
+        "option1": "Deserts",
+        "option2": "Offshore",
+        "option3": "Low altitude sites",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Offshore areas often experience stronger and more constant winds compared to other regions."
+    },
+    {
+        "question": "Which of the following is a disadvantage of renewable energy?",
+        "option1": "High pollution",
+        "option2": "Available only in few places",
+        "option3": "High running cost",
+        "option4": "Unreliable supply",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "A common disadvantage of renewable energy is that its supply can be unreliable due to factors like weather conditions."
+    },
+    {
+        "question": "In hydroelectric power, what is necessary for the production of power throughout the year?",
+        "option1": "Dams filled with water",
+        "option2": "High amount of air",
+        "option3": "High intense sunlight",
+        "option4": "Nuclear power",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Hydroelectric power production requires dams that can store sufficient water to generate electricity throughout the year."
+    },
+    {
+        "question": "Which Ministry is mainly responsible for research and development in renewable energy sources such as wind?",
+        "option1": "Human Resource Development",
+        "option2": "Agriculture and Farmers Welfare",
+        "option3": "Ministry of New and Renewable Energy",
+        "option4": "Health and Family Welfare",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The Ministry of New and Renewable Energy is responsible for overseeing research and development in renewable energy sources in India."
+    },
+    {
+        "question": "Which one of the following is not a gaseous biogeochemical cycle in an ecosystem?",
+        "option1": "Carbon cycle",
+        "option2": "Phosphorous cycle",
+        "option3": "Sulfur cycle",
+        "option4": "Nitrogen cycle",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Phosphorous cycle is not a gaseous biogeochemical cycle in an ecosystem. It is also a biogeochemical cycle, but here atmosphere does not play a significant role in the movement of the phosphorous cycle."
+    },
+    {
+        "question": "Transfer of energy from the source of plants through a series of organisms is known as?",
+        "option1": "Food web",
+        "option2": "Energy cycle",
+        "option3": "Food chain",
+        "option4": "Biological system",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Food chain is a pathway that represents the exchange of energy from one organism to another. Energy is transmitted all the way from the Sun to other organisms by passing from producers to the consumers."
+    },
+    {
+        "question": "The type of ecosystem with the highest mean plant productivity is?",
+        "option1": "Tundra",
+        "option2": "Temperate grassland",
+        "option3": "Desert",
+        "option4": "Tropical rain forest",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "A Tropical rain forest has more kinds of trees than any other area in the world. Seventy percent of the plants in the rainforest are trees. There are many distinct layers of trees. These layers have been identified as the emergent upper, canopy, understory, and forest floor."
+    },
+    {
+        "question": "An ecosystem which can be easily damaged but can recover after some time if the damaging effect stops will have?",
+        "option1": "High stability and high resilience",
+        "option2": "High stability and low resilience",
+        "option3": "Low stability and low resilience",
+        "option4": "Low stability and high resilience",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "In any ecosystem, the condition of low stability and high resilience makes it damage easily, and after a certain amount of time, they recover from damaging effects. Hence both stability and resilience play an important role in ecosystems."
+    },
+    {
+        "question": "In an ecosystem, standing crop refers to?",
+        "option1": "All the green plants",
+        "option2": "All the non-living materials",
+        "option3": "All living and dead animals",
+        "option4": "All the living materials, both animals and plants",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Standing crop is the amount of total biomass present in an ecosystem. This is the amount of total living matter. There is no circulation in standing crop. In standing crop, continuous synthesis and consumption of biomass are going on."
+    },
+    {
+        "question": "Which ecosystem produces the highest annual net primary productivity?",
+        "option1": "Tropical evergreen forest",
+        "option2": "Tropical rain forest",
+        "option3": "Tropical deciduous forest",
+        "option4": "Temperate evergreen forest",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Tropical rain forest produces a mean NPP of 2200(g/m2/yr); the world NPP is 37.4(109 tons/yr). Tropical rain forest produces a mean biomass of 45(Kg/m2) and the world biomass is 763(109 tons). Hence tropical rain forest ecosystem produces the highest annual net primary productivity (NPP)."
+    },
+    {
+        "question": "What flows through the ecosystem while matter cycles within them?",
+        "option1": "Energy",
+        "option2": "Force",
+        "option3": "Pressure",
+        "option4": "Wind",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Ecosystems maintain themselves by cycling energy and nutrients obtained from external sources. At the first trophic level, primary producers use solar energy to produce organic plant material through photosynthesis."
+    },
+    {
+        "question": "Total primary production in an ecosystem is known as?",
+        "option1": "Gross final production",
+        "option2": "Gross primary production",
+        "option3": "Gross middle production",
+        "option4": "Net primary production",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The total amount of productivity in a region is gross primary productivity. Primary productivity is the rate at which energy is converted by photosynthetic and chemosynthetic autotrophs to organic substances."
+    },
+    {
+        "question": "Which type of ecosystem accounts for most of the net primary productivity on earth even though it has a low average net primary productivity?",
+        "option1": "Tropical rain forest",
+        "option2": "Desert",
+        "option3": "Tropical evergreen forest",
+        "option4": "Oceans",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The open oceans account for most of the net primary productivity on the planet even though they have one of the lowest average net primary productivities, as they cover by far the most area on earth."
+    },
+    {
+        "question": "Generally, an ecosystem consists of how many basic components?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Generally, ecosystems consist of two basic components, they are abiotic and biotic components. Abiotic components include basic inorganic and organic compounds. Biotic components include producers, consumers, and decomposers."
+    },
+    {
+        "question": "The three functional components interact with each other to form?",
+        "option1": "Environmental succession",
+        "option2": "Environmental depression",
+        "option3": "Environmental system",
+        "option4": "Ecology",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The three functional components of an ecosystem, which are inorganic constituents, organisms, and energy input, form the environmental system. An ecosystem is a functional and life-sustaining environmental system."
+    },
+    {
+        "question": "The dominant second trophic level in a lake ecosystem is?",
+        "option1": "Phytoplankton",
+        "option2": "Zooplankton",
+        "option3": "Plankton",
+        "option4": "Benthos",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Lake ecosystems include both biotic and abiotic components. Zooplanktons are organisms that have animal-like traits. Most of them are heterotrophs in nature. Zooplankton is a vital component of freshwater food webs."
+    },
+    {
+        "question": "Consumers for food that feeds on producers are known as?",
+        "option1": "Carnivores",
+        "option2": "Consumers",
+        "option3": "Herbivores",
+        "option4": "Producers",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Animals that eat only plants are called herbivores. Plants are called producers because they are able to use light energy from the sun to produce food from carbon dioxide and water. Herbivores are also known as primary consumers."
+    },
+    {
+        "question": "The food chain from grass to hawk and again it comes back to grass with the help of fungi. In the above explained food chain, what is grass?",
+        "option1": "Producers",
+        "option2": "Consumers",
+        "option3": "Decomposers",
+        "option4": "Energy source",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Green is a producer. It is a self-sustaining organism that obtains its energy directly from the sun. In the process, grass introduces few new organic substances into the food chain and plays a key role for consumers."
+    },
+    {
+        "question": "The process in which green plants and a few organisms use sunlight to synthesize nutrients is known as?",
+        "option1": "Chemosynthesis",
+        "option2": "Photosynthesis",
+        "option3": "Food chain",
+        "option4": "Food web",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Photoautotrophs are the organisms involved in photosynthesis. They use energy from the sun to convert water from the soil and carbon dioxide from the air into glucose. Glucose provides energy to plants and is used to make cellulose, which is used to build cell walls."
+    },
+    {
+        "question": "The process of making food by certain microbes creating energy by some chemical reactions is known as?",
+        "option1": "Photosynthesis",
+        "option2": "Food chain",
+        "option3": "Chemosynthesis",
+        "option4": "Hetrosynthesis",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Chemoautotrophs are organisms that produce chemosynthesis. They use energy from chemical reactions to make food. The chemical reactions are usually between methane and oxygen. Carbon dioxide is the main source of carbon for chemoautotrophs."
+    },
+    {
+        "question": "The food chain level in autotrophs is?",
+        "option1": "Primary",
+        "option2": "Secondary",
+        "option3": "Tertiary",
+        "option4": "Quaternary",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "All food chains start with autotrophs, which are producers. Autotrophs are eaten by herbivores, organisms that consume plants. Herbivores are the second trophic level. Carnivores and omnivores are secondary consumers."
+    },
+    {
+        "question": "What makes plants producers?",
+        "option1": "Plants produce their own food",
+        "option2": "Plants depend on other organisms for food",
+        "option3": "Plants are decomposers",
+        "option4": "Plants do not require any energy",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Plants produce their own food. They do this by using light energy from the sun, carbon dioxide from the air, and water from the soil to produce food in the form of glucose. The overall process is called photosynthesis."
+    },
+    {
+        "question": "What does a primary consumer eat?",
+        "option1": "Plants",
+        "option2": "Decomposers",
+        "option3": "Small animals",
+        "option4": "Large animals",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Primary consumers are always herbivores, or organisms that only eat autotrophic plants. This primary consumer gets energy by eating plants. For example, rabbits, which are primary consumers, eat grass and other herbivorous plants to get energy."
+    },
+    {
+        "question": "Into what categories are consumers classified?",
+        "option1": "Herbivore",
+        "option2": "Carnivore",
+        "option3": "Omnivore",
+        "option4": "Herbivore, carnivore, omnivore, and scavenger",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Consumers can be classified into herbivores, carnivores, omnivores, and scavengers. Most primary consumers are herbivores, secondary and tertiary consumers are carnivores, and quaternary consumers are omnivores."
+    },
+    {
+        "question": "What is called for an organism that feeds on other organisms?",
+        "option1": "Insects",
+        "option2": "Consumer",
+        "option3": "Producer",
+        "option4": "Herbivore",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Consumers feed on producers or other consumers to gain their energy. The consumers are the animals that receive energy from the producers. Consumers are those who feed on the lower level in the food chain."
+    },
+    {
+        "question": "How many types of consumers are there?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "There are three types of consumers: primary, secondary, and tertiary. Primary consumers consume primary producers. Secondary consumers eat primary consumers. Tertiary consumers are the top predators of an ecosystem."
+    },
+    {
+        "question": "How do decomposers receive energy?",
+        "option1": "Organic substrates",
+        "option2": "Self generation",
+        "option3": "Photosynthesis",
+        "option4": "Herbivores",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Decomposers receive energy by using organic substrates to get their energy, nutrients for development and growth. Decomposers are organisms that break down dead and decaying organisms."
+    },
+    {
+        "question": "How many major groups are classified in decomposers?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Decomposers can be classified into two groups: fungi and detritivores. Fungi break down deceased organisms, while detritivores consume large particles off the deceased organisms."
+    },
+    {
+        "question": "What is called for an organism which breaks down dead or waste matter into simpler substances?",
+        "option1": "Decomposers",
+        "option2": "Producers",
+        "option3": "Insects",
+        "option4": "Consumers",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Decomposers break down dead plants and animals. They are essential for any ecosystem. Without decomposers, plants would not get essential nutrients, and dead and waste matter would pile up."
+    },
+    {
+        "question": "The primary decomposers of most dead plant material are?",
+        "option1": "Algae",
+        "option2": "Bacteria",
+        "option3": "Fungi",
+        "option4": "Insects",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Fungi play a major role as decomposers and recyclers in various habitats. They release nitrogen and phosphorus from decaying matter. In fungi, digestion precedes ingestion."
+    },
+    {
+        "question": "To which category are shelf fungi classified?",
+        "option1": "Producers",
+        "option2": "Consumers",
+        "option3": "Decomposers",
+        "option4": "Insects",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Shelf fungi, also known as bracket fungi, form shelf-like sporophores. They grow on trees in stacks and attack and digest the trunks and branches of trees."
+    },
+    {
+        "question": "In order to form compost, which of the following wastes cannot be decomposed by bacteria?",
+        "option1": "Plant wastes",
+        "option2": "Kitchen wastes",
+        "option3": "Plastic and polythene wastes",
+        "option4": "Bodies of dead animals",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Bacteria cannot convert plastic and polythene to compost. Composting requires organic waste, such as leaves, fruit, and vegetable scraps."
+    },
+    {
+        "question": "What is called the process of breaking down food to yield energy?",
+        "option1": "Oxidation",
+        "option2": "Photosynthesis",
+        "option3": "Cellular respiration",
+        "option4": "Decomposition",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Catabolism is a metabolic process in cellular respiration that uses oxygen and energy to break down nutrients. This process creates waste through oxidation, releasing chemical energy."
+    },
+    {
+        "question": "What are organisms called that get energy by eating dead organisms?",
+        "option1": "Decomposers",
+        "option2": "Producers",
+        "option3": "Consumers",
+        "option4": "Herbivores",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Decomposers are organisms that break down chemicals from wastes and dead organisms, returning important materials to the soil and water."
+    },
+    {
+        "question": "Which among the following is a product of photosynthesis?",
+        "option1": "Glucose",
+        "option2": "Carbon",
+        "option3": "Monoxide",
+        "option4": "Nitrogen",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Photosynthesis is the process by which plants harvest energy from light and convert it to biomass. The process involves taking in carbon dioxide and water and using sunlight to produce glucose."
+    },
+    {
+        "question": "What is called an organism that eats both plants and animals?",
+        "option1": "Omnivore",
+        "option2": "Carnivore",
+        "option3": "Decomposers",
+        "option4": "Herbivore",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Omnivores are animals that eat both plants and animals. Being opportunistic eaters, omnivores include mammals and birds."
+    },
+    {
+        "question": "Why is energy flow linear in an ecosystem?",
+        "option1": "Because it flows in the air medium",
+        "option2": "Because it is very particular",
+        "option3": "Because the ecosystem is linear",
+        "option4": "Because energy flows from one trophic level to the next higher one",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Energy flow is unidirectional because it moves from one trophic level to the next, with some energy lost as heat at each step."
+    },
+    {
+        "question": "Why do plants in forests not make use of all the light energy available to them?",
+        "option1": "Because plants do not require energy",
+        "option2": "Because plants are grown only in the winter season",
+        "option3": "Because of the absence of chlorophyll",
+        "option4": "Because sunlight doesn’t fully fall on the leaves",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "All plants require light energy to obtain energy. In dense forests, sunlight does not fully reach the plants due to the canopy formed by the branches of big trees."
+    },
+    {
+        "question": "How many parts are there in the forest ecosystem?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "A forest ecosystem has two parts: abiotic and biotic. Abiotic aspects depend on non-living conditions, while biotic aspects involve communities of plants and animals."
+    },
+    {
+        "question": "On which factor is forest type mainly dependent?",
+        "option1": "Abiotic",
+        "option2": "Size of the forest",
+        "option3": "Shape of trees",
+        "option4": "Products from the trees",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The forest type mainly depends on abiotic factors such as climate and soil characteristics, and also on the nature of tree species (e.g., evergreen, deciduous, xerophytes, or mangroves)."
+    },
+    {
+        "question": "In which of the following places can we find cold deserts?",
+        "option1": "Bangalore",
+        "option2": "Chennai",
+        "option3": "Himalaya",
+        "option4": "Rajasthan",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Cold deserts are areas with little vegetation and few organisms adapted to cold regions. These deserts, covered with snow, are found in places like the Himalayas."
+    },
+    {
+        "question": "How many types of aquatic ecosystems are there?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "There are two main types of aquatic ecosystems: freshwater and marine. Freshwater ecosystems are found in bodies of water such as lakes, rivers, and ponds, while marine ecosystems include the ocean."
+    },
+    {
+        "question": "How many types of freshwater ecosystems are there?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "There are two types of freshwater ecosystems: lentic and lotic. Lentic ecosystems refer to still waters like ponds and lakes, while lotic ecosystems refer to flowing waters like rivers and streams."
+    },
+    {
+        "question": "How many types of grasslands are there?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "There are three types of grasslands: Tropical, Temperate, and Polar grasslands. The type is determined based on the climate and geography of the region."
+    },
+    {
+        "question": "Which utilitarian states that biodiversity is important for many ecosystem services that nature provides?",
+        "option1": "Narrowly utilitarian",
+        "option2": "Broadly utilitarian",
+        "option3": "Big utilitarian",
+        "option4": "Small utilitarian",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The broadly utilitarian argument states that biodiversity is important for many ecosystem services that nature provides. It emphasizes the moral responsibility of humans to conserve biodiversity due to the benefits they derive from nature."
+    },
+    {
+        "question": "What is exploring molecular, genetic, and species-level diversity for products of economic importance called?",
+        "option1": "Biopiracy",
+        "option2": "Biofuel",
+        "option3": "Bioprospecting",
+        "option4": "Biodiversity",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Exploring molecular, genetic, and species-level diversity, or the search for plant and animal species for products of economic importance such as medicinal drugs and other commercially valuable compounds, is known as bioprospecting."
+    },
+    {
+        "question": "What percent of the total oxygen in the Earth's atmosphere is released by the Amazon forest?",
+        "option1": "50%",
+        "option2": "20%",
+        "option3": "40%",
+        "option4": "20%",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The Amazon rainforest, also known as the Amazon Jungle or Amazonia, is the world's largest tropical rainforest and releases approximately 20% of the total oxygen in the Earth's atmosphere through the process of photosynthesis."
+    },
+    {
+        "question": "Which one of the following is an example of conservation?",
+        "option1": "No use of natural resources",
+        "option2": "The wise use of natural resources",
+        "option3": "Excess use of natural resources",
+        "option4": "Complete use of natural resources",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Conservation involves the wise use of natural resources to ensure their sustainability for future generations."
+    },
+    {
+        "question": "How many plant and animal species have been discovered and described so far?",
+        "option1": "1.5 million",
+        "option2": "4.5 million",
+        "option3": "1.5 billion",
+        "option4": "4.5 billion",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "More than 1.5 million plant and animal species have been discovered and described so far, though many more are yet to be discovered."
+    },
+    {
+        "question": "What is the global species diversity according to Robert May?",
+        "option1": "70 million",
+        "option2": "7 million",
+        "option3": "2 million",
+        "option4": "20 million",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Robert McCredie May, a theoretical ecologist, estimated that there are almost 7 million species globally."
+    },
+    {
+        "question": "Out of the total species estimated, how many species are of animals?",
+        "option1": "2%",
+        "option2": "50%",
+        "option3": "7%",
+        "option4": "70%",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "More than 70% of the species recorded are animals, according to current species inventories."
+    },
+    {
+        "question": "Of all the species recorded, what percent do plants comprise?",
+        "option1": "10%",
+        "option2": "50%",
+        "option3": "22%",
+        "option4": "2%",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Plants comprise almost 22% of all species recorded, including algae, fungi, bryophytes, gymnosperms, and angiosperms."
+    },
+    {
+        "question": "Of all the animal species recorded, what percent do insects comprise?",
+        "option1": "7%",
+        "option2": "70%",
+        "option3": "50%",
+        "option4": "2%",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Insects are the most species-rich taxonomic group, comprising 70% of all known animal species."
+    },
+    {
+        "question": "Which is the most species-rich taxonomic group?",
+        "option1": "Molluscs",
+        "option2": "Crustaceans",
+        "option3": "Echinoderms",
+        "option4": "Insects",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Insects, belonging to the phylum Arthropoda, are the most species-rich taxonomic group among animals."
+    },
+    {
+        "question": "Of all the vertebrate species recorded, which class has the maximum number of species?",
+        "option1": "Amphibians",
+        "option2": "Mammals",
+        "option3": "Fishes",
+        "option4": "Reptiles",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Fishes, which are limbless, cold-blooded vertebrate animals with gills, have the maximum number of species among vertebrates."
+    },
+    {
+        "question": "Of all the plant species recorded, which class has the minimum number of species?",
+        "option1": "Angiosperms",
+        "option2": "Fungi",
+        "option3": "Algae",
+        "option4": "Lichens",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Lichens, a mutualistic relationship between a fungus and photosynthesizing algae, have the minimum number of species among plants."
+    },
+    {
+        "question": "How much of the world's land area does India have?",
+        "option1": "1 percent",
+        "option2": "40 percent",
+        "option3": "2.4 percent",
+        "option4": "80 percent",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "India occupies 2.4% of the world's land area, making it the seventh-largest country in the world."
+    },
+    {
+        "question": "Which of the following species is present in India?",
+        "option1": "Koala",
+        "option2": "Sloth bear",
+        "option3": "Kangaroo",
+        "option4": "Wombats",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The sloth bear is native to India, while the other species mentioned are marsupials found mainly in Australia."
+    },
+    {
+        "question": "Which of the following species is native to India?",
+        "option1": "Rhodes grass",
+        "option2": "Jackalberry tree",
+        "option3": "Ebony tree",
+        "option4": "Umbrella thorn acacia",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The Ebony tree (Diospyros celibica) is native to India, particularly found in Karnataka."
+    },
+    {
+        "question": "Considering May's global estimates, how many of the total species have been recorded?",
+        "option1": "1 percent",
+        "option2": "22 percent",
+        "option3": "10 percent",
+        "option4": "50 percent",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "According to Robert May's global estimates, only 22% of the total species have been recorded."
+    },
+    {
+        "question": "Considering May's global estimates, how many of the plant species are yet to be discovered and described in India?",
+        "option1": "500",
+        "option2": "100",
+        "option3": "500,000",
+        "option4": "100,000",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Based on May's global estimates, more than 100,000 plant species are yet to be discovered and described in India."
+    },
+    {
+        "question": "What does 'The Evil Quartet' describe?",
+        "option1": "An increase in the number of species",
+        "option2": "The decrease in the number of species",
+        "option3": "Mass extinction",
+        "option4": "Formation of the universe",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "'The Evil Quartet' refers to the four main causes of the decline in species numbers: habitat loss and fragmentation, over-exploitation, invasion of alien species, and co-extinctions."
+    },
+    {
+        "question": "Which one of the following is said to be the most important cause or reason for the extinction of animals and plants?",
+        "option1": "Loss of habitat and fragmentation",
+        "option2": "Over-exploitation of species",
+        "option3": "Invasion of alien species",
+        "option4": "Co-extinctions",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The most important cause of extinction is habitat loss and fragmentation, which makes natural habitats incapable of supporting native species."
+    },
+    {
+        "question": "Previously, how much of the Earth's land surface was covered by tropical rainforests?",
+        "option1": "50%",
+        "option2": "14%",
+        "option3": "24%",
+        "option4": "35%",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Previously, 14% of the Earth's land surface was covered by tropical rainforests, which are known for their rich biodiversity."
+    },
+    {
+        "question": "The initiative of biodiversity assessment focuses on which ecosystem types?",
+        "option1": "Forest",
+        "option2": "Wetland",
+        "option3": "Marine",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a cause of biodiversity loss?",
+        "option1": "Over-exploitation",
+        "option2": "Eco-friendly",
+        "option3": "Co-extinction",
+        "option4": "Habitat loss and fragmentation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Marketable products such as animal skins, ivory, medicinal plants, honey, etc. come under:",
+        "option1": "Productive value",
+        "option2": "Consumptive value",
+        "option3": "Aesthetic value",
+        "option4": "Social value",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which rainforest is called the 'lungs of the planet'?",
+        "option1": "Sahyadri rainforest",
+        "option2": "Konkan rainforest",
+        "option3": "Amazon rainforest",
+        "option4": "South Africa rainforest",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What leads to the over-exploitation of natural resources?",
+        "option1": "Greed",
+        "option2": "Eco-friendly",
+        "option3": "Need",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What flows through the ecosystem while matter cycles within them?",
+        "option1": "Energy",
+        "option2": "Force",
+        "option3": "Pressure",
+        "option4": "Wind",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Currently, how much area of the Earth's land surface is covered by tropical rainforests?",
+        "option1": "90%",
+        "option2": "50%",
+        "option3": "1%",
+        "option4": "6%",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Currently, 6% of the Earth's land surface is covered by tropical rainforests, known for their rich biodiversity."
+    },
+    {
+        "question": "Which animals are badly affected when a large habitat is broken up into small fragments due to various human activities?",
+        "option1": "Extinct species",
+        "option2": "Migratory species",
+        "option3": "Non-migratory species",
+        "option4": "Humans",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Migratory species are badly affected when large habitats are broken up into small fragments due to human activities such as agriculture and urban development."
+    },
+    {
+        "question": "What is the excess and unsustainable use of resources called?",
+        "option1": "Loss of habitat and fragmentation",
+        "option2": "Co-extinctions",
+        "option3": "Invasion of alien species",
+        "option4": "Over-exploitation",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The excess and unsustainable use of resources, also known as over-exploitation, leads to a rapid decline and destruction of those resources, causing serious damage to ecosystems."
+    },
+    {
+        "question": "What was the reason for the exploitation of the Stellar's sea cow and the passenger pigeon?",
+        "option1": "Competition",
+        "option2": "Loss of habitat",
+        "option3": "Human activities",
+        "option4": "Mutualistic relationships",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The Stellar's sea cow and the passenger pigeon were exploited due to human activities, leading to their extinction within the last 500 years."
+    },
+    {
+        "question": "What happens when alien species are introduced unintentionally or deliberately?",
+        "option1": "Decrease of alien species",
+        "option2": "Increase in habitat",
+        "option3": "They turn invasive and cause increase in species",
+        "option4": "They turn invasive and cause decline or extinction of indigenous species",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "The unintentional or deliberate introduction of alien species into a habitat causes them to turn invasive, leading to the decline or extinction of indigenous species. They can affect all types of organisms (animals, plants, fungi, and microorganisms) and ecosystems."
+    },
+    {
+        "question": "What happened when the Nile perch was introduced into Lake Victoria in East Africa?",
+        "option1": "Extinction of trees",
+        "option2": "Increase in the number of trees",
+        "option3": "Extinction of cichlid fish",
+        "option4": "Increase in the number of cichlid fish",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The cichlid fish, native to Lake Victoria in East Africa, were driven to extinction due to the introduction of the Nile perch, an alien species. The Nile perch destroyed nearly 200 species of cichlid fish through predation and competition for food."
+    },
+    {
+        "question": "Which of the following contains chemicals like parthenin, which is toxic to cattle and causes pollen allergy in humans?",
+        "option1": "Nile perch",
+        "option2": "The carrot grass",
+        "option3": "Rose",
+        "option4": "Wheat",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The carrot grass, also known as Parthenium, is an erect and annual herb responsible for environmental, medical, and agricultural hazards. It contains chemicals like parthenin, which are toxic to cattle and cause pollen allergy in humans."
+    },
+    {
+        "question": "What is Eichhornia called?",
+        "option1": "The carrot grass",
+        "option2": "Nile perch",
+        "option3": "Water hyacinth",
+        "option4": "Water lily",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Eichhornia crassipes, also known as water hyacinth, was first introduced from South America into China and later became a serious environmental problem. It reduces sunlight penetration and lowers oxygen content in water, harming aquatic ecosystems."
+    },
+    {
+        "question": "Why was the African catfish (Clarias gariepinus) introduced?",
+        "option1": "Horticulture",
+        "option2": "Aquaculture",
+        "option3": "Sericulture",
+        "option4": "Poultry",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "The African catfish Clarias gariepinus was introduced for aquaculture purposes. This introduction was illegal and posed a threat to indigenous catfishes in our rivers due to disease introduction, competition, and environmental modification."
+    },
+    {
+        "question": "Which phenomenon explains that 'When a species becomes extinct, the plant and animal species also become extinct that are obligatorily associated with the host species'?",
+        "option1": "Aquaculture",
+        "option2": "Fragmentation",
+        "option3": "Invasion",
+        "option4": "Co-extinction",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "Co-extinction is the phenomenon where, when a species becomes extinct, the plant and animal species that are obligatorily associated with it also become extinct. If a host species is extinct, the parasites associated with it will also become extinct."
+    },
+    {
+        "question": "Which phenomenon does the co-evolved plant-pollinator mutualism explain?",
+        "option1": "Co-extinction",
+        "option2": "Fragmentation",
+        "option3": "Invasion",
+        "option4": "Loss of habitat",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "The co-evolved plant-pollinator mutualism explains the phenomenon of co-extinction, where the extinction of one species leads to the extinction of another species that is obligatorily associated with it."
+    },
+    {
+        "question": "The Earth consists of how many ant species?",
+        "option1": "100,000",
+        "option2": "20,000",
+        "option3": "200,000",
+        "option4": "2,000",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Ants are eusocial insects that live in organized colonies. There are approximately 20,000 species of ants on Earth."
+    },
+    {
+        "question": "How many species of beetles are present on Earth?",
+        "option1": "300,000",
+        "option2": "30,000",
+        "option3": "3,000",
+        "option4": "300",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Beetles are a group of winged insects and prominent decomposers. There are approximately 300,000 species of beetles on Earth."
+    },
+    {
+        "question": "How many species of fishes are present on Earth?",
+        "option1": "28,000,000",
+        "option2": "28,000",
+        "option3": "280",
+        "option4": "28",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Fishes are limbless, cold-blooded, gill-bearing aquatic vertebrates. There are approximately 28,000 species of fishes on Earth."
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "option1": "Diversity exists only at the species level",
+        "option2": "Diversity exists only at the macromolecular level",
+        "option3": "Diversity exists at all levels of biological organization",
+        "option4": "Diversity exists at the genetic level only",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Biodiversity exists at all levels of biological organization, not just at the genetic or species level."
+    },
+    {
+        "question": "Who popularized the term 'biodiversity'?",
+        "option1": "Rudolf Virchow",
+        "option2": "Edward Wilson",
+        "option3": "Gregor Mendel",
+        "option4": "Robert Koch",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Edward Wilson popularized the term 'biodiversity,' which refers to the variety and variability of life at all levels of biological organization."
+    },
+    {
+        "question": "What can a single species show?",
+        "option1": "No variation at the genetic level",
+        "option2": "No diversity at the genetic level",
+        "option3": "Low diversity at the genetic level",
+        "option4": "High diversity at the genetic level",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "High genetic diversity can be observed within a single species, indicating significant variability within the species."
+    },
+    {
+        "question": "What is a feature of the biosphere?",
+        "option1": "No diversity",
+        "option2": "Homogeneity",
+        "option3": "Heterogeneity",
+        "option4": "Negligible diversity",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The biosphere is heterogeneous and shows immense diversity, integrating all living beings and their relationships on Earth."
+    },
+    {
+        "question": "How many strains of rice does India have?",
+        "option1": "50",
+        "option2": "500",
+        "option3": "5,000",
+        "option4": "50,000",
+        "Answer": "option4",
+        "marks": 1,
+        "explanation": "India has approximately 50,000 strains of rice, making it one of the most widely consumed staple foods."
+    },
+    {
+        "question": "How many varieties of mango does India have?",
+        "option1": "2",
+        "option2": "10",
+        "option3": "1,000",
+        "option4": "20",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "India has over 1,000 varieties of mango, which is an edible stone fruit belonging to the flowering plant genus Mangifera."
+    },
+    {
+        "question": "Which organism's species have greater diversity in the Western Ghats than the Eastern Ghats?",
+        "option1": "Reptiles",
+        "option2": "Fishes",
+        "option3": "Amphibians",
+        "option4": "Mammals",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Amphibians show greater species diversity in the Western Ghats compared to the Eastern Ghats."
+    },
+    {
+        "question": "How many years did evolution occur over to shape today's biodiversity?",
+        "option1": "10,000 years",
+        "option2": "1 million years",
+        "option3": "3 billion years",
+        "option4": "3 million years",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "The present biodiversity is the result of around 3 billion years of evolution. However, due to human activities, many species are currently endangered or extinct."
+    },
+    {
+        "question": "What was the total number of plant species recorded in the world?",
+        "option1": "1.7-1.8 million",
+        "option2": "17-18 million",
+        "option3": "7-8 million",
+        "option4": "107-108 million",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Around 1.7-1.8 million species of plants and animals have been recorded in the world, but the actual number could be much higher."
+    },
+    {
+        "question": "Which organism exhibits greater species diversity?",
+        "option1": "Angiosperms",
+        "option2": "Mosses",
+        "option3": "Ferns",
+        "option4": "Liverworts",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Angiosperms, or flowering plants, exhibit greater species diversity compared to other plant groups."
+    },
+    {
+        "question": "What percentage of biodiversity do animals constitute?",
+        "option1": "50%",
+        "option2": "70%",
+        "option3": "90%",
+        "option4": "95%",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Animals constitute approximately 90% of Earth's biodiversity, showcasing a vast array of species across different habitats."
+    },
+    {
+        "question": "Which is the most species-rich taxonomic group?",
+        "option1": "Insects",
+        "option2": "Mammals",
+        "option3": "Mollusks",
+        "option4": "Birds",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "Insects are the most species-rich taxonomic group, contributing significantly to the planet's biodiversity."
+    },
+    {
+        "question": "How many species of plants have been discovered and named?",
+        "option1": "2,00,000",
+        "option2": "2,70,000",
+        "option3": "4,00,000",
+        "option4": "6,00,000",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "Approximately 2,70,000 species of plants have been discovered and named, highlighting the vast diversity of plant life on Earth."
+    },
+    {
+        "question": "How many species of fungi have been discovered and named?",
+        "option1": "50,000",
+        "option2": "70,000",
+        "option3": "80,000",
+        "option4": "1,00,000",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "Around 80,000 species of fungi have been discovered and named, with estimates suggesting many more species still undiscovered."
+    },
+    {
+        "question": "What percentage of Earth's species is found in India?",
+        "option1": "5%",
+        "option2": "2.4%",
+        "option3": "8.1%",
+        "option4": "9.2%",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "India, despite its smaller land area, hosts approximately 8.1% of Earth's species, making it one of the most biodiverse countries in the world."
+    },
+    {
+        "question": "How many species have been recorded in India?",
+        "option1": "1 million",
+        "option2": "10 million",
+        "option3": "1.5 million",
+        "option4": "8 million",
+        "Answer": "option3",
+        "marks": 1,
+        "explanation": "India has recorded around 1.5 million species, contributing significantly to global biodiversity."
+    },
+    {
+        "question": "India has how many species of animals?",
+        "option1": "90,000",
+        "option2": "10,000",
+        "option3": "20,000",
+        "option4": "50,000",
+        "Answer": "option1",
+        "marks": 1,
+        "explanation": "India is home to approximately 90,000 species of animals, reflecting the country's rich fauna."
+    },
+    {
+        "question": "India has how many species of plants?",
+        "option1": "10,000",
+        "option2": "50,000",
+        "option3": "20,000",
+        "option4": "5,000",
+        "Answer": "option2",
+        "marks": 1,
+        "explanation": "India has around 50,000 species of plants, making it one of the most botanically diverse regions in the world."
+    },     
+];
+
+module.exports = { data: unitTest};
