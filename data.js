@@ -14942,7 +14942,7 @@ const AJP = [
     },
     {
         "question": "Label defines the following constructors:",
-        "option1": "Label( )",
+        "option1": "Label()",
         "option2": "Label(String str)",
         "option3": "Label(String str, int how)",
         "option4": "All of the above",
@@ -14950,7 +14950,7 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "In the Label(String str, int how) constructor value of how will be",
+        "question": "In the Label(String str, int how) constructor, the value of 'how' will be",
         "option1": "Label.LEFT, Label.RIGHT, or Label.CENTER",
         "option2": "Label.LEFT, Label.RIGHT, or Label.DOWN",
         "option3": "Label.TOP, Label.BOTTOM, or Label.CENTER",
@@ -14959,25 +14959,25 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "To set or change the text in a label __ method and to obtain the current label by calling ___ method is used.",
-        "option1": "setTxt() , getTxt()",
-        "option2": "settext() , gettext()",
-        "option3": "setText() , getText()",
-        "option4": "getText() , setText()",
+        "question": "To set or change the text in a label, the __ method is used, and to obtain the current label text, the __ method is used.",
+        "option1": "setTxt(), getTxt()",
+        "option2": "settext(), gettext()",
+        "option3": "setText(), getText()",
+        "option4": "getText(), setText()",
         "Answer": "option3",
         "marks": 1
     },
     {
-        "question": "To set the alignment of the string within the label by calling ___ method ,to obtain the current alignment ___ method is used.",
-        "option1": "getAlignment( ) ,setAlignment( )",
-        "option2": "setAlign( ) ,getAlign( )",
-        "option3": "setAlignment( ) ,getAlignment( )",
-        "option4": "getAlign( ) ,setAlign( )",
+        "question": "To set the alignment of the string within the label, the __ method is used, and to obtain the current alignment, the __ method is used.",
+        "option1": "getAlignment(), setAlignment()",
+        "option2": "setAlign(), getAlign()",
+        "option3": "setAlignment(), getAlignment()",
+        "option4": "getAlign(), setAlign()",
         "Answer": "option3",
         "marks": 1
     },
     {
-        "question": "Which packages will use for the following code:\n/*\n<applet code=\"LabelDemo\" width=300 height=200>\n</applet>\n*/\npublic class LabelDemo extends Applet {\npublic void init() {\nLabel one = new Label(\"One\");\nLabel two = new Label(\"Two\");\nLabel three = new Label(\"Three\");\n// add labels to applet window\nadd(one);\nadd(two);\nadd(three);\n}\n}",
+        "question": "Which packages will you use for the following code:\n/*\n<applet code=\"LabelDemo\" width=300 height=200>\n</applet>\n*/\npublic class LabelDemo extends Applet {\npublic void init() {\nLabel one = new Label(\"One\");\nLabel two = new Label(\"Two\");\nLabel three = new Label(\"Three\");\n// add labels to applet window\nadd(one);\nadd(two);\nadd(three);\n}\n}",
         "option1": "import java.awt.*; import java.applet.*;",
         "option2": "import javax.swing.*; import java.awt.*;",
         "option3": "import javax.swing.*; import java.applet.*;",
@@ -14987,33 +14987,33 @@ const AJP = [
     },
     {
         "question": "Button defines these two constructors:",
-        "option1": "Button( ), Button(Boolean str)",
-        "option2": "Button( ) ,Button(int str)",
-        "option3": "Button( ), Button(String str)",
-        "option4": "Button( ) ,Button(String str , int name)",
+        "option1": "Button(), Button(Boolean str)",
+        "option2": "Button(), Button(int str)",
+        "option3": "Button(), Button(String str)",
+        "option4": "Button(), Button(String str, int name)",
         "Answer": "option3",
         "marks": 1
     },
     {
-        "question": "Set label of a button by calling __ method and can retrieve its label by calling __ method.",
-        "option1": "getLabel( ) , setLabel( )",
-        "option2": "setLabel( ) , getLabel( )",
-        "option3": "getlabel( ) , setlabel( )",
-        "option4": "setlabel( ) , getlabel( )",
+        "question": "Set the label of a button by calling the __ method, and retrieve its label by calling the __ method.",
+        "option1": "getLabel(), setLabel()",
+        "option2": "setLabel(), getLabel()",
+        "option3": "getlabel(), setlabel()",
+        "option4": "setlabel(), getlabel()",
         "Answer": "option2",
         "marks": 1
     },
     {
         "question": "Each time a button is pressed, an ___ is generated.",
         "option1": "mouse event",
-        "option2": "Keyboard event",
+        "option2": "keyboard event",
         "option3": "item event",
         "option4": "action event",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "For button __ interface is implemented.",
+        "question": "For a button, the __ interface is implemented.",
         "option1": "ActionListener",
         "option2": "ItemListener",
         "option3": "MouseListener",
@@ -15022,7 +15022,7 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "actionPerformed() method is used in ___ interface.",
+        "question": "The actionPerformed() method is used in the ___ interface.",
         "option1": "ActionListener",
         "option2": "ItemListener",
         "option3": "MouseListener",
@@ -15031,7 +15031,7 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "Which class can be used to represent a checkbox with a textual label that can appear in a menu.",
+        "question": "Which class can be used to represent a checkbox with a textual label that can appear in a menu?",
         "option1": "MenuBar",
         "option2": "MenuItem",
         "option3": "CheckboxMenuItem",
@@ -15040,20 +15040,20 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "To retrieve the current state of a check box, call __ method , to set its state, call __ method.",
-        "option1": "setState( ) , getState( )",
-        "option2": "getState( ) , setState( )",
-        "option3": "setstate( ) , getstate( )",
-        "option4": "getstate( ) , setstate( )",
+        "question": "To retrieve the current state of a checkbox, call the __ method; to set its state, call the __ method.",
+        "option1": "setState(), getState()",
+        "option2": "getState(), setState()",
+        "option3": "setstate(), getstate()",
+        "option4": "getstate(), setstate()",
         "Answer": "option2",
         "marks": 1
     },
     {
-        "question": "Event handling in checkbox is done by __ listener and __ object is used.",
-        "option1": "ItemListener , ItemEvent",
-        "option2": "MouseListener , MouseEvent",
-        "option3": "ActionListener , ActionEvent",
-        "option4": "KeyListener , KeyEvent",
+        "question": "Event handling in a checkbox is done by the __ listener, and the __ object is used.",
+        "option1": "ItemListener, ItemEvent",
+        "option2": "MouseListener, MouseEvent",
+        "option3": "ActionListener, ActionEvent",
+        "option4": "KeyListener, KeyEvent",
         "Answer": "option1",
         "marks": 1
     },
@@ -15067,7 +15067,7 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "Choose the correct:",
+        "question": "Choose the correct statement:",
         "option1": "public class CheckboxDemo implement Applet extend ItemListener",
         "option2": "public class CheckboxDemo extends Applet implements ItemListener",
         "option3": "public class CheckboxDemo implements Applet extends ItemListener",
@@ -15076,7 +15076,7 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "It is possible to create a set of mutually exclusive check boxes in which one and only one check box in the group can be checked at any one time by using __ component.",
+        "question": "It is possible to create a set of mutually exclusive checkboxes in which one and only one checkbox in the group can be checked at any one time by using the __ component.",
         "option1": "CheckboxGroup",
         "option2": "Radio Button",
         "option3": "Checkbox",
@@ -15085,25 +15085,25 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "You can determine which checkbox in a group is currently selected by calling __ method.",
-        "option1": "getselectedCheckbox( )",
-        "option2": "GetSelectedCheckbox( )",
-        "option3": "getSelectedCheckbox( )",
+        "question": "You can determine which checkbox in a group is currently selected by calling the __ method.",
+        "option1": "getselectedCheckbox()",
+        "option2": "GetSelectedCheckbox()",
+        "option3": "getSelectedCheckbox()",
         "option4": "None of the above",
         "Answer": "option3",
         "marks": 1
     },
     {
-        "question": "To set a checkbox which method is used",
-        "option1": "setselectedCheckbox( )",
-        "option2": "setSelectedCheckbox( )",
-        "option3": "getselectedCheckbox( )",
-        "option4": "getSelectedCheckbox( )",
+        "question": "To set a checkbox, which method is used?",
+        "option1": "setselectedCheckbox()",
+        "option2": "setSelectedCheckbox()",
+        "option3": "getselectedCheckbox()",
+        "option4": "getSelectedCheckbox()",
         "Answer": "option2",
         "marks": 1
     },
     {
-        "question": "In which of the following the only one checkbox will be selected.",
+        "question": "In which of the following cases will only one checkbox be selected?",
         "option1": "Checkbox Win98 = new Checkbox(\"Windows 98/XP\", cbg, false);",
         "option2": "Checkbox Win98 = new Checkbox(\"Windows 98/XP\", cbg, true);",
         "option3": "Checkbox Win98 = new Checkbox(\"Windows 98/XP\", true);",
@@ -15112,7 +15112,7 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "Which class is used to create a pop-up list of items from which the user may choose.",
+        "question": "Which class is used to create a pop-up list of items from which the user may choose?",
         "option1": "Choice",
         "option2": "List",
         "option3": "Checkbox",
@@ -15121,7 +15121,7 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "Method used to add items in a choice",
+        "question": "Which method is used to add items to a choice?",
         "option1": "addItem()",
         "option2": "additem()",
         "option3": "Add()",
@@ -15130,16 +15130,16 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "To determine which item is currently selected, you may call either ___ or ____ method.",
-        "option1": "setSelectedItem( ),setSelectedIndex( )",
-        "option2": "GetSelectedItem( ),GetSelectedIndex( )",
-        "option3": "getSelectedItem( ),getSelectedIndex( )",
-        "option4": "getselectedItem( ),getselectedIndex( )",
+        "question": "To determine which item is currently selected, you may call either the ___ or ___ method.",
+        "option1": "setSelectedItem(), setSelectedIndex()",
+        "option2": "GetSelectedItem(), GetSelectedIndex()",
+        "option3": "getSelectedItem(), getSelectedIndex()",
+        "option4": "getselectedItem(), getselectedIndex()",
         "Answer": "option3",
         "marks": 1
     },
     {
-        "question": "The getItemCount( ) method is used to",
+        "question": "The getItemCount() method is used to",
         "option1": "To obtain the value of items in the list",
         "option2": "To obtain the number of items in the list",
         "option3": "Both a & b",
@@ -15148,35 +15148,35 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "Constuctors of scrollbar are",
-        "option1": "Scrollbar( ) ,Scrollbar(int style) ,Scrollbar(int style, int initialValue, int thumbSize)",
-        "option2": "Scrollbar( ), Scrollbar(int style) ,Scrollbar(int style, int initialValue, int thumbSize, int min",
-        "option3": "Scrollbar( ),Scrollbar(int style),Scrollbar(int style, int initialValue, int thumbSize, int max)",
-        "option4": "Scrollbar( ),Scrollbar(int style),Scrollbar(int style, int initialValue, int thumbSize, int min, int max)",
+        "question": "Constructors of scrollbar are",
+        "option1": "Scrollbar(), Scrollbar(int style), Scrollbar(int style, int initialValue, int thumbSize)",
+        "option2": "Scrollbar(), Scrollbar(int style), Scrollbar(int style, int initialValue, int thumbSize, int min",
+        "option3": "Scrollbar(), Scrollbar(int style), Scrollbar(int style, int initialValue, int thumbSize, int max)",
+        "option4": "Scrollbar(), Scrollbar(int style), Scrollbar(int style, int initialValue, int thumbSize, int min, int max)",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "Scrollbar uses which two constants to create horizontal and vertical scrollbar.",
-        "option1": "Scrollbar.Vertical , Scrollbar.Horizontal",
-        "option2": "Vertical.SCROLLBAR , Horizontal.SCROLLBAR",
-        "option3": "Scrollbar.VERTICAL , Scrollbar.HORIZONTAL",
+        "question": "Scrollbar uses which two constants to create horizontal and vertical scrollbars?",
+        "option1": "Scrollbar.Vertical, Scrollbar.Horizontal",
+        "option2": "Vertical.SCROLLBAR, Horizontal.SCROLLBAR",
+        "option3": "Scrollbar.VERTICAL, Scrollbar.HORIZONTAL",
         "option4": "None of the above",
         "Answer": "option3",
         "marks": 1
     },
     {
-        "question": "To obtain the current value of the scroll bar, call ___, to set the current value, call __ method.",
-        "option1": "setvalue( ), getvalue( )",
-        "option2": "setValue( ) , getValue( )",
-        "option3": "getvalue( ). setvalue( )",
-        "option4": "getValue( ) , setValue( )",
+        "question": "To obtain the current value of the scrollbar, call the ___ method; to set the current value, call the ___ method.",
+        "option1": "setvalue(), getvalue()",
+        "option2": "setValue(), getValue()",
+        "option3": "getvalue(), setvalue()",
+        "option4": "getValue(), setValue()",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "You can retrieve the minimum and maximum values of scrollbar by __ and___ method",
-        "option1": "getMinimum( ), getMaximum( )",
+        "question": "You can retrieve the minimum and maximum values of a scrollbar by the __ and __ methods.",
+        "option1": "getMinimum(), getMaximum()",
         "option2": "getMax(), getMin()",
         "option3": "setMinimum(), setMaximum()",
         "option4": "setMax(), setMin()",
@@ -15184,7 +15184,7 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "Which interface is implemented for handling scrollbars.",
+        "question": "Which interface is implemented for handling scrollbars?",
         "option1": "ActionListener",
         "option2": "AdjustmentListener",
         "option3": "MouseMotionListener",
@@ -15193,17 +15193,17 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "The________ class implements a single-line text-entry area",
+        "question": "The ________ class implements a single-line text-entry area.",
         "option1": "TextArea class",
         "option2": "TextField class",
-        "option3": "both a & b",
-        "option4": "none of the above",
+        "option3": "Both a & b",
+        "option4": "None of the above",
         "Answer": "option2",
         "marks": 1
     },
     {
-        "question": "Which of these is not a TextField Constructor",
-        "option1": "TextField( )",
+        "question": "Which of these is not a TextField constructor?",
+        "option1": "TextField()",
         "option2": "TextField(int numChars)",
         "option3": "TextField(int rows)",
         "option4": "TextField(String str)",
@@ -15220,7 +15220,7 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "Program can obtain the currently selected text by calling _________",
+        "question": "The program can obtain the currently selected text by calling the _________ method.",
         "option1": "getSelectedText()",
         "option2": "getText()",
         "option3": "getSelected()",
@@ -15229,8 +15229,8 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "Contents of a text field may be modified by the user by calling",
-        "option1": "setEditable( )",
+        "question": "Contents of a text field may be modified by the user by calling the",
+        "option1": "setEditable()",
         "option2": "getEditable()",
         "option3": "isEditable()",
         "option4": "None of the above",
@@ -15238,9 +15238,9 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "The echoing of the characters as they are typed by calling",
+        "question": "The echoing of characters as they are typed is controlled by calling the",
         "option1": "setPassword()",
-        "option2": "setEchoChar( )",
+        "option2": "setEchoChar()",
         "option3": "hideText()",
         "option4": "setChar()",
         "Answer": "option2",
@@ -15256,7 +15256,7 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "Which of the following is not a constructor of TextArea",
+        "question": "Which of the following is not a constructor of TextArea?",
         "option1": "TextArea(String str)",
         "option2": "TextArea(int numLines, int numChars)",
         "option3": "TextArea(String str, int numLines, int numChars, int sBars)",
@@ -15265,16 +15265,16 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "Which methods is not supported by TextArea",
+        "question": "Which methods are not supported by TextArea?",
         "option1": "getText()",
         "option2": "setFormat()",
         "option3": "setText()",
-        "option4": "SetEditable()",
+        "option4": "setEditable()",
         "Answer": "option2",
         "marks": 1
     },
     {
-        "question": "The ________ method appends the string specified by str to the end of the current text.",
+        "question": "The ________ method appends the string specified by 'str' to the end of the current text.",
         "option1": "append()",
         "option2": "insertText()",
         "option3": "attach()",
@@ -15283,7 +15283,7 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "____ method inserts the string passed in str at the specified index.",
+        "question": "The ____ method inserts the string passed in 'str' at the specified index.",
         "option1": "append()",
         "option2": "attachText()",
         "option3": "insert()",
@@ -15319,16 +15319,16 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "The layout manager is set by which method.",
+        "question": "The layout manager is set by which method?",
         "option1": "setText()",
         "option2": "getText()",
-        "option3": "setLayout( )",
+        "option3": "setLayout()",
         "option4": "setVisible()",
         "Answer": "option3",
         "marks": 1
     },
     {
-        "question": "Which method is used to determine position and shape of a component manually",
+        "question": "Which method is used to determine the position and shape of a component manually?",
         "option1": "setBounds()",
         "option2": "setPosition()",
         "option3": "Both a and b",
@@ -15337,35 +15337,35 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "Which of the following LayouManager is/are consulted whenever the container needs to be resized",
-        "option1": "minimumLayoutSize( )",
-        "option2": "preferredLayoutSize( )",
+        "question": "Which of the following LayoutManagers is/are consulted whenever the container needs to be resized?",
+        "option1": "minimumLayoutSize()",
+        "option2": "preferredLayoutSize()",
         "option3": "Both",
         "option4": "None",
         "Answer": "option3",
         "marks": 1
     },
     {
-        "question": "_____ and _____ are contained by each Layout manager",
-        "option1": "getPrefferedSize(),getMinimumSize( )",
-        "option2": "getPrefferedsize(),getMinimumsize( )",
-        "option3": "getprefferedSize(),getminimumSize( )",
+        "question": "_____ and _____ are contained by each Layout Manager.",
+        "option1": "getPreferredSize(), getMinimumSize()",
+        "option2": "getPreferredsize(), getMinimumsize()",
+        "option3": "getpreferredSize(), getminimumSize()",
         "option4": "None",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "Which of these is the default Layout Manager",
+        "question": "Which of these is the default Layout Manager?",
         "option1": "FlowLayout()",
         "option2": "BorderLayout()",
         "option3": "GridLayout()",
         "option4": "CardLayout()",
-        "Answer": "option1",
+        "Answer": "option2",
         "marks": 1
     },
     {
         "question": "Constructors of FlowLayout",
-        "option1": "FlowLayout( )",
+        "option1": "FlowLayout()",
         "option2": "FlowLayout(int how)",
         "option3": "FlowLayout(int how, int horz, int vert)",
         "option4": "All of the above",
@@ -15373,17 +15373,17 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "In the constructor FlowLayout(int how, int horz, int vert) what is the value of how",
-        "option1": "FlowLayout.LEFT,FlowLayout.CENTER,FlowLayout.RIGHT",
-        "option2": "FlowLayout.TOP,FlowLayout.BOTTOM,FlowLayout.CENTE",
-        "option3": "FlowLayout.EAST,FlowLayout.WEST, FlowLayout.CENTER",
+        "question": "In the constructor FlowLayout(int how, int horz, int vert) what is the value of 'how'?",
+        "option1": "FlowLayout.LEFT, FlowLayout.CENTER, FlowLayout.RIGHT",
+        "option2": "FlowLayout.TOP, FlowLayout.BOTTOM, FlowLayout.CENTER",
+        "option3": "FlowLayout.EAST, FlowLayout.WEST, FlowLayout.CENTER",
         "option4": "None",
         "Answer": "option1",
         "marks": 1
     },
     {
         "question": "Constructors of BorderLayout",
-        "option1": "BorderLayout( )",
+        "option1": "BorderLayout()",
         "option2": "BorderLayout(int horz, int vert)",
         "option3": "BorderLayout(int how, int horz, int vert)",
         "option4": "Both a and b",
@@ -15391,374 +15391,2426 @@ const AJP = [
         "marks": 1
     },
     {
-        "question": "Label defines the following constructors:",
-        "option1": "Label( )",
-        "option2": "Label(String str)",
-        "option3": "Label(String str, int how)",
+        "question": "Constants of BorderLayout",
+        "option1": "BorderLayout.CENTER, BorderLayout.SOUTH, BorderLayout.EAST, BorderLayout.WEST, BorderLayout.NORTH",
+        "option2": "BorderLayout.CENTER, BorderLayout.TOP, BorderLayout.BOTTOM, BorderLayout.LEFT, BorderLayout.RIGHT",
+        "option3": "BorderLayout.CENTER, BorderLayout.LEFT, BorderLayout.RIGHT",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "GridLayout lays out components in a ______ grid.",
+        "option1": "One-dimensional",
+        "option2": "Three-dimensional",
+        "option3": "Multi-dimensional",
+        "option4": "Two-dimensional",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Constructors of GridLayout",
+        "option1": "GridLayout( )",
+        "option2": "GridLayout(int numRow, numColumns )",
+        "option3": "GridLayout(int numRows, int numColumns, int horz, int vert)",
+        "option4": "All of the Above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The CardLayout class is ______ among the other layout managers in that it stores several different _____.",
+        "option1": "unique, classes",
+        "option2": "unique, layout",
+        "option3": "antique, methods",
+        "option4": "special, packages",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Constructors of CardLayout are:",
+        "option1": "CardLayout( ), CardLayout(int horz, int vert)",
+        "option2": "CardLayout( ), CardLayout(int horz, int vert), CardLayout(int numRows, int numColumns, int horz, int vert)",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The cards are held in an object of type ______",
+        "option1": "Frame",
+        "option2": "Applet",
+        "option3": "Panel",
+        "option4": "Container",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Methods of CardLayout",
+        "option1": "All",
+        "option2": "only first 2",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Dialog box may be ______ or ______",
+        "option1": "Fixed, Variable",
+        "option2": "static, dynamic",
+        "option3": "manual, automated",
+        "option4": "modal, modeless",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of these is true of a modal dialog box",
+        "option1": "You cannot access other parts of your program until you have closed the dialog box.",
+        "option2": "Input focus can be directed to another window in your program.",
+        "option3": "Both a and b",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these is true of a modeless dialog box",
+        "option1": "You cannot access other parts of your program until you have closed the dialog box.",
+        "option2": "Input focus can be directed to another window in your program.",
+        "option3": "Both a and b",
+        "option4": "None",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Constructors of dialog box",
+        "option1": "Dialog(Frame parentWindow, boolean mode), Dialog(Frame parentWindow, String title, boolean mode)",
+        "option2": "Dialog(Frame parentWindow, boolean mode), Dialog(Frame parentWindow, String title, boolean mode, int horz, int vert)",
+        "option3": "Dialog(Frame parentWindow, boolean mode), Dialog(Frame parentWindow, String title, boolean mode, int rows, int column)",
+        "option4": "Dialog(Frame parentWindow, boolean mode), Dialog(Frame parentWindow, String title)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "To create a file dialog box, instantiate an ______ of type FileDialog.",
+        "option1": "Method",
+        "option2": "Class",
+        "option3": "Object",
+        "option4": "Package",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Constructor of FileDialog",
+        "option1": "FileDialog(Frame parent, String boxName), FileDialog(Frame parent, String boxName, int how, int horz, int vert), FileDialog(Frame parent)",
+        "option2": "FileDialog(Frame parent, String boxName)",
+        "option3": "FileDialog(Frame parent, String boxName), FileDialog(Frame parent, String boxName, int how), FileDialog(Frame parent)",
+        "option4": "FileDialog(Frame parent, String boxName), FileDialog(Frame parent, String boxName, int how)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "For the file to be in reading mode which method is used",
+        "option1": "FileDialog.SAVE",
+        "option2": "FileDialog.WRITE",
+        "option3": "FileDialog.LOAD",
+        "option4": "FileDialog.READ",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "For the file to be in writing mode which method is used",
+        "option1": "FileDialog.SAVE",
+        "option2": "FileDialog.WRITE",
+        "option3": "FileDialog.LOAD",
+        "option4": "FileDialog.READ",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Select the correct Menubar classes from the following options",
+        "option1": "MenuBar, Menu, MenuItem",
+        "option2": "menubar, menu, menuitem",
+        "option3": "Both",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which menu option of types will have a checkmark next to them when they are selected?",
+        "option1": "CheckboxMenuItem",
+        "option2": "CheckedItem",
+        "option3": "MenuItem",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "You can disable or enable a menu item by using the ____________ method.",
+        "option1": "setStatus()",
+        "option2": "setEnabled( )",
+        "option3": "setMenuStatus()",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of these constructors throws HeadlessException?",
+        "option1": "CheckboxMenuItem()",
+        "option2": "CheckboxMenuItem(String itemName)",
+        "option3": "CheckboxMenuItem(String itemName, boolean on)",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which sets the command name of the action event that is fired by this menu item?",
+        "option1": "setActionCommand()",
+        "option2": "setMenuCommand()",
+        "option3": "Both",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "To check an item, pass ____ to ________.",
+        "option1": "true, setState()",
+        "option2": "check, setItemStatus()",
+        "option3": "check, setItemState()",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Constructors of checkbox are -",
+        "option1": "Checkbox( )",
+        "option2": "Checkbox(String str)",
+        "option3": "Checkbox(String str, boolean on, CheckboxGroup cbGroup)",
         "option4": "All of the above",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "In the Label(String str, int how) constructor value of how will be",
-        "option1": "Label.LEFT, Label.RIGHT, or Label.CENTER",
-        "option2": "Label.LEFT, Label.RIGHT, or Label.DOWN",
-        "option3": "Label.TOP, Label.BOTTOM, or Label.CENTER",
-        "option4": "Label.TOP, Label.BOTTOM, or Label.DOWN",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "To set or change the text in a label __ method and to obtain the current label by calling ___ method is used.",
-        "option1": "setTxt() , getTxt()",
-        "option2": "settext() , gettext()",
-        "option3": "setText() , getText()",
-        "option4": "getText() , setText()",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "To set the alignment of the string within the label by calling ___ method ,to obtain the current alignment ___ method is used.",
-        "option1": "getAlignment( ) ,setAlignment( )",
-        "option2": "setAlign( ) ,getAlign( )",
-        "option3": "setAlignment( ) ,getAlignment( )",
-        "option4": "getAlign( ) ,setAlign( )",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which packages will use for the following code:<br/><applet code='LabelDemo' width=300 height=200></applet><br/>public class LabelDemo extends Applet {public void init() {Label one = new Label('One');Label two = new Label('Two');Label three = new Label('Three');// add labels to applet window add(one);add(two);add(three);}}",
-        "option1": "import java.awt.*; import java.applet.*;",
-        "option2": "import javax.swing.*; import java.awt.*;",
-        "option3": "import javax.swing.*; import java.applet.*;",
-        "option4": "import java.applet.*; import java.awt.event.*;",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Button defines these two constructors:",
-        "option1": "Button( ), Button(Boolean str)",
-        "option2": "Button( ) ,Button(int str)",
-        "option3": "Button( ), Button(String str)",
-        "option4": "Button( ) ,Button(String str , int name)",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Set label of a button by calling __ method and can retrieve its label by calling __ method.",
-        "option1": "getLabel( ) , setLabel( )",
-        "option2": "setLabel( ) , getLabel( )",
-        "option3": "getlabel( ) , setlabel( )",
-        "option4": "setlabel( ) , getlabel( )",
+        "question": "import java.awt.*;\nimport java.applet.*;\nimport java.util.*;\n/*\n<applet code=\"BorderLayoutDemo\" width=400 height=200>\n</applet>\n*/\npublic class BorderLayoutDemo extends Applet {\npublic void init() {\nadd(new Button(\"north.\"), BorderLayout.NORTH);\nadd(new Button(\"south\"), BorderLayout.SOUTH);\nadd(new Button(\"Right\"), BorderLayout.EAST);\nadd(new Button(\"Left\"), BorderLayout.WEST);\nString msg = \"this is in center\";\nadd(new TextArea(msg), BorderLayout.CENTER);\n}\n}\n",
+        "option1": "SetLayout(new BorderLayout());",
+        "option2": "setLayout(new BorderLayout());",
+        "option3": "setLayout(new Borderlayout());",
+        "option4": "setLayout(new borderLayout());",
         "Answer": "option2",
         "marks": 1
     },
     {
-        "question": "Each time a button is pressed, an ___ is generated.",
-        "option1": "mouse event",
-        "option2": "Keyboard event",
-        "option3": "item event",
-        "option4": "action event",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "For button __ interface is implemented.",
-        "option1": "ActionListener",
-        "option2": "ItemListener",
-        "option3": "MouseListener",
-        "option4": "FocusListener",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "actionPerformed() method is used in ___ interface.",
-        "option1": "ActionListener",
-        "option2": "ItemListener",
-        "option3": "MouseListener",
-        "option4": "FocusListener",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Which class can be used to represent a checkbox with a textual label that can appear in a menu.",
-        "option1": "MenuBar",
-        "option2": "MenuItem",
-        "option3": "CheckboxMenuItem",
-        "option4": "Menu",
+        "question": "What should be written in the blank space.\nimport java.awt.*;\nimport java.awt.event.*;\nimport java.applet.*;\n/*\n<applet code=\"CBGroup\" width=250 height=200>\n</applet>\n*/\npublic class CBGroup extends Applet {\nString msg = \"\";\nCheckbox Win98, winNT;\nCheckboxGroup cbg;\npublic void init() {\ncbg = new CheckboxGroup();\nWin98 = new Checkbox(\"Windows 98/XP\", , true);\nwinNT = new Checkbox(\"Windows NT/2000\", , false);\nadd(Win98);\nadd(winNT);\nWin98.addItemListener(this);\nwinNT.addItemListener(this);\n}\n}\n",
+        "option1": "Win98",
+        "option2": "winNT",
+        "option3": "cbg",
+        "option4": "this",
         "Answer": "option3",
         "marks": 1
     },
     {
-        "question": "To retrieve the current state of a check box, call __ method , to set its state, call __ method.",
-        "option1": "setState( ) , getState( )",
-        "option2": "getState( ) , setState( )",
-        "option3": "setstate( ) , getstate( )",
-        "option4": "getstate( ) , setstate( )",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Event handling in checkbox is done by __ listener and __ object is used.",
-        "option1": "ItemListener , ItemEvent",
-        "option2": "MouseListener , MouseEvent",
-        "option3": "ActionListener , ActionEvent",
-        "option4": "KeyListener , KeyEvent",
+        "question": "Find the error in the following code.\nimport java.awt.*;\nimport java.awt.event.*;\nimport java.applet.*;\npublic class ChoiceDemo extends Applet {\nChoice os;\nString msg = \"\";\npublic void init() {\nos = new Choice();\n// add items to os list\nos.add(\"Windows 98/XP\");\nos.add(\"Windows NT/2000\");\nadd(os);\n}\n}\n",
+        "option1": "Listener missing",
+        "option2": "applet code is missing",
+        "option3": "package missing",
+        "option4": "All",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "Which method is defined by the ItemListener interface?",
-        "option1": "actionPerformed()",
-        "option2": "ActionPerformed()",
-        "option3": "itemStateChanged()",
-        "option4": "ItemstateChanged()",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Choose the correct:",
-        "option1": "public class CheckboxDemo implement Applet extend ItemListener",
-        "option2": "public class CheckboxDemo extends Applet implements ItemListener",
-        "option3": "public class CheckboxDemo implements Applet extends ItemListener",
-        "option4": "public class CheckboxDemo extend Applet implement ItemListener",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "It is possible to create a set of mutually exclusive check boxes in which one and only one check box in the group can be checked at any one time by using __ component.",
-        "option1": "CheckboxGroup",
-        "option2": "Radio Button",
-        "option3": "Checkbox",
-        "option4": "Choice",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "You can determine which checkbox in a group is currently selected by calling __ method.",
-        "option1": "getselectedCheckbox( )",
-        "option2": "GetSelectedCheckbox( )",
-        "option3": "getSelectedCheckbox( )",
-        "option4": "None of the above",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "To set a checkbox which method is used",
-        "option1": "setselectedCheckbox( )",
-        "option2": "setSelectedCheckbox( )",
-        "option3": "getselectedCheckbox( )",
-        "option4": "getSelectedCheckbox( )",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which is not the constructor of Checkbox class",
-        "option1": "Checkbox( )",
-        "option2": "Checkbox(String str)",
-        "option3": "Checkbox(String str ,boolean on)",
-        "option4": "Checkbox(String str, CheckboxGroup cb)",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Choice defines the following constructors:",
-        "option1": "Choice( ), Choice(String str)",
-        "option2": "Choice( )",
-        "option3": "Choice( ) , Choice(String str ,int a)",
-        "option4": "Choice(int str)",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which method is used to return the index of the item that is currently selected",
-        "option1": "getSelectedIndex( )",
-        "option2": "getSelectedItem( )",
-        "option3": "getSelectedIndex( ),getSelectedItem( )",
-        "option4": "None of the above",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Which method is used to return the string of the currently selected item",
-        "option1": "getSelectedItem( )",
-        "option2": "getSelectedIndex( )",
-        "option3": "getSelectedItem( ),getSelectedIndex( )",
-        "option4": "None of the above",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "The getItemCount( ) method is used to",
-        "option1": "To obtain the value of items in the list",
-        "option2": "To obtain the number of items in the list",
-        "option3": "Both a & b",
-        "option4": "None of the above",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Constuctors of scrollbar are",
-        "option1": "Scrollbar( ) ,Scrollbar(int style) ,Scrollbar(int style, int initialValue, int thumbSize)",
-        "option2": "Scrollbar( ), Scrollbar(int style) ,Scrollbar(int style, int initialValue, int thumbSize, int min",
-        "option3": "Scrollbar( ),Scrollbar(int style),Scrollbar(int style, int initialValue, int thumbSize, int max)",
-        "option4": "Scrollbar( ),Scrollbar(int style),Scrollbar(int style, int initialValue, int thumbSize, int min, int max)",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Scrollbar uses which two constants to create horizontal and vertical scrollbar.",
-        "option1": "Scrollbar.Vertical , Scrollbar.Horizontal",
-        "option2": "Vertical.SCROLLBAR , Horizontal.SCROLLBAR",
-        "option3": "Scrollbar.VERTICAL , Scrollbar.HORIZONTAL",
-        "option4": "None of the above",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "To obtain the current value of the scroll bar, call ___, to set the current value, call __ method.",
-        "option1": "setvalue( ), getvalue( )",
-        "option2": "setValue( ) , getValue( )",
-        "option3": "getvalue( ). setvalue( )",
-        "option4": "getValue( ) , setValue( )",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "You can retrieve the minimum and maximum values of scrollbar by __ and___ method",
-        "option1": "getMinimum( ), getMaximum( )",
-        "option2": "getMax(), getMin()",
-        "option3": "setMinimum(), setMaximum()",
-        "option4": "setMax(), setMin()",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Which interface is implemented for handling scrollbars.",
-        "option1": "ActionListener",
-        "option2": "AdjustmentListener",
-        "option3": "MouseMotionListener",
-        "option4": "ItemListener",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "The________ class implements a single-line text-entry area",
-        "option1": "TextArea class",
-        "option2": "TextField class",
-        "option3": "both a & b",
+        "question": "What will be the output for the following code?\nimport java.awt.*;\nimport java.applet.*;\n/*\n<applet code=\"GridLayoutDemo11\" width=300 height=200>\n</applet>\n*/\npublic class GridLayoutDemo11 extends Applet {\nstatic final int n = 4;\npublic void init() {\nsetLayout(new GridLayout(n, n));\nsetFont(new Font(\"SansSerif\", Font.BOLD, 24));\nfor(int i = 0; i < n; i++) {\nfor(int j = 0; j < n; j++) {\nint k = i * n + j;\nif(k > 0)\nadd(new Button(\"\" + k));\n}\n}\n}\n}\n",
+        "option1": "The grid will be filled with numbered buttons from 1 to 15.",
+        "option2": "The grid will be empty.",
+        "option3": "The grid will be filled with numbered buttons from 0 to 15.",
         "option4": "none of the above",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which of these is not a TextField Constructor",
-        "option1": "TextField( )",
-        "option2": "TextField(int numChars)",
-        "option3": "TextField(int rows)",
-        "option4": "TextField(String str)",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "To obtain the text currently in the text field, which method is used?",
-        "option1": "getWord()",
-        "option2": "getString()",
-        "option3": "getText()",
-        "option4": "getRow()",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Program can obtain the currently selected text by calling _________",
-        "option1": "getSelectedText()",
-        "option2": "getText()",
-        "option3": "getSelected()",
-        "option4": "getEdit()",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "Contents of a text field may be modified by the user by calling",
-        "option1": "setEditable( )",
-        "option2": "getEditable()",
-        "option3": "isEditable()",
+        "question": "Consider the following program. Find the error.\nimmport java.awt.*;\nimport java.applet.*;\nimport java.awt.event.*;\n/*<applet code=demo width=100 height=100>\n</applet> */\npublic class demo extends Applet {\npublic void init() {\nfirstlabel = new Label(\"Label 1\");\nsecondlabel = new Label(\"Label 2\");\nb1 = new Button(\"Enter\");\nadd(l1);\nadd(l2);\nadd(b1);\n}\n}\n",
+        "option1": "Firstlabel object is not declared",
+        "option2": "Secondlabel object is not declared",
+        "option3": "b1 object is not declared",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What will be the missing statement in Java to get the following output?\nimport java.awt.*;\nimport java.applet.*;\n/*\n<applet code=fontc width=500 height=500>\n</applet>\n*/\npublic class fontc extends Applet {\npublic void init() {\nFont f = new Font(\"Times New Roman\", Font.ITALIC, 30);\nsetFont(f);\n}\npublic void paint(Graphics g) {\ng.setColor(Color.red);\ng.drawString(\"SAGAR\", 10, 50);\n}\n}\n",
+        "option1": "Missing {",
+        "option2": "Missing }",
+        "option3": "Missing semicolon",
+        "option4": "Missing ()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the code to get the following output:\nimport java.awt.*;\nimport java.applet.*;\nimport java.awt.event.*;\n/*\n<applet code=sample width=100 height=100>\n</applet>\n*/\npublic class sample extends Applet {\nLabel l1, l2;\nButton b1;\nString msg = \"\";\npublic void init() {\nl1 = new Label(\"Label 1\");\nl2 = new Label(\"Label 2\");\nb1 = new Button(\"Enter\");\nadd(l1);\nadd(l2);\nadd(b1);\n}\n}\n",
+        "option1": "import java.awt.*;\nimport java.applet.*;\nimport java.awt.event.*;\n/*\n<applet code=sample width=100 height=100>\n</applet>\n*/\npublic class sample extends Applet {\nLabel l1, l2;\nButton b1;\nString msg = \"\";\npublic void init() {\nl1 = new Label(\"Label 1\");\nl2 = new Label(\"Label 2\");\nb1 = new Button(\"Enter\");\nadd(l1);\nadd(l2);\nadd(b1);\n}\n}\n",
+        "option2": "import java.awt.*;\nimport java.applet.*;\nimport java.awt.event.*;\n/*\n<applet code=sample width=100 height=100>\n</applet>\n*/\npublic class sample extends Applet {\nLabel l1;\nButton b1;\nString msg = \"\";\npublic void init() {\nl1 = new Label(\"Label 1\");\nb1 = new Button(\"Enter\");\nadd(l1);\nadd(b1);\n}\n}\n",
+        "option3": "import java.awt.*;\nimport java.applet.*;\nimport java.awt.event.*;\n/*\n<applet code=sample width=100 height=100>\n</applet>\n*/\npublic class sample extends Applet {\nLabel l1, l2;\nButton b1;\nString msg = \"\";\npublic void init() {\nl1 = new Label(\"Label 1\");\nl2 = new Label(\"Label 2\");\nadd(l1);\nadd(l2);\n}\n}\n",
+        "option4": "import java.awt.*;\nimport java.applet.*;\nimport java.awt.event.*;\n/*\n<applet code=sample width=100 height=100>\n</applet>\n*/\npublic class sample extends Applet {\nLabel l1, l2;\nButton b1;\nString msg = \"\";\npublic void init() {\nl1 = new Label(\"Label 1\");\nl2 = new Label(\"Label 2\");\nb1 = new Button(\"Enter\");\nadd(l1);\nadd(l2);\nadd(b1);\n}\n}\n",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the output of the following code:\nimport java.awt.*;\nimport java.applet.*;\n/*\n<applet code=\"GridLayoutDemo\" width=300 height=200></applet>\n*/\npublic class GridLayoutDemo extends Applet {\nint n = 4;\npublic void init() {\nsetLayout(new GridLayout(n, n, 10, 10));\nfor(int i = 0; i < n; i++) {\nfor(int j = 0; j < n; j++) {\nadd(new Button(\"k\"));\n}\n}\n}\n}\n",
+        "option1": "The grid will be filled with 16 buttons labeled \"k\".",
+        "option2": "The grid will be empty.",
+        "option3": "The grid will be filled with 16 buttons with default labels.",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which constructor creates a TextArea with 10 rows and 20 columns?",
+        "option1": "new TextArea(10, 20)",
+        "option2": "new TextArea(20, 10)",
+        "option3": "new TextArea(new Rows(10), new columns(20))",
+        "option4": "new TextArea(200)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following creates a List with 5 visible items and multiple selection enabled?",
+        "option1": "new List(5, true)",
+        "option2": "new List(true, 5)",
+        "option3": "new List(5, false)",
+        "option4": "new List(false,5)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method will cause a Frame to be displayed?",
+        "option1": "show()",
+        "option2": "setVisible()",
+        "option3": "display()",
+        "option4": "displayFrame()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The Choice component allows multiple selection.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The List component does not generate any events.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following components allow multiple selections?",
+        "option1": "Non-exclusive Checkboxes",
+        "option2": "Radio buttons",
+        "option3": "Choice",
+        "option4": "List",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which containers use a BorderLayout as their default layout?",
+        "option1": "Window",
+        "option2": "Frame",
+        "option3": "Dialog",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which containers use a FlowLayout as their default layout?",
+        "option1": "Panel",
+        "option2": "Applet",
+        "option3": "both a and b",
+        "option4": "only d",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns the preferred size of a component?",
+        "option1": "getPreferredSize()",
+        "option2": "getPreferred()",
+        "option3": "getRequiredSize()",
+        "option4": "getLayout()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which layout should you use to organize the components of a container in a tabular form?",
+        "option1": "CardLayout",
+        "option2": "BorderLayout",
+        "option3": "FlowLayout",
+        "option4": "GridLayout",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What are the default layouts for an applet, a frame, and a panel?",
+        "option1": "Flow layout, Border layout, Flow layout",
+        "option2": "Flow layout, Flow layout, Border layout",
+        "option3": "Border layout, Flow layout, Flow layout",
+        "option4": "Border layout, Border layout, Flow layout",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "An Applet has its Layout Manager set to the default of FlowLayout. What code would be correct to change to another Layout Manager?",
+        "option1": "setLayoutManager(new GridLayout());",
+        "option2": "setLayout(new GridLayout(2,2));",
+        "option3": "setGridLayout(2,2,)",
+        "option4": "setBorderLayout();",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which is a dual state menu item?",
+        "option1": "CheckboxMenuItem",
+        "option2": "Menu",
+        "option3": "MenuItem",
+        "option4": "All of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method can be used to enable/disable a checkbox menu item?",
+        "option1": "setState(boolean)",
+        "option2": "setstate(boolean)",
+        "option3": "setEnabled(boolean)",
+        "option4": "setenabled(boolean)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following may a menu contain?",
+        "option1": "A separator",
+        "option2": "A check box",
+        "option3": "A menu",
+        "option4": "A button",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Swing is a set of classes that provides more _____ and _____ components than are possible with the AWT",
+        "option1": "Powerful , Flexible",
+        "option2": "Great, Awesome",
+        "option3": "Better , Powerful",
+        "option4": "Stable, customizable",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Swing components are not implemented by ____ code.",
+        "option1": "platform-Specific",
+        "option2": "Platform-independant",
+        "option3": "Both",
+        "option4": "none",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Swing Components are ______ Weight",
+        "option1": "Light",
+        "option2": "Moderate",
+        "option3": "Heavy",
+        "option4": "All of the Above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Super Class For Swing Buttons",
+        "option1": "AbstractButton",
+        "option2": "Button",
+        "option3": "Jbutton",
+        "option4": "none",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which class encapsulates a mutually exclusive set of buttons.",
+        "option1": "MutualButtonGroup",
+        "option2": "ButtonGroup",
+        "option3": "JButtonGroup",
+        "option4": "ButtonsGroup",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which class encapsulates an icon.",
+        "option1": "Image",
+        "option2": "Icon",
+        "option3": "IconImage",
+        "option4": "ImageIcon",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which class represents the Swing version of Applet.",
+        "option1": "SwingApplet",
+        "option2": "SApplet",
+        "option3": "JApplet",
+        "option4": "JSApplet",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is Swing push button class.",
+        "option1": "JPushButton",
+        "option2": "PushButton",
+        "option3": "Jbutton",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is the Swing check box class.",
+        "option1": "JCheckbox",
+        "option2": "JSCheckbox",
+        "option3": "JCheckBox",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "JApplet is ___ with functionality when compared with Applet",
+        "option1": "Rich",
+        "option2": "poor",
+        "option3": "Same",
+        "option4": "different",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which class encapsulates a Swing combo box",
+        "option1": "JCombobox",
+        "option2": "jCombobox",
+        "option3": "JComboBox",
+        "option4": "none",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which package needs to be imported for using Swing Classes",
+        "option1": "java.swing",
+        "option2": "java.applet.swing",
+        "option3": "javax.swing",
+        "option4": "java.lang.swing",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Swing version of a label.",
+        "option1": "SwingLabel",
+        "option2": "Label",
+        "option3": "Jlabel",
+        "option4": "none",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The method used to add components to a Container",
+        "option1": "add()",
+        "option2": "Insert()",
+        "option3": "addComponent",
+        "option4": "InsertComponent",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The Swing version of a radio button.",
+        "option1": "JRadioButton",
+        "option2": "JRadiobutton",
+        "option3": "JradioButton",
+        "option4": "none",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which class Encapsulates a scrollable window in Swing",
+        "option1": "JScrollableWindow",
+        "option2": "JScrolllablewindow",
+        "option3": "JscrollableWindow",
+        "option4": "JScrollPane",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The Components in JApplet are added to",
+        "option1": "Current JApplet Class",
+        "option2": "ContentPane",
+        "option3": "both",
+        "option4": "none",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which class encapsulates a tabbed window.",
+        "option1": "JTabbedWindow",
+        "option2": "jTabbedWindow",
+        "option3": "JtabbedWindow",
+        "option4": "none",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Class which Encapsulates a table-based control",
+        "option1": "JControlTable",
+        "option2": "JTable",
+        "option3": "JcontrolTable",
+        "option4": "JControltable",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The Swing classes of a text field.",
+        "option1": "JTextField",
+        "option2": "JInputField",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "For using JTree one has to import javax.swing.tree seperately as only javax.swing.* does not works",
+        "option1": "True",
+        "option2": "Partially True",
+        "option3": "False",
+        "option4": "Partially False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Constructors for using Icon and Label In Swing",
+        "option1": "ImageIcon(String filename)",
+        "option2": "ImageIcon(URL url)",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "int getIconHeight( ) Returns the height of the icon as",
+        "option1": "centimetres",
+        "option2": "millimetres",
+        "option3": "pixels",
+        "option4": "none",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Constructor used to create a JTextField with predefined Text",
+        "option1": "JTextField(String s, int cols)",
+        "option2": "void setText(String)",
+        "option3": "both",
+        "option4": "none",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "JRadioButton class, which is a concrete implementation of ______",
+        "option1": "Container",
+        "option2": "AbstractButton",
+        "option3": "Both",
+        "option4": "none",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Items are added to the JComboBox using _____ method",
+        "option1": "add()",
+        "option2": "addItem()",
+        "option3": "addOption()",
+        "option4": "none",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "For a JComboBox Constructor which can be the arguments passed",
+        "option1": "Array",
+        "option2": "Vector",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which are the methods used for JLabel\nIcon getIcon()\nString getText()\nvoid setIcon(Icon i)\nvoid setText(String s)",
+        "option1": "All",
+        "option2": "Only Icon getIcon() and String getText()",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Constructors for JTextField\nJTextField()\nJTextField(int cols)\nJTextField(String s, int cols)\nJTextField(String s)",
+        "option1": "JTextField() and JTextField(int cols)",
+        "option2": "Both",
+        "option3": "None",
+        "option4": "Only JTextField() and JTextField(int cols)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Constructors for JCheckBox\nJCheckBox(Icon i)\nJCheckBox(Icon i, boolean state)\nJCheckBox(String s)\nJCheckBox(String s, boolean state)\nJCheckBox(String s, Icon i)\nJCheckBox(String s, Icon i, boolean state)",
+        "option1": "JCheckBox(Icon i) and JCheckBox(Icon i, boolean state)",
+        "option2": "Both",
+        "option3": "None",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "For JLabel alignment Constants are",
+        "option1": "LEFT, RIGHT, CENTER, LEADING, TRAILING",
+        "option2": "Only LEFT, and RIGHT",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Constructors for JLabel\nJLabel(Icon i)\nLabel(String s)\nJLabel(String s, Icon i, int align)",
+        "option1": "JLabel(Icon i) and Label(String s)",
+        "option2": "Both",
+        "option3": "None",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Components such as buttons have ______ capabilities in Swing.",
+        "option1": "More",
+        "option2": "Less",
+        "option3": "Equal",
+        "option4": "No",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "An Image can be changed as the state of the button changes.",
+        "option1": "True",
+        "option2": "False",
+        "marks": 1,
+        "Answer": "option1"
+    },
+    {
+        "question": "What is an AbstractButton class?",
+        "option1": "Abstract Superclass for Swing",
+        "option2": "Abstract subclass for Swing",
+        "option3": "Abstract Superclass for AWT",
+        "option4": "Abstract Subclass for AWT",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which class encapsulates a mutually exclusive set of buttons?",
+        "option1": "GroupButton",
+        "option2": "ButtonGroup",
+        "option3": "GroupingButton",
+        "option4": "ButtonGrouping",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which class is used to manage buttons in Swing?",
+        "option1": "SwingButton",
+        "option2": "Button",
+        "option3": "JButton",
+        "option4": "JSwingButton",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "AbstractButton class extends which class?",
+        "option1": "JComponent",
+        "option2": "AbstractComponent",
+        "option3": "ButtonComponent",
+        "option4": "Component",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "void setDisabledIcon(Icon di) - in this method, what is the work of “Icon di”?",
+        "option1": "This is the component that will be disabled",
+        "option2": "It is the icon that will be disabled",
+        "option3": "It is an icon that is displayed when a component is disabled",
+        "option4": "It deletes the icon displayed on the screen",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which Listener is used with subclasses of AbstractButton to generate events?",
+        "option1": "ActionListener",
+        "option2": "ItemListener",
+        "option3": "AdjustmentListener",
+        "option4": "KeyListener",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "AbstractButton is a superclass for which components?",
+        "option1": "Combo boxes, check boxes, and lists",
+        "option2": "Push buttons, check boxes, and radio buttons",
+        "option3": "Text fields, Text areas",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the correct constructor for JButton?",
+        "option1": "JButton(String s, Icon i)",
+        "option2": "JButton(Icon i, String s)",
+        "option3": "JButton(String s, Icon i, JButton.LEFT)",
         "option4": "None of the above",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "The echoing of the characters as they are typed by calling",
-        "option1": "setPassword()",
-        "option2": "setEchoChar( )",
-        "option3": "hideText()",
-        "option4": "setChar()",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "The AWT includes a simple multiline editor called",
-        "option1": "TextField",
-        "option2": "TextArea",
-        "option3": "Editor",
-        "option4": "Label",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following is not a constructor of TextArea",
-        "option1": "TextArea(String str)",
-        "option2": "TextArea(int numLines, int numChars)",
-        "option3": "TextArea(String str, int numLines, int numChars, int sBars)",
-        "option4": "TextArea(String str, int srows)",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which methods is not supported by TextArea",
-        "option1": "getText()",
-        "option2": "setFormat()",
-        "option3": "setText()",
-        "option4": "SetEditable()",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "The ________ method appends the string specified by str to the end of the current text.",
-        "option1": "append()",
-        "option2": "insertText()",
-        "option3": "attach()",
-        "option4": "editText()",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "____ method inserts the string passed in str at the specified index.",
-        "option1": "append()",
-        "option2": "attachText()",
-        "option3": "insert()",
-        "option4": "join()",
+        "question": "Which are the constructors of JButton class?\nJButton(Icon i)\nJButton(String s)\nJButton(String s, Icon i)",
+        "option1": "JButton(String s) and JButton(String s, Icon i)",
+        "option2": "JButton(String s, Icon i)",
+        "option3": "JButton(Icon i), JButton(String s), JButton(String s, Icon i)",
+        "option4": "None",
         "Answer": "option3",
         "marks": 1
     },
     {
-        "question": "To replace a text, which method is called?",
-        "option1": "replaceText()",
-        "option2": "changeText()",
-        "option3": "editText()",
-        "option4": "replaceRange()",
+        "question": "Which class is used to add Radio Buttons in swing?",
+        "option1": "RadioButtonSwing",
+        "option2": "RadioButton",
+        "option3": "SwingRadioButton",
+        "option4": "JRadioButton",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "Each ______ object has a layout manager associated with it.",
-        "option1": "Applet",
-        "option2": "Frame",
-        "option3": "Panel",
-        "option4": "Container",
+        "question": "What is the immediate superclass of JRadioButton class?",
+        "option1": "JToggleButton",
+        "option2": "JButton",
+        "option3": "JAbstractButton",
+        "option4": "JButtonMain",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is the correct syntax for constructor of JRadioButton?",
+        "option1": "JRadioButton(Icon i, String s, boolean state)",
+        "option2": "JRadioButton(String s, Icon i, boolean state)",
+        "option3": "JRadioButton(Icon i,boolean state, String s)",
+        "option4": "JRadioButton(boolean state, String s, Icon i)",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How many options can be selected at a time in JRadioButton?",
+        "option1": "Only one",
+        "option2": "Multiple",
+        "option3": "It is defined in the program",
+        "option4": "Only a maximum of six",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which methods is used to get the text associated with a Radio Button?",
+        "option1": "getText()",
+        "option2": "getActionCommand()",
+        "option3": "getradioButtonText()",
+        "option4": "getAction()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many options can be selected at a time in a JCheckBox?",
+        "option1": "Only one",
+        "option2": "It is defined in the program",
+        "option3": "As many as you want",
+        "option4": "JCheckBox isn’t a Swing component",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What will be the correct statement if you want a checkbox to be checked by default?",
+        "option1": "JCheckBox jc= new JCheckBox(String s, boolean checked)",
+        "option2": "JCheckBox jc= new JCheckBox(String s, boolean false)",
+        "option3": "JCheckBox jc= new JCheckBox(String s, boolean unchecked)",
+        "option4": "JCheckBox jc= new JCheckBox(String s, boolean true)",
         "Answer": "option4",
         "marks": 1
     },
-
+    {
+        "question": "Item Event for JCheckBox is handled by which method?",
+        "option1": "ItemStateChanged()",
+        "option2": "itemChanged()",
+        "option3": "itemStateChange()",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method is used to get the text of a check box?",
+        "option1": "GetText()",
+        "option2": "getCheckboxText()",
+        "option3": "getText( )",
+        "option4": "GetCheckboxText()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which method can be used to change the state of the JCheckBox?",
+        "option1": "void setSelecteor(boolean state)",
+        "option2": "void setSelected(boolean state)",
+        "option3": "void Setselected(boolean state)",
+        "option4": "void setSelectedItem(boolean state)",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "JTabbed Pane manages a set of _____ by linking them with ___",
+        "option1": "links, GUI",
+        "option2": "components, tabs",
+        "option3": "data, constructors",
+        "option4": "controls, GUI",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "JTabbed pane uses",
+        "option1": "SingleSelectionModel",
+        "option2": "MutipleSelectionModel",
+        "option3": "MVC Architecture",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Form of adding Tab",
+        "option1": "void addTab(String name, Component comp)",
+        "option2": "void addtab(String name, Component comp)",
+        "option3": "void addTab()",
+        "option4": "void AddTab(Stringname, Componentcomp)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Tabs are added by calling",
+        "option1": "getTab()",
+        "option2": "setTab()",
+        "option3": "addTab()",
+        "option4": "all of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Here, the component added to a tab is",
+        "option1": "JPanel",
+        "option2": "JFrame",
+        "option3": "JTextField",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Constructor(s) of JScrollPane",
+        "option1": "JScrollPane(Component comp)",
+        "option2": "ScrollPane(Componentcomp)",
+        "option3": "JScrollpane(Component string)",
+        "option4": "All of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A tree presents ______ view of data",
+        "option1": "Structural",
+        "option2": "Hierarchical",
+        "option3": "Multiple",
+        "option4": "Single",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Constructors of JTree are",
+        "option1": "JTree(Object obj[]), JTree(Vec), JTree(TreeNode tn)",
+        "option2": "JTree(Object obj[]), JTree(Vector<?> v), JTree(Treenode tn)",
+        "option3": "JTree(Object obj[]), JTree(Vector<?> v), JTree(TreenNode tn)",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The tree event classes and listener interfaces are packaged in",
+        "option1": "JAva.Swing.*",
+        "option2": "javaSwing.",
+        "option3": "java;",
+        "option4": "javax.Swing.event",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "You can obtain the path to the selected object by calling ______ shown here, on the event object ____________",
+        "option1": "getPath(), path p",
+        "option2": "getpath(), TreePath getPath( )",
+        "option3": "setpath, TreePath",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The __________ interface extends TreeNode",
+        "option1": "MutableTreeNode",
+        "option2": "DefaultMutableTreeNode",
+        "option3": "Both a & b",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "__________ is a component that displays rows and columns of data.",
+        "option1": "JPanel",
+        "option2": "JFrame",
+        "option3": "JTable",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Constructor used for JTable is",
+        "option1": "JTable(Object data[ ][ ], Object colHeads[ ])",
+        "option2": "JTable(Object data[ ][ ], Object colHeads[ ])",
+        "option3": "JTable()",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "MVC stands for",
+        "option1": "Model-View-Control",
+        "option2": "Menu-View-Control",
+        "option3": "Menu-Visual-Control",
+        "option4": "Model-View-Controller",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In MVC terminology, the model corresponds to the",
+        "option1": "Components and links",
+        "option2": "state information associated with the component.",
+        "option3": "Data",
+        "option4": "All of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The _____________ determines how the component reacts to the user",
+        "option1": "View",
+        "option2": "Controller",
+        "option3": "User",
+        "option4": "Model",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In which package Swing components are defined?",
+        "option1": "javax.applet.swing",
+        "option2": "javax.swing",
+        "option3": "java.javax.swing",
+        "option4": "javax.java.swing",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The super class of all swing buttons is",
+        "option1": "Button",
+        "option2": "ButtonGroup",
+        "option3": "JButton",
+        "option4": "AbstractButton",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following alignment is not possible for JLabel?",
+        "option1": "TOP",
+        "option2": "LEFT",
+        "option3": "CENTER",
+        "option4": "LEADING",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Alignment constants of JLabel are the part of",
+        "option1": "SwingConstants interface",
+        "option2": "SwingConstants class",
+        "option3": "Swing class",
+        "option4": "Graphics class",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How will you set icon for the JLabel?",
+        "option1": "Using Icon class directly",
+        "option2": "Using setIcon( ) method",
+        "option3": "Using makeIcon( ) method",
+        "option4": "It is not possible to set icon for JLabel",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Swing’s text field is encapsulated by",
+        "option1": "Component class",
+        "option2": "JComponent class",
+        "option3": "Container class",
+        "option4": "JTextComponent class",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How to give number of columns for JTextField?",
+        "option1": "Use setColumns( ) method",
+        "option2": "Use the value directly in the constructor",
+        "option3": "Using applyColumn( ) method.",
+        "option4": "We have to use JTextArea class",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the return type of getText( ) method of JButton class?",
+        "option1": "void",
+        "option2": "String",
+        "option3": "Character array",
+        "option4": "There is no such method",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How will you assign the string and icon both to the JButton?",
+        "option1": "It is not possible",
+        "option2": "Use the setTextIcon( ) method",
+        "option3": "Use the setIconText( ) method",
+        "option4": "Initialize them directly in the constructor",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which event is generated when a JButton is pushed?",
+        "option1": "ItemEvent",
+        "option2": "TextEvent",
+        "option3": "PushEvent",
+        "option4": "ActionEvent",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Immediate super class of JCheckBox is",
+        "option1": "JComponent",
+        "option2": "JApplet",
+        "option3": "JCkeckBoxGroup",
+        "option4": "JToggleButton",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The constructor JCheckBox(true, “YES”) suggests that",
+        "option1": "Checkbox is selected and displays the string “YES” on it.",
+        "option2": "Checkbox is deselected and displays the string “YES” on it.",
+        "option3": "Checkbox is selected and it shows the tick always on it.",
+        "option4": "There is no such constructor.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When JCheckBox is clicked the _____ event is generated.",
+        "option1": "ItemEvent",
+        "option2": "ActionEvent",
+        "option3": "TextEvent",
+        "option4": "MouseEvent",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How can we create Radio buttons in Swing?",
+        "option1": "Using ButtonGroup class",
+        "option2": "Using JCheckboxGroup class",
+        "option3": "Using JRadioButton class",
+        "option4": "Using JButton class",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How to make the group of Radio buttons?",
+        "option1": "Using ButtonGroup class",
+        "option2": "Using JButtonGroup class",
+        "option3": "Using JRadioButton",
+        "option4": "Using AbstractButton class",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How to add the contents of the whole vector into the JComboBox?",
+        "option1": "Use the constructor of JComboBox",
+        "option2": "Use method addItem( )",
+        "option3": "Use method addVector( )",
+        "option4": "Use method addValues( )",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method is used to add the tabs in the tabbed pane?",
+        "option1": "add( )",
+        "option2": "addItem( )",
+        "option3": "addPane( )",
+        "option4": "addTab( )",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The scroll bar constants for scroll pane are defined in",
+        "option1": "Scrollbar class",
+        "option2": "ScrollPane class",
+        "option3": "ScrollPaneConstants class",
+        "option4": "Component class",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following constants shows scroll bars always?",
+        "option1": "HORIZONTAL_SCROLLBAR_ALWAYS",
+        "option2": "HORIZONTAL_SCROLLBAR_AS_NEEDED",
+        "option3": "HORIZONTAL_SCROLLBARS",
+        "option4": "HORIZONTAL_ALWAYS",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "JScrollPane is an immediate sub-class of",
+        "option1": "JContainer",
+        "option2": "JApplet",
+        "option3": "JComponent",
+        "option4": "ScrollPane",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Is it possible to add an array of objects to trees? How?",
+        "option1": "Not possible",
+        "option2": "Yes, using its one of the forms of constructor",
+        "option3": "Yes, using the add( ) method",
+        "option4": "Yes, using the addItem( ) method",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When the tree is expanded, which event is generated?",
+        "option1": "ExpansionEvent",
+        "option2": "TreeExpansionEvent",
+        "option3": "ItemEvent",
+        "option4": "ActionEvent",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When the user selects or deselects a node within the tree, which event is generated?",
+        "option1": "ExpansionEvent",
+        "option2": "TreeExpansionEvent",
+        "option3": "ItemEvent",
+        "option4": "TreeSelectionEvent",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When the data or structure of the tree changes, which event generates?",
+        "option1": "ExpansionEvent",
+        "option2": "TreeExpansionEvent",
+        "option3": "TreeModelEvent",
+        "option4": "TreeSelectionEvent",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "We can obtain the path to the selected object in the tree by calling __________ method.",
+        "option1": "translatePoint( )",
+        "option2": "getLocation( )",
+        "option3": "getPathForLocation( )",
+        "option4": "getPath( )",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The TreeNode is",
+        "option1": "A class",
+        "option2": "An interface",
+        "option3": "A variable",
+        "option4": "Nothing",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The TreeExpansionEvent class is defined in",
+        "option1": "java.awt package",
+        "option2": "javax.swing package",
+        "option3": "java.awt.event package",
+        "option4": "javax.swing.event package",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "TreeExpansionListener interface provides the following method",
+        "option1": "getExpanded( )",
+        "option2": "treeExpanded( )",
+        "option3": "expanded( )",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How to create a JTree for Vector elements?",
+        "option1": "Pass vector as a parameter for JTree",
+        "option2": "Use the method addElements( ) for JTree class.",
+        "option3": "Use the method addVector( ) method of JComponent class",
+        "option4": "It is not possible",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these are the subclasses of Toggle Button class?",
+        "option1": "JRadioButton",
+        "option2": "JCheckBox",
+        "option3": "Both a & b",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Find the Errors: \nimport java.awt.*;\nimport java.swing.*;\n/*<applet code=\"JLabelDemo\" width=250 height=150> </applet>*/\npublic class JLabelDemo extends JApplet {\npublic void init() {\nContainer contentPane = getContentPane();\nImageIcon ii = new ImageIcon(\"france.gif\");\nJLabel jl = new JLabel(\"France\", ii, JLabel.CENTER);\ncontentPane.add(jl);\n}\n}",
+        "option1": "It's Correct",
+        "option2": "Wrong package",
+        "option3": "Wrong constructor for creating Icon",
+        "option4": "Both b and c",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Error time :->\nimport java.awt.*;\nimport javax.swing.*;\n/*\n<applet code=\"JTextFieldDemo\" width=300 height=50>\n</applet>\n*/\npublic class JTextFieldDemo extends JApplet {\nJTextField jtf;\npublic void init() {\nContainer contentPane = getContentPane();\ncontentPane.setLayout(new FlowLayout());\njtf = new JTextField(15,\"Enter Text Here\");\ncontentPane.add(jtf);\n}\n}\na) Program Code is correct\nb) Wrong package imported\nc) Wrong constructor for TextField\nd) Wrong class extended",
+        "option1": "Program Code is correct",
+        "option2": "Wrong package imported",
+        "option3": "Wrong constructor for TextField",
+        "option4": "Wrong class extended",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "import java.awt.*;\nimport java.awt.event.*;\nimport javax.swing.*;\n/*\n<applet code=\"JComboBoxDemo\" width=300 height=100>\n</applet>\n*/\npublic class JComboBoxDemo extends JApplet implements ActionListener {\nJLabel jl;\nImageIcon france, germany, italy, japan;\npublic void init() {\nJComboBox jc = new JComboBox();\njc.addItem(\"France\");\njc.addItem(\"Germany\");\njc.addItem(\"Italy\");\njc.addItem(\"Japan\");\njc.addItemListener(this);\ncontentPane.add(jc);\njl = new JLabel(new ImageIcon(\"france.gif\"));\ncontentPane.add(jl);\n}\npublic void itemStateChanged(ItemEvent ie) {\nString s = (String)ie.getItem();\njl.setIcon(new ImageIcon(s + \".gif\"));\n}\n}\nContainer contentPane = getContentPane();\ncontentPane.setLayout(new FlowLayout);\nJComboBox jc = new JComboBox();\njc.addItem(\"France\");\njc.addItem(\"Germany\");\njc.addItem(\"Italy\");\njc.addItem(\"Japan\");\njc.addItemListener(this);\ncontentPane.add(jc);\njl = new JLabel(new ImageIcon(\"france.gif\"));\ncontentPane.add(jl);\n}\npublic void itemStateChanged(ItemEvent ie) {\nString s = (String)ie.getItem();\njl.setIcon(new ImageIcon(s + \".gif\"));\n}\n}\na) Wrong Listener Implemented\nb) Program code is correct\nc) Constructor for setting Layout is wrong\nd) Both a and c",
+        "option1": "Wrong Listener Implemented",
+        "option2": "Program code is correct",
+        "option3": "Constructor for setting Layout is wrong",
+        "option4": "Both a and c",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Fill in the empty spaces in the following program so that the program doesn’t have any errors:\nimport java.awt.*;\nimport java.awt._____.*;\nimport_____.swing.*;\n/*\n<applet code=\"JButtonDemo\" width=250 height=300>\n</applet>\n*/\npublic class JButtonDemo extends JApplet implements ActionListener {\nJTextField jtf;\npublic void init() {\n// Get content pane\nContainer contentPane = getContentPane();\ncontentPane.setLayout(new FlowLayout());\n// Add buttons to content pane\nImageIcon france = new ImageIcon(\"france.gif\");\nJButton jb = new_____(france);\njb.setActionCommand(\"France\");\njb.addActionListener(this);\ncontentPane.add(jb);\nImageIcon germany = new ImageIcon(\"germany.gif\");\njb = new JButton(germany);\njb.setActionCommand(\"Germany\");\njb.addActionListener(this);\ncontentPane.add(jb);\nImageIcon italy = new ImageIcon(\"italy.gif\");\njb = new JButton(italy);\njb.setActionCommand(\"Italy\");\njb.addActionListener(this);\ncontentPane.add(jb);\nImageIcon japan = new ImageIcon(\"japan.gif\");\njb = new JButton(japan);\njb.setActionCommand(\"Japan\");\njb.addActionListener(this);\ncontentPane.add(jb);\n// Add text field to content pane\njtf = new JTextField(15);\n_____.add(jtf);\n}\npublic void actionPerformed(ActionEvent ae) {\njtf.setText(ae.getActionCommand());\n}\n}\na) event, javax, JButton, contentPane\nb) event, Java, Button, cpp\nc) awt, Javax, JComboBox, contentPane.\nd) Swing, event, awt, JTextField",
+        "option1": "event, javax, JButton, contentPane",
+        "option2": "event, Java, Button, cpp",
+        "option3": "awt, Javax, JComboBox, contentPane.",
+        "option4": "Swing, event, awt, JTextField",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What will be the packages required for this program to work?\n/*\n<applet code=\"JRadioButtonDemo\" width=300 height=50>\n</applet>\n*/\npublic class JRadioButtonDemo extends JApplet implements ActionListener {\nJTextField tf;\npublic void init() {\n// Get content pane\nContainer contentPane = getContentPane();\ncontentPane.setLayout(new FlowLayout());\n// Add radio buttons to content pane\nJRadioButton b1 = new JRadioButton(\"A\");\nb1.addActionListener(this);\ncontentPane.add(b1);\nJRadioButton b2 = new JRadioButton(\"B\");\nb2.addActionListener(this);\ncontentPane.add(b2);\nJRadioButton b3 = new JRadioButton(\"C\");\nb3.addActionListener(this);\ncontentPane.add(b3);\n// Define a button group\nButtonGroup bg = new ButtonGroup();\nbg.add(b1);\nbg.add(b2);\nbg.add(b3);\n// Create a text field and add it\n// to the content pane\ntf = new JTextField(5);\ncontentPane.add(tf);\n}\na)\nimport java.awt.*;\nimport java.awt.event.*;\nimport javax.swing.*;\nb)\nimport java.Applet.*\nimport java.awt.*;\nc)\nimport javax.Swing.Tree.*\nimport javax.Swing.*;\nd)\nimport java.awt.*\nImport java.JApplet.*;",
+        "option1": "import java.awt.*;\nimport java.awt.event.*;\nimport javax.swing.*;",
+        "option2": "import java.Applet.*\nimport java.awt.*;",
+        "option3": "import javax.Swing.Tree.*\nimport javax.Swing.*;",
+        "option4": "import java.awt.*\nImport java.JApplet.*;",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Consider the following output. Find the missing statement in the program.\nimport javax.swing.*;\n/* <applet code=\"JTabbedPaneDemo\" width=400 height=100> </applet> */\npublic class JTabbedPaneDemo extends JApplet {\npublic void init() {\nJTabbedPane jtp = new JTabbedPane();\njtp.addTab(\"Cities\", new CitiesPanel());\njtp.addTab(\"Colors\", new ColorsPanel());\njtp.addTab(\"Flavors\", new FlavorsPanel());\n}\n}\nclass CitiesPanel extends JPanel {\npublic CitiesPanel() {\nJButton b1 = new JButton(\"New York\");\nadd(b1);\nJButton b2 = new JButton(\"London\");\nadd(b2);\nJButton b3 = new JButton(\"Hong Kong\");\nadd(b3);\nJButton b4 =new JButton(\"Tokyo\");\nadd(b4);\n}\n}\nclass ColorsPanel extends JPanel {\npublic ColorsPanel() {\nJCheckBox cb1 = new JCheckBox(\"Red\");\nadd(cb1);\nJCheckBox cb2 = new JCheckBox(\"Green\");\nadd(cb2);\nJCheckBox cb3 = new JCheckBox(\"Blue\");\nadd(cb3);\n}\n}\na) setPane();\nb) getContentPane().add(jtp);\nc) Both a & b\nd) None of these",
+        "option1": "setPane();",
+        "option2": "getContentPane().add(jtp);",
+        "option3": "Both a & b",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the error in the following program?\nimport java.awt.*;\nimport java.awt.event.*;\nimport java.applet.*;\n/* <applet code=ScrollDemo.class width=500 height=500> </applet> */\nPublic class ScrollDemo extends Applet implements AdjustmentListener {\nScrollbar s1,s2,s3;\npublic void init() {\ns1=new Scrollbar(Scrollbar.VERTICAL,0,1,0,255);\ns2=new Scrollbar(Scrollbar.VERTICAL,0,1,0,255);\ns3=new Scrollbar(Scrollbar.VERTICAL,0,1,0,255);\nadd(s1);\nadd(s2);\nadd(s3);\ns1.addAdjustmentListener(this);\ns2.addAdjustmentListener(this);\ns3.addAdjustmentListener(this);\n}\npublic void adjustmentChange(AdjustmentEvent ae) {\nsetBackground(new Color(s1.getValue(),s2.getValue(),s3.getValue()));\n}\n}\na) ScrollDemo is not abstract and does not override abstract method\nb) adjustmentValueChanged(AdjustmentEvent) in AdjustmentListener public\nclass ScrollDemo extends Applet implements AdjustmentListener\nc) Both a & b\nd) None of these",
+        "option1": "ScrollDemo is not abstract and does not override abstract method",
+        "option2": "adjustmentValueChanged(AdjustmentEvent) in AdjustmentListener public\nclass ScrollDemo extends Applet implements AdjustmentListener",
+        "option3": "Both a & b",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "To get the following output complete the code given below.\nimport java.awt.*;\nImport java.awt.event.*;\nimport javax.swing.*;\nclass SimpleTableExample extends JFrame {\nPrivate JPanel topPanel;\nprivate JTable table;\nprivate JScrollPane scrollPane;\npublic SimpleTableExample() {\nsetTitle( \"Simple Table Application\" );\nsetSize( 300, 200 );\nsetBackground( Color.gray );\ntopPanel = new JPanel();\ntopPanel.setLayout( new BorderLayout() );\ngetContentPane().add( topPanel );\nString columnNames[] = { \"Column 1\", \"Column 2\",\"Column 3\" };\nString dataValues[][] = { { \"12\", \"234\", \"67\" }, { \"-123\", \"43\", \"853\" }, { \"93\",\"89.2\", \"109\" }, { \"279\", \"9033\", \"3092\" }\n};\ntopPanel.add( scrollPane, BorderLayout.CENTER );\n}\npublic static void main( String args[] ) {\nSimpleTableExample mainFrame = new\nSimpleTableExample(); mainFrame.setVisible( true );\n}\n}\na) table = new JTable(dataValues,column Names );\nscrollPane = new JScrollPane( table );\nb) table = new JTable\nc) New JScrollPane( t)\nd) Both a & b",
+        "option1": "table = new JTable(dataValues,column Names );\nscrollPane = new JScrollPane( table );",
+        "option2": "table = new JTable",
+        "option3": "New JScrollPane( t)",
+        "option4": "Both a & b",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which statement should be added to display button.\nimport java.awt.*;\nimport javax.swing.*;\n/*\n<applet code=\"JButtonDemo\" width=250 height=300>\n</applet>\n*/\npublic class JButtonDemo extends JApplet {\npublic void init() {\nContainer contentPane = getContentPane();\ncontentPane.setLayout(new FlowLayout());\nImageIcon img= new ImageIcon(\"jpgIcon.jpg\");\nJButton jb = new JButton(img);\n}\n}\na) ContentPane.add(jb);\nb) contentPane.add(jb);\nc) contentPane.add();\nd) contentPane.addButton(jb);",
+        "option1": "ContentPane.add(jb);",
+        "option2": "contentPane.add(jb);",
+        "option3": "contentPane.add();",
+        "option4": "contentPane.addButton(jb);",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of these packages contains all the classes and methods required for event handling in Java?",
+        "option1": "java.applet",
+        "option2": "java.awt",
+        "option3": "java.event",
+        "option4": "java.awt.event",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is an event in the delegation event model used by the Java programming language?",
+        "option1": "An event is an object that describes a state change in a source.",
+        "option2": "An event is an object that describes a state change in processing.",
+        "option3": "An event is an object that describes any change by the user and system.",
+        "option4": "An event is a class used for defining objects to create events.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these methods are used to register a keyboard event listener?",
+        "option1": "KeyListener()",
+        "option2": "addKistener()",
+        "option3": "addKeyListener()",
+        "option4": "eventKeyboardListener()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of these methods are used to register a mouse motion listener?",
+        "option1": "addMouse()",
+        "option2": "addMouseListener()",
+        "option3": "addMouseMotionListner()",
+        "option4": "eventMouseMotionListener()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Event class is defined in which of these libraries?",
+        "option1": "java.io",
+        "option2": "java.lang",
+        "option3": "java.net",
+        "option4": "java.util",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of these methods can be used to determine the type of event?",
+        "option1": "getID()",
+        "option2": "getSource()",
+        "option3": "getEvent()",
+        "option4": "getEventObject()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these classes is the superclass of all events?",
+        "option1": "EventClass",
+        "option2": "EventObject",
+        "option3": "ActionEvent",
+        "option4": "ItemEvent",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of these events will be notified if a scroll bar is manipulated?",
+        "option1": "ActionEvent",
+        "option2": "ComponentEvent",
+        "option3": "AdjustmentEvent",
+        "option4": "WindowEvent",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of these events will be generated if we close an applet’s window?",
+        "option1": "ActionEvent",
+        "option2": "ComponentEvent",
+        "option3": "AdjustmentEvent",
+        "option4": "WindowEvent",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The following steps are required to perform: 1) Implement the Listener interface and override its methods. 2) Register the component with the Listener. This is related to?",
+        "option1": "Exception Handling",
+        "option2": "String Handling",
+        "option3": "Event Handling",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The following specifies the advantages of: It is lightweight. It supports pluggable look and feel. It follows MVC (Model View Controller) architecture.",
+        "option1": "Swing",
+        "option2": "AWT",
+        "option3": "Both A & B",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which class header would be used to create an applet that accepts a click on a button?",
+        "option1": "public class MyApplet extends Japplet implements Listener",
+        "option2": "public class MyApplet extends Japplet implements ActionListener",
+        "option3": "public class MyApplet extends Japplet implements ActionEvent",
+        "option4": "public class MyApplet extends Japplet implements Event",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Select the correct Listener from the given options for **********. \nimport java.awt.*;\nimport java.awt.event.*;\nimport javax.swing.*;\npublic class JR extends JApplet implements ***********\n{ \nContainer c=getContentPane();\npublic void init()\n{ c.setLayout(new FlowLayout());\nJRadioButton b1=new JRadioButton(\"red\");\nb1.addActionListener(this);\nc.add(b1);\nJRadioButton b2=new JRadioButton(\"blue\");\nb2.addActionListener(this);\nc.add(b2);\nJRadioButton b3=new JRadioButton(\"green\");\nb3.addActionListener(this);\nc.add(b3);\nButtonGroup bg=new ButtonGroup();\nbg.add(b1);\nbg.add(b2);\nbg.add(b3);\n}\npublic void actionPerformed(ActionEvent e)\n{\nString str;\nstr=e.getActionCommand();\nif(str==\"red\")\nc.setBackground(Color.red);\nelse if(str==\"blue\")\nc.setBackground(Color.blue);\nelse if(str==\"green\")\nc.setBackground(Color.green);\n}\n}\n/*<applet code=JR width=200 height=200></applet>*/",
+        "option1": "ItemListener",
+        "option2": "ActionListener",
+        "option3": "MouseListener",
+        "option4": "WindowListener",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of these methods will respond when you click any button with a mouse?",
+        "option1": "mouseClicked()",
+        "option2": "mouseEntered()",
+        "option3": "mousePressed()",
+        "option4": "All of the mentioned",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is the integer constant of the TextEvent class?",
+        "option1": "TEXT_CHANGED",
+        "option2": "TEXT_FORMAT_CHANGED",
+        "option3": "TEXT_VALUE_CHANGED",
+        "option4": "TEXT_SIZE_CHANGED",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "MouseEvent is a subclass of which of these classes?",
+        "option1": "ComponentEvent",
+        "option2": "ContainerEvent",
+        "option3": "ItemEvent",
+        "option4": "InputEvent",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "An event is generated when the internal state of the event source is _____.",
+        "option1": "Not changed",
+        "option2": "Changed",
+        "option3": "Either changed or not",
+        "option4": "None of these.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Consider the following output. Find the missing statement in the program. \nimport java.awt.*;\nimport java.awt.event.*;\nimport java.applet.*;\nimport javax.swing.*;\n/* <applet code=\"SimpleKey1\" width=300 height=100> </applet> */\npublic class SimpleKey1 extends JApplet implements KeyListener\n{\nString msg = \"\";\nint X = 10, Y = 20;\npublic void init()\n{\naddKeyListener(this);\nrequestFocus();\n}\npublic void keyPressed(KeyEvent ke)\n{\nshowStatus(\"Key Down\");\n}\npublic void keyReleased(KeyEvent ke)\n{\nshowStatus(\"Key Up\");\npublic void keyTyped(KeyEvent ke)\n{\nmsg += ke.getKeyChar();\nrepaint(); }\npublic void paint(Graphics g)\n{\ng.drawString(msg, X, Y);\n}\n}",
+        "option1": "Missing Semicolon",
+        "option2": "Missing {",
+        "option3": "Missing }",
+        "option4": "Missing ()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are correct event handling methods?",
+        "option1": "mousePressed(MouseEvent e){ }",
+        "option2": "MousePressed(MouseClick e){}",
+        "option3": "functionKey(KeyPress k){}",
+        "option4": "Added(ContainerEvent e){}",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which methods are used to get information about the nature of the event?",
+        "option1": "getDescription()",
+        "option2": "getSource()",
+        "option3": "getID()",
+        "option4": "All of the mentioned",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which method of ActionEvent class returns the object that generated the event?",
+        "option1": "getSource()",
+        "option2": "getID()",
+        "option3": "getEvent()",
+        "option4": "getEventObject()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these methods are used to know the type of key pressed?",
+        "option1": "getKeyChar()",
+        "option2": "getKeyCode()",
+        "option3": "getExtendedKeyCode()",
+        "option4": "All of the mentioned",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Listeners are created by implementing one or more of the defined by the…………….",
+        "option1": "interfaces",
+        "option2": "class",
+        "option3": "listener",
+        "option4": "handler",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The isPopupTrigger( ) method returns",
+        "option1": "string",
+        "option2": "integer",
+        "option3": "Boolean",
+        "option4": "long",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The example of user interface elements that implement the ItemSelectable interface",
+        "option1": "checkbox and checkboxgroup",
+        "option2": "textfield and textarea",
+        "option3": "radiobutton and button",
+        "option4": "Lists and choices",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "public void removeTypeListener(TypeListener el)\nHere Type means",
+        "option1": "name of the event",
+        "option2": "type of listener",
+        "option3": "name of class",
+        "option4": "name of object",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The getActionCommand( ) method returns",
+        "option1": "string",
+        "option2": "integer",
+        "option3": "Boolean",
+        "option4": "long",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The getItem( ) method can be used",
+        "option1": "name of the method",
+        "option2": "type of listener",
+        "option3": "name of class",
+        "option4": "to obtain a reference to the item that changed",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The translatePoint( ) method",
+        "option1": "display x and y coordinates",
+        "option2": "changes the location of the event",
+        "option3": "name of class",
+        "option4": "to obtain a reference to the item that changed",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The WindowEvent class, WINDOW_DEACTIVATED, integer constants meaning",
+        "option1": "This window has lost the focus.",
+        "option2": "Restoring the window to its original size.",
+        "option3": "Reducing the window from to minimized.",
+        "option4": "Reducing the window from to maximized.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The WindowEvent class, WINDOW_ICONIFIED, integer constants meaning",
+        "option1": "This window has lost the focus.",
+        "option2": "Restoring the window to its original size.",
+        "option3": "Reducing the window from to minimized.",
+        "option4": "Reducing the window from to maximized.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The WindowEvent class, WINDOW_DEICONIFIED, integer constants meaning",
+        "option1": "This window has lost the focus.",
+        "option2": "Restoring the window to its original size.",
+        "option3": "Reducing the window from to minimized.",
+        "option4": "Reducing the window from to maximized.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which are the not types of key events",
+        "option1": "KEY_DOUBLE",
+        "option2": "KEY_PRESSED",
+        "option3": "KEY_RELEASED",
+        "option4": "KEY_TYPED",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "MOUSE_WHEEL integer constants is belong to ___________- event.",
+        "option1": "MouseMotionEvent",
+        "option2": "MouseWheelEvent",
+        "option3": "MouseEvent",
+        "option4": "all of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "MouseWheelEvent is a subclass of",
+        "option1": "KeyEvent",
+        "option2": "MouseMotionEvent",
+        "option3": "MouseEvent",
+        "option4": "MouseWheelEvent",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "WindowEvent is a subclass of",
+        "option1": "ComponentEvent",
+        "option2": "ContainerEvent",
+        "option3": "ActionEvent",
+        "option4": "AdjustmentEvent",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which one is not a method belong to ComponentListener Interface?",
+        "option1": "void componentResized(ComponentEvent ce)",
+        "option2": "void componentMoved(ComponentEvent ce)",
+        "option3": "void componentOpened(ComponentEvent ce)",
+        "option4": "void componentHidden(ComponentEvent ce)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "ComponentAdded( ) and componentRemoved( ) are the methods of",
+        "option1": "ComponentListener",
+        "option2": "MouseMotionEvent",
+        "option3": "ContainerListener",
+        "option4": "MouseWheelListener",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When a component loses ___________focus, focusLost( ) is called.",
+        "option1": "keyboard",
+        "option2": "mouse",
+        "option3": "window",
+        "option4": "panel",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method not use to obtain the coordinates of the mouse",
+        "option1": "string getcode()",
+        "option2": "int GetKEY()",
+        "option3": "int getKeyCode()",
+        "option4": "int getCode()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which method used to capture ALT, CTRL, META OR SHIFT keys",
+        "option1": "getModifiers()",
+        "option2": "getMod()",
+        "option3": "modifiers()",
+        "option4": "getAlt()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which top-level class provides methods to add and remove keyboard and mouse event listeners",
+        "option1": "Container",
+        "option2": "Applet",
+        "option3": "Window",
+        "option4": "Component",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Write the correct code at blank space:\npublic class ………………. extends Frame implements WindowListener\n{\nWindowExample()\n{\naddWindowListener(this);\nsetSize(400,400);\nsetLayout(null);\nsetVisible(true);\n}\npublic static void main(String[] args)\n{\nnew WindowExample();\n}\n}",
+        "option1": "Frame",
+        "option2": "Window",
+        "option3": "WindowExample",
+        "option4": "Example",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Assuming we have a class which implements the ActionListener interface, which method should be used to register this with a Button?",
+        "option1": "EnterActionListener(*)",
+        "option2": "addListener(*)",
+        "option3": "ActionListener(*)",
+        "option4": "addActionListener(*)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of these interfaces define a method actionPerformed()?",
+        "option1": "KeyListener",
+        "option2": "ButtonListener",
+        "option3": "InputListener",
+        "option4": "ActionListener",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "keyPressed() is method of …………………… interface.",
+        "option1": "KeyListener",
+        "option2": "ButtonListener",
+        "option3": "InputListener",
+        "option4": "ActionListener",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "keyReleased() is method of ………….. interface.",
+        "option1": "ActionListener",
+        "option2": "ButtonListener",
+        "option3": "InputListener",
+        "option4": "KeyListener",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "keyTyped() is method of………………..interface.",
+        "option1": "ActionListener",
+        "option2": "ButtonListener",
+        "option3": "InputListener",
+        "option4": "KeyListener",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "mouseClicked() is method of…………………interface.",
+        "option1": "MouseListener",
+        "option2": "ButtonListener",
+        "option3": "InputListener",
+        "option4": "KeyListener",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "mouseEntered() is method of…………………interface.",
+        "option1": "InputListener",
+        "option2": "ButtonListener",
+        "option3": "MouseListener",
+        "option4": "KeyListener",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "mouseExited() is method of…………………interface.",
+        "option1": "MouseListener",
+        "option2": "ButtonListener",
+        "option3": "InputListener",
+        "option4": "KeyListener",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "mousePressed() is method of…………………interface.",
+        "option1": "InputListener",
+        "option2": "ButtonListener",
+        "option3": "MouseListener",
+        "option4": "KeyListener",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Identify correct general form of MouseClicked( ) method of Mouse Listener interface.",
+        "option1": "void mouseClicked(me)",
+        "option2": "void Clicked(MouseEvent me)",
+        "option3": "void mouseClicked(MouseEvent me)",
+        "option4": "void mouseClick(MouseEvent me)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Select the method of MouseMotionListener Interface.",
+        "option1": "void mouseClicked(MouseEvent me)",
+        "option2": "void mouseEntered(MouseEvent me)",
+        "option3": "void mouseExited(MouseEvent me)",
+        "option4": "void mouseMoved(MouseEvent me)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Select the method of MouseWheelListener Interface.",
+        "option1": "void mouseClicked(MouseWheelEvent me)",
+        "option2": "void mouseEntered(MouseWheelEvent t me)",
+        "option3": "void mouseWheelMoved(MouseWheelEvent mwe)",
+        "option4": "void mouseExited(MouseWheelEvent me)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of these are methods of TextListener Interface?",
+        "option1": "textValueChanged()",
+        "option2": "setText()",
+        "option3": "textChanged()",
+        "option4": "getText()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these methods are used to register a keyboard event Listener?",
+        "option1": "addMouseListener()",
+        "option2": "addKeyListener()",
+        "option3": "KeyListener()",
+        "option4": "addKey()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of these methods are used to register a mouse motion listener?",
+        "option1": "addMouseMotionListner()",
+        "option2": "addMouseListner()",
+        "option3": "addMouseWheelListner()",
+        "option4": "MouseMotionListner()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these methods are used to register a Window listener?",
+        "option1": "addMouseMotionListner()",
+        "option2": "ComponentListner()",
+        "option3": "WindowListener()",
+        "option4": "addWindowListener()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which source generates adjustment events?",
+        "option1": "Scroll bar",
+        "option2": "Checkbox",
+        "option3": "Radio Button",
+        "option4": "List",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "WindowActivated() is method of……………. interface.",
+        "option1": "WindowListener",
+        "option2": "KeyListener",
+        "option3": "AdjustmentListener",
+        "option4": "ContainerListener",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "windowClosed() is method of……………. interface.",
+        "option1": "KeyListener",
+        "option2": "WindowListener",
+        "option3": "AdjustmentListener",
+        "option4": "ContainerListener",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "windowDeactivated() is method of……………. interface.",
+        "option1": "WindowListener",
+        "option2": "KeyListener",
+        "option3": "AdjustmentListener",
+        "option4": "ContainerListener",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "windowDeiconified() () is method of……………. interface.",
+        "option1": "WindowListener",
+        "option2": "KeyListener",
+        "option3": "AdjustmentListener",
+        "option4": "ContainerListener",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "windowGainedFocus() and windowLostFocus() methods are belongs to …………………interface.",
+        "option1": "WindowListener",
+        "option2": "KeyListener",
+        "option3": "AdjustmentListener",
+        "option4": "WindowFocusListener",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "windowClosed() is method of……………. interface.",
+        "option1": "KeyListener",
+        "option2": "WindowListener",
+        "option3": "AdjustmentListener",
+        "option4": "ContainerListener",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Identify the class which is not an adapter class?",
+        "option1": "FocusAdapter",
+        "option2": "KeyAdapter",
+        "option3": "WindowAdapter",
+        "option4": "ItemAdapter",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Following are the integer constants which does not belong to ComponentEvent class.",
+        "option1": "COMPONENT_HIDDEN",
+        "option2": "COMPONENT_MOVED",
+        "option3": "COMPONENT_RESIZED",
+        "option4": "COMPONENT_ICONIFIED",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Identify correct adapter in following code:\nimport java.applet.*;\nimport java.awt.event.*;\n/*\n<applet code=\"AnonymousInnerClassDemo\" width=200 height=100>\n</applet>\n*/\npublic class AnonymousInnerClassDemo extends Applet\n{\npublic void init()\n{\naddMouseListener(new ______________()\n{\npublic void mousePressed(MouseEvent me)\n{\nshowStatus(\"Mouse Pressed\");\n}\n});\n}\n}",
+        "option1": "MouseAdapter",
+        "option2": "MouseMotion Adapter",
+        "option3": "KeyAdapter",
+        "option4": "mousepressed",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "An adapter class provides an ……………..implementation of all methods in an event listener interface.",
+        "option1": "interface",
+        "option2": "abstract",
+        "option3": "empty",
+        "option4": "runnable",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Identify correct name of event:\npublic void adjustmentValueChanged(……………………. e)\n{\nInteger i =e.getValue();\nframeLabel1.setText(i.toString());\n}",
+        "option1": "ScroolbarEvent",
+        "option2": "AdjustmentEvent",
+        "option3": "ActionEvent",
+        "option4": "TextAreaEvent",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Identify correct name of event:\npublic void mouseExited (________________ me)\n{\n// save coordinates\nmouseX = 0;\nmouseY = 10;\nmsg = \"Mouse exited.\";\nrepaint();\n}",
+        "option1": "InputEvent",
+        "option2": "MouseMotionEvent",
+        "option3": "KeyEvent",
+        "option4": "MouseEvent",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "101) Fill correct listener names:\npublic class MouseEvents extends Applet\nimplements MouseListener, MouseMotionListener\n{\nString msg = \"\";\nint mouseX = 0, mouseY = 0; // coordinates of mouse\npublic void init()\n{\n_______________ (this);\n_______________ (this);\n}\n…\n}\n",
+        "option1": "addListener, addMouseListener",
+        "option2": "addMouseMotionListener, addKeyListener",
+        "option3": "MouseListener , MotionListener",
+        "option4": "addMouseListener, addMouseMotionListener",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "102) Listeners are created by implementing one or more of the interfaces defined by the___________ package.",
+        "option1": "java.awt.event",
+        "option2": "java.util.event",
+        "option3": "java.lang.event",
+        "option4": "java.awt.listener",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "103) Identify the name of method which is not belong to WindowEvent.",
+        "option1": "int getOldState( )",
+        "option2": "int getNewState( )",
+        "option3": "Window OppositeWindow( )",
+        "option4": "Window getWindow( )",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "104) In List event source, generates _______ events when an item is double-clicked.",
+        "option1": "action",
+        "option2": "item",
+        "option3": "text",
+        "option4": "window",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "105) In List event source, generates ___________ events when an item is selected or deselected.",
+        "option1": "action",
+        "option2": "item",
+        "option3": "text",
+        "option4": "window",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "106) In Menu Item, generates ____________ events when a menu item is selected.",
+        "option1": "action",
+        "option2": "item",
+        "option3": "text",
+        "option4": "window",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "107) In Menu Item, generates ________ events when a checkable menu item is selected or deselected.",
+        "option1": "action",
+        "option2": "item",
+        "option3": "text",
+        "option4": "window",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "108) Identify the correct class name:\nimport java.awt.*;\nimport java.awt.event.*;\npublic class ________________ extends KeyAdapter\n{\n Label l;\n TextArea area;\n Frame f;\n KeyAdapterExample()\n {\n f=new Frame(\"Key Adapter\");\n l=new Label();\n l.setBounds(20,50,200,20);\n area=new TextArea();\n area.setBounds(20,80,300, 300);\n area.addKeyListener(this);\n f.add(l);\n f.add(area);\n f.setSize(400,400);\n f.setLayout(null);\n f.setVisible(true);\n }\n public void keyReleased(KeyEvent e) {\n String text=area.getText();\n String words[]=text.split(\"\\s\");\n l.setText(\"Words: \"+words.length+\" Characters:\"+text.length());\n }\n public static void main(String[] args)\n{\n new KeyAdapterExample();\n } \n}",
+        "option1": "KeyAdapterExample",
+        "option2": "KeyAdapter",
+        "option3": "KeyExample",
+        "option4": "AdapterExample",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "109) Identify the correct class name:\nimport java.awt.*;\nimport java.awt.event.*;\npublic class MouseAdapterExample extends MouseAdapter\n{\n Frame f;\n MouseAdapterExample()\n{\n f=new Frame(\"Mouse Adapter\");\n f.addMouseListener(this);\n f.setSize(300,300);\n f.setLayout(null);\n f.setVisible(true);\n }\n public void mouseClicked(MouseEvent e) {\n Graphics g=f.getGraphics();\n g.setColor(Color.BLUE);\n g.fillOval(e.getX(),e.getY(),30,30);\n }\npublic static void main(String[] args) {\n new _______________();\n}\n}",
+        "option1": "mousePressed",
+        "option2": "MouseAdapterExample",
+        "option3": "mouseClicked",
+        "option4": "MouseAdapter",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "110) Which of these are integer constants defined in ActionEvent class?",
+        "option1": "ALT_MASK",
+        "option2": "CTRL_MASK",
+        "option3": "SHIFT_MASK",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "111) When the size of component is changed, ____________ event is generated.",
+        "option1": "ComponentEvent",
+        "option2": "ContainerEvent",
+        "option3": "FocusEvent",
+        "option4": "InputEvent",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "112) When the component is added or removed ? Which of these events is generated ?",
+        "option1": "ComponentEvent",
+        "option2": "ContainerEvent",
+        "option3": "FocusEvent",
+        "option4": "InputEvent",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "113) FocusEvent is subclass of which of these classes?",
+        "option1": "ComponentEvent",
+        "option2": "ContainerEvent",
+        "option3": "FocusEvent",
+        "option4": "InputEvent",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "114) Match the correct pairs:\n\na. getSource() i. Determine the type of the event\nb. toString() ii. Returns the source of the event\nc. getID() iii. Constructor\nd. EventObject(Object src) iv. Returns the string equivalent of the event.\n",
+        "option1": "a-ii b-iv c-i d-iii",
+        "option2": "a-i b-iv c-ii d-iii",
+        "option3": "a-iii b-iv c-i d-ii",
+        "option4": "a-iv b-ii c-i d-iii",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "115) Match the correct pairs:\n\na. getKeyLocation() i. Set the keyCode value to indicate a physical key.\nb. getKeyCode() ii. Returns the character associated with the key in this event.\nc. getKeyChar() iii. Returns the location of the key that originated this key event.\nd. setKeyCode(int keyCode) iv. Returns the integer keyCode associated with the key in this event.\n",
+        "option1": "a-iii b-iv c-ii d-i",
+        "option2": "a-i b-iv c-ii d-iii",
+        "option3": "a-ii b-iv c-iii d-i",
+        "option4": "a-iv b-iii c-ii d-i",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "116) Consider following three statements:\n1) ActionListener Interface defines one method to receive action event\n2) ItemListener Interface defines one method to recognize when the state of item changes.\n3) MouseListener interface defines mouseMoved() method",
+        "option1": "Statement 1 and 2 are true",
+        "option2": "Statement 1 and 3 are true",
+        "option3": "Statement 2 and 3 are true",
+        "option4": "All are true",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "117) Which of the following are true?\nA) The MouseListener interface defines methods for handling mouse clicks.\nB) The MouseMotionListener interface defines methods for handling mouse clicks.\nC) The MouseClickListener interface defines methods for handling mouse clicks.\nD) The ActionListener interface defines methods for handling the clicking of a button.",
+        "option1": "Statement A and D true",
+        "option2": "Statement A and C true",
+        "option3": "Statement B and D true",
+        "option4": "Statement C and D true",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "118) Which of the following statements are false:\n1) windowlistener defines seven methods\n2) mouseMotionListener defines 2 methods\n3) ActionListener Interface defines three methods to receive action events\n4) KeyListener Interface defines three methods",
+        "option1": "Statement 2 is False",
+        "option2": "Statement 3 is False",
+        "option3": "Statement 1 is False",
+        "option4": "Statement 1 and 4 are False",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "119) Consider the following code:\nimport java.applet.*;\nimport java.awt.event.*;\n/*\n<applet code=\"InnerClassDemo\" width=200 height=100>\n</applet>\n*/\npublic class InnerClassDemo extends Applet {\npublic void init() {\naddMouseListener(new MyMouseAdapter());\n}\nclass MyMouseAdapter extends MouseAdapter {\npublic void mousePressed(MouseEvent me) {\nshowStatus(\"Mouse Pressed\");\n}\n}\n}\n",
+        "option1": "output : Mouse Pressed",
+        "option2": "Error in code",
+        "option3": "Syntax error",
+        "option4": "Error in package",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "120) Fill in the blanks.\nimport java.applet.*;\nimport java.awt.event.*;\n/*\n<applet code=\"InnerClassDemo\" width=200 height=100>\n</applet>\n*/\npublic class InnerClassDemo extends Applet {\npublic void init() {\n__________ (new MyMouseAdapter());\n}\nclass MyMouseAdapter extends _________________\n{\npublic void mousePressed(MouseEvent me) {\nshowStatus(\"Mouse Pressed\");\n}\n}\n}\n",
+        "option1": "addMouseListener, MouseAdapter",
+        "option2": "addmouselistener, MouseAdapter",
+        "option3": "addMouseListener, mouseAdapter",
+        "option4": "addMouseListener, mouseadapter",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "121) Fill the proper name of class.\nimport java.awt.*;\nimport java.awt.event.*;\nimport java.applet.*;\n/*<applet code=\"AdapterDemo\" width=300 height=100>\n</applet>\n*/\npublic class AdapterDemo extends Applet\n{\npublic void init()\n{\naddMouseListener(new MyMouseAdapter(this));\n}\n}\nclass MyMouseAdapter extends MouseAdapter\n{\n_________________ adapterDemo;\npublic MyMouseAdapter(AdapterDemo adapterDemo)\n{\nthis.adapterDemo = adapterDemo;\n}\n// Handle mouse clicked.\npublic void mouseClicked(MouseEvent me)\n{\nadapterDemo.showStatus(\"Mouse clicked\");\n}\n}\n",
+        "option1": "AdapterDemo",
+        "option2": "adapterDemo",
+        "option3": "adapterdemo",
+        "option4": "Adapterdemo",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "122) The following code segment shows that a class MyWindowAdapter extends WindowAdapter and implements the windowClosing() method.\nIdentify the correct adapter name and event name.",
+        "option1": "WindowAdapter, WindowEvent",
+        "option2": "MyWindowAdapter, WindowEvent",
+        "option3": "WindowAdapter, windowEvent",
+        "option4": "WindowEvent, WindowAdapter",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "123) Identify the correct adapter name and event name.\npublic class MyFocusListener extends _______________\n{\npublic void focusGained(_________________ fe)\n{\nButton button = (Button) fe.getSource();\nlabel.setText(button.getLabel());\n}\n}",
+        "option1": "FocusAdapter, FocusEvent",
+        "option2": "focusAdapter, FocusEvent",
+        "option3": "focusadapter, FocusEvent",
+        "option4": "FocusAdapter, Focusevent",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "124) Identify the class which is not an adapter class?",
+        "option1": "KeyAdapter",
+        "option2": "FocusAdapter",
+        "option3": "ItemAdapter",
+        "option4": "MouseMotionAdapter",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "125) Identify the correct event class\npublic void componentRemoved(____________________e)\n{\ndisplayMessage(\" removed from \", e);\n}",
+        "option1": "ContainerEvent",
+        "option2": "ComponentEvent",
+        "option3": "FocusEvent",
+        "option4": "WindowEvent",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "126) Find error in given program\nimport java.awt.*;\nimport java.awt.event.*;\npublic class KeyListenerExample extends Frame implements KeyListener { Label MyLAbel;\nTextArea area;\nKeyListenerExample()\n{\n MyLabel=new Label();\n MyLabel.setBounds(20,50,100,20);\n area=new TextArea();\n area.setBounds(20,80,300, 300);\n area.addKeyListener(this);\n add(MyLabel);add(area);\n setSize(400,400);\n setLayout(null);\n setVisible(true);\n}\npublic void keyPressed(KeyEvent e)\n{\n MyLabel.setText(\"Key Pressed\");\n }\npublic void keyReleased(KeyEvent e)\n{\n MyLabel.setText(\"Key Released\");\n }\npublic static void main(String[] args)\n{\n new KeyListenerExample();\n}\n}\n",
+        "option1": "All methods of Interface are not implemented",
+        "option2": "Package is wrong",
+        "option3": "Code is correct",
+        "option4": "Compile time error",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "127) What is the output of the following java program?\nclass Outer\n{\n void outerMethod() {\n System.out.println(\"inside outerMethod\");\n // Inner class is local to outerMethod()\n class Inner\n {\nvoid innerMethod() {\nSystem.out.println(\"inside innerMethod\");\n}\n }\n Inner y = new Inner();\n y.innerMethod();\n }\n}\nclass MethodDemo\n{\n public static void main(String[] args) {\n Outer x = new Outer();\n x.outerMethod();\n }\n}\n",
+        "option1": "inside outerMethod\ninside innerMethod",
+        "option2": "inside innerMethod\ninside outerMethod",
+        "option3": "No output",
+        "option4": "inside innerMethod",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "128) Identify the incorrect Integer constants for WindowEvent.",
+        "option1": "WINDOW_ACTIVATED",
+        "option2": "WINDOW_DEACTIVATED",
+        "option3": "WINDOW_LOST_FOCUS",
+        "option4": "WINDOW_GOT_FOCUS",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "129) Which source generates adjustment events?",
+        "option1": "Scroll bar",
+        "option2": "MenuItem",
+        "option3": "Button",
+        "option4": "List",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "130) Which of these are methods of TextListener Interface?",
+        "option1": "textValuechanged()",
+        "option2": "textvalueChanged()",
+        "option3": "TextValueChanged()",
+        "option4": "textValueChanged()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "131) Generates ______________________ when the user enters a character.",
+        "option1": "TextEvent",
+        "option2": "KeyEvent",
+        "option3": "MouseEvent",
+        "option4": "ComponentEvent",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "132) Identify the class which is not an adapter class?",
+        "option1": "MouseAdapter",
+        "option2": "ItemAdapter",
+        "option3": "WindowAdapter",
+        "option4": "KeyAdapter",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "133) Can outer Java classes access inner class private members?",
+        "option1": "Yes",
+        "option2": "No",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "134) An _______________ class listener interface and Event class Listener interface has same name.",
+        "option1": "Main class",
+        "option2": "Adapter Class",
+        "option3": "Event Class",
+        "option4": "Inner Class",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "135) An adapter class provides an __________ implementation of all methods in an event listener interface.",
+        "option1": "Complete",
+        "option2": "Multiple",
+        "option3": "Empty",
+        "option4": "None of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "136) Adapter classes are an _________ class for receiving various events.",
+        "option1": "Abstract class",
+        "option2": "Super class",
+        "option3": "Derived class",
+        "option4": "Base class",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "137) Which is the abstract adapter class for receiving keyboard focus events.",
+        "option1": "ComponentAdapter",
+        "option2": "KeyAdapter",
+        "option3": "FocusAdapter",
+        "option4": "MouseAdapter",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "138) An adapter class provides an empty implementation of all methods in an __________",
+        "option1": "event listener interface",
+        "option2": "KeyListenerInterface",
+        "option3": "MouseListenerInterface",
+        "option4": "None of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "139) How many methods are defined in the FocusListener interface?",
+        "option1": "3",
+        "option2": "5",
+        "option3": "4",
+        "option4": "2",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "140) How many methods are defined in the ContainerListener interface?",
+        "option1": "2",
+        "option2": "1",
+        "option3": "4",
+        "option4": "3",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "141) Fill in the blank: MouseListener interface defines…........methods",
+        "option1": "1",
+        "option2": "5",
+        "option3": "4",
+        "option4": "7",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "142) Fill in the blank: MouseMotionListener interface defines…........methods",
+        "option1": "3",
+        "option2": "4",
+        "option3": "1",
+        "option4": "2",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "143) WindowEvent is a subclass of",
+        "option1": "ComponentEvent",
+        "option2": "ContainerEvent",
+        "option3": "KeyEvent",
+        "option4": "InputEvent",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "144) Which method is used to capture ALT, CTRL, META OR SHIFT keys?",
+        "option1": "getModifiers()",
+        "option2": "getmodifiers()",
+        "option3": "GetModifiers()",
+        "option4": "Getmodifiers()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "145) Suppose that you want to have an object eh handle the TextEvent of a TextArea object t. How should you add eh as the event handler for t?",
+        "option1": "t.addTextListener(eh);",
+        "option2": "eh.addTextListener(t);",
+        "option3": "addTextListener(eh.t);",
+        "option4": "addTextListener(t,eh);",
+        "Answer": "option1",
+        "marks": 1
+    },
 ];
-module.exports = { data: unitTest};
+module.exports = { data: AJP};
