@@ -17,9 +17,10 @@
     </div>
 
     <button type="button" id="prev-btn" disabled aria-label="Previous Question">Previous</button>
-    <button type="button" id="submit-btn" aria-label="Submit Answer">Submit</button>
+    <!-- <button type="button" id="submit-btn" aria-label="Submit Answer">Submit</button> -->
     <button type="button" id="next-btn" aria-label="Next Question">Next</button>
     <button type="button" id="save-progress-btn" aria-label="Save Progress">Save Progress</button>
+    <button type="button" id="end-exam-btn" aria-label="End Exam">End Exam</button>
   </form>
 
   <button type="button" id="review-btn" style="display:none;">Review Answers</button>
@@ -37,9 +38,10 @@
       const submitBtn = document.getElementById('submit-btn');
       const saveProgressBtn = document.getElementById('save-progress-btn');
       const reviewBtn = document.getElementById('review-btn');
-      let currentQuestionIndex = 0;
+      const endExamBtn = document.getElementById('end-exam-btn');
+      let currentQuestionIndex =  0;
 
-      let selectedAnswers = JSON.parse(localStorage.getItem('selectedAnswers')) || {};
+      let selectedAnswers = {};
       let totalMarks = 0;
       let totalTime = 600; // Total time in seconds (e.g., 10 minutes)
       const timerElement = document.getElementById('time-left');
@@ -93,10 +95,12 @@
         const selectedOption = document.querySelector('input[name="answer"]:checked');
         if (selectedOption) {
           selectedAnswers[currentQuestionIndex] = selectedOption.value;
+        } else {
+          delete selectedAnswers[currentQuestionIndex]; // Remove answer if none is selected
         }
       }
 
-      function checkAnswer() {
+      /*function checkAnswer() {
         const selectedOption = document.querySelector('input[name="answer"]:checked');
         if (selectedOption) {
           const correctAnswer = questions[currentQuestionIndex].Answer;
@@ -109,7 +113,7 @@
         } else {
           alert('Please select an answer.');
         }
-      }
+      }*/
 
       function updateProgressBar() {
         const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
@@ -143,13 +147,27 @@
         document.body.appendChild(reviewContainer);
       }
 
+      function endExam() {
+        saveAnswer();
+        alert(`Test ended early! Your total score is: ${totalMarks}`);
+        showReview();
+      }
+
       saveProgressBtn.addEventListener('click', () => {
+        const selectedOption = document.querySelector('input[name="answer"]:checked');
+        if (selectedOption) {
+          const correctAnswer = questions[currentQuestionIndex].Answer;
+          if (selectedOption.value === correctAnswer) {
+            totalMarks += parseInt(questions[currentQuestionIndex].marks);
+          }}
         localStorage.setItem('selectedAnswers', JSON.stringify(selectedAnswers));
         localStorage.setItem('currentQuestionIndex', currentQuestionIndex);
         alert('Progress saved!');
       });
 
       reviewBtn.addEventListener('click', showReview);
+
+      endExamBtn.addEventListener('click', endExam);
 
       prevBtn.addEventListener('click', () => {
         saveAnswer();
@@ -167,26 +185,26 @@
         }
       });
 
-      submitBtn.addEventListener('click', () => {
+      /*submitBtn.addEventListener('click', () => {
         saveAnswer();
         checkAnswer();
         if (currentQuestionIndex === questions.length - 1) {
           alert(`Test completed! Your total score is: ${totalMarks}`);
           showReview();
         }
-      });
+      });*/
 
-      if (localStorage.getItem('selectedAnswers')) {
-        currentQuestionIndex = parseInt(localStorage.getItem('currentQuestionIndex'), 10);
-      }
-
-      startTimer();
       renderQuestion(currentQuestionIndex);
-
+      startTimer();
+      
     } catch (error) {
       console.error('Error parsing JSON data:', error);
     }
   </script>
+
+
+
+
 
   <style>
     #progress-bar-container {
