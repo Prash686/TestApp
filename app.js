@@ -30,9 +30,20 @@ app.get("/", (req, res) => {
     res.send("hi");
 });
 
-app.get("/questions", async (req, res) => {
+app.get("/practice", async (req, res) => {
     const allquestions = await questions.find({});
-    res.render("./index.ejs", { allquestions });
+    res.render("./practice.ejs", { allquestions });
+});
+
+app.get("/test", async (req, res) => {
+    const examquestions = await questions.find({});
+    let max = 296;
+    const allquestions = [];
+    for(i = 0 ; i < 20 ; i++){
+    let randomInteger = Math.floor(Math.random() * max);
+    allquestions.push(examquestions[randomInteger]);
+    }
+    res.render("./test.ejs", { allquestions });
 });
 
 app.get('/new', (req, res) => {
