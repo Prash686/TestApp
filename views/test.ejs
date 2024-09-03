@@ -1,29 +1,33 @@
 <% layout('boilerplate') %>
 <body>
-  <div id="progress-bar-container">
-    <div id="progress-bar"></div>
-  </div>
-
-  <div id="timer">Time left: <span id="time-left">10:00</span></div>
-
-  <h3>Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
-
-  <!-- Hidden input field to store the JSON string of questions -->
-  <input type="hidden" id="questions-data" value="<%- JSON.stringify(allquestions).replace(/"/g, '&quot;') %>">
-
-  <form id="quiz-form">
-    <div id="question-container">
-      <!-- The first question will be rendered here by JavaScript -->
+  <div id="form-container">
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
     </div>
 
-    <button type="button" id="prev-btn" disabled aria-label="Previous Question">Previous</button>
-    <!-- <button type="button" id="submit-btn" aria-label="Submit Answer">Submit</button> -->
-    <button type="button" id="next-btn" aria-label="Next Question">Next</button>
-    <button type="button" id="save-progress-btn" aria-label="Save Progress">Save Progress</button>
-    <button type="button" id="end-exam-btn" aria-label="End Exam">End Exam</button>
-  </form>
+    <div id="timer">Time left: <span id="time-left">10:00</span></div>
 
-  <button type="button" id="review-btn" style="display:none;">Review Answers</button>
+    <h3>Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
+
+    <!-- Hidden input field to store the JSON string of questions -->
+    <input type="hidden" id="questions-data" value="<%- JSON.stringify(allquestions).replace(/"/g, '&quot;') %>">
+
+    <form id="quiz-form">
+      <div id="question-container">
+        <!-- The first question will be rendered here by JavaScript -->
+      </div>
+
+      <div id="form-buttons">
+        <button type="button" id="prev-btn" class="form-button" disabled aria-label="Previous Question">Previous</button>
+        <!-- <button type="button" id="submit-btn" class="form-button" aria-label="Submit Answer">Submit</button> -->
+        <button type="button" id="next-btn" class="form-button" aria-label="Next Question">Next</button>
+        <button type="button" id="save-progress-btn" class="form-button" aria-label="Save Progress">Save Progress</button>
+        <button type="button" id="end-exam-btn" class="form-button" aria-label="End Exam">End Exam</button>
+      </div>
+    </form>
+
+    <button type="button" id="review-btn" class="form-button" style="display:none;">Review Answers</button>
+  </div>
 
   <script>
     try {
@@ -35,7 +39,6 @@
       const questionNumber = document.getElementById('question-number');
       const prevBtn = document.getElementById('prev-btn');
       const nextBtn = document.getElementById('next-btn');
-      const submitBtn = document.getElementById('submit-btn');
       const saveProgressBtn = document.getElementById('save-progress-btn');
       const reviewBtn = document.getElementById('review-btn');
       const endExamBtn = document.getElementById('end-exam-btn');
@@ -56,6 +59,7 @@
         questionContainer.innerHTML = ''; // Clear previous content
 
         const questionText = document.createElement('p');
+        questionText.classList.add('question-text');
         questionText.textContent = `Q. ${question.question} (marks ${question.marks})`;
         questionContainer.appendChild(questionText);
 
@@ -73,7 +77,7 @@
           const label = document.createElement('label');
           label.classList.add('form-check-label');
           label.setAttribute('for', `option${i}`);
-          label.textContent = `${i}) ${question[`option${i}`]}`;
+          label.textContent = `${question[`option${i}`]}`;
 
           if (selectedAnswers[index] === `option${i}`) {
             input.checked = true;
@@ -100,21 +104,6 @@
         }
       }
 
-      /*function checkAnswer() {
-        const selectedOption = document.querySelector('input[name="answer"]:checked');
-        if (selectedOption) {
-          const correctAnswer = questions[currentQuestionIndex].Answer;
-          if (selectedOption.value === correctAnswer) {
-            totalMarks += parseInt(questions[currentQuestionIndex].marks);
-            alert('Correct Answer!');
-          } else {
-            alert('Wrong Answer!');
-          }
-        } else {
-          alert('Please select an answer.');
-        }
-      }*/
-
       function updateProgressBar() {
         const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
         document.getElementById('progress-bar').style.width = `${progress}%`;
@@ -129,9 +118,20 @@
           if (totalTime < 0) {
             clearInterval(timerInterval);
             alert("Time's up!");
+            calculateTotalMarks();
+            alert(`Test completed! Your total score is: ${totalMarks}`);
             showReview();
           }
         }, 1000);
+      }
+
+      function calculateTotalMarks() {
+        totalMarks = 0; // Reset totalMarks to avoid duplicate addition
+        questions.forEach((question, index) => {
+          if (selectedAnswers[index] === question.Answer) {
+            totalMarks += parseInt(question.marks);
+          }
+        });
       }
 
       function showReview() {
@@ -139,27 +139,47 @@
         reviewBtn.style.display = 'block';
 
         const reviewContainer = document.createElement('div');
+        reviewContainer.id = 'review-container';
         questions.forEach((question, index) => {
           const reviewItem = document.createElement('div');
-          reviewItem.innerHTML = `<p>Q. ${question.question} <br> Your answer: ${selectedAnswers[index] || 'Not Answered'} <br> Correct answer: ${question.Answer}</p>`;
+          reviewItem.classList.add('review-item');
+
+          reviewItem.innerHTML = `<p>Q. ${question.question} <br>`;
+
+          for (let i = 1; i <= 4; i++) {
+            const optionValue = `option${i}`;
+            const isCorrect = optionValue === question.Answer;
+            const isSelected = selectedAnswers[index] === optionValue;
+
+            const optionText = question[optionValue];
+
+            let optionHTML;
+            if (isCorrect) {
+              optionHTML = `<span class="correct-answer">${optionText} (Correct Answer)</span>`;
+            } else if (isSelected) {
+              optionHTML = `<span class="wrong-answer">${optionText} (Your Answer)</span>`;
+            } else {
+              optionHTML = optionText;
+            }
+
+            reviewItem.innerHTML += `${optionHTML} <br>`;
+          }
+
+          reviewItem.innerHTML += `</p>`;
           reviewContainer.appendChild(reviewItem);
         });
+
         document.body.appendChild(reviewContainer);
       }
 
       function endExam() {
         saveAnswer();
+        calculateTotalMarks(); // Calculate total marks when ending the exam
         alert(`Test ended early! Your total score is: ${totalMarks}`);
         showReview();
       }
 
       saveProgressBtn.addEventListener('click', () => {
-        const selectedOption = document.querySelector('input[name="answer"]:checked');
-        if (selectedOption) {
-          const correctAnswer = questions[currentQuestionIndex].Answer;
-          if (selectedOption.value === correctAnswer) {
-            totalMarks += parseInt(questions[currentQuestionIndex].marks);
-          }}
         localStorage.setItem('selectedAnswers', JSON.stringify(selectedAnswers));
         localStorage.setItem('currentQuestionIndex', currentQuestionIndex);
         alert('Progress saved!');
@@ -185,45 +205,65 @@
         }
       });
 
-      /*submitBtn.addEventListener('click', () => {
-        saveAnswer();
-        checkAnswer();
-        if (currentQuestionIndex === questions.length - 1) {
-          alert(`Test completed! Your total score is: ${totalMarks}`);
-          showReview();
-        }
-      });*/
-
       renderQuestion(currentQuestionIndex);
       startTimer();
-      
+
     } catch (error) {
       console.error('Error parsing JSON data:', error);
     }
   </script>
 
-
-
-
-
   <style>
+    /* Google Forms inspired styling */
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+      color: #202124;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    #form-container {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+      padding: 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+
     #progress-bar-container {
       width: 100%;
       background-color: #e0e0e0;
-      height: 10px;
+      height: 8px;
+      border-radius: 4px;
       margin-bottom: 10px;
     }
 
     #progress-bar {
       width: 0%;
       height: 100%;
-      background-color: #76c7c0;
+      background-color: #4285f4;
+      border-radius: 4px;
       transition: width 0.5s;
     }
 
     #timer {
       font-size: 16px;
       font-weight: bold;
+      color: #34a853;
+      margin-bottom: 20px;
+      text-align: right;
+    }
+
+    h3 {
+      color: #202124;
+      font-weight: normal;
       margin-bottom: 20px;
     }
 
@@ -231,8 +271,86 @@
       margin-bottom: 20px;
     }
 
+    .question-text {
+      font-size: 16px;
+      color: #202124;
+      margin-bottom: 10px;
+    }
+
     .form-check {
       margin-bottom: 10px;
+      padding: 8px;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+
+    .form-check:hover {
+      background-color: #f1f3f4;
+    }
+
+    .form-check-input {
+      margin-right: 10px;
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+
+    .form-check-label {
+      cursor: pointer;
+      color: #202124;
+    }
+
+    #form-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .form-button {
+      background-color: #1a73e8;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.3s;
+    }
+
+    .form-button:hover {
+      background-color: #185abc;
+    }
+
+    #review-btn {
+      background-color: #34a853;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    #review-container {
+      margin-top: 20px;
+    }
+
+    .review-item {
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #f1f3f4;
+      border-radius: 4px;
+    }
+
+    .correct-answer {
+      color: #34a853;
+      font-weight: bold;
+    }
+
+    .wrong-answer {
+      color: #ea4335;
+      font-weight: bold;
     }
   </style>
 </body>
