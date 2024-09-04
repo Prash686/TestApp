@@ -1,42 +1,61 @@
 <% layout('boilerplate') %>
-<body>
-  <h3>Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
+<body class="bg-light">
+  <div class="container mt-5">
+    <h3 class="text-center mb-4">Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
 
-  <!-- Hidden input field to store the JSON string of questions -->
-  <input type="hidden" id="questions-data" value="<%- JSON.stringify(allquestions).replace(/"/g, '&quot;') %>">
+    <!-- Hidden input field to store the JSON string of questions -->
+    <input type="hidden" id="questions-data" value="<%- JSON.stringify(allquestions).replace(/"/g, '&quot;') %>">
 
-  <form method="GET" action="/submit">
-    <div id="question-container">
-      <!-- The first question will be rendered here by JavaScript -->
+    <form method="GET" action="/submit">
+      <div id="question-container" class="bg-white p-4 rounded shadow-lg mb-4">
+        <!-- The first question will be rendered here by JavaScript -->
+      </div>
+
+      <div class="d-flex justify-content-between align-items-center">
+        <button type="button" id="prev-btn" class="btn btn-primary btn-lg" disabled>Previous</button>
+        <div>
+          <button type="button" id="next-btn" class="btn btn-primary btn-lg mx-2">Next</button>
+          <button type="button" id="submit-btn" class="btn btn-success btn-lg">Submit</button>
+        </div>
+      </div>
+    </form>
+
+    <!-- Modal Structure -->
+    <div id="modal" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content rounded-3 shadow-lg">
+          <div class="modal-header bg-info text-white">
+            <h5 class="modal-title">Result</h5>
+            <button type="button" class="btn-close" id="modal-close" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p id="modal-message" class="text-center"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="modal-close-btn">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <button type="button" id="prev-btn" disabled>Previous</button>
-    <button type="button" id="next-btn">Next</button>
-    <button type="button" id="submit-btn">Submit</button>
-  </form>
+  </div>
 
   <script>
-    try {
-      // Fetch the JSON string from the hidden input field
-        jsonData = document.getElementById('questions-data').value;
-      //console.log('Raw JSON Data:', jsonData); // Debugging output to inspect JSON data
-
-      // Replace HTML entities and parse JSON
+    document.addEventListener('DOMContentLoaded', () => {
+      let jsonData = document.getElementById('questions-data').value;
       const cleanedJsonData = jsonData.replace(/&quot;/g, '"');
-      //console.log('Cleaned JSON Data:', cleanedJsonData); // Debugging output to inspect cleaned JSON data
-
       const questions = JSON.parse(cleanedJsonData);
-      //console.log('Questions array:', questions); // Debugging output to ensure questions array is populated
 
       const questionContainer = document.getElementById('question-container');
       const questionNumber = document.getElementById('question-number');
       const prevBtn = document.getElementById('prev-btn');
       const nextBtn = document.getElementById('next-btn');
       const submitBtn = document.getElementById('submit-btn');
+      const modal = new bootstrap.Modal(document.getElementById('modal'));
+      const modalMessage = document.getElementById('modal-message');
+      const modalClose = document.getElementById('modal-close');
+      const modalCloseBtn = document.getElementById('modal-close-btn');
 
       let currentQuestionIndex = 0;
-
-      // Store the selected answers
       const selectedAnswers = {};
 
       function renderQuestion(index) {
@@ -46,14 +65,13 @@
         }
 
         const question = questions[index];
-        questionContainer.innerHTML = ''; // Clear previous content
+        questionContainer.innerHTML = '';
 
-        // Question text
         const questionText = document.createElement('p');
         questionText.textContent = `Q. ${question.question} (marks ${question.marks})`;
+        questionText.classList.add('mb-3', 'fw-bold');
         questionContainer.appendChild(questionText);
 
-        // Creating radio buttons for options
         for (let i = 1; i <= 4; i++) {
           const div = document.createElement('div');
           div.classList.add('form-check');
@@ -70,7 +88,6 @@
           label.setAttribute('for', `option${i}`);
           label.textContent = `${i}) ${question[`option${i}`]}`;
 
-          // Check if this option was previously selected
           if (selectedAnswers[index] === i.toString()) {
             input.checked = true;
           }
@@ -80,7 +97,6 @@
           questionContainer.appendChild(div);
         }
 
-        // Update the question number and button states
         questionNumber.textContent = index + 1;
         prevBtn.disabled = index === 0;
         nextBtn.disabled = index === questions.length - 1;
@@ -93,18 +109,30 @@
         }
       }
 
+      function showModal(message) {
+        modalMessage.textContent = message;
+        modal.show();
+      }
+
+      modalClose.addEventListener('click', () => {
+        modal.hide();
+      });
+
+      modalCloseBtn.addEventListener('click', () => {
+        modal.hide();
+      });
+
       function checkAnswer() {
         const selectedOption = document.querySelector('input[name="answer"]:checked');
         if (selectedOption) {
           const correctAnswer = questions[currentQuestionIndex].Answer;
-          //console.log(selectedOption);
           if (selectedOption.value === correctAnswer) {
-            alert('Correct Answer!');
+            showModal('Correct Answer!');
           } else {
-            alert('Wrong Answer!');
+            showModal('Wrong Answer!');
           }
         } else {
-          alert('Please select an answer.');
+          showModal('Please select an answer.');
         }
       }
 
@@ -129,11 +157,67 @@
         checkAnswer();
       });
 
-      // Initial render
       renderQuestion(currentQuestionIndex);
-
-    } catch (error) {
-      console.error('Error parsing JSON data:', error);
-    }
+    });
   </script>
+
+  <!-- Bootstrap JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom Styles -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    #question-container {
+      background-color: #ffffff;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease-in-out;
+    }
+
+    #question-container:hover {
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #004085;
+    }
+
+    .btn-success {
+      background-color: #28a745;
+      border-color: #28a745;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn-success:hover {
+      background-color: #218838;
+      border-color: #1e7e34;
+    }
+
+    .modal-content {
+      border-radius: 1rem;
+    }
+
+    .modal-header {
+      background-color: #17a2b8;
+      color: #fff;
+    }
+
+    .modal-body {
+      font-size: 1.1rem;
+    }
+
+    .modal-footer .btn {
+      font-size: 1rem;
+    }
+  </style>
 </body>

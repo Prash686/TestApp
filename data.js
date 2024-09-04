@@ -17813,4 +17813,4 @@ const AJP = [
         "marks": 1
     },
 ];
-module.exports = { data: AJP};
+module.exports = { data: samplequestions};

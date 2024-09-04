@@ -9,17 +9,14 @@
 
     <h3>Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
 
-    <!-- Hidden input field to store the JSON string of questions -->
     <input type="hidden" id="questions-data" value="<%- JSON.stringify(allquestions).replace(/"/g, '&quot;') %>">
 
     <form id="quiz-form">
       <div id="question-container">
-        <!-- The first question will be rendered here by JavaScript -->
       </div>
 
       <div id="form-buttons">
         <button type="button" id="prev-btn" class="form-button" disabled aria-label="Previous Question">Previous</button>
-        <!-- <button type="button" id="submit-btn" class="form-button" aria-label="Submit Answer">Submit</button> -->
         <button type="button" id="next-btn" class="form-button" aria-label="Next Question">Next</button>
         <button type="button" id="save-progress-btn" class="form-button" aria-label="Save Progress">Save Progress</button>
         <button type="button" id="end-exam-btn" class="form-button" aria-label="End Exam">End Exam</button>
@@ -28,6 +25,8 @@
 
     <button type="button" id="review-btn" class="form-button" style="display:none;">Review Answers</button>
   </div>
+
+  <div id="message-box" class="message-box hidden"></div>
 
   <script>
     try {
@@ -42,12 +41,24 @@
       const saveProgressBtn = document.getElementById('save-progress-btn');
       const reviewBtn = document.getElementById('review-btn');
       const endExamBtn = document.getElementById('end-exam-btn');
+      const messageBox = document.getElementById('message-box');
       let currentQuestionIndex =  0;
 
       let selectedAnswers = {};
       let totalMarks = 0;
-      let totalTime = 600; // Total time in seconds (e.g., 10 minutes)
+      let totalTime = 600;
       const timerElement = document.getElementById('time-left');
+      let timerInterval;
+      let examEnded = false;
+
+      function showMessage(message, type = 'info') {
+        messageBox.textContent = message;
+        messageBox.className = `message-box ${type}`;
+        messageBox.classList.remove('hidden');
+        setTimeout(() => {
+          messageBox.classList.add('hidden');
+        }, 3000);
+      }
 
       function renderQuestion(index) {
         if (!questions || questions.length === 0) {
@@ -56,7 +67,7 @@
         }
 
         const question = questions[index];
-        questionContainer.innerHTML = ''; // Clear previous content
+        questionContainer.innerHTML = '';
 
         const questionText = document.createElement('p');
         questionText.classList.add('question-text');
@@ -100,7 +111,7 @@
         if (selectedOption) {
           selectedAnswers[currentQuestionIndex] = selectedOption.value;
         } else {
-          delete selectedAnswers[currentQuestionIndex]; // Remove answer if none is selected
+          delete selectedAnswers[currentQuestionIndex];
         }
       }
 
@@ -110,23 +121,24 @@
       }
 
       function startTimer() {
-        const timerInterval = setInterval(() => {
+        timerInterval = setInterval(() => {
+          if (examEnded) return; // Prevent timer updates if exam has ended
+
           const minutes = Math.floor(totalTime / 60);
           const seconds = totalTime % 60;
           timerElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
           totalTime--;
           if (totalTime < 0) {
             clearInterval(timerInterval);
-            alert("Time's up!");
+            showMessage("Time's up!", 'warning');
             calculateTotalMarks();
-            alert(`Test completed! Your total score is: ${totalMarks}`);
             showReview();
           }
         }, 1000);
       }
 
       function calculateTotalMarks() {
-        totalMarks = 0; // Reset totalMarks to avoid duplicate addition
+        totalMarks = 0;
         questions.forEach((question, index) => {
           if (selectedAnswers[index] === question.Answer) {
             totalMarks += parseInt(question.marks);
@@ -140,6 +152,7 @@
 
         const reviewContainer = document.createElement('div');
         reviewContainer.id = 'review-container';
+
         questions.forEach((question, index) => {
           const reviewItem = document.createElement('div');
           reviewItem.classList.add('review-item');
@@ -169,23 +182,33 @@
           reviewContainer.appendChild(reviewItem);
         });
 
+        const totalMarksElement = document.createElement('p');
+        totalMarksElement.classList.add('total-marks');
+        totalMarksElement.textContent = `Your total score is: ${totalMarks}`;
+        reviewContainer.appendChild(totalMarksElement);
+
         document.body.appendChild(reviewContainer);
       }
 
       function endExam() {
+        clearInterval(timerInterval);
+        examEnded = true;
         saveAnswer();
-        calculateTotalMarks(); // Calculate total marks when ending the exam
-        alert(`Test ended early! Your total score is: ${totalMarks}`);
+        calculateTotalMarks();
+        showMessage(`Test ended early! Your total score is: ${totalMarks}`, 'info');
         showReview();
       }
 
       saveProgressBtn.addEventListener('click', () => {
         localStorage.setItem('selectedAnswers', JSON.stringify(selectedAnswers));
         localStorage.setItem('currentQuestionIndex', currentQuestionIndex);
-        alert('Progress saved!');
+        showMessage('Progress saved!', 'success');
       });
 
-      reviewBtn.addEventListener('click', showReview);
+      reviewBtn.addEventListener('click', () => {
+        if (document.getElementById('review-container')) return; // Prevent creating multiple review containers
+        showReview();
+      });
 
       endExamBtn.addEventListener('click', endExam);
 
@@ -246,101 +269,93 @@
     }
 
     #progress-bar {
-      width: 0%;
       height: 100%;
       background-color: #4285f4;
+      width: 0;
       border-radius: 4px;
-      transition: width 0.5s;
-    }
-
-    #timer {
-      font-size: 16px;
-      font-weight: bold;
-      color: #34a853;
-      margin-bottom: 20px;
-      text-align: right;
     }
 
     h3 {
-      color: #202124;
-      font-weight: normal;
-      margin-bottom: 20px;
-    }
-
-    #question-container {
-      margin-bottom: 20px;
+      margin-top: 0;
+      font-size: 20px;
+      font-weight: 500;
     }
 
     .question-text {
-      font-size: 16px;
-      color: #202124;
-      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: 400;
     }
 
     .form-check {
       margin-bottom: 10px;
-      padding: 8px;
-      border-radius: 4px;
-      transition: background-color 0.2s;
-    }
-
-    .form-check:hover {
-      background-color: #f1f3f4;
-    }
-
-    .form-check-input {
-      margin-right: 10px;
-      transform: scale(1.2);
-      cursor: pointer;
     }
 
     .form-check-label {
-      cursor: pointer;
-      color: #202124;
-    }
-
-    #form-buttons {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
+      font-size: 16px;
+      margin-left: 8px;
     }
 
     .form-button {
-      background-color: #1a73e8;
+      background-color: #4285f4;
       color: white;
-      padding: 10px 20px;
       border: none;
+      padding: 10px 20px;
       border-radius: 4px;
       cursor: pointer;
+      margin-right: 10px;
       font-size: 14px;
-      transition: background-color 0.3s;
     }
 
-    .form-button:hover {
-      background-color: #185abc;
+    .form-button:disabled {
+      background-color: #a0c4ff;
+      cursor: not-allowed;
     }
 
     #review-btn {
       background-color: #34a853;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 14px;
-      margin-top: 20px;
-      width: 100%;
+      margin-top: 10px;
     }
 
-    #review-container {
-      margin-top: 20px;
+    #timer {
+      text-align: right;
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    .message-box {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      opacity: 0.9;
+      z-index: 1000;
+    }
+
+    .message-box.info {
+      background-color: #333;
+    }
+
+    .message-box.success {
+      background-color: #28a745;
+    }
+
+    .message-box.warning {
+      background-color: #ffc107;
+    }
+
+    .hidden {
+      display: none;
     }
 
     .review-item {
-      margin-bottom: 20px;
-      padding: 10px;
       background-color: #f1f3f4;
-      border-radius: 4px;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 10px;
     }
 
     .correct-answer {
@@ -351,6 +366,13 @@
     .wrong-answer {
       color: #ea4335;
       font-weight: bold;
+    }
+
+    .total-marks {
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 20px;
     }
   </style>
 </body>
