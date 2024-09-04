@@ -11,7 +11,7 @@
 
     <input type="hidden" id="questions-data" value="<%- JSON.stringify(allquestions).replace(/"/g, '&quot;') %>">
 
-    <form id="quiz-form">
+    <form id="Test-form">
       <div id="question-container">
       </div>
 
@@ -147,7 +147,7 @@
       }
 
       function showReview() {
-        document.getElementById('quiz-form').style.display = 'none';
+        document.getElementById('Test-form').style.display = 'none';
         reviewBtn.style.display = 'block';
 
         const reviewContainer = document.createElement('div');

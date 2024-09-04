@@ -107,7 +107,7 @@ try {
     }
 
     function showReview() {
-      document.getElementById('quiz-form').style.display = 'none';
+      document.getElementById('Test-form').style.display = 'none';
       reviewBtn.style.display = 'block';
 
       const reviewContainer = document.createElement('div');

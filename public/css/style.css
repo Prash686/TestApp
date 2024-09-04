@@ -3,7 +3,7 @@ body {
     background-color: #f8f9fa;
     color: #202124;
     margin: 0;
-    padding: 20px;
+    padding: 0px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -132,7 +132,6 @@ body {
     text-align: center;
     margin-top: 20px;
   }
-
   /* Small window for messages */
 .small-window {
     position: fixed;

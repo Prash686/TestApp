@@ -2,61 +2,247 @@
 <style>
   body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
+
+  /* Navbar */
+  .navbar {
+    background-color: #3c2559; /* Updated color */
+    padding: 0.5rem 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .navbar-brand {
+    color: #f8f9fa; /* Light grey */
+    font-weight: bold;
+    font-size: 1.75rem;
+    transition: color 0.3s ease;
+  }
+
+  .navbar-brand:hover {
+    color: #e9ecef; /* Off white */
+  }
+
+  .navbar-nav .nav-link {
+    color: #f8f9fa; /* Light grey */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .navbar-nav .nav-link:hover {
+    background-color: #2b1a3e; /* Darker shade */
+    color: #e9ecef; /* Off white */
+  }
+
+  /* Hero Section */
   .hero {
-    background: url('https://via.placeholder.com/1600x600') no-repeat center center;
+    background: url('images/hero.jpg') no-repeat center center;
     background-size: cover;
+    margin-top: 5px;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+    padding: 120px 0;
+    transition: background-size 0.5s ease;
+    position: relative;
+    overflow: hidden;
   }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+  }
+
+  .hero .container {
+    position: relative;
+    z-index: 1;
+  }
+
   .hero h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: bold;
+    margin-bottom: 0.5rem;
+    transition: opacity 0.5s ease;
   }
+
   .hero p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
+    transition: opacity 0.5s ease;
   }
+
+  .hero a.btn {
+    background-color: #3c2559; /* Updated color */
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .hero a.btn:hover {
+    background-color: #2b1a3e; /* Darker shade */
+    transform: scale(1.05);
+  }
+
+  /* Features Section */
+  #features {
+    padding: 3rem 0;
+    background-color: #f8f9fa; /* Light grey background */
+  }
+
+  .feature-card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
   .feature-icon {
     font-size: 3rem;
-    color: #007bff;
+    color: #3c2559; /* Updated color */
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
   }
-  .footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
+
+  .feature-icon:hover {
+    color: #2b1a3e; /* Darker shade */
   }
-  .card-deck {
+
+  /* Cards for Practice and Test */
+  .card-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 2rem;
+    margin-top: 2rem;
   }
+
   .card {
-    width: 18rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  .card img {
-    border-radius: 8px 8px 0 0;
-  }
-  .card-body {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
+    width: 300px;
+    padding: 1.5rem;
+    overflow: hidden;
   }
-  .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
   }
-  .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #004494;
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .card h3 {
+    margin-bottom: 1rem;
+    color: #343a40; /* Dark grey for card headings */
+  }
+
+  .card p {
+    margin-bottom: 1.5rem;
+    color: #6c757d; /* Medium grey for card text */
+  }
+
+  .card a {
+    background-color: #3c2559; /* Updated color */
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+  }
+
+  .card a:hover {
+    background-color: #2b1a3e; /* Darker shade */
+    transform: scale(1.05);
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #3c2559; /* Updated color */
+    padding: 2rem;
+    text-align: center;
+    color: #e9ecef; /* Light grey */
+  }
+
+  .footer a {
+    color: #e9ecef; /* Light grey */
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 80px 0;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+    }
+
+    .feature-card {
+      padding: 1rem;
+    }
+
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .hero h1 {
+      font-size: 1.75rem;
+    }
+
+    .hero p {
+      font-size: 1rem;
+    }
   }
 </style>
+
 <body>
   <!-- Header -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Quiz App</a>
+      <a class="navbar-brand" href="#">Test App</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -85,30 +271,60 @@
   <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="container">
-      <h1>Welcome to Quiz App</h1>
-      <p>Test your knowledge and improve your skills with our interactive quizzes.</p>
+      <h1>Welcome to Test App</h1>
+      <p>Test your knowledge and improve your skills with our interactive Tests.</p>
       <a href="/test" class="btn btn-primary btn-lg">Start Test</a>
     </div>
   </section>
-
-  <!-- Cards Section -->
-  <section class="container my-5">
-    <h2 class="text-center mb-4">Get Started</h2>
-    <div class="card-deck">
+<br>
+  <!-- Cards for Practice and Test -->
+  <section id="cards" class="container">
+    <h2 class="text-center mb-4">Explore Our Options</h2>
+    <div class="card-container">
       <div class="card">
-        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Practice">
-        <div class="card-body">
-          <h5 class="card-title">Practice</h5>
-          <p class="card-text">Enhance your skills with our practice questions.</p>
-          <a href="/practice" class="btn btn-primary">Practice Now</a>
-        </div>
+        <img src="/images/practice.png" alt="Practice Image">
+        <h3>Practice</h3>
+        <p>Refine your skills and improve your knowledge with practice Tests.</p>
+        <a href="/practice" class="btn btn-primary btn-lg">Start Practicing</a>
       </div>
       <div class="card">
-        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Test">
-        <div class="card-body">
-          <h5 class="card-title">Test</h5>
-          <p class="card-text">Take the test and measure your knowledge.</p>
-          <a href="/test" class="btn btn-primary">Start Test</a>
+        <img src="/images/test.png" alt="Test Image">
+        <h3>Test</h3>
+        <p>Challenge yourself with timed tests and see how you stack up.</p>
+        <a href="/test" class="btn btn-primary btn-lg">Take the Test</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="container my-5">
+    <h2 class="text-center mb-4">Features</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="feature-card text-center p-4">
+          <div class="feature-icon">
+            <i class="bi bi-check-circle"></i>
+          </div>
+          <h4>Interactive Questions</h4>
+          <p>Engaging Tests with various question types to test your knowledge effectively.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="feature-card text-center p-4">
+          <div class="feature-icon">
+            <i class="bi bi-trophy"></i>
+          </div>
+          <h4>Track Your Progress</h4>
+          <p>Monitor your performance and track improvements over time.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="feature-card text-center p-4">
+          <div class="feature-icon">
+            <i class="bi bi-people"></i>
+          </div>
+          <h4>Competitive Edge</h4>
+          <p>Challenge yourself and compete with others to climb the leaderboard.</p>
         </div>
       </div>
     </div>
@@ -116,11 +332,11 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <p>&copy; 2024 Quiz App. All rights reserved.</p>
-    <p>Contact us at <a href="mailto:support@quizapp.com">support@quizapp.com</a></p>
+    <p>&copy; 2024 Test App. All rights reserved.</p>
+    <p>Contact us at <a href="mailto:support@Testapp.com">support@Testapp.com</a></p>
     <div>
-      <a href="#" class="btn btn-outline-dark btn-sm me-2">Facebook</a>
-      <a href="#" class="btn btn-outline-dark btn-sm">Twitter</a>
+      <a href="#" class="btn btn-outline-light btn-sm me-2">Facebook</a>
+      <a href="#" class="btn btn-outline-light btn-sm">Twitter</a>
     </div>
   </footer>
 
