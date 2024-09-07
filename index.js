@@ -1,27 +1,3 @@
-// const mongoose = require("mongoose");
-// const initData = require("./data.js");
-// const questions = require("./question.js");
-
-// const Mongo = "mongodb://127.0.0.1:27017/TestApp";
-
-// main().then(() => {
-//     console.log("connected");
-// }).catch(err => {
-//     console.log(err);
-// });
-
-// async function main() {
-//     await mongoose.connect(Mongo);
-// }
-
-// const initDB = async () => {
-//     await questions.deleteMany({});
-//     await questions.insertMany(initData.data);
-//     console.log("sample was deleted");
-// }
-
-// initDB();
-
 const mongoose = require("mongoose");
 const initData = require("./data.js");
 const questions = require("./question.js");
@@ -41,7 +17,7 @@ async function main() {
 }
 
 const initDB = async () => {
-  await questions.deleteMany({});
+  // await questions.deleteMany({});
   await questions.insertMany(initData.data);
   console.log("data was initialized");
 };

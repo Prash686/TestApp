@@ -26,23 +26,27 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, '/public')));
 
-app.get("/", (req, res) => {
+app.get("/", async (req, res) => {
     res.render("./home.ejs");
+    
 });
 
 app.get("/practice", async (req, res) => {
     const allquestions = await questions.find({});
+    const allSubjects = await questions.distinct('subject');
     res.render("./practice.ejs", { allquestions });
 });
 
 app.get("/test", async (req, res) => {
     const examquestions = await questions.find({});
+    const allSubjects = await questions.distinct('subject');
     let max = 296;
     const allquestions = [];
     for(i = 0 ; i < 20 ; i++){
     let randomInteger = Math.floor(Math.random() * max);
     allquestions.push(examquestions[randomInteger]);
     }
+
     res.render("./test.ejs", { allquestions });
 });
 
@@ -50,13 +54,10 @@ app.get('/new', (req, res) => {
     res.render('new');
 });
 
-// app.post("/questions", async (req, res) => {
-//     const  newquestion = new questions (req.body.question);
-//     await newquestion.save();
-//     // let  newquestion = req.body.questions;
-//     console.log(newquestion);
-//     res.send("Form received!");
-// });
+app.get("/practice/allSubjects", async (req, res) => {
+    const allSubjects = await questions.distinct('subject');
+    res.render("./allSubjects.ejs", { allSubjects });
+});
 
 app.post("/questions", async (req, res) => {
     // Create a new question document with the data from the request body
