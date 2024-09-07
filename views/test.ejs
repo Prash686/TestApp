@@ -1,6 +1,6 @@
 <% layout('boilerplate') %>
-<body id="test-page">
-  <div id="form-container" class="offset-2">
+  <div class="test">
+  <div id="form-container" >
     <div id="progress-bar-container">
       <div id="progress-bar"></div>
     </div>
@@ -27,6 +27,7 @@
   </div>
 
   <div id="message-box" class="message-box hidden"></div>
+</div>
 
   <script>
     try {
@@ -238,13 +239,12 @@
 
   <style>
     /* Google Forms inspired styling */
-    
-    body {
+    .test {
       display: flex;
       justify-content: center;
       align-items: center;
+      min-height: 70vh;
     }
-
     #form-container {
       background-color: white;
       border-radius: 8px;
@@ -375,4 +375,4 @@
     }
     
   </style>
-</body>
+

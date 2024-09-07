@@ -1,16 +1,5 @@
 <% layout('boilerplate') %>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f8ff;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-
       h3 {
         text-align: center;
         color: #333;
@@ -68,21 +57,6 @@
       }
     </style>
   </head>
-  <body id="new-page">
-    <!-- <form method="POST" action="/questions">
-      <h3>Create a New Question</h3>
-      <input name="questions[subject]" placeholder="Enter Subject" type="text" />
-      <textarea name="questions[question]" placeholder="Enter question"></textarea>
-      <input name="questions[option1]" placeholder="Enter option1" type="text" />
-      <input name="questions[option2]" placeholder="Enter option2" type="text" />
-      <input name="questions[option3]" placeholder="Enter option3" type="text" />
-      <input name="questions[option4]" placeholder="Enter option4" type="text" />
-      <input name="questions[Answer]" placeholder="Enter Answer" type="text" />
-      <input name="questions[marks]" placeholder="Enter Marks" type="number" />
-      <input name="questions[topic]" placeholder="Enter Topic" type="text" />
-      <button>Add</button>
-
-    </form> -->
     <form action="/questions" method="POST">
       <label for="Subject">Subject:</label>
       <input type="text" name="subject" >
@@ -113,5 +87,3 @@
       
       <button type="submit">Submit</button>
   </form>
-  
-  </body>

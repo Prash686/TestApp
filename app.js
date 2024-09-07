@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const mongoose = require("mongoose");
 const questions = require("./question.js");
+const subjects = require("./subjects.js");
+const courses = require("./course.js");
 const ejs = require("ejs");
 const ejsMate = require("ejs-mate");
 const path = require("path");
@@ -33,7 +35,6 @@ app.get("/", async (req, res) => {
 
 app.get("/practice", async (req, res) => {
     const allquestions = await questions.find({});
-    const allSubjects = await questions.distinct('subject');
     res.render("./practice.ejs", { allquestions });
 });
 
@@ -48,6 +49,16 @@ app.get("/test", async (req, res) => {
     }
 
     res.render("./test.ejs", { allquestions });
+});
+
+app.get("/subjects", async (req, res) => {
+    const allSubjects = await subjects.find({});
+    res.render("./subjects.ejs", { allSubjects });
+});
+
+app.get("/courses", async (req, res) => {
+    const allSubjects = await courses.find({});
+    res.render("./subjects.ejs", { allSubjects });
 });
 
 app.get('/new', (req, res) => {
@@ -72,21 +83,6 @@ app.post("/questions", async (req, res) => {
         res.status(400).send("Error saving the question: " + err.message);
     }
 });
-
-// app.get("/testqes", async (req, res) => {
-//     let sampleqes = new qes({
-//         q : "how much percentage water is present on earth.",
-//         op1 : "71%",
-//         op2 : "29%",
-//         op3 : "72%",
-//         op4 : "28%",
-//         ans : "71%",
-//     });
-
-//     await sampleqes.save();
-//     console.log("sample was saved");
-//     res.send("successful testing");
-// });
 
 app.listen(8080, () => {
     console.log("success");

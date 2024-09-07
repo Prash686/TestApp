@@ -14488,6 +14488,7 @@ const unitTest =[
         "explanation": "India has around 50,000 species of plants, making it one of the most botanically diverse regions in the world."
     },     
 ];
+
 const AJP = [
     {
         "question": "The various controls supported by AWT are",
@@ -17813,4 +17814,33 @@ const AJP = [
         "marks": 1
     },
 ];
-module.exports = { data: samplequestions};
+
+const courses = [
+    {
+        "title": "MSBTE",
+        "discription": "The Maharashtra State Board of Technical Education (MSBTE) oversees diploma-level technical education in Maharashtra, offering a variety of polytechnic courses across engineering, pharmacy, and technology. It aims to provide students with industry-relevant skills and hands-on training through a network of affiliated polytechnic institutes.",
+        "image": "/images/msbte.jpeg",
+    },
+    {
+        "title": "MS-CIT",
+        "discription": "MS-CIT (Maharashtra State Certificate in Information Technology) is an IT literacy course offered by MKCL to provide foundational knowledge of computer skills. It covers basic computing, internet usage, and essential software tools, aimed at enhancing digital proficiency for everyday tasks.",
+        "image": "/images/mscit.jpg",
+    },
+];
+
+const subjects = [
+    {
+        "course": "MSBTE",
+        "title": "EST",
+        "discription": "Environmental Studies (EST) focuses on understanding the relationship between humans and the natural environment, addressing issues like pollution, biodiversity, and sustainability. It promotes awareness and solutions to environmental challenges for a healthier planet.",
+        "image": "/images/msbte.jpeg",
+    },
+    {
+        "course": "MSBTE",
+        "title": "AJP",
+        "discription": "Advanced Java Programming (AJP) delves into more complex Java concepts, such as servlets, JSP, and frameworks like Hibernate and Spring, for building robust web applications. It focuses on enterprise-level solutions, emphasizing multithreading, networking, and database integration.",
+        "image": "/images/msbte.jpeg",
+    },
+];
+
+module.exports = { data: courses};

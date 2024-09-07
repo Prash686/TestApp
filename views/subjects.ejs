@@ -1,0 +1,15 @@
+<% layout('boilerplate') %>
+    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-3" style="min-height: 70vh;">
+        <% for (let subject of allSubjects) { %>
+          <div class="card col" onclick="window.location.href='/<%= subject.title %>'">
+            <img src="<%= subject.image %>" class="card-img-top" alt="listing_image" style="height: 20rem;">
+            <div class="card-img-overlay"></div>
+            <div class="card-body">
+              <p class="card-text">
+                <b><%= subject.title %></b><br>
+                <%= subject.discription %>
+              </p>
+            </div>
+          </div>
+        <% } %>
+    </div>
