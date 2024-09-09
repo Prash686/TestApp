@@ -3,7 +3,7 @@
 <style>
 
   .container {
-    height: 70vh;
+    min-height: 70vh;
   }
 
   .card-container {
@@ -66,12 +66,12 @@
 </style>
 
 <section id="cards" class="container">
-  <h2 class="text-center mb-4">Please Select Subject</h2>
+  <h2 class="text-center mb-4">Please Select Course</h2>
   <div class="card-container row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-3">
-    <% for (let subject of allSubjects) { %>
-    <div class="card" onclick="window.location.href='/subjects/<%= subject.title %>'">
-      <img src="<%= subject.image %>" alt="Practice Image">
-      <h3><%= subject.title %></h3>
+    <% for (let course of allCourses) { %>
+    <div class="card" onclick="window.location.href='/courses/<%= course.title %>'">
+      <img src="<%= course.image %>" alt="Practice Image">
+      <h3><%= course.title %></h3>
     </div>
     <% } %>
   </div>
