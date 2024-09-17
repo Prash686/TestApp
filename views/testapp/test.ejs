@@ -1,0 +1,32 @@
+<% layout('/layouts/boilerplate') -%>
+<link rel="stylesheet" href="/css/test.css">
+
+  <div class="test" id="test">
+  <div id="form-container" >
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <div id="timer">Time left: <span id="time-left">10:00</span></div>
+
+    <h3>Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
+
+    <input type="hidden" id="questions-data" value="<%- JSON.stringify(allquestions).replace(/"/g, '&quot;') %>">
+
+    <form id="Test-form">
+      <div id="question-container">
+      </div>
+
+      <div id="form-buttons">
+        <button type="button" id="prev-btn" class="form-button" disabled aria-label="Previous Question">Previous</button>
+        <button type="button" id="next-btn" class="form-button" aria-label="Next Question">Next</button>
+        <button type="button" id="save-progress-btn" class="form-button" aria-label="Save Progress">Save Progress</button>
+        <button type="button" id="end-exam-btn" class="form-button" aria-label="End Exam">End Exam</button>
+      </div>
+    </form>
+
+    <button type="button" id="review-btn" class="form-button" style="display:none;">Review Answers</button>
+  </div>
+
+  <div id="message-box" class="message-box hidden"></div>
+</div>

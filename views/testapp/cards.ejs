@@ -1,0 +1,19 @@
+<% layout('/layouts/boilerplate') -%>
+
+<section id="cards" class="container">
+    <h2 class="text-center mb-4">Explore Our Options</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="/images/practice.png" alt="Practice Image">
+        <h3>Practice</h3>
+        <p>Refine your skills and improve your knowledge with practice Tests.</p>
+        <a href="/practice/<%= id %>" class="btn btn-primary btn-lg">Start Practicing</a>
+      </div>
+      <div class="card">
+        <img src="/images/test.png" alt="Test Image">
+        <h3>Test</h3>
+        <p>Let's Challenge yourself with timed tests and see how you stack up.</p>
+        <a href="/test/<%= id %>" class="btn btn-primary btn-lg">Take the Test</a>
+      </div>
+    </div>
+</section>

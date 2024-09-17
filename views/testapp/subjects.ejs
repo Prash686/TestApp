@@ -1,0 +1,14 @@
+<% layout('/layouts/boilerplate') -%>
+<link rel="stylesheet" href="/css/subjects.css">
+
+<section id="cards" class="container">
+  <h2 class="text-center mb-4">Please Select Subject</h2>
+  <div class="card-container row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-3">
+    <% for (let subject of allSubjects) { %>
+    <div class="card" onclick="window.location.href='/subjects/<%= subject.title %>'">
+      <img src="<%= subject.image %>" alt="Practice Image">
+      <h3><%= subject.title %></h3>
+    </div>
+    <% } %>
+  </div>
+</section>

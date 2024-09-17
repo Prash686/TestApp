@@ -1,8 +1,4 @@
-<% layout('boilerplate') %>
-
-<style>
-
-  .container {
+.container {
     min-height: 70vh;
   }
 
@@ -62,17 +58,3 @@
     background-color: #2b1a3e; /* Darker shade */
     transform: scale(1.05);
   }
-
-</style>
-
-<section id="cards" class="container">
-  <h2 class="text-center mb-4">Please Select Course</h2>
-  <div class="card-container row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-3">
-    <% for (let course of allCourses) { %>
-    <div class="card" onclick="window.location.href='/courses/<%= course.title %>'">
-      <img src="<%= course.image %>" alt="Practice Image">
-      <h3><%= course.title %></h3>
-    </div>
-    <% } %>
-  </div>
-</section>
