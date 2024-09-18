@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const initData = require("./data.js");
-const courses = require("./course.js");
+const question = require("./question.js");
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/TestApp";
+const MONGO_URL = "mongodb+srv://pravin686:prash%4011@cluster0.yilx5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 main()
   .then(() => {
@@ -17,8 +17,8 @@ async function main() {
 }
 
 const initDB = async () => {
-  await courses.deleteMany({});
-  await courses.insertMany(initData.data);
+  await question.deleteMany({});
+  await question.insertMany(initData.data);
   console.log("data was initialized");
 };
 
