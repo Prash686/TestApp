@@ -1,135 +1,292 @@
 /* Google Forms inspired styling */
 .test {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 10px;
+  background: linear-gradient(120deg, #f3e6ff, #f0efff); /* Added background gradient */
+}
+
+#form-container {
+  background-color: white;
+  border-radius: 16px; /* More rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* More depth with stronger shadow */
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+#form-container:hover {
+  transform: translateY(-5px); /* Subtle hover effect for form container */
+}
+
+#progress-bar-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+#progress-bar {
+  height: 100%;
+  background-color: #6f42c1; /* Updated progress bar color */
+  width: 0;
+  border-radius: 8px;
+  transition: width 0.4s ease; /* Smooth progress bar animation */
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #3c2559; /* Stronger heading color */
+  text-align: center; /* Center heading */
+  margin-bottom: 20px;
+}
+
+.question-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3c2559;
+  margin-bottom: 20px;
+}
+
+.form-check {
+  margin-bottom: 15px;
+}
+
+.form-check-label {
+  font-size: 16px;
+  margin-left: 8px;
+  color: #3c2559;
+}
+
+/* Form buttons */
+.form-buttons {
+  display: flex;
+  gap: 12px; /* More gap between buttons */
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.form-button {
+  background-color: #6f42c1;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.form-button:hover {
+  background-color: #563d7c; /* Darker color on hover */
+  transform: translateY(-3px); /* Hover animation */
+}
+
+.form-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+#review-btn {
+  background-color: #6f42c1;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+/* Timer */
+#timer {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #3c2559;
+}
+
+/* Message box for notifications */
+.message-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  opacity: 0.9;
+  z-index: 1000;
+  animation: fade-in 0.5s ease forwards;
+}
+
+.message-box.info {
+  background-color: #6f42c1;
+}
+
+.message-box.success {
+  background-color: #28a745;
+}
+
+.message-box.warning {
+  background-color: #ffc107;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
   }
+  to {
+    opacity: 0.9;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.review-item {
+  background-color: #f1f3f4;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.correct-answer {
+  color: #34a853;
+  font-weight: bold;
+}
+
+.wrong-answer {
+  color: #ea4335;
+  font-weight: bold;
+}
+
+.total-marks {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  color: #3c2559;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
   #form-container {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
     padding: 20px;
-    max-width: 600px;
-    width: 100%;
+    max-width: 90%;
   }
-  
-  #progress-bar-container {
-    width: 100%;
-    background-color: #e0e0e0;
-    height: 8px;
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-  
-  #progress-bar {
-    height: 100%;
-    background-color: #3c2559; /* Updated progress bar color */
-    width: 0;
-    border-radius: 4px;
-  }
-  
+
   h3 {
-    margin-top: 0;
     font-size: 20px;
-    font-weight: 500;
-    color: #3c2559; /* Updated heading color */
   }
-  
+
   .question-text {
-    font-size: 18px;
-    font-weight: 400;
-    color: #3c2559; /* Updated question text color */
-  }
-  
-  .form-check {
-    margin-bottom: 10px;
-  }
-  
-  .form-check-label {
     font-size: 16px;
-    margin-left: 8px;
-    color: #3c2559; /* Updated option label color */
   }
-  
+
+  /* Updated form-buttons for responsive layout */
+  .form-buttons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* Center-align the buttons */
+  }
+
   .form-button {
-    background-color: #3c2559; /* Updated button color */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-right: 10px;
+    flex: 1 1 100%; /* Full width on smaller screens */
+    padding: 12px; /* Adjust padding for better touch experience */
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #timer {
     font-size: 14px;
   }
-  
-  .form-button:disabled {
-    background-color: #3c2559;
-    cursor: not-allowed;
-  }
-  
-  #review-btn {
-    background-color: #3c2559;
-    margin-top: 10px;
-  }
-  
-  #timer {
-    text-align: right;
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: #3c2559; /* Updated timer color */
-  }
-  
-  .message-box {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    opacity: 0.9;
-    z-index: 1000;
-  }
-  
-  .message-box.info {
-    background-color: #3c2559; /* Updated info message box color */
-  }
-  
-  .message-box.success {
-    background-color: #28a745;
-  }
-  
-  .message-box.warning {
-    background-color: #ffc107;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  .review-item {
-    background-color: #f1f3f4;
-    border-radius: 5px;
-    padding: 15px;
-    margin-bottom: 10px;
-  }
-  
-  .correct-answer {
-    color: #34a853;
-    font-weight: bold;
-  }
-  
-  .wrong-answer {
-    color: #ea4335;
-    font-weight: bold;
-  }
-  
+
   .total-marks {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20px;
-    color: #3c2559; /* Updated total marks color */
+    font-size: 16px;
   }
+}
+
+@media (max-width: 540px) {
+  #form-container {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .question-text {
+    font-size: 15px;
+  }
+
+  /* Flexbox layout to split buttons into two rows */
+  .form-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; /* Space between buttons */
+  }
+
+  .form-button {
+    flex: 1 1 48%; /* Buttons take up approximately half the row width */
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px; /* Adds space between the two rows */
+  }
+
+  #timer {
+    font-size: 12px;
+  }
+
+  .total-marks {
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  #form-container {
+    padding: 15px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .question-text {
+    font-size: 14px;
+  }
+
+  .form-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between; /* Space out the buttons */
+  }
+
+  .form-button {
+    flex: 1 1 40%; /* Two buttons per row, each taking up about 48% width */
+    padding: 10px; /* Adjust padding for smaller screens */
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #timer {
+    font-size: 12px;
+  }
+
+  .total-marks {
+    font-size: 14px;
+  }
+}

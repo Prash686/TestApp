@@ -15,9 +15,7 @@ body {
   flex: 1;
 }
 
- /* Navbar */
-
-/* Navbar container */
+ /* Navbar container */
 .navbar {
   background-color: #3c2559; /* Updated background color */
   padding: 0.75rem 1rem; /* More balanced padding */
@@ -54,6 +52,7 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Added smooth transition for hover */
   display: flex;
   align-items: center;
+  font-size: 1.125rem; /* Default font size (18px) */
 }
 
 .nav-i {
@@ -80,80 +79,140 @@ body {
 @media (max-width: 767px) {
   .navbar-nav {
     text-align: center; /* Center links on smaller screens */
+    font-size: 1rem; /* Slightly smaller font size on small screens (16px) */
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem; /* Slightly smaller brand font size on small screens */
   }
 }
+
+@media (max-width: 575px) {
+  .navbar-nav .nav-link {
+    padding: 0.5rem 0.75rem; /* Reduce padding for smaller screens */
+    margin: 0.25rem 0; /* Vertical spacing for links */
+    font-size: 0.875rem; /* Smaller font size on extra small screens (14px) */
+  }
+
+  .navbar-brand {
+    font-size: 1.25rem; /* Smaller brand font size for extra small screens */
+  }
+
+  .navbar-toggler {
+    margin-left: auto; /* Adjust alignment for mobile view */
+  }
+}
+
+/* Larger screens adjustments */
+@media (min-width: 992px) {
+  .navbar-nav .nav-link {
+    font-size: 1.25rem; /* Larger font size for medium screens and above (20px) */
+  }
+  
+  .navbar-brand {
+    font-size: 2rem; /* Larger brand font size */
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-nav .nav-link {
+    font-size: 1.375rem; /* Larger font size for extra-large screens (22px) */
+  }
+  
+  .navbar-brand {
+    font-size: 2.25rem; /* Larger brand font size */
+  }
+}
+
 
 /* Footer Styling */
 .footer {
   background-color: #3c2559; /* Dark background color */
   color: #ffffff; /* White text color */
-  padding: 20px 0;
+  padding: 40px 20px; /* Increased padding for a more spacious look */
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  margin-top: 1rem;
-}
-
-.footer .container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.footer h5 {
-  color: #ffffff; /* White text color for headings */
-  font-size: 1.25rem;
-  margin-bottom: 15px;
+  text-align: center;
+  margin-top: 1.5rem;
+  border-top: 2px solid #e9ecef; /* Adds a subtle border at the top */
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
 }
 
 .footer p {
   font-size: 1rem;
-  width: 100%;
-  color: #ffffff; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
+  margin: 5px 0;
 }
 
-.footer .footer-links {
-  list-style: none;
-  padding: 0;
-}
-
-.footer .footer-links li {
-  margin-bottom: 10px;
-}
-
-.footer .footer-links a {
-  color: #ffffff; /* White link color */
+.footer a {
+  color: #ffcc00; /* Bright color for better contrast */
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.footer .footer-links a:hover {
-  text-decoration: underline; /* Underline on hover */
+.footer a:hover {
+  color: #ffd966; /* Lighter hover effect */
+  text-decoration: underline;
 }
 
-.footer .text-center {
-  font-size: 0.875rem;
+.footer div {
   margin-top: 20px;
 }
 
-.footer .text-center p {
-  margin-bottom: 0;
+.footer .btn {
+  border-color: #ffcc00; /* Border matches link color */
+  color: #ffcc00;
+  transition: all 0.3s ease;
 }
 
+.footer .btn:hover {
+  background-color: #ffcc00;
+  color: #3c2559;
+}
+
+.footer h5 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #ffd966; /* Accent color for headings */
+}
+
+.footer .social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.footer .social-links a {
+  font-size: 1.5rem;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.footer .social-links a:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.footer .text-center {
+  font-size: 0.9rem;
+  margin-top: 20px;
+  color: #e9ecef;
+}
+
+/* Media queries for mobile responsiveness */
 @media (max-width: 767px) {
-  .footer .row {
-    text-align: center;
+  .footer {
+    padding: 30px 10px;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
   }
 
-  .footer .col-md-4 {
-    margin-bottom: 20px;
+  .footer .btn {
+    font-size: 0.875rem;
   }
 }
+
 #form-container {
   background-color: white;
   border-radius: 8px;
