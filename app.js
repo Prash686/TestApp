@@ -37,6 +37,10 @@ app.get("/", async (req, res) => {
     res.render("testapp/home.ejs");
 });
 
+app.get('/ads.txt', (req, res) => {
+    res.sendFile(path.join(__dirname, 'ads.txt'));
+});
+
 app.get("/practice/:id", async (req, res) => {
     let { id } = req.params;
     const allquestions = await questions.find({ subject: id });
