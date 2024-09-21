@@ -1,4 +1,5 @@
-.card-container {
+  /* Cards for Practice and Test */
+  .card-container {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -53,4 +54,18 @@
   .card a:hover {
     background-color: #2b1a3e; /* Darker shade */
     transform: scale(1.05);
+  }
+
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+ 
+    .feature-card {
+      padding: 1rem;
+    }
+
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
   }
