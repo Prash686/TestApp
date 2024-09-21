@@ -77,7 +77,6 @@ label[for="jump-to-input"] {
 /* Responsive design adjustments */
 @media (max-width: 770px) {
   .btn-group {
-    display: grid;
     flex-wrap: wrap;
   }
 
@@ -85,17 +84,18 @@ label[for="jump-to-input"] {
     flex-direction: row; /* Stack elements vertically */
     align-items: stretch; /* Stretch to full width */
   }
-
-  #jump-to-input { 
-    margin: 5px 0; /* Vertical spacing */
+  
+  #jump-lable {
+    margin: 0px 30px 0px 25px;
   }
 
-  .btn-primary {
-    font-size: 0.9rem; /* Slightly smaller buttons on mobile */
+  #jump-to-input { 
+    font-size: 22px;
+    margin: 0px 30px 0px 25px;
   }
 
   #jump-btn {
-    margin: 5px 0; /* Vertical spacing for stacked buttons */
+    margin: 0px 25px;
   }
 
   /* Ensure the next and submit buttons are in a new row */
@@ -106,7 +106,8 @@ label[for="jump-to-input"] {
   }
 
   #prev-btn, #next-btn, #submit-btn {
-    margin: 5px 0; /* Vertical spacing */
+    margin-right: 30px; /* Vertical spacing */
     width: auto;
+    margin: 10px 25px;
   }
 }
