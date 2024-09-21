@@ -1,74 +1,112 @@
+/* Existing Styles */
 #question-container {
-    background-color: #ffffff;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease-in-out;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#question-container:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #3c2559;
+  border-color: #3c2559;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #2a1a41;
+  border-color: #241438;
+}
+
+/* Modal styling */
+.modal-content {
+  border-radius: 1rem;
+}
+
+.modal-header {
+  background-color: #3c2559;
+  color: #fff;
+}
+
+.modal-body {
+  font-size: 1.1rem;
+  color: #3c2559;
+}
+
+.modal-footer .btn {
+  font-size: 1rem;
+  background-color: #3c2559;
+  border-color: #3c2559;
+}
+
+.modal-footer .btn:hover {
+  background-color: #2a1a41;
+  border-color: #241438;
+}
+
+/* Navigation styles */
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* Styling for input box for question navigation */
+#jump-to-input {
+  max-width: 80px; /* Adjusted for better fit */
+}
+
+/* Add margin to buttons */
+#prev-btn, #next-btn, #submit-btn, #jump-btn {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* Form label styling */
+label[for="jump-to-input"] {
+  font-weight: 500;
+  font-size: 1rem; /* Adjusted font size for readability */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 770px) {
+  .btn-group {
+    display: grid;
+    flex-wrap: wrap;
   }
 
-  #question-container:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  .d-flex {
+    flex-direction: row; /* Stack elements vertically */
+    align-items: stretch; /* Stretch to full width */
+  }
+
+  #jump-to-input { 
+    margin: 5px 0; /* Vertical spacing */
   }
 
   .btn-primary {
-    background-color: #3c2559;
-    border-color: #3c2559;
-    transition: background-color 0.2s ease;
+    font-size: 0.9rem; /* Slightly smaller buttons on mobile */
   }
 
-  .btn-primary:hover {
-    background-color: #2a1a41;
-    border-color: #241438;
+  #jump-btn {
+    margin: 5px 0; /* Vertical spacing for stacked buttons */
   }
 
-  .btn-success {
-    background-color: #3c2559;
-    border-color: #3c2559;
-    transition: background-color 0.2s ease;
+  /* Ensure the next and submit buttons are in a new row */
+  #next-submit-buttons {
+    display: flex; 
+    justify-content: center;
+    flex-direction: row; /* Stack these buttons vertically */
   }
 
-  .btn-success:hover {
-    background-color: #2a1a41;
-    border-color: #241438;
+  #prev-btn, #next-btn, #submit-btn {
+    margin: 5px 0; /* Vertical spacing */
+    width: auto;
   }
-
-  .modal-content {
-    border-radius: 1rem;
-  }
-
-  .modal-header {
-    background-color: #3c2559;
-    color: #fff;
-  }
-
-  .modal-body {
-    font-size: 1.1rem;
-    color: #3c2559;
-  }
-
-  .modal-footer .btn {
-    font-size: 1rem;
-    background-color: #3c2559;
-    border-color: #3c2559;
-  }
-
-  .modal-footer .btn:hover {
-    background-color: #2a1a41;
-    border-color: #241438;
-  }
-
-  h3 {
-    color: #3c2559;
-  }
-
-  p {
-    color: #3c2559;
-  }
-
-  label {
-    color: #3c2559;
-  }
-
-  .form-check-input:checked {
-    background-color: #3c2559;
-    border-color: #3c2559;
-  }
+}

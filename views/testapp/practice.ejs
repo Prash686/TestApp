@@ -1,41 +1,44 @@
 <% layout('/layouts/boilerplate') -%>
 <link rel="stylesheet" href="/css/practice.css">
 
-  <div class="container mt-5" style="min-height: 70vh;">
-    <h3 class="text-center mb-4">Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
+<div class="container mt-5" style="min-height: 70vh;">
+  <h3 class="text-center mb-4">Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
 
-    <!-- Hidden input field to store the JSON string of questions -->
-    <input type="hidden" id="questions-data" value="<%- JSON.stringify(allquestions).replace(/"/g, '&quot;') %>">
+  <!-- Hidden input field to store the JSON string of questions -->
+  <input type="hidden" id="questions-data" value="<%- JSON.stringify(allquestions).replace(/"/g, '&quot;') %>">
 
-    <form method="GET" action="/submit">
-      <div id="question-container" class="bg-white p-4 rounded shadow-lg mb-4">
-        <!-- The first question will be rendered here by JavaScript -->
-      </div>
+  <form method="GET" action="/submit">
+    <div id="question-container" class="bg-white p-4 rounded shadow-lg mb-4"></div>
 
-      <div class="d-flex justify-content-between align-items-center">
+    <div class="btn-group d-flex justify-content-between align-items-center mb-3">
+      <div id="next-submit-buttons justify-content-between align-items-center">
         <button type="button" id="prev-btn" class="btn btn-primary btn-lg" disabled>Previous</button>
-        <div>
-          <button type="button" id="next-btn" class="btn btn-primary btn-lg mx-2">Next</button>
-          <button type="button" id="submit-btn" class="btn btn-primary btn-lg">Submit</button>
-        </div>
+        <button type="button" id="next-btn" class="btn btn-primary btn-lg mx-2">Next</button>
+        <button type="button" id="submit-btn" class="btn btn-primary btn-lg">Submit</button>
       </div>
-    </form>
+      <div class="d-flex align-items-center">
+        <label for="jump-to-input" class="form-label mx-2 mb-0">Jump to Question:</label>
+        <input type="number" id="jump-to-input" class="form-control mx-2" min="1" max="<%= allquestions.length %>" placeholder="Q#">
+        <button type="button" id="jump-btn" class="btn btn-primary">Go</button>
+      </div>
+    </div>
+  </form>
 
-    <!-- Modal Structure -->
-    <div id="modal" class="modal fade" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content rounded-3 shadow-lg">
-          <div class="modal-header bg-info text-white">
-            <h5 class="modal-title">Result</h5>
-            <button type="button" class="btn-close" id="modal-close" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p id="modal-message" class="text-center"></p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" id="modal-close-btn">Close</button>
-          </div>
+  <!-- Modal Structure -->
+  <div id="modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content rounded-3 shadow-lg">
+        <div class="modal-header bg-info text-white">
+          <h5 class="modal-title">Result</h5>
+          <button type="button" class="btn-close" id="modal-close" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p id="modal-message" class="text-center"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" id="modal-close-btn">Close</button>
         </div>
       </div>
     </div>
   </div>
+</div>
