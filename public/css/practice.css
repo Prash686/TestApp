@@ -108,6 +108,6 @@ label[for="jump-to-input"] {
   #prev-btn, #next-btn, #submit-btn {
     margin-right: 30px; /* Vertical spacing */
     width: auto;
-    margin: 10px 25px;
+    margin: 10px 10px;
   }
 }
