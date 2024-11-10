@@ -1,8 +1,26 @@
+<style>
+    /* Make sure the logo scales properly */
+.navbar-logo {
+    max-width: auto;        /* Ensures the logo doesn't exceed the container's width */
+    height: 60px;           /* Keeps the aspect ratio intact */
+    width: auto;           /* Adjust this based on your preference */
+}
+
+/* Optional: Adjust the logo size on smaller screens */
+@media (max-width: 767px) {
+    .navbar-logo {
+        width: 60px; /* Reduce size on small screens */
+    }
+}
+
+</style>
+
 <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
   <div class="container-fluid">
-      <a class="navbar-brand" href="/">
-         Test App
-      </a>
+    <a class="navbar-brand" href="/">
+        <img src="/images/logo.png" alt="Logo" class="navbar-logo">
+        <samp style="margin-left: 10px;">TestApp</samp> 
+    </a>    
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
