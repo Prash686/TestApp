@@ -17845,6 +17845,12 @@ const subjects = [
         "discription": "",
         "image": "/images/msbte.jpeg",
     },
+    {
+        "course": "MSBTE",
+        "title": "UT Specail EST",
+        "discription": "",
+        "image": "/images/msbte.jpeg",
+    },
 ];
 
 const newAJP = [
@@ -27253,4 +27259,2888 @@ const Management = [
 
 ];
 
-module.exports = { data: Management};
+const UT2EST = [
+    {
+        "question": "Article 51-A (g) of the Indian Constitution represents:",
+        "option1": "Directive Principles",
+        "option2": "Fundamental Duties",
+        "option3": "Both a) and b)",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Article 48-A in the Constitution of India represents: It shall be the duty of every citizen of India to protect and improve the natural environment, including forests, lakes, rivers, and wildlife, and to have _______ for living creatures.",
+        "option1": "Directive Principles",
+        "option2": "Fundamental Duties",
+        "option3": "Both a) and b)",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The State shall endeavour to protect and improve the environment and to safeguard the _____ and ______ of the country.",
+        "option1": "forest, human life",
+        "option2": "human life, wildlife",
+        "option3": "plants, trees",
+        "option4": "forests, wildlife",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following is an Act of Environmental Protection?",
+        "option1": "Biological Diversity Act, 2002",
+        "option2": "National Green Tribunal Act, 2010",
+        "option3": "Batteries (Management and Handling) Rules, 2001",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Article 48A was added by the Constitution vide ________ Amendment in 1976.",
+        "option1": "22nd",
+        "option2": "32nd",
+        "option3": "42nd",
+        "option4": "452nd",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "An ability or capacity of something to be maintained or to sustain itself is known as:",
+        "option1": "Biodiversity",
+        "option2": "Ecology",
+        "option3": "Sustainability",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Sustainable Development includes:",
+        "option1": "Economical development",
+        "option2": "Generate resources",
+        "option3": "Maintain balance between human and environment",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an aspect of Sustainable Development:",
+        "option1": "Social",
+        "option2": "Environmental",
+        "option3": "Economical",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Water management includes:",
+        "option1": "Rainwater harvesting",
+        "option2": "Groundwater recharge",
+        "option3": "Green belt development",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "__________ is a hydrologic process where water moves downward from surface water to groundwater.",
+        "option1": "Rainwater harvesting",
+        "option2": "Groundwater recharge",
+        "option3": "Green belt development",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following is not an Act of Environmental Protection?",
+        "option1": "Biomedical Waste (Management and Handling) Rules, 1998",
+        "option2": "Recycled Plastics, Plastics Manufacture and Usage Rules, 1999",
+        "option3": "Construction and Demolition Waste Management Rules, 2016",
+        "option4": "Conservation of plastic, waste and increasing act 2016",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Administrative framework for environmental protection includes:",
+        "option1": "Central Pollution Control Board",
+        "option2": "State Pollution Control Board",
+        "option3": "Ministry of Environment and Forest",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Central Pollution Control Board is formed to _______:",
+        "option1": "prevent environmental pollution",
+        "option2": "promote environmental pollution",
+        "option3": "practice environmental pollution",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Maharashtra Pollution Control Board was established on:",
+        "option1": "7 September 1980",
+        "option2": "7 September 1990",
+        "option3": "7 September 1970",
+        "option4": "7 September 1960",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The responsibilities of the Pollution Control Board include:",
+        "option1": "create public awareness",
+        "option2": "inspect sewage",
+        "option3": "inspect air control system",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "NGO stands for:",
+        "option1": "Non Governance Organization",
+        "option2": "Non Government Optimization",
+        "option3": "Non Government Organization",
+        "option4": "Non Government Organiser",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Supposed to be working not for ‘profit’ but for a ‘cause(s)’ is:",
+        "option1": "NGO",
+        "option2": "CGO",
+        "option3": "GOO",
+        "option4": "MGO",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Narmada Bachao Andolan is initiated by:",
+        "option1": "Nana Patekar",
+        "option2": "Amir Khan",
+        "option3": "Medha Patkar",
+        "option4": "Sardar Patel",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The study to predict the effect of a proposed activity/project on the environment is known as:",
+        "option1": "Sustainable development",
+        "option2": "Environmental impact assessment",
+        "option3": "Environmental improvement",
+        "option4": "Environmental cultivation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "EIA can be seen as a:",
+        "option1": "measuring tool",
+        "option2": "product",
+        "option3": "multiplying tool",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Any spatial area from which runoff from precipitation is collected and drained through a common point or outlet is called:",
+        "option1": "Green belt",
+        "option2": "Rainfall",
+        "option3": "Watershed",
+        "option4": "Rain water harvesting",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The main components of watershed programme:",
+        "option1": "water conservation",
+        "option2": "soil conservation",
+        "option3": "crop management",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "National River Linkage Project, Hydropower generation is proposed:",
+        "option1": "About 34,00 MW",
+        "option2": "About 44,000 MW",
+        "option3": "About 34,000 MW",
+        "option4": "About 44,00 MW",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Water shed within crop fields is called as:",
+        "option1": "Micro water shed",
+        "option2": "Small water shed",
+        "option3": "Large water shed",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "National river linkage project includes, Interlinking of ___ rivers across the country through a network of ____ storage dams:",
+        "option1": "30, 3000",
+        "option2": "37, 3000",
+        "option3": "40, 3000",
+        "option4": "47, 3000",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Formal environmental education begins at:",
+        "option1": "research level",
+        "option2": "college level",
+        "option3": "high school level",
+        "option4": "primary school level",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Sustainable Development by solving problems of Environment is taught at:",
+        "option1": "post-research level",
+        "option2": "college/university level",
+        "option3": "high school level",
+        "option4": "primary school level",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Adult education is:",
+        "option1": "Formal education",
+        "option2": "Non-formal education",
+        "option3": "Primary education",
+        "option4": "Group education",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "GIS stands for:",
+        "option1": "Geographical Information Systems",
+        "option2": "Geological Information Systems",
+        "option3": "Geographical Importation Systems",
+        "option4": "Geographical Information Solutions",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not an IT tool used for environment and public health:",
+        "option1": "Arogya Setu App",
+        "option2": "Artificial Intelligence",
+        "option3": "M S Word",
+        "option4": "GIS",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The type of ecosystem with the highest mean plant productivity is",
+        "option1": "Tundra",
+        "option2": "Temperate grassland",
+        "option3": "Desert",
+        "option4": "Tropical rain forest",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "An ecosystem which can be easily damaged but can recover after some time if damaging effect stops will be having",
+        "option1": "High stability and high resilience",
+        "option2": "High stability and low resilience",
+        "option3": "Low stability and low resilience",
+        "option4": "Low stability and high resilience",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In ecosystem standing crop refers to",
+        "option1": "All the green plants",
+        "option2": "All the non-living materials",
+        "option3": "All living and dead animals",
+        "option4": "All the living materials both animals and plants",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which ecosystem produces the highest annual net primary productivity?",
+        "option1": "Tropical evergreen forest",
+        "option2": "Tropical rain forest",
+        "option3": "Tropical deciduous forest",
+        "option4": "Temperate evergreen forest",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What flows through the ecosystem while matter cycles within them?",
+        "option1": "Energy",
+        "option2": "Force",
+        "option3": "Pressure",
+        "option4": "Wind",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Total primary production in an ecosystem is known as",
+        "option1": "Gross final production",
+        "option2": "Gross primary production",
+        "option3": "Gross middle production",
+        "option4": "Net primary production",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which type of ecosystem accounts for most of the net primary productivity on Earth even though it has a low average net primary productivity?",
+        "option1": "Tropical rain forest",
+        "option2": "Desert",
+        "option3": "Tropical evergreen forest",
+        "option4": "Oceans",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Generally, ecosystems consist of how many basic components?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The three functional components interact with each other to form",
+        "option1": "Environmental succession",
+        "option2": "Environmental depression",
+        "option3": "Environmental system",
+        "option4": "Ecology",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The dominant second tropic level in a lake ecosystem is",
+        "option1": "Phytoplankton",
+        "option2": "Zooplankton",
+        "option3": "Plankton",
+        "option4": "Benthos",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Consumer for food that feeds on producers are known as",
+        "option1": "Carnivores",
+        "option2": "Consumers",
+        "option3": "Herbivores",
+        "option4": "Producers",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The food chain from grass to hawk and again it comes back to grass with the help of fungi. In the above explain food chain, what is grass?",
+        "option1": "Producers",
+        "option2": "Consumers",
+        "option3": "Decomposers",
+        "option4": "Energy source",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The process in which green plants and few organisms use sunlight to synthesize nutrients is known",
+        "option1": "Chemosynthesis",
+        "option2": "Photosynthesis",
+        "option3": "Food chain",
+        "option4": "Food web",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The process of making food by certain microbes create energy by some chemical reactions is known as",
+        "option1": "Photosynthesis",
+        "option2": "Food chain",
+        "option3": "Chemosynthesis",
+        "option4": "Hetrosynthesis",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The food chain level in autotrophy is",
+        "option1": "Primary",
+        "option2": "Secondary",
+        "option3": "Tertiary",
+        "option4": "Quaternary",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What makes plant producers?",
+        "option1": "Plants produce their own food",
+        "option2": "Plants depend on other organisms for food",
+        "option3": "Plants are decomposers",
+        "option4": "Plants do not require any energy",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What does a primary consumer eat?",
+        "option1": "Plants",
+        "option2": "Decomposers",
+        "option3": "Small animals",
+        "option4": "Large animals",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "On what category consumers are classified into?",
+        "option1": "Herbivore",
+        "option2": "Carnivore",
+        "option3": "Omnivore",
+        "option4": "Herbivore, carnivore, omnivore and scavenger",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is called for an organism that feeds on other organisms?",
+        "option1": "Insects",
+        "option2": "Consumer",
+        "option3": "Producer",
+        "option4": "Herbivore",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How many types of consumers are there?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How many major groups classified in decomposers?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is called for an organism which breakdown dead or waste matter into simpler substances?",
+        "option1": "Decomposers",
+        "option2": "Producers",
+        "option3": "Insects",
+        "option4": "Consumers",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The primary decomposers of most dead plant material are",
+        "option1": "Algae",
+        "option2": "Bacteria",
+        "option3": "Fungi",
+        "option4": "Insects",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "To which category shelf fungi classified?",
+        "option1": "Producers",
+        "option2": "Consumers",
+        "option3": "Decomposers",
+        "option4": "Insects",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In order to form compost which of the following wastes cannot be decomposed by bacteria?",
+        "option1": "Plant wastes",
+        "option2": "Kitchen wastes",
+        "option3": "Plastic and polythene wastes",
+        "option4": "Bodies of dead animals",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is called for the process of breaking down food to yield energy?",
+        "option1": "Oxidation",
+        "option2": "Photosynthesis",
+        "option3": "Cellular respiration",
+        "option4": "Decomposition",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What are called for organisms which get energy by eating dead organisms?",
+        "option1": "Decomposers",
+        "option2": "Producers",
+        "option3": "Consumers",
+        "option4": "Herbivores",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following is a product of photosynthesis?",
+        "option1": "Glucose",
+        "option2": "Carbon",
+        "option3": "Monoxide",
+        "option4": "Nitrogen",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is called for an organism that eats both plants and animals?",
+        "option1": "Omnivore",
+        "option2": "Carnivore",
+        "option3": "Decomposers",
+        "option4": "Herbivore",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Why energy flow is linear in an ecosystem?",
+        "option1": "Because it flows in air medium",
+        "option2": "Because it is very particular",
+        "option3": "Because ecosystem is linear",
+        "option4": "Because energy flows from one trophic level to the next higher one",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Why plants in forests do not make use of all the light energy available to them?",
+        "option1": "Because plants do not require energy",
+        "option2": "Because plants are grown only in the winter season",
+        "option3": "Because of the absence of chlorophyll",
+        "option4": "Because sunlight doesn’t fall on the leaves fully",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How many parts are there in the forest ecosystem?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "On which factor forest type is mainly dependent?",
+        "option1": "Abiotic",
+        "option2": "Size of the forest",
+        "option3": "Shape of trees",
+        "option4": "Products from the trees",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In which of the following places we can find the cold deserts?",
+        "option1": "Bangalore",
+        "option2": "Chennai",
+        "option3": "Himalaya",
+        "option4": "Rajasthan",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How many types of aquatic ecosystems are there?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What made organisms to build their ecosystem in aquatic?",
+        "option1": "Curiosity",
+        "option2": "Evolution",
+        "option3": "Force from other organisms",
+        "option4": "Increase in water level",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is called for the benefits that nature provides to human beings?",
+        "option1": "Ecosystem services",
+        "option2": "Ecosystem conservation",
+        "option3": "Ecosystem degradation",
+        "option4": "Ecosystem pool",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is an important reason for the conservation of natural resources?",
+        "option1": "Disturb the ecological balance",
+        "option2": "Preserve the biological diversity",
+        "option3": "Disruption of quality of the environment",
+        "option4": "Hampering the biological species",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "For what reason is the conservation of natural resources important?",
+        "option1": "Maintaining the ecological processes",
+        "option2": "Disturbing the ecological balance",
+        "option3": "Extinction of biological species",
+        "option4": "Disruption of quality of the environment",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the correct full form of IUCN?",
+        "option1": "International Union for Conservation of Nuts",
+        "option2": "International Union for Conservation of Nature",
+        "option3": "International Union for Conservation of Natural habitat",
+        "option4": "International Union for Conservation of Numbers",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What are the species called whose number of individuals is greatly reduced to a critical level?",
+        "option1": "Indeterminate",
+        "option2": "Rare",
+        "option3": "Vulnerable",
+        "option4": "Endangered",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What are the species called whose number of individuals is greatly reduced recently and is decreasing continuously?",
+        "option1": "Endangered",
+        "option2": "Rare",
+        "option3": "Vulnerable",
+        "option4": "Indeterminate",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What are the species called whose members are few and live in a small geographical area called?",
+        "option1": "Endangered",
+        "option2": "Rare",
+        "option3": "Indeterminate",
+        "option4": "Vulnerable",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What are the species called whose members are in danger of extinction but the reason is unknown called?",
+        "option1": "Endangered",
+        "option2": "Vulnerable",
+        "option3": "Rare",
+        "option4": "Indeterminate",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which utilitarian states that humans derive countless direct economic benefits from nature?",
+        "option1": "Big utilitarian",
+        "option2": "Broadly utilitarian",
+        "option3": "Narrowly utilitarian",
+        "option4": "Small utilitarian",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How many species of plants contribute to the traditional medicines used by native peoples around the world?",
+        "option1": "2,500",
+        "option2": "2,000",
+        "option3": "5,000",
+        "option4": "25,000",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How many species of plants are used for the production of the drugs currently sold in the market worldwide?",
+        "option1": "2 %",
+        "option2": "35 %",
+        "option3": "25 %",
+        "option4": "50 %",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which utilitarian states that biodiversity is important for many ecosystem services that nature provides?",
+        "option1": "Narrowly utilitarian",
+        "option2": "Broadly utilitarian",
+        "option3": "Big utilitarian",
+        "option4": "Small utilitarian",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is exploring molecular, genetic, and species-level diversity for products of economic importance called?",
+        "option1": "Biopiracy",
+        "option2": "Biofuel",
+        "option3": "Bioprospecting",
+        "option4": "Biodiversity",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What percent of the total oxygen in the Earth's atmosphere is released by the Amazon forest?",
+        "option1": "50 %",
+        "option2": "20 %",
+        "option3": "40 %",
+        "option4": "20 %",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following is an example of conservation?",
+        "option1": "No use of natural resources",
+        "option2": "The wise use of natural resources",
+        "option3": "Excess use of natural resources",
+        "option4": "Complete use of natural resources",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How many plant and animal species have been discovered and described so far?",
+        "option1": "1.5 million",
+        "option2": "4.5 million",
+        "option3": "1.5 billion",
+        "option4": "4.5 billion",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the global species diversity according to Robert May?",
+        "option1": "70 million",
+        "option2": "7 million",
+        "option3": "2 million",
+        "option4": "20 million",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Out of the total species estimated, how many species are of animals?",
+        "option1": "2 %",
+        "option2": "50 %",
+        "option3": "7 %",
+        "option4": "70 %",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Of all the species recorded, what percent do plants comprise of?",
+        "option1": "10 %",
+        "option2": "50 %",
+        "option3": "22 %",
+        "option4": "2 %",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Of all the animal species recorded, what percent do insects comprise of?",
+        "option1": "7 %",
+        "option2": "70 %",
+        "option3": "50 %",
+        "option4": "2 %",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which is the most species-rich taxonomic group?",
+        "option1": "Molluscs",
+        "option2": "Crustaceans",
+        "option3": "Echinoderms",
+        "option4": "Insects",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Of all the vertebrate species recorded which class has the maximum number of species?",
+        "option1": "Amphibians",
+        "option2": "Mammals",
+        "option3": "Fishes",
+        "option4": "Reptiles",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Of all the plant species recorded which class has the minimum number of species?",
+        "option1": "Angiosperms",
+        "option2": "Fungi",
+        "option3": "Algae",
+        "option4": "Lichens",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How much of the world's land area, India has?",
+        "option1": "1 percent",
+        "option2": "40 percent",
+        "option3": "2.4 percent",
+        "option4": "80 percent",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following species is present in India?",
+        "option1": "Koala",
+        "option2": "Sloth bear",
+        "option3": "Kangaroo",
+        "option4": "Wombats",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following species is native of India?",
+        "option1": "Rhodes grass",
+        "option2": "Jackalberry tree",
+        "option3": "Ebony tree",
+        "option4": "Umbrella thorn acacia",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Considering May's global estimates, how many of the total species have been recorded?",
+        "option1": "1 percent",
+        "option2": "22 percent",
+        "option3": "10 percent",
+        "option4": "50 percent",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Considering May's global estimates, how many of the plant species are yet to be discovered and described in India?",
+        "option1": "500",
+        "option2": "100",
+        "option3": "5,00,000",
+        "option4": "1,00,000",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What does 'The Evil Quartet' describes?",
+        "option1": "An increase in the number of species",
+        "option2": "The decrease in the number of species",
+        "option3": "Mass extinction",
+        "option4": "Formation of the universe",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following is said to be the most important cause or reason for the extinction of animals and plants?",
+        "option1": "Loss of habitat and fragmentation",
+        "option2": "Over-exploitation of species",
+        "option3": "Invasion of alien species",
+        "option4": "Co-extinctions",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Previously how much of the Earth's land surface was covered by the tropical rain forests?",
+        "option1": "50 %",
+        "option2": "14 %",
+        "option3": "24 %",
+        "option4": "35 %",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The initiative of biodiversity assessment focuses on which ecosystem types?",
+        "option1": "Forest",
+        "option2": "Wetland",
+        "option3": "Marine",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a Cause of biodiversity losses?",
+        "option1": "Over exploitation",
+        "option2": "Eco-friendly",
+        "option3": "Co-extinction",
+        "option4": "Habitat loss and fragmentation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Marketable products such as animal skins, ivory, medicinal plants, honey, etc., come under?",
+        "option1": "Productive value",
+        "option2": "Consumptive value",
+        "option3": "Aesthetic value",
+        "option4": "Social value",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is called the 'lungs of the planet'?",
+        "option1": "Sahyadry rain forest",
+        "option2": "Konkan rain forest",
+        "option3": "Amazon rain forest",
+        "option4": "South Africa rain forest",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which leads to over-exploitation of natural resources?",
+        "option1": "Greed",
+        "option2": "Eco-friendly",
+        "option3": "Need",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What flows through the ecosystem while matter cycles within them?",
+        "option1": "Energy",
+        "option2": "Force",
+        "option3": "Pressure",
+        "option4": "Wind",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Currently, how much area of the Earth's land surface is covered by the tropical rain forests?",
+        "option1": "90 %",
+        "option2": "50 %",
+        "option3": "1%",
+        "option4": "6 %",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which animals are badly affected when a large habitat is broken up into small fragments due to various human activities?",
+        "option1": "Extinct species",
+        "option2": "Migratory species",
+        "option3": "Non-migratory species",
+        "option4": "Humans",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What are the excess and unsustainable use of resources called?",
+        "option1": "Loss of habitat and fragmentation",
+        "option2": "Co-extinctions",
+        "option3": "Invasion of alien species",
+        "option4": "Over-exploitation",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What was the reason for the exploitation of the Stellar's sea cow and the passenger pigeon?",
+        "option1": "Competition",
+        "option2": "Loss of habitat",
+        "option3": "Human activities",
+        "option4": "Mutualistic relationships",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What happens when alien species are introduced unintentionally or deliberately?",
+        "option1": "Decrease of alien species",
+        "option2": "Increase in habitat",
+        "option3": "They turn invasive and cause increase in species",
+        "option4": "They turn invasive and cause decline or extinction of indigenous species",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What happened when the Nile perch was introduced into Lake Victoria in East Africa?",
+        "option1": "Extinction of trees",
+        "option2": "Increase in the number of trees",
+        "option3": "Extinction of cichlid fish",
+        "option4": "Increase in the number of cichlid fish",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following contains chemicals like parthenin, is toxic to cattle and causes pollen allergy in humans?",
+        "option1": "Nile perch",
+        "option2": "The carrot grass",
+        "option3": "Rose",
+        "option4": "Wheat",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is Eichhornia called?",
+        "option1": "The carrot grass",
+        "option2": "Nile perch",
+        "option3": "Water hyacinth",
+        "option4": "Water lily",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Why was the African catfish Clarias gariepinus introduced?",
+        "option1": "Horticulture",
+        "option2": "Aquaculture",
+        "option3": "Sericulture",
+        "option4": "Poultry",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which phenomenon explains that 'When a species becomes extinct, the plant and animal species also become extinct that are obligatorily associated with the host species'?",
+        "option1": "Aquaculture",
+        "option2": "Fragmentation",
+        "option3": "Invasion",
+        "option4": "Co-extinction",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which phenomenon does the coevolved plant-pollinator mutualism explain?",
+        "option1": "Co-extinction",
+        "option2": "Fragmentation",
+        "option3": "Invasion",
+        "option4": "Loss of habitat",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The Earth consists of how many ant species?",
+        "option1": "100,000",
+        "option2": "20,000",
+        "option3": "200,000",
+        "option4": "2000",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How many species of beetles are present on the Earth?",
+        "option1": "3,00,000",
+        "option2": "30,000",
+        "option3": "3,000",
+        "option4": "300",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many species of fishes are present on Earth?",
+        "option1": "28,00,000",
+        "option2": "28,000",
+        "option3": "280",
+        "option4": "28",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "option1": "Diversity exists only at the species level",
+        "option2": "Diversity exists only at the macromolecular level",
+        "option3": "Diversity exists at all levels of biological organization",
+        "option4": "Diversity exists at the genetic level only",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Who popularized the term biodiversity?",
+        "option1": "Rudolf Virchow",
+        "option2": "Edward Wilson",
+        "option3": "Gregor Mendel",
+        "option4": "Robert Koch",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What can a single species show?",
+        "option1": "No variation at the genetic level",
+        "option2": "No diversity at the genetic level",
+        "option3": "Low diversity at the genetic level",
+        "option4": "High diversity at the genetic level",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the feature of the biosphere?",
+        "option1": "No diversity",
+        "option2": "Homogeneity",
+        "option3": "Heterogeneity",
+        "option4": "Negligible diversity",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How many strains of rice does India have?",
+        "option1": "50",
+        "option2": "500",
+        "option3": "5,000",
+        "option4": "50,000",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How many varieties of mango does India have?",
+        "option1": "2",
+        "option2": "10",
+        "option3": "1,000",
+        "option4": "20",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which organism's species have greater diversity in the Western Ghats than the Eastern Ghats?",
+        "option1": "Reptiles",
+        "option2": "Fishes",
+        "option3": "Amphibians",
+        "option4": "Mammals",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How many years did evolution require?",
+        "option1": "Tens",
+        "option2": "Hundreds",
+        "option3": "Trillions",
+        "option4": "Millions",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Photosynthesis is the basis of life on earth because",
+        "option1": "It is the main source of all food on earth",
+        "option2": "It helps in the release of CO2 into the atmosphere",
+        "option3": "It produces new offspring",
+        "option4": "It gives no energy to plants",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Other than CO2 and light, which is used as the raw material for photosynthesis?",
+        "option1": "O2",
+        "option2": "CO2",
+        "option3": "H2O",
+        "option4": "MnO2",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Among the following, which compound does not play an important role in photosynthesis?",
+        "option1": "Xanthophyll",
+        "option2": "Anthocyanin",
+        "option3": "Chlorophyll",
+        "option4": "Phycoerythrin",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What do we call the organism that does photosynthesis but does not release oxygen?",
+        "option1": "Green sulfur bacterium",
+        "option2": "Blue-green algae",
+        "option3": "Green algae",
+        "option4": "Green plants",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Who found out that oxygen evolved from water in photosynthesis?",
+        "option1": "T. W. Engelmann",
+        "option2": "C. Van Neil",
+        "option3": "R. Hill",
+        "option4": "Ruben and Kamen",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Why is light energy used in photosynthesis?",
+        "option1": "Reduction of H2O",
+        "option2": "Reduction of CO2",
+        "option3": "Activation of chlorophyll",
+        "option4": "Oxidation of C6H12O6",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "During photosynthesis, which light is least effective?",
+        "option1": "Green light",
+        "option2": "Sunlight",
+        "option3": "Yellow light",
+        "option4": "Blue light",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these is not an internal factor affecting photosynthesis?",
+        "option1": "Size",
+        "option2": "Age",
+        "option3": "Number",
+        "option4": "Water",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What do the internal factors affecting photosynthesis depend on?",
+        "option1": "External factors",
+        "option2": "Geographical area",
+        "option3": "Genetic predisposition",
+        "option4": "Species and sub-species",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of these is not an external factor affecting photosynthesis?",
+        "option1": "Sunlight",
+        "option2": "Temperature",
+        "option3": "Leaf orientation",
+        "option4": "CO2 concentration",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which scientist gave the Law of Limiting Factors?",
+        "option1": "Hooke",
+        "option2": "Blackman",
+        "option3": "Fleming",
+        "option4": "Mendel",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "At what percentage of sunlight does light saturation occur?",
+        "option1": "30",
+        "option2": "20",
+        "option3": "10",
+        "option4": "15",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When did the air pollution on earth happen for the first time?",
+        "option1": "When humans started using tools",
+        "option2": "When humans started using firewood",
+        "option3": "When humans started using clothes",
+        "option4": "When humans started using wheels",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What are secondary pollutants?",
+        "option1": "Pollutants due to fire",
+        "option2": "Pollutants due to emission",
+        "option3": "Pollutants due to a chemical reaction",
+        "option4": "Pollutants due to oxidation",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is the colorless, odorless and toxic gas produced when organic materials incompletely burn?",
+        "option1": "Sulphur oxide",
+        "option2": "Carbon monoxide",
+        "option3": "Oxygen",
+        "option4": "Particulates",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following causes soot in the environment?",
+        "option1": "Hydrocarbons",
+        "option2": "Nitrogen oxide",
+        "option3": "Sulphur oxide",
+        "option4": "Particulates",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is aerosol?",
+        "option1": "General term for particles in air",
+        "option2": "General term for particles in soil",
+        "option3": "General term for particles in water",
+        "option4": "General term for particles inside humans",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is smog?",
+        "option1": "Mixture of smoke and particulates",
+        "option2": "Mixture of smoke and oxygen",
+        "option3": "Mixture of smoke and fog",
+        "option4": "Mixture of soot and fog",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Aerosol + solid particles + liquid particles results in?",
+        "option1": "Dust",
+        "option2": "Mist",
+        "option3": "Smog",
+        "option4": "Smoke",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which is responsible for the greatest exposure to carbon dioxide for living organisms?",
+        "option1": "Hurricanes",
+        "option2": "Soil erosion",
+        "option3": "Vehicles emission",
+        "option4": "Cigarette smoking",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How does excessive water loss take place in plants?",
+        "option1": "Due to soil pollution",
+        "option2": "Due to mutation",
+        "option3": "Due to air pollution",
+        "option4": "Due to improper seed",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How does asthma occur in human beings?",
+        "option1": "Because of excessive diet",
+        "option2": "Because of water pollution",
+        "option3": "Because of air pollution",
+        "option4": "Because of soil pollution",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the reason for reduced plant growth?",
+        "option1": "Excessive exposure to sunlight",
+        "option2": "Excessive exposure to wind",
+        "option3": "Excessive exposure to water pollution",
+        "option4": "Excessive exposure to air pollution",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which dioxide damages the flower process in plants?",
+        "option1": "Sulphur dioxide",
+        "option2": "Carbon dioxide",
+        "option3": "Nitrite dioxide",
+        "option4": "Magnesium dioxide",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the main reason for ozone depletion?",
+        "option1": "Releasing of oxygen",
+        "option2": "Releasing of chemicals",
+        "option3": "Releasing of CFCs",
+        "option4": "Releasing of nitrogen",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which component is more dangerous to the ozone layer?",
+        "option1": "CFCs",
+        "option2": "Nitrogen",
+        "option3": "Halons",
+        "option4": "Sulphur",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Why is ozone depletion more pronounced over the South Pole?",
+        "option1": "Due to uneven disturbance of CFCs",
+        "option2": "Due to extreme weather conditions in the Antarctic atmosphere",
+        "option3": "Due to cyclonic depression in the South Pole",
+        "option4": "Due to extreme pressure",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When did India sign the Montreal Protocol?",
+        "option1": "1990",
+        "option2": "1991",
+        "option3": "1992",
+        "option4": "1993",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "At what temperature does soil develop slowly?",
+        "option1": "Summer",
+        "option2": "Wind",
+        "option3": "Rainy",
+        "option4": "Cold",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What are matured soils arranged in a series of zones called?",
+        "option1": "Soil zones",
+        "option2": "Soil layers",
+        "option3": "Soil horizons",
+        "option4": "Soil benches",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How many horizons are there in soils?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the mixture of all the contents of soil called?",
+        "option1": "Erosion",
+        "option2": "Sublimation",
+        "option3": "Degradation",
+        "option4": "Loams",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Why is area treatment important for soil?",
+        "option1": "To reduces the impact of raindrops on the soil",
+        "option2": "To maximize surface run-off",
+        "option3": "Not treating the upper catchment and proceeds towards an outlet",
+        "option4": "Not storing surplus rainwater",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is oxygen depleting waste?",
+        "option1": "Organic waste that can be decomposed by aerobic bacteria",
+        "option2": "Organic waste that can be decomposed by anaerobic bacteria",
+        "option3": "Organic waste that can be decomposed by aerobic viruses",
+        "option4": "Organic waste that can be decomposed by anaerobic viruses",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the indicator of pollution in water?",
+        "option1": "Amount of oxygen",
+        "option2": "Amount of hydrogen",
+        "option3": "Amount of BOD",
+        "option4": "Amount of nitrogen",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What are water soluble inorganic chemicals?",
+        "option1": "Compounds of pure metals",
+        "option2": "Compounds of non-metals",
+        "option3": "Compounds of synthetic metals",
+        "option4": "Compounds of toxic metals",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is noise?",
+        "option1": "Desirable sound",
+        "option2": "Desirable and unwanted sound",
+        "option3": "Undesirable and unwanted sound",
+        "option4": "Undesirable and wanted sound",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In which unit is sound measured?",
+        "option1": "Kilometer",
+        "option2": "Pascal",
+        "option3": "Kilogram",
+        "option4": "Decibel",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which pollution causes hearing loss in organisms?",
+        "option1": "Air pollution",
+        "option2": "Noise pollution",
+        "option3": "Water pollution",
+        "option4": "Soil pollution",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How many fundamental ways are there to control noise?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which is the best way to control noise pollution among the four fundamental ways?",
+        "option1": "Reduce noise at the source",
+        "option2": "Block the path of noise",
+        "option3": "Increase the path length",
+        "option4": "Protect the recipient",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How can we reduce noise in industries?",
+        "option1": "By not using the heavy machinery",
+        "option2": "By using rigid sealed enclosures",
+        "option3": "By using more robotics",
+        "option4": "By reducing the production of the industries",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the main source of vehicular noise?",
+        "option1": "High speed",
+        "option2": "Movement of the vehicle’s tyres on the pavement",
+        "option3": "Low pressure",
+        "option4": "Fuel engine",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a way to reduce traffic noise on highways?",
+        "option1": "Constructing vertical barriers",
+        "option2": "Increase the speed of the vehicles",
+        "option3": "Using old engine vehicles",
+        "option4": "Honking unnecessarily",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is it called when an industry removes water from a source and then returns the heated water to its source?",
+        "option1": "Water pollution",
+        "option2": "Soil pollution",
+        "option3": "Air pollution",
+        "option4": "Thermal pollution",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following can cause thermal pollution?",
+        "option1": "Residential houses",
+        "option2": "Power plants",
+        "option3": "Death of marine organisms",
+        "option4": "Oil spill",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the effect of warmer temperatures on fish?",
+        "option1": "Increases metabolism",
+        "option2": "Decreases metabolism",
+        "option3": "Stabilizes metabolism",
+        "option4": "Increases the solubility of oxygen",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Why is burning waste not an acceptable practice of solid waste management?",
+        "option1": "Because it is very costly",
+        "option2": "Because it requires modern technologies",
+        "option3": "Because it causes several environmental issues",
+        "option4": "Because it requires a lot of space",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What plan should we make for the disposal of solid waste?",
+        "option1": "Integrated waste management plan",
+        "option2": "Recycling of waste management plan",
+        "option3": "Reducing of waste management plan",
+        "option4": "Use of waste management plan",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many main components are there in integrated waste management?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the integrated waste management components can be reduced on an individual level?",
+        "option1": "Source reduction",
+        "option2": "Recycling",
+        "option3": "Disposal",
+        "option4": "Burning",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Who prepared the Ganga Action Plan?",
+        "option1": "Department of Pollution",
+        "option2": "Department of Environment",
+        "option3": "Department of Rivers",
+        "option4": "Department of Industries",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In which temperature does soil develop slowly?",
+        "option1": "Summer",
+        "option2": "Wind",
+        "option3": "Rainy",
+        "option4": "Cold",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Under ideal climatic conditions, how many cm of soil is developed?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What are mature soils arranged in a series of zones called?",
+        "option1": "Soil zones",
+        "option2": "Soil layers",
+        "option3": "Soil horizons",
+        "option4": "Soil benches",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is a soil profile?",
+        "option1": "A cross-sectional view of the horizons in a soil",
+        "option2": "A front view of the horizons in a soil",
+        "option3": "A cross-sectional view of the horizons in rocks",
+        "option4": "A front view of the horizons in rocks",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many horizons are there in soils?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which horizon helps to determine the pH of the soil?",
+        "option1": "A",
+        "option2": "B",
+        "option3": "C",
+        "option4": "0",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the mixture of all the contents of soil called?",
+        "option1": "Organic matter",
+        "option2": "Inorganic matter",
+        "option3": "Mineral matter",
+        "option4": "Humus",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What does soil pollution lead to?",
+        "option1": "Reduction in crop yield",
+        "option2": "Increase in crop yield",
+        "option3": "Increase in crop height",
+        "option4": "Reduction in crop height",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is used to convert wastelands into agricultural lands?",
+        "option1": "Check dams",
+        "option2": "Water purifier",
+        "option3": "Rain harvesters",
+        "option4": "Gradonies",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Organic agriculture advocates avoiding the use of",
+        "option1": "Organic manure",
+        "option2": "Stored water",
+        "option3": "Modern technologies in harvesting",
+        "option4": "Chemical fertilizers",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the disadvantage of control measures of thermal pollution by passing the heated water?",
+        "option1": "Water is lost due to leakage",
+        "option2": "Water is lost due to absorption",
+        "option3": "Water is lost due to dilution",
+        "option4": "Water is lost due to evaporation",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following causes thermal pollution?",
+        "option1": "Release of cold water",
+        "option2": "Organic manures",
+        "option3": "Purified water",
+        "option4": "More number of trees",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How does soil erosion cause thermal pollution?",
+        "option1": "By making natural water bodies to hold in its normal level",
+        "option2": "By polluting the water bodies",
+        "option3": "By avoiding sunlight to fall on the water bodies",
+        "option4": "By making natural water bodies to rise beyond their normal level",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is a thermal shock?",
+        "option1": "Sudden raises of temperature to abnormal level",
+        "option2": "Sudden cooling of temperature to abnormal level",
+        "option3": "Temperature don’t change",
+        "option4": "Temperature change only due to environmental factors",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the main effect of thermal pollution on oxygen solubility in water bodies?",
+        "option1": "They increase the solubility of oxygen in water bodies",
+        "option2": "They maintain the solubility of oxygen in water bodies",
+        "option3": "They reduce the solubility of oxygen in water bodies",
+        "option4": "They don’t cause any affect in solubility of oxygen to the water bodies",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the main reason for thermal pollution?",
+        "option1": "Bio fuels",
+        "option2": "Organic farming",
+        "option3": "Eco-friendly vehicles",
+        "option4": "Power plants",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How does an artificial lake help in solving thermal pollution?",
+        "option1": "It stores heated water",
+        "option2": "It gives a good aesthetic view",
+        "option3": "It helps to breed fishes",
+        "option4": "It is used during the summer season where water scarcity causes",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is called for the useless heat from hot water recycled by industries?",
+        "option1": "Cooling towers",
+        "option2": "Recycling",
+        "option3": "Heat pump",
+        "option4": "Co-generation",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Generally, how many types of cooling towers are there?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When did air pollution on Earth happen for the first time?",
+        "option1": "When humans started using tools",
+        "option2": "When humans started using firewood",
+        "option3": "When humans started using clothes",
+        "option4": "When humans started using wheels",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Who made the first anti-pollution law?",
+        "option1": "Martin Luther King",
+        "option2": "Nelson Mandela",
+        "option3": "Queen Elizabeth",
+        "option4": "King Edward I",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which was the first major disaster of air pollution?",
+        "option1": "New York smog",
+        "option2": "London smog",
+        "option3": "Paris smog",
+        "option4": "Delhi smog",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the significance of black color moth in Europe during the 19th century?",
+        "option1": "Indication of evolution",
+        "option2": "Indication of soil pollution",
+        "option3": "Indication of mutation",
+        "option4": "Indication of air pollution",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the main cause of increase in air pollution in the 20th century?",
+        "option1": "Development of the transport system",
+        "option2": "Development of infrastructures",
+        "option3": "Development of electricity",
+        "option4": "Development of water resources",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many primary pollutants are there?",
+        "option1": "Three",
+        "option2": "Five",
+        "option3": "Seven",
+        "option4": "Nine",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What are secondary pollutants?",
+        "option1": "Pollutants due to fire",
+        "option2": "Pollutants due to emission",
+        "option3": "Pollutants due to a chemical reaction",
+        "option4": "Pollutants due to oxidation",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is the colorless, odorless, and toxic gas produced when organic materials incompletely burn?",
+        "option1": "Sulphur oxide",
+        "option2": "Carbon monoxide",
+        "option3": "Oxygen",
+        "option4": "Particulates",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following causes soot in the environment?",
+        "option1": "Hydrocarbons",
+        "option2": "Nitrogen oxide",
+        "option3": "Sulphur oxide",
+        "option4": "Particulates",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is aerosol?",
+        "option1": "General term for particles in air",
+        "option2": "General term for particles in soil",
+        "option3": "General term for particles in water",
+        "option4": "General term for particles inside humans",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Aerosol + solid particles + liquid particles results in",
+        "option1": "Dust",
+        "option2": "Mist",
+        "option3": "Smog",
+        "option4": "Smoke",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the pollution that can be traced directly to industrial activity?",
+        "option1": "Soil pollution",
+        "option2": "Water pollution",
+        "option3": "Air pollution",
+        "option4": "Industrial pollution",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are the largest contributors to global pollution?",
+        "option1": "Soil pollution",
+        "option2": "Industrial pollution",
+        "option3": "Radioactive pollution",
+        "option4": "Water pollution",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a consequence of industrial pollution?",
+        "option1": "Increase in the water level in seas",
+        "option2": "Releases of hazardous radiations",
+        "option3": "Increase in the animals in forests",
+        "option4": "Global warming",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How does industrial pollution result in water pollution?",
+        "option1": "Dumping of various waste products",
+        "option2": "Burning of fossil fuels",
+        "option3": "Emitting harmful gases into the atmosphere",
+        "option4": "Adding animals to seas",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is another name for light pollution?",
+        "option1": "Photographic pollution",
+        "option2": "Radioactive pollution",
+        "option3": "Power pollution",
+        "option4": "Photo pollution",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an effect of light pollution?",
+        "option1": "Photo pollution",
+        "option2": "Energy conservation",
+        "option3": "Decrease in atmospheric pressure",
+        "option4": "Increase in atmospheric temperature",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How can light pollution be controlled?",
+        "option1": "Using lights with poor efficiency",
+        "option2": "Using glare and redirection",
+        "option3": "Using the latest power efficiency LEDs",
+        "option4": "Using glare and reflection",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What are the effects of light pollution?",
+        "option1": "Increase in birds",
+        "option2": "Miscommunication",
+        "option3": "Increase in migration of birds",
+        "option4": "Decrease in migration of birds",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Why is light pollution a problem?",
+        "option1": "It affects only humans",
+        "option2": "It affects only animals",
+        "option3": "It affects only plants",
+        "option4": "It affects humans, animals, and plants",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Why industries pollute water?",
+        "option1": "Because they use water in large quantities",
+        "option2": "Because they release all the pollutants to water",
+        "option3": "Because industries don’t use water",
+        "option4": "Because water is an universal solvent",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following is the cause of industrial pollution?",
+        "option1": "Modern technologies",
+        "option2": "Efficient waste disposal",
+        "option3": "Efficient government policies",
+        "option4": "Unplanned industrial growth",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following is the main cause of air pollution?",
+        "option1": "Decrease in the factories",
+        "option2": "Increase in the factories",
+        "option3": "Increase in the seawater level",
+        "option4": "Increase in the modern technologies",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When did the Central Pollution Control Board established?",
+        "option1": "1970",
+        "option2": "1972",
+        "option3": "1974",
+        "option4": "1976",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Who appoints the chairman of the Central Pollution Control Board?",
+        "option1": "Central Government",
+        "option2": "State Government",
+        "option3": "Governor of the State",
+        "option4": "President of India",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following is the apex organization in the country in the field of pollution control?",
+        "option1": "Water Pollution Control Board",
+        "option2": "State Pollution Control Board",
+        "option3": "Central Pollution Control Board",
+        "option4": "Air pollution Control Board",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Where is the head office of the Central Pollution Control Board?",
+        "option1": "Mumbai",
+        "option2": "Raipur",
+        "option3": "Mysore",
+        "option4": "New Delhi",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of NAMP?",
+        "option1": "National Air Quality Monitoring Program",
+        "option2": "National Air Quality Measuring Program",
+        "option3": "National Air Quantity Monitoring Program",
+        "option4": "National Air Quality Monitoring Protocol",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In how many tier programs the inland water quality monitoring network is operating?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is the most input of waste causing marine pollution?",
+        "option1": "Pesticides",
+        "option2": "Pipes directly discharge waste into the sea",
+        "option3": "Death of aquatic organisms",
+        "option4": "Climatic conditions",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Why ship accidents cause marine pollution?",
+        "option1": "Because if the ship carrying passengers to collapse it results in the death of many people",
+        "option2": "Because ship is very huge in its size",
+        "option3": "Dredged material which carries heavy metals cause marine pollution",
+        "option4": "Ship materials stuck inside the marine organisms",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the greatest volume of waste discharge to water?",
+        "option1": "Spillage from oil pipelines",
+        "option2": "Sewage",
+        "option3": "Nuclear waste",
+        "option4": "Spillage from tankers",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When does the rate of aerobic oxidation reduced in the sewage that is reduced to the water?",
+        "option1": "When oxygen concentration falls below 1.5 mg/I",
+        "option2": "When oxygen concentration falls below 2.5 mg/I",
+        "option3": "When oxygen concentration falls below 3.5 mg/I",
+        "option4": "When oxygen concentration falls below 4.5 mg/I",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following way is used to reduce the pollution load on marine water?",
+        "option1": "Manual cleaning of pollutants",
+        "option2": "Damping the pollutants during winter",
+        "option3": "Introducing sewage treatment plants",
+        "option4": "Ban the license of industries which are near to the sea",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the reason that oil pollution attracts the greatest attention?",
+        "option1": "Because of the volume",
+        "option2": "Because of the density",
+        "option3": "Because of the mass",
+        "option4": "Because of the visibility",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is night soil?",
+        "option1": "Soil containing urea",
+        "option2": "Human excreta",
+        "option3": "Animal excreta",
+        "option4": "Human excreta, animal excreta and urea",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Wastewater from different sources like bathrooms, kitchens and wash basins is called",
+        "option1": "Sewage",
+        "option2": "Garbage",
+        "option3": "Sullage",
+        "option4": "Discharge",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following conditions is not suitable for the disposal of excreta or sewage?",
+        "option1": "The waste does not pollute the ground surface",
+        "option2": "It is not exposed to the atmosphere",
+        "option3": "It should be accessible for children",
+        "option4": "It does not give odour nuisance",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The system to collect night soil, garbage etc. in separate vessels or deposited in pools and pits is called",
+        "option1": "Conservancy system",
+        "option2": "Waste allocation system",
+        "option3": "Waste deposition system",
+        "option4": "Waste pit",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In urban cities like Bangalore, which of the water carriage system is used?",
+        "option1": "Separate system",
+        "option2": "Combined system",
+        "option3": "Partially combined system",
+        "option4": "Partially separate system",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an advantage of the conservancy system over water carriage system?",
+        "option1": "Labour force",
+        "option2": "Water consumption",
+        "option3": "Compact house design",
+        "option4": "Spread of epidemic",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The means of promoting hygiene through the prevention of human contact with the hazards of wastes especially feces is called",
+        "option1": "Hygiene control",
+        "option2": "Disease prevention",
+        "option3": "Sanitation",
+        "option4": "Hygiene",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The relatively clean wastewater from baths, sinks, washing machines and other kitchen appliances is called",
+        "option1": "Grey water",
+        "option2": "Black water",
+        "option3": "Yellow water",
+        "option4": "Wastewater",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the major problem in nuclear plants?",
+        "option1": "Drawing out energy",
+        "option2": "Fusion of particles",
+        "option3": "Disposal of nuclear waste",
+        "option4": "Handling of fuel",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "_____ is suited for open channel monitoring applications.",
+        "option1": "pH sensor",
+ "option2": "Ultrasonic technology",
+        "option3": "Infrared technology",
+        "option4": "Monitoring meters",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How many categories of process variables are present?",
+        "option1": "2",
+        "option2": "3",
+        "option3": "4",
+        "option4": "5",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are a mechanical means of signal transmission?",
+        "option1": "Detector",
+        "option2": "Tone",
+        "option3": "Amplifier",
+        "option4": "Indicator",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the hazardous pollutant released from resistors?",
+        "option1": "Arsenic",
+        "option2": "Barium",
+        "option3": "Cobalt",
+        "option4": "Silver",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the hazardous pollutant released from luminous substances?",
+        "option1": "Arsenic",
+        "option2": "Barium",
+        "option3": "Zinc",
+        "option4": "Silver",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following metal affects mental development in children?",
+        "option1": "Lead",
+        "option2": "Barium",
+        "option3": "Zinc",
+        "option4": "Silver",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following metal causes bronchial maladies?",
+        "option1": "Lead",
+        "option2": "Barium",
+        "option3": "Chromium",
+        "option4": "Plastic",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following area has the lowest chance of producing a biomedical waste?",
+        "option1": "Hospitals",
+        "option2": "Clinics",
+        "option3": "Laboratories",
+        "option4": "Agricultural lands",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a Biomedical waste?",
+        "option1": "Animal waste",
+        "option2": "Microbiological waste",
+        "option3": "Chemical waste",
+        "option4": "Domestic waste",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is categorized as an incineration waste?",
+        "option1": "Incineration ash",
+        "option2": "Animal waste",
+        "option3": "Solid waste",
+        "option4": "Cytotoxic drugs",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following should not be mixed with other wastes to avoid contamination?",
+        "option1": "Tarry residue",
+        "option2": "Oily sludge",
+        "option3": "Animal waste",
+        "option4": "Vegetable oil",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a waste treatment method for biomedical wastes?",
+        "option1": "Incineration",
+        "option2": "Chemical disinfecting",
+        "option3": "Autoclaving",
+        "option4": "Sieving",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following requires special treatment of bacteria?",
+        "option1": "Packaging of waste",
+        "option2": "Labelling of waste",
+        "option3": "Transport of waste",
+        "option4": "Degradation of waste",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following can be used to produce marketable compost from dry solid wastes?",
+        "option1": "Aerobic composting",
+        "option2": "Vermicomposting",
+        "option3": "Anaerobic digestion",
+        "option4": "Anaerobic composting",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following can be used to treat wastes with simple organic matter with high water content?",
+        "option1": "Vermicomposting",
+        "option2": "Aerobic composting",
+        "option3": "Incineration",
+        "option4": "Anaerobic digestion",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Why is light pollution a problem?",
+        "option1": "It affects only humans",
+        "option2": "It affects only animals",
+        "option3": "It affects only plants",
+        "option4": "It affects humans, animals, and plants",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In State Pollution Control Boards, how many constitutions of committees can constitute?",
+        "option1": "One",
+        "option2": "Ten",
+        "option3": "Not constitute any committees",
+        "option4": "As many committees as necessary",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Where is the head office of the Central Pollution Control Board?",
+        "option1": "Mumbai",
+        "option2": "Raipur",
+        "option3": "Mysore",
+        "option4": "New Delhi",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Who decides the term of the Member Secretary in the Central Pollution Control Board?",
+        "option1": "Chairman of the Central Pollution Control Board",
+        "option2": "President of India",
+        "option3": "Prime Minister of India",
+        "option4": "Government of India",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of NAMP?",
+        "option1": "National Air Quality Monitoring Program",
+        "option2": "National Air Quality Measuring Program",
+        "option3": "National Air Quantity Monitoring Program",
+        "option4": "National Air Quality Monitoring Protocol",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When did the Karnataka State Pollution Control Board for Prevention and Control of Water Pollution constitute?",
+        "option1": "1974",
+        "option2": "1978",
+        "option3": "1982",
+        "option4": "1985",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In how many tier programs is the inland water quality monitoring network operating?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When was the National Green Tribunal Act constituted?",
+        "option1": "2000",
+        "option2": "2005",
+        "option3": "2010",
+        "option4": "2015",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is the first country to pass the amendment in the parliament to safeguard the environment?",
+        "option1": "Brazil",
+        "option2": "Denmark",
+        "option3": "China",
+        "option4": "India",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How can we achieve the prevention of environmental degradation?",
+        "option1": "By relying on the government to do all the jobs",
+        "option2": "By killing all animals in the forest",
+        "option3": "By creating public awareness among people about the importance of environment",
+        "option4": "By causing more and more pollution",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following way can we create awareness among people about the environment efficiently?",
+        "option1": "By the help of mass media shows the importance of environment",
+        "option2": "By spreading through mouths",
+        "option3": "By forcefully insisting people to protecting environment",
+        "option4": "By making treaties with other countries",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following is the best way to protect environment by individuals?",
+        "option1": "By simply talking about environment",
+        "option2": "By killing organisms and cutting trees",
+        "option3": "By joining NGOs and involve themselves in environmental protection works",
+        "option4": "By simply sitting in a home",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the best way to educate school kids about the environment?",
+        "option1": "Teaching theory about environment in classes",
+        "option2": "Showing pictures and videos of environment on projector screen",
+        "option3": "Taking kids to national parks or sanctuaries",
+        "option4": "Taking kids to amusement parks",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When do we celebrate World Forestry Day?",
+        "option1": "21 March",
+        "option2": "22 April",
+        "option3": "05 June",
+        "option4": "11 July",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In India, when is Wildlife Week celebrated?",
+        "option1": "Between April 1 and 8",
+        "option2": "Between July 1 and 8",
+        "option3": "Between August 1 and 8",
+        "option4": "Between October 1 and 8",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When did the Bombay Natural History Society start?",
+        "option1": "1883",
+        "option2": "1894",
+        "option3": "1903",
+        "option4": "1916",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is India's oldest conservation research-based NGO?",
+        "option1": "Botanical Survey of India",
+        "option2": "Bombay Natural History Society",
+        "option3": "Centre for Environmental Education",
+        "option4": "Madras Crocodile Bank Trust",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which is the first crocodile conservation breeding center in Asia?",
+        "option1": "Madras Crocodile Bank Trust",
+        "option2": "Bombay Crocodile Bank Trust",
+        "option3": "Kolkata Crocodile Bank Trust",
+        "option4": "Mangalore Crocodile Bank Trust",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Where can we see the State Department of Environment?",
+        "option1": "State where there is no danger for environment",
+        "option2": "State where there is danger for environment",
+        "option3": "State where there is no adequate environment",
+        "option4": "In all States of India",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Where is the headquarter of the Wildlife Institute of India located?",
+        "option1": "New Delhi",
+        "option2": "Mysore",
+        "option3": "Dehradun",
+        "option4": "Bhopal",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When was the Zoological Survey of India established?",
+        "option1": "1900",
+        "option2": "1909",
+        "option3": "1916",
+        "option4": "1920",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following actions takes place in the formation of ozone?",
+        "option1": "Action of daylight on oxygen",
+        "option2": "Action of daylight on nitrogen",
+        "option3": "Action of daylight on hydrogen",
+        "option4": "Action of daylight on phosphorous",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When was the Central Pollution Control Board established?",
+        "option1": "1970",
+        "option2": "1972",
+        "option3": "1974",
+        "option4": "1976",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Who appoints the chairman of the Central Pollution Control Board?",
+        "option1": "Central Government",
+        "option2": "State Government",
+        "option3": "Governor of the State",
+        "option4": "President of India",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following is the apex organization in the country in the field of pollution control?",
+        "option1": "Water Pollution Control Board",
+        "option2": "State Pollution Control Board",
+        "option3": "Central Pollution Control Board",
+        "option4": "Air Pollution Control Board",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How many officials can be nominated to the Central Pollution Control Board by the Central Government?",
+        "option1": "Five",
+        "option2": "Ten",
+        "option3": "Twenty",
+        "option4": "Twenty-Five",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In State Pollution Control Boards, how many constitutions of committees can be constituted?",
+        "option1": "One",
+        "option2": "Ten",
+        "option3": "Not constitute any committees",
+        "option4": "As many committees as necessary",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Where is the head office of the Central Pollution Control Board?",
+        "option1": "Mumbai",
+        "option2": "Raipur",
+        "option3": "Mysore",
+        "option4": "New Delhi",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Who decides the term of the Member Secretary in the Central Pollution Control Board?",
+        "option1": "Chairman of the Central Pollution Control Board",
+        "option2": "President of India",
+        "option3": "Prime Minister of India",
+        "option4": "Government of India",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of NAMP?",
+        "option1": "National Air Quality Monitoring Program",
+        "option2": "National Air Quality Measuring Program",
+        "option3": "National Air Quantity Monitoring Program",
+        "option4": "National Air Quality Monitoring Protocol",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When was the Karnataka State Pollution Control Board for Prevention and Control of Water Pollution constituted?",
+        "option1": "1974",
+        "option2": "1978",
+        "option3": "1982",
+        "option4": "1985",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In how many tier programs is the inland water quality monitoring network operating?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When was the National Green Tribunal Act constituted?",
+        "option1": "2000",
+        "option2": "2005",
+        "option3": "2010",
+        "option4": "2015",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is the first country to pass the amendment in the parliament to safeguard the environment?",
+        "option1": "Brazil",
+        "option2": "Denmark",
+        "option3": "China",
+        "option4": "India",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are moral principles that describe certain standards of human behavior and are regularly protected as legal rights?",
+        "option1": "National rights",
+        "option2": "Human rights",
+        "option3": "Women rights",
+        "option4": "Men rights",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of NGOs?",
+        "option1": "Non-Governmental Organizations",
+        "option2": "Non Governance Organizations",
+        "option3": "No Governance Organizations",
+        "option4": "Null Governmental Organizations",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When does an Environmental Policy achieve positive results?",
+        "option1": "When policy addressed to urban issues",
+        "option2": "When policy addressed to local issues",
+        "option3": "When policy addressed to international issues",
+        "option4": "When policy addressed to national issues",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In which of the following is Greenpeace fighting against?",
+        "option1": "Commercial fishing",
+        "option2": "Commercial farming",
+        "option3": "Commercial rattling",
+        "option4": "Commercial whaling",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Why does Greenpeace oppose genetic engineering?",
+        "option1": "Because it causes genetic pollution",
+        "option2": "Because it increases the health of organisms",
+        "option3": "It completely saves the forest",
+        "option4": "It contributes for a better environment",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Why does Greenpeace oppose the use of nuclear power?",
+        "option1": "Because nuclear power increases the environment rapidly",
+        "option2": "Because nuclear power plants abolish disasters",
+        "option3": "Because there are no disadvantages in nuclear power",
+        "option4": "Because it releases harmful radiations",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When was Greenpeace founded?",
+        "option1": "1965",
+        "option2": "1967",
+        "option3": "1968",
+        "option4": "1971",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Where is WWF International located?",
+        "option1": "Poland",
+        "option2": "United States",
+        "option3": "Switzerland",
+        "option4": "England",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When was the Bombay Natural History Society (BNHS) founded?",
+        "option1": "1857",
+        "option2": "1868",
+        "option3": "1883",
+        "option4": "1897",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of CYWEN?",
+        "option1": "Club of Youth Working for Environment",
+        "option2": "Council of Youth Working for Environment",
+        "option3": "Club of Youth Working for Employment",
+        "option4": "Council of Youth Working for Employment",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which year was the Green Coalition founded?",
+        "option1": "1998",
+        "option2": "1999",
+        "option3": "2000",
+        "option4": "2001",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which NGO has the mission 'Conserve the lands and waters on which all life depends'?",
+        "option1": "Greenpeace",
+        "option2": "Shuddhi",
+        "option3": "World Wildlife Fund",
+        "option4": "The Nature Conservancy",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How can we achieve the prevention of environmental degradation?",
+        "option1": "By relying on the government to do all the jobs",
+        "option2": "By killing all animals in the forest",
+        "option3": "By creating public awareness among people about the importance of environment",
+        "option4": "By causing more and more pollution",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In which of the following ways can we create awareness among people about the environment efficiently?",
+        "option1": "By the help of mass media showing the importance of environment",
+        "option2": "By spreading through word of mouth",
+        "option3": "By forcefully insisting people protect the environment",
+        "option4": "By making treaties with other countries",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following is the best way to protect the environment by individuals?",
+        "option1": "By simply talking about the environment",
+        "option2": "By killing organisms and cutting trees",
+        "option3": "By joining NGOs and involving themselves in environmental protection work",
+        "option4": "By simply sitting at home",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the best way to educate school kids about the environment?",
+        "option1": "Teaching theory about the environment in classes",
+        "option2": "Showing pictures and videos of the environment on a projector screen",
+        "option3": "Taking kids to national parks or sanctuaries",
+        "option4": "Taking kids to amusement parks",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When is World Forestry Day celebrated?",
+        "option1": "21 March",
+        "option2": "22 April",
+        "option3": "05 June",
+        "option4": "11 July",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In India, when is Wildlife Week celebrated?",
+        "option1": "Between April 1 and 8",
+        "option2": "Between July 1 and 8",
+        "option3": "Between August 1 and 8",
+        "option4": "Between October 1 and 8",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When did the Bombay Natural History Society start?",
+        "option1": "1883",
+        "option2": "1894",
+        "option3": "1903",
+        "option4": "1916",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is India's oldest conservation research-based NGO?",
+        "option1": "Botanical Survey of India",
+        "option2": "Bombay Natural History Society",
+        "option3": "Centre for Environmental Education",
+        "option4": "Madras Crocodile Bank Trust",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which is the first crocodile conservation breeding center in Asia?",
+        "option1": "Madras Crocodile Bank Trust",
+        "option2": "Bombay Crocodile Bank Trust",
+        "option3": "Kolkata Crocodile Bank Trust",
+        "option4": "Mangalore Crocodile Bank Trust",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Where is the State Department of Environment located?",
+        "option1": "State where there is no danger for the environment",
+        "option2": "State where there is danger for the environment",
+        "option3": "State where there is inadequate environment",
+        "option4": "In all States of India",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Where is the headquarters of the Wildlife Institute of India located?",
+        "option1": "New Delhi",
+        "option2": "Mysore",
+        "option3": "Dehradun",
+        "option4": "Bhopal",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When was the Zoological Survey of India established?",
+        "option1": "1900",
+        "option2": "1909",
+        "option3": "1916",
+        "option4": "1920",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the term for the collection of rainwater for use?",
+        "option1": "Rain collection",
+        "option2": "Rainwater harvesting",
+        "option3": "Rain digging",
+        "option4": "Rainwater pumping",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the name of the process to clean water using filters?",
+        "option1": "Sublimation",
+        "option2": "Oxidation",
+        "option3": "Purification",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the gallon limit for new toilets according to Federal plumbing standards?",
+        "option1": "1.6",
+        "option2": "2.5",
+        "option3": "3.9",
+        "option4": "4.3",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many methods of rainwater harvesting are there?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How can we increase the efficiency of water irrigation systems?",
+        "option1": "By pouring unnecessary water on the land",
+        "option2": "By not supplying adequate water",
+        "option3": "By applying the drip irrigation method",
+        "option4": "By using more manure",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What are the two main types of drip irrigation?",
+        "option1": "Surface and Subsurface drip irrigation",
+        "option2": "Under and Subsurface drip irrigation",
+        "option3": "Top and Surface drip irrigation",
+        "option4": "Top and Under drip irrigation",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Why should people implement rainwater harvesting?",
+        "option1": "In order to play with the water",
+        "option2": "In order to use during scarcity of water",
+        "option3": "In order to pour the rainwater directly into the sewage",
+        "option4": "In order to pass time",
+        "Answer": "option2",
+        "marks": 1
+    },
+
+
+]
+
+module.exports = { data: UT2EST};

@@ -1,0 +1,104 @@
+<style>
+ /* Notification Bar Link */
+#notification-bar-link {
+    text-decoration: none;
+}
+
+/* Notification Bar Styling */
+.notification-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(90deg, #3c2559, #6a3b8a);
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-100%);
+    animation: slideDown 1s forwards ease-out, heartbeat 1.5s infinite;
+    z-index: 1000;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(255, 221, 68, 0.6);
+    cursor: pointer; /* Make the bar appear clickable */
+}
+
+/* Icon Styling */
+.notification-bar i {
+    font-size: 1.4em;
+    margin-right: 8px;
+    color: #ffdd44;
+    animation: glow 1.5s infinite;
+}
+
+/* Slide Down Animation */
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Heartbeat Animation */
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 15px rgba(255, 221, 68, 0.6);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 25px rgba(255, 221, 68, 1);
+    }
+}
+
+/* Glowing Effect */
+@keyframes glow {
+    0%, 100% {
+        text-shadow: 0 0 10px rgba(255, 221, 68, 0.5);
+    }
+    50% {
+        text-shadow: 0 0 20px rgba(255, 221, 68, 1);
+    }
+}
+
+/* Close Button Styling */
+.close-btn {
+    position: absolute;
+    right: 20px;
+    font-size: 1.4em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+</style>
+
+<!-- Notification Bar -->
+<a href="/subjects/UT%20Specail%20EST" id="notification-bar-link">
+    <div id="notification-bar" class="notification-bar">
+        <i class="fas fa-star"></i>
+        <strong>New!</strong> Exclusive Unit Test Special EST Questions are now available!
+    </div>
+</a>
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const notificationBar = document.getElementById("notification-bar");
+        const closeButton = document.querySelector(".close-btn");
+    
+        // Close the notification bar when clicking on the close button
+        closeButton.onclick = (event) => {
+            event.stopPropagation(); // Prevents link click if close button is clicked
+            notificationBar.style.transform = "translateY(-100%)";
+        };
+    });
+    
+    
+
+</script>
