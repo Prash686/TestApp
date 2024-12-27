@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const questionSchema = new mongoose.Schema({
-    subject : {type: String, default: "UT Specail EST"},
+    subject : {type: String, default: "Final EST"},
     question: { type: String, },
     option1: { type: String, },
     option2: { type: String,  },

@@ -15,7 +15,7 @@ try {
 
     let selectedAnswers = {};
     let totalMarks = 0;
-    let totalTime = 600;
+    let totalTime = 5400;
     const timerElement = document.getElementById('time-left');
     let timerInterval;
     let examEnded = false;

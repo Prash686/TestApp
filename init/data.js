@@ -3202,7 +3202,7 @@ const unitTest =[
         "option2": "IR Rays",
         "option3": "X Rays",
         "option4": "None of the above",
-        "Answer": "option2",
+        "Answer": "option1",
         "marks": 1
     },
     {
@@ -17829,6 +17829,12 @@ const courses = [
 const subjects = [
     {
         "course": "MSBTE",
+        "title": "Final EST",
+        "discription": "Environmental Studies (EST) focuses on understanding the relationship between humans and the natural environment, addressing issues like pollution, biodiversity, and sustainability. It promotes awareness and solutions to environmental challenges for a healthier planet.",
+        "image": "/images/msbte.jpeg",
+    },
+    {
+        "course": "MSBTE",
         "title": "EST",
         "discription": "Environmental Studies (EST) focuses on understanding the relationship between humans and the natural environment, addressing issues like pollution, biodiversity, and sustainability. It promotes awareness and solutions to environmental challenges for a healthier planet.",
         "image": "/images/msbte.jpeg",
@@ -17842,12 +17848,6 @@ const subjects = [
     {
         "course": "MSBTE",
         "title": "Management",
-        "discription": "",
-        "image": "/images/msbte.jpeg",
-    },
-    {
-        "course": "MSBTE",
-        "title": "UT Specail EST",
         "discription": "",
         "image": "/images/msbte.jpeg",
     },
@@ -27261,21 +27261,349 @@ const Management = [
 
 const UT2EST = [
     {
+        "question": "Landfill of waste is basically a _________ pollution",
+        "option1": "Land",
+        "option2": "Noise",
+        "option3": "Sewage",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "On earth, ________ is freshwater.",
+        "option1": "3%",
+        "option2": "4%",
+        "option3": "5%",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Effects of water pollution on human beings are ________.",
+        "option1": "Typhoid",
+        "option2": "HIV",
+        "option3": "Dengue",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a tertiary treatment of wastewater?",
+        "option1": "Removal of nutrients",
+        "option2": "Chlorination",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Settling chambers collect dust of size ________.",
+        "option1": "> 10µm",
+        "option2": "< 10µm",
+        "option3": "= 10µm",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Zoos are examples for ________.",
+        "option1": "In_situ conservation",
+        "option2": "in vivo conservation",
+        "option3": "Ex_situ conservation",
+        "option4": "ex_vivo conservation",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The type of diversity including all the different kinds of living things found in a certain habitat is called ________.",
+        "option1": "Species diversity",
+        "option2": "Genetic diversity",
+        "option3": "Ecosystem diversity",
+        "option4": "Population diversity",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Conservation of biodiversity outside the natural habitat is called ________.",
+        "option1": "Ex-situ",
+        "option2": "In-situ",
+        "option3": "Conservation",
+        "option4": "In-vivo",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Energy flow in an ecosystem is always ________.",
+        "option1": "Unidirectional",
+        "option2": "Cyclic",
+        "option3": "Reversible",
+        "option4": "Multi-directional",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are types of uses of biodiversity?",
+        "option1": "Productive",
+        "option2": "Consumptive",
+        "option3": "Both a & b",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Wide range of Flora & Fauna is ________.",
+        "option1": "Nature",
+        "option2": "Biodiversity",
+        "option3": "Ecosystem",
+        "option4": "Culture",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which is the colorless, odorless and toxic gas produced when organic materials incompletely burn?",
+        "option1": "Sulphur oxide",
+        "option2": "Oxygen",
+        "option3": "Carbon monoxide",
+        "option4": "Particulates",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the main reason for ozone depletion?",
+        "option1": "Releasing of oxygen",
+        "option2": "Releasing of CFCs",
+        "option3": "Releasing of chemicals",
+        "option4": "Releasing of nitrogen",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the indicator of pollution in water?",
+        "option1": "Amount of oxygen",
+        "option2": "Amount of hydrogen",
+        "option3": "Amount of BOD",
+        "option4": "Amount of nitrogen",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Article 48A in The Constitution Of India represents ________.",
+        "option1": "Directive Principles",
+        "option2": "Fundamental duties",
+        "option3": "Both a and b",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is the best way to control noise pollution among the four fundamental ways?",
+        "option1": "Reduce noise at the source",
+        "option2": "Block the path of noise",
+        "option3": "Increase the path length",
+        "option4": "Protect the recipient",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Near the airport the noise pollution level is above ________.",
+        "option1": "100 dB",
+        "option2": "150 dB",
+        "option3": "200 dB",
+        "option4": "250 dB",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Gaseous pollutants are controlled by ________.",
+        "option1": "Absorption",
+        "option2": "Adsorption",
+        "option3": "Combustion",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Who prepared the Ganga Action Plan?",
+        "option1": "Department of Pollution",
+        "option2": "Department of Environment",
+        "option3": "Department of Rivers",
+        "option4": "Department of Industries",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Need of water treatment is",
+        "option1": "To remove dissolved gases",
+        "option2": "To remove dissolved oxygen",
+        "option3": "To enhance odour",
+        "option4": "To enhance colour",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a waste treatment method for biomedical wastes?",
+        "option1": "Incineration",
+        "option2": "Chemical disinfecting",
+        "option3": "Autoclaving",
+        "option4": "Sieving",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Who made the first anti-pollution law?",
+        "option1": "Martin Luther King",
+        "option2": "Nelson Mandela",
+        "option3": "Queen Elizabeth",
+        "option4": "King Edward",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Under climatic conditions, how many cms of soil is developed?",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which was the first major disaster of air pollution?",
+        "option1": "New York smog",
+        "option2": "London smog",
+        "option3": "Paris smog",
+        "option4": "Delhi smog",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Municipal solid waste includes...",
+        "option1": "Domestic waste",
+        "option2": "Commercial waste",
+        "option3": "Institutional waste",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Effects of air pollution on the environment include:",
+        "option1": "Global warming",
+        "option2": "Acid rain",
+        "option3": "Greenhouse effect",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
         "question": "Article 51-A (g) of the Indian Constitution represents:",
         "option1": "Directive Principles",
-        "option2": "Fundamental Duties",
+        "option2": "Fundamental duties",
+        "option3": "Both a and b",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an aspect of Sustainable Development?",
+        "option1": "Social",
+        "option2": "Environmental",
+        "option3": "Economical",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Maharashtra Pollution Control Board was established on:",
+        "option1": "7 September 1980",
+        "option2": "7 September 1970",
+        "option3": "7 September 1990",
+        "option4": "7 September 1960",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "High-level radioactive waste can be managed in which of the following ways?",
+        "option1": "Open dumping",
+        "option2": "Incineration",
+        "option3": "Composting",
+        "option4": "Deep burial",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a primary pollutant of air pollution?",
+        "option1": "Ash",
+        "option2": "Pollen",
+        "option3": "Smoke",
+        "option4": "Smog",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The main components of a watershed program are:",
+        "option1": "Water conservation",
+        "option2": "Soil conservation",
+        "option3": "Crop management",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Artificial sources of noise pollution are:",
+        "option1": "Thunder",
+        "option2": "Landslides",
+        "option3": "Earthquake",
+        "option4": "None of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The permissible range of PM 10 for residential area is ____",
+        "option1": "60 - 100",
+        "option2": "70 - 100",
+        "option3": "80 - 100",
+        "option4": "90 - 100",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "EIA can be seen as a ___________",
+        "option1": "measuring tool",
+        "option2": "product",
+        "option3": "multiplying tool",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_______ is a process where gases, vapors, or liquids are concentrated on a solid surface",
+        "option1": "Absorption",
+        "option2": "Adsorption",
+        "option3": "Combustion",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Article 51-A (g) of the Indian Constitution represents:",
+        "option1": "Directive Principles",
+        "option2": "Fundamental duties",
         "option3": "Both a) and b)",
         "option4": "None of the above",
         "Answer": "option2",
         "marks": 1
     },
     {
-        "question": "Article 48-A in the Constitution of India represents: It shall be the duty of every citizen of India to protect and improve the natural environment, including forests, lakes, rivers, and wildlife, and to have _______ for living creatures.",
+        "question": "Article 48 A in The Constitution Of India represents:",
         "option1": "Directive Principles",
-        "option2": "Fundamental Duties",
+        "option2": "Fundamental duties",
         "option3": "Both a) and b)",
         "option4": "None of the above",
-        "Answer": "option2",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "It shall be the duty of every citizen of India to protect and improve the natural environment including forests, lakes, rivers, and wildlife and to have __________ for living creatures.",
+        "option1": "competition",
+        "option2": "conquerance",
+        "option3": "compassion",
+        "option4": "contingence",
+        "Answer": "option3",
         "marks": 1
     },
     {
@@ -27297,12 +27625,12 @@ const UT2EST = [
         "marks": 1
     },
     {
-        "question": "Article 48A was added by the Constitution vide ________ Amendment in 1976.",
-        "option1": "22nd",
-        "option2": "32nd",
-        "option3": "42nd",
-        "option4": "452nd",
-        "Answer": "option3",
+        "question": "World Environment Day is on:",
+        "option1": "5 June",
+        "option2": "15 June",
+        "option3": "25 July",
+        "option4": "5 August",
+        "Answer": "option1",
         "marks": 1
     },
     {
@@ -27324,7 +27652,7 @@ const UT2EST = [
         "marks": 1
     },
     {
-        "question": "Which of the following is an aspect of Sustainable Development:",
+        "question": "Which of the following is an aspect of Sustainable Development?",
         "option1": "Social",
         "option2": "Environmental",
         "option3": "Economical",
@@ -27333,26 +27661,62 @@ const UT2EST = [
         "marks": 1
     },
     {
-        "question": "Water management includes:",
-        "option1": "Rainwater harvesting",
-        "option2": "Groundwater recharge",
-        "option3": "Green belt development",
-        "option4": "All of the above",
+        "question": "Narmada Bachao Andolan is initiated by:",
+        "option1": "Nana Patekar",
+        "option2": "Amir Khan",
+        "option3": "Yash Yangali",
+        "option4": "Medha Patkar",
         "Answer": "option4",
         "marks": 1
     },
     {
         "question": "__________ is a hydrologic process where water moves downward from surface water to groundwater.",
-        "option1": "Rainwater harvesting",
-        "option2": "Groundwater recharge",
+        "option1": "Rain water harvesting",
+        "option2": "Ground water recharge",
         "option3": "Green belt development",
         "option4": "All of the above",
         "Answer": "option2",
         "marks": 1
     },
     {
+        "question": "Green Belt Development benefited in:",
+        "option1": "reducing air pollution",
+        "option2": "water conservation",
+        "option3": "reduce soil erosion",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Formal environmental education represents education",
+        "option1": "within the classroom",
+        "option2": "outside the classroom",
+        "option3": "both a) and b)",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Adult education is ____",
+        "option1": "Formal education",
+        "option2": "Non-formal education",
+        "option3": "Primary education",
+        "option4": "Secondary education",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Both formal and non-formal environmental education must have _________ goals",
+        "option1": "different",
+        "option2": "common",
+        "option3": "two",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
         "question": "Which among the following is not an Act of Environmental Protection?",
-        "option1": "Biomedical Waste (Management and Handling) Rules, 1998",
+        "option1": "Biomedical Waste (Management and handling) Rules, 1998",
         "option2": "Recycled Plastics, Plastics Manufacture and Usage Rules, 1999",
         "option3": "Construction and Demolition Waste Management Rules, 2016",
         "option4": "Conservation of plastic, waste and increasing act 2016",
@@ -27360,25 +27724,25 @@ const UT2EST = [
         "marks": 1
     },
     {
-        "question": "Administrative framework for environmental protection includes:",
-        "option1": "Central Pollution Control Board",
-        "option2": "State Pollution Control Board",
+        "question": "Administrative framework for environmental protection includes.",
+        "option1": "Central pollution control Board",
+        "option2": "State pollution control Board",
         "option3": "Ministry of Environment and Forest",
         "option4": "All of the above",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "Central Pollution Control Board is formed to _______:",
-        "option1": "prevent environmental pollution",
-        "option2": "promote environmental pollution",
-        "option3": "practice environmental pollution",
+        "question": "Central pollution control Board is formed to_______",
+        "option1": "prevent the environmental pollution",
+        "option2": "promote the environmental pollution",
+        "option3": "practice the environmental pollution",
         "option4": "All of the above",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "Maharashtra Pollution Control Board was established on:",
+        "question": "Maharashtra Pollution Control Board is established on",
         "option1": "7 September 1980",
         "option2": "7 September 1990",
         "option3": "7 September 1970",
@@ -27387,1731 +27751,21 @@ const UT2EST = [
         "marks": 1
     },
     {
-        "question": "The responsibilities of the Pollution Control Board include:",
+        "question": "The responsibilities of pollution control board",
         "option1": "create public awareness",
-        "option2": "inspect sewage",
+        "option2": "Inspect sewage",
         "option3": "inspect air control system",
         "option4": "All of the above",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "NGO stands for:",
-        "option1": "Non Governance Organization",
-        "option2": "Non Government Optimization",
-        "option3": "Non Government Organization",
-        "option4": "Non Government Organiser",
+        "question": "Zoos are examples for",
+        "option1": "insitu conservation",
+        "option2": "in vivo conservation",
+        "option3": "exsitu conservation",
+        "option4": "exvivo conservation",
         "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Supposed to be working not for ‘profit’ but for a ‘cause(s)’ is:",
-        "option1": "NGO",
-        "option2": "CGO",
-        "option3": "GOO",
-        "option4": "MGO",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Narmada Bachao Andolan is initiated by:",
-        "option1": "Nana Patekar",
-        "option2": "Amir Khan",
-        "option3": "Medha Patkar",
-        "option4": "Sardar Patel",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "The study to predict the effect of a proposed activity/project on the environment is known as:",
-        "option1": "Sustainable development",
-        "option2": "Environmental impact assessment",
-        "option3": "Environmental improvement",
-        "option4": "Environmental cultivation",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "EIA can be seen as a:",
-        "option1": "measuring tool",
-        "option2": "product",
-        "option3": "multiplying tool",
-        "option4": "None of the above",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Any spatial area from which runoff from precipitation is collected and drained through a common point or outlet is called:",
-        "option1": "Green belt",
-        "option2": "Rainfall",
-        "option3": "Watershed",
-        "option4": "Rain water harvesting",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "The main components of watershed programme:",
-        "option1": "water conservation",
-        "option2": "soil conservation",
-        "option3": "crop management",
-        "option4": "All of the above",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "National River Linkage Project, Hydropower generation is proposed:",
-        "option1": "About 34,00 MW",
-        "option2": "About 44,000 MW",
-        "option3": "About 34,000 MW",
-        "option4": "About 44,00 MW",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Water shed within crop fields is called as:",
-        "option1": "Micro water shed",
-        "option2": "Small water shed",
-        "option3": "Large water shed",
-        "option4": "All of the above",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "National river linkage project includes, Interlinking of ___ rivers across the country through a network of ____ storage dams:",
-        "option1": "30, 3000",
-        "option2": "37, 3000",
-        "option3": "40, 3000",
-        "option4": "47, 3000",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Formal environmental education begins at:",
-        "option1": "research level",
-        "option2": "college level",
-        "option3": "high school level",
-        "option4": "primary school level",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Sustainable Development by solving problems of Environment is taught at:",
-        "option1": "post-research level",
-        "option2": "college/university level",
-        "option3": "high school level",
-        "option4": "primary school level",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Adult education is:",
-        "option1": "Formal education",
-        "option2": "Non-formal education",
-        "option3": "Primary education",
-        "option4": "Group education",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "GIS stands for:",
-        "option1": "Geographical Information Systems",
-        "option2": "Geological Information Systems",
-        "option3": "Geographical Importation Systems",
-        "option4": "Geographical Information Solutions",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following is not an IT tool used for environment and public health:",
-        "option1": "Arogya Setu App",
-        "option2": "Artificial Intelligence",
-        "option3": "M S Word",
-        "option4": "GIS",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "The type of ecosystem with the highest mean plant productivity is",
-        "option1": "Tundra",
-        "option2": "Temperate grassland",
-        "option3": "Desert",
-        "option4": "Tropical rain forest",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "An ecosystem which can be easily damaged but can recover after some time if damaging effect stops will be having",
-        "option1": "High stability and high resilience",
-        "option2": "High stability and low resilience",
-        "option3": "Low stability and low resilience",
-        "option4": "Low stability and high resilience",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "In ecosystem standing crop refers to",
-        "option1": "All the green plants",
-        "option2": "All the non-living materials",
-        "option3": "All living and dead animals",
-        "option4": "All the living materials both animals and plants",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which ecosystem produces the highest annual net primary productivity?",
-        "option1": "Tropical evergreen forest",
-        "option2": "Tropical rain forest",
-        "option3": "Tropical deciduous forest",
-        "option4": "Temperate evergreen forest",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What flows through the ecosystem while matter cycles within them?",
-        "option1": "Energy",
-        "option2": "Force",
-        "option3": "Pressure",
-        "option4": "Wind",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Total primary production in an ecosystem is known as",
-        "option1": "Gross final production",
-        "option2": "Gross primary production",
-        "option3": "Gross middle production",
-        "option4": "Net primary production",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which type of ecosystem accounts for most of the net primary productivity on Earth even though it has a low average net primary productivity?",
-        "option1": "Tropical rain forest",
-        "option2": "Desert",
-        "option3": "Tropical evergreen forest",
-        "option4": "Oceans",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Generally, ecosystems consist of how many basic components?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "The three functional components interact with each other to form",
-        "option1": "Environmental succession",
-        "option2": "Environmental depression",
-        "option3": "Environmental system",
-        "option4": "Ecology",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "The dominant second tropic level in a lake ecosystem is",
-        "option1": "Phytoplankton",
-        "option2": "Zooplankton",
-        "option3": "Plankton",
-        "option4": "Benthos",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Consumer for food that feeds on producers are known as",
-        "option1": "Carnivores",
-        "option2": "Consumers",
-        "option3": "Herbivores",
-        "option4": "Producers",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "The food chain from grass to hawk and again it comes back to grass with the help of fungi. In the above explain food chain, what is grass?",
-        "option1": "Producers",
-        "option2": "Consumers",
-        "option3": "Decomposers",
-        "option4": "Energy source",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "The process in which green plants and few organisms use sunlight to synthesize nutrients is known",
-        "option1": "Chemosynthesis",
-        "option2": "Photosynthesis",
-        "option3": "Food chain",
-        "option4": "Food web",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "The process of making food by certain microbes create energy by some chemical reactions is known as",
-        "option1": "Photosynthesis",
-        "option2": "Food chain",
-        "option3": "Chemosynthesis",
-        "option4": "Hetrosynthesis",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "The food chain level in autotrophy is",
-        "option1": "Primary",
-        "option2": "Secondary",
-        "option3": "Tertiary",
-        "option4": "Quaternary",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What makes plant producers?",
-        "option1": "Plants produce their own food",
-        "option2": "Plants depend on other organisms for food",
-        "option3": "Plants are decomposers",
-        "option4": "Plants do not require any energy",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What does a primary consumer eat?",
-        "option1": "Plants",
-        "option2": "Decomposers",
-        "option3": "Small animals",
-        "option4": "Large animals",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "On what category consumers are classified into?",
-        "option1": "Herbivore",
-        "option2": "Carnivore",
-        "option3": "Omnivore",
-        "option4": "Herbivore, carnivore, omnivore and scavenger",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is called for an organism that feeds on other organisms?",
-        "option1": "Insects",
-        "option2": "Consumer",
-        "option3": "Producer",
-        "option4": "Herbivore",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "How many types of consumers are there?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "How many major groups classified in decomposers?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What is called for an organism which breakdown dead or waste matter into simpler substances?",
-        "option1": "Decomposers",
-        "option2": "Producers",
-        "option3": "Insects",
-        "option4": "Consumers",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "The primary decomposers of most dead plant material are",
-        "option1": "Algae",
-        "option2": "Bacteria",
-        "option3": "Fungi",
-        "option4": "Insects",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "To which category shelf fungi classified?",
-        "option1": "Producers",
-        "option2": "Consumers",
-        "option3": "Decomposers",
-        "option4": "Insects",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "In order to form compost which of the following wastes cannot be decomposed by bacteria?",
-        "option1": "Plant wastes",
-        "option2": "Kitchen wastes",
-        "option3": "Plastic and polythene wastes",
-        "option4": "Bodies of dead animals",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What is called for the process of breaking down food to yield energy?",
-        "option1": "Oxidation",
-        "option2": "Photosynthesis",
-        "option3": "Cellular respiration",
-        "option4": "Decomposition",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What are called for organisms which get energy by eating dead organisms?",
-        "option1": "Decomposers",
-        "option2": "Producers",
-        "option3": "Consumers",
-        "option4": "Herbivores",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Which among the following is a product of photosynthesis?",
-        "option1": "Glucose",
-        "option2": "Carbon",
-        "option3": "Monoxide",
-        "option4": "Nitrogen",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What is called for an organism that eats both plants and animals?",
-        "option1": "Omnivore",
-        "option2": "Carnivore",
-        "option3": "Decomposers",
-        "option4": "Herbivore",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Why energy flow is linear in an ecosystem?",
-        "option1": "Because it flows in air medium",
-        "option2": "Because it is very particular",
-        "option3": "Because ecosystem is linear",
-        "option4": "Because energy flows from one trophic level to the next higher one",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Why plants in forests do not make use of all the light energy available to them?",
-        "option1": "Because plants do not require energy",
-        "option2": "Because plants are grown only in the winter season",
-        "option3": "Because of the absence of chlorophyll",
-        "option4": "Because sunlight doesn’t fall on the leaves fully",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "How many parts are there in the forest ecosystem?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "On which factor forest type is mainly dependent?",
-        "option1": "Abiotic",
-        "option2": "Size of the forest",
-        "option3": "Shape of trees",
-        "option4": "Products from the trees",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "In which of the following places we can find the cold deserts?",
-        "option1": "Bangalore",
-        "option2": "Chennai",
-        "option3": "Himalaya",
-        "option4": "Rajasthan",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "How many types of aquatic ecosystems are there?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What made organisms to build their ecosystem in aquatic?",
-        "option1": "Curiosity",
-        "option2": "Evolution",
-        "option3": "Force from other organisms",
-        "option4": "Increase in water level",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What is called for the benefits that nature provides to human beings?",
-        "option1": "Ecosystem services",
-        "option2": "Ecosystem conservation",
-        "option3": "Ecosystem degradation",
-        "option4": "Ecosystem pool",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What is an important reason for the conservation of natural resources?",
-        "option1": "Disturb the ecological balance",
-        "option2": "Preserve the biological diversity",
-        "option3": "Disruption of quality of the environment",
-        "option4": "Hampering the biological species",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "For what reason is the conservation of natural resources important?",
-        "option1": "Maintaining the ecological processes",
-        "option2": "Disturbing the ecological balance",
-        "option3": "Extinction of biological species",
-        "option4": "Disruption of quality of the environment",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What is the correct full form of IUCN?",
-        "option1": "International Union for Conservation of Nuts",
-        "option2": "International Union for Conservation of Nature",
-        "option3": "International Union for Conservation of Natural habitat",
-        "option4": "International Union for Conservation of Numbers",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What are the species called whose number of individuals is greatly reduced to a critical level?",
-        "option1": "Indeterminate",
-        "option2": "Rare",
-        "option3": "Vulnerable",
-        "option4": "Endangered",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What are the species called whose number of individuals is greatly reduced recently and is decreasing continuously?",
-        "option1": "Endangered",
-        "option2": "Rare",
-        "option3": "Vulnerable",
-        "option4": "Indeterminate",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What are the species called whose members are few and live in a small geographical area called?",
-        "option1": "Endangered",
-        "option2": "Rare",
-        "option3": "Indeterminate",
-        "option4": "Vulnerable",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What are the species called whose members are in danger of extinction but the reason is unknown called?",
-        "option1": "Endangered",
-        "option2": "Vulnerable",
-        "option3": "Rare",
-        "option4": "Indeterminate",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which utilitarian states that humans derive countless direct economic benefits from nature?",
-        "option1": "Big utilitarian",
-        "option2": "Broadly utilitarian",
-        "option3": "Narrowly utilitarian",
-        "option4": "Small utilitarian",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "How many species of plants contribute to the traditional medicines used by native peoples around the world?",
-        "option1": "2,500",
-        "option2": "2,000",
-        "option3": "5,000",
-        "option4": "25,000",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "How many species of plants are used for the production of the drugs currently sold in the market worldwide?",
-        "option1": "2 %",
-        "option2": "35 %",
-        "option3": "25 %",
-        "option4": "50 %",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which utilitarian states that biodiversity is important for many ecosystem services that nature provides?",
-        "option1": "Narrowly utilitarian",
-        "option2": "Broadly utilitarian",
-        "option3": "Big utilitarian",
-        "option4": "Small utilitarian",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What is exploring molecular, genetic, and species-level diversity for products of economic importance called?",
-        "option1": "Biopiracy",
-        "option2": "Biofuel",
-        "option3": "Bioprospecting",
-        "option4": "Biodiversity",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What percent of the total oxygen in the Earth's atmosphere is released by the Amazon forest?",
-        "option1": "50 %",
-        "option2": "20 %",
-        "option3": "40 %",
-        "option4": "20 %",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which one of the following is an example of conservation?",
-        "option1": "No use of natural resources",
-        "option2": "The wise use of natural resources",
-        "option3": "Excess use of natural resources",
-        "option4": "Complete use of natural resources",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "How many plant and animal species have been discovered and described so far?",
-        "option1": "1.5 million",
-        "option2": "4.5 million",
-        "option3": "1.5 billion",
-        "option4": "4.5 billion",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What is the global species diversity according to Robert May?",
-        "option1": "70 million",
-        "option2": "7 million",
-        "option3": "2 million",
-        "option4": "20 million",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Out of the total species estimated, how many species are of animals?",
-        "option1": "2 %",
-        "option2": "50 %",
-        "option3": "7 %",
-        "option4": "70 %",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Of all the species recorded, what percent do plants comprise of?",
-        "option1": "10 %",
-        "option2": "50 %",
-        "option3": "22 %",
-        "option4": "2 %",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Of all the animal species recorded, what percent do insects comprise of?",
-        "option1": "7 %",
-        "option2": "70 %",
-        "option3": "50 %",
-        "option4": "2 %",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which is the most species-rich taxonomic group?",
-        "option1": "Molluscs",
-        "option2": "Crustaceans",
-        "option3": "Echinoderms",
-        "option4": "Insects",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Of all the vertebrate species recorded which class has the maximum number of species?",
-        "option1": "Amphibians",
-        "option2": "Mammals",
-        "option3": "Fishes",
-        "option4": "Reptiles",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Of all the plant species recorded which class has the minimum number of species?",
-        "option1": "Angiosperms",
-        "option2": "Fungi",
-        "option3": "Algae",
-        "option4": "Lichens",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "How much of the world's land area, India has?",
-        "option1": "1 percent",
-        "option2": "40 percent",
-        "option3": "2.4 percent",
-        "option4": "80 percent",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following species is present in India?",
-        "option1": "Koala",
-        "option2": "Sloth bear",
-        "option3": "Kangaroo",
-        "option4": "Wombats",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following species is native of India?",
-        "option1": "Rhodes grass",
-        "option2": "Jackalberry tree",
-        "option3": "Ebony tree",
-        "option4": "Umbrella thorn acacia",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Considering May's global estimates, how many of the total species have been recorded?",
-        "option1": "1 percent",
-        "option2": "22 percent",
-        "option3": "10 percent",
-        "option4": "50 percent",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Considering May's global estimates, how many of the plant species are yet to be discovered and described in India?",
-        "option1": "500",
-        "option2": "100",
-        "option3": "5,00,000",
-        "option4": "1,00,000",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What does 'The Evil Quartet' describes?",
-        "option1": "An increase in the number of species",
-        "option2": "The decrease in the number of species",
-        "option3": "Mass extinction",
-        "option4": "Formation of the universe",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which one of the following is said to be the most important cause or reason for the extinction of animals and plants?",
-        "option1": "Loss of habitat and fragmentation",
-        "option2": "Over-exploitation of species",
-        "option3": "Invasion of alien species",
-        "option4": "Co-extinctions",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Previously how much of the Earth's land surface was covered by the tropical rain forests?",
-        "option1": "50 %",
-        "option2": "14 %",
-        "option3": "24 %",
-        "option4": "35 %",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "The initiative of biodiversity assessment focuses on which ecosystem types?",
-        "option1": "Forest",
-        "option2": "Wetland",
-        "option3": "Marine",
-        "option4": "All of the above",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following is not a Cause of biodiversity losses?",
-        "option1": "Over exploitation",
-        "option2": "Eco-friendly",
-        "option3": "Co-extinction",
-        "option4": "Habitat loss and fragmentation",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Marketable products such as animal skins, ivory, medicinal plants, honey, etc., come under?",
-        "option1": "Productive value",
-        "option2": "Consumptive value",
-        "option3": "Aesthetic value",
-        "option4": "Social value",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Which is called the 'lungs of the planet'?",
-        "option1": "Sahyadry rain forest",
-        "option2": "Konkan rain forest",
-        "option3": "Amazon rain forest",
-        "option4": "South Africa rain forest",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which leads to over-exploitation of natural resources?",
-        "option1": "Greed",
-        "option2": "Eco-friendly",
-        "option3": "Need",
-        "option4": "All of the above",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What flows through the ecosystem while matter cycles within them?",
-        "option1": "Energy",
-        "option2": "Force",
-        "option3": "Pressure",
-        "option4": "Wind",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Currently, how much area of the Earth's land surface is covered by the tropical rain forests?",
-        "option1": "90 %",
-        "option2": "50 %",
-        "option3": "1%",
-        "option4": "6 %",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which animals are badly affected when a large habitat is broken up into small fragments due to various human activities?",
-        "option1": "Extinct species",
-        "option2": "Migratory species",
-        "option3": "Non-migratory species",
-        "option4": "Humans",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What are the excess and unsustainable use of resources called?",
-        "option1": "Loss of habitat and fragmentation",
-        "option2": "Co-extinctions",
-        "option3": "Invasion of alien species",
-        "option4": "Over-exploitation",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What was the reason for the exploitation of the Stellar's sea cow and the passenger pigeon?",
-        "option1": "Competition",
-        "option2": "Loss of habitat",
-        "option3": "Human activities",
-        "option4": "Mutualistic relationships",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What happens when alien species are introduced unintentionally or deliberately?",
-        "option1": "Decrease of alien species",
-        "option2": "Increase in habitat",
-        "option3": "They turn invasive and cause increase in species",
-        "option4": "They turn invasive and cause decline or extinction of indigenous species",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What happened when the Nile perch was introduced into Lake Victoria in East Africa?",
-        "option1": "Extinction of trees",
-        "option2": "Increase in the number of trees",
-        "option3": "Extinction of cichlid fish",
-        "option4": "Increase in the number of cichlid fish",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following contains chemicals like parthenin, is toxic to cattle and causes pollen allergy in humans?",
-        "option1": "Nile perch",
-        "option2": "The carrot grass",
-        "option3": "Rose",
-        "option4": "Wheat",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What is Eichhornia called?",
-        "option1": "The carrot grass",
-        "option2": "Nile perch",
-        "option3": "Water hyacinth",
-        "option4": "Water lily",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Why was the African catfish Clarias gariepinus introduced?",
-        "option1": "Horticulture",
-        "option2": "Aquaculture",
-        "option3": "Sericulture",
-        "option4": "Poultry",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which phenomenon explains that 'When a species becomes extinct, the plant and animal species also become extinct that are obligatorily associated with the host species'?",
-        "option1": "Aquaculture",
-        "option2": "Fragmentation",
-        "option3": "Invasion",
-        "option4": "Co-extinction",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which phenomenon does the coevolved plant-pollinator mutualism explain?",
-        "option1": "Co-extinction",
-        "option2": "Fragmentation",
-        "option3": "Invasion",
-        "option4": "Loss of habitat",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "The Earth consists of how many ant species?",
-        "option1": "100,000",
-        "option2": "20,000",
-        "option3": "200,000",
-        "option4": "2000",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "How many species of beetles are present on the Earth?",
-        "option1": "3,00,000",
-        "option2": "30,000",
-        "option3": "3,000",
-        "option4": "300",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "How many species of fishes are present on Earth?",
-        "option1": "28,00,000",
-        "option2": "28,000",
-        "option3": "280",
-        "option4": "28",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following statements is true?",
-        "option1": "Diversity exists only at the species level",
-        "option2": "Diversity exists only at the macromolecular level",
-        "option3": "Diversity exists at all levels of biological organization",
-        "option4": "Diversity exists at the genetic level only",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Who popularized the term biodiversity?",
-        "option1": "Rudolf Virchow",
-        "option2": "Edward Wilson",
-        "option3": "Gregor Mendel",
-        "option4": "Robert Koch",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What can a single species show?",
-        "option1": "No variation at the genetic level",
-        "option2": "No diversity at the genetic level",
-        "option3": "Low diversity at the genetic level",
-        "option4": "High diversity at the genetic level",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is the feature of the biosphere?",
-        "option1": "No diversity",
-        "option2": "Homogeneity",
-        "option3": "Heterogeneity",
-        "option4": "Negligible diversity",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "How many strains of rice does India have?",
-        "option1": "50",
-        "option2": "500",
-        "option3": "5,000",
-        "option4": "50,000",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "How many varieties of mango does India have?",
-        "option1": "2",
-        "option2": "10",
-        "option3": "1,000",
-        "option4": "20",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which organism's species have greater diversity in the Western Ghats than the Eastern Ghats?",
-        "option1": "Reptiles",
-        "option2": "Fishes",
-        "option3": "Amphibians",
-        "option4": "Mammals",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "How many years did evolution require?",
-        "option1": "Tens",
-        "option2": "Hundreds",
-        "option3": "Trillions",
-        "option4": "Millions",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Photosynthesis is the basis of life on earth because",
-        "option1": "It is the main source of all food on earth",
-        "option2": "It helps in the release of CO2 into the atmosphere",
-        "option3": "It produces new offspring",
-        "option4": "It gives no energy to plants",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Other than CO2 and light, which is used as the raw material for photosynthesis?",
-        "option1": "O2",
-        "option2": "CO2",
-        "option3": "H2O",
-        "option4": "MnO2",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Among the following, which compound does not play an important role in photosynthesis?",
-        "option1": "Xanthophyll",
-        "option2": "Anthocyanin",
-        "option3": "Chlorophyll",
-        "option4": "Phycoerythrin",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What do we call the organism that does photosynthesis but does not release oxygen?",
-        "option1": "Green sulfur bacterium",
-        "option2": "Blue-green algae",
-        "option3": "Green algae",
-        "option4": "Green plants",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Who found out that oxygen evolved from water in photosynthesis?",
-        "option1": "T. W. Engelmann",
-        "option2": "C. Van Neil",
-        "option3": "R. Hill",
-        "option4": "Ruben and Kamen",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Why is light energy used in photosynthesis?",
-        "option1": "Reduction of H2O",
-        "option2": "Reduction of CO2",
-        "option3": "Activation of chlorophyll",
-        "option4": "Oxidation of C6H12O6",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "During photosynthesis, which light is least effective?",
-        "option1": "Green light",
-        "option2": "Sunlight",
-        "option3": "Yellow light",
-        "option4": "Blue light",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Which of these is not an internal factor affecting photosynthesis?",
-        "option1": "Size",
-        "option2": "Age",
-        "option3": "Number",
-        "option4": "Water",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What do the internal factors affecting photosynthesis depend on?",
-        "option1": "External factors",
-        "option2": "Geographical area",
-        "option3": "Genetic predisposition",
-        "option4": "Species and sub-species",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which of these is not an external factor affecting photosynthesis?",
-        "option1": "Sunlight",
-        "option2": "Temperature",
-        "option3": "Leaf orientation",
-        "option4": "CO2 concentration",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which scientist gave the Law of Limiting Factors?",
-        "option1": "Hooke",
-        "option2": "Blackman",
-        "option3": "Fleming",
-        "option4": "Mendel",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "At what percentage of sunlight does light saturation occur?",
-        "option1": "30",
-        "option2": "20",
-        "option3": "10",
-        "option4": "15",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "When did the air pollution on earth happen for the first time?",
-        "option1": "When humans started using tools",
-        "option2": "When humans started using firewood",
-        "option3": "When humans started using clothes",
-        "option4": "When humans started using wheels",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What are secondary pollutants?",
-        "option1": "Pollutants due to fire",
-        "option2": "Pollutants due to emission",
-        "option3": "Pollutants due to a chemical reaction",
-        "option4": "Pollutants due to oxidation",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which is the colorless, odorless and toxic gas produced when organic materials incompletely burn?",
-        "option1": "Sulphur oxide",
-        "option2": "Carbon monoxide",
-        "option3": "Oxygen",
-        "option4": "Particulates",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following causes soot in the environment?",
-        "option1": "Hydrocarbons",
-        "option2": "Nitrogen oxide",
-        "option3": "Sulphur oxide",
-        "option4": "Particulates",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is aerosol?",
-        "option1": "General term for particles in air",
-        "option2": "General term for particles in soil",
-        "option3": "General term for particles in water",
-        "option4": "General term for particles inside humans",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What is smog?",
-        "option1": "Mixture of smoke and particulates",
-        "option2": "Mixture of smoke and oxygen",
-        "option3": "Mixture of smoke and fog",
-        "option4": "Mixture of soot and fog",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Aerosol + solid particles + liquid particles results in?",
-        "option1": "Dust",
-        "option2": "Mist",
-        "option3": "Smog",
-        "option4": "Smoke",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which is responsible for the greatest exposure to carbon dioxide for living organisms?",
-        "option1": "Hurricanes",
-        "option2": "Soil erosion",
-        "option3": "Vehicles emission",
-        "option4": "Cigarette smoking",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "How does excessive water loss take place in plants?",
-        "option1": "Due to soil pollution",
-        "option2": "Due to mutation",
-        "option3": "Due to air pollution",
-        "option4": "Due to improper seed",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "How does asthma occur in human beings?",
-        "option1": "Because of excessive diet",
-        "option2": "Because of water pollution",
-        "option3": "Because of air pollution",
-        "option4": "Because of soil pollution",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What is the reason for reduced plant growth?",
-        "option1": "Excessive exposure to sunlight",
-        "option2": "Excessive exposure to wind",
-        "option3": "Excessive exposure to water pollution",
-        "option4": "Excessive exposure to air pollution",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which dioxide damages the flower process in plants?",
-        "option1": "Sulphur dioxide",
-        "option2": "Carbon dioxide",
-        "option3": "Nitrite dioxide",
-        "option4": "Magnesium dioxide",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What is the main reason for ozone depletion?",
-        "option1": "Releasing of oxygen",
-        "option2": "Releasing of chemicals",
-        "option3": "Releasing of CFCs",
-        "option4": "Releasing of nitrogen",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which component is more dangerous to the ozone layer?",
-        "option1": "CFCs",
-        "option2": "Nitrogen",
-        "option3": "Halons",
-        "option4": "Sulphur",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Why is ozone depletion more pronounced over the South Pole?",
-        "option1": "Due to uneven disturbance of CFCs",
-        "option2": "Due to extreme weather conditions in the Antarctic atmosphere",
-        "option3": "Due to cyclonic depression in the South Pole",
-        "option4": "Due to extreme pressure",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "When did India sign the Montreal Protocol?",
-        "option1": "1990",
-        "option2": "1991",
-        "option3": "1992",
-        "option4": "1993",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "At what temperature does soil develop slowly?",
-        "option1": "Summer",
-        "option2": "Wind",
-        "option3": "Rainy",
-        "option4": "Cold",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What are matured soils arranged in a series of zones called?",
-        "option1": "Soil zones",
-        "option2": "Soil layers",
-        "option3": "Soil horizons",
-        "option4": "Soil benches",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "How many horizons are there in soils?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is the mixture of all the contents of soil called?",
-        "option1": "Erosion",
-        "option2": "Sublimation",
-        "option3": "Degradation",
-        "option4": "Loams",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Why is area treatment important for soil?",
-        "option1": "To reduces the impact of raindrops on the soil",
-        "option2": "To maximize surface run-off",
-        "option3": "Not treating the upper catchment and proceeds towards an outlet",
-        "option4": "Not storing surplus rainwater",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What is oxygen depleting waste?",
-        "option1": "Organic waste that can be decomposed by aerobic bacteria",
-        "option2": "Organic waste that can be decomposed by anaerobic bacteria",
-        "option3": "Organic waste that can be decomposed by aerobic viruses",
-        "option4": "Organic waste that can be decomposed by anaerobic viruses",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What is the indicator of pollution in water?",
-        "option1": "Amount of oxygen",
-        "option2": "Amount of hydrogen",
-        "option3": "Amount of BOD",
-        "option4": "Amount of nitrogen",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What are water soluble inorganic chemicals?",
-        "option1": "Compounds of pure metals",
-        "option2": "Compounds of non-metals",
-        "option3": "Compounds of synthetic metals",
-        "option4": "Compounds of toxic metals",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is noise?",
-        "option1": "Desirable sound",
-        "option2": "Desirable and unwanted sound",
-        "option3": "Undesirable and unwanted sound",
-        "option4": "Undesirable and wanted sound",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "In which unit is sound measured?",
-        "option1": "Kilometer",
-        "option2": "Pascal",
-        "option3": "Kilogram",
-        "option4": "Decibel",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which pollution causes hearing loss in organisms?",
-        "option1": "Air pollution",
-        "option2": "Noise pollution",
-        "option3": "Water pollution",
-        "option4": "Soil pollution",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "How many fundamental ways are there to control noise?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which is the best way to control noise pollution among the four fundamental ways?",
-        "option1": "Reduce noise at the source",
-        "option2": "Block the path of noise",
-        "option3": "Increase the path length",
-        "option4": "Protect the recipient",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "How can we reduce noise in industries?",
-        "option1": "By not using the heavy machinery",
-        "option2": "By using rigid sealed enclosures",
-        "option3": "By using more robotics",
-        "option4": "By reducing the production of the industries",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What is the main source of vehicular noise?",
-        "option1": "High speed",
-        "option2": "Movement of the vehicle’s tyres on the pavement",
-        "option3": "Low pressure",
-        "option4": "Fuel engine",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following is a way to reduce traffic noise on highways?",
-        "option1": "Constructing vertical barriers",
-        "option2": "Increase the speed of the vehicles",
-        "option3": "Using old engine vehicles",
-        "option4": "Honking unnecessarily",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What is it called when an industry removes water from a source and then returns the heated water to its source?",
-        "option1": "Water pollution",
-        "option2": "Soil pollution",
-        "option3": "Air pollution",
-        "option4": "Thermal pollution",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which one of the following can cause thermal pollution?",
-        "option1": "Residential houses",
-        "option2": "Power plants",
-        "option3": "Death of marine organisms",
-        "option4": "Oil spill",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What is the effect of warmer temperatures on fish?",
-        "option1": "Increases metabolism",
-        "option2": "Decreases metabolism",
-        "option3": "Stabilizes metabolism",
-        "option4": "Increases the solubility of oxygen",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Why is burning waste not an acceptable practice of solid waste management?",
-        "option1": "Because it is very costly",
-        "option2": "Because it requires modern technologies",
-        "option3": "Because it causes several environmental issues",
-        "option4": "Because it requires a lot of space",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What plan should we make for the disposal of solid waste?",
-        "option1": "Integrated waste management plan",
-        "option2": "Recycling of waste management plan",
-        "option3": "Reducing of waste management plan",
-        "option4": "Use of waste management plan",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "How many main components are there in integrated waste management?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which of the integrated waste management components can be reduced on an individual level?",
-        "option1": "Source reduction",
-        "option2": "Recycling",
-        "option3": "Disposal",
-        "option4": "Burning",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Who prepared the Ganga Action Plan?",
-        "option1": "Department of Pollution",
-        "option2": "Department of Environment",
-        "option3": "Department of Rivers",
-        "option4": "Department of Industries",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "In which temperature does soil develop slowly?",
-        "option1": "Summer",
-        "option2": "Wind",
-        "option3": "Rainy",
-        "option4": "Cold",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Under ideal climatic conditions, how many cm of soil is developed?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What are mature soils arranged in a series of zones called?",
-        "option1": "Soil zones",
-        "option2": "Soil layers",
-        "option3": "Soil horizons",
-        "option4": "Soil benches",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What is a soil profile?",
-        "option1": "A cross-sectional view of the horizons in a soil",
-        "option2": "A front view of the horizons in a soil",
-        "option3": "A cross-sectional view of the horizons in rocks",
-        "option4": "A front view of the horizons in rocks",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "How many horizons are there in soils?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which horizon helps to determine the pH of the soil?",
-        "option1": "A",
-        "option2": "B",
-        "option3": "C",
-        "option4": "0",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What is the mixture of all the contents of soil called?",
-        "option1": "Organic matter",
-        "option2": "Inorganic matter",
-        "option3": "Mineral matter",
-        "option4": "Humus",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What does soil pollution lead to?",
-        "option1": "Reduction in crop yield",
-        "option2": "Increase in crop yield",
-        "option3": "Increase in crop height",
-        "option4": "Reduction in crop height",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What is used to convert wastelands into agricultural lands?",
-        "option1": "Check dams",
-        "option2": "Water purifier",
-        "option3": "Rain harvesters",
-        "option4": "Gradonies",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Organic agriculture advocates avoiding the use of",
-        "option1": "Organic manure",
-        "option2": "Stored water",
-        "option3": "Modern technologies in harvesting",
-        "option4": "Chemical fertilizers",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is the disadvantage of control measures of thermal pollution by passing the heated water?",
-        "option1": "Water is lost due to leakage",
-        "option2": "Water is lost due to absorption",
-        "option3": "Water is lost due to dilution",
-        "option4": "Water is lost due to evaporation",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which one of the following causes thermal pollution?",
-        "option1": "Release of cold water",
-        "option2": "Organic manures",
-        "option3": "Purified water",
-        "option4": "More number of trees",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "How does soil erosion cause thermal pollution?",
-        "option1": "By making natural water bodies to hold in its normal level",
-        "option2": "By polluting the water bodies",
-        "option3": "By avoiding sunlight to fall on the water bodies",
-        "option4": "By making natural water bodies to rise beyond their normal level",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is a thermal shock?",
-        "option1": "Sudden raises of temperature to abnormal level",
-        "option2": "Sudden cooling of temperature to abnormal level",
-        "option3": "Temperature don’t change",
-        "option4": "Temperature change only due to environmental factors",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What is the main effect of thermal pollution on oxygen solubility in water bodies?",
-        "option1": "They increase the solubility of oxygen in water bodies",
-        "option2": "They maintain the solubility of oxygen in water bodies",
-        "option3": "They reduce the solubility of oxygen in water bodies",
-        "option4": "They don’t cause any affect in solubility of oxygen to the water bodies",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following is the main reason for thermal pollution?",
-        "option1": "Bio fuels",
-        "option2": "Organic farming",
-        "option3": "Eco-friendly vehicles",
-        "option4": "Power plants",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "How does an artificial lake help in solving thermal pollution?",
-        "option1": "It stores heated water",
-        "option2": "It gives a good aesthetic view",
-        "option3": "It helps to breed fishes",
-        "option4": "It is used during the summer season where water scarcity causes",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "What is called for the useless heat from hot water recycled by industries?",
-        "option1": "Cooling towers",
-        "option2": "Recycling",
-        "option3": "Heat pump",
-        "option4": "Co-generation",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Generally, how many types of cooling towers are there?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "When did air pollution on Earth happen for the first time?",
-        "option1": "When humans started using tools",
-        "option2": "When humans started using firewood",
-        "option3": "When humans started using clothes",
-        "option4": "When humans started using wheels",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Who made the first anti-pollution law?",
-        "option1": "Martin Luther King",
-        "option2": "Nelson Mandela",
-        "option3": "Queen Elizabeth",
-        "option4": "King Edward I",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which was the first major disaster of air pollution?",
-        "option1": "New York smog",
-        "option2": "London smog",
-        "option3": "Paris smog",
-        "option4": "Delhi smog",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What is the significance of black color moth in Europe during the 19th century?",
-        "option1": "Indication of evolution",
-        "option2": "Indication of soil pollution",
-        "option3": "Indication of mutation",
-        "option4": "Indication of air pollution",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is the main cause of increase in air pollution in the 20th century?",
-        "option1": "Development of the transport system",
-        "option2": "Development of infrastructures",
-        "option3": "Development of electricity",
-        "option4": "Development of water resources",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "How many primary pollutants are there?",
-        "option1": "Three",
-        "option2": "Five",
-        "option3": "Seven",
-        "option4": "Nine",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What are secondary pollutants?",
-        "option1": "Pollutants due to fire",
-        "option2": "Pollutants due to emission",
-        "option3": "Pollutants due to a chemical reaction",
-        "option4": "Pollutants due to oxidation",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which is the colorless, odorless, and toxic gas produced when organic materials incompletely burn?",
-        "option1": "Sulphur oxide",
-        "option2": "Carbon monoxide",
-        "option3": "Oxygen",
-        "option4": "Particulates",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following causes soot in the environment?",
-        "option1": "Hydrocarbons",
-        "option2": "Nitrogen oxide",
-        "option3": "Sulphur oxide",
-        "option4": "Particulates",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is aerosol?",
-        "option1": "General term for particles in air",
-        "option2": "General term for particles in soil",
-        "option3": "General term for particles in water",
-        "option4": "General term for particles inside humans",
-        "Answer": "option1",
         "marks": 1
     },
     {
@@ -29119,797 +27773,8960 @@ const UT2EST = [
         "option1": "Dust",
         "option2": "Mist",
         "option3": "Smog",
-        "option4": "Smoke",
+        "option4": "smoke",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How is the atmosphere, hydrosphere and lithosphere connected?",
+        "option1": "Hydrological cycle",
+        "option2": "Nitrogen cycle",
+        "option3": "Oxygen cycle",
+        "option4": "Carbon cycle",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "What is the pollution that can be traced directly to industrial activity?",
-        "option1": "Soil pollution",
-        "option2": "Water pollution",
-        "option3": "Air pollution",
-        "option4": "Industrial pollution",
+        "question": "An ecosystem consist of",
+        "option1": "Green plants and animals",
+        "option2": "Green plants and decomposers",
+        "option3": "Producers and consumers",
+        "option4": "Green plants, animals, decomposers and abiotic environment",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "Which of the following are the largest contributors to global pollution?",
-        "option1": "Soil pollution",
-        "option2": "Industrial pollution",
-        "option3": "Radioactive pollution",
-        "option4": "Water pollution",
+        "question": "An ecosystem gradually merges with an adjoining one through a transitional zone called the ---------",
+        "option1": "ecological niche",
+        "option2": "ecological footprint",
+        "option3": "ecotone",
+        "option4": "Biodiversity loss",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Driving force in an ecosystem is",
+        "option1": "Plants",
+        "option2": "Producers",
+        "option3": "Solar energy",
+        "option4": "Biomass energy",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a possible producer in an ecosystem?",
+        "option1": "Plants",
+        "option2": "Animals",
+        "option3": "Human",
+        "option4": "Fish",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A trophic level refers to:",
+        "option1": "Area in the tropics",
+        "option2": "An organism’s portion in a food chain",
+        "option3": "An organism’s position in an ecosystem",
+        "option4": "An organism’s position in a biome",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Levels of biodiversity include all but one:",
+        "option1": "Genetics",
+        "option2": "Species",
+        "option3": "Population",
+        "option4": "Ecosystem",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which ecological pyramid is always upright?",
+        "option1": "Pyramid of number",
+        "option2": "Pyramid of biomass",
+        "option3": "Pyramid of energy",
+        "option4": "Pyramid of number and biomass",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The type of diversity including all the different kinds of living things found in a certain habitat is called as:",
+        "option1": "Species diversity",
+        "option2": "Genetic diversity",
+        "option3": "Ecosystem diversity",
+        "option4": "Population diversity",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Conservation of biodiversity outside the natural habitat is called as:",
+        "option1": "Ex-situ",
+        "option2": "In-situ",
+        "option3": "Conservation",
+        "option4": "In-vivo",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "An ecosystem may not undergo changes because:",
+        "option1": "It is in a state of homeostasis",
+        "option2": "It has plants and animals both",
+        "option3": "It gets solar energy continuously",
+        "option4": "The decomposers are present in it",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The primary producers in a forest ecosystem are:",
+        "option1": "Chlorophyll containing trees and plants",
+        "option2": "Herbivores",
+        "option3": "Carnivores",
+        "option4": "Bacteria and other microorganisms",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Energy flow in an ecosystem is always:",
+        "option1": "Unidirectional",
+        "option2": "Cyclic",
+        "option3": "Reversible",
+        "option4": "Multi-directional",
+        "Answer": "option1",
+        "marks": 1
+    }    
+];
+
+const AJP_unit4 = [
+    {
+        "question": "Which is the connectionless protocol?",
+        "option1": "TCP",
+        "option2": "UDP",
+        "option3": "IP",
+        "option4": "HTTP",
         "Answer": "option2",
         "marks": 1
     },
     {
-        "question": "Which of the following is a consequence of industrial pollution?",
-        "option1": "Increase in the water level in seas",
-        "option2": "Releases of hazardous radiations",
-        "option3": "Increase in the animals in forests",
-        "option4": "Global warming",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "How does industrial pollution result in water pollution?",
-        "option1": "Dumping of various waste products",
-        "option2": "Burning of fossil fuels",
-        "option3": "Emitting harmful gases into the atmosphere",
-        "option4": "Adding animals to seas",
+        "question": "What is the port number of HTTP?",
+        "option1": "80",
+        "option2": "23",
+        "option3": "47",
+        "option4": "92",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "What is another name for light pollution?",
-        "option1": "Photographic pollution",
-        "option2": "Radioactive pollution",
-        "option3": "Power pollution",
-        "option4": "Photo pollution",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following is an effect of light pollution?",
-        "option1": "Photo pollution",
-        "option2": "Energy conservation",
-        "option3": "Decrease in atmospheric pressure",
-        "option4": "Increase in atmospheric temperature",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "How can light pollution be controlled?",
-        "option1": "Using lights with poor efficiency",
-        "option2": "Using glare and redirection",
-        "option3": "Using the latest power efficiency LEDs",
-        "option4": "Using glare and reflection",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What are the effects of light pollution?",
-        "option1": "Increase in birds",
-        "option2": "Miscommunication",
-        "option3": "Increase in migration of birds",
-        "option4": "Decrease in migration of birds",
+        "question": "Which protocol do web browsers and servers use to transfer hypertext pages and images?",
+        "option1": "TCP/IP",
+        "option2": "UDP",
+        "option3": "HTTP",
+        "option4": "SMTP",
         "Answer": "option3",
         "marks": 1
     },
     {
-        "question": "Why is light pollution a problem?",
-        "option1": "It affects only humans",
-        "option2": "It affects only animals",
-        "option3": "It affects only plants",
-        "option4": "It affects humans, animals, and plants",
+        "question": "Originally, all Internet addresses consisted of ____ bit values.",
+        "option1": "32",
+        "option2": "16",
+        "option3": "24",
+        "option4": "8",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of DNS?",
+        "option1": "Domain Naming System",
+        "option2": "Domain Naming Service",
+        "option3": "Domain Naming Software",
+        "option4": "Domain Naming Security",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is URL?",
+        "option1": "Unicast Resource Location",
+        "option2": "Uniform Research Launcher",
+        "option3": "Universal Research Locator",
+        "option4": "Uniform Resource Locator",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "Why industries pollute water?",
-        "option1": "Because they use water in large quantities",
-        "option2": "Because they release all the pollutants to water",
-        "option3": "Because industries don’t use water",
-        "option4": "Because water is an universal solvent",
+        "question": "Which class is used to encapsulate both the numerical IP address and the domain name for that address?",
+        "option1": "InetAddress",
+        "option2": "SocketAddress",
+        "option3": "IPAddress",
+        "option4": "DNSSockets",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "IP address is a ________ protocol that breaks data into small packets and sends them across a network.",
+        "option1": "low-level routing",
+        "option2": "high-level routing",
+        "option3": "medium-level routing",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_____ is a higher-level protocol that robustly strings together the packets, sorting and retransmitting them.",
+        "option1": "TCP",
+        "option2": "UDP",
+        "option3": "none of the above",
+        "option4": "both a & b",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_______ can be used directly to support fast, connectionless, and unreliable transport of packets.",
+        "option1": "UDP",
+        "option2": "TCP",
+        "option3": "none of the above",
+        "option4": "both a & b",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A ______ is anything that has a resource that can be shared.",
+        "option1": "server",
+        "option2": "client",
+        "option3": "none of the above",
+        "option4": "both a & b",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "______ is simply an entity that wants to gain access to a particular server.",
+        "option1": "Client",
+        "option2": "server",
+        "option3": "network",
+        "option4": "package",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A _____ is a numbered socket.",
+        "option1": "port",
+        "option2": "switch",
+        "option3": "URL",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A server process must be ______.",
+        "option1": "multithreaded",
+        "option2": "single threaded",
+        "option3": "none",
+        "option4": "both a & b",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "TCP/IP reserves lower _____ ports for specific protocols.",
+        "option1": "1024",
+        "option2": "1023",
+        "option3": "1022",
+        "option4": "1021",
         "Answer": "option2",
         "marks": 1
     },
     {
-        "question": "Which one of the following is the cause of industrial pollution?",
-        "option1": "Modern technologies",
-        "option2": "Efficient waste disposal",
-        "option3": "Efficient government policies",
-        "option4": "Unplanned industrial growth",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which one of the following is the main cause of air pollution?",
-        "option1": "Decrease in the factories",
-        "option2": "Increase in the factories",
-        "option3": "Increase in the seawater level",
-        "option4": "Increase in the modern technologies",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "When did the Central Pollution Control Board established?",
-        "option1": "1970",
-        "option2": "1972",
-        "option3": "1974",
-        "option4": "1976",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Who appoints the chairman of the Central Pollution Control Board?",
-        "option1": "Central Government",
-        "option2": "State Government",
-        "option3": "Governor of the State",
-        "option4": "President of India",
+        "question": "Port number 21 is for____.",
+        "option1": "FTP",
+        "option2": "e-mail",
+        "option3": "Telnet",
+        "option4": "HTTP",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "Which one of the following is the apex organization in the country in the field of pollution control?",
-        "option1": "Water Pollution Control Board",
-        "option2": "State Pollution Control Board",
-        "option3": "Central Pollution Control Board",
-        "option4": "Air pollution Control Board",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Where is the head office of the Central Pollution Control Board?",
-        "option1": "Mumbai",
-        "option2": "Raipur",
-        "option3": "Mysore",
-        "option4": "New Delhi",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is the full form of NAMP?",
-        "option1": "National Air Quality Monitoring Program",
-        "option2": "National Air Quality Measuring Program",
-        "option3": "National Air Quantity Monitoring Program",
-        "option4": "National Air Quality Monitoring Protocol",
+        "question": "Port number 23 is for____.",
+        "option1": "Telnet",
+        "option2": "FTP",
+        "option3": "e-mail",
+        "option4": "HTTP",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "In how many tier programs the inland water quality monitoring network is operating?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which is the most input of waste causing marine pollution?",
-        "option1": "Pesticides",
-        "option2": "Pipes directly discharge waste into the sea",
-        "option3": "Death of aquatic organisms",
-        "option4": "Climatic conditions",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Why ship accidents cause marine pollution?",
-        "option1": "Because if the ship carrying passengers to collapse it results in the death of many people",
-        "option2": "Because ship is very huge in its size",
-        "option3": "Dredged material which carries heavy metals cause marine pollution",
-        "option4": "Ship materials stuck inside the marine organisms",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following is the greatest volume of waste discharge to water?",
-        "option1": "Spillage from oil pipelines",
-        "option2": "Sewage",
-        "option3": "Nuclear waste",
-        "option4": "Spillage from tankers",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "When does the rate of aerobic oxidation reduced in the sewage that is reduced to the water?",
-        "option1": "When oxygen concentration falls below 1.5 mg/I",
-        "option2": "When oxygen concentration falls below 2.5 mg/I",
-        "option3": "When oxygen concentration falls below 3.5 mg/I",
-        "option4": "When oxygen concentration falls below 4.5 mg/I",
+        "question": "Port number 25 is for____.",
+        "option1": "e-mail",
+        "option2": "Telnet",
+        "option3": "FTP",
+        "option4": "HTTP",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "Which of the following way is used to reduce the pollution load on marine water?",
-        "option1": "Manual cleaning of pollutants",
-        "option2": "Damping the pollutants during winter",
-        "option3": "Introducing sewage treatment plants",
-        "option4": "Ban the license of industries which are near to the sea",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What is the reason that oil pollution attracts the greatest attention?",
-        "option1": "Because of the volume",
-        "option2": "Because of the density",
-        "option3": "Because of the mass",
-        "option4": "Because of the visibility",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is night soil?",
-        "option1": "Soil containing urea",
-        "option2": "Human excreta",
-        "option3": "Animal excreta",
-        "option4": "Human excreta, animal excreta and urea",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Wastewater from different sources like bathrooms, kitchens and wash basins is called",
-        "option1": "Sewage",
-        "option2": "Garbage",
-        "option3": "Sullage",
-        "option4": "Discharge",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following conditions is not suitable for the disposal of excreta or sewage?",
-        "option1": "The waste does not pollute the ground surface",
-        "option2": "It is not exposed to the atmosphere",
-        "option3": "It should be accessible for children",
-        "option4": "It does not give odour nuisance",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "The system to collect night soil, garbage etc. in separate vessels or deposited in pools and pits is called",
-        "option1": "Conservancy system",
-        "option2": "Waste allocation system",
-        "option3": "Waste deposition system",
-        "option4": "Waste pit",
+        "question": "Port number 79 is for____.",
+        "option1": "Finger",
+        "option2": "HTTP",
+        "option3": "Telnet",
+        "option4": "FTP",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "In urban cities like Bangalore, which of the water carriage system is used?",
-        "option1": "Separate system",
-        "option2": "Combined system",
-        "option3": "Partially combined system",
-        "option4": "Partially separate system",
+        "question": "Port number 80 is for____.",
+        "option1": "HTTP",
+        "option2": "FTP",
+        "option3": "TCP",
+        "option4": "UDP",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "Which of the following is an advantage of the conservancy system over water carriage system?",
-        "option1": "Labour force",
-        "option2": "Water consumption",
-        "option3": "Compact house design",
-        "option4": "Spread of epidemic",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "The means of promoting hygiene through the prevention of human contact with the hazards of wastes especially feces is called",
-        "option1": "Hygiene control",
-        "option2": "Disease prevention",
-        "option3": "Sanitation",
-        "option4": "Hygiene",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "The relatively clean wastewater from baths, sinks, washing machines and other kitchen appliances is called",
-        "option1": "Grey water",
-        "option2": "Black water",
-        "option3": "Yellow water",
-        "option4": "Wastewater",
+        "question": "HTTP is a protocol that _____ and _____ use for transfer of hypertext pages and images.",
+        "option1": "web browsers and servers",
+        "option2": "awt",
+        "option3": "swing",
+        "option4": "switch",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "What is the major problem in nuclear plants?",
-        "option1": "Drawing out energy",
-        "option2": "Fusion of particles",
-        "option3": "Disposal of nuclear waste",
-        "option4": "Handling of fuel",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "_____ is suited for open channel monitoring applications.",
-        "option1": "pH sensor",
- "option2": "Ultrasonic technology",
-        "option3": "Infrared technology",
-        "option4": "Monitoring meters",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "How many categories of process variables are present?",
-        "option1": "2",
-        "option2": "3",
-        "option3": "4",
-        "option4": "5",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following are a mechanical means of signal transmission?",
-        "option1": "Detector",
-        "option2": "Tone",
-        "option3": "Amplifier",
-        "option4": "Indicator",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is the hazardous pollutant released from resistors?",
-        "option1": "Arsenic",
-        "option2": "Barium",
-        "option3": "Cobalt",
-        "option4": "Silver",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is the hazardous pollutant released from luminous substances?",
-        "option1": "Arsenic",
-        "option2": "Barium",
-        "option3": "Zinc",
-        "option4": "Silver",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following metal affects mental development in children?",
-        "option1": "Lead",
-        "option2": "Barium",
-        "option3": "Zinc",
-        "option4": "Silver",
+        "question": "______ listens to port 80 and ______ connects to port 80.",
+        "option1": "Server and client",
+        "option2": "client, server",
+        "option3": "none of the above",
+        "option4": "all of the above",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "Which of the following metal causes bronchial maladies?",
-        "option1": "Lead",
-        "option2": "Barium",
-        "option3": "Chromium",
-        "option4": "Plastic",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following area has the lowest chance of producing a biomedical waste?",
-        "option1": "Hospitals",
-        "option2": "Clinics",
-        "option3": "Laboratories",
-        "option4": "Agricultural lands",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following is not a Biomedical waste?",
-        "option1": "Animal waste",
-        "option2": "Microbiological waste",
-        "option3": "Chemical waste",
-        "option4": "Domestic waste",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following is categorized as an incineration waste?",
-        "option1": "Incineration ash",
-        "option2": "Animal waste",
-        "option3": "Solid waste",
-        "option4": "Cytotoxic drugs",
+        "question": "A ______ speaks the client side of a protocol to another server.",
+        "option1": "Proxy",
+        "option2": "proxcy",
+        "option3": "Proksy",
+        "option4": "Proccy",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "Which of the following should not be mixed with other wastes to avoid contamination?",
-        "option1": "Tarry residue",
-        "option2": "Oily sludge",
-        "option3": "Animal waste",
-        "option4": "Vegetable oil",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following is not a waste treatment method for biomedical wastes?",
-        "option1": "Incineration",
-        "option2": "Chemical disinfecting",
-        "option3": "Autoclaving",
-        "option4": "Sieving",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following requires special treatment of bacteria?",
-        "option1": "Packaging of waste",
-        "option2": "Labelling of waste",
-        "option3": "Transport of waste",
-        "option4": "Degradation of waste",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following can be used to produce marketable compost from dry solid wastes?",
-        "option1": "Aerobic composting",
-        "option2": "Vermicomposting",
-        "option3": "Anaerobic digestion",
-        "option4": "Anaerobic composting",
+        "question": "_______ is required when clients have restrictions on servers.",
+        "option1": "Proxy server",
+        "option2": "proxcy server",
+        "option3": "Proksy server",
+        "option4": "Proccy server",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "Which of the following can be used to treat wastes with simple organic matter with high water content?",
-        "option1": "Vermicomposting",
-        "option2": "Aerobic composting",
-        "option3": "Incineration",
-        "option4": "Anaerobic digestion",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Why is light pollution a problem?",
-        "option1": "It affects only humans",
-        "option2": "It affects only animals",
-        "option3": "It affects only plants",
-        "option4": "It affects humans, animals, and plants",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "In State Pollution Control Boards, how many constitutions of committees can constitute?",
-        "option1": "One",
-        "option2": "Ten",
-        "option3": "Not constitute any committees",
-        "option4": "As many committees as necessary",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Where is the head office of the Central Pollution Control Board?",
-        "option1": "Mumbai",
-        "option2": "Raipur",
-        "option3": "Mysore",
-        "option4": "New Delhi",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Who decides the term of the Member Secretary in the Central Pollution Control Board?",
-        "option1": "Chairman of the Central Pollution Control Board",
-        "option2": "President of India",
-        "option3": "Prime Minister of India",
-        "option4": "Government of India",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is the full form of NAMP?",
-        "option1": "National Air Quality Monitoring Program",
-        "option2": "National Air Quality Measuring Program",
-        "option3": "National Air Quantity Monitoring Program",
-        "option4": "National Air Quality Monitoring Protocol",
+        "question": "URL is an acronym for ____________.",
+        "option1": "Uniform Resource Locator",
+        "option2": "Uniform Resource Location",
+        "option3": "Uniform Remote Locator",
+        "option4": "None of these",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "When did the Karnataka State Pollution Control Board for Prevention and Control of Water Pollution constitute?",
-        "option1": "1974",
-        "option2": "1978",
-        "option3": "1982",
-        "option4": "1985",
+        "question": "________ points to a resource on the World Wide Web.",
+        "option1": "Uniform Resource Locator (URL)",
+        "option2": "Inet Address",
+        "option3": "ServerSocket",
+        "option4": "TCP/IP",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "In how many tier programs is the inland water quality monitoring network operating?",
-        "option1": "One",
-        "option2": "Two",
-        "option3": "Three",
-        "option4": "Four",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "When was the National Green Tribunal Act constituted?",
-        "option1": "2000",
-        "option2": "2005",
-        "option3": "2010",
-        "option4": "2015",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which is the first country to pass the amendment in the parliament to safeguard the environment?",
-        "option1": "Brazil",
-        "option2": "Denmark",
-        "option3": "China",
-        "option4": "India",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "How can we achieve the prevention of environmental degradation?",
-        "option1": "By relying on the government to do all the jobs",
-        "option2": "By killing all animals in the forest",
-        "option3": "By creating public awareness among people about the importance of environment",
-        "option4": "By causing more and more pollution",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following way can we create awareness among people about the environment efficiently?",
-        "option1": "By the help of mass media shows the importance of environment",
-        "option2": "By spreading through mouths",
-        "option3": "By forcefully insisting people to protecting environment",
-        "option4": "By making treaties with other countries",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Which one of the following is the best way to protect environment by individuals?",
-        "option1": "By simply talking about environment",
-        "option2": "By killing organisms and cutting trees",
-        "option3": "By joining NGOs and involve themselves in environmental protection works",
-        "option4": "By simply sitting in a home",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What is the best way to educate school kids about the environment?",
-        "option1": "Teaching theory about environment in classes",
-        "option2": "Showing pictures and videos of environment on projector screen",
-        "option3": "Taking kids to national parks or sanctuaries",
-        "option4": "Taking kids to amusement parks",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "When do we celebrate World Forestry Day?",
-        "option1": "21 March",
-        "option2": "22 April",
-        "option3": "05 June",
-        "option4": "11 July",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "In India, when is Wildlife Week celebrated?",
-        "option1": "Between April 1 and 8",
-        "option2": "Between July 1 and 8",
-        "option3": "Between August 1 and 8",
-        "option4": "Between October 1 and 8",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "When did the Bombay Natural History Society start?",
-        "option1": "1883",
-        "option2": "1894",
-        "option3": "1903",
-        "option4": "1916",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Which is India's oldest conservation research-based NGO?",
-        "option1": "Botanical Survey of India",
-        "option2": "Bombay Natural History Society",
-        "option3": "Centre for Environmental Education",
-        "option4": "Madras Crocodile Bank Trust",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which is the first crocodile conservation breeding center in Asia?",
-        "option1": "Madras Crocodile Bank Trust",
-        "option2": "Bombay Crocodile Bank Trust",
-        "option3": "Kolkata Crocodile Bank Trust",
-        "option4": "Mangalore Crocodile Bank Trust",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Where can we see the State Department of Environment?",
-        "option1": "State where there is no danger for environment",
-        "option2": "State where there is danger for environment",
-        "option3": "State where there is no adequate environment",
-        "option4": "In all States of India",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Where is the headquarter of the Wildlife Institute of India located?",
-        "option1": "New Delhi",
-        "option2": "Mysore",
-        "option3": "Dehradun",
-        "option4": "Bhopal",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "When was the Zoological Survey of India established?",
-        "option1": "1900",
-        "option2": "1909",
-        "option3": "1916",
-        "option4": "1920",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which of the following actions takes place in the formation of ozone?",
-        "option1": "Action of daylight on oxygen",
-        "option2": "Action of daylight on nitrogen",
-        "option3": "Action of daylight on hydrogen",
-        "option4": "Action of daylight on phosphorous",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "When was the Central Pollution Control Board established?",
-        "option1": "1970",
-        "option2": "1972",
-        "option3": "1974",
-        "option4": "1976",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Who appoints the chairman of the Central Pollution Control Board?",
-        "option1": "Central Government",
-        "option2": "State Government",
-        "option3": "Governor of the State",
-        "option4": "President of India",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Which one of the following is the apex organization in the country in the field of pollution control?",
-        "option1": "Water Pollution Control Board",
-        "option2": "State Pollution Control Board",
-        "option3": "Central Pollution Control Board",
-        "option4": "Air Pollution Control Board",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "How many officials can be nominated to the Central Pollution Control Board by the Central Government?",
+        "question": "A URL specification is based on _________ components.",
         "option1": "Five",
-        "option2": "Ten",
-        "option3": "Twenty",
-        "option4": "Twenty-Five",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "In State Pollution Control Boards, how many constitutions of committees can be constituted?",
-        "option1": "One",
-        "option2": "Ten",
-        "option3": "Not constitute any committees",
-        "option4": "As many committees as necessary",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Where is the head office of the Central Pollution Control Board?",
-        "option1": "Mumbai",
-        "option2": "Raipur",
-        "option3": "Mysore",
-        "option4": "New Delhi",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Who decides the term of the Member Secretary in the Central Pollution Control Board?",
-        "option1": "Chairman of the Central Pollution Control Board",
-        "option2": "President of India",
-        "option3": "Prime Minister of India",
-        "option4": "Government of India",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "What is the full form of NAMP?",
-        "option1": "National Air Quality Monitoring Program",
-        "option2": "National Air Quality Measuring Program",
-        "option3": "National Air Quantity Monitoring Program",
-        "option4": "National Air Quality Monitoring Protocol",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "When was the Karnataka State Pollution Control Board for Prevention and Control of Water Pollution constituted?",
-        "option1": "1974",
-        "option2": "1978",
-        "option3": "1982",
-        "option4": "1985",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "In how many tier programs is the inland water quality monitoring network operating?",
-        "option1": "One",
         "option2": "Two",
         "option3": "Three",
         "option4": "Four",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "When was the National Green Tribunal Act constituted?",
-        "option1": "2000",
-        "option2": "2005",
-        "option3": "2010",
-        "option4": "2015",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which is the first country to pass the amendment in the parliament to safeguard the environment?",
-        "option1": "Brazil",
-        "option2": "Denmark",
-        "option3": "China",
-        "option4": "India",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "Which of the following are moral principles that describe certain standards of human behavior and are regularly protected as legal rights?",
-        "option1": "National rights",
-        "option2": "Human rights",
-        "option3": "Women rights",
-        "option4": "Men rights",
+        "question": "Which are the four components of URL?",
+        "option1": "Protocol, Server name or IP Address, Port Number",
+        "option2": "Protocol, Server name or IP Address, Port Number, File Name or directory name",
+        "option3": "Protocol, Server name or IP Address, Port Number, Host name",
+        "option4": "None of these",
         "Answer": "option2",
         "marks": 1
     },
     {
-        "question": "What is the full form of NGOs?",
-        "option1": "Non-Governmental Organizations",
-        "option2": "Non Governance Organizations",
-        "option3": "No Governance Organizations",
-        "option4": "Null Governmental Organizations",
+        "question": "Java’s URL class has several constructors.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Java URL class throws which exception?",
+        "option1": "MalformedUrlException",
+        "option2": "MalformedURLException",
+        "option3": "malformedURLException",
+        "option4": "MalformedURLExpection",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Choose the correct two forms of the constructor which allows you to break up the URL into its component parts:",
+        "option1": "URL(String protocolName, String hostName, int port, String path)",
+        "option2": "URL(String protocolName, String hostName, String path)",
+        "option3": "Both a and b",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "_________ is a general-purpose class for accessing the attributes of a remote resource.",
+        "option1": "openConnection",
+        "option2": "OpenConnection",
+        "option3": "UrlConnection",
+        "option4": "URLConnection",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The ______ and ________ classes are good enough for simple programs that want to connect to HTTP servers to fetch content.",
+        "option1": "URL, URLConnection",
+        "option2": "URL,UrlConnection",
+        "option3": "URLConnection",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The given output is the output for which program?",
+        "option1": "Option a: Full program with imports java.net.* and java.io.*",
+        "option2": "Option b: Partial program with imports java.io.* only",
+        "option3": "Option c: Partial program with imports java.net.* only",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Once you make a connection to a remote server, you can use _____________ to inspect the properties of the remote object before actually transporting it locally.",
+        "option1": "URL",
+        "option2": "URLConnection",
+        "option3": "URL.Connection",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "We can create a URLConnection using the ___________ method of a URL object and examine the document’s properties and content.",
+        "option1": "openConnection()",
+        "option2": "URLConnection()",
+        "option3": "both a and b",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The _____ class is used to encapsulate both the numerical IP address and the domain name for that address.",
+        "option1": "IPAddress",
+        "option2": "MACAddress",
+        "option3": "InetAddress",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "InetAddress was specified by which type of IP version?",
+        "option1": "IPv4",
+        "option2": "IPv6",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "IPv6 uses a how many bit value to represent an address?",
+        "option1": "32",
+        "option2": "64",
+        "option3": "16",
+        "option4": "128",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "IPv4 uses a how many bit value to represent an address?",
+        "option1": "32",
+        "option2": "128",
+        "option3": "64",
+        "option4": "16",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "InetAddress can handle _____ IP addresses.",
+        "option1": "IPv4",
+        "option2": "IPv6",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "To create an InetAddress object you have to use one of the available _____",
+        "option1": "Interfaces",
+        "option2": "Classes",
+        "option3": "Factory Methods",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a correct factory method to create an object in InetAddress?",
+        "option1": "getLocalHost()",
+        "option2": "getByName(String hostName)",
+        "option3": "getAllByName(String hostName)",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The _____ method returns the InetAddress object that represents the local host.",
+        "option1": "getByName(String hostName)",
+        "option2": "getLocalHost()",
+        "option3": "getAllByName(String hostName)",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The _______ method returns an InetAddress for a host name passed to it.",
+        "option1": "getByName(String hostName)",
+        "option2": "getLocalHost()",
+        "option3": "getAllByName(String hostName)",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The _______ factory method returns an array of InetAddresses that represent all of the addresses that a particular name resolves to.",
+        "option1": "getByName(String hostName)",
+        "option2": "getLocalHost()",
+        "option3": "getAllByName(String hostName)",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The factory method ______ which takes an IP address and returns an InetAddress object.",
+        "option1": "getByName(String hostName)",
+        "option2": "getLocalHost()",
+        "option3": "getAllByName(String hostName)",
+        "option4": "getByAddress()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following Instance Method returns true if this object has the same Internet address as other?",
+        "option1": "boolean isMulticastAddress()",
+        "option2": "boolean equals(Object other)",
+        "option3": "String toString()",
+        "option4": "byte[] getAddress()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following Instance Method returns a byte array that represents the object’s Internet address in network byte order?",
+        "option1": "byte[] getAddress()",
+        "option2": "String getHostName()",
+        "option3": "String toString()",
+        "option4": "boolean isMulticastAddress()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following Instance Method returns a string that represents the host address associated with the InetAddress object?",
+        "option1": "String toString()",
+        "option2": "boolean equals(Object other)",
+        "option3": "String getHostAddress()",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following Instance Method returns a string that represents the host name associated with the InetAddress object?",
+        "option1": "String getHostAddress()",
+        "option2": "String getByName()",
+        "option3": "String getHostName()",
+        "option4": "String toString()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following Instance Method Returns true if this Internet address is a multicast address. Otherwise, it returns false?",
+        "option1": "boolean equals(Object other)",
+        "option2": "boolean isMulticastAddress()",
+        "option3": "boolean isMultiCastAddress()",
+        "option4": "boolean MulticastAddress()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following Instance Method returns a string that lists the host name and the IP address for convenience?",
+        "option1": "String getHostAddress()",
+        "option2": "String getByName()",
+        "option3": "String getHostName()",
+        "option4": "String toString()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "______ sockets are used to implement reliable, bidirectional, persistent, point-to-point, stream-based connections between hosts on the Internet.",
+        "option1": "TCP/IP",
+        "option2": "UDP",
+        "option3": "Proxy",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_____ can be used to connect Java’s I/O system to other programs that may reside either on the local machine or on any other machine on the Internet.",
+        "option1": "Server",
+        "option2": "Client",
+        "option3": "Socket",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which class is designed to be a “listener,” which waits for clients to connect before doing anything?",
+        "option1": "Socket",
+        "option2": "Server",
+        "option3": "Both a & b",
+        "option4": "ServerSocket",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which are the two constructors used to create client sockets?",
+        "option1": "Socket(String hostName), Socket(InetAddress ipAddress, int port)",
+        "option2": "Socket(String hostName, int port), Socket(InetAddress ipAddress)",
+        "option3": "Socket(String hostName, int port), Socket(InetAddress ipAddress, int port)",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "By using the following methods, a socket can be examined at any time for the address and port information associated with it.",
+        "option1": "InetAddress getInetAddress()",
+        "option2": "int getPort()",
+        "option3": "int getLocalPort()",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method returns the InetAddress associated with the Socket object?",
+        "option1": "InetAddress getInetAddress()",
+        "option2": "int getPort()",
+        "option3": "int getLocalPort()",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method returns the remote port to which this Socket object is connected?",
+        "option1": "InetAddress getInetAddress()",
+        "option2": "int getPort()",
+        "option3": "int getLocalPort()",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method returns the local port to which this Socket object is connected?",
+        "option1": "InetAddress getInetAddress()",
+        "option2": "int getPort()",
+        "option3": "int getLocalPort()",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which exception is thrown by the factory methods getLocalHost() & getByName() when they are unable to resolve the host name?",
+        "option1": "UnknownHostException",
+        "option2": "IOException",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which exception is thrown by getAllByName() factory method if it can’t resolve the name to at least one address?",
+        "option1": "UnknownHostException",
+        "option2": "IOException",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns the InputStream associated with the invoking socket?",
+        "option1": "InputStream getInputStream()",
+        "option2": "OutputStream getOutputStream()",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns the OutputStream associated with the invoking socket?",
+        "option1": "InputStream getInputStream()",
+        "option2": "OutputStream getOutputStream()",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Fill in the blanks in the below program: import  ______ class InetAddressTest { public static void main(String args[]) throws _______ { InetAddress Address = InetAddress.____(); System.out.println(Address); Address = InetAddress._____(\"osborne.com\"); System.out.println(Address); InetAddress SW[] = InetAddress._____(\"www.nba.com\"); for (int i=0; i<SW.length; i++) System.out.println(SW[i]); } }",
+        "option1": "java.net.*; , UnknownHostException, getLocalHost(), getByName, getAllByName",
+        "option2": "UnknownHostException, getLocalHost(), getByName, getAllByName",
+        "option3": "java.net.* , UnknownHostException, getLocalHost(), getByName, getAllByName",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns a channel connected to the Socket object?",
+        "option1": "getChannel()",
+        "option2": "getByChannel()",
+        "option3": "getChannelName()",
+        "option4": "Both 1 & 2",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which exception is thrown by InetAddress getInetAddress(), int getPort(), int getLocalPort() socket methods?",
+        "option1": "UnknownHostException",
+        "option2": "IOException",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "_______ method Creates a socket connecting the local host to the named host and port.",
+        "option1": "Socket(String hostName, int port)",
+        "option2": "Socket(InetAddress ipAddress, int port)",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "______ method Creates a socket using a preexisting InetAddress object and a port.",
+        "option1": "Socket(String hostName, int port)",
+        "option2": "Socket(InetAddress ipAddress, int port)",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Fill in the blanks wrt above program import _______ class WriteServer { public static int serverPort = 998; public static int clientPort = 999; public static int buffer_size = 1024; public static______________ ds; public static byte buffer[] = new byte[buffer_size]; public static void TheClient() throws Exception { while(____) { DatagramPacket p = new DatagramPacket(buffer, buffer.length); ds.receive(p); System.out.println(new String(p.getData(), 0, p.getLength())); } } public static void TheServer() throws Exception { int i=0; while(_____) { String d = new Date().toString(); byte buffer[] = d.getBytes(); DatagramPacket p = new DatagramPacket(buffer, buffer.length, InetAddress.getLocalHost(), clientPort); ds.send(p); Thread.sleep(1000); } } public static void main(String args[]) throws Exception { ds = new_________(); if (args.length == 1) TheClient(); else TheServer(); } }",
+        "option1": "java.net.*;, DatagramSocket, true, true, DatagramSocket(serverPort)",
+        "option2": "java.net.*; , DatagramSocket, true, true, DatagramSocket(serverPort)",
+        "option3": "java.net.* , DatagramSocket, true, true, DatagramSocket(serverPort)",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following Instance Method returns a string that represents the host name associated with the InetAddress object?",
+        "option1": "String getHostAddress()",
+        "option2": "String getByName()",
+        "option3": "String getHostName()",
+        "option4": "String toString()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following Instance Method Returns true if this Internet address is a multicast address. Otherwise, it returns false?",
+        "option1": "boolean equals(Object other)",
+        "option2": "boolean isMulticastAddress()",
+        "option3": "boolean isMultiCastAddress()",
+        "option4": "boolean MulticastAddress()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following Instance Method returns a string that lists the host name and the IP address for convenience?",
+        "option1": "String getHostAddress()",
+        "option2": "String getByName()",
+        "option3": "String getHostName()",
+        "option4": "String toString()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "______ sockets are used to implement reliable, bidirectional, persistent, point-to-point, stream-based connections between hosts on the Internet.",
+        "option1": "TCP/IP",
+        "option2": "UDP",
+        "option3": "Proxy",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_____ can be used to connect Java’s I/O system to other programs that may reside either on the local machine or on any other machine on the Internet.",
+        "option1": "Server",
+        "option2": "Client",
+        "option3": "Socket",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which class is designed to be a “listener,” which waits for clients to connect before doing anything?",
+        "option1": "Socket",
+        "option2": "Server",
+        "option3": "Both a & b",
+        "option4": "ServerSocket",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which are the two constructors used to create client sockets?",
+        "option1": "Socket(String hostName), Socket(InetAddress ipAddress, int port)",
+        "option2": "Socket(String hostName, int port), Socket(InetAddress ipAddress)",
+        "option3": "Socket(String hostName, int port), Socket(InetAddress ipAddress, int port)",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "By using following methods a socket can be examined at any time for the address and port information associated with it.",
+        "option1": "InetAddress getInetAddress()",
+        "option2": "int getPort()",
+        "option3": "int getLocalPort()",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method returns the InetAddress associated with the Socket object?",
+        "option1": "InetAddress getInetAddress()",
+        "option2": "int getPort()",
+        "option3": "int getLocalPort()",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method returns the remote port to which this Socket object is connected?",
+        "option1": "InetAddress getInetAddress()",
+        "option2": "int getPort()",
+        "option3": "int getLocalPort()",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method returns the local port to which this Socket object is connected?",
+        "option1": "InetAddress getInetAddress()",
+        "option2": "int getPort()",
+        "option3": "int getLocalPort()",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which exception is thrown by the factory methods getLocalHost() & getByName() when they are unable to resolve the host name?",
+        "option1": "UnknownHostException",
+        "option2": "IOException",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which exception is thrown by getAllByName() factory method if it can’t resolve the name to at least one address?",
+        "option1": "UnknownHostException",
+        "option2": "IOException",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns the InputStream associated with the invoking socket?",
+        "option1": "InputStream getInputStream()",
+        "option2": "OutputStream getOutputStream()",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns the OutputStream associated with the invoking socket?",
+        "option1": "InputStream getInputStream()",
+        "option2": "OutputStream getOutputStream()",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Fill in the blanks in the below program:\n\nimport  ______ class InetAddressTest \n{ \npublic static void main(String args[]) throws _______ { \nInetAddress Address = InetAddress.____(); \nSystem.out.println(Address); \nAddress = InetAddress._____(\"osborne.com\"); \nSystem.out.println(Address); \nInetAddress SW[] = InetAddress._____(\"www.nba.com\"); \nfor (int i=0; i<SW.length; i++) \nSystem.out.println(SW[i]); \n} \n}",
+        "option1": "java.net.*; , UnknownHostException, getLocalHost(), getByName, getAllByName",
+        "option2": "UnknownHostException, getLocalHost(), getByName, getAllByName",
+        "option3": "java.net.* , UnknownHostException, getLocalHost(), getByName, getAllByName",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns a channel connected to the Socket object?",
+        "option1": "getChannel()",
+        "option2": "getByChannel()",
+        "option3": "getChannelName()",
+        "option4": "Both 1 & 2",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which exception is thrown by InetAddress getInetAddress(), int getPort(), int getLocalPort() socket methods?",
+        "option1": "UnknownHostException",
+        "option2": "IOException",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "_______ method Creates a socket connecting the local host to the named host and port.",
+        "option1": "Socket(String hostName, int port)",
+        "option2": "Socket(InetAddress ipAddress, int port)",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "______ method Creates a socket using a preexisting InetAddress object and a port.",
+        "option1": "Socket(String hostName, int port)",
+        "option2": "Socket(InetAddress ipAddress, int port)",
+        "option3": "Both 1 & 2",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Fill in the blanks wrt above program",
+        "option1": "java.net.* ,DatagramSocket, true",
+        "option2": "java.sql.* ,DatagramSocket,true",
+        "option3": "java.net.* , DatagramPacket,,false",
+        "option4": "java.sql.* ,false, DatagramPacket,,false",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "ds.send(new DatagramPacket(buffer,pos,InetAddress.getLocalHost(),clientPort)); is used for",
+        "option1": "used to send data from client to server.",
+        "option2": "used to send data from server to client.",
+        "option3": "used to send data both ways",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "________ object is the data container",
+        "option1": "DatagramSocket",
+        "option2": "DataContainer",
+        "option3": "DatagramPacket",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "DatagramSocket is",
+        "option1": "used to send or receive the DatagramPackets.",
+        "option2": "serialized, predictable, reliable stream of packet data.",
+        "option3": "information passed between machines.",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Java implements datagrams by using class/classes",
+        "option1": "DatagramSocket",
+        "option2": "DatagramPackets",
+        "option3": "both a&b",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is the constructors of Datagram Packet class?",
+        "option1": "DatagramPacket(byte data[ ], int offset, int size)",
+        "option2": "DatagramPacket(byte data[ ], int size, InetAddress ipAddress, int port)",
+        "option3": "DatagramPacket(byte data[ ], int offset, int size, InetAddress ipAddress, int port)",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What does byte[ ] getData( ) method do?",
+        "option1": "Returns the byte array of data contained in the datagram",
+        "option2": "Returns the port number.",
+        "option3": "Returns data in form of string",
+        "option4": "returns length of data",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is the method of DataPacket class?",
+        "option1": "InetAddress getAddress( )",
+        "option2": "int getPort( )",
+        "option3": "int getLength( )",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns the destination InetAddress, typically used for sending.",
+        "option1": "int getPort( )",
+        "option2": "int getLength( )",
+        "option3": "InetAddress getAddress( )",
+        "option4": "byte[ ] getData( )",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "It provides a serialized, predictable, reliable stream of packet data",
+        "option1": "TCP",
+        "option2": "UDP",
+        "option3": "URL",
+        "option4": "Datagram",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When the datagram is received, there is no assurance that it hasn’t been damaged in transmission",
+        "option1": "TRUE",
+        "option2": "FALSE",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Calling ServerSocket() constructor with port value 'zero' means _____________.",
+        "option1": "use a port number that is automatically allocated.",
+        "option2": "use a local port",
+        "option3": "use server port",
+        "option4": "None of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these package contains classes and interfaces for networking?",
+        "option1": "java.util.*",
+        "option2": "java.networking.*",
+        "option3": "java.net.*",
+        "option4": "java.awt.*",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A ServerSocket can connect to ________ clients.",
+        "option1": "single",
+        "option2": "Multiple",
+        "option3": "both a and b",
+        "option4": "none of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A socket identifies __________ in network.",
+        "option1": "a communication end point",
+        "option2": "a communication start point",
+        "option3": "Intermediate nodes",
+        "option4": "None of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A_______ is responsible for determining whether code executing in the Java runtime environment has permission to perform a security sensitive operation.",
+        "option1": "Permission object",
+        "option2": "security object",
+        "option3": "policy object",
+        "option4": "all of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Connection oriented communication is possible using ________________ classes of Java.",
+        "option1": "Socket and ServerSocket",
+        "option2": "only Socket",
+        "option3": "only ServerSocket",
+        "option4": "DatagramPacket",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "byte[] getData() method of DatagramPacket class returns __________________",
+        "option1": "Integer array of data contained in datagram",
+        "option2": "array of data contained in datagram",
+        "option3": "String array of data contained in datagram",
+        "option4": "Byte array of data contained in datagram",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In UDP send() and receive() methods belong to which class?",
+        "option1": "DatagramSocket",
+        "option2": "DatagramPacket",
+        "option3": "Socket",
+        "option4": "ServerSocket",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Java.net package include following classes.",
+        "option1": "URLConnection",
+        "option2": "Socket",
+        "option3": "InetAddress",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Name the class which is used to create a port where the server will listen?",
+        "option1": "DatagramPacket",
+        "option2": "ServerSocket",
+        "option3": "Socket",
+        "option4": "URL",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Port Number for FTP is",
+        "option1": "21",
+        "option2": "80",
+        "option3": "20",
+        "option4": "40",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Pretty Good Privacy (PGP) is used in security of",
+        "option1": "data",
+        "option2": "Email",
+        "option3": "Webpages",
+        "option4": "none of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The constructor for ServerSocket are ______________.",
+        "option1": "ServerSocket(int port, int maxQueue)",
+        "option2": "ServerSocket(int port)",
+        "option3": "ServerSocket(int port, int maxQueue, InetAddress localAddress)",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The constructor which is used to create client socket is ____________.",
+        "option1": "Socket(InetAddress IPAddress, int port)",
+        "option2": "ServerSocket(int port)",
+        "option3": "Socket(InetAddress IPAddress)",
+        "option4": "all of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The factory method which returns an array of InetAddresses that represent all of the addresses that a particular host name resolves to.",
+        "option1": "getAllByName()",
+        "option2": "getByName()",
+        "option3": "getLocalHost()",
+        "option4": "getHostName()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The java.net.InetAddress class provides methods to get the __________________",
+        "option1": "IP of any host name",
+        "option2": "Host name",
+        "option3": "Domain name",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "URL class has several constructors; each can throw a _____________________.",
+        "option1": "MalformedURLException",
+        "option2": "IOException",
+        "option3": "URLException",
+        "option4": "SocketException",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is return type of getAddress() method of InetAddress class?",
+        "option1": "byte[]",
+        "option2": "String[]",
+        "option3": "Array[]",
+        "option4": "Double",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is Second part of URL address",
+        "option1": "Filename",
+        "option2": "Hostname",
+        "option3": "portnumber",
+        "option4": "protocol",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the first part of URL address?",
+        "option1": "Filename",
+        "option2": "Hostname",
+        "option3": "portnumber",
+        "option4": "protocol",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the optional part of URL Address",
+        "option1": "Filename",
+        "option2": "Hostname",
+        "option3": "portnumber",
+        "option4": "protocol",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the return type of the method getAllByName() of InetAddress class?",
+        "option1": "byte[]",
+        "option2": "String",
+        "option3": "void",
+        "option4": "InetAddress[]",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which is the reliable protocol of networking?",
+        "option1": "TCP",
+        "option2": "UDP",
+        "option3": "HTTP",
+        "option4": "FTP",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method is used to know the full URL of an URL object?",
+        "option1": "toExternalForm()",
+        "option2": "ExternalForm()",
+        "option3": "getURL()",
+        "option4": "None of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method is used to return the IPAddress of local machine",
+        "option1": "static InetAddress getLocalHost()",
+        "option2": "static InetAddress getHost()",
+        "option3": "static InetAddress getPort()",
+        "option4": "All of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method of ServerSocket will wait for a client to initiate communications and then communicate with the client",
+        "option1": "initialize()",
+        "option2": "start()",
+        "option3": "socket()",
+        "option4": "accept()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following class defines accept() method?",
+        "option1": "Socket",
+        "option2": "ServerSocket",
+        "option3": "DatagramPacket",
+        "option4": "DatagramSocket",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of these is a bundle of information passed between machines?",
+        "option1": "Datagram",
+        "option2": "Frame",
+        "option3": "Packet",
+        "option4": "socket",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of these method of DatagramPacket is used to find the length of byte Array",
+        "option1": "getLength()",
+        "option2": "getlength()",
+        "option3": "getTotalLength()",
+        "option4": "getSize()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these method of DatagramPacket is used to find the port number?",
+        "option1": "getPortNumber()",
+        "option2": "getport()",
+        "option3": "getPort()",
+        "option4": "getportNumber()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of these methods is used to know the type of content used in the URL?",
+        "option1": "getContentType()",
+        "option2": "getContentLength()",
+        "option3": "getcontentType()",
+        "option4": "getcontenttype()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "__________ class is used for accessing the attribute of a remote resource.",
+        "option1": "URLConnection",
+        "option2": "URL",
+        "option3": "url",
+        "option4": "Socket",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "________________ is abstract class for representing access to a system resource.",
+        "option1": "Security",
+        "option2": "Permission",
+        "option3": "Policy",
+        "option4": "None of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "___________________ method of DatagramSocket class is used to receive DatagramPacket.",
+        "option1": "receive(DatagramPacket packet)",
+        "option2": "accept(DatagramPacket packet)",
+        "option3": "Receive(DatagramPacket packet)",
+        "option4": "Accept(DatagramPacket packet)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Choose the correct output for the following program:\n\nimport java.net.*; class myURL2  {\n public static void main(String args[]) throws MalformedURLException { \nURL u=new URL('http://www.msbte.com'); \nSystem.out.println('Protocol='+u.getProtocol()); \nSystem.out.println('Host Name='+u.getHost()); \nSystem.out.println('Port Number='+u.getPort()); \nSystem.out.println('File Name='+u.getFile()); \n} }\n",
+        "option1": "Protocol=http Host Name=www.msbte.com Port Number= -1 File Name=",
+        "option2": "Protocol=http Host Name=www.msbte.com Port Number= -1",
+        "option3": "Protocol=http Host Name=www.msbte.com File Name=",
+        "option4": "Protocol=http Host Name=www.msbte.com Port Number= 1 File Name=",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Choose the correct output for the following program:\n\nimport java.net.*; class networking { \npublic static void main(String args[])throws UnknownHostException  { \nInetAddress obj1 =InetAddress.getByName('msbte.com'); \nInetAddress obj2 =InetAddress.getByName('msbte.com'); boolean x = obj1.equals(obj2); System.out.print(x); \n} }\n",
+        "option1": "true",
+        "option2": "false",
+        "option3": "1",
+        "option4": "-1",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If port number is not specified in the URL, getPort() method returns _______",
+        "option1": "1",
+        "option2": "-1",
+        "option3": "0",
+        "option4": "blank",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Port number of Telnet is ________",
+        "option1": "20",
+        "option2": "21",
+        "option3": "23",
+        "option4": "24",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the default length of the queue in following constructor of ServerSocket? ServerSocket(int portno)",
+        "option1": "80",
+        "option2": "40",
+        "option3": "60",
+        "option4": "50",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which Exception is thrown by DatagramSocket class constructor?",
+        "option1": "DatagramSocketException",
+        "option2": "SocketException",
+        "option3": "MalformedURLException",
+        "option4": "URLException",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which is not a method of the security class?",
+        "option1": "SocketPermission()",
+        "option2": "FilePermission()",
+        "option3": "DataPermission()",
+        "option4": "None of Above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which method is used to obtain the Portno of the client in Client Program?",
+        "option1": "getLocalPort()",
+        "option2": "getLocalHost()",
+        "option3": "getPort()",
+        "option4": "getHost()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns the output stream of the URL connection?",
+        "option1": "getInputStream()",
+        "option2": "getoutputStream()",
+        "option3": "getOutputStream()",
+        "option4": "getOutputstream()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which minimum package statements are missing?\n\nclass InetDemo  { \npublic static void main(String args[]) { \ntry { \nSocket s=new Socket('127.0.0.1',1234); InputStream ip=s.getInputStream(); OutputStream op=s.getOutputStream(); Date d=new Date(); String datemsg=String.valueOf(d); op.write(datemsg.getBytes()); op.close(); } catch(Exception e) { System.out.println(e); } }\n",
+        "option1": "import java.net.*;",
+        "option2": "import java.util.*;",
+        "option3": "import java.io.*;",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the output of the following program?\n\nimport java.net.*; class URLDemo { \npublic static void main(String args[]) throws MalformedURLException { \nURL hp = new URL('http://www.Abc.com/downloads'); System.out.println('Protocol: ' + hp.getProtocol()); System.out.println('Port: ' + hp.getPort()); System.out.println('Host: ' + hp.getHost()); System.out.println('File: ' + hp.getFile()); System.out.println('Ext:' + hp.toExternalForm()); }\n}",
+        "option1": "Protocol: http Port: -1 Host: www.Abc.com File: /downloads Ext:http://www.Abc.com/downloads",
+        "option2": "Protocol: http Port: -1 Host: www.Abc.com",
+        "option3": "Protocol, Port, Host, File, Ext",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What will be the output of the following code?\n\nimport java.net.*; class InetAddressTest { \npublic static void main(String args[]) throws UnknownHostException { InetAddress Address = InetAddress.getLocalHost(); System.out.println(Address); Address = InetAddress.getByName('osborne.com'); System.out.println(Address); InetAddress SW[] = InetAddress.getAllByName('www.nba.com'); for (int i=0; i<SW.length; i++) System.out.println(SW[i]); }\n}",
+        "option1": "default/206.148.209.138 osbrne.com/198.45.24.162 www.nba.com/64.241.238.153 www.nba.com/64.241.238.142",
+        "option2": "default/206.148.209.138 osborne.com/198.45.24.162 www.nba.com/64.241.238.142",
+        "option3": "default/206.148.209.138 osborne.com/198.45.24.162 www.nba.com/64.241.238.153 www.nba.com/64.241.238.142",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Find error in the following program.\n\nimport java.awt.*; class URLDemo  { \npublic static void main(String args[]) throws URLException { \nURL hp = new URL('http://www.Abc.com/downloads'); System.out.println('Protocol: ' + hp.getProtocol()); System.out.println('Port: ' + hp.getPort()); System.out.println('Host: ' + hp.getHost()); System.out.println('File: ' + hp.getFile()); }\n}",
+        "option1": "Unknown URL Exception",
+        "option2": "Unknown MalformedURLException",
+        "option3": "Unknown URLException",
+        "option4": "Unknown URL",
+        "Answer": "option2",
+        "marks": 1
+    },
+];
+
+const AJP_unit5 = [
+    {
+        "question": "The following classes belong to which package: Connection management, Database Access, Data Types, Database Metadata, Exceptions Warnings:",
+        "option1": "javax.sql",
+        "option2": "java.sql",
+        "option3": "javax.swing",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following classes/interface allows you to establish a connection to database:",
+        "option1": "java.sql.Driver",
+        "option2": "java.sql.DriverManager",
+        "option3": "java.sql.connection",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following classes/interface allows you to send SQL statement to database for execution and read the result:",
+        "option1": "java.sql.Statement",
+        "option2": "java.sql.PreparedStatement",
+        "option3": "java.sql.ResultSet",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the description of java.sql.DriverManager?",
+        "option1": "This class provides the functionality necessary for managing one or more database drivers.",
+        "option2": "This is an interface that abstracts the vendor specific connection protocol",
+        "option3": "This class is used to discover properties required to obtain the connection",
+        "option4": "This interface abstracts most of the interaction with the database.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the description of java.sql.Driver?",
+        "option1": "This class provides the functionality necessary for managing one or more database drivers.",
+        "option2": "This is an interface that abstracts the vendor specific connection protocol",
+        "option3": "This class is used to discover properties required to obtain the connection",
+        "option4": "This interface abstracts most of the interaction with the database",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the description of java.sql.DriverPropertyInfo?",
+        "option1": "This class provides the functionality necessary for managing one or more database drivers.",
+        "option2": "This is an interface that abstracts the vendor specific connection protocol",
+        "option3": "This class is used to discover properties required to obtain the connection",
+        "option4": "This interface abstracts most of the interaction with the database.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the description of java.sql.Connection?",
+        "option1": "This class provides the functionality necessary for managing one or more database drivers.",
+        "option2": "This is an interface that abstracts the vendor specific connection protocol",
+        "option3": "This class is used to discover properties required to obtain the connection",
+        "option4": "This interface abstracts most of the interaction with the database.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which interface lets you execute SQL statements over the underlying connection and access the results?",
+        "option1": "java.sql.Statement",
+        "option2": "java.sql.PreparedStatement",
+        "option3": "java.sql.ResultSet",
+        "option4": "java.sql.CallableStatement",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "This interface lets you execute stored procedures.",
+        "option1": "java.sql.Statement",
+        "option2": "java.sql.PreparedStatement",
+        "option3": "java.sql.ResultSet",
+        "option4": "java.sql.CallableStatement",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The java.sql package provides several Java _______ class that correspond to some of the SQL types.",
+        "option1": "Connection Management",
+        "option2": "Database Access",
+        "option3": "Data Types",
+        "option4": "Both (a) and (b)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which interface is included in Data Types?",
+        "option1": "java.sql.Types",
+        "option2": "java.sql.Date",
+        "option3": "java.sql.Blob",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which interface comes under DatabaseMetadata?",
+        "option1": "java.sql.DatabaseMetadata",
+        "option2": "java.sql.ResultSetMetaData",
+        "option3": "java.sql.ParameterMetadata",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following comes under SQL Exception and Warnings?",
+        "option1": "java.sql.SQLexception",
+        "option2": "java.sql.SQLWarning",
+        "option3": "java.sql.DataTruncation",
+        "option4": "Both (b) and (c)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is/are characteristics of JDBC?",
+        "option1": "Supports a wide level of portability.",
+        "option2": "Provides Java Interfaces that are compatible with Java Applications. These providers are also responsible for providing the driver services.",
+        "option3": "Provides higher-level APIs for application programmers. The JDBC API specification is used as an interface for the applications and DBMS.",
+        "option4": "The JDBC call to a Java application is made by the SQL Statements. These statements are responsible for entire communication with the database.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Following is/are the packages for JDBC",
+        "option1": "java.sql",
+        "option2": "javax.sql",
+        "option3": "Both a and b",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a function of JDBC?",
+        "option1": "Allows Java programs to execute SQL Statements",
+        "option2": "Allows Java programs to retrieve the results of the SQL Statements",
+        "option3": "Allows Java programs to manipulate the design of the application",
+        "option4": "Allows Java programs to send user-defined requests to the database",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "JDBC-ODBC Bridge can be availed by importing __________ package.",
+        "option1": "java.sql",
+        "option2": "sun.jdbc.odbc",
+        "option3": "java.jdbcodbc",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following JDBC versions was released with Java EE 6?",
+        "option1": "JDBC 2.0",
+        "option2": "JDBC 3.0",
+        "option3": "JDBC 4.0",
+        "option4": "JDBC 4.1",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "JDBC API provides __________ and ___________ to handle database-specific calls from users.",
+        "option1": "methods, functions",
+        "option2": "classes, interfaces",
+        "option3": "packages, classes",
+        "option4": "interfaces, packages",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "_____________ has an important role in JDBC Architecture.",
+        "option1": "Driver",
+        "option2": "SqlData",
+        "option3": "DriverManager",
+        "option4": "ResultSet",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "_____________ refers to the bridge driver (JDBC-ODBC Bridge)",
+        "option1": "Type-1 Driver",
+        "option2": "Type-2 Driver",
+        "option3": "Type-3 Driver",
+        "option4": "Type-4 Driver",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_____________ refers to a partly java and partly native code driver",
+        "option1": "Type-1 Driver",
+        "option2": "Type-2 Driver",
+        "option3": "Type-3 Driver",
+        "option4": "Type-4 Driver",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "_____________ refers to pure Java Driver that uses a middleware driver to connect to a database",
+        "option1": "Type-1 Driver",
+        "option2": "Type-2 Driver",
+        "option3": "Type-3 Driver",
+        "option4": "Type-4 Driver",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "_____________ refers to pure Java Driver which is directly connected to a database",
+        "option1": "Type-1 Driver",
+        "option2": "Type-2 Driver",
+        "option3": "Type-3 Driver",
+        "option4": "Type-4 Driver",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "OCI stands for _____________",
+        "option1": "Order Command Interface",
+        "option2": "Oracle Call Interface",
+        "option3": "Operation Command Interface",
+        "option4": "Open Command Interface",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not the component of 3-tier architecture of JDBC",
+        "option1": "DataSource Object",
+        "option2": "Java Application",
+        "option3": "Java API",
+        "option4": "Database",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The javax.sql provides ................................ implementations which are used in building server-side applications.",
+        "option1": "JNDI-based lookup to access databases via logical names",
+        "option2": "Connection Pooling",
+        "option3": "Distributed transaction",
+        "option4": "The RowSet",
+        "Answer": "option5",
+        "marks": 1
+    },
+    {
+        "question": "The javax.sql package is used to develop the client/server sided applications and provide server sided extension facilities. State the statement is true or false.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Using which classes and interfaces of javax.sql package we can establish and manage connection with the data source?",
+        "option1": "Only DataSource",
+        "option2": "DataSource and DataManager",
+        "option3": "DataSource and DriverManager",
+        "option4": "Only DriverManager",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The ............... package provides a transparent meaning of connection pooling.",
+        "option1": "javax.swing",
+        "option2": "javax.servlet",
+        "option3": "javax.sql",
+        "option4": "java.io.sql",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "............................. implementation are provided by the driver vendor.",
+        "option1": "DataSource",
+        "option2": "DataManager",
+        "option3": "DriverManager",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The ............................. Naming service is used to provide a logical name for the DataSource to make a connection.",
+        "option1": "Java Database Connectivity (JDBC)",
+        "option2": "Java Naming and Directory Interface (JNDI)",
+        "option3": "Open Database Connectivity (ODBC)",
+        "option4": "Domain Name Server",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "DataSource object can be implemented to work with..............",
+        "option1": "three-tier infrastructure",
+        "option2": "two-tier infrastructure",
+        "option3": "middle-tier infrastructure",
+        "option4": "none",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "State true or false: “Connection Pooling means that the connection is reused rather than created each time when it is requested.”",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "............................... Subclass of statement interface.",
+        "option1": "Statement Interface",
+        "option2": "PreparedStatement Interface",
+        "option3": "CallableStatement Interface",
+        "option4": "PreparedStatement Class",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which method is invoked on the statement object by passing the SQL statements as a parameter?",
+        "option1": "getXXX()",
+        "option2": "setXXX()",
+        "option3": "executeXXX()",
+        "option4": "All of the Above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "......................... can be used to represent a precompiled query, which can be executed multiple times.",
+        "option1": "Statement Interface",
+        "option2": "PreparedStatement Interface",
+        "option3": "CallableStatement Interface",
+        "option4": "PreparedStatement Class",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The execute method ....................... while using the PreparedStatement objects.",
+        "option1": "takes nth number of parameters.",
+        "option2": "takes only one parameter.",
+        "option3": "does not take any parameters.",
+        "option4": "none of the above.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which method of the connection object is used to get the object of the PreparedStatement interface?",
+        "option1": "executeStatement()",
+        "option2": "updateStatement()",
+        "option3": "preparedStatement()",
+        "option4": "getStatement()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which method of the PreparedStatement object is used to set the parameters of the SQL statements?",
+        "option1": "getXXX()",
+        "option2": "setParameter()",
+        "option3": "setPath()",
+        "option4": "setXXX()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "We can execute the precompiled SQL statements by using",
+        "option1": "execute()",
+        "option2": "executeUpdate()",
+        "option3": "executeQuery()",
+        "option4": "all of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "javax.sql package is also called as ______.",
+        "option1": "JDBC extension API",
+        "option2": "API",
+        "option3": "JDBC extension",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The javax.sql.DataSource interface represents _____________ related to java application",
+        "option1": "data sources",
+        "option2": "data packets",
+        "option3": "socket",
+        "option4": "all of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The javax.sql.CommonDataSource provides the methods that are common between ___________ interfaces",
+        "option1": "DataSource,XADataSource,ConnectionPoolDataSource",
+        "option2": "Data.XAData,ConnectionPoolData",
+        "option3": "Source.XASource,ConnectionPoolSource",
+        "option4": "source.xadatasource,connectionpool",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Connections made by using __________ objects are implemented on the middle-tier connection pool.",
+        "option1": "DataSource",
+        "option2": "datasopurce",
+        "option3": "datasorce",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_________ provides a factory for PooledConnection objects.",
+        "option1": "javax.sql.ConnectionPoolDataSource",
+        "option2": "java.sql.ConnectionPoolDataSource",
+        "option3": "javax.sqlConnectionPoolDataSource",
+        "option4": "javax.sql,ConnectionPoolDataSource",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "__________ provides an object to manage connection pools.",
+        "option1": "javax.sql.ConnectionPoolDataSource",
+        "option2": "javax.sql.PooledConnectionInterface",
+        "option3": "javax.sqlConnectionPoolDataSource",
+        "option4": "javax.sql,ConnectionPoolDataSource",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "DriverManager is a …….. class in JDBC API.",
+        "option1": "Abstract",
+        "option2": "Non-Abstract",
+        "option3": "main",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How many constructor are in the DriverManager Class?",
+        "option1": "One",
+        "option2": "two",
+        "option3": "three",
+        "option4": "four",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the Driver Interface used for?",
+        "option1": "To create Database Object that provide and entry point for database connectivity",
+        "option2": "to contains the results of executing an SQL query.",
+        "option3": "To create Connection Object that provide an entry point for database connectivity.",
+        "option4": "none",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is connection interface?",
+        "option1": "It is a standard type that defines an abstraction to access the session established with database server.",
+        "option2": "It is used to create Connection Object that provides an entry point for database connectivity.",
+        "option3": "both a and b",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Connection interface provides methods to handle",
+        "option1": "ResultSet Object",
+        "option2": "Connection Object",
+        "option3": "PreparedStatement Object",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What does the Statement interface return?",
+        "option1": "ResultSet Object",
+        "option2": "Connection Object",
+        "option3": "PreparedStatement Object",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many times the query is compiled when used PreparedStatement?",
+        "option1": "once",
+        "option2": "twice",
+        "option3": "thrice",
+        "option4": "quadriple",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How to create an object and execute a query in PreparedStatement?",
+        "option1": "PreparedStatement stmt=new PreparedStatement(\"insert into Emp values(a,b)\");",
+        "option2": "PreparedStatement stmt=con.prepareStatement(\"insert into Emp values(a,b)\");",
+        "option3": "PreparedStatement stmt=con.prepareStatement(\"insert into Emp values(a,b)\");",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Syntax for ResultSet:",
+        "option1": "ResultSet rs=new ResultSet(\"Query-to-be-executed\");",
+        "option2": "resultset rs=stmt.executequery(\"Query-to-be-executed\");",
+        "option3": "ResultSet rs=stmt.executeQuery(\"Query-to-be-executed\");",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is  \"jdbc:mysql://localhost:3306/sonoo\",\"root\",\"root\"",
+        "option1": "path to the database",
+        "option2": "driver location",
+        "option3": "both a and b",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Steps for jdbc:",
+        "option1": "i, ii, iii, iv",
+        "option2": "ii, iii,iv,i",
+        "option3": "iii, iv , ii , i",
+        "option4": "iii, ii, iv, i",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Path for Data Sources(ODBC):",
+        "option1": "start->control panel -> system and security -> data sources",
+        "option2": "start ->control panel->system and security->administrative tools->data sources",
+        "option3": "start->control panel->data sources",
+        "option4": "start->accessories->data sources",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which driver is required for ODBC connectivity",
+        "option1": "MicrosoftODBCForOracle",
+        "option2": "MicrosoftODBCforOracle",
+        "option3": "MicrosoftOdbcForOracle",
+        "option4": "MicrosoftOdbcforOracle",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A Java program cannot directly communicate with an ODBC driver because .......",
+        "option1": "ODBC written in C language",
+        "option2": "ODBC written in C# language",
+        "option3": "ODBC written in C++ language",
+        "option4": "ODBC written in Basic language",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The JDBC-ODBC Bridge driver translates the JDBC API to the ODBC API and is used with ________",
+        "option1": "JDBC drivers",
+        "option2": "ODBC drivers",
+        "option3": "Both A and B",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The ............................. package contains classes that help in connecting to a database, sending SQL statements to the database, and processing the query results.",
+        "option1": "connection.sql",
+        "option2": "db.sql",
+        "option3": "pkg.sql",
+        "option4": "java.sql",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The ................................ method executes a simple query and returns a single Result Set object.",
+        "option1": "executeUpdate()",
+        "option2": "executeQuery()",
+        "option3": "execute()",
+        "option4": "noexecute()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The ......................... method executes an SQL statement that may return multiple results.",
+        "option1": "executeUpdate()",
+        "option2": "executeQuery()",
+        "option3": "execute()",
+        "option4": "noexecute()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The ........................ object allows you to execute parameterized queries.",
+        "option1": "ResultSet",
+        "option2": "Parameterized",
+        "option3": "PreparedStatement",
+        "option4": "Condition",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The .................. object provides you with methods to access data from the table.",
+        "option1": "ResultSet",
+        "option2": "Parameterized",
+        "option3": "TableStatement",
+        "option4": "Condition",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The parameters of the PreparedStatement object are ...................... when the user clicks on the Query button.",
+        "option1": "initialized",
+        "option2": "started",
+        "option3": "paused",
+        "option4": "stopped",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The ...................... method sets the query parameters of the PreparedStatement Object.",
+        "option1": "putString()",
+        "option2": "insertString()",
+        "option3": "setString()",
+        "option4": "setToString()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Connection object can be initialized using the ............................ method of the Driver Manager class.",
+        "option1": "putConnection()",
+        "option2": "setConnection()",
+        "option3": "Connection()",
+        "option4": "getConnection()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statements is false regarding different types of statements in JDBC?",
+        "option1": "Regular Statement",
+        "option2": "Prepared Statement",
+        "option3": "Callable Statement",
+        "option4": "Interim Statement",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "JDBC-ODBC bridge supports multiple concurrent open statements per connection?",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which driver is efficient and always preferable for using JDBC application?",
+        "option1": "Type – 4",
+        "option2": "Type – 1",
+        "option3": "Type – 3",
+        "option4": "Type – 2",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A Java program cannot directly communicate with an ODBC driver because",
+        "option1": "Statement is wrong",
+        "option2": "ODBC written in C language",
+        "option3": "ODBC written in high-level language",
+        "option4": "None of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Abbreviate the term DSN",
+        "option1": "Data Source Name",
+        "option2": "Data Server name",
+        "option3": "Database Server Name",
+        "option4": "Data String Name",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "API stands for",
+        "option1": "Applet Program Interface",
+        "option2": "Application Program Interface",
+        "option3": "Application procedure Interface",
+        "option4": "None of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "API which controls access to the row result of a given Statement and holds data retrieved from a database after you execute an SQL query using Statement objects.",
+        "option1": "java.Sql",
+        "option2": "java.ResultSet",
+        "option3": "Java.sql",
+        "option4": "java.sql.ResultSet",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Application Server used in ____________________.",
+        "option1": "Three-Tier Mode",
+        "option2": "Two-Tier Mode",
+        "option3": "Multi-Tier Mode",
+        "option4": "Single-Tier Mode",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Backbone of JDBC Architecture is ________________",
+        "option1": "Driver Manager",
+        "option2": "Database Manager",
+        "option3": "Statement Interface",
+        "option4": "ResultSet Interface",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method is used to modify stored data?",
+        "option1": "execute()",
+        "option2": "executeQuery()",
+        "option3": "executeUpdate()",
+        "option4": "executeResult()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How many transaction isolation levels are defined in sql.connection interface?",
+        "option1": "4",
+        "option2": "3",
+        "option3": "5",
+        "option4": "2",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is false as type 4 driver is concern?",
+        "option1": "Type 4 driver is “native protocol, pure java” driver",
+        "option2": "Type 4 drivers are 100% Java compatible",
+        "option3": "Type 4 drivers uses Socket class to connect to the database",
+        "option4": "Type 4 drivers can not be used with Netscape",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "All raw data types should be read and uploaded to the database as an array of :",
+        "option1": "byte",
+        "option2": "int",
+        "option3": "boolean",
+        "option4": "char",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method is used to perform DML statements in JDBC?",
+        "option1": "execute()",
+        "option2": "executeQuery()",
+        "option3": "executeUpdate()",
+        "option4": "None of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "JDBC stands for:",
+        "option1": "Java Database Connectivity",
+        "option2": "Java Database Components",
+        "option3": "Java Database Control",
+        "option4": "None of the above is correct.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The ................................ method executes a simple query and returns a single Result Set object.",
+        "option1": "executeUpdate()",
+        "option2": "executeQuery()",
+        "option3": "execute()",
+        "option4": "noexecute()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The ........................ object allows you to execute parameterized queries.",
+        "option1": "ResultSet",
+        "option2": "Parametrized",
+        "option3": "PreparedStatement",
+        "option4": "Condition",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Three methods are central to the life cycle of a servlet ___________, __________ and ________ .",
+        "option1": "init(), main(), run()",
+        "option2": "init(), service(), destroy()",
+        "option3": "init(), run(), stop()",
+        "option4": "init(), start(), stop()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is data in the following program?",
+        "option1": "Driver name",
+        "option2": "database name",
+        "option3": "table name",
+        "option4": "data source name",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the output of the following program?",
+        "option1": "\"id:\"+rs.getInt(\"id\")",
+        "option2": "\"name:\"+rs.getString(\"name1\")",
+        "option3": "both a and b",
+        "option4": "values of id and name will be displayed from table.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which is the correct method for updating table rows from the given option?",
+        "option1": "executeUpdate()",
+        "option2": "executeQuery()",
+        "option3": "execute()",
+        "option4": "ExecuteUpdate()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Find out the error from the following code.",
+        "option1": "Error in resultSet statement.",
+        "option2": "Error in while loop",
+        "option3": "both a and b",
+        "option4": "Error in catch()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Find out the error in the following program.",
+        "option1": "Error in main()",
+        "option2": "Error in try block",
+        "option3": "both a and b",
+        "option4": "Error in catch block",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Find the error in the following code.",
+        "option1": "missing semicolon",
+        "option2": "Connection is not terminated (con.close())",
+        "option3": "missing brackets",
+        "option4": "both a and c",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Find the error in the following code.",
+        "option1": "missing semicolon",
+        "option2": "incorrect syntax of Statement",
+        "option3": "incorrect syntax of ResultSet",
+        "option4": "both a and c",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Find the error in the following code.",
+        "option1": "missing semicolon",
+        "option2": "incorrect syntax of Statement",
+        "option3": "incorrect syntax of ResultSet",
+        "option4": "both a and c",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Find the error in the following code.",
+        "option1": "missing semicolon",
+        "option2": "missing bracket",
+        "option3": "incorrect syntax of resultset",
+        "option4": "None of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What will be the output of the code considering the database is created?",
+        "option1": "it contains error",
+        "option2": "none of the above",
+        "option3": "it works fine",
+        "option4": "it will throw SQLException",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Find the error in the following code.",
+        "option1": "missing semicolon",
+        "option2": "missing bracket",
+        "option3": "driver is not suitable",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "boolean isLast() method defines _______",
+        "option1": "Determines whether the ResultSet cursor points to the second last row",
+        "option2": "Determines whether the ResultSet cursor points to the last statement",
+        "option3": "Determines whether the ResultSet cursor points to the last Column",
+        "option4": "Determines whether the ResultSet cursor points to the last row",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Callable statement object in JDBC is used to execute a call to",
+        "option1": "stored procedure",
+        "option2": "Statement",
+        "option3": "Prepared Statement",
+        "option4": "Procedure",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "CallableStatement is used to execute_________________",
+        "option1": "stored procedure",
+        "option2": "Statement",
+        "option3": "Prepared Statement",
+        "option4": "Procedure",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Class.forName(\"_________________________\")",
+        "option1": "sun.jdbc.JdbcOdbcDriver",
+        "option2": "jdbc.odbc.JdbcOdbcDriver",
+        "option3": "sun.jdbc.odbc.JdbcOdbcDriver",
+        "option4": "sun.jdbc.odbc.JdbcOdbc",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "class.forName() method throws",
+        "option1": "NotFoundException",
+        "option2": "ClassNotFoundException",
+        "option3": "SQLException",
+        "option4": "Cant Throws any exception",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Connection object can be initialized using the _______ method of the DriverManager Class.",
+        "option1": "getConnection()",
+        "option2": "getManager()",
+        "option3": "getconnection()",
+        "option4": "Getmanager()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "createStatement() method without any parameter is used to create a statement with forward only and read only ResultSet. Database meta data are retrieved through ________.",
+        "option1": "PreparedStatement object",
+        "option2": "Statement object",
+        "option3": "Connection object",
+        "option4": "CallableStatement object",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "DELETE statement of an SQL is executed by ______________.",
+        "option1": "executeUpdate()",
+        "option2": "executeQuery()",
+        "option3": "Execute()",
+        "option4": "executeStatement()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "DriverManager.getConnection(_______ , ______ , ______) What are the two parameters that are included?",
+        "option1": "User ID, URL or machine name where server runs, Password",
+        "option2": "URL or machine name where server runs, Password, User ID",
+        "option3": "URL or machine name where server runs, User ID, Password",
+        "option4": "Database name, User ID, Password",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Every driver must provide a class that should implement the __________________",
+        "option1": "Driver interface",
+        "option2": "Connection Interface",
+        "option3": "Statement Interface",
+        "option4": "Database Interface",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Following is return type of executeUpdate( ):",
+        "option1": "String",
+        "option2": "Array",
+        "option3": "byte",
+        "option4": "Int",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "execution of delete SQL query in JDBC, ............. method must be used.",
+        "option1": "execute()",
+        "option2": "executeQuery()",
+        "option3": "executeUpdate()",
+        "option4": "executeStatement()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "For execution of INSERT SQL query in JDBC, ............. method must be used.",
+        "option1": "executeUpdate()",
+        "option2": "executeStatement()",
+        "option3": "executeQuery()",
+        "option4": "Execute()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "For execution of SELECT SQL query in JDBC, ___________________ method must be used.",
+        "option1": "executeQuery()",
+        "option2": "Execute()",
+        "option3": "executeUpdate()",
+        "option4": "executeAll()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "forName is a_______________________type method",
+        "option1": "Static",
+        "option2": "Dynamic",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "getConnection() method of which class",
+        "option1": "DriverManager",
+        "option2": "Statement",
+        "option3": "Connection",
+        "option4": "None of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many JDBC driver types are available by Sun Microsystems?",
+        "option1": "6",
+        "option2": "4",
+        "option3": "5",
+        "option4": "3",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "If a PreparedStatement is a SQL SELECT statement, you execute the statement using ________.",
+        "option1": "PreparedStatement.execute();",
+        "option2": "Statement.executeQuery();",
+        "option3": "PreparedStatement.executeQuery();",
+        "option4": "PreparedStatement.executeUpdate();",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "If you need to use a stored procedure with output parameters, which of the following statement type should be used to call the procedure?",
+        "option1": "CallableStatement",
+        "option2": "PreparedStatement",
+        "option3": "Statement",
+        "option4": "ProcedureStatement",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In 2-tier architecture, the first tier is generally_________________________",
+        "option1": "GUI",
+        "option2": "Server",
+        "option3": "Client",
+        "option4": "database",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In the following JDBC drivers which is known as partly java driver?",
+        "option1": "Pure-Java Driver",
+        "option2": "JDBC-net Pure Java",
+        "option3": "JDBC driver",
+        "option4": "Native-API driver",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In the three tier model the middle tier of the services acts as a mediator between ________________________ and _________________.",
+        "option1": "Java application and databases",
+        "option2": "Client and Server",
+        "option3": "Java application and client",
+        "option4": "Java application and server",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "JDBC is a --------------------- interface, which means that it is used to invoke SQL commands directly.",
+        "option1": "high level",
+        "option2": "low level",
+        "option3": "middle level",
+        "option4": "top level",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "JDBC Stands for",
+        "option1": "Java Database Connection",
+        "option2": "Java Database Connectivity",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "JDBC-ODBC bridge product provide _________ access via ____________.",
+        "option1": "JDBC driver, JDBC drivers",
+        "option2": "ODBC drivers, JDBC driver",
+        "option3": "JDBC driver, ODBC drivers",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Methods of ResultSet() throws ____________",
+        "option1": "IOException",
+        "option2": "Exception",
+        "option3": "DatabaseException",
+        "option4": "SQLException",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Name the type number of driver belongs to JDBC ODBC Bridge driver?",
+        "option1": "Type 1",
+        "option2": "Type 2",
+        "option3": "Type 3",
+        "option4": "Type 4",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Native API converts ___________into the __________ used by DBMS.",
+        "option1": "Native API calls,JDBC API",
+        "option2": "JDBC API, Native API calls",
+        "option3": "JDBC API, pure API calls",
+        "option4": "JDBC API, pure Java",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Native – protocol pure Java converts ……….. in to the ………… used by DBMSs directly.",
+        "option1": "JDBC calls, network protocol",
+        "option2": "Native API calls,JDBC API",
+        "option3": "JDBC API, pure API call",
+        "option4": "JDBC API, Native API calls",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "ODBC Drivers are platform _______________",
+        "option1": "Dependent",
+        "option2": "Independent",
+        "option3": "Both a and b",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "ODBC requires configuring _______ which represents the target database.",
+        "option1": "Data String Name",
+        "option2": "Data Source Name",
+        "option3": "Domain Name",
+        "option4": "Database name",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The PreparedStatement__________symbol is placeholder that is replaced by the input parameter at seen time.",
+        "option1": "?",
+        "option2": "*",
+        "option3": "&",
+        "option4": "#",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The ResultSet __________________provides methods for retrieving and manipulating the results of executed queries.",
+        "option1": "Statement",
+        "option2": "Package",
+        "option3": "Class",
+        "option4": "Interface",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The Type 3 architecture is _______________________",
+        "option1": "JDBC-Net pure Java",
+        "option2": "JDBC-ODBC Bridge Driver",
+        "option3": "Native API partly Java driver",
+        "option4": "Native Protocol Pure-Java Driver",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The_____________________ is the language for interacting with Database.",
+        "option1": "Structured Query Language",
+        "option2": "Data Manipulation Language",
+        "option3": "Data Definition Language",
+        "option4": "Stored Query Language",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Type 1 driver is also known as",
+        "option1": "Native API partly Java driver",
+        "option2": "Native Protocol Pure-Java Driver",
+        "option3": "JDBC-ODBC Bridge Driver",
+        "option4": "JDBC-Net pure Java",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Type 3 driver is also known as_________________",
+        "option1": "JDBC-net Pure Java",
+        "option2": "JDBC-Net pure Java",
+        "option3": "Native API partly Java driver",
+        "option4": "Native Protocol Pure-Java Driver",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Type II JDBC driver is also known as __________________",
+        "option1": "JDBC-net Pure Java",
+        "option2": "JDBC-Net pure Java",
+        "option3": "Native API partly Java driver",
+        "option4": "Native Protocol Pure-Java Driver",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Type IV JDBC driver is also known as __________________",
+        "option1": "DBC-net Pure Java",
+        "option2": "JDBC-Net pure Java",
+        "option3": "Native API partly Java driver",
+        "option4": "Native Protocol Pure-Java Driver",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Type4 driver is also known as:",
+        "option1": "100% Pure Java",
+        "option2": "DBC-net Pure Java",
+        "option3": "JDBC-Net pure Java",
+        "option4": "Native API partly Java driver",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Where the object of ResultSet maintains a cursor?",
+        "option1": "Second Row",
+        "option2": "First Row",
+        "option3": "Last Row",
+        "option4": "Middle Row",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which class is used to connect java application to JDBC driver",
+        "option1": "DriverManager",
+        "option2": "Connection",
+        "option3": "Statement",
+        "option4": "ResultSet",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which driver is called as a thin driver in JDBC?",
+        "option1": "Type-2 Driver",
+        "option2": "Type-3 Driver",
+        "option3": "Type-1 Driver",
+        "option4": "Type-4 Driver",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which interface provides methods to execute queries with the database?",
+        "option1": "Statement interface",
+        "option2": "Connection",
+        "option3": "Resultset",
+        "option4": "DriverManager",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which Interface is used to execute dynamic SQL statements?",
+        "option1": "PreparedStatement",
+        "option2": "Statement",
+        "option3": "CallableStatement",
+        "option4": "Procedurestatement",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is default ResultSet type",
+        "option1": "TYPE_SCROLL_SENSITIVE",
+        "option2": "TYPE_SCROLL_INSENSITIVE",
+        "option3": "TYPE_FORWARD_ONLY",
+        "option4": "TYPE_SCROLL_FIRST",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which JDBC driver Type (s) can be used in either applet or servelt code?",
+        "option1": "Type 2",
+        "option2": "Type 3",
+        "option3": "Type 4",
+        "option4": "Both Type 3 and Type 4",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which JDBC driver Type(s) can you use in a three-tier architecture and if the Web server and the DBMS are running on the same machine?",
+        "option1": "Type 3",
+        "option2": "Type 2",
+        "option3": "Type 4",
+        "option4": "Both Type 3 and 4",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which JDBC driver Types are used for over communications networks?",
+        "option1": "Type 2",
+        "option2": "Type 3",
+        "option3": "Type 4",
+        "option4": "Both Type 3 and Type 4",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which method is used to obtain count of total rows of ResultSet",
+        "option1": "getRow()",
+        "option2": "getrow()",
+        "option3": "GetRow()",
+        "option4": "Row()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method is used to perform DML statements in JDBC?",
+        "option1": "executeQuery()",
+        "option2": "execute()",
+        "option3": "executeUpdate()",
+        "option4": "executeAll()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which method of class is used to register & dynamically load the driver class?",
+        "option1": "forName()",
+        "option2": "DeviceManager",
+        "option3": "Statement",
+        "option4": "Resultset",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "which of the following function is used to find the column count of the particular ResultSet?",
+        "option1": "getColumnCount()",
+        "option2": "getRow",
+        "option3": "getcolumnCount()",
+        "option4": "getcolumncount()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following invokes functions in sql?",
+        "option1": "Callable statements",
+        "option2": "Prepared Statement",
+        "option3": "Procedure Statement",
+        "option4": "Statement",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which type of driver converts JDBC calls into the network protocol used by the database management system directly?",
+        "option1": "Type 4",
+        "option2": "Type 3",
+        "option3": "Type 2",
+        "option4": "Type 1",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which type of driver is unique in JDBC?",
+        "option1": "Native Protocol Pure-Java Driver",
+        "option2": "JDBC-Native API",
+        "option3": "Native API partly Java driver",
+        "option4": "JDBC-ODBC Bridge Driver",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "_______ calls get converted into native C or C++ API calls.",
+        "option1": "Native Protocol Pure-Java Driver",
+        "option2": "JDBC-Native API",
+        "option3": "Native API partly Java driver",
+        "option4": "JDBC-ODBC Bridge Driver",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "___________ interface allows storing results of query?",
+        "option1": "ResultSet",
+        "option2": "Connection",
+        "option3": "Statement",
+        "option4": "DriverManager",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "All raw data types including binary documents or images should be read and uploaded to the database as an array of ….",
+        "option1": "Byte",
+        "option2": "Int",
+        "option3": "String",
+        "option4": "Array",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Analyse the following code and fill the appropriate statement in the blanks. import java.sql.*; class DB { public static void main(String args[])throws Exception { Class.forName(\"sun.jdbc.odbc.JdbcOdbcDriver\"); Connection con=DriverManager.getConnection(\"jdbc:odbc:mydsn\"); Statement stmt=con.createStatement(); ResultSet rs=stmt.________________(\"select * from empwhere id=101\"); System.out.println(\"EmpName\\tDesignation\\tSalary\"); where(rs.next()) { System.out.println(rs.getString(2)+\"\\t\"+rs.getString(3)+\"\\t\"+rs.getInt(4)); } con.close(); } } Ans: executeQuery()",
+        "option1": "executeQuery()",
+        "option2": "execute()",
+        "option3": "executeUpdate()",
+        "option4": "executeAll()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Choose missing statements in following code from given options. import java.sql.*; Class DemoFetch { public static void main(String args[]) { Connection con; Statement stmt; ResultSet rs; String qry, url; try { Class.forName(\"sun.jdbc.odbc.JdbcOdbcDriver\"); url=\"Jdbc:Odbc:studdsn\"; con=DriverManager.getConnection(url,\"\",\"\" ); stmt=con.createStatement(); qry=\"select * from stud\"; rs=_______________; System.out.println(\"Roll No\\tName\\tPercentage\"); while(rs.next()) { int rno=rs.getInt(\"roll\"); String nm=rs.getString(\"sname\"); double per=rs.getDouble(\"per\"); System.out.println(rno+\"\\t\"+nm+\"\\t\"+per); } con.close(); } catch(Exception e){} } } Answer: stmt.executeQuery(qry)",
+        "option1": "stmt.executeQuery(qry)",
+        "option2": "stmt.execute()",
+        "option3": "executeUpdate()",
+        "option4": "execute()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Choose missing statements in following code from given options.",
+        "option1": "pstmt.executeQuery(qry)",
+        "option2": "pstmt.executeUpdate(qry)",
+        "option3": "stmt.executeQuery(qry)",
+        "option4": "stmt.executeUpdate(qry)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is WRONG with the code above?",
+        "option1": "Retrieval of the fields is in the wrong order.",
+        "option2": "The connection is not properly established.",
+        "option3": "The statement is not properly executed.",
+        "option4": "There is no issue with the code.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Connection object can be initialized using the ............................ method of the Driver Manager class.",
+        "option1": "getConnection()",
+        "option2": "Getconnection()",
+        "option3": "getStatement()",
+        "option4": "Getstatement()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Consider following code and state missing code?",
+        "option1": "sun.jdbc.odbc.JdbcOdbcDriver",
+        "option2": "com.jdbc.odbc.JdbcOdbcDriver",
+        "option3": "jdbc.jdbc.OdbcDriver",
+        "option4": "sun.jdbc.driver.JdbcOdbcDriver",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Consider the following program. What should be the correction done in the program to get correct output?",
+        "option1": "s.executeUpdate(s1)",
+        "option2": "s.executeQuery(s1)",
+        "option3": "conn.executeUpdate(s1)",
+        "option4": "conn.executeQuery(s1)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Consider the following program. What should be the method used in following program to get correct output?",
+        "option1": "Connection()",
+        "option2": "createConnection()",
+        "option3": "DriverManager.getConnection()",
+        "option4": "getConnection()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Consider the following program. Select the statement that should be added to get correct output.",
+        "option1": "Statement s = c.createStatement();",
+        "option2": "Statement s = conn.createStatement();",
+        "option3": "Connection s = c.createStatement();",
+        "option4": "Statement s = conn.getStatement();",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Consider the following program. Which two exceptions are thrown?",
+        "option1": "ClassNotFoundException, SQLException",
+        "option2": "SQLException, IOException",
+        "option3": "ClassNotFoundException, IOException",
+        "option4": "NullPointerException, SQLException",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Invoking Class.forName(mydriver) throws ___________.",
+        "option1": "ClassNotFoundException",
+        "option2": "IOException",
+        "option3": "SQLException",
+        "option4": "Both a and c",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Permission class is part of_________package",
+        "option1": "java.security.permission",
+        "option2": "java.security",
+        "option3": "java.permission",
+        "option4": "None of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "PreparedStatement updateemp = con.prepareStatement(\"insert into emp values(?,?,?)\"); How many values are need to insert for prepareStatement parameter?",
+        "option1": "3",
+        "option2": "4",
+        "option3": "2",
+        "option4": "1",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Set XXX() method binds values to the parameters. Where XXX represents",
+        "option1": "Data Type",
+        "option2": "Method",
+        "option3": "Interface",
+        "option4": "Class",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The JDBC-ODBC bridge is:",
+        "option1": "Three tiered",
+        "option2": "Multithreaded",
+        "option3": "Best for any platform",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+];
+
+const AJP_unit6 = [
+    {
+        "question": "In the _______ method of servlet connection is created.",
+        "option1": "destroy()",
+        "option2": "service()",
+        "option3": "init()",
+        "option4": "connect()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A servlet is an instance of ___________",
+        "option1": "HTTPServlet class",
+        "option2": "Cookie",
+        "option3": "HttpSessionBindingEvent",
+        "option4": "HttpUtils",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "To work with servlet ______________ is required",
+        "option1": "Java Development Kit",
+        "option2": "Java Server Kit",
+        "option3": "Java Server Development Kit",
+        "option4": "Java Servlet Development",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method is called to process HTTP request?",
+        "option1": "destroy()",
+        "option2": "service()",
+        "option3": "init()",
+        "option4": "none of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The server calls __________ method to relinquish any resources, such as files handles that are allocated for servlet.",
+        "option1": "service()",
+        "option2": "init()",
+        "option3": "destroy()",
+        "option4": "stop()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The life cycle of servlet is managed by ___________",
+        "option1": "servlet context",
+        "option2": "servlet container",
+        "option3": "supporting protocol(http or https)",
+        "option4": "all of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The include() method of RequestDispatcher",
+        "option1": "Sends a request to another resource",
+        "option2": "Include resource of file like servlet,jsp or html",
+        "option3": "Appends the request and response object to the current servlet",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Servlet creates ______ thread for each request of client.",
+        "option1": "single",
+        "option2": "two",
+        "option3": "multiple",
+        "option4": "None of These",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which package contains the classes and interfaces required to build servlet?",
+        "option1": "import javax.servlet.*;",
+        "option2": "import javax.servlet.http.*;",
+        "option3": "both a&b",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The _______ class provides functionality that makes it easy to handle requests and responses.",
+        "option1": "Generic Servlet",
+        "option2": "ServletInputStream",
+        "option3": "ServletOutputStream",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The call to setContentType() establishes the MIME type of the HTTP response.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "servletrunner utility tool listens on ______ port for incoming client requests.",
+        "option1": "80",
+        "option2": "21",
+        "option3": "53",
+        "option4": "8080",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following interface declares the lifecycle method for servlet?",
+        "option1": "Servlet",
+        "option2": "Servlet Config",
+        "option3": "ServletContext",
+        "option4": "ServletResponse",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "____________ interface allows servlet to get initialization parameters.",
+        "option1": "SingleThreadModel",
+        "option2": "ServletRequest",
+        "option3": "ServletConfig",
+        "option4": "ServletContext",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "ServletContext interface enables servlets to log events and access information about their environment.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "___________ interface is used to read data from a client request.",
+        "option1": "ServletResponse",
+        "option2": "ServletRequest",
+        "option3": "both a&b",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "_________ is responsible for managing execution of servlet",
+        "option1": "Web Container",
+        "option2": "Servlet Context",
+        "option3": "JVM",
+        "option4": "Server",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "GenericServlet class implements _____ and __________ interfaces.",
+        "option1": "ServletRequest and ServletResponse",
+        "option2": "ServletResponse and Servlet",
+        "option3": "Servlet and ServletConfig",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following class provides an input stream for reading requests from a client?",
+        "option1": "ServletException",
+        "option2": "GenericServlet",
+        "option3": "ServletOutputStream",
+        "option4": "ServletInputStream",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following class provides an output stream for writing response to the client?",
+        "option1": "ServletException",
+        "option2": "GenericServlet",
+        "option3": "ServletOutputStream",
+        "option4": "ServletInputStream",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "________ class indicates that a servlet error occurred.",
+        "option1": "ServletException",
+        "option2": "Unavailable Exception",
+        "option3": "GenericServlet",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following interface allows a servlet to obtain configuration data when it is loaded?",
+        "option1": "ServletConfig",
+        "option2": "ServletContext",
+        "option3": "ServletRequest",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "ServletContextgetServletContext() returns the __________ for this servlet.",
+        "option1": "value",
+        "option2": "context",
+        "option3": "enumeration",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method returns the value of the initialization parameter named param?",
+        "option1": "ServletContextgetServletContext()",
+        "option2": "String getInitParameter(String param)",
+        "option3": "Enumeration getInitParameterNames()",
+        "option4": "String getServerInfo()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following interface enables the servlet to obtain information about their environment?",
+        "option1": "ServletContext",
+        "option2": "ServletConfig",
+        "option3": "ServletRequest",
+        "option4": "ServletResponse",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method returns the port number?",
+        "option1": "String getScheme()",
+        "option2": "String getServerName()",
+        "option3": "int getServerPort()",
+        "option4": "String getRemoteHost()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "________ method returns the name of the server.",
+        "option1": "String getScheme()",
+        "option2": "String getServerName()",
+        "option3": "int getServerPort()",
+        "option4": "String getRemoteHost()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "________ method returns the string equivalent of the client hostname.",
+        "option1": "String getRemoteHost()",
+        "option2": "String getRemoteAddr()",
+        "option3": "String getProtocol()",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method is used to specify before any lines that uses the PrintWriter?",
+        "option1": "SetPageType()",
+        "option2": "setContentType()",
+        "option3": "setContextType()",
+        "option4": "setResponseType()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In a web application, running in a web server, servlet is responsible for creating request and response object.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method writes and stacks the trace for e to the server log?",
+        "option1": "void log(Exception e, String s)",
+        "option2": "void log(String s)",
+        "option3": "void log()",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method returns an enumeration with the name of servlets in the same namespace in the server?",
+        "option1": "String getInitParameter(String param)",
+        "option2": "Enumeration getInitParameterNames()",
+        "option3": "Enumeration getServletNames()",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "_____________ returns the real path that corresponds to the virtual path vpath.",
+        "option1": "String getServerInfo()",
+        "option2": "String getMimeType(String File)",
+        "option3": "String getRealPath(String vpath)",
+        "option4": "int getContentLength()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The ________ interface is used to indicate that only a single thread should execute the service() method of a servlet.",
+        "option1": "SingleThreadModel",
+        "option2": "UnithreadModel",
+        "option3": "ThreadModel",
+        "option4": "None of These",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If a servlet implements _____________ interface, the server creates several instances of it.",
+        "option1": "ServletResponse Interface",
+        "option2": "ServletRequest Interface",
+        "option3": "SingleThreadModel Interface",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following class provides implementations of the basic life cycle methods for a servlet?",
+        "option1": "Servlet InputStream Class",
+        "option2": "GenericServlet Class",
+        "option3": "ServletException Class",
+        "option4": "Servlet OutputStream Class",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "void log(String s) method belongs to which of the following classes?",
+        "option1": "GenericServlet Class",
+        "option2": "Servlet OutputStream Class",
+        "option3": "Servlet InputStream Class",
+        "option4": "None of These",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following interface is an unique object per servlet?",
+        "option1": "ServletConfig",
+        "option2": "ServletContext",
+        "option3": "ServletRequest",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_______ is an unique object for complete application.",
+        "option1": "ServletConfig",
+        "option2": "ServletContext",
+        "option3": "ServletRequest",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "We cannot set attributes in ________ interface that other servlets can use in their implementations.",
+        "option1": "ServletConfig",
+        "option2": "ServletContext",
+        "option3": "ServletRequest",
+        "option4": "both a & b",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "We can set attributes in __________ that other servlets can use in their implementation.",
+        "option1": "ServletConfig",
+        "option2": "ServletContext",
+        "option3": "ServletRequest",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following interface is used to forward the request to another resource that can be HTML, JSP or another servlet in same application?",
+        "option1": "Request Dispatcher Interface",
+        "option2": "SinglethreadModel Interface",
+        "option3": "ServletResponse Interface",
+        "option4": "None of These",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method forwards the request from a servlet to another resource (servlet, JSP file, or HTML file) on the server?",
+        "option1": "void include(ServletRequest request, ServletResponse response)",
+        "option2": "void forward(ServletRequest request, ServletResponse response)",
+        "option3": "void include(ServletRequest request)",
+        "option4": "void forward(ServletRequest request)",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "PrintWriter is a character-stream class whereas ServletOutputStream________ is a class.",
+        "option1": "byte-stream",
+        "option2": "bit-stream",
+        "option3": "string-stream",
+        "option4": "io-stream",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "________ is protocol independent implementation of Servlet.",
+        "option1": "ServletInputStream",
+        "option2": "ServletOutputStream",
+        "option3": "GenericServlet",
+        "option4": "None of These",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following interface guarantees that no two threads will execute concurrently in the servlet’s service method?",
+        "option1": "ServletResponse",
+        "option2": "ServletRequest",
+        "option3": "SingleThreadModel",
+        "option4": "ServletConfig",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Generic servlet is the super class of all servlets.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Servlet runs each request in a __________ ?",
+        "option1": "OS shell",
+        "option2": "JVM",
+        "option3": "Separate thread",
+        "option4": "JRE",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "GenericServlet class is encapsulated inside __________ package.",
+        "option1": "java.lang",
+        "option2": "javax.servlet",
+        "option3": "java.servlet",
+        "option4": "javax.servlet.http",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Find the error in the following code. import java.io.*; import javax.servlet.*; public class HelloServlet extends GenericServlet{ public void service(ServletRequest request, ServletResponse response) throws ServletException,IOException{ response.setContentType(“text/html”); PrintWriter pw = response.getOutputStream(); pw.println(“<b> Hello”); pw.close();",
+        "option1": "import javax.servlet.*;",
+        "option2": "response.setContentType(“text/html”)",
+        "option3": "PrintWriter pw = response.getOutputStream();",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Consider the following program which class should be extended? import java.io.*; import javax.servlet.*; public class First extends ************{ public void service(ServletRequest req,ServletResponse res) throws IOException,ServletException{ res.setContentType(\"text/html\"); PrintWriter out=res.getWriter(); out.print(\"<html><body>\"); out.print(\"<b>hello generic servlet</b>\"); out.print(\"</body></html>\"); }",
+        "option1": "HttpServlet",
+        "option2": "GenericServlet",
+        "option3": "Servlet",
+        "option4": "None of These",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following package is missing for the below program? import java.io.*; import javax.servlet.*; public class PostParameterServlet extends GenericServlet{ public void service(ServletRequest request, ServletResponse response) throws ServletException ,IOException{ Printwriter pw= response.getWriter(); Enumeration e= request.getParameterNames(); While(e.hasMoreElements()) { String pname= (String) e.nextElement(); pw.print(pname + \" = \"); String pvalue = request.getParameter(pname); pw.println(pvalue); } pw.close(); } }",
+        "option1": "import.java.util.*;",
+        "option2": "import javax.servlet.http.*;",
+        "option3": "import java.awt.*;",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Write the missing statement in the below code import javax.servlet.*; public class WelcomeServlet extends GenericServlet{ public void service( ServletRequest request, ServletResponse response) throws ServletException ,IOException{ response.setContentType(“text/html”); PrintWriter pw = response.getOutputStream(); pw.println(“<b> Hello”); } }",
+        "option1": "pw.close()",
+        "option2": "pw.stop()",
+        "option3": "pw.destroy()",
+        "option4": "none of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which statement is missing in the place marked as *********** import java.io.*; import javax.servlet.*; public class First extends GenericServlet{ public void service(ServletRequest req,ServletResponse res) throws IOException,ServletException{ res.setContentType(\"text/html\"); out.print(\"<html><body>\"); out.print(\"<b>hello generic servlet</b>\"); out.print(\"</body></html>\"); }",
+        "option1": "PrintWriter out=res.getWriter();",
+        "option2": "PrintWriter in = res.getWriter()",
+        "option3": "PrintWriter out=res.putWriter();",
+        "option4": "PrintWriter in = res.putWriter()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are interfaces in javax.servlet.http package?",
+        "option1": "HttpServletRequest",
+        "option2": "HttpServletResponse",
+        "option3": "HttpSession",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following informs an object that it is bound to or unbound from a session?",
+        "option1": "HttpServletRequest",
+        "option2": "HttpServlet",
+        "option3": "HttpSession",
+        "option4": "HttpSessionBindingListener",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "----------------- allows session data to be read and written",
+        "option1": "HttpServletRequest",
+        "option2": "HttpServlet",
+        "option3": "HttpSession",
+        "option4": "HttpSessionBindingListener",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "------------------ class provides methods to handle HTTP requests and responses",
+        "option1": "HttpServlet",
+        "option2": "Cookie",
+        "option3": "HttpSessionEvent",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "-------------- class encapsulates session-changed event",
+        "option1": "HttpServlet",
+        "option2": "Cookie",
+        "option3": "HttpSessionEvent",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following code can be used to send an error response to the client using the specified status code and error message?",
+        "option1": "request.sendError(statusCode,message)",
+        "option2": "response.sendError(statusCode,message)",
+        "option3": "header.sendError(statusCode,message)",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The sendRedirect() method of HttpServletResponse interface can be used to redirect response to another resource, it may be servlet, jsp or html file.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which methods are used to bind the objects on HttpSession instance and get the objects?",
+        "option1": "setAttribute",
+        "option2": "getAttribute",
+        "option3": "Both a & b",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "getAuthType() method returns authentication scheme.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "getHeaderNames() returns an enumeration of the header names.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "----------- returns part of the URL that identifies the servlet.",
+        "option1": "getServletPath()",
+        "option2": "getPathInfo()",
+        "option3": "getPathTranslated()",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In getSession(boolean new) method If new is true and no session exists, creates and returns a session for this request. Otherwise, returns the existing session for this request.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a method of HttpServletRequest interface?",
+        "option1": "isRequestedSessionIdFromCookie()",
+        "option2": "getSession()",
+        "option3": "getRequestURI()",
+        "option4": "addCookie(Cookie cookie)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "SC_NOT_FOUND indicates that the requested resource is not available.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Determines if the session ID must be encoded in the URL identified as url. If so, returns the modified version of url. Otherwise, returns url.",
+        "option1": "encodeRedirectURL(String url)",
+        "option2": "encodeURL(String url)",
+        "option3": "encode(String url)",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "boolean containsHeader(String field) Returns true if the HTTP response header contains a field named field.",
+        "option1": "False",
+        "option2": "True",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "------------- Returns true if the server created the session and it has not yet been accessed by the client.",
+        "option1": "invalidate()",
+        "option2": "isNew()",
+        "option3": "getLastAccessedTime()",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Invalidate() method is in HttpSessionBindingListener interface.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Cookies are stored at server side.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Some of the information that is saved for each cookie includes the following:",
+        "option1": "The name of the cookie",
+        "option2": "The value of the cookie",
+        "option3": "The expiration date of the cookie",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which method adds cookie to the HTTP response?",
+        "option1": "void addCookie()",
+        "option2": "void addCookie(Cookie cookie)",
+        "option3": "void addCookie(String cookie)",
+        "option4": "void addCookie(int i)",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "If an expiration date is not explicitly assigned to a cookie, it is deleted when the current browser session ends. Otherwise, the cookie is saved in a file on the user’s machine.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Constructor for cookie is.",
+        "option1": "Cookie(String name, String value)",
+        "option2": "Cookie(String name, int value)",
+        "option3": "Cookie(Char name, String value)",
+        "option4": "None of These",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "--------------- method Returns true if the cookie must be sent using only a secure protocol. Otherwise, returns false.",
+        "option1": "getSecure()",
+        "option2": "getName()",
+        "option3": "clone()",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The HttpServlet class extends GenericServlet.",
+        "option1": "False",
+        "option2": "True",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a method of HttpServlet class?",
+        "option1": "doDelete()",
+        "option2": "doGet()",
+        "option3": "doHead()",
+        "option4": "getValue()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which method is Called by the server when an HTTP request arrives for this servlet.",
+        "option1": "getLastModifies()",
+        "option2": "service()",
+        "option3": "doPut()",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "HttpSessionEvent encapsulates EventObject.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "--------- obtains the session to which the listener is being bound or unbound.",
+        "option1": "getName()",
+        "option2": "getSession()",
+        "option3": "getSessionName()",
+        "option4": "None Of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A servlet developer overrides which of the following methods?",
+        "option1": "doDelete()",
+        "option2": "doGet()",
+        "option3": "doHead()",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "------------ method returns true if the cookie contains session id. Otherwise returns false.",
+        "option1": "Boolean isRequestedSessionIdFromCookie()",
+        "option2": "Boolean isRequestedSessionId()",
+        "option3": "Boolean isSessionIdFromCookie()",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The servlet is invoked when a form on a Web page is submitted.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns copy of this object?",
+        "option1": "getclone()",
+        "option2": "clone()",
+        "option3": "setclone()",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which class allows state information to be stored on a client machine?",
+        "option1": "Cookie",
+        "option2": "HttpServlet",
+        "option3": "HttpSession",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns the URL?",
+        "option1": "getURL()",
+        "option2": "URL()",
+        "option3": "getRequestURL()",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Method isRequestedSessionFromCookie() returns true if a cookie contains session id otherwise false.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method redirects the client to the URL?",
+        "option1": "sendRedirect(String url)",
+        "option2": "Redirect(String url)",
+        "option3": "sendError(String url)",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method adds field to the header with date value equal to msec?",
+        "option1": "void setDateHeader(String field,long msec)",
+        "option2": "void setDateHeader(String field,int msec)",
+        "option3": "void setDateHeader(long msec)",
+        "option4": "void setDate(String field,long msec)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method sets status code for this response to code?",
+        "option1": "void setStatus(int code)",
+        "option2": "void setStatus()",
+        "option3": "void Status(int code)",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns the time when the client last made a request for this session?",
+        "option1": "void getLastAccessedDate()",
+        "option2": "long getLastAccessedTime()",
+        "option3": "getAccessedTime()",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which method performs an HTTP DELETE?",
+        "option1": "void doDelete(HttpServletRequest req,HttpServletResponse res) throws IOException, ServletException",
+        "option2": "void Delete(HttpServletRequest req,HttpServletResponse res) throws IOException, ServletException",
+        "option3": "void doDelete(HttpRequest req,HttpServletResponse res) throws IOException, ServletException",
+        "option4": "void doDelete(HttpRequest req,HttpResponse res) throws IOException, ServletException",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method performs an HTTP GET?",
+        "option1": "void doGet(HttpServletRequest req,HttpServletResponse res) throws ServletException",
+        "option2": "void doGet(HttpServletRequest req,HttpServletResponse res) throws IOException, ServletException",
+        "option3": "void Get(HttpServletRequest req,HttpServletResponse res) throws IOException, ServletException",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which method invalidates this session and removes it from the context?",
+        "option1": "void invalidate()",
+        "option2": "void validate()",
+        "option3": "void verify()",
+        "option4": "void removeAttribute()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a method of HttpSession interface?",
+        "option1": "getAttribute()",
+        "option2": "setAttribute()",
+        "option3": "setHeader()",
+        "option4": "isNew()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a method of HttpServletResponse interface?",
+        "option1": "getAttribute()",
+        "option2": "setAttribute()",
+        "option3": "setHeader()",
+        "option4": "isNew()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "SC_OK indicates that HTTP request succeeded.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "SC_NOT_OK indicates that requested resource is not available.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is true about cookies?",
+        "option1": "Cookies are stored on client",
+        "option2": "Cookies contain state information",
+        "option3": "Cookies track user activities",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a method of cookie class?",
+        "option1": "Clone()",
+        "option2": "getMaxAge()",
+        "option3": "doGet()",
+        "option4": "getName()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which one is not a constructor for cookie?",
+        "option1": "Cookie()",
+        "option2": "Cookie(String name)",
+        "option3": "a & b",
+        "option4": "Cookie(String name,String value)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a method of HttpServlet Class?",
+        "option1": "setComment()",
+        "option2": "doDelete()",
+        "option3": "doGet()",
+        "option4": "doOptions()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "HttpServlet class methods throw which exceptions?",
+        "option1": "IOException",
+        "option2": "ServletException",
+        "option3": "IllegalstateException",
+        "option4": "a & b",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is constructor for HttpSessionEvent Class?",
+        "option1": "HttpSessionEvent()",
+        "option2": "HttpSessionEvent(Httpsession session)",
+        "option3": "HttpSessionEvent(String value)",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Action parameter of tag specifies -----------",
+        "option1": "Location",
+        "option2": "URL",
+        "option3": "Path",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "---------------- method returns any path information that is located after the servlet path and before a query string of the URL",
+        "option1": "String getPathInfo()",
+        "option2": "String getPath()",
+        "option3": "String getMethod()",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "------------- returns an array of the cookies in this request",
+        "option1": "Cookie[] getCookies()",
+        "option2": "Cookie[] getMaxCookies()",
+        "option3": "Cookie[] getMinCookies()",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method returns int equivalent of the header field named field?",
+        "option1": "int getHeader()",
+        "option2": "int getIntHeader()",
+        "option3": "int getIntHeader(String field)",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "----------- method returns name of the user who issues this request.",
+        "option1": "String getRemoteUser()",
+        "option2": "String getUser()",
+        "option3": "String getRemote()",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A servlet can write a cookie to a user’s machine via the _________ method of the HttpServletResponse interface.",
+        "option1": "addCookie()",
+        "option2": "Cookie()",
+        "option3": "CookieDo()",
+        "option4": "updateCookie()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A servlet can write a cookie to a user’s machine via the addCookie() method of the _____________ interface",
+        "option1": "ServletRequest",
+        "option2": "HttpServletRequest",
+        "option3": "HttpServletResponse",
+        "option4": "ServletResponse",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Correct signature of Cookies is:",
+        "option1": "Cookie(String value, String name)",
+        "option2": "Cookie(int value, String name)",
+        "option3": "Cookie(String name, String value)",
+        "option4": "Cookie(int value, int name)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Information that is saved for each cookie includes the following:",
+        "option1": "The name of the cookie, the value of the cookie",
+        "option2": "The expiration date of the cookie",
+        "option3": "The domain and path of the cookie",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Following is the correct syntax for creating Cookies Object c:",
+        "option1": "Cookie c = new Cookie(MyCookie, data)",
+        "option2": "Cookie c = new Cookie(\"MyCookie\", data)",
+        "option3": "cookie c = new cookie(\"MyCookie\", data)",
+        "option4": "Cookie c = new Cookie(data,\"MyCookie\")",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Following method is used for Sets the maximum age of the cookie in seconds.",
+        "option1": "public void setmaxage(int expiry)",
+        "option2": "public void Setmaxage(String expiry)",
+        "option3": "public void setMaxAge(String expiry)",
+        "option4": "public void setMaxAge(int expiry)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Following is the method of HttpServletRequest interface is used to return all the cookies from the browser.",
+        "option1": "Cookie[] getcookies()",
+        "option2": "private Cookie[] getCookies()",
+        "option3": "public Cookie[] getCookies()",
+        "option4": "public Cookie[] setCookies()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which one is following method indicates if secure protocol to be used while sending this cookie?",
+        "option1": "public void setSecure(boolean secure)",
+        "option2": "public void setsecure(int secure)",
+        "option3": "private void setSecure(boolean secure)",
+        "option4": "public boolean setSecure(boolean secure)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Following method is used for setting up comments in the cookie.",
+        "option1": "public void setComment(int purpose)",
+        "option2": "public void setComment(String purpose)",
+        "option3": "private void setpath(String path)",
+        "option4": "public void setPath(String path)",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Following method is used to Specifies a path for the cookie to which the client should return the cookie.",
+        "option1": "public void setPath(String path)",
+        "option2": "public void setpath(String value)",
+        "option3": "public void setPath(int path)",
+        "option4": "private void setpath(String path)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Following method is returns the cookie protocol version.",
+        "option1": "int getVersion()",
+        "option2": "int setversion()",
+        "option3": "int GetVersion()",
+        "option4": "String getVersion()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Following method is used to Sets the domain in which this cookie is visible.",
+        "option1": "public void setDomain(String pattern)",
+        "option2": "public void setDomain(int pattern)",
+        "option3": "public void getDomain(String pattern)",
+        "option4": "private void setdomain(String pattern)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "______ is a way to maintain state (data) of an user.",
+        "option1": "Session Tracking",
+        "option2": "Cookie tracking",
+        "option3": "HttpServletState",
+        "option4": "Session",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "____________encapsulates session events.",
+        "option1": "httpsessionevent",
+        "option2": "HttpSessionEvent",
+        "option3": "HttpSessionTrackingEvent",
+        "option4": "HttpSessionEventObject",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Following method returns the session in which the event occurred.",
+        "option1": "HttpSession setSession()",
+        "option2": "httpsession getsession()",
+        "option3": "HttpSession getSession()",
+        "option4": "HttpSession setSessionEvent()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "HTTP is a __________ protocol.",
+        "option1": "Stateless",
+        "option2": "state oriented",
+        "option3": "stateful",
+        "option4": "datagram",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A session can be created via the getSession() method of ___________.",
+        "option1": "HttpServletResponse",
+        "option2": "HttpServletRequest",
+        "option3": "HttpRequest",
+        "option4": "HttpResponse",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In some applications, it is necessary to __________ so that information can be collected from several interactions between a browser and a server.",
+        "option1": "save date and time information",
+        "option2": "save creation of session",
+        "option3": "save state information",
+        "option4": "save objects",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A session can be created via the ___________ method of HttpServletRequest.",
+        "option1": "getSessionCreate()",
+        "option2": "SetSession()",
+        "option3": "setsession()",
+        "option4": "getSession()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The ________ method is overridden to process any HTTP POST requests that are sent to servlet.",
+        "option1": "doGet()",
+        "option2": "doPost()",
+        "option3": "DoPost()",
+        "option4": "DOGET()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "________________ interface enables a servlet to obtain information about a client request.",
+        "option1": "HttpServletRequest",
+        "option2": "HttpServletResponse",
+        "option3": "httpservletrequest",
+        "option4": "Http Request",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Identify the correct sequence of creating cookies.",
+        "option1": "1) Create a Cookie object. 2) Set the maximum Age. 3) Place the Cookie in HTTP response header.",
+        "option2": "1) Set the maximum Age. 2) Place the Cookie in HTTP response header. 3) Create a Cookie object.",
+        "option3": "1) Place the Cookie in HTTP response header. 2) Set the maximum Age. 3) Create a Cookie object.",
+        "option4": "1) Set the maximum Age. 2) Create a Cookie object. 3) Place the Cookie in HTTP response header.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Following are the methods in connection with HttpSession interface.",
+        "option1": "String getId()",
+        "option2": "void invalidate()",
+        "option3": "long getLastAccessedTime()",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The HttpSession interface is implemented by the __________.",
+        "option1": "Session",
+        "option2": "Cookies",
+        "option3": "client",
+        "option4": "server",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A cookie is stored on a _______ and contains state information.",
+        "option1": "Session",
+        "option2": "Cookies",
+        "option3": "client",
+        "option4": "server",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which class encapsulates a session-changed event?",
+        "option1": "Cookie",
+        "option2": "HttpServlet",
+        "option3": "HttpSessionEvent",
+        "option4": "HttpSessionBindingEvent",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Following method returns the time (in milliseconds since midnight, January 1, 1970, GMT) when this session was created.",
+        "option1": "int getcreationtime()",
+        "option2": "long CreationTime()",
+        "option3": "long getCreationTime()",
+        "option4": "long getCreation()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Methods of HttpSession interface throw an _______________ if the session has already been invalidated.",
+        "option1": "IllegalState",
+        "option2": "IllegalException",
+        "option3": "LegalStateException",
+        "option4": "IllegalStateException",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Following method returns true if the requested session ID is valid in the current session context.",
+        "option1": "boolean RequestedSessionIdValid()",
+        "option2": "boolean isRequestedSessionId()",
+        "option3": "boolean isRequestedValid()",
+        "option4": "boolean isRequestedSessionIdValid()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The Java __________ specification defines an application programming interface for communication between the Web server and the application program.",
+        "option1": "Servlet",
+        "option2": "Server",
+        "option3": "Program",
+        "option4": "Randomize",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The doGet() method in the example extracts values of the parameter’s type and number by using __________.",
+        "option1": "request.getParameter()",
+        "option2": "request.setParameter()",
+        "option3": "responce.getParameter()",
+        "option4": "responce.getAttribute()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Dynamic interception of request and responses to transform the information is done by.",
+        "option1": "Servlet Container",
+        "option2": "Servlet config",
+        "option3": "Servlet context",
+        "option4": "Servlet filter",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "State true or false. i) init() is called after start() in applet ii) applets are used for networking iii) inheritance is a part of Java Foundation Classes iv) final does not prevent inheritance.",
+        "option1": "i-true, ii-true, iii-false, iv-true",
+        "option2": "i-false, ii-false, iii-false, iv-false",
+        "option3": "i-true, ii-true, iii-true, iv-true",
+        "option4": "i-true, ii-false, iii-false, iv-false",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Identify Error in the following servlet code. import java.io.*; import javax.servlet.*; public class ColorGetServlet extends HttpServlet { public void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException { String color = request.getParameter(\"color\"); response.setContentType(\"text/html\"); PrintWriter pw = response.getWriter(); pw.println(\"<B>The selected color is: \"); pw.println(color); pw.close(); } }",
+        "option1": "Package javax.servlet.http.* not imported",
+        "option2": "Syntax error in the class declaration",
+        "option3": "response.getWriter() not closed properly",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Find error in the following code. import java.io.*; import javax.servlet.*; import javax.servlet.http.*; public class ColorPostServlet extends HttpServlet { public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException { String color = request.getParameter(\"color\"); PrintWriter pw = response.getWriter(); pw.println(\"<B>The selected color is: \"); pw.println(color); pw.close(); } }",
+        "option1": "response.setContentType(\"text/html\"); missing",
+        "option2": "PrintWriter pw not initialized properly",
+        "option3": "doPost method is incorrect",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is the missing statement in the following code to get proper output: import java.io.*; import java.util.*; public class HelloWorld extends HttpServlet { public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException { response.setContentType(\"text/html\"); PrintWriter out = response.getWriter(); HttpSession hp=request.getSession(true); Date create=new Date(hp.getCreationTime()); Date access=new Date(hp.getLastAccessedTime()); out.println(\"<h1><br>Session is created at \"+create); out.println(\"<h1><br>Last access time is \"+access); out.println(\"<h1><br>Session id is \"+hp.getId()); } }",
+        "option1": "Missing ;",
+        "option2": "Missing()",
+        "option3": "Missing Package Statement",
+        "option4": "Missing {",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the missing statement in the following program to get the proper output: import java.io.*; import java.util.*; public class HelloWorld extends HttpServlet { public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException { response.setContentType(\"text/html\"); PrintWriter out = response.getWriter(); HttpSession hp=request.getSession(true); Date create=new Date(hp.getCreationTime()); Date access=new Date(hp.getLastAccessedTime()); out.println(\"<h1><br>Session is created at \"+create); out.println(\"<h1><br>Last access time is \"+access); out.println(\"<h1><br>Session id is \"+hp.getId()); } }",
+        "option1": "Missing semicolon",
+        "option2": "missing {}",
+        "option3": "missing Package statement",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is at the place of _________ to get output: import java.io.*; import javax.servlet.*; import javax.servlet.http.*; public class example extends ___________ { public void doGet(HttpServletRequest request, HttpServletResponse response)throws IOException, ServletException { response.setContentType(\"text/html\"); PrintWriter out = response.getWriter(); // print out cookies String name = request.getParameter(\"t1\"); String value = request.getParameter(\"t2\"); Cookie c = new Cookie(name, value); response.addCookie(c); String n1 = c.getName(); String v1 = c.getValue(); out.println(\"<h3> The Name Of Cookie is:</h3>\"+n1); out.println(\"<h3> The Value Of Cookie is:</h3>\"+v1); } }",
+        "option1": "HttpServlet",
+        "option2": "HttpResponse",
+        "option3": "HttpRequest",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What should we write at the place of _____________ to get the proper output: import java.io.*; import javax.servlet.*; import javax.servlet.http.*; public class password extends HttpServlet { public void doGet(HttpServletRequest request, HttpServletResponse response)throws IOException, ServletException { response.setContentType(\"text/html\"); PrintWriter out = ________________ out.println(\"<html>\"); out.println(\"<head>\"); out.println(\"<title>Hello World!</title>\"); out.println(\"</head>\"); out.println(\"<body>\"); String a= request.getParameter(\"t1\"); String b= request.getParameter(\"t2\"); int  a1 =a.length(); int b1= b.length(); if(b.length()<=6) { out.println(\"<h3> Welcome  To  Home Page<h3>\"); } else { out.println(\"<h3>Password Should not more than 6 Character<h3>\"); } out.println(\"</body>\"); out.println(\"</html>\"); } }",
+        "option1": "request.getWriter();",
+        "option2": "response.getWriter();",
+        "option3": "response.printWriter();",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What should we write at the place of _____________to get the proper output: import java.io.*; import javax.servlet.*; public class GenericServletDemo extends GenericServlet { public void service(ServletRequest request ,____________ response) throws ServletException,IOException { response.setContentType(\"text/html\"); PrintWriter out=response.getWriter(); out.println(\"<HTML>\"); out.println(\"<HEAD><TITLE>hello page</TITLE></HEAD>\"); out.println(\"<BODY>\"); String name=(String) request.getParameter(\"user1\"); String password=(String) request.getParameter(\"password1\"); String phone=(String) request.getParameter(\"phone1\"); out.println(\"Name=\"+name+\"<br>\"); out.println(\"Passsword=\"+password+\"<br>\"); out.println(\"Phone=\"+phone+\"<br>\"); out.println(\"</BODY></HTML>\"); } }",
+        "option1": "HttpReuest",
+        "option2": "ServletResponse",
+        "option3": "HttpResponse",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Choose correct package for following code from given options. import java.io.*; import javax.servlet.*; public class HelloServlet extends ******* { public void service(ServletRequest request, ServletResponse response throws ServletException, IOException { response.setContentType(\"text/html\"); PrintWriter pw = response.getWriter(); pw.println(\"<B>Hello!\"); pw.close(); } }",
+        "option1": "GenericServlet",
+        "option2": "HttpServlet",
+        "option3": "Request",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statement is correct?",
+        "option1": "Servlet is fast and server side component",
+        "option2": "Servlet is a lightweight Java class",
+        "option3": "Servlet supports multi-threading",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    }
+];
+
+const ET_EST = [
+    {
+        "question": "Which among the following chronic lung disease commonly known as ‘black lung’ disease, leads to reduced life expectancy in coal-miners?",
+        "option1": "Pneumoconiosis",
+        "option2": "Progressive Massive Fibrosis",
+        "option3": "Mesothelioma",
+        "option4": "Collier’s Asthma",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Which among the following is the second most abundant Green-House-Gas(GHG) in the earth’s atmosphere?",
+        "option1": "Carbon dioxide",
+        "option2": "Water Vapour",
+        "option3": "Sulphur Dioxide",
+        "option4": "Tropospheric Ozone",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The Cartagena Protocol is regarding safe use, transfer and handling of:",
+        "option1": "Nuclear waste",
+        "option2": "Invasive Alien Species",
+        "option3": "Living Modified Organisms(LMOs)",
+        "option4": "Toxic bye-products and industrial effluents",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Western Ghats Ecology Expert Panel (WGEEP) is headed by:",
+        "option1": "Madhav Chitale",
+        "option2": "Megha Patkar",
+        "option3": "Madhav Gadgil",
+        "option4": "Megha Pansare",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Identify the non Green-House Gas(GHG) from the following:",
+        "option1": "Methane",
+        "option2": "Nitrous oxide",
+        "option3": "CFCs",
+        "option4": "Carbon Monoxide",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "option1": "Photochemical smog always contains Ozone.",
+        "option2": "The toxic effect of Carbon Monoxide is due to its greater affinity for haemoglobin as compared to oxygen.",
+        "option3": "Lead is the most hazardous metal pollutant of automobile exhaust.",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "In which among the following states, Government had identified maximum number of Ecologically Sensitive Zones under the Environment Act?",
+        "option1": "Maharashtra",
+        "option2": "Andhra Pradesh",
+        "option3": "Karnataka",
+        "option4": "Gujarat",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following city was declared as “Tiger Gateway of India”?",
+        "option1": "Chandrapur",
+        "option2": "Nagpur",
+        "option3": "Ratnagiri",
+        "option4": "Gondia",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following will emit maximum mass of carbon dioxide, when the same quantity is burnt of all of them?",
+        "option1": "Kerosene",
+        "option2": "Propane",
+        "option3": "Natural Gas",
+        "option4": "Gasoline",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Madhav Gadgil Panel or The Western Ghats Ecology Expert Panel (WGEEP) had, in May 2011 had suggested listing of which among the following in the State as Ecologically Significant Area (ESA)?",
+        "option1": "Eastern Ghats",
+        "option2": "Western Ghats",
+        "option3": "Both A and B",
+        "option4": "Himalaya",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "Nowadays Environmental Accounting is making news. What is Environment Accounting?",
+        "option1": "It is a method to measure the consumption of the environment/ natural resources",
+        "option2": "It’s a method to statistically analyze the green areas of the country",
+        "option3": "It’s a method of accounting in which all units are expressed in terms of loss/gain of Carbon Dioxide",
+        "option4": "It’s a method of accounting in which all measurement is expressed in Carbon Credits",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Which among the following always decreases in a Food chain across tropic levels?",
+        "option1": "Number",
+        "option2": "Energy",
+        "option3": "Accumulated chemicals",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In the E-waste generated by the Mobile Phones, which among the following metal is most abundant?",
+        "option1": "Copper",
+        "option2": "Gold",
+        "option3": "Silver",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Acid rain is capable of damaging the buildings and historic monuments which are made up of rocks such as limestone and marble. Which of the following is the end product of such reaction?",
+        "option1": "Quick Lime",
+        "option2": "Calcium Carbonate",
+        "option3": "Calcium Hydroxide",
+        "option4": "Gypsum",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Which among the above plays the most important role in Ozone depletion?",
+        "option1": "Hydrogen",
+        "option2": "Carbon",
+        "option3": "Chlorine",
+        "option4": "Fluorine",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following is the dangerous Green House Gas, created by the Waste Water?",
+        "option1": "Nitrogen",
+        "option2": "Methane",
+        "option3": "Sulphur Dioxide",
+        "option4": "Carbon Monoxide",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following gas is used as reference to calculate “Global Warming Potential (GWP)“?",
+        "option1": "Carbon dioxide",
+        "option2": "Propane",
+        "option3": "Sulphur Dioxide",
+        "option4": "Methane",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The establishment of Taj Trapezium Zone (TTZ) enshrines which among the following objectives?",
+        "option1": "Protection from Pollution",
+        "option2": "Tourism Development",
+        "option3": "Economy Hub",
+        "option4": "Transportation facilities",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following is the main source of “Synthetic Fuel”?",
+        "option1": "Plastic",
+        "option2": "Biomass",
+        "option3": "Coal",
+        "option4": "Municipal Waste",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Ozone layer lies in:",
+        "option1": "Troposphere",
+        "option2": "Lithosphere",
+        "option3": "Hydrosphere",
+        "option4": "Stratosphere",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following crops would enrich the Nitrogen content in the soil?",
+        "option1": "Potato",
+        "option2": "Sorghum",
+        "option3": "Sunflower",
+        "option4": "Pea",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "One of the major objectives of the National Water Mission is to increase the water use efficiency by 20%. Which among the following is the correct definition of the water use efficiency?",
+        "option1": "Increase the ground water level by proper management of rainwater",
+        "option2": "To make the irrigation facilities to maximum crop areas",
+        "option3": "To save water from evaporation and runoff or subsurface drainage",
+        "option4": "To make bodies of water clean and usable for drinking purpose",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "In context with the Environment, the price charged to deliver municipal solid waste to a landfill, waste-to-energy facility, or recycling facility is known as ______?",
+        "option1": "Recycling Fee",
+        "option2": "Dumping Duty",
+        "option3": "Tipping Fee",
+        "option4": "Material Fee",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "With which of the following is the Montreal protocol related?",
+        "option1": "Protection of Whales",
+        "option2": "Protection of Wild Life",
+        "option3": "Protection of Ozone layer",
+        "option4": "Nuclear weapons",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following expert panel related to recommend steps to preserve and rejuvenate the ecologically sensitive Western Ghats?",
+        "option1": "Devendra Pandey",
+        "option2": "Dr. Madhav Gadgil",
+        "option3": "Dr. M S Swaminathan",
+        "option4": "Megha Pansare",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not an air pollutant?",
+        "option1": "Carbon dioxide",
+        "option2": "Sulphur Dioxide",
+        "option3": "Smoke",
+        "option4": "Nitrogen Gas",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a biodegradable waste?",
+        "option1": "Glass",
+        "option2": "Plastic",
+        "option3": "Polythene",
+        "option4": "None of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What type of radiation is trapped on the earth's surface by the green house effect?",
+        "option1": "UV Rays",
+        "option2": "IR Rays",
+        "option3": "X Rays",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Gas molecules that absorb thermal infrared radiation and are present in large quantity to change the climate system are known as--",
+        "option1": "alpha radiations",
+        "option2": "beta radiations",
+        "option3": "ozone gases",
+        "option4": "greenhouse gases",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Layer of atmosphere in which Ozone layer lies is:",
+        "option1": "exosphere",
+        "option2": "mesosphere",
+        "option3": "troposphere",
+        "option4": "Stratosphere",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Greenhouse gases which are present in very high quantity are:",
+        "option1": "Methane",
+        "option2": "Propane",
+        "option3": "Carbon dioxide",
+        "option4": "Ethane",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Exchange of outgoing and incoming radiations that keeps Earth warm is known as:",
+        "option1": "Green house effect",
+        "option2": "Radiation effect",
+        "option3": "Infrared effect",
+        "option4": "Ozone layer depletion",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Layer which saves life from harmful effects of 'UV' radiations is known as:",
+        "option1": "Ozone layer",
+        "option2": "Infrared layer",
+        "option3": "Alpha layer",
+        "option4": "Gama layer",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Chemical released by chlorofluorocarbons is -",
+        "option1": "Nitrogen",
+        "option2": "Sulphuric acid",
+        "option3": "Chlorine",
+        "option4": "Sodium chloride",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Methyl chloroform, carbon tetrachloride, hydro fluorocarbons and chlorofluorocarbons are mainly known as -",
+        "option1": "mesosphere building substances",
+        "option2": "troposphere building substances",
+        "option3": "ozone building substances",
+        "option4": "ozone depleting substances",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When chlorofluorocarbons are released in the atmosphere, chlorine chemical destroys the -",
+        "option1": "beta molecules",
+        "option2": "alpha molecules",
+        "option3": "argon molecules",
+        "option4": "ozone molecules",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "One which is not considered as naturally occurring greenhouse gas is -",
+        "option1": "Methane",
+        "option2": "Nitrous oxide",
+        "option3": "Chlorine",
+        "option4": "Ethane",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Burning of fossil fuels causes -",
+        "option1": "decreased greenhouse gases",
+        "option2": "increased greenhouse gases",
+        "option3": "increased level of oxygen",
+        "option4": "increased level of ethane",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which one the following is not biodegradable?",
+        "option1": "Vegetables",
+        "option2": "Fruits",
+        "option3": "Earthworm",
+        "option4": "Aluminium foil",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following wastes cannot be decomposed by bacteria to form compost?",
+        "option1": "Kitchen wastes",
+        "option2": "Plastic and polythene bags",
+        "option3": "dead plants",
+        "option4": "bodies of insects living in the soil",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following problems is not created by noise pollution?",
+        "option1": "Diarrhoea",
+        "option2": "Hypertension",
+        "option3": "Deafness",
+        "option4": "Irritation",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When trees are cut, amount of oxygen -",
+        "option1": "increases",
+        "option2": "decreases",
+        "option3": "Both A and B",
+        "option4": "remains same",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following pairs of gases are the major cause of 'Green house effect'?",
+        "option1": "CO2 and N2O",
+        "option2": "CO2 and O3",
+        "option3": "CO2 and CO",
+        "option4": "CFCs and SO2",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Major consumer of wood from forest is ___",
+        "option1": "Thermal Power Plant",
+        "option2": "Paper industry",
+        "option3": "Chemical Industry",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The portion of the earth and its environment which can support life is known as _",
+        "option1": "Crust",
+        "option2": "Biosphere",
+        "option3": "Exosphere",
+        "option4": "Atmosphere",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Extensive planting of trees to increase forest cover is called -",
+        "option1": "Afforestation",
+        "option2": "Agroforestry",
+        "option3": "Deforestation",
+        "option4": "Social forestry",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "'Smog' is a mixture of -",
+        "option1": "Smoke and Fog",
+        "option2": "Snow and Fog",
+        "option3": "Snow and Dust",
+        "option4": "Sulfur dioxide and Fog",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Deforestation generally decreases -",
+        "option1": "Global Warming",
+        "option2": "Rainfall",
+        "option3": "Drought",
+        "option4": "Soil Erosion",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The source of atmospheric oxygen is -",
+        "option1": "Nitrogen cycle",
+        "option2": "Green Plants",
+        "option3": "Carbon Cycle",
+        "option4": "Water",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is desertification?",
+        "option1": "Conversion of forests into desert",
+        "option2": "Conversion of croplands into desert",
+        "option3": "Conversion of grassland into desert",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Acid rain contains -",
+        "option1": "Hydrochloric acid",
+        "option2": "Sulphuric acid",
+        "option3": "Acitic acid",
+        "option4": "Oxalic acid",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Public awareness of environment creates _",
+        "option1": "Environment protection",
+        "option2": "Environment degradation",
+        "option3": "Environmental loss",
+        "option4": "Environmental cultivation",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Vermi-composting is a natural method of -",
+        "option1": "Producing worms",
+        "option2": "Producing compost manure",
+        "option3": "Managing waste it creates",
+        "option4": "Destroying worms",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The movement ‘Pani Panchayath’ was initiated to conserve waters in the drought-prone areas of which state?",
+        "option1": "Gujrat",
+        "option2": "Andhra Pradesh",
+        "option3": "Maharashtra",
+        "option4": "Karnatak",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The 4 R principle in waste management involves Reduce, Reuse, Recycle and --",
+        "option1": "Regain",
+        "option2": "Recover",
+        "option3": "Reform",
+        "option4": "Retain",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is Bagasse? What is it used for?",
+        "option1": "Sugar cane waste – to make paper",
+        "option2": "Biogas – used as fuel",
+        "option3": "Liquid waste – as fertilizer",
+        "option4": "Vermi compost – as fertilizer",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a natural resource?",
+        "option1": "Soil",
+        "option2": "River",
+        "option3": "Climate",
+        "option4": "All of the above are examples of natural resources",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Total earth's surface covered by water is about",
+        "option1": "71%",
+        "option2": "80%",
+        "option3": "60%",
+        "option4": "65%",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is an example of non-renewable resource?",
+        "option1": "Wind",
+        "option2": "Vegetation",
+        "option3": "Coal and Minerals",
+        "option4": "Water",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the given is a renewable resource?",
+        "option1": "Wind",
+        "option2": "Water",
+        "option3": "Flora and Fauna",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "__________ is not a fossil fuel.",
+        "option1": "Petroleum",
+        "option2": "Uranium",
+        "option3": "Natural gas",
+        "option4": "Coal",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "An increase in carbon dioxide content in the atmosphere would not cause",
+        "option1": "more heat to be retained by the environment",
+        "option2": "increase in photosynthesis in plants",
+        "option3": "global warming",
+        "option4": "abundance of desert plants",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Oxygen is returned to the atmosphere by",
+        "option1": "respiration",
+        "option2": "photosynthesis",
+        "option3": "fungi",
+        "option4": "burning of fuels",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "Atmosphere not uniformly heated by the sun does not cause",
+        "option1": "air flows",
+        "option2": "variations in climate",
+        "option3": "tides",
+        "option4": "rainfall",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Both power and manure are provided by",
+        "option1": "hydroelectric plants",
+        "option2": "gobar gas plants",
+        "option3": "nuclear power plants",
+        "option4": "thermal plants",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Atomic energy is obtained by using ores of",
+        "option1": "copper",
+        "option2": "lead",
+        "option3": "uranium",
+        "option4": "crude oil",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Biogas generation is mainly based on the principle of",
+        "option1": "Anaerobic biodegradation",
+        "option2": "areobic decomposition",
+        "option3": "putrefaction",
+        "option4": "none of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The major raw material for biogas is",
+        "option1": "Tree leaves",
+        "option2": "Cow dung",
+        "option3": "Waste from kitchen",
+        "option4": "Grass",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Natural resources do not include",
+        "option1": "water",
+        "option2": "refined oil",
+        "option3": "air",
+        "option4": "wood",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Renewable resource is a resource which is replaced",
+        "option1": "naturally",
+        "option2": "by human",
+        "option3": "by animals",
+        "option4": "all of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Non-renewable resources once used",
+        "option1": "remain on earth in different form",
+        "option2": "become waste material",
+        "option3": "are recycled",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a renewable resource",
+        "option1": "salmon population that is farm raised",
+        "option2": "sulfur",
+        "option3": "light sweet crude oil shipped from Saudi Arabia",
+        "option4": "iron ore that is commercially mined",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Which is the non-conventional source of energy?",
+        "option1": "Coal",
+        "option2": "Sun",
+        "option3": "Wood",
+        "option4": "Diesel",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Percentage of total water found as fresh water is",
+        "option1": "87.5%",
+        "option2": "2.5%",
+        "option3": "97.5%",
+        "option4": "75%",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Mining depends on",
+        "option1": "Concentration of mineral only",
+        "option2": "Ease of extraction",
+        "option3": "Transport facility",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Ideally forest cover should be about ______in plain areas of a country",
+        "option1": "23%",
+        "option2": "30%",
+        "option3": "33%",
+        "option4": "40%",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "This area has no permanent roads or settlements and is maintained primarily for its primitive character and non-motorized recreation",
+        "option1": "Wilderness area",
+        "option2": "Primitive recreation area",
+        "option3": "National park",
+        "option4": "National forest",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Where will the water sit the longest?",
+        "option1": "Atmosphere",
+        "option2": "Freshwater lake",
+        "option3": "Glacier",
+        "option4": "Ocean",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Which one is not a disadvantage of a big dam?",
+        "option1": "Extremely expensive",
+        "option2": "Flooding of prime arable land",
+        "option3": "Electric energy generated from hydropower",
+        "option4": "Water loss with evaporation",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following sources provide the least energy for industrialized countries?",
+        "option1": "Petroleum",
+        "option2": "Coal",
+        "option3": "Nuclear fuels",
+        "option4": "Gas",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "This area has no permanent roads or settlements and is maintained primarily for its primitive character and non-motorized recreation",
+        "option1": "Wilderness area",
+        "option2": "Primitive recreation area",
+        "option3": "National park",
+        "option4": "National forest",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Following are the examples of natural resources",
+        "option1": "Coal",
+        "option2": "Minerals",
+        "option3": "Forests",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a better definition for natural resources conservation?",
+        "option1": "Protection of wildlife",
+        "option2": "Environmental activism",
+        "option3": "Efficient use of natural resources",
+        "option4": "Preservation of natural resources",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which option below is not an example of pollution?",
+        "option1": "Smog in Delhi",
+        "option2": "Nuclear waste",
+        "option3": "Overpopulation",
+        "option4": "Untreated sewage",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Which is true?",
+        "option1": "Oxygen content may not get reduced if forest cover is not sufficient on the earth",
+        "option2": "Forests can be said to behave like non-renewable resources if not overused",
+        "option3": "Fishes are capable of reproducing at the rate at which they are being caught",
+        "option4": "None of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Floods can be prevented by",
+        "option1": "Afforestation",
+        "option2": "Removing the top soil",
+        "option3": "Cutting the forests",
+        "option4": "Tilling the land",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "The death of last individual species is called",
+        "option1": "Extinction",
+        "option2": "Endanger",
+        "option3": "Diversity",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Demand for a resource does not change with the change in",
+        "option1": "Idea",
+        "option2": "Technology",
+        "option3": "Need",
+        "option4": "Economy",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The main driving force of ecological system is",
+        "option1": "Wind energy",
+        "option2": "Water energy",
+        "option3": "Solar energy",
+        "option4": "Earth energy",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Coal, petroleum and natural gas are called as",
+        "option1": "Non-fossil fuels",
+        "option2": "Fossil fuels",
+        "option3": "Semi-fossil fuels",
+        "option4": "Transparent fuel",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The resources which are inexhaustive and can be generated within a given span of time are called as",
+        "option1": "Renewable resources",
+        "option2": "Non-renewable resources",
+        "option3": "Solar resources",
+        "option4": "Non-solar resources",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The forests are called as Earth's",
+        "option1": "Heart",
+        "option2": "Lungs",
+        "option3": "Brain",
+        "option4": "Belly",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The main green house gas absorbed by the forests as a raw material for photosynthesis is",
+        "option1": "CO2",
+        "option2": "O2",
+        "option3": "SO2",
+        "option4": "O3",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "About _____ million species are found in the tropical forest alone.",
+        "option1": "5",
+        "option2": "7",
+        "option3": "1",
+        "option4": "100",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The percentage of Indian geographical area covered by forest and trees is about-----.",
+        "option1": "24.39",
+        "option2": "12.50",
+        "option3": "75.03",
+        "option4": "35.65",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Out of the total water reserves of the world, about __________ is salty water (marine) and only _____ is fresh water.",
+        "option1": "97%,3%",
+        "option2": "3%,97%",
+        "option3": "1%,99%",
+        "option4": "2%,98%",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A layer of sediment or rock that is highly permeable and contains water is called",
+        "option1": "aquifer",
+        "option2": "spring",
+        "option3": "glacier",
+        "option4": "seepage",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When the concentration of nitrates in water exceeds 45mg/L, they become the cause of a serious health hazard called __________",
+        "option1": "Luckemia",
+        "option2": "Blue Baby Syndrome",
+        "option3": "Cancer",
+        "option4": "Paralysis",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "CNG stands for",
+        "option1": "Cooling natural gas",
+        "option2": "Compressed natural gas",
+        "option3": "Compound natural gas",
+        "option4": "none of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "SNG can be produced from",
+        "option1": "coal",
+        "option2": "biomass",
+        "option3": "petroleum cake",
+        "option4": "all of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "SNG stands for",
+        "option1": "Systematic natural gas",
+        "option2": "Sulphuric natural gas",
+        "option3": "Synthetic natural gas",
+        "option4": "Silver nitrogen gas",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "During photosynthesis trees produce",
+        "option1": "Oxygen",
+        "option2": "CO2",
+        "option3": "CO",
+        "option4": "Nitrogen",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Forests prevent soil erosion by binding soil particles by their",
+        "option1": "stems",
+        "option2": "leaves",
+        "option3": "buds",
+        "option4": "roots",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Wood pulp is used for making",
+        "option1": "Paper",
+        "option2": "timber",
+        "option3": "chipboard",
+        "option4": "gum",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Per capita use of water is the highest in",
+        "option1": "USA",
+        "option2": "India",
+        "option3": "Indonesia",
+        "option4": "Kuwait",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The minimum time required for the formation of one inch of top soil is",
+        "option1": "10 years",
+        "option2": "5 years",
+        "option3": "100 years",
+        "option4": "200 years",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not the environmental effect of industrialization, in general?",
+        "option1": "Solid waste",
+        "option2": "Water Pollution",
+        "option3": "Air pollution",
+        "option4": "Economic growth",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are major environmental issues involved in mining?",
+        "option1": "Soil degradation",
+        "option2": "Air pollution from dust",
+        "option3": "All of the above",
+        "option4": "Water pollution",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Sustainable development means",
+        "option1": "Meeting present needs without compromising on the future needs",
+        "option2": "Progress in human well beings",
+        "option3": "Balance between human needs and the ability of Earth to provide the resources",
+        "option4": "All the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Mining means",
+        "option1": "to conserve & preserve minerals",
+        "option2": "to check pollution due to mineral resources",
+        "option3": "to extract minerals and ores",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Eutrophication is",
+        "option1": "an improved quality of water in lakes",
+        "option2": "a process in carbon cycle",
+        "option3": "the result to accumulation of plant nutrients in water bodies",
+        "option4": "a water purification technique",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "As per latest World Register of Dams, among single purpose Dams, -----Percentage is for Fish Farming and Navigation.",
+        "option1": "48",
+        "option2": "17",
+        "option3": "10",
+        "option4": "1",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the most environmental friendly agriculture practice?",
+        "option1": "Using chemical fertilizers",
+        "option2": "Organic farming",
+        "option3": "Using insecticides",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The adverse effect of modern agriculture is",
+        "option1": "Water pollution",
+        "option2": "Soil degradation",
+        "option3": "Water logging",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Soil erosion removes surface soil which contains",
+        "option1": "Organic matter",
+        "option2": "Plant nutrients",
+        "option3": "Both A & B",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Water logging is a phenomena in which",
+        "option1": "Crop patterns are rotated",
+        "option2": "Soil root zone becomes saturated due to over irrigation",
+        "option3": "Erosion of soil",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The impact of construction of dams",
+        "option1": "Submerges forest",
+        "option2": "Loss of wild life habitat",
+        "option3": "Damages down stream ecosystem",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following statement is false",
+        "option1": "Soil erosion effects the productivity of agriculture fields",
+        "option2": "The amount of erosion depends on soil type, slope, drainage pattern and crop management",
+        "option3": "It takes 300 years for one inch of agricultural top soil to form",
+        "option4": "Soil erosion helps to retain water and nutrients in the root zone",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following statement is true",
+        "option1": "Surface runoff do not carry pesticides into streams",
+        "option2": "Water percolating downward through agriculture lands carries with it dissolved chemicals and contaminate ground water",
+        "option3": "Present agricultural practice does not contaminate water",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Farmers have a tendency to",
+        "option1": "Use optimum quantity of water",
+        "option2": "To over irrigate their crops",
+        "option3": "To conserve water",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Organic Farming encourages",
+        "option1": "Farming without using pesticides and chemical fertilizers",
+        "option2": "Enhances biodiversity",
+        "option3": "Promotes soil biological activity",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What would you do to prevent environmental damage",
+        "option1": "Plant trees",
+        "option2": "Stop Deforestation",
+        "option3": "Control pollution",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Environmental impact assessment",
+        "option1": "Is a study of feasibility of a project",
+        "option2": "Is a study of bio-physical characteristics of the environment that may result from a human action",
+        "option3": "Both A & B",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "EIA study will help",
+        "option1": "Maximizing the benefits without overloading the planets ecosystem",
+        "option2": "To estimate the future needs of the society",
+        "option3": "To smooth implementation of the project",
+        "option4": "To cope up with rapid growth of population",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Environmental impact of mining",
+        "option1": "Brings order into social setup",
+        "option2": "Devastation of ecosystem",
+        "option3": "Present mining activity is a sustainable development",
+        "option4": "Mining has no adverse effect on ecosystem as it is located in remote areas",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Effect of modern agriculture on soil is due to",
+        "option1": "Erosion",
+        "option2": "Acidification",
+        "option3": "Salinization",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Common energy source in Indian village is",
+        "option1": "Electricity",
+        "option2": "Coal",
+        "option3": "Sun",
+        "option4": "Wood and animal dung",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Soil conservation is a process in which",
+        "option1": "Soil is aerated",
+        "option2": "Soil erosion",
+        "option3": "Sterile soil is made fertile",
+        "option4": "Soil is protected against loss",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Harnessing of nuclear energy often causes",
+        "option1": "Air pollution",
+        "option2": "Water pollution",
+        "option3": "Thermal pollution",
+        "option4": "Noise pollution",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Soil erosion can be prevented by",
+        "option1": "Overgrazing",
+        "option2": "Removal of vegetation",
+        "option3": "Afforestation",
+        "option4": "Deforestation",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Chipko movement was started to conserve",
+        "option1": "Grasslands",
+        "option2": "Forests",
+        "option3": "Deserts",
+        "option4": "Soil",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Khetri (Rajasthan) is famous for",
+        "option1": "Gold mines",
+        "option2": "Copper mines",
+        "option3": "Granite stone",
+        "option4": "Marble stone",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Terrace farming practiced in",
+        "option1": "Coastal areas",
+        "option2": "Deserts",
+        "option3": "Hills",
+        "option4": "Plains",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statements about forest is not correct?",
+        "option1": "Soil erosion in undisturbed forest is extremely low",
+        "option2": "Provides recreational opportunities",
+        "option3": "Provides a source of economic development",
+        "option4": "None of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Out of the following nutrients in fertilizer, which one causes minimum water pollution?",
+        "option1": "Nitrogen",
+        "option2": "Potassium",
+        "option3": "Phosphorous",
+        "option4": "Organic matter",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Excess fluorides in drinking water is likely to cause",
+        "option1": "Blue babies",
+        "option2": "fluorosis",
+        "option3": "taste and odour",
+        "option4": "intestinal irritation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Environment studies",
+        "option1": "Is an interdisciplinary academic field.",
+        "option2": "Methodically studies human interaction with the environment.",
+        "option3": "Aims to solve the environmental issues",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a non point source of water pollution?",
+        "option1": "Factories",
+        "option2": "Sewage treatment plants",
+        "option3": "Urban and suburban lands",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Mineral resources are",
+        "option1": "Renewable",
+        "option2": "Available in plenty",
+        "option3": "Non renewable",
+        "option4": "Equally distributed",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Environment studies does not involve",
+        "option1": "Meteorology",
+        "option2": "Demography",
+        "option3": "Ethics",
+        "option4": "Literature",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Forests are extremely important because they",
+        "option1": "Provide clean water and clean air",
+        "option2": "Provide habitat for wild life",
+        "option3": "Provide recreation and a change from the hectic urban",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Deforestation means",
+        "option1": "Creation of new forest land for the wild life",
+        "option2": "Planting trees in the cities",
+        "option3": "Not managing the forest properly",
+        "option4": "Conversion of forest land for agriculture/pasture/homes etc.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a disadvantage of most of the renewable energy sources?",
+        "option1": "Highly polluting",
+        "option2": "High waste disposal cost",
+        "option3": "Unreliable supply",
+        "option4": "High running cost",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Ozone depletion is harmful to .....",
+        "option1": "Digestion",
+        "option2": "Skin",
+        "option3": "Heart",
+        "option4": "Reproduction",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "High population gives rise to .........management of resources.",
+        "option1": "Adequate",
+        "option2": "Proper",
+        "option3": "Poor",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Poor sanitation affects quality of --",
+        "option1": "Air",
+        "option2": "Water Resources",
+        "option3": "Noise",
+        "option4": "Heart",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Public awareness aims at -",
+        "option1": "Utilizing natural resource",
+        "option2": "Protecting natural resource",
+        "option3": "Exploiting natural resource",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Waste originating mainly from hospitals and clinics are of ---type.",
+        "option1": "Biodegradable",
+        "option2": "Biomedical",
+        "option3": "Biological",
+        "option4": "Biochemical",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Lithosphere, Hydrosphere, Atmosphere together is called -",
+        "option1": "Biosphere",
+        "option2": "Stratosphere",
+        "option3": "Environment",
+        "option4": "Nano sphere",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "CFC used widely as -",
+        "option1": "Air coolant",
+        "option2": "Refrigerant",
+        "option3": "Water Purifier",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Solar radiation consists of",
+        "option1": "UV",
+        "option2": "Visible light",
+        "option3": "Infrared",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Reduction in usage of fuels cannot be brought about by",
+        "option1": "Using alternate fuels",
+        "option2": "Changing lifestyles",
+        "option3": "Reducing car taxes",
+        "option4": "Both a & b",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "'OTEC' is an energy technology that converts",
+        "option1": "Energy in large tides of ocean to generate electricity",
+        "option2": "Energy in ocean waves to generate electricity",
+        "option3": "Energy in ocean due to thermal gradient to generate electricity",
+        "option4": "Energy in the fast moving ocean currents to generate electricity",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following source of energy is less eco-friendly?",
+        "option1": "Biogas",
+        "option2": "Wind",
+        "option3": "Solar",
+        "option4": "Nuclear",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Solar energy is stored in",
+        "option1": "Carbon-carbon bonds",
+        "option2": "Green leaves",
+        "option3": "Fossil fuels",
+        "option4": "Biomass",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "An inexhaustible non-conventional universal source of energy is",
+        "option1": "Fossil fuel",
+        "option2": "Solar",
+        "option3": "Wind",
+        "option4": "Tidal",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Harnessing the wind energy is done by",
+        "option1": "Wind Mill",
+        "option2": "Ball mill",
+        "option3": "Flour Mill",
+        "option4": "Pig mill",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Wind energy generation depends on",
+        "option1": "Direction of wind",
+        "option2": "Velocity of wind",
+        "option3": "Humidity",
+        "option4": "Precipitation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "With a minimum resource maximum energy can be created by",
+        "option1": "Solar radiation",
+        "option2": "Wind",
+        "option3": "Nuclear fuels",
+        "option4": "Tidal waves",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Direct conversion of solar energy is attained by",
+        "option1": "Solar photo voltaic system",
+        "option2": "Solar diesel hybrid system",
+        "option3": "Solar thermal system",
+        "option4": "Solar air heater",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is the following source of energy that can be replaced at the same rate at which it is used?",
+        "option1": "Coal",
+        "option2": "Petroleum",
+        "option3": "Oil",
+        "option4": "Biomass",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Fossil fuels are converted into energy by",
+        "option1": "Burning",
+        "option2": "Cooling",
+        "option3": "Sublimation",
+        "option4": "Melting",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which place in India the tidal energy has been experimented?",
+        "option1": "Goa",
+        "option2": "Karnataka",
+        "option3": "Kerala",
+        "option4": "Bihar",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Mining practices lead to",
+        "option1": "Population growth",
+        "option2": "Rapid urbanization",
+        "option3": "Loss of grazing and fertile land",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Deforestation can",
+        "option1": "Increase the rainfall",
+        "option2": "Introduce silt in the rivers",
+        "option3": "Increase soil fertility",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Global warming may bring about the following change in the climate of the earth.",
+        "option1": "Rising in sea levels due to thermal expansion",
+        "option2": "Melting of glaciers",
+        "option3": "Warming of ocean surface",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a solution for global warming?",
+        "option1": "Reducing fossil fuel consumption",
+        "option2": "Planting more trees",
+        "option3": "Deforestation",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "India has second largest reserve of after Brazil.",
+        "option1": "Iron ore",
+        "option2": "Bauxite",
+        "option3": "Coal",
+        "option4": "Copper",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Forest is responsible for",
+        "option1": "Watershed protection",
+        "option2": "Land erosion control",
+        "option3": "Providing economic and environmental benefits",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The main causes of deforestation are",
+        "option1": "Overgrazing and agriculture",
+        "option2": "Industry and other developmental projects.",
+        "option3": "Timber extraction.",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The equitable use of resources is necessary for",
+        "option1": "Sustainable development",
+        "option2": "Better lifestyle for all",
+        "option3": "To sustain natural wealth",
+        "option4": "All of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Famine is mainly the result of",
+        "option1": "Deforestation.",
+        "option2": "Overuse of surface water",
+        "option3": "A prolonged drought.",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Hygroscopic and combined water",
+        "option1": "Are used by plants during transpiration",
+        "option2": "Compensates for loss due to evapotranspiration by plants",
+        "option3": "Stored in the xylem tissues of plant",
+        "option4": "Are of no use to plants",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "___ is the perpetual source of energy.",
+        "option1": "Nuclear reactors",
+        "option2": "Hydropower",
+        "option3": "Solar energy",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The single largest river development scheme in India is",
+        "option1": "The Narmada Valley Development Project.",
+        "option2": "The Damodar Valley Development Project",
+        "option3": "The Tapti Valley Development Project",
+        "option4": "The Ganga Valley Development Project",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The greenhouse effect is the phenomenon by which",
+        "option1": "Biological diversity is dominant in agricultural production",
+        "option2": "The globe's water pollution affects plankton",
+        "option3": "Radiation from planet's atmosphere warms the planet's surface",
+        "option4": "Climatic changes occur naturally in the forest",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "If consumption rate is higher than the replenish rate,______________ starts",
+        "option1": "Motion",
+        "option2": "Depletion",
+        "option3": "Work",
+        "option4": "Both A and B",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Renewable resources include",
+        "option1": "Solar energy",
+        "option2": "Wind energy",
+        "option3": "Tidal energy",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The resources which consume very long time for its generation are",
+        "option1": "Natural resources",
+        "option2": "Non-renewable resources",
+        "option3": "Energy resources",
+        "option4": "Renewable resources",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The natural resources which can be available for long time by nature are called",
+        "option1": "Renewable resources",
+        "option2": "Non-renewable resources",
+        "option3": "Solar Energy",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which resources convert carbon dioxide into oxygen?",
+        "option1": "Forest resources",
+        "option2": "Man-made resource",
+        "option3": "Natural resources",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Deforestation increases percentage of ____________ in atmosphere",
+        "option1": "Oxygen",
+        "option2": "Carbon-Dioxide",
+        "option3": "Nitrogen",
+        "option4": "Hydrogen",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Deforestation relates as a big cause of",
+        "option1": "Plantation",
+        "option2": "Vegetative propagation",
+        "option3": "Global warming",
+        "option4": "Increase of water level",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Depletion of water resource is a",
+        "option1": "Local problem",
+        "option2": "Global problem",
+        "option3": "Private problem",
+        "option4": "No problem",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Draught and change in routine weather are responsible for",
+        "option1": "Availability of plenty of water",
+        "option2": "Global warming",
+        "option3": "Overpopulation",
+        "option4": "Water depletion",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Green revolution resulted in",
+        "option1": "Increased food production",
+        "option2": "Research on seeds to improve its quality",
+        "option3": "Scientific cultivation",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Large scale exploitation of mineral resulted in ____________ in England",
+        "option1": "Industrial revolution",
+        "option2": "Green revolution",
+        "option3": "Natural revolution",
+        "option4": "England revolution",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "During development of water ways good number of ______________ are destroyed",
+        "option1": "Trees",
+        "option2": "Crops",
+        "option3": "Buildings",
+        "option4": "Land",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "\"Energy can neither be created nor be destroyed, but it can be changed from one form to another\", this law is known as",
+        "option1": "Kinetic energy",
+        "option2": "Potential energy",
+        "option3": "Conservation of energy",
+        "option4": "Conservation principle",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Acronym MPCB stands for",
+        "option1": "Municipal Pollution Control Board",
+        "option2": "Maharashtra Pollution Control Bureau",
+        "option3": "Madhya Pradesh Pollution Control Board",
+        "option4": "Maharashtra Pollution Control Board",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The acronym CPCB stands for",
+        "option1": "Chennai Pollution Control Board",
+        "option2": "Central Pollution Control Bureau",
+        "option3": "Central Pollution Control Board",
+        "option4": "Common Pollution Control Board",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "An area surrounding a body of water in which that body of water is subject to is called__________.",
+        "option1": "Water cycle",
+        "option2": "Water pumping",
+        "option3": "Watershed",
+        "option4": "Rainwater harvesting",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Acronym NGO stands for",
+        "option1": "Non Government Organisation",
+        "option2": "New Geneva Organisation",
+        "option3": "New Government Organisation",
+        "option4": "National Geographic Organisation",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In dry areas around the world, which one of the following is an effective way of conserving water?",
+        "option1": "Increase food waste",
+        "option2": "Eat less meat",
+        "option3": "Always turn on the taps",
+        "option4": "Boil the water when there is no need",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The Acronym EIA stands for",
+        "option1": "Environmental Impact Awareness",
+        "option2": "Environmental Impact Assessment",
+        "option3": "Environmental Impact Audit",
+        "option4": "Environmental Indian Association",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Which one of the following is the benefit of rainwater harvesting?",
+        "option1": "Decrease the ground water level",
+        "option2": "Create good aesthetic view",
+        "option3": "Provide a lot of water to play",
+        "option4": "Flood mitigation",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "How can we increase the water efficient irrigation system?",
+        "option1": "By using more manures",
+        "option2": "By applying drip irrigation method",
+        "option3": "By not supplying adequate water",
+        "option4": "By pouring unnecessary water to the land",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Which one of the following is the best way to conserve water?",
+        "option1": "Using other liquids instead of water for shower",
+        "option2": "Not taking shower",
+        "option3": "Taking shower with more water",
+        "option4": "Taking shower with less water",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following methods represents the collection of rainwater for use?",
+        "option1": "Rain water pumping",
+        "option2": "Rain digging",
+        "option3": "Rainwater harvesting",
+        "option4": "Rain collection",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following environmental problems are related to the combustion of fossil fuels?",
+        "option1": "Smog",
+        "option2": "The greenhouse effect (increase in carbon dioxide levels causing the warming of the Earth’s surface)",
+        "option3": "Acid rain",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following statements is not true with regard to fossil fuels?",
+        "option1": "We consume as much fossil fuel in one day as what the earth took one thousand years to form",
+        "option2": "Fossil fuels are non-renewable sources of energy",
+        "option3": "The burning of fossil fuels causes environmental damage",
+        "option4": "Fossil fuels continue to be formed at a rapid pace",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Which is the world’s fastest growing form of energy use?",
+        "option1": "Manufacturing",
+        "option2": "Buildings",
+        "option3": "Transportation",
+        "option4": "Home consumption",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following statements is true with regard to global energy?",
+        "option1": "We know clearly how much of reserve energy we have",
+        "option2": "The industrialized countries consume a huge part of the total energy",
+        "option3": "Energy supply is evenly distributed across all countries and within countries",
+        "option4": "Fuelwood is easily available for the poor people in the developing countries.",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Which source provides the maximum percentage of energy to the people of India?",
+        "option1": "Fuelwood or firewood",
+        "option2": "Animal dung",
+        "option3": "LPG",
+        "option4": "Electricity",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is not a problem with regard to solar energy?",
+        "option1": "Efficient collection of energy",
+        "option2": "Conversion of energy into electricity",
+        "option3": "Being a renewable source",
+        "option4": "Storage of energy",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Per capita energy consumption in India is",
+        "option1": "490 units",
+        "option2": "8000 units",
+        "option3": "1300 units",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "In 2007, of the total energy used in India,",
+        "option1": "40.8% came from coal",
+        "option2": "27.2% came from biomass, 23.7% came from oil",
+        "option3": "5.6% came from natural gas and 1.8% from hydropower",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "For energy conservation we can save electricity like",
+        "option1": "Turn off the lights and fans when you leave a room and replace the bulbs in our home with CFL",
+        "option2": "Shut off TV sets, set-top boxes, music systems when not in use",
+        "option3": "Install automatic switch off devices for areas like staircases and if possible install solar lighting system in our home",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "To save energy in transportation we can",
+        "option1": "Minimise the use of automobiles for our personal transport and wherever possible use public transport",
+        "option2": "Use bicycle for local work like shopping",
+        "option3": "Idling of vehicle at the signals rather than restarting it",
+        "option4": "Both A and B",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "The Energy conservation act is implemented by the agency named",
+        "option1": "BEE",
+        "option2": "CBI",
+        "option3": "ATS",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "What is the main problem in using hydrogen as fuel?",
+        "option1": "The burning of hydrogen produces no emissions",
+        "option2": "The burning of hydrogen produces water",
+        "option3": "Hydrogen can be produced from water",
+        "option4": "It takes energy to produce hydrogen",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "World’s largest reserve of natural gas is in",
+        "option1": "Russia",
+        "option2": "Kazakhstan",
+        "option3": "Uttar Pradesh",
+        "option4": "United States",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Nuclear power accounts for only about __________ of the total commercial energy.",
+        "option1": "6%",
+        "option2": "20%",
+        "option3": "15%",
+        "option4": "30%",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Major source of the world's electricity comes from-----",
+        "option1": "Hydropower",
+        "option2": "Nuclear power",
+        "option3": "Wind power",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Among the fossil fuels _________ is most harmful to the environment.",
+        "option1": "Oil",
+        "option2": "Natural gas",
+        "option3": "Coal",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "The nuclear power plants generate large amounts of",
+        "option1": "oxygen",
+        "option2": "deadly radioactive waste",
+        "option3": "carbondioxide",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is not a renewable resource.",
+        "option1": "Coal",
+        "option2": "Geothermal Energy",
+        "option3": "Dendrothermal Energy",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following methods of timber extraction cause minimum environmental damage?",
+        "option1": "Clear felling.",
+        "option2": "Hand logging",
+        "option3": "Selective logging.",
+        "option4": "Reduced-impact logging.",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Forest is responsible for",
+        "option1": "watershed protection",
+        "option2": "land erosion control",
+        "option3": "providing economic and environmental benefits",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "A sudden uncontrolled descent of a mass of earth under the force of gravity is called",
+        "option1": "soil erosion",
+        "option2": "mining",
+        "option3": "landslide",
+        "option4": "earthquake",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "The heat of the interior of the earth present at the volcanic regions, geysers or hot springs is called",
+        "option1": "geothermal energy",
+        "option2": "dendrothermal energy",
+        "option3": "nuclear energy",
+        "option4": "wind energy",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Which one of the below is the perpetual source of energy?",
+        "option1": "Nuclear reactors",
+        "option2": "Hydropower",
+        "option3": "Solar energy",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "The least quality of coal with 95 per cent carbon content and only 5 per cent volatile matter is",
+        "option1": "lignite coal",
+        "option2": "anthracite coal",
+        "option3": "bituminous coal.",
+        "option4": "peat coal",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "All sources of water such as the oceans, lakes, rivers and underground water together constitute:",
+        "option1": "Hydrosphere",
+        "option2": "Atmosphere",
+        "option3": "Lithosphere",
+        "option4": "Biosphere.",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Prospecting, exploration, development and exploitation are the four phases of",
+        "option1": "mining",
+        "option2": "urbanization",
+        "option3": "deforestation",
+        "option4": "industrialization",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Burning of biomass produces",
+        "option1": "thermal energy",
+        "option2": "bioenergy",
+        "option3": "wind energy",
+        "option4": "hydropower",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Any material that can be transformed into more valuable and useful product or service is called",
+        "option1": "resource",
+        "option2": "mineral",
+        "option3": "product",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "The constituents of producer gas are",
+        "option1": "water vapour and methane",
+        "option2": "propane and carbon dioxide",
+        "option3": "methane and nitrogen",
+        "option4": "carbon monoxide and nitrogen",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following items is not provided by natural forests?",
+        "option1": "Fuelwood",
+        "option2": "Honey",
+        "option3": "Medicinal plants",
+        "option4": "Monoculture",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following statements is true with regard to deforestation?",
+        "option1": "It adversely affects local communities",
+        "option2": "It does not lead to global warming, since trees absorb carbon dioxide.",
+        "option3": "It does not affect rainfall pattern.",
+        "option4": "It does not lead to the loss of top soil.",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following statements is true with regard to forest certification?",
+        "option1": "It is carried out only by UN Forum on Forests.",
+        "option2": "It is compulsory",
+        "option3": "It enables the consumer to make responsible choices",
+        "option4": "Both B and C",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following statements is not true with regard to Joint Forest Management?",
+        "option1": "It recognizes the important role of local communities in forest conservation.",
+        "option2": "The local people are allowed controlled access to the forest areas.",
+        "option3": "The local people are not permitted to harvest the resources, since the forest belongs to the government.",
+        "option4": "The local people act as the guardians of the forest.",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "What did the word Chipko become famous for?",
+        "option1": "It is the name of the people's movement to save the forests in the Himalayas.",
+        "option2": "It means 'hugging trees'.",
+        "option3": "It is a song of the hill communities.",
+        "option4": "It happened only in Renni village.",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Forest certification bodies are",
+        "option1": "FSC",
+        "option2": "PEFC",
+        "option3": "UNFAO",
+        "option4": "Both A and B",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "What does the case of Andaman Nicobar islands tell us?",
+        "option1": "Massive deforestation through extraction of timber.",
+        "option2": "Opening of forests through road building.",
+        "option3": "Population pressures and problems of indigenous people.",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "What is true about the role of forest fire?",
+        "option1": "The combustion frees the minerals locked up in the dry organic matter.",
+        "option2": "Fire removes plant cover and exposes the soil",
+        "option3": "It helps to control pathogens and harmful insects.",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "What should we do to save forests?",
+        "option1": "Stop the destruction of Earth's forests",
+        "option2": "Do not use the world's rich forest resources to improve life of poor people and for the benefit of forest dependent communities.",
+        "option3": "Do not apply sustainable forest management approach.",
+        "option4": "Plan for the use and protection of only forest and not whole landscape.",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "The Acronym WCED stands for",
+        "option1": "World Chemical Energy Development",
+        "option2": "Wild Commission on Environment Development",
+        "option3": "World Commission for Empowerment and Development",
+        "option4": "World Commission of Environment and Development",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "The Development that meets the needs of the present generation without compromising the life quality of future generation is",
+        "option1": "Environment Development",
+        "option2": "Sustainable Development",
+        "option3": "Environment Protection",
+        "option4": "Environment Conservation",
+        "Answer": "option2",
+        "marks": 2
+      },
+      {
+        "question": "\"to protect and improve the natural environment including forests, lakes, rivers and wildlife, and to have compassion for living creatures\" this statement belongs to article",
+        "option1": "51A (g)",
+        "option2": "51A (h)",
+        "option3": "51-A",
+        "option4": "52-B",
+        "Answer": "option1",
+        "marks": 2
+      },
+      {
+        "question": "\"Protection and improvement of environment and safeguarding of forests and wildlife. The State shall endeavor to protect and improve environment and to safeguard the forests and wildlife of the country\" is statement of which article in constitution of India?",
+        "option1": "48D",
+        "option2": "48C",
+        "option3": "48A",
+        "option4": "48B",
+        "Answer": "option3",
+        "marks": 2
+      },
+      {
+        "question": "Which of the following statements is not true with regard to communities in mining areas?",
+        "option1": "They often lose their land and livelihoods.",
+        "option2": "All of them get employed in the mines.",
+        "option3": "They often do not have access to fresh water and sanitation.",
+        "option4": "They are displaced from their land.",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Figure in the question shows",
+        "option1": "Rain water harvesting",
+        "option2": "Rain water pumping",
+        "option3": "Rain water irrigation",
+        "option4": "Rain water disposal",
+        "Answer": "option1",
+        "marks": 2
+      },
+      {
+        "question": "Which of the following is not an advantage of Rain water harvesting?",
+        "option1": "Reduced energy bill",
+        "option2": "Reduced water bill",
+        "option3": "Growth of Cities",
+        "option4": "Ground water recharging",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following statements is true with regard to organic farming?",
+        "option1": "It uses chemical fertilizers.",
+        "option2": "Overtime, it makes soil healthier.",
+        "option3": "It uses chemical pesticides.",
+        "option4": "It does not use animal or green manure.",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Rain water harvesting will increase _____________",
+        "option1": "River water level",
+        "option2": "Sea water level",
+        "option3": "Ground water level",
+        "option4": "Tank water level",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "The Brundtland Commission is related to",
+        "option1": "Rainwater harvesting",
+        "option2": "Environmental Impact Assessment",
+        "option3": "Sustainable Development",
+        "option4": "Renewable Energy",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Solar Energy can be used to produce",
+        "option1": "Heat",
+        "option2": "Electricity",
+        "option3": "Both A and B",
+        "option4": "Water",
+        "Answer": "option3",
+        "marks": 2
+      },
+      {
+        "question": "Which of the following statements is not true with regard to the Green revolution?",
+        "option1": "It increased crop yields.",
+        "option2": "It needs fertilizers and pesticides.",
+        "option3": "It requires decreasing inputs over time.",
+        "option4": "It uses high yielding varieties of seeds.",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is not a problem related with land?",
+        "option1": "Waterlogging",
+        "option2": "Salinization",
+        "option3": "Desertification",
+        "option4": "Climate change",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Identify Box type solar cooker from following",
+        "option1": "A.",
+        "option2": "B.",
+        "option3": "C.",
+        "option4": "D.",
+        "Answer": "option4",
+        "marks": 2
+      },
+      {
+        "question": "Which is the most important support for all plant growth and all life?",
+        "option1": "Topsoil",
+        "option2": "Fertilizer",
+        "option3": "Farming",
+        "option4": "Pesticide",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following statements is not true with regard to GM crops?",
+        "option1": "They could have greater resistance to pests.",
+        "option2": "They are proven to be completely safe.",
+        "option3": "They could resist draught or salinity.",
+        "option4": "They could reduce the amount of fertilizers needed.",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Dam makes water toxic",
+        "option1": "True",
+        "option2": "False",
+        "option3": "Both A & B",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "The Roof top rainwater harvesting features which of the following activities?",
+        "option1": "Collection of rain water falling on roof",
+        "option2": "Storing of water on roof",
+        "option3": "Purification of water on roof",
+        "option4": "None of A, B and C",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "__________________ are the components of roof top rainwater harvesting.",
+        "option1": "Roof, pipes, well",
+        "option2": "Basement, pipes and filters",
+        "option3": "Pipes, well, filter, tank",
+        "option4": "Catchment, Transportation, First flush, Filter",
+        "Answer": "option4",
+        "marks": 2
+      },
+      {
+        "question": "Sand and Gravel Filter is used to Purify",
+        "option1": "Air",
+        "option2": "Water",
+        "option3": "Nitrogen",
+        "option4": "Carbon dioxide",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Recharge is the primary method through which water enters __________",
+        "option1": "Overhead tank",
+        "option2": "Ground",
+        "option3": "Distribution system",
+        "option4": "Lake",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "The movement of water during hydrological process of recharge of ground water is from",
+        "option1": "Surface to reservoir",
+        "option2": "Underground to surface",
+        "option3": "Surface to underground",
+        "option4": "Underground to sea",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is not green energy?",
+        "option1": "A.",
+        "option2": "B.",
+        "option3": "C.",
+        "option4": "D.",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following activities cause Ground water table is depletion?",
+        "option1": "Check on wastage of water",
+        "option2": "Prudent use of water",
+        "option3": "Surface accumulation of water",
+        "option4": "Over pumping of ground water",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Damanganga-Pinjal Link is a",
+        "option1": "Dam",
+        "option2": "Interlinking of rivers",
+        "option3": "Hydro power plant",
+        "option4": "Highway",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Par-Tapi-Narmada Link Project is associated with following states",
+        "option1": "Karnataka and Goa",
+        "option2": "Maharashtra and Gujarat",
+        "option3": "Maharashtra and Madhyapradesh",
+        "option4": "Maharashtra and Chattisgad",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The Indian states benefited by Ken – Betwa Link Project are",
+        "option1": "Maharashtra & Gujarat",
+        "option2": "West Bengal & Orissa",
+        "option3": "Madyapradesh & Uttarpradesh",
+        "option4": "Karnataka & Tamilnadu",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The River interlink projects in India are managed by _____",
+        "option1": "National River Development Agency",
+        "option2": "National Resource Development Agency",
+        "option3": "National Water Development Agency",
+        "option4": "National Environment Agency",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "__________ Maintains the balance between social and economic development along with protection of nature.",
+        "option1": "Environment Development",
+        "option2": "Sustainable Development",
+        "option3": "Rainwater harvesting",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The Geographic feature that collects, stores and releases water is",
+        "option1": "Wasteland",
+        "option2": "Wetland",
+        "option3": "Water divider",
+        "option4": "Watershed",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The Non Government Organizations",
+        "option1": "Play a significant role in environmental protection",
+        "option2": "Mainly work at the grassroot level",
+        "option3": "Act as the eyes and ear of the government",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Sunderlal Bahuguna was associated with",
+        "option1": "Chipko Movement",
+        "option2": "Plastic ban Movement",
+        "option3": "Narmada Movement",
+        "option4": "Ganga Movement",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_________ is widely recognized study of environmental impact on developmental projects.",
+        "option1": "Environmental Risk Assessment",
+        "option2": "Environmental Impact statement",
+        "option3": "Environmental Impact Assessment",
+        "option4": "Environmental Management system",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The rate of growth of population in developing countries is",
+        "option1": "Equal to that of developed countries",
+        "option2": "Greater than that of developed countries",
+        "option3": "Smaller than that of developed countries",
+        "option4": "All of A, B & C",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following come under Family welfare programme?",
+        "option1": "Family planning",
+        "option2": "Welfare of children, women, Elderly and Divyang",
+        "option3": "Both A and B",
+        "option4": "None of A & B",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Acronym ORS in connection with human health stands for",
+        "option1": "Online registration system",
+        "option2": "Oral Re hydration Solution",
+        "option3": "Oral Regulation system",
+        "option4": "Occupational Requirement Survey",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Telemedicine and weather forecasting are examples of",
+        "option1": "Marketing strategy",
+        "option2": "Use of radio sensing technology",
+        "option3": "Diversification of healthcare department",
+        "option4": "Application of IT in environment and healthcare",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The Acronym UNEP stands for",
+        "option1": "United nations environmental policy",
+        "option2": "United nations environmental program",
+        "option3": "United nations environmental protection",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The threat to global environmental balance is an outcome of",
+        "option1": "Overuse of natural resources",
+        "option2": "Increased Pollution",
+        "option3": "Population explosion",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "One's own belief, principles, perceptions, feelings and behavior to judge what is right and wrong is called",
+        "option1": "Morality",
+        "option2": "Perception",
+        "option3": "Life science",
+        "option4": "Value education",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following is not a renewable resource?",
+        "option1": "Coal",
+        "option2": "Wind power",
+        "option3": "Geothermal",
+        "option4": "Wave power",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The main causes of deforestation are",
+        "option1": "Overgrazing and agriculture",
+        "option2": "Industry and other developmental projects",
+        "option3": "Timber extraction",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Hydroelectricity can be produced by",
+        "option1": "Constructing Hydel Project",
+        "option2": "Establishing Wind mill",
+        "option3": "Installing Solar panel",
+        "option4": "Setting up thermal Power plant",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Watershed protection and land erosion control can be achieved through",
+        "option1": "Growing forest",
+        "option2": "Constructing dam",
+        "option3": "Interlinking river",
+        "option4": "Hydro power plant",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "The source of Geothermal energy is",
+        "option1": "Burning of coal",
+        "option2": "Interior of the earth",
+        "option3": "Sun",
+        "option4": "Flowing water",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "All sources of water such as the oceans, lakes, rivers and ground water together constitute",
+        "option1": "Hydrosphere of Earth",
+        "option2": "Atmosphere of Earth",
+        "option3": "Lithosphere of Earth",
+        "option4": "Biosphere of Earth",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an NGO?",
+        "option1": "WHO",
+        "option2": "WWF",
+        "option3": "UNO",
+        "option4": "UNESCO",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The equitable use of resources is necessary for",
+        "option1": "Sustainable development",
+        "option2": "Better lifestyle for all",
+        "option3": "To sustain natural wealth",
+        "option4": "All of A, B & C",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Environmental Impact Assessment (EIA)",
+        "option1": "Should be made compulsory for starting a developmental project",
+        "option2": "Should not be made compulsory for starting a developmental project",
+        "option3": "Should be done after completion of development project",
+        "option4": "All of A, B & C",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "The control over air pollution in India is supported by which of the following Acts?",
+        "option1": "Forest act",
+        "option2": "Police act",
+        "option3": "Environmental Pollution control act",
+        "option4": "Wild life act",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a contribution from forest towards environment?",
+        "option1": "They offer places for excursion",
+        "option2": "They act as water sheds",
+        "option3": "They prevent rainfall in monsoon",
+        "option4": "They provide timber",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following amendments paved way for the establishment of The Central Ground Water Authority?",
+        "option1": "Environment protection Act, 1988",
+        "option2": "Environment protection Act, 1987",
+        "option3": "Environment protection Act, 1996",
+        "option4": "Environment protection Act, 1986",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the function of a fuel reformer in a fuel cell?",
+        "option1": "Enabling the fuel cell to use a hydrocarbon instead of hydrogen.",
+        "option2": "Control of emissions from fuel cell.",
+        "option3": "Cooling of fuel cell.",
+        "option4": "Enabling the fuel cell to use water as a fuel.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following forms of land degradation is more prevalent in India?",
+        "option1": "Desertification",
+        "option2": "Soil erosion",
+        "option3": "Landslide",
+        "option4": "Soil subsidence",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the most environmentally friendly agriculture?",
+        "option1": "Use of chemical fertilizers and insecticides.",
+        "option2": "Use of insecticides and organic fertilizers.",
+        "option3": "Use of organic fertilizers and alternate methods for insect control.",
+        "option4": "Use of chemical fertilizers and alternate methods for insect control.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following measures is not a solution for improving the acceptability of dam projects?",
+        "option1": "Avoid and minimize ecosystem impacts.",
+        "option2": "Ensure that displaced and project affected people's livelihoods are improved.",
+        "option3": "Conduct regular monitoring and periodic review.",
+        "option4": "Construct a single large dam instead of a number of small dams.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the major characteristic of drought differentiating it from other natural calamities?",
+        "option1": "Drought could cause life and property loss.",
+        "option2": "Drought has both natural and social implications.",
+        "option3": "Drought could recur in the same place.",
+        "option4": "Without a well defined start nor end, drought is a slow process.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not an ideal solution for tackling water crisis?",
+        "option1": "Drilling large number of deep bore wells",
+        "option2": "Population growth control",
+        "option3": "Water conservation in irrigation",
+        "option4": "Water pollution control.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "India has world's largest share of which of the following?",
+        "option1": "Manganese",
+        "option2": "Mica",
+        "option3": "Copper",
+        "option4": "Diamond",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not viable protection against deforestation?",
+        "option1": "Reduce the consumption of forest and related products.",
+        "option2": "Boycott products of companies involved in deforestation.",
+        "option3": "Privatization of forest land.",
+        "option4": "Environmental education.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How does dams affect deforestation?",
+        "option1": "Open up previously inaccessible forest to public.",
+        "option2": "Submerges forest.",
+        "option3": "Damages downstream ecosystems.",
+        "option4": "All of the above.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The removal of carbon dioxide from earth's atmosphere and the provision of long term storage of carbon dioxide in the terrestrial ecosystem is known as?",
+        "option1": "Carbon Sequestration",
+        "option2": "Carbon dating",
+        "option3": "Carbon fixing",
+        "option4": "Photosynthesis.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "\"The value of forests is often higher when it is left standing than it could be worth when it is harvested\". Which of the following is most supportive of the above statements?",
+        "option1": "Increase in timber value as time passes.",
+        "option2": "Increase in wildlife",
+        "option3": "Increase in ecotourism.",
+        "option4": "Increase in forest produce.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not true about deforestation?",
+        "option1": "Population explosion is one of the reasons for deforestation.",
+        "option2": "Clearing of forest for agriculture causes deforestation",
+        "option3": "Deforestation is taking place in developing countries.",
+        "option4": "Cash crop economy of third world is a cause of deforestation",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "As per FAO definition the minimum percentage of depletion of tree crown cover, that can be considered as deforestation is?",
+        "option1": "10%",
+        "option2": "20%",
+        "option3": "30%",
+        "option4": "40%",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Water could be the source of the world's next big conflicts.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "Partially true",
+        "option4": "None of the above.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Environmental damages caused by mining last long after the mine has closed due to following factors?",
+        "option1": "Impacts on health, destruction of forms of community subsistence and life.",
+        "option2": "Appropriation of the land belonging to the local communities.",
+        "option3": "Alteration of social relationships and social disintegration.",
+        "option4": "All of the above.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Forests transform __________",
+        "option1": "Degraded area",
+        "option2": "Non-Degraded area",
+        "option3": "Industrial area",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Who have started reducing emissions from deforestation and forest degradation?",
+        "option1": "Russian and Europe.",
+        "option2": "UK and Brazil",
+        "option3": "United States and World Bank",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Industries where solvents are most likely used?",
+        "option1": "Engineering",
+        "option2": "Chemicals",
+        "option3": "Footwear",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What steps are carried out worldwide to stop deforestation?",
+        "option1": "Educate citizens to use the forests in a more sustainable way.",
+        "option2": "To repair the damage that deforestation has done.",
+        "option3": "To protect the forest land and vegetation cover",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Lowest contribution for power station capacity in India is from?",
+        "option1": "Coal",
+        "option2": "Gas",
+        "option3": "Hydroelectric projects",
+        "option4": "Diesel",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Non-renewable resources include?",
+        "option1": "Coal",
+        "option2": "Oil",
+        "option3": "Natural gas",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A popular form of ecotourism is",
+        "option1": "Bird watching",
+        "option2": "Mountaineering",
+        "option3": "Trekking",
+        "option4": "Fishing",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Fluoride in the atmosphere is contributed by",
+        "option1": "Burning coal",
+        "option2": "Steel industries",
+        "option3": "Brick-making",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Radiation that people are exposed to are measured by",
+        "option1": "Richter",
+        "option2": "Pounds",
+        "option3": "Rad",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Common heavy metals that pollute soil and water include",
+        "option1": "Cadmium",
+        "option2": "Lead",
+        "option3": "Mercury",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Large scale depletion of ground water is caused by",
+        "option1": "Deep wells",
+        "option2": "River",
+        "option3": "Agriculture",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Global atmospheric temperatures are likely to be increased due to:",
+        "option1": "Burning of fossil fuel",
+        "option2": "Water pollution",
+        "option3": "Soil erosion",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a solution of global warming?",
+        "option1": "Reducing fossil fuel consumption",
+        "option2": "Planting more trees",
+        "option3": "Deforestation",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which important greenhouse gas other than methane is being provided from the agricultural fields?",
+        "option1": "SO",
+        "option2": "Nitrous oxide",
+        "option3": "Ammonia",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Ozone layer is present in:",
+        "option1": "Troposphere",
+        "option2": "Mesosphere",
+        "option3": "Stratosphere",
+        "option4": "Thermosphere",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following gases contributes maximum to the ‘Greenhouse effect on earth?",
+        "option1": "Carbon dioxide",
+        "option2": "Methane",
+        "option3": "Chlorofluorocarbons",
+        "option4": "Freon",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Increasing skin cancer and high mutation rate are the result of:",
+        "option1": "Ozone depletion",
+        "option2": "Acid rain",
+        "option3": "CO pollution",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statements about ozone is true?",
+        "option1": "Ozone is a major constituent of photochemical smog",
+        "option2": "Ozone is highly reactive",
+        "option3": "Ozone protects us from the harmful UV radiation of sun",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Agricultural activity such as tilling, harvesting, heating and ventilation are direct consumes of:",
+        "option1": "Energy",
+        "option2": "Air",
+        "option3": "Sun",
+        "option4": "Heat",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Housing affects:",
+        "option1": "Neighbourhood",
+        "option2": "Energy consumption",
+        "option3": "Water consumption",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Production, transformation and use of energy are the major problems of:",
+        "option1": "Industrial activity",
+        "option2": "Rain Water Harvesting",
+        "option3": "Global warming",
+        "option4": "Acid rain",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Extraction of mineral and metal from the earth is:",
+        "option1": "Agriculture",
+        "option2": "Transportation",
+        "option3": "Mining",
+        "option4": "Sustainable development",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "‘Meeting the needs of the present without compromising the ability of future generation to meet their own need’ is given by:",
+        "option1": "Brundtland",
+        "option2": "Mahatma Gandhi",
+        "option3": "Maathai",
+        "option4": "Sunderlal Bahugana",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The problems for criticism about large dams are that they",
+        "option1": "Displace large number of peasants and tribals without proper rehabilitation",
+        "option2": "Swallow up huge amounts of public money without the generation of proportionate benefits",
+        "option3": "Contribute enormously to deforestation and the loss of biological diversity",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The following are stakeholders of forests which one of these causes the maximum damage to forest?",
+        "option1": "People who live in or around the forest",
+        "option2": "The industrialists",
+        "option3": "The wildlife and native enthusiasts",
+        "option4": "The forest department of the government",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Chipko Andolan is concerned with",
+        "option1": "Conservation of natural resources",
+        "option2": "Development of new breeds of forest plants",
+        "option3": "Zoological survey of India",
+        "option4": "Forest conservation",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which energy of water is used to produce hydroelectricity?",
+        "option1": "Potential energy",
+        "option2": "Kinetic energy",
+        "option3": "Both (a) and (b)",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The Chipko movement started from:",
+        "option1": "Alakananda Valley",
+        "option2": "Arborio forest",
+        "option3": "Khejrali village",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The concept of sustainable development encourages",
+        "option1": "Form of growth that meets current basic needs",
+        "option2": "Preservation of the resources for the need of future generation",
+        "option3": "A change in all respects of life",
+        "option4": "Growth to meet current needs, preservation for the needs of future and change in all respects of life",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When we consider the conservation of forests, we need to look at the",
+        "option1": "People who are humanists and conscious about human rights",
+        "option2": "Industrialists who use the various forest products",
+        "option3": "The people who live in or around forests",
+        "option4": "The forest department of the Government, the industrialists and the people who live in or around forests",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Water harvesting is an age-old concept in India. Various methods are used in different regions of India. Khadins water harvesting in",
+        "option1": "Rajasthan",
+        "option2": "Maharashtra",
+        "option3": "Bihar",
+        "option4": "Uttar Pradesh",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When combustion of coal takes place in insufficient air (oxygen) which gas is formed, instead of carbon dioxide",
+        "option1": "Sulphur dioxide",
+        "option2": "Nitrous oxide",
+        "option3": "Carbon monoxide",
+        "option4": "Nitrogen peroxide",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Wind is beneficial resource of energy as it doesn’t cause",
+        "option1": "Pollution",
+        "option2": "Echo",
+        "option3": "Noise",
+        "option4": "Sound",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Countries known for hot springs",
+        "option1": "New Zealand",
+        "option2": "Iceland",
+        "option3": "Germany",
+        "option4": "Both a and b",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Fossil fuel is an important source of energy for",
+        "option1": "Transport",
+        "option2": "Homes",
+        "option3": "Industries",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When animals and plants are rotten in absence of air, then they produce a gas called",
+        "option1": "Oxygen",
+        "option2": "Carbon dioxide",
+        "option3": "Biogas",
+        "option4": "Methane",
+        "Answer": "option3",
+        "marks": 1,
+    },
+    {
+        "question": "Black painted panels which are hanged at roofs to trap heat and energy from sun, are",
+        "option1": "Solar cells",
+        "option2": "Solar heater",
+        "option3": "Solar furnace",
+        "option4": "Solar battery",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Plants material and waste from living things are regarded as",
+        "option1": "Fossil fuel",
+        "option2": "Bio mass",
+        "option3": "Coal",
+        "option4": "Crude",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Bio gas is a renewable source of",
+        "option1": "Energy",
+        "option2": "Heat",
+        "option3": "Light",
+        "option4": "Fossil",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Trapped heat inside earth is known as",
+        "option1": "Thermal energy",
+        "option2": "Geothermal energy",
+        "option3": "Heat energy",
+        "option4": "Volcano",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Thousands of mirrors or curved metals are used to focus solar energy to make it very hot, in",
+        "option1": "Solar cells",
+        "option2": "Solar heater",
+        "option3": "Solar furnace",
+        "option4": "Solar battery",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The management of natural resources should take into account",
+        "option1": "A long term perspective",
+        "option2": "Environmental pollution",
+        "option3": "Their equitable distribution",
+        "option4": "A, B, C and safe disposal of wastes",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Amirata Devi Bishnoi sacrificed her life for the protection of",
+        "option1": "Sal trees",
+        "option2": "Pine trees",
+        "option3": "Khejri trees",
+        "option4": "Alpine meadows",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In which region of India bundhis are used for water harvesting?",
+        "option1": "Rajasthan",
+        "option2": "Maharashtra and Uttar Pradesh",
+        "option3": "Madhya Pradesh and Bihar",
+        "option4": "Uttar Pradesh and Madhya Pradesh",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "To preserve resources for future, we have to",
+        "option1": "Look for more",
+        "option2": "Consume more of them",
+        "option3": "Save them",
+        "option4": "Use them more frequently",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Most natural resources we consume at our homes or in our cars are",
+        "option1": "Renewable",
+        "option2": "Nonrenewable",
+        "option3": "Infinite",
+        "option4": "Free",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "For travelling short distances, the best way to conserve natural resources is",
+        "option1": "By driving",
+        "option2": "By flying",
+        "option3": "By taking lift",
+        "option4": "By cycling",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The way we consume renewable resources, it affects their",
+        "option1": "Power",
+        "option2": "Efficiency",
+        "option3": "Availability",
+        "option4": "Cost",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Energy we use to heat our homes, drive our cars and run our computers comes from",
+        "option1": "Artificial Resources",
+        "option2": "Natural Resources",
+        "option3": "Renewable Resources",
+        "option4": "Nonrenewable Resources",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The primary composition of coal is",
+        "option1": "Carbon",
+        "option2": "Oxygen",
+        "option3": "Hydrogen",
+        "option4": "Nitrogen",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following nonrenewable energy is not classified under a fossil fuel?",
+        "option1": "Nuclear",
+        "option2": "Petroleum",
+        "option3": "Oil",
+        "option4": "Natural gas",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The major non-renewable energy usage in India is",
+        "option1": "Coal",
+        "option2": "Petroleum and other liquids",
+        "option3": "Nuclear",
+        "option4": "Natural gas",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which gas is likely to be reduced in the atmosphere by deforestation?",
+        "option1": "Carbon dioxide",
+        "option2": "Oxygen",
+        "option3": "Nitrogen",
+        "option4": "Sulphur dioxide",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which Ministry is mainly responsible for refining, distribution, import, export of petroleum products and natural gas in India?",
+        "option1": "Ministry of Petroleum and Natural Gas",
+        "option2": "Ministry of Fossil Fuel",
+        "option3": "Ministry of Non-Renewable Energy",
+        "option4": "Ministry of Oil",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The most abundantly available fossil fuel in India is",
+        "option1": "Coal",
+        "option2": "Natural Gas",
+        "option3": "Petroleum",
+        "option4": "Oil",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Bill Gates, Chairman of the Board for Terra Power Company is associated in which of the following non-renewable resources?",
+        "option1": "Earth minerals",
+        "option2": "Fossil fuels",
+        "option3": "Nuclear energy",
+        "option4": "Metal ores",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How many Nuclear power stations are there in India?",
+        "option1": "5",
+        "option2": "6",
+        "option3": "7",
+        "option4": "8",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not an environment act?",
+        "option1": "Air (Prevention and Control of Pollution) Act, 1981",
+        "option2": "Water (Prevention and Control of Pollution), 1974",
+        "option3": "Wildlife Protection Act of 1972",
+        "option4": "Energy Conservation Act 2001",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Air Prevention and Control of Pollution Act came in existence in",
+        "option1": "1980",
+        "option2": "1981",
+        "option3": "1982",
+        "option4": "1983",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a power of the State Pollution Control Board Under the Air Pollution Control and Prevention Act?",
+        "option1": "To conduct surveys of Industry",
+        "option2": "To check production of industry",
+        "option3": "To inspect areas covered under air pollution control at regular intervals or whenever necessary",
+        "option4": "All of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The main objectives of the Air Pollution Control Act",
+        "option1": "To provide for the prevention, control and abatement of air pollution",
+        "option2": "To provide for the establishment of central and State Boards with a view to implement the Act",
+        "option3": "To confer on the Boards the powers to implement the provisions of the Act and assign to the Boards functions relating to pollution",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Water Prevention and Control of Pollution Act came in existence in",
+        "option1": "1974",
+        "option2": "1975",
+        "option3": "1976",
+        "option4": "1977",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Water Pollution Control Act has provision for CPCB to",
+        "option1": "advise the Central Government on any matter concerning the prevention and control of water pollution",
+        "option2": "co-ordinate the activities of the State Boards and resolve disputes among them",
+        "option3": "plan and execute a nation-wide programme for the prevention, control or abatement of water pollution",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Water Pollution Cess Act came in existence in",
+        "option1": "1976",
+        "option2": "1977",
+        "option3": "1978",
+        "option4": "1979",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following Acts has the provision of levying Cess on water consumption by Industries and local authorities in India",
+        "option1": "Air (Prevention and Control of Pollution) Act, 1981",
+        "option2": "Water (Prevention and Control of Pollution), 1974",
+        "option3": "Water Act",
+        "option4": "Water (Prevention and control of Pollution) Cess Act, 1977",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a function of the Central Board?",
+        "option1": "Co-ordinate the activities of the State Board and resolve disputes among them",
+        "option2": "Plan and organise training of persons engaged in programme on the prevention, control or abatement of water and air pollution",
+        "option3": "Disseminate information in respect of matters relating to water and air pollution and their prevention and control",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Who among the following are entitled to develop the Manuals, codes and guidelines relating to treatment and disposal of sewage and effluents as well as for stack gas cleaning devices, stacks and ducts?",
+        "option1": "State government",
+        "option2": "CPCB",
+        "option3": "State Pollution Control Board (SPCB)",
+        "option4": "Local Authorities",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a Function of the State Pollution Control Boards?",
+        "option1": "Advising the State Government regarding water pollution control or location of industries",
+        "option2": "Conducting and encouraging investigations and research relating to different aspects of water pollution",
+        "option3": "Inspecting trade effluents and waste water treatment plants",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Environment Protection Act, 1986 came into existence in wake of _________ tragedy.",
+        "option1": "Bhopal",
+        "option2": "Shimla",
+        "option3": "Mumbai",
+        "option4": "Bangalore",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Objectives of Environment Protection Act 1986 are",
+        "option1": "To implement the decisions made at the UN Conference on Human Environment held at Stockholm in June, 1972",
+        "option2": "To co-ordinate activities of the various regulatory agencies under the existing laws",
+        "option3": "To provide for the creation of an authority or authorities for environmental protection",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "The figure stands for the logo of which of the following organizations?",
+        "option1": "MPCB",
+        "option2": "CPCB",
+        "option3": "WWF",
+        "option4": "Green Tribunal",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The Environment (Protection) Act was last amended in _________",
+        "option1": "1991",
+        "option2": "1992",
+        "option3": "2001",
+        "option4": "2002",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The cess collected in Water (Prevention and Control of Pollution) Act with a view to",
+        "option1": "donate for environment work",
+        "option2": "pay tax to government",
+        "option3": "pay tax to state government",
+        "option4": "augment the resources of the Central Board and the State Boards",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Punishment for industry polluting environment comes under",
+        "option1": "Biological Diversity Act 2002",
+        "option2": "Water (Prevention and Control of Pollution) Act 1974",
+        "option3": "Noise control act",
+        "option4": "Energy Conservation Act 2001",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following Act addresses the Conservation of biological resources?",
+        "option1": "Protection of Plant Varieties and Farmers' Rights Act of 2001",
+        "option2": "Wildlife Protection Act of 1972",
+        "option3": "Biological Diversity Act",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Endangered species of animals like Royal Bengal Tiger is protected under",
+        "option1": "Wildlife Protection Act of 1972",
+        "option2": "Biological Diversity Act",
+        "option3": "Environment protection Act, 1996",
+        "option4": "Animal Protection Act",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Water cycle is getting disturbed due to",
+        "option1": "Global warming",
+        "option2": "Pollution",
+        "option3": "Deforestation",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Biological diversity is declining day by day due to",
+        "option1": "Hunting",
+        "option2": "Smuggling of animals",
+        "option3": "Deforestation",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Construction of which of the following structures is forbidden in Green belt area?",
+        "option1": "Building",
+        "option2": "Dam",
+        "option3": "Factories",
+        "option4": "All those in A, B & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Green belts in and around urban and industrial areas are important to the _______________ of given region.",
+        "option1": "Biological health",
+        "option2": "Ecological health",
+        "option3": "Human health",
+        "option4": "Economical health",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following activities are treated as development of Green belt?",
+        "option1": "Farming land",
+        "option2": "Planting trees",
+        "option3": "Cultivation of green algae",
+        "option4": "Cultivation of green grass",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Select the correct statement from the following",
+        "option1": "Renewable energy can not be renewed again and again",
+        "option2": "Renewable energy can be renewed again and again",
+        "option3": "Renewable energy emits pollutants",
+        "option4": "Renewable energy is detrimental to environment",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Information technology can be used to forecast weather using",
+        "option1": "Computer based modelling",
+        "option2": "Green belt development",
+        "option3": "Cloud seeding",
+        "option4": "Protected farming",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an informal mode of education?",
+        "option1": "Adult literacy Programme",
+        "option2": "Awareness camps",
+        "option3": "Community based forums",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which is the year in which, National Green Tribunal came into existence through an Act of Parliament?",
+        "option1": "1981",
+        "option2": "2010",
+        "option3": "1996",
+        "option4": "2013",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a woman welfare program?",
+        "option1": "Establishment of self-reliant women self-help group",
+        "option2": "Conducting workshop for mother and child care",
+        "option3": "Conducting medical awareness camp on health aspects of women",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Environmental morality is an indicator of",
+        "option1": "Environmental Awareness",
+        "option2": "Environmental Ethics",
+        "option3": "Environmental Impact",
+        "option4": "Community Health",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "RSPM stands for",
+        "option1": "Readily suspended particulate matter",
+        "option2": "Regular suspended particulate matter",
+        "option3": "Respirable suspended particulate matter",
+        "option4": "Regular Supply Particle Matter",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "SPM stands for",
+        "option1": "Selected particulate matter",
+        "option2": "Suspended particulate matter",
+        "option3": "Surrounded particulate matter",
+        "option4": "Settled Particulate matter",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The diameter of PM 10 is",
+        "option1": "Less than 10 millimetre",
+        "option2": "Less than 10 micrometre",
+        "option3": "Equal to or greater than 10 micrometre",
+        "option4": "Less than 10 Nanometer",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of Sulphur Dioxide in industrial area should be within _________ gram/cubic metre.",
+        "option1": "50",
+        "option2": "100",
+        "option3": "150",
+        "option4": "200",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of Nitrogen Dioxide in industrial area should be within ________ gram/cubic metre.",
+        "option1": "20",
+        "option2": "40",
+        "option3": "100",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of Particulate Matter (size less than 10 micrometre) in industrial area should be within __________ microgram/cubic metre.",
+        "option1": "60",
+        "option2": "10",
+        "option3": "5",
+        "option4": "1",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of Particulate Matter (size less than 2.5 micrometre) in industrial area should be within __________ microgram/cubic metre.",
+        "option1": "20",
+        "option2": "40",
+        "option3": "100",
+        "option4": "120",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of lead in industrial area should be within __________ microgram/cubic metre.",
+        "option1": "0.2",
+        "option2": "0.1",
+        "option3": "0.3",
+        "option4": "0.5",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of CO in industrial area should be within __________ mg/cubic metre.",
+        "option1": "1",
+        "option2": "3",
+        "option3": "2",
+        "option4": "5",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The permissible limit on concentration of ammonia in ambient air for industrial area is __________ micro gram/cubic metre.",
+        "option1": "10",
+        "option2": "1000",
+        "option3": "1",
+        "option4": "100",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of benzene in industrial area should be within __________ micrometre.",
+        "option1": "5",
+        "option2": "50",
+        "option3": "0.5",
+        "option4": "500",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Biotic component of biosphere is not constituted by...",
+        "option1": "Producer",
+        "option2": "Consumer",
+        "option3": "Decomposer",
+        "option4": "Air",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "If the consumption rate is higher than the replenish rate ......starts.",
+        "option1": "Depletion",
+        "option2": "Motion",
+        "option3": "Work",
+        "option4": "Only B and C",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is false about biosphere?",
+        "option1": "It is the global sum of all ecosystems",
+        "option2": "It has evolved at least some 3.5 billion years ago",
+        "option3": "It does not contain microbes",
+        "option4": "It can also be called the zone of life on earth",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "1. Over Population is problem in India. 2. Over population is not a example of Pollution.",
+        "option1": "Both are correct",
+        "option2": "Both are wrong",
+        "option3": "1 is correct 2 is wrong",
+        "option4": "2 is correct 1 is wrong.",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Green house effect leading to the warming up of the earth and atmosphere is due to....",
+        "option1": "Infrared reaching to the earth",
+        "option2": "UV rays reaching to the earth",
+        "option3": "Due to increase in CO2 level",
+        "option4": "Depletion of ozone layer of atmosphere",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Environmental cause for increase in skin cancer, cataract in eyes & mutation is...",
+        "option1": "Acid rain",
+        "option2": "Global warming",
+        "option3": "Nuclear waste",
+        "option4": "Ozone depletion",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Acid rain on earth results in...",
+        "option1": "Increase PH of Soil",
+        "option2": "Decrease PH of Soil",
+        "option3": "No effect on PH of soil",
+        "option4": "Increases fertility of soil",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of these is not radioactive waste?",
+        "option1": "Gold",
+        "option2": "Silver",
+        "option3": "Magnesium",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is causing nuclear waste?",
+        "option1": "Aluminum",
+        "option2": "Magnesium",
+        "option3": "Uranium",
+        "option4": "Calcium",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Bhopal tragedy was example of -",
+        "option1": "Nuclear accident",
+        "option2": "Gas leak",
+        "option3": "Earthquake",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "From the following which are major air pollutants which have made the problem of air pollution very serious?",
+        "option1": "Carbon Compounds",
+        "option2": "Sulphur Compounds",
+        "option3": "Nitrogen oxides & fluorides",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of these causes the sea level change or flooding due to process of melting of snow?",
+        "option1": "Global Warming",
+        "option2": "Ozone layer depletion",
+        "option3": "Both A and B",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Soil degradation means the _____ loss of soil.",
+        "option1": "Qualitative",
+        "option2": "Quantitative",
+        "option3": "Both",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The suspended particulate matter causes ___________ pollution.",
+        "option1": "Water",
+        "option2": "Air",
+        "option3": "Sound",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The suspended particulate matter is released into air by ______.",
+        "option1": "Automotive Vehicles",
+        "option2": "Stone crusher",
+        "option3": "Sugar Industry",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Sprinkling water can help to reduce the ______ pollution in the mining area.",
+        "option1": "Water",
+        "option2": "Air",
+        "option3": "Sound",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which is not the advantage of recycling?",
+        "option1": "Reduces consumption of fresh raw material",
+        "option2": "Reduces air pollution",
+        "option3": "Lowers green house effect",
+        "option4": "Increases heat",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Rise in temperature makes____.",
+        "option1": "Melting of snow",
+        "option2": "Increases sea level",
+        "option3": "Both A and B",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is the odd one from the following?",
+        "option1": "Global warming reduces the water level in ground",
+        "option2": "Global warming reduces the yield of crop",
+        "option3": "Global warming will affect the ecological cycle",
+        "option4": "Global warming will help in increase of forest area",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of Sulphur Dioxide in ecologically sensitive area should be within microgram/cubic metre.",
+        "option1": "20",
+        "option2": "30",
+        "option3": "40",
+        "option4": "50",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of Nitrogen Dioxide in ecologically sensitive area should be within microgram/cubic metre.",
+        "option1": "20",
+        "option2": "30",
+        "option3": "40",
+        "option4": "50",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of Particulate Matter (size less than 10 micro gram) in ecologica area should be within __________ micro gram/cubic metre.",
+        "option1": "100",
+        "option2": "40",
+        "option3": "60",
+        "option4": "120",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of Particulate Matter (size less than 2.5 micro gram) in ecological area should be within __________ micro gram/cubic metre.",
+        "option1": "100",
+        "option2": "40",
+        "option3": "20",
+        "option4": "120",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of lead in ecologically sensitive area should be within _________ gram/cubic metre.",
+        "option1": "0.5",
+        "option2": "1.5",
+        "option3": "2.5",
+        "option4": "2",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of CO in ecologically sensitive area should be within __________.",
+        "option1": "0.5",
+        "option2": "0.6",
+        "option3": "1.5",
+        "option4": "2",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of ammonia in ecologically sensitive area should be within microgram/cubic metre.",
+        "option1": "50",
+        "option2": "80",
+        "option3": "100",
+        "option4": "120",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of arsenic in Residential area should be within __________ nanometre.",
+        "option1": "2",
+        "option2": "6",
+        "option3": "4",
+        "option4": "8",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "As per national ambient air quality standards, the concentration of nickel in ecologically sensitive area should be within ______ gram/cubic metre.",
+        "option1": "20",
+        "option2": "40",
+        "option3": "60",
+        "option4": "80",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Dissolved oxygen content in drinking water should be more than_____ mg/lit.",
+        "option1": "4",
+        "option2": "5",
+        "option3": "6",
+        "option4": "10",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Waste from hospital is called as",
+        "option1": "Hospital waste",
+        "option2": "Medical waste",
+        "option3": "Hazardous waste",
+        "option4": "Biomedical waste",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Missing component in figure is",
+        "option1": "Ecology",
+        "option2": "Biodiversity",
+        "option3": "Environment",
+        "option4": "Hydrology",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Renewable energy is part of _____________ development.",
+        "option1": "Sustainable",
+        "option2": "Economic",
+        "option3": "Environmental",
+        "option4": "Energy",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following phenomenon has emphasized the need for sustainable development?",
+        "option1": "Depletion of natural resources",
+        "option2": "Pollution",
+        "option3": "Imbalance of ecology",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Name the missing component in the diagram depicting sustainable development.",
+        "option1": "Ecological",
+        "option2": "Economy",
+        "option3": "Biological",
+        "option4": "Ethical",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "This picture depicts the outcome of",
+        "option1": "Water pollution",
+        "option2": "Excessive fishing",
+        "option3": "Excessive dissolved oxygen",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a NGO?",
+        "option1": "FICCI",
+        "option2": "Greenpeace",
+        "option3": "NABARD",
+        "option4": "DRDO",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "It is said that next world war will be fought over",
+        "option1": "Coal",
+        "option2": "Oil",
+        "option3": "Water",
+        "option4": "Gold",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "__________ scheme will give concession in property tax in metro cities.",
+        "option1": "Drain water system",
+        "option2": "Tree plantation",
+        "option3": "Rainwater harvesting",
+        "option4": "All of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a Traditionally observed bio indicator of rain?",
+        "option1": "Swarms of dragonflies",
+        "option2": "Croaking of frogs in chorus",
+        "option3": "Marching of ants carrying their eggs",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Environmental impact of development projects can be",
+        "option1": "Immediate",
+        "option2": "Short term",
+        "option3": "Long term",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following carries highest conservation value in Environment Planning?",
+        "option1": "Sacred biodiversity",
+        "option2": "Exotic biodiversity",
+        "option3": "Invasive biodiversity",
+        "option4": "All of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The computer driven system that permits storing and retrieving environmental information is",
+        "option1": "GIS",
+        "option2": "Digital information",
+        "option3": "Information technology",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "World environment day falls on",
+        "option1": "July 5",
+        "option2": "June 5",
+        "option3": "January 5",
+        "option4": "May 5",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The data for generation of Environmental inventory is",
+        "option1": "Primary Data",
+        "option2": "Secondary Data",
+        "option3": "Tertiary Data",
+        "option4": "Primary and Secondary Data",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Release of sewage and garbage into wetland will reduce concentration of dissolved _________ in water.",
+        "option1": "Oxygen",
+        "option2": "Nitrogen",
+        "option3": "Hydrogen",
+        "option4": "Chlorine",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following terms is coined as utmost significance in the dynamics of resource management in the ‘Brundtland Commission?",
+        "option1": "Polluter-Pays Principle",
+        "option2": "Sustainable development",
+        "option3": "Inclusive Growth",
+        "option4": "Carrying Capacity",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a part of National Action Plan on Climate Change?",
+        "option1": "National Water Mission",
+        "option2": "National Mission on Pollution Control",
+        "option3": "National Mission for Sustainable Agriculture",
+        "option4": "National Mission on Sustainable Habitat",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following act is a specific legislation for declaration and regulation of the Biosphere Reserves in India?",
+        "option1": "Wildlife Protection Act 1972",
+        "option2": "Biological Diversity Act, 2002",
+        "option3": "Environment (Protection) Act, 1986",
+        "option4": "None of A, B & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following plants has been prohibited from cultivation and planting in India by the Wild Life protection Act?",
+        "option1": "Killer weed (Parthenium hysterophorus)",
+        "option2": "Dragon Plant (Dracaena draca)",
+        "option3": "Belladona (Atropta Belladona )",
+        "option4": "Ladies slipper orchids (Paphiopedilum spp. )",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "PM10 and PM2.5 Samplers are used to detect which of the following phenomenon?",
+        "option1": "Food adulteration",
+        "option2": "Adulterated Petrol",
+        "option3": "Noise pollution",
+        "option4": "Air pollution",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following is the upper limit of sound in dB for residential areas as per Central Pollution Control Board (CPCB)?",
+        "option1": "55",
+        "option2": "60",
+        "option3": "75",
+        "option4": "90",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "World water day is observed on _______ every year.",
+        "option1": "22 March",
+        "option2": "23 March",
+        "option3": "25 May",
+        "option4": "2 Oct",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which process among the following refers to accumulation and storage of rain water for reuse?",
+        "option1": "Rain collection",
+        "option2": "Rainwater harvesting",
+        "option3": "Rain digging",
+        "option4": "Rain water pumping",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The process of purifying water using filters is termed?",
+        "option1": "Filtration",
+        "option2": "Sublimation",
+        "option3": "Rainwater harvesting",
+        "option4": "Evaporation",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many methods of rainwater harvesting are there?",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3",
+        "option4": "4",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "An area of high ground which divides two or more river systems is called _____________.",
+        "option1": "Rainwater harvesting",
+        "option2": "Wetland",
+        "option3": "Watershed",
+        "option4": "Command area",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is the first Airport in the world powered entirely by Solar energy?",
+        "option1": "Cochin, Kerala",
+        "option2": "Bengaluru, Karnataka",
+        "option3": "Chennai, Tamil Nadu",
+        "option4": "Mumbai, Maharashtra",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not under the Ministry of New and Renewable Energy?",
+        "option1": "Wind",
+        "option2": "Solar",
+        "option3": "Bio",
+        "option4": "Large Hydro",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Where is India's largest Wind Farm located?",
+        "option1": "Jaisalmer Wind Park, Rajasthan",
+        "option2": "Muppandal Wind Farm, Tamil Nadu",
+        "option3": "Vaspet Wind Farm, Maharashtra",
+        "option4": "Chakala Wind Farm, Maharashtra",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which Indian enterprise has the Motto “ENERGY FOREVER”?",
+        "option1": "Indian Renewable Energy Development Agency",
+        "option2": "Indian Non-Renewable Energy Development",
+        "option3": "Indian Agricultural Development",
+        "option4": "Indian Biotechnology Development",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The best way to reduce deforestation is by",
+        "option1": "Using more paper",
+        "option2": "Clear more area of trees for cultivation",
+        "option3": "Development of open land through buildings",
+        "option4": "Planting more trees in open spaces of developed and undeveloped areas",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which is the first state in India to make roof top rain water harvesting compulsory to all the houses?",
+        "option1": "Tamilnadu",
+        "option2": "Kerala",
+        "option3": "Goa",
+        "option4": "Assam",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Narmada Bachao Andolan is related to which of the following projects?",
+        "option1": "Sardar Sarovar",
+        "option2": "Bhakra Nagal",
+        "option3": "Koyna",
+        "option4": "Rihand",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The Acronym NPPA stands for",
+        "option1": "National Policy on Population Abatement",
+        "option2": "National Policy on Pollution Abatement",
+        "option3": "National Policy on Population Absorption",
+        "option4": "National Policy on Population Arise",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which is the most recent pronouncement of the government’s commitment to improving environmental conditions?",
+        "option1": "National Environmental Policy",
+        "option2": "National Water Policy",
+        "option3": "Environment Act",
+        "option4": "Air Policy",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Environmental Compliance refers to?",
+        "option1": "Conforming to government laws",
+        "option2": "Conforming to constitutional laws",
+        "option3": "Conforming to environmental laws",
+        "option4": "Conforming to tribal laws",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "What is the full form of EDMS?",
+        "option1": "Environmental Data Management Systems",
+        "option2": "Environmental Data Management Security",
+        "option3": "Environmental Data Management Sustainability",
+        "option4": "Environmental Data Management Syndrome",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The objective of the Central Pollution Control Board is",
+        "option1": "To coordinate the activities of State Pollution Control Boards",
+        "option2": "Resolve the disputes among them",
+        "option3": "Create awareness about environment protection",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of NRCP?",
+        "option1": "National Railway Corporation Project",
+        "option2": "National Rivers Cleaning Phase",
+        "option3": "National Roads Cleaning Phase",
+        "option4": "National River Conservation Plan",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When did a model bill to regulate and control groundwater come into force?",
+        "option1": "1996",
+        "option2": "1995",
+        "option3": "1994",
+        "option4": "1993",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When did the Noise Pollution Regulations and Control Rule came into force in India?",
+        "option1": "2000",
+        "option2": "2005",
+        "option3": "2006",
+        "option4": "2010",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the meaning of silence zone for noise pollution?",
+        "option1": "Area comprising more than 100 meters around hospitals and educational institutes",
+        "option2": "Area comprising not less than 100 meters around hospitals and educational institutes",
+        "option3": "Area comprising more than 100 meters around clubs and commercial streets",
+        "option4": "Area comprising not less than 100 meters around clubs and commercial streets",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When was the Factories Act came into force in India?",
+        "option1": "1930",
+        "option2": "1999",
+        "option3": "1948",
+        "option4": "1992",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which Ministry published a draft of Noise Pollution Rules?",
+        "option1": "Ministry of Foreign Affairs",
+        "option2": "Ministry of Pollution Control",
+        "option3": "Ministry of Industries",
+        "option4": "Ministry of Environment and Forests",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Environmental degradation means",
+        "option1": "Overall lowering of environmental qualities.",
+        "option2": "Adverse change brought in by human activities.",
+        "option3": "Ecological imbalance",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statements about Radioactive pollution are correct?",
+        "option1": "It causes genetic changes in the animals.",
+        "option2": "It causes cancers.",
+        "option3": "Both A and B are correct",
+        "option4": "A is correct B is wrong",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Given below are two statements: Assertion (A): Natural vegetation is the true index of climate. Reason (R): Water loving plants are found in moist climate. In the context of the above statements, which one of the following is correct?",
+        "option1": "Both A and R are true and R is the correct explanation of A.",
+        "option2": "Both A and R are true but R is not the correct explanation of A.",
+        "option3": "A is true but R is false.",
+        "option4": "A is false but R is true.",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "On a winter day, most automobiles keep the passengers warm by using heat generated by the engine. This use of the heat by-product engine is an example of :",
+        "option1": "non-fossil-fuel energy",
+        "option2": "cogeneration",
+        "option3": "nuclear power",
+        "option4": "a sustainable source of energy",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Consider following statements about the Ozone Hole (I) Ozone formation and destruction keep on happening (II) Ozone destruction rate is higher than its formation rate (III) Ozone destruction rate is equal to the its formation rate. Which of above statement is/are true?",
+        "option1": "(I) only",
+        "option2": "(I) and (II) Only",
+        "option3": "(I) and (III)",
+        "option4": "(III) Only",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following can be used for controlling Gaseous Pollutant?",
+        "option1": "Arrestor",
+        "option2": "Incineration",
+        "option3": "Absorption",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What does the high Biological Oxygen Demand (BOD) indicates?",
+        "option1": "High level of biodegradable organic Pollution",
+        "option2": "Low level of Microbial Pollution",
+        "option3": "Absence of Microbial Pollution",
+        "option4": "Water is fully pure",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What percent of area in the plain should be under forest?",
+        "option1": "21",
+        "option2": "25",
+        "option3": "30",
+        "option4": "33",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The gas that shows the most variation from place to place and from time to time in the lower atmosphere:",
+        "option1": "ozone (O3)",
+        "option2": "carbon dioxide (CO2)",
+        "option3": "water vapor (H2O)",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In the atmosphere, tiny solid or liquid suspended particles of various composition are called:",
+        "option1": "aerosols",
+        "option2": "carcinogens",
+        "option3": "greenhouse gases",
+        "option4": "microbes",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The most abundant greenhouse gas in the earth's atmosphere:",
+        "option1": "Carbon dioxide",
+        "option2": "Nitrous oxide",
+        "option3": "water vapor (H2O)",
+        "option4": "Carbon Monoxide",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following processes acts to remove carbon dioxide from the atmosphere?",
+        "option1": "lightning",
+        "option2": "deforestation",
+        "option3": "photosynthesis",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "This holds a planet's atmosphere close to its surface:",
+        "option1": "radiation",
+        "option2": "gravity",
+        "option3": "cloud cover",
+        "option4": "moisture",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following weather elements always decreases as we climb upward in the atmosphere?",
+        "option1": "Wind",
+        "option2": "Temperature",
+        "option3": "Pressure",
+        "option4": "Moisture",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In a temperature inversion:",
+        "option1": "air temperature increases with increasing height",
+        "option2": "air temperature decreases with increasing height",
+        "option3": "air temperature remains constant with increasing height",
+        "option4": "it is warmer at night than during the day",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Without the atmospheric greenhouse effect, the average surface temperature would be:",
+        "option1": "higher than at present",
+        "option2": "lower than at present",
+        "option3": "the same as it is now",
+        "option4": "much more variable than it is now",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The atmospheric greenhouse effect is produced mainly by the:",
+        "option1": "absorption and re-emission of visible light by the atmosphere",
+        "option2": "absorption and re-emission of ultraviolet radiation by the atmosphere",
+        "option3": "absorption and re-emission of infrared radiation by the atmosphere",
+        "option4": "absorption and re-emission of visible light by clouds",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Suppose last night was clear and calm. Tonight low clouds will be present. From this you would conclude that tonight's minimum temperature will be:",
+        "option1": "higher than last night's minimum temperature",
+        "option2": "lower than last night's minimum temperature",
+        "option3": "the same as last night's minimum temperature",
+        "option4": "above freezing",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "If the sun suddenly began emitting more energy, the earth's radiative equilibrium temperature would:",
+        "option1": "increase",
+        "option2": "decrease",
+        "option3": "remains the same",
+        "option4": "Oscillate",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which chemical was responsible for Bhopal gas tragedy?",
+        "option1": "Methyl iso Cyanate",
+        "option2": "Benzene Hexa Chloride",
+        "option3": "Tri Nitro Toluene",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The adverse effect(s) of acid rain is(are)",
+        "option1": "Causing paint to peel",
+        "option2": "Corrosion of steel structures",
+        "option3": "Killing insects",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Liquids with a pH less than ___ are acidic",
+        "option1": "10",
+        "option2": "9",
+        "option3": "8",
+        "option4": "7",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The earthquakes can cause -",
+        "option1": "Floods",
+        "option2": "Landslides",
+        "option3": "tsunamis",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The commonly used material for shielding in nuclear plant is -",
+        "option1": "Lead and Tin",
+        "option2": "Graphite and Cadmium",
+        "option3": "PVC",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The main interest of shielding in nuclear plants is to protect from",
+        "option1": "Neutrons",
+        "option2": "Gamma Rays",
+        "option3": "Both A and B",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Reflector in nuclear plant is used for",
+        "option1": "Return the neutrons back into the core",
+        "option2": "Shield the radioactivity completely",
+        "option3": "Check pollution",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The unit of radioactivity is",
+        "option1": "Electron volt",
+        "option2": "Electron amphere",
+        "option3": "Curie",
+        "option4": "Lumens",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Where was the first use of nuclear bombs which caused death to millions of lives?",
+        "option1": "Karachi",
+        "option2": "Hiroshima and Nagasaki",
+        "option3": "London",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which State in India did a nuclear accident take place?",
+        "option1": "Tamilnadu",
+        "option2": "Gujrat",
+        "option3": "Maharashtra",
+        "option4": "Karnataka",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following medical conditions is caused by high exposure to radiation?",
+        "option1": "Kidney stone",
+        "option2": "Mutation",
+        "option3": "Blood pressure",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the main purpose of nuclear energy?",
+        "option1": "To kill the enemy nation",
+        "option2": "To waste the excessive energy",
+        "option3": "To use it as an alternate source of energy",
+        "option4": "To cause mutation for people who are working",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is the main source of nuclear radiations?",
+        "option1": "Nuclear power plant",
+        "option2": "Sunlight",
+        "option3": "Atmospheric air",
+        "option4": "Volcanoes",
         "Answer": "option1",
         "marks": 1
     },
     {
         "question": "When does an Environmental Policy achieve positive results?",
-        "option1": "When policy addressed to urban issues",
-        "option2": "When policy addressed to local issues",
-        "option3": "When policy addressed to international issues",
-        "option4": "When policy addressed to national issues",
+        "option1": "When policy addresses urban issues",
+        "option2": "When policy addresses local issues",
+        "option3": "When policy addresses international issues",
+        "option4": "When policy addresses national issues",
         "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "In which of the following is Greenpeace fighting against?",
-        "option1": "Commercial fishing",
-        "option2": "Commercial farming",
-        "option3": "Commercial rattling",
-        "option4": "Commercial whaling",
-        "Answer": "option4",
-        "marks": 1
-    },
-    {
-        "question": "Why does Greenpeace oppose genetic engineering?",
-        "option1": "Because it causes genetic pollution",
-        "option2": "Because it increases the health of organisms",
-        "option3": "It completely saves the forest",
-        "option4": "It contributes for a better environment",
-        "Answer": "option1",
         "marks": 1
     },
     {
         "question": "Why does Greenpeace oppose the use of nuclear power?",
         "option1": "Because nuclear power increases the environment rapidly",
-        "option2": "Because nuclear power plants abolish disasters",
+        "option2": "Because nuclear power plant abolishes the disasters",
         "option3": "Because there are no disadvantages in nuclear power",
         "option4": "Because it releases harmful radiations",
         "Answer": "option4",
@@ -29925,20 +36742,11 @@ const UT2EST = [
         "marks": 1
     },
     {
-        "question": "Where is WWF International located?",
-        "option1": "Poland",
-        "option2": "United States",
-        "option3": "Switzerland",
-        "option4": "England",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
         "question": "When was the Bombay Natural History Society (BNHS) founded?",
         "option1": "1857",
         "option2": "1868",
         "option3": "1883",
-        "option4": "1897",
+        "option4": "1893",
         "Answer": "option3",
         "marks": 1
     },
@@ -29946,44 +36754,71 @@ const UT2EST = [
         "question": "What is the full form of CYWEN?",
         "option1": "Club of Youth Working for Environment",
         "option2": "Council of Youth Working for Environment",
-        "option3": "Club of Youth Working for Employment",
+        "option3": "Council of Youth Working for Education",
         "option4": "Council of Youth Working for Employment",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "Which year was the Green Coalition founded?",
-        "option1": "1998",
-        "option2": "1999",
-        "option3": "2000",
-        "option4": "2001",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "Which NGO has the mission 'Conserve the lands and waters on which all life depends'?",
-        "option1": "Greenpeace",
-        "option2": "Shuddhi",
-        "option3": "World Wildlife Fund",
-        "option4": "The Nature Conservancy",
+        "question": "When was the Indian Forest Act enacted?",
+        "option1": "1910",
+        "option2": "1911",
+        "option3": "1926",
+        "option4": "1927",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "How can we achieve the prevention of environmental degradation?",
-        "option1": "By relying on the government to do all the jobs",
-        "option2": "By killing all animals in the forest",
-        "option3": "By creating public awareness among people about the importance of environment",
-        "option4": "By causing more and more pollution",
-        "Answer": "option3",
+        "question": "Which act was enacted in 1972 to protect plant and animal species in India?",
+        "option1": "Indian Forest Act",
+        "option2": "Wildlife Protection Act",
+        "option3": "Environmental Act",
+        "option4": "Natural Protection Act",
+        "Answer": "option2",
         "marks": 1
     },
     {
-        "question": "In which of the following ways can we create awareness among people about the environment efficiently?",
-        "option1": "By the help of mass media showing the importance of environment",
-        "option2": "By spreading through word of mouth",
-        "option3": "By forcefully insisting people protect the environment",
-        "option4": "By making treaties with other countries",
+        "question": "Name the state in India where the Wildlife Protection Act is not applicable?",
+        "option1": "Maharashtra",
+        "option2": "Jammu and Kashmir",
+        "option3": "Karnataka",
+        "option4": "Madhya Pradesh",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which domain of the 7th five-year plan made provisions for the protection of the environment?",
+        "option1": "Environment Protection Act, 1986",
+        "option2": "Indian Forest Act, 1927",
+        "option3": "Wildlife Protection Act, 1972",
+        "option4": "National Forest Policy, 1988",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The Ministry of Environment and Forests is a nodal agency of which Government?",
+        "option1": "The State",
+        "option2": "The Central Government",
+        "option3": "District Authority",
+        "option4": "Municipal Corporation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Who adopted the technique of public interest litigation for the cause of environmental protection in many cases in India?",
+        "option1": "Indian Parliament",
+        "option2": "Indian Army",
+        "option3": "Indian Civil Services",
+        "option4": "Indian Judiciary",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an environmental issue?",
+        "option1": "Use of resources",
+        "option2": "Use of economy",
+        "option3": "Education",
+        "option4": "Employment",
         "Answer": "option1",
         "marks": 1
     },
@@ -29991,156 +36826,9719 @@ const UT2EST = [
         "question": "Which one of the following is the best way to protect the environment by individuals?",
         "option1": "By simply talking about the environment",
         "option2": "By killing organisms and cutting trees",
-        "option3": "By joining NGOs and involving themselves in environmental protection work",
-        "option4": "By simply sitting at home",
+        "option3": "By joining NGOs and involving themselves in environmental protection works",
+        "option4": "By simply sitting in a home",
         "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The NGO with which Dr. Salim Ali is associated with is",
+        "option1": "Greenpeace",
+        "option2": "Bombay Natural History Society (BNHS)",
+        "option3": "Kaya",
+        "option4": "Urja",
+        "Answer": "option2",
         "marks": 1
     },
     {
         "question": "What is the best way to educate school kids about the environment?",
-        "option1": "Teaching theory about the environment in classes",
-        "option2": "Showing pictures and videos of the environment on a projector screen",
-        "option3": "Taking kids to national parks or sanctuaries",
-        "option4": "Taking kids to amusement parks",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "When is World Forestry Day celebrated?",
-        "option1": "21 March",
-        "option2": "22 April",
-        "option3": "05 June",
-        "option4": "11 July",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "In India, when is Wildlife Week celebrated?",
-        "option1": "Between April 1 and 8",
-        "option2": "Between July 1 and 8",
-        "option3": "Between August 1 and 8",
-        "option4": "Between October 1 and 8",
+        "option1": "Introduction of environmental awareness in curriculum",
+        "option2": "Introduction of projects on environmental issues in curriculum",
+        "option3": "Conducting environmental awareness camps in collaboration with NGOs",
+        "option4": "All of A, B & C",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "When did the Bombay Natural History Society start?",
-        "option1": "1883",
-        "option2": "1894",
-        "option3": "1903",
-        "option4": "1916",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Which is India's oldest conservation research-based NGO?",
-        "option1": "Botanical Survey of India",
-        "option2": "Bombay Natural History Society",
-        "option3": "Centre for Environmental Education",
-        "option4": "Madras Crocodile Bank Trust",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "Which is the first crocodile conservation breeding center in Asia?",
-        "option1": "Madras Crocodile Bank Trust",
-        "option2": "Bombay Crocodile Bank Trust",
-        "option3": "Kolkata Crocodile Bank Trust",
-        "option4": "Mangalore Crocodile Bank Trust",
-        "Answer": "option1",
-        "marks": 1
-    },
-    {
-        "question": "Where is the State Department of Environment located?",
-        "option1": "State where there is no danger for the environment",
-        "option2": "State where there is danger for the environment",
-        "option3": "State where there is inadequate environment",
-        "option4": "In all States of India",
+        "question": "What is sustainable development?",
+        "option1": "The development that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+        "option2": "To conserve natural resources and develop alternate sources of power while reducing pollution and harm to the environment",
+        "option3": "It is the practice of developing land and construction projects in a manner that reduces their impact on the environment",
+        "option4": "All of A, B & C",
         "Answer": "option4",
         "marks": 1
     },
     {
-        "question": "Where is the headquarters of the Wildlife Institute of India located?",
-        "option1": "New Delhi",
-        "option2": "Mysore",
-        "option3": "Dehradun",
-        "option4": "Bhopal",
-        "Answer": "option3",
-        "marks": 1
+        "question": "Which of the following statement is related to Sustainability?",
+        "option1": "It refers to a process or state that can be maintained indefinitely.",
+        "option2": "Natural resources must be used in ways that do not create ecological debts by over-exploiting the carrying and productive capacity of nature.",
+        "option3": "A minimum necessary condition for sustainability is the maintenance of the total natural capital stock at or above the current level.",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 2
     },
     {
-        "question": "When was the Zoological Survey of India established?",
-        "option1": "1900",
-        "option2": "1909",
-        "option3": "1916",
-        "option4": "1920",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What is the term for the collection of rainwater for use?",
-        "option1": "Rain collection",
-        "option2": "Rainwater harvesting",
-        "option3": "Rain digging",
-        "option4": "Rainwater pumping",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "What is the name of the process to clean water using filters?",
-        "option1": "Sublimation",
-        "option2": "Oxidation",
-        "option3": "Purification",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What is the gallon limit for new toilets according to Federal plumbing standards?",
-        "option1": "1.6",
-        "option2": "2.5",
-        "option3": "3.9",
-        "option4": "4.3",
+        "question": "Which of the following is/are not an objective(s) of sustainable development?",
+        "option1": "To bring about a gradual and sometimes catastrophic transformation of the environment",
+        "option2": "Continue to implement the family planning program.",
+        "option3": "Maintain a dynamic balance of arable land (not less than 123 million hectares) and implement an agricultural development strategy",
+        "option4": "Maintain a dynamic balance of water resources by reducing water consumption for every unit of gross development product growth",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "How many methods of rainwater harvesting are there?",
+        "question": "Which of the following is a Primary Goal of Sustainability?",
+        "option1": "The end of poverty and hunger",
+        "option2": "Achievement of gender equality",
+        "option3": "Sustainable economic growth while promoting jobs and stronger economies",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the approximate percentage of Earth's water which is stored in underground aquifers?",
+        "option1": "About 1%",
+        "option2": "About 5%",
+        "option3": "About 10%",
+        "option4": "About 20%",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the process by which water enters the small pore spaces between particles in soil or rocks?",
+        "option1": "Transpiration",
+        "option2": "Infiltration",
+        "option3": "Precipitation",
+        "option4": "Sublimation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The percentage of pore volume to the total volume of rock is called _______ of rock.",
+        "option1": "Permeability",
+        "option2": "Recharge",
+        "option3": "Aquifer",
+        "option4": "Porosity",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The lowering effect on the water table about the base of the well stem is called",
+        "option1": "aquiclude",
+        "option2": "artesian surface",
+        "option3": "cone of depression",
+        "option4": "speleothem",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an effect of excessive pumping of ground water?",
+        "option1": "Depletion of the ground water table",
+        "option2": "Drying up of wells",
+        "option3": "None of A & B",
+        "option4": "Both A & B",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Water fit for drinking purpose is called as",
+        "option1": "potable water",
+        "option2": "groundwater",
+        "option3": "surface water",
+        "option4": "artesian water",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "CPCB comes under the ministry of",
+        "option1": "Human resource development",
+        "option2": "Environment and forest",
+        "option3": "Health",
+        "option4": "Urban development",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which one of these air pollutants is not monitored under NAMP by CPCB",
+        "option1": "NO2",
+        "option2": "SO2",
+        "option3": "RSPM",
+        "option4": "CH4",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Target group for formal education is",
+        "option1": "Children and youth",
+        "option2": "Farmer",
+        "option3": "Workers in unorganized sector",
+        "option4": "Elderly public with plenty of free time",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Target group for informal Education",
+        "option1": "Children and youth",
+        "option2": "Educated and employed",
+        "option3": "Uneducated Workers",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Feature of formal education is",
+        "option1": "Education as a Full time and Primary activity",
+        "option2": "Education as a Parttime and secondary activity",
+        "option3": "Education during Vacation",
+        "option4": "Education as an optional activity",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The feature of informal education is",
+        "option1": "Full time education",
+        "option2": "Part time education",
+        "option3": "Education as day scholar in school",
+        "option4": "Education in boarding school",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "For better human health application of IT is needed in",
+        "option1": "bioinformatics",
+        "option2": "genome sequencing",
+        "option3": "biotechnology",
+        "option4": "All of A , B & C",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "The Acronym ENVIS stands for",
+        "option1": "Environmental system",
+        "option2": "Ecological system",
+        "option3": "Environmental Information System",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Acronym GIS stands for",
+        "option1": "Geographical Information System",
+        "option2": "Geographical International System",
+        "option3": "Government Information System",
+        "option4": "All of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a duty of state according to Article 48-A of Indian Constitution?",
+        "option1": "Providing Education to the youth in the state",
+        "option2": "Protection and improvement of environment, safeguard the forests and wild life of the country",
+        "option3": "Establishing urban infrastructure",
+        "option4": "Developing health facilities for the citizens in the state",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Bore well is an access to _____________",
+        "option1": "Dam water",
+        "option2": "River water",
+        "option3": "Ground water",
+        "option4": "lake water",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an example of Environmental Morality?",
+        "option1": "Recharge ground water by rainwater harvesting at your home without compulsion",
+        "option2": "Recharge ground water by rainwater harvesting at your home due to compulsion",
+        "option3": "Discharge water into sea",
+        "option4": "Discharge of water to river",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a Hydrological function of watershed?",
+        "option1": "Collect rainfall water",
+        "option2": "Store water in for different periods",
+        "option3": "Release water as runoff",
+        "option4": "All of A ,B & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Causes of watershed deterioration are",
+        "option1": "uncontrolled, unplanned, and unscientific land use",
+        "option2": "Faulty agricultural methods",
+        "option3": "Both A and B",
+        "option4": "None of A & B",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Common treatment methods for watershed deterioration are",
+        "option1": "Excavation of trenches across the slope to break the velocity of runoff",
+        "option2": "Stones are dry packed across the hill slope to intercept surface runoff",
+        "option3": "Conversion of slopes into level steps fields",
+        "option4": "All of A , B & C",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Watershed management in simplest terms refers to __________",
+        "option1": "Watershed Construction",
+        "option2": "Watershed protection",
+        "option3": "Watershed planning",
+        "option4": "Degradation of watershed",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The basic objectives of watershed management",
+        "option1": "Increase soil infiltration",
+        "option2": "Reduce damage caused by excess runoff",
+        "option3": "Manage runoff for useful purposes",
+        "option4": "All of A , B & C",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Water quality in the watershed can be affected by",
+        "option1": "use of soap and detergents",
+        "option2": "constructing dam",
+        "option3": "by Rainwater harvesting",
+        "option4": "Irrigation",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an example of Watershed management project in Maharashtra",
+        "option1": "Ajintha in Aurangabad District",
+        "option2": "Ralegan Siddhi in Ahmednagar District",
+        "option3": "Chiplun in Ratnagiri District",
+        "option4": "Malwan Sindhudurg District",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A proposal to establish a new industry needs to be accompanied with which of the following report for approval from the Ministry of Environment?",
+        "option1": "EIA report",
+        "option2": "Financial status report",
+        "option3": "Feasibility report",
+        "option4": "Technical report",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The area in which the PAANI Foundation in Maharashtra works is",
+        "option1": "Drought prevention and Watershed Management",
+        "option2": "Plastic ban",
+        "option3": "Organic Farming",
+        "option4": "Control of Water Pollution",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Celebrity Film star Aamir Khan is associated with",
+        "option1": "Brila Foundation",
+        "option2": "Paani Foundation",
+        "option3": "Kahdi Foundation",
+        "option4": "NAAM Foundation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Full form of CTBT is",
+        "option1": "Comprehensive Nuclear-Test-Ban Treaty.",
+        "option2": "Comprehensive Test Bank Trust.",
+        "option3": "Comprehensive Trust Ban Treaty.",
+        "option4": "Comprehensive Test Ban Trusty.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of BOD?",
+        "option1": "Bactorial Oxygen Demand.",
+        "option2": "Biological Oxygen Demand.",
+        "option3": "Biological Oxide Demand.",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Full form of COD is",
+        "option1": "Chemical Oxide Demand.",
+        "option2": "Chemical Oxygen Demand.",
+        "option3": "Chemical Ozone Demand.",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "With respect to environmental science, full form of SPM is",
+        "option1": "Suspended Partial Matter",
+        "option2": "Suspended Particulate Matter.",
+        "option3": "Suspended Pollutant Matter.",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Silviculture is the management of",
+        "option1": "Rivers",
+        "option2": "Lakes",
+        "option3": "Hills",
+        "option4": "Forests",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Rapid growth of population at present time is due to",
+        "option1": "Lack of awareness among people to check birth rate.",
+        "option2": "Global terrorism.",
+        "option3": "Family planning.",
+        "option4": "Migration.",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following have been able to check the rapid growth of population?",
+        "option1": "Underdeveloped countries.",
+        "option2": "Developed countries.",
+        "option3": "Developing countries.",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The founder of Vanarai foundation is",
+        "option1": "Dr. Mohan Dharia",
+        "option2": "Dr. Sharad Dharia",
+        "option3": "Aamir Khan",
+        "option4": "Dr. Satyaprakash",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If someone notices polluted water coming from industry in Maharashtra, he/she can approach to",
+        "option1": "MSEB",
+        "option2": "MPCB",
+        "option3": "MERC",
+        "option4": "All of these",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "MPCB is entitled to collect which of the following samples in Maharashtra",
+        "option1": "Air Pollutant",
+        "option2": "Water Pollutant",
+        "option3": "Hazardous waste",
+        "option4": "All of A , B & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Responsibility of CPCB includes abatement and control of pollution in the country by",
+        "option1": "generating relevant data",
+        "option2": "providing scientific information",
+        "option3": "rendering technical inputs for formation of national policies and programs",
+        "option4": "All of A, B & C",
+        "Answer": "option4",
+        "marks": 2
+      },
+      {
+        "question": "_____________ education of environment will help every citizen to protection environment.",
+        "option1": "Formal",
+        "option2": "Informal",
+        "option3": "Both A and B",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "_______________ act was enacted in 1977.",
+        "option1": "Water Pollution act",
+        "option2": "The Water (Prevention and Control of Pollution) Act",
+        "option3": "The Water (Prevention and Control of Pollution) Cess Act",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "The Environment Protection can be made effective by",
+        "option1": "Forcing people",
+        "option2": "Making people aware about environment",
+        "option3": "Providing more financial budget to CPCB",
+        "option4": "Doing energy conservation.",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Use of __________________ energy will be helpful in protection of environment and sustainable development.",
+        "option1": "Solar",
+        "option2": "Nuclear",
+        "option3": "Hydro electric",
+        "option4": "Thermal",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "UV radiations from sunlight produces -",
+        "option1": "Ozone",
+        "option2": "Sulphur Dioxide",
+        "option3": "CO",
+        "option4": "Fluorides",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Water pollution is due to -",
+        "option1": "Carbon dioxide",
+        "option2": "Sulphur Dioxide",
+        "option3": "Oxygen",
+        "option4": "Industrial waste",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Black Lung disease is common in -",
+        "option1": "Farmers",
+        "option2": "Coal mine workers",
+        "option3": "Refinery workers",
+        "option4": "Petrochemical workers",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Acid rain will not affect -",
+        "option1": "Lithosphere",
+        "option2": "Ozone layer",
+        "option3": "Plants",
+        "option4": "Animals",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Aerosols having carbon and Florine compounds are mainly released by -",
+        "option1": "Automobiles",
+        "option2": "Industries",
+        "option3": "Jets",
+        "option4": "Refineries",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Bronchitis is caused due to -",
+        "option1": "Polluted Air",
+        "option2": "Polluted water",
+        "option3": "Polluted soil",
+        "option4": "Adulteration of food",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "For clean environment which one is non essential -",
+        "option1": "Producer",
+        "option2": "Polluter",
+        "option3": "Consumer",
+        "option4": "Decomposer",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Air pollution is not caused by -",
+        "option1": "Pollen grains",
+        "option2": "Hydro electric power",
+        "option3": "Industries",
+        "option4": "Automobiles",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "BOD is measure of -",
+        "option1": "Electronic waste poured in water",
+        "option2": "Extent of pollution due to organic compound",
+        "option3": "CO combined with hemoglobin",
+        "option4": "O2 required by green plants",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "UV radiations bring about cancer of",
+        "option1": "Skin",
+        "option2": "Lungs",
+        "option3": "Mouth",
+        "option4": "Liver",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Select the correct statement about the particulate matter -",
+        "option1": "10 um sizes creates lung disease",
+        "option2": "More than 2.5 um trapped in lungs",
+        "option3": "Less than 2.5 um penetrates deep into lungs",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 2
+      },
+      {
+        "question": "Fluoride pollution mainly affects -",
+        "option1": "Teeth",
+        "option2": "Heart",
+        "option3": "Kidney",
+        "option4": "Liver",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Green muffler is related to pollution of",
+        "option1": "Air",
+        "option2": "Water",
+        "option3": "Soil",
+        "option4": "Noise",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Methemoglobinemia is caused by-",
+        "option1": "Nitrates",
+        "option2": "CO",
+        "option3": "Methane",
+        "option4": "Ag",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Pollution is controlled by -",
+        "option1": "Using electrical cars",
+        "option2": "Banning atomic blasts",
+        "option3": "Sewage treatment",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "DDT is -",
+        "option1": "Non-biodegradable pollutant",
+        "option2": "Antibiotic",
+        "option3": "Bio-degradable Pollutant",
+        "option4": "Not a pollutant",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Which will not cause atmospheric pollution -",
+        "option1": "SO2",
+        "option2": "CO2",
+        "option3": "H2",
+        "option4": "CO",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "In vehicles catalytic converter are used to -",
+        "option1": "Increase mileage",
+        "option2": "Convert CO2 to carbonates",
+        "option3": "Increase efficiency of lead petrol",
+        "option4": "Convert CO to CO2",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Which metal causes harmful effects -",
+        "option1": "Lead",
+        "option2": "Uranium",
+        "option3": "Cobalt",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Which is not dangerous for life -",
+        "option1": "Ozone layer",
+        "option2": "Deforestation",
+        "option3": "Nuclear blast",
+        "option4": "Bio-pollutants",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Oxides of Sulphur and Nitrogen are important pollutants of -",
+        "option1": "Air",
+        "option2": "Water",
+        "option3": "Soil",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Purpose of biological treatment of waste water is to -",
+        "option1": "Reduce sedimentation",
+        "option2": "Increase sedimentation",
+        "option3": "Reduce BOD",
+        "option4": "Increase BOD",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Ozone depletion can cause higher incidence of -",
+        "option1": "Skin cancer",
+        "option2": "Cataract",
+        "option3": "Decreased immunity",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Which is not pollutant from exhaust of motor vehicle -",
+        "option1": "Hydrocarbon gas",
+        "option2": "Fly ash",
+        "option3": "Carbon dioxide",
+        "option4": "Carbon Monoxide",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Pollution is rising due to -",
+        "option1": "Research institutes",
+        "option2": "Rain",
+        "option3": "Hydro power projects",
+        "option4": "Automobiles and Industrial wastes",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Ozone hole is maximum over -",
+        "option1": "Europe",
+        "option2": "Africa",
+        "option3": "India",
+        "option4": "Antarctica",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Green house effect is related to -",
+        "option1": "Increased growth of green algae",
+        "option2": "Global warming",
+        "option3": "Cultivation of vegetables in house",
+        "option4": "Development of terrace garden",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Which pollution causes Jaundice -",
+        "option1": "Air",
+        "option2": "Water",
+        "option3": "Land",
+        "option4": "Thermal",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Which one of the following is a wrong statement?",
+        "option1": "Greenhouse effect is a natural phenomenon",
+        "option2": "Eutrophication is a natural phenomenon in freshwater bodies",
+        "option3": "Most of the forests have been lost in tropical areas",
+        "option4": "Ozone in upper part of atmosphere is harmful to animals",
+        "Answer": "option4",
+        "marks": 2
+      },
+      {
+        "question": "dB is a standard abbreviation used for the quantitative expression of",
+        "option1": "The dominant Bacillus in a culture",
+        "option2": "The density of bacteria in a medium",
+        "option3": "A certain pesticide",
+        "option4": "Noise Pollution",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Removal of top fertile soil by water is called",
+        "option1": "Leaching",
+        "option2": "Weathering of soil",
+        "option3": "Siltation",
+        "option4": "Soil erosion",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following fuels has highest carbon intensity?",
+        "option1": "Natural gas",
+        "option2": "Oil",
+        "option3": "Bituminous coal",
+        "option4": "Biomass",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following is toxic to the blood, after combining with haemoglobin?",
+        "option1": "CO2",
+        "option2": "CO",
+        "option3": "SO2",
+        "option4": "CH4",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Assertion (A): Oil slick in the ocean causes mass scale death of fish.\nReason (R): The gills of fish get clogged.",
+        "option1": "Both (A) and (R) are true with (R) being the correct explanation.",
+        "option2": "Both (A) and (R) are true but (R) is not the correct explanation.",
+        "option3": "(A) is true, but (R) is wrong.",
+        "option4": "Both (A) and (R) are wrong.",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Prolonged exposure to high levels of noise causes -",
+        "option1": "Hearing loss",
+        "option2": "Constriction of blood vessels",
+        "option3": "Gastric ulcers",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Baba Amte was the leader of",
+        "option1": "Appiko Movement",
+        "option2": "Chipko Movement",
+        "option3": "Narmada Bachao Andolan",
+        "option4": "Tehri Dam Movement",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The sequence of fossil fuels in the order of higher to lower heating value is as follows:",
+        "option1": "Coal, Petroleum, Natural Gas, Hydrogen.",
+        "option2": "Hydrogen, Natural Gas, Petroleum, Coal.",
+        "option3": "Hydrogen, Coal, Natural Gas, Petroleum.",
+        "option4": "Natural Gas, Petroleum, Coal, Hydrogen.",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "Which one of the following is not an energy recovery method of solid waste management?",
+        "option1": "Pelletisation",
+        "option2": "Biomethanation",
+        "option3": "Pyrolysis",
+        "option4": "Composting",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which statement is not correct for hazardous wastes?",
+        "option1": "They contain one or more of 39 toxic compounds",
+        "option2": "They catch fire easily",
+        "option3": "They are nonreactive and stable",
+        "option4": "They are capable of corroding metal containers",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Assertion (A): The ecosystem surrounding a river gets damaged due to construction of a dam.\nReason (R): The area gets inundated with large volume of water.",
+        "option1": "Both (A) and (R) are true and (R) is the correct explanation of A.",
+        "option2": "Both (A) and (R) are true but (R) is not the correct explanation of A.",
+        "option3": "(A) is true, but (R) is wrong.",
+        "option4": "Both (A) and (R) are wrong.",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "Coal mining areas are prone to--",
+        "option1": "Land subsidence",
+        "option2": "Fire hazard",
+        "option3": "Air pollution",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following is a non-formal environment education and awareness programme?",
+        "option1": "Environmental appreciation courses.",
+        "option2": "National Environment Awareness Campaign.",
+        "option3": "Environmental Education in school system.",
+        "option4": "Environmental Management Business Studies.",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "Assertion (A): Natural gas is a very attractive eco friendly fuel.\nReason (R): It produces few pollutants and less carbon dioxide per unit energy than any other fossil fuel on combustion.",
+        "option1": "Both A and R are true and R is the correct explanation of A.",
+        "option2": "Both A and R are true but R is not the correct explanation of A.",
+        "option3": "A is true but R is false.",
+        "option4": "Both (A) and (R) are wrong.",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Identify the negative consequences of urban growth -",
+        "option1": "Increase in vehicular pollution",
+        "option2": "Increase in industrial emission",
+        "option3": "Increase in solid and liquid waste generation",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Identify the consequences of urbanisation -",
+        "option1": "Physical expansion of the city",
+        "option2": "Scarcity of utilities",
+        "option3": "Increase in municipal waste",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the concept which emphasizes that an environment can support number of individuals for a prolonged period of time?",
+        "option1": "Population Density",
+        "option2": "Maximum growth rate",
+        "option3": "Biotic potential",
+        "option4": "Carrying capacity",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following best explains a sustainable society?",
+        "option1": "Meets the needs and aspirations of the present without compromising those of the future.",
+        "option2": "It is inconsistent with the goals of environmentalism.",
+        "option3": "It continues as always and assumes that things will work out for the best.",
+        "option4": "Curtails all further development.",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following migration streams is more problematic in India?",
+        "option1": "Rural to Rural",
+        "option2": "Urban to Rural",
+        "option3": "Urban to Urban",
+        "option4": "Rural to Urban",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following is not a characteristic of slums?",
+        "option1": "Environmental health hazards",
+        "option2": "Generation of deviant behaviour",
+        "option3": "Conducive environment for educating children",
+        "option4": "Breeding ground for political radicalism and violence",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "What does it mean to reduce?",
+        "option1": "Use something over and over again.",
+        "option2": "Use less of something, creating smaller amounts of waste.",
+        "option3": "Make something into something new.",
+        "option4": "Make something ugly into something beautiful.",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "What does it mean to reuse?",
+        "option1": "Cleaning up a mess.",
+        "option2": "Use less of something, creating smaller amounts of waste.",
+        "option3": "Use something over and over again.",
+        "option4": "Make something ugly into something beautiful.",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "What does it mean to recycle?",
+        "option1": "Make something into something new.",
+        "option2": "Use less of something, creating smaller amounts of waste.",
+        "option3": "Make something that can clean your room.",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following is bad for the environment?",
+        "option1": "Recycling",
+        "option2": "Littering",
+        "option3": "Reducing",
+        "option4": "Reusing",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Re-processing material to make another product -",
+        "option1": "Reduce",
+        "option2": "Reuse",
+        "option3": "Recycle",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Most recycling focuses on four major categories of products. Which one of these is NOT one of them?",
+        "option1": "Paper",
+        "option2": "Glass",
+        "option3": "Plastic",
+        "option4": "Chemicals",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The following is an example of reducing:",
+        "option1": "using plastic bags as small garbage bags.",
+        "option2": "using less water when you shower.",
+        "option3": "bringing newspapers to a recycling center.",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "The following is an example of reusing:",
+        "option1": "bringing cans back to a recycling center.",
+        "option2": "using less water when you brush your teeth.",
+        "option3": "using fewer napkins when you eat.",
+        "option4": "washing zip top bags after use so they can be used again.",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "When you buy rechargeable batteries you help?",
+        "option1": "Recycling",
+        "option2": "Reuse",
+        "option3": "Reducing",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is called \"Energy Bank\" because of the energy saved in recycling?",
+        "option1": "Aluminum",
+        "option2": "Paper",
+        "option3": "Glass",
+        "option4": "Tires",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many trees will be saved by recycling 1 ton of paper?",
+        "option1": "1",
+        "option2": "7",
+        "option3": "17",
+        "option4": "70",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Glass can be recycled without alteration -",
+        "option1": "Once",
+        "option2": "Twice",
+        "option3": "5 to 10 times",
+        "option4": "again and again",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which type of plastic is more friendly to the environment?",
+        "option1": "PVC",
+        "option2": "HDPE",
+        "option3": "PS",
+        "option4": "PET",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following takes the most to dissolve in nature?",
+        "option1": "Plastic Bottle",
+        "option2": "Glass bottle",
+        "option3": "Paper",
+        "option4": "Cotton cloth",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The recycling label has -",
+        "option1": "One arrow",
+        "option2": "Two arrow",
+        "option3": "Three arrow",
+        "option4": "A tree",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following can be recycled?",
+        "option1": "Paper",
+        "option2": "Glass",
+        "option3": "Organic waste",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the advantage of driving an electric car?",
+        "option1": "It is easier to steer.",
+        "option2": "It can go faster.",
+        "option3": "It causes less pollution.",
+        "option4": "It costs less than other cars.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How can we reduce our need for fossil fuels?",
+        "option1": "Burn more wood.",
+        "option2": "Burn more gasoline",
+        "option3": "Develop alternative energy sources and use them",
+        "option4": "We can't reduce our need for fossil fuels. It's impossible.",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "How can people reduce pollution?",
+        "option1": "Burn lots of wood in your fireplace.",
+        "option2": "Practice conservation.",
+        "option3": "Burn all of the leaves that fall off of our trees.",
+        "option4": "Put our waste water in a river so it gets washed away.",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "The term Municipal Solid Waste (MSW) is generally used to describe:",
+        "option1": "Mining wastes",
+        "option2": "Wastes from industrial processes, construction and demolition debris.",
+        "option3": "Wastes from Private homes, commercial establishments and institutions.",
+        "option4": "Agricultural wastes",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Problem of solid waste disposal can be reduced through…….",
+        "option1": "Recycling",
+        "option2": "Lesser pollution",
+        "option3": "Population control",
+        "option4": "More timber",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "AQI stands for _______",
+        "option1": "Air Quality Information",
+        "option2": "Atmosphere Quality Information",
+        "option3": "Atmospheric Quality Index",
+        "option4": "Air Quality Index",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The index for good air quality is _____",
+        "option1": "0-50",
+        "option2": "51-100",
+        "option3": "101-150",
+        "option4": "151-200",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If AQI is in the range 201-300 then the quality of the air is ______",
+        "option1": "Good",
+        "option2": "Moderate",
+        "option3": "Poor",
+        "option4": "Very Poor",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "_____ is an air pollutant which is present in vehicular emissions.",
+        "option1": "Ozone",
+        "option2": "Carbon Monoxide",
+        "option3": "Carbon Dioxide",
+        "option4": "Sulphur dioxide",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "PUC for vehicles stands for _________",
+        "option1": "Pollution Under Control",
+        "option2": "Pollution Under Check",
+        "option3": "Pollution Upto Control",
+        "option4": "Pollution Upto Check",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "PUC certificate for a vehicle means that which of the following pollutants are within permissible limits",
+        "option1": "NO2 and CO2",
+        "option2": "CO and HC",
+        "option3": "SO2 and CO",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "PM2.5 affects _____",
+        "option1": "Liver",
+        "option2": "Lungs",
+        "option3": "Brain",
+        "option4": "Stomach",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Select the correct option",
+        "option1": "Methane is not a greenhouse gas.",
+        "option2": "CO2 is a greenhouse gas.",
+        "option3": "a and b are both true.",
+        "option4": "a is true and b is false.",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Effects of air pollution are",
+        "option1": "Smog",
+        "option2": "Acid Rain",
+        "option3": "Haze",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Air pollutants are in the form of _____",
+        "option1": "Solid particles",
+        "option2": "Liquid droplets",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The yellowing of Taj Mahal is due to",
+        "option1": "Ageing",
+        "option2": "Air Pollution",
+        "option3": "Water Pollution",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Aerosols cause ______",
+        "option1": "Air Pollution",
+        "option2": "Land Pollution",
+        "option3": "Water Pollution",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_____ converts toxic gases and air pollutants in exhaust to less toxic pollutants",
+        "option1": "Pollution converter",
+        "option2": "Exhaust converter",
+        "option3": "Catalytic converter",
+        "option4": "Gas converter",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "____ is not an exhaust gas.",
+        "option1": "CO",
+        "option2": "NO2",
+        "option3": "N2O",
+        "option4": "CO2",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Largest contributors of air pollution are -",
+        "option1": "Cars and trucks",
+        "option2": "Household products",
+        "option3": "Industries",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Natural causes of air pollution are",
+        "option1": "Forest fires",
+        "option2": "Volcanoes",
+        "option3": "Dust storms",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Ozone layer in the stratosphere can be destroyed by ____",
+        "option1": "CFCs",
+        "option2": "Greenhouse gases",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Industry is ____ source of air pollution.",
+        "option1": "Point",
+        "option2": "Line",
+        "option3": "Area",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Ozone layer is responsible for protecting the earth from ______ of the sun.",
+        "option1": "X-rays",
+        "option2": "Ultraviolet rays",
+        "option3": "Infrared rays",
+        "option4": "Gamma rays",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Global warming is caused due to",
+        "option1": "Greenhouse gases",
+        "option2": "Exhaust gases",
+        "option3": "VOCs",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Indoor air pollution is caused due to",
+        "option1": "Disinfectants",
+        "option2": "Paints",
+        "option3": "Air fresheners",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "_____ is a primary air pollutant.",
+        "option1": "CO",
+        "option2": "Smog",
+        "option3": "Ozone",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "________ is a secondary air pollutant.",
+        "option1": "Oxides of sulphur",
+        "option2": "Smog",
+        "option3": "VOCs",
+        "option4": "Oxides of nitrogen",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "_______ is not caused due to air pollution",
+        "option1": "Asthma",
+        "option2": "Lung cancer",
+        "option3": "Cholera",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "VOC stands for",
+        "option1": "Volatile Organic Components",
+        "option2": "Volcanic Organic Components",
+        "option3": "Volcanic Organic Compounds",
+        "option4": "Volatile Organic Compounds",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Which of these is not air pollution control equipment?",
+        "option1": "Cyclone separators",
+        "option2": "Electrostatic Separator",
+        "option3": "Fabric Filters",
+        "option4": "None of these",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Air Pollution can be controlled by -",
+        "option1": "Planting trees",
+        "option2": "Regularly servicing vehicles",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What does the following picture represent?",
+        "option1": "Air pollution",
+        "option2": "Land Pollution",
+        "option3": "Water Pollution",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Types of solid waste include",
+        "option1": "Garbage",
+        "option2": "Refuse",
+        "option3": "Sludge",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Dairy farming, livestock breeding and horticulture lead to what kind of waste?",
+        "option1": "Domestic",
+        "option2": "Market",
+        "option3": "Agricultural",
+        "option4": "Commercial",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Hazardous wastes are _____",
+        "option1": "Reactive",
+        "option2": "Corrosive",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Biomedical wastes include",
+        "option1": "Used syringes",
+        "option2": "Bandages",
+        "option3": "Tissues",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Global warming also refers to as -",
+        "option1": "Climate change",
+        "option2": "Ecological change",
+        "option3": "Atmosphere change",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Global warming is observed century-scale rise in the _______ of the Earth’s climate system.",
+        "option1": "Maximum temperature",
+        "option2": "Minimum temperature",
+        "option3": "Average temperature",
+        "option4": "Temperature",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The process by which fertile land becomes desert is classified as -",
+        "option1": "flood",
+        "option2": "drought",
+        "option3": "desertification",
+        "option4": "endangering",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following activities contributes the most to carbon emissions globally?",
+        "option1": "Agriculture",
+        "option2": "Transport",
+        "option3": "Forestry",
+        "option4": "Energy supply",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Who does measure the global warming rate?",
+        "option1": "Astrologers",
+        "option2": "Philosopher",
+        "option3": "Physicist",
+        "option4": "Climatologist",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following result takes place due to global warming?",
+        "option1": "Maintaining steady temperature",
+        "option2": "Changes in the rainfall",
+        "option3": "Pleasant environment",
+        "option4": "Causing less pollution",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the main reason for melting of ice sheets?",
+        "option1": "Decrease in carbon dioxide content",
+        "option2": "Global warming",
+        "option3": "Increase in the oxygen content",
+        "option4": "Noise pollution",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Apart from printing papers and consuming electricity, computers are causing environmental problems by__________________",
+        "option1": "Causing water pollution",
+        "option2": "Making people lazy",
+        "option3": "Electronic wastes",
+        "option4": "Causing noise pollution",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the main cause of industrial pollution?",
+        "option1": "Planned industrial growth",
+        "option2": "Use of modern technologies",
+        "option3": "Lack of polices to control pollution",
+        "option4": "Efficient waste disposal",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "What is the term used for the use of resources for industrialization?",
+        "option1": "Pollution",
+        "option2": "Extraction",
+        "option3": "Urbanization",
+        "option4": "Waste material",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the main cause of increase in air pollution in the 20th century?",
+        "option1": "Development of electricity",
+        "option2": "Development of infrastructures",
+        "option3": "Development of the transport system",
+        "option4": "Development of water resources",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "How does asthma cause to human beings?",
+        "option1": "Because of air pollution",
+        "option2": "Because of water pollution",
+        "option3": "Because of excessive diet",
+        "option4": "Because of soil pollution",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Organic agriculture advocates avoiding the use of____________________",
+        "option1": "Organic manure",
+        "option2": "Stored water",
+        "option3": "Modern technologies in harvesting",
+        "option4": "Chemical fertilizers",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Identify the image -",
+        "option1": "beautiful earth",
+        "option2": "Green earth",
+        "option3": "Recycle",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is correct inference from the figure?",
+        "option1": "The earth is green",
+        "option2": "The image is very beautiful",
+        "option3": "We should make use of wind energy",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The image shows _______",
+        "option1": "Art",
+        "option2": "Desert",
+        "option3": "Land",
+        "option4": "Pollution",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The meaning of the image is -",
+        "option1": "We should use all the green things.",
+        "option2": "We should plant the trees.",
+        "option3": "Green colour saves the planet.",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Identify the image -",
+        "option1": "Nuclear bomb blast",
+        "option2": "Sky at the evening",
+        "option3": "Satellite launching",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The image shows -",
+        "option1": "Earth life cycle",
+        "option2": "Effects of Green house gases",
+        "option3": "Biodiversity",
+        "option4": "Nature present on earth",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "The figure shows -",
+        "option1": "Nuclear radiation",
+        "option2": "Wheel of automobile",
+        "option3": "Accident",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the reason for this situation?",
+        "option1": "Heavy rain",
+        "option2": "Global warming",
+        "option3": "Summer season",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The image shows -",
+        "option1": "Flood",
+        "option2": "Pleasant sea",
+        "option3": "Tsunamis",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The reason of damage is -",
+        "option1": "Tsunami",
+        "option2": "Earthquake",
+        "option3": "Both A and B",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "_____ is not a special waste.",
+        "option1": "Industrial",
+        "option2": "Biomedical",
+        "option3": "E-waste",
+        "option4": "Domestic",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The given symbol indicates",
+        "option1": "Biohazard",
+        "option2": "E-hazard",
+        "option3": "Flammable material",
+        "option4": "3R principle",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Reactive, flammable, corrosive and toxic are characteristics of _____ waste.",
+        "option1": "Non-hazardous",
+        "option2": "Domestic",
+        "option3": "Hazardous",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "DDT is what type of waste?",
+        "option1": "Non-hazardous",
+        "option2": "Industrial",
+        "option3": "Hazardous",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "____ characteristic of waste is essential in determining the ability of any treatment process.",
+        "option1": "Physical",
+        "option2": "Chemical",
+        "option3": "Biological",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "701 _____ includes discarded electrical and electronic devices like computers, mobile phones etc.",
+        "option1": "E-waste",
+        "option2": "C-waste",
+        "option3": "M-waste",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "702 _______ is not a source of solid waste.",
+        "option1": "Fallen leaves",
+        "option2": "Street sweepings",
+        "option3": "Repairs in houses",
+        "option4": "None of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "703 During inversion",
+        "option1": "Temperature increases with altitude",
+        "option2": "Temperature decreases with altitude",
+        "option3": "Temperature remains constant",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "704 Which of the following on inhalation dissolved in blood haemoglobin more rapidly than oxygen?",
+        "option1": "Sulphur dioxide",
+        "option2": "Carbon monoxide",
+        "option3": "Ozone",
+        "option4": "Nitros oxide",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "705 Smog is",
+        "option1": "solid waste",
+        "option2": "a combination of smoke and fog",
+        "option3": "colourless",
+        "option4": "All of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "706 Which of the following are likely to be present in a photochemical smog?",
+        "option1": "Sulphur dioxide",
+        "option2": "Sulphur",
+        "option3": "CFC",
+        "option4": "Ozone",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "707 Which of the following devices is suitable for the removal of gaseous pollutants?",
+        "option1": "clarifier mechanism",
+        "option2": "Aerators",
+        "option3": "Filter",
+        "option4": "Wet scrubber",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "708 Which of the following air pollution control devices is suitable for removing the finest dust from air?",
+        "option1": "Clarifier",
+        "option2": "Electrostatic precipitator",
+        "option3": "Flash Mixer",
+        "option4": "none of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "709 Air pollution from automobiles can be controlled by fitting ____",
+        "option1": "Cyclone separator",
+        "option2": "Electrostatic precipitator",
+        "option3": "Catalytic convertor",
+        "option4": "Wet scrubber",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "710 Taj Mahal in Agra may be damaged by ____",
+        "option1": "Sulphur dioxide",
+        "option2": "Chlorine",
+        "option3": "Hydrogen",
+        "option4": "Oxygen",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "711 Gas leaked in Bhopal tragedy was _____",
+        "option1": "Methyl isocyanate",
+        "option2": "Potassium isothiocyanate",
+        "option3": "Ethyl isocyanate",
+        "option4": "Sodium isothiocyanate",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "712 What is BOD?",
+        "option1": "A measure of organic matter present in water",
+        "option2": "Usually less than COD",
+        "option3": "Biochemical oxygen demand",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "713 Excess fluoride in drinking water is likely to cause _____",
+        "option1": "Blue baby syndrome",
+        "option2": "Fluorosis",
+        "option3": "Change in taste and odour",
+        "option4": "Intestinal irritation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "714 Fluoride pollution mainly affects what part of the body?",
+        "option1": "Kidney",
+        "option2": "Brain",
+        "option3": "Teeth",
+        "option4": "Heart",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "715 Which of the following is a non-point source of water pollution?",
+        "option1": "Factories",
+        "option2": "Sewage treatment plants",
+        "option3": "Urban and suburban lands",
+        "option4": "All of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "716 Septic tank is",
+        "option1": "An aerobic attached growth treatment system",
+        "option2": "An aerobic suspended growth biological treatment system",
+        "option3": "An anaerobic attached growth biological treatment system",
+        "option4": "An anaerobic suspended growth treatment system",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "717 Disease caused by eating fish inhabiting mercury contaminated water is _______",
+        "option1": "Bright's disease",
+        "option2": "Hiroshima episode",
+        "option3": "Mina-mata disease",
+        "option4": "Ostesclerosis",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "718 Which of the following is not a marine pollutant?",
+        "option1": "Oil",
+        "option2": "Plastics",
+        "option3": "Dissolved oxygen",
+        "option4": "All of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "719 Which of the following best describes 'noise'?",
+        "option1": "Loud sound",
+        "option2": "Sounds of high frequency",
+        "option3": "Unwanted sound",
+        "option4": "Constant sound",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "720 Sound becomes hazardous noise pollution at decibel above ___",
+        "option1": "80",
+        "option2": "100",
+        "option3": "30",
+        "option4": "120",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "721 Which of the following is a biodegradable organic chemical/substance?",
+        "option1": "Plastics",
+        "option2": "Oils",
+        "option3": "Pesticides",
+        "option4": "Garbage",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "722 CO is",
+        "option1": "caused by ozone depletion",
+        "option2": "a major component of the atmosphere",
+        "option3": "extremely damaging to human blood",
+        "option4": "produced by plants during photosynthesis",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "723 Tropospheric ozone",
+        "option1": "protects earth from harmful UV radiation",
+        "option2": "binds with haemoglobin preventing binding with oxygen in RBCs",
+        "option3": "is a secondary pollutant",
+        "option4": "is caused by poor farming techniques",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "724 Lead enters the atmosphere as a particulate pollutant. This is a problem because it",
+        "option1": "is a precious metal and it is being lost in the atmosphere",
+        "option2": "will cause the ozone hole to increase",
+        "option3": "causes central nervous system malfunction in humans",
+        "option4": "causes nutrification of waterways resulting in eutrophication",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "725 Photochemical fog differs from industrial smog in that it",
+        "option1": "is formed in the presence of sunlight",
+        "option2": "has large quantities of soot",
+        "option3": "consists of primary pollutants",
+        "option4": "is primarily composed of CO",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "726 Particulate matter dispersed as aerosols",
+        "option1": "included nitrogen oxides",
+        "option2": "may cause damage to respiratory tissues when inhaled",
+        "option3": "binds with haemoglobin preventing its binding to oxygen",
+        "option4": "interacts only with surface tissues of humans causing mild irritation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "727 The most obvious cause of industrial smog is",
+        "option1": "burning trash",
+        "option2": "indoor air pollution",
+        "option3": "burning fossil fuels",
+        "option4": "generation of nuclear power",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "728 Air pollution can harm the health or comfort of which of the following?",
+        "option1": "plants",
+        "option2": "materials",
+        "option3": "humans and other animals",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "729 Everyone is affected by the quality of air. Which people are likely to be affected and become sick?",
+        "option1": "elderly people",
+        "option2": "asthmatics",
+        "option3": "people with respiratory diseases",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "730 Incomplete burning of petrol or disease in vehicles creates _______ gas which is very poisonous.",
+        "option1": "Carbon dioxide",
+        "option2": "Carbon monoxide",
+        "option3": "Methane",
+        "option4": "Ozone",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "731 Which gas is primarily responsible for depletion of ozone layer around the earth?",
+        "option1": "Chlorofluoro carbons",
+        "option2": "Nitrogen",
+        "option3": "Oxygen",
+        "option4": "Nitrogen oxide",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "732 The diseases cholera, typhoid and jaundice are due to pollution of ____.",
+        "option1": "air",
+        "option2": "water",
+        "option3": "food items",
+        "option4": "solid waste",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "733 Which of the following is not a greenhouse gas?",
+        "option1": "Carbon dioxide",
+        "option2": "CFCs",
+        "option3": "Methane",
+        "option4": "Oxygen",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "734 Contamination of water with sewage is indicated by cysts of",
+        "option1": "leishmania",
+        "option2": "escherichia coli",
+        "option3": "pseudomonas",
+        "option4": "none of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "735 DDT is a _______",
+        "option1": "greenhouse gas",
+        "option2": "non-degradable pollutant",
+        "option3": "degradable pollutant",
+        "option4": "none of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Domestic wastes which can be decomposed under natural processes are called _______ pollutants which are relatively harmless.",
+        "option1": "Industrial",
+        "option2": "Thermal",
+        "option3": "Biodegradable",
+        "option4": "Non-biodegradable",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Eutrophication causes decrease in",
+        "option1": "dissolved hydrogen",
+        "option2": "dissolved salts",
+        "option3": "dissolved oxygen",
+        "option4": "all of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "E coli used as an indicator organism to determine pollution of water with",
+        "option1": "Industrial effluents",
+        "option2": "Heavy metals",
+        "option3": "Pollen of aquatic plants",
+        "option4": "Faecal matter",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Eutrophication is often seen in",
+        "option1": "Fresh water lakes",
+        "option2": "Mountains",
+        "option3": "Deserts",
+        "option4": "none of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Fish die in water polluted by sewage due to",
+        "option1": "Pathogens",
+        "option2": "Reduction in O2",
+        "option3": "Clogging of gills with silt",
+        "option4": "Foul smell",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following pollution forms 'Heat island'?",
+        "option1": "Water",
+        "option2": "Land",
+        "option3": "Air",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Global agreement in specific control strategies to reduce the release of ozone depleting substances was adopted by",
+        "option1": "The Vienna Convention",
+        "option2": "The Rio de Janeiro Conference",
+        "option3": "The Montreal Protocol",
+        "option4": "The Kyoto Protocol",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Possible health effects of noise pollution include",
+        "option1": "hearing loss",
+        "option2": "hair loss",
+        "option3": "tinnitus",
+        "option4": "all of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Prolonged exposure to any sound louder than ____dB can cause hearing loss.",
+        "option1": "10",
+        "option2": "60",
+        "option3": "85",
+        "option4": "130",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Peroxy-acetyl nitrate(PAN) is formed by the reaction of two primary pollutant, namely nitrogen oxide and _____ released from motor presence of sunlight.",
+        "option1": "hydro-neutron",
+        "option2": "hydro-carbon",
+        "option3": "water-carbons",
+        "option4": "SO2",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The pollutants which are waste products and they are slowly degraded by microbial action are called as",
+        "option1": "biodegradable pollutants",
+        "option2": "non-biodegradable pollutants",
+        "option3": "artificial pollutants",
+        "option4": "none of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In an ecosystem, which one shows one-way passage?",
+        "option1": "Nitrogen",
+        "option2": "Carbon",
+        "option3": "Potassium",
+        "option4": "Free energy",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In terms of origin, pollution can be classified as natural and _______.",
+        "option1": "super-natural",
+        "option2": "sub-natural",
+        "option3": "anthropogenic",
+        "option4": "anti-anthropogenic",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The man-made pollution, such as industrial pollution etc are called as",
+        "option1": "anthropogenic",
+        "option2": "anti-anthropogenic",
+        "option3": "semi-anthropogenic",
+        "option4": "natural",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "On the physical state, air pollutants are of two types, one is gaseous and other is _____.",
+        "option1": "particulate",
+        "option2": "semi-particulate",
+        "option3": "triparticulate",
+        "option4": "none of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The smaller particles such as dust, smoke etc. which remain suspended for a long period in the air are _____.",
+        "option1": "Settleable particles",
+        "option2": "Suspended particles",
+        "option3": "Gaseous pollutants",
+        "option4": "Micro Pollutants",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Cotton dust produce lung fibros is also called as ________.",
+        "option1": "Byssinosis",
+        "option2": "Silicosis",
+        "option3": "Siderosis",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Air borne organic materials such as spores, pollen, bacteria, fungi cause several diseases and allergic reactions called as ______",
+        "option1": "hay fever",
+        "option2": "TB",
+        "option3": "ronbix",
+        "option4": "altra-rix",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "BOD stands for",
+        "option1": "Biological Oxygen Demand",
+        "option2": "Biochemical Oxygen Demand",
+        "option3": "Biochemical Ozone Demand",
+        "option4": "Biological Oxygen Deficiency",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "Acid rain is formed due to contribution from the following pair of gases",
+        "option1": "Methane and ozone",
+        "option2": "Oxygen and nitrous oxide",
+        "option3": "Methane and sulphur dioxide",
+        "option4": "Carbon dioxide and sulphur dioxide",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "The most serious environmental effect posed by hazardous wastes is",
+        "option1": "air pollution",
+        "option2": "contamination of groundwater",
+        "option3": "increased use of land for landfills",
+        "option4": "destruction of habitats",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a consequence of global warming?",
+        "option1": "rising sea level",
+        "option2": "increased agricultural productivity worldwide",
+        "option3": "worsening health effects",
+        "option4": "increased storm frequency and intensity",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The depletion of ozone layer is caused by?",
+        "option1": "nitrous oxide",
+        "option2": "carbon dioxide",
+        "option3": "chlorofluorocarbons",
+        "option4": "methane",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The presence of high coli form in water indicates",
+        "option1": "contamination by human waste",
+        "option2": "phosphorous contamination",
+        "option3": "decreased BOD",
+        "option4": "hydrocarbon contamination",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How does biological oxygen demand get affected with the increased presence of organic matter in water?",
+        "option1": "the oxygen demand increases",
+        "option2": "the oxygen demand decreases",
+        "option3": "the oxygen demand remains unchanged",
+        "option4": "none of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The stage at which biological processes are used to purify water in a wastewater treatment plant is called",
+        "option1": "secondary sewage treatment",
+        "option2": "primary sewage treatment",
+        "option3": "wastewater reduction",
+        "option4": "biochemical reduction",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "BOD is represented as ______ per litre of water?",
+        "option1": "milligrams of carbon",
+        "option2": "micrograms of carbon",
+        "option3": "milligrams of oxygen",
+        "option4": "micrograms of oxygen",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "COD stands for",
+        "option1": "Chemical Oxygen Demand",
+        "option2": "Carbon Obtained Demand",
+        "option3": "Chemically Obtained Demand",
+        "option4": "Bio-Chemical Oxygen Demand",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "An accidental discharge of petroleum in oceans is called ______.",
+        "option1": "oil leak",
+        "option2": "oil spill",
+        "option3": "oil waste",
+        "option4": "oil loss",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Water having DO content below ____ is considered to be highly polluted.",
+        "option1": "4.0 mg/L",
+        "option2": "8.0 mg/L",
+        "option3": "11.2 mg/L",
+        "option4": "0.1 mg/L",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Water contaminated by cadmium can cause _______ disease.",
+        "option1": "Itai itai",
+        "option2": "La la",
+        "option3": "Minamata",
+        "option4": "Sasu",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Pesticides are also called as",
+        "option1": "supercides",
+        "option2": "biocides",
+        "option3": "nanocides",
+        "option4": "catcides",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Increase in concentration of soluble salts in the soil is called _____.",
+        "option1": "soilification",
+        "option2": "soluble-soil",
+        "option3": "salination",
+        "option4": "desalination",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The unit of sound level is ____.",
+        "option1": "noise-meter",
+        "option2": "decibel",
+        "option3": "dolphan",
+        "option4": "dub",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The unit of sound loudness or level is ____.",
+        "option1": "noise-meter",
+        "option2": "decibel",
+        "option3": "dolphan",
+        "option4": "dub",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Noise level beyond ___dB can cause physical discomfort.",
+        "option1": "1120",
+        "option2": "50",
+        "option3": "120",
+        "option4": "200",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The pollutants in air which appear in solid and liquid state are referred to as",
+        "option1": "Foam",
+        "option2": "Frame",
+        "option3": "Particulate pollutant",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Objective of environmental education is -",
+        "option1": "Raise consciousness about environment education",
+        "option2": "To teach environmentally appropriate behaviour",
+        "option3": "Create an environmental ethics",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The diseases shown in the figure are due to -",
+        "option1": "Water Pollution",
+        "option2": "Air Pollution",
+        "option3": "Soil Pollution",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which country has the highest incidence of pollution linked deaths in the world?",
+        "option1": "China",
+        "option2": "India",
+        "option3": "Bangladesh",
+        "option4": "Pakistan",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which initiative was launched by Union Minister for Environment, Forest and Climate Change for a Green Diwali?",
+        "option1": "Harit Diwali, Achha Diwali",
+        "option2": "Harit Diwali, Green Diwali",
+        "option3": "Harit Diwali, Sahi Diwali",
+        "option4": "Harit Diwali, Swasth Diwali",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following heavy metals has the SC banned in the use of fire crackers, as they lead to air pollution?",
+        "option1": "Lithium",
+        "option2": "Mercury",
+        "option3": "Lead",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Normal human ear can detect sounds ranging between ______.",
+        "option1": "0-150 dB",
+        "option2": "0-140 dB",
+        "option3": "0-120 dB",
+        "option4": "0-100 dB",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Noise is any _____ sound.",
+        "option1": "excess",
+        "option2": "unwanted",
+        "option3": "both a & b",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a source of household noise?",
+        "option1": "mixer",
+        "option2": "loudspeaker",
+        "option3": "washing machine",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The noise at construction sites is not due to which of the following?",
+        "option1": "vibrators",
+        "option2": "pneumatic hammers",
+        "option3": "pavement breakers",
+        "option4": "sirens",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Noise pollution leads to\na) hearing impairment\nb) increase in efficiency\nWhich of the statement is true?",
+        "option1": "a is true and b is false",
+        "option2": "a is false and b is true",
+        "option3": "both are true",
+        "option4": "both are false",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_____ is not an effect of noise pollution on the environment.",
+        "option1": "damage to buildings",
+        "option2": "poor quality of crops",
+        "option3": "both a and b",
+        "option4": "only a",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Regular maintenance of vehicles results in",
+        "option1": "reducing noise pollution",
+        "option2": "increasing noise pollution",
+        "option3": "no effect on noise pollution",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Normal level of sound tolerance is _____.",
+        "option1": "60 dB",
+        "option2": "70 dB",
+        "option3": "80 dB",
+        "option4": "90 dB",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Noise Act 1996 states that the loud music from a party should either be turned off or reduced by ___PM.",
+        "option1": "9",
+        "option2": "10",
+        "option3": "11",
+        "option4": "12",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "To prevent noise pollution ____ should be installed around hospitals.",
+        "option1": "high walls",
+        "option2": "low walls",
+        "option3": "sound barriers",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a subsurface source of water?",
+        "option1": "Rivers",
+        "option2": "Springs",
+        "option3": "Wells",
+        "option4": "Lakes",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Cause of river pollution is ________.",
+        "option1": "sewage waste",
+        "option2": "domestic waste",
+        "option3": "industrial waste",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The 3R principle does not include",
+        "option1": "reduce",
+        "option2": "recover",
+        "option3": "reuse",
+        "option4": "recycle",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "______ is not a method of water conservation.",
+        "option1": "rainwater harvesting",
+        "option2": "construction of bunds",
+        "option3": "reusing greywater",
+        "option4": "using shower",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The process to remove pathogens from water is called _________.",
+        "option1": "filteration",
+        "option2": "sedimentation",
+        "option3": "aeration",
+        "option4": "disinfection",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Methods of disinfection are _______.",
+        "option1": "boiling",
+        "option2": "adding Potassium Permanganate",
+        "option3": "chlorination",
+        "option4": "all of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "_______ is an advanced water treatment process.",
+        "option1": "Boiling",
+        "option2": "RO",
+        "option3": "Sedimentation",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a disinfectant?",
+        "option1": "Alum",
+        "option2": "Chlorine",
+        "option3": "Bleaching powder",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "__________ is known as the Water Man of India.",
+        "option1": "Anna Hazare",
+        "option2": "Sunderlal Bahuguna",
+        "option3": "Medha Patkar",
+        "option4": "Dr. Rajendra Singh",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Village in Maharashtra which is famous for water conservation is _______.",
+        "option1": "Hiware Bazaar",
+        "option2": "Chandur Bazaar",
+        "option3": "Talegaon",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "RO in water treatment stands for",
+        "option1": "Return Osmosis",
+        "option2": "Reverse Osmosis",
+        "option3": "Returning Officer",
+        "option4": "Reverse Officer",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Groundwater recharging can be achieved by",
+        "option1": "recharging pits",
+        "option2": "recharging well",
+        "option3": "both",
+        "option4": "none",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Desalination is a method of",
+        "option1": "converting waste water into potable water",
+        "option2": "converting rainwater into potable water",
+        "option3": "converting sea water into potable water",
+        "option4": "none of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Hardness of water is due to the presence of ______ of calcium and magnesium.",
+        "option1": "chlorides",
+        "option2": "sulphates",
+        "option3": "carbonates",
+        "option4": "a, b and c",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Nalgonda Technique is used to remove excess ______ from water.",
+        "option1": "Salts",
+        "option2": "Chlorides",
+        "option3": "Fluorides",
+        "option4": "Sulphates",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "_____ in landfills contaminates ground water.",
+        "option1": "Waste water",
+        "option2": "Toxic gases",
+        "option3": "Leachate",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not an effect of solid waste?",
+        "option1": "Inversion",
+        "option2": "Fires in dumping grounds",
+        "option3": "Release of methane",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Solid waste management techniques include",
+        "option1": "prevention",
+        "option2": "reuse",
+        "option3": "recovery",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "806 RDF stands for",
+        "option1": "Road Drainage Facility",
+        "option2": "Rain Drainage Facility",
+        "option3": "Refuse Derived Fuel",
+        "option4": "Refuse Discharge Facility",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "807 Methods for disposal of e-waste are",
+        "option1": "incineration",
+        "option2": "landfilling",
+        "option3": "both",
+        "option4": "none",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "808 Harmful components of e-waste include",
+        "option1": "copper",
+        "option2": "mercury",
+        "option3": "lead",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "809 Composting is a process of treatment of",
+        "option1": "solid waste",
+        "option2": "liquid waste",
+        "option3": "gaseous waste",
+        "option4": "none of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "810 Which of these is not a method of composting?",
+        "option1": "Bangalore method",
+        "option2": "Indore method",
+        "option3": "Bombay method",
+        "option4": "none of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "811 The most favoured method of solid waste management is ______.",
+        "option1": "Recycle",
+        "option2": "Reuse",
+        "option3": "Prevention",
+        "option4": "Disposal",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "812 The least favoured method of solid waste management is ______.",
+        "option1": "Recycle",
+        "option2": "Reuse",
+        "option3": "Recovery",
+        "option4": "Disposal",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "813 Landfilling is suitable for which of the following wastes?",
+        "option1": "Mixed waste",
+        "option2": "Garden waste",
+        "option3": "Liquid waste",
+        "option4": "Food waste",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "814 Which of the following wastes is not suitable for landfilling?",
+        "option1": "mixed waste",
+        "option2": "rejects from waste processing sites",
+        "option3": "non-hazardous non recyclable waste",
+        "option4": "dry recyclables",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "815 Needles, syringes, intravenous sets are components of",
+        "option1": "domestic waste",
+        "option2": "biomedical waste",
+        "option3": "e-waste",
+        "option4": "agricultural waste",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "816 Which of these is not an essential component of sanitary landfill?",
+        "option1": "Liner",
+        "option2": "Leachate control facility",
+        "option3": "Gas collection facility",
+        "option4": "Water treatment facility",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "817 Components of e-waste that can be recycled are",
+        "option1": "Copper wires",
+        "option2": "Hard drive",
+        "option3": "CPUs",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "818 Landfilling is a method of _____ of solid waste.",
+        "option1": "Recovery",
+        "option2": "Reuse",
+        "option3": "Disposal",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "819 As per MPCB norms of treated sewage, the total suspended solids(TSS) in treated sewage should be less than _____ for discharging water.",
+        "option1": "50 mg/l",
+        "option2": "100 mg/l",
+        "option3": "150 mg/l",
+        "option4": "200 mg/l",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "820 As per noise standards, the noise level for hospitals is ___.",
+        "option1": "20-30 dB",
+        "option2": "30-40 dB",
+        "option3": "40-50 dB",
+        "option4": "50-60 dB",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "821 The quantity of fluorides in drinking water should not be more than ___ ppm",
+        "option1": "1",
+        "option2": "2",
+        "option3": "1.5",
+        "option4": "2.5",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "822 Waste water coming out of the bathroom and kitchen which does not have foul smell is called ____.",
+        "option1": "sewage",
+        "option2": "sullage",
+        "option3": "refuse",
+        "option4": "water",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "823 Wastewater is carried to treatment plants through",
+        "option1": "open drains",
+        "option2": "sewers",
+        "option3": "canals",
+        "option4": "none of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "824 Open drains ____",
+        "option1": "are aesthetically unpleasant",
+        "option2": "lead to mosquito breeding",
+        "option3": "cause bad smell",
+        "option4": "all the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "825 Untreated sewage can cause diseases like",
+        "option1": "diarrhoea",
+        "option2": "measles",
+        "option3": "hay fever",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "826 Sewage is mainly ____.",
+        "option1": "biodegradable",
+        "option2": "non-biodegradable",
+        "option3": "toxic",
+        "option4": "all of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "827 Mixing of sewage with drinking water source causes _____.",
+        "option1": "reduction in dissolved oxygen",
+        "option2": "death of aquatic animals",
+        "option3": "contamination of water source",
+        "option4": "all of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "828 CPCB stands for",
+        "option1": "Control Pollution Causing Board",
+        "option2": "Central Pollution Collection Board",
+        "option3": "Central Pollution Control Board",
+        "option4": "Control Pollution and Conservation Board",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "829 As per potable water standards, the pH of drinking water lies in the range",
+        "option1": "4 - 6",
+        "option2": "6 - 7.5",
+        "option3": "6.5 - 8.5",
+        "option4": "7 - 8.5",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "830 The presence of substance in the environment which has harmful or poisonous effect is called",
+        "option1": "biodiversity",
+        "option2": "pollution",
+        "option3": "ecological balance",
+        "option4": "none of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "831 _______ is not an effect of pollution.",
+        "option1": "environmental degradation",
+        "option2": "health problems in humans",
+        "option3": "increased agricultural yield",
+        "option4": "global warming",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "832 ___ is not a type of pollution.",
+        "option1": "Soil pollution",
+        "option2": "Wastewater pollution",
+        "option3": "Air pollution",
+        "option4": "Noise pollution",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "833 Use of fossil fuels leads to ____ pollution",
+        "option1": "air",
+        "option2": "water",
+        "option3": "thermal",
+        "option4": "noise",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "834 Pollution causes ________.",
+        "option1": "loss of fertile soil",
+        "option2": "loss of human lives",
+        "option3": "loss of marine lives",
+        "option4": "all of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "835 Anthropogenic source of pollution is",
+        "option1": "acid rain",
+        "option2": "use of chemical fertiliser",
+        "option3": "earthquakes",
+        "option4": "all of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "836 Primary treatment of sewage includes ____.",
+        "option1": "removal of grit, soil particles and floating particles",
+        "option2": "removal of oils",
+        "option3": "both",
+        "option4": "none",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "837 Secondary treatment of sewage includes",
+        "option1": "removal of grit and floating matter",
+        "option2": "biological treatment of sewage",
+        "option3": "screening of sewage",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "838 Design of a sewage treatment plant is mainly dependent upon",
+        "option1": "density of sewage",
+        "option2": "temperature of sewage",
+        "option3": "BOD of sewage",
+        "option4": "mass of sewage",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "839 The treated waste water which is normally disposed into water bodies is called ____.",
+        "option1": "sludge",
+        "option2": "effluent",
+        "option3": "influent",
+        "option4": "graywater",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "840 _______ anaerobically treats sewage at the place where it is located.",
+        "option1": "STP",
+        "option2": "WTP",
+        "option3": "Septic tanks",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The effluent from sewage treatment plants can be reused for ______.",
+        "option1": "washing cars",
+        "option2": "watering lawn",
+        "option3": "flushing",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "_____ is not a cause of land pollution.",
+        "option1": "Pesticides",
+        "option2": "Waste disposal on land",
+        "option3": "Deforestation",
+        "option4": "None of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an effect of excessive use of pesticides?",
+        "option1": "loss of soil fertility",
+        "option2": "erosion",
+        "option3": "both",
+        "option4": "none",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "One major cause of soil pollution is ____.",
+        "option1": "heavy rain",
+        "option2": "acid rain",
+        "option3": "alkali rain",
+        "option4": "none of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Introduction of dangerous chemicals into the ground is due to",
+        "option1": "industrial waste disposal",
+        "option2": "domestic waste disposal on land",
+        "option3": "overwatering",
+        "option4": "none of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Dumping of solid waste leads to ____ pollution.",
+        "option1": "soil",
+        "option2": "water",
+        "option3": "both",
+        "option4": "none",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of these can prevent soil pollution?",
+        "option1": "reforesting",
+        "option2": "applying bio-fertilisers and manures",
+        "option3": "solid waste treatment",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Soil pollution can lead to _____.",
+        "option1": "reduced soil fertility",
+        "option2": "increased crop yield",
+        "option3": "reduction in erosion",
+        "option4": "increased nitrogen fixation",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "___ is a natural source of soil pollution.",
+        "option1": "acid rain",
+        "option2": "construction activity",
+        "option3": "excessive use of pesticides",
+        "option4": "none of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The study of interaction between the living species and the environment is called",
+        "option1": "Biology",
+        "option2": "Antology",
+        "option3": "Ecology",
+        "option4": "Zoology",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The interdependence of the living organisms among themselves and with the environment is called",
+        "option1": "Ecology",
+        "option2": "Ecosystem",
+        "option3": "Biology",
+        "option4": "Antology",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Ecosystem consist of",
+        "option1": "Biotic components only",
+        "option2": "Only abiotic component",
+        "option3": "Both biotic and abiotic components",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The quantity of abiotic material present in an ecosystem is known as",
+        "option1": "Concentration",
+        "option2": "Standing scale",
+        "option3": "Non-living stage",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The names of major habitats present in the biosphere are",
+        "option1": "Freshwater and terrestrial ecosystem",
+        "option2": "Marine and man-engineered ecosystem",
+        "option3": "All of the above",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Man engineered ecosystem consist of ____________",
+        "option1": "Desert and forest ecosystem",
+        "option2": "Grassland and tree",
+        "option3": "Agriculture and aquaculture ecosystem",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The sequence of organisms which feed on one another for their survival is known as",
+        "option1": "Passage of nutrients from one organism to other",
+        "option2": "Food chain",
+        "option3": "Trophic level",
+        "option4": "Biodiversity",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The food chain in the ecosystem helps to maintain",
+        "option1": "The feeding relationship in nature, thus biodiversity",
+        "option2": "Flow of energy in the ecosystem",
+        "option3": "Passage of nutrients in the ecosystem",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The phenomenon of accumulation of non-biodegradable contaminants in higher trophic level is known as",
+        "option1": "Bioprospecting",
+        "option2": "Bio magnification",
+        "option3": "Bio piracy",
+        "option4": "Bioremediation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The dissipation of energy during its transmission from one trophic level to another is in agreement with",
+        "option1": "First law of thermodynamic",
+        "option2": "Second law of thermodynamic",
+        "option3": "Third law of thermodynamic",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statement is not correct?",
+        "option1": "Flow of energy in an ecosystem is unidirectional, from herbivores to carnivores",
+        "option2": "In a food chain, transfer of materials take place through cycling",
+        "option3": "Top carnivores always get more energy than organisms present nearer to the producer",
+        "option4": "Unidirectional flow of energy presents the ecosystem from collapsing",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The science of systems of control in an ecosystem is known as",
+        "option1": "Syncology",
+        "option2": "Cybernetics",
+        "option3": "Biocoenoses",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The importance of ecosystem lies in",
+        "option1": "Transfer of food",
+        "option2": "Flow of energy",
+        "option3": "Cycling of materials",
+        "option4": "Both b and c",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The graphical representation of an organism position as well as function at successive trophic levels is called",
+        "option1": "Food chain",
+        "option2": "Food web",
+        "option3": "Ecological pyramid",
+        "option4": "Biogeochemical cycle",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The cyclization of matter through the atmosphere, hydrosphere, biosphere and lithosphere is known as",
+        "option1": "Food web",
+        "option2": "Material cycling",
+        "option3": "Biogeochemical cycle",
+        "option4": "Bio magnification",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In case of parasitic food chain, the shape of the pyramid of number is always",
+        "option1": "Upright",
+        "option2": "Linear",
+        "option3": "Inverted",
+        "option4": "Not certain",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The shape of the pyramid of biomass for a pond or any aquatic ecosystem is",
+        "option1": "Inverted",
+        "option2": "Upright",
+        "option3": "Linear",
+        "option4": "Not certain",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The graphical representation of the interrelation of producer and consumer in an ecosystem is termed as",
+        "option1": "Ecological niche",
+        "option2": "Ecological pyramid",
+        "option3": "Trophic levels",
+        "option4": "Food web",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The main source of energy in an ecosystem is",
+        "option1": "Sugar store in plants",
+        "option2": "Solar energy",
+        "option3": "Heat released during transpiration",
+        "option4": "Heat released during fermentation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A food chain consists of",
+        "option1": "Producers, consumers, decomposers",
+        "option2": "Producers, carnivores, decomposers",
+        "option3": "Primary producer, herbivores, carnivores",
+        "option4": "Producers, primary consumers, carnivores",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Upper part of the sea aquatic ecosystem contains",
+        "option1": "Plankton",
+        "option2": "Nekton",
+        "option3": "Benthos",
+        "option4": "Plankton and Nekton",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In the Nitrogen cycle, the transformation of gaseous nitrogen into nitrogen- containing compounds is performed primarily by",
+        "option1": "Fungi",
+        "option2": "Bacteria",
+        "option3": "Green plants",
+        "option4": "Herbivores",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "During the growth of a Tomato plant from a seed, it increases considerably in biomass. Which of the following materials, obtained from the environment, are necessary for the growth and increase in biomass?",
+        "option1": "Carbon dioxide and water",
+        "option2": "Carbon dioxide, oxygen and nitrogen",
+        "option3": "Water, nitrate and methane",
+        "option4": "Water, Carbon dioxide and mineral salts",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Nitrogen gas returns to the atmosphere by the action of",
+        "option1": "Nitrogen fixing bacteria",
+        "option2": "Denitrifying bacteria",
+        "option3": "Nitrifying bacteria",
+        "option4": "Nitrate fertilizers",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following is not a functional unit of an ecosystem?",
+        "option1": "Productivity",
+        "option2": "Stratification",
+        "option3": "Energy flow",
+        "option4": "Decomposition",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When the two ecosystems overlap each other, the area is called",
+        "option1": "Habitat",
+        "option2": "Niche",
+        "option3": "Ecotone",
+        "option4": "Ecotype",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following animals may occupy more than one trophic levels in the same ecosystem at the same time?",
+        "option1": "Goat",
+        "option2": "Frog",
+        "option3": "Sparrow",
+        "option4": "Lion",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a possible producer in an ecosystem?",
+        "option1": "Plants and some bacteria capable of producing their own food",
+        "option2": "Animals",
+        "option3": "Human beings",
+        "option4": "Fish",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statement is not true?",
+        "option1": "In an ecosystem, sustained development (evolution) is facilitated by a close physical proximity and functional matching between them.",
+        "option2": "In the anthroposystem, there is usually a significant physical displacement between the producer and the consumer.",
+        "option3": "In an ecosystem most of the materials are transferred from the producers to the recyclers and only a small fraction is passed through.",
+        "option4": "In the anthroposystem, the flow of material from the producers directly to the recyclers is a major proportion.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a problem associated with agroecosystems?",
+        "option1": "Creating a situation ideal for diseases and insect pests.",
+        "option2": "Lack of inorganic nutrient recycling.",
+        "option3": "Increased water and energy consumption.",
+        "option4": "Increased dependence on relatively few varieties of plants for food.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statement is not true?",
+        "option1": "Reservoirs are those parts of the biogeochemical cycles where a chemical is held in large quantities for long periods of time.",
+        "option2": "In exchange pools the chemicals are held for only a short time.",
+        "option3": "The inorganic chemicals get recycled through both the biological and geographical world.",
+        "option4": "Cloud is a reservoir of water.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The concentration of carbon in living matter is almost 100 times greater than its concentration in earth because",
+        "option1": "Carbon is produced by the living cells.",
+        "option2": "Living thing extract carbon from their non-living environment.",
+        "option3": "Carbon is biomagnified in living cells.",
+        "option4": "Carbon cannot be recycled.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The largest reservoir of nitrogen in our planet is",
+        "option1": "Oceans",
+        "option2": "Atmosphere",
+        "option3": "Biosphere",
+        "option4": "Fossil fuels",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is mycorrhizae?",
+        "option1": "Symbiotic relationship between plants",
+        "option2": "Mutualistic associations between plant roots and fungi.",
+        "option3": "A useful bacteria in the carbon cycle.",
+        "option4": "Useful bacteria in the phosphorus cycle.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are major players in the phosphorus cycle?",
+        "option1": "Human beings and fish",
+        "option2": "Human beings and marine birds.",
+        "option3": "Fish and marine birds.",
+        "option4": "Animal and fish.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Eutrophication is",
+        "option1": "An improved water quality status of lakes.",
+        "option2": "The result of accumulation of plant nutrients and minerals in water bodies.",
+        "option3": "A process in the carbon cycles.",
+        "option4": "A water purification technique.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following terminologies is not associated with the vertical structure of forest?",
+        "option1": "Canopy",
+        "option2": "Understory",
+        "option3": "Forest floor",
+        "option4": "First floor",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Most fertile and productive soils in the world have developed under grassland. What could be the reason for this?",
+        "option1": "The rainfall in grassland is inadequate and hence excessive leaching of minerals is blocked.",
+        "option2": "The humus and partially decomposed organic materials expand its capability to retain water.",
+        "option3": "Both a and b.",
+        "option4": "None of the above.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "An _______ Consists of Biotic and Abiotic components",
+        "option1": "Environment",
+        "option2": "Ecosystem",
+        "option3": "Ecology",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Community of living organisms is a part of an",
+        "option1": "Environment",
+        "option2": "Universe",
+        "option3": "Ecosystem",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Non-living organisms are a part of an_____",
+        "option1": "Ecosystem",
+        "option2": "Ecology",
+        "option3": "Environment",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Biotic and Abiotic components are linked through______",
+        "option1": "Energy Flow",
+        "option2": "Nutrient Cycle",
+        "option3": "(a) and (b) Both",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Energy flow in Ecosystem links ____ and______together.",
+        "option1": "Biotic and Abiotic components",
+        "option2": "Organisms and plants",
+        "option3": "Fruits and Flowers",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Nutrient cycle plays an important role in ______together biotic and abiotic components.",
+        "option1": "Combining",
+        "option2": "Linking",
+        "option3": "Differentiating",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Ecosystem can be of any _____",
+        "option1": "Size",
+        "option2": "Shape",
+        "option3": "Field",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Energy flow involves all ______ to play a role",
+        "option1": "Components",
+        "option2": "Trees",
+        "option3": "Animals",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Ecosystem consists of components which play role as ______ consumer.",
+        "option1": "Primary only",
+        "option2": "Secondary only",
+        "option3": "All- primary/secondary/tertiary",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Biotic and Abiotic components in Ecosystem interact _______ with each other.",
+        "option1": "Occasionally",
+        "option2": "Continually",
+        "option3": "Rarely",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The dead organic matter from living organisms is part of ________.",
+        "option1": "Soil",
+        "option2": "Environment",
+        "option3": "Ecosystems",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "_______ Organisms can exchange between soil and water.",
+        "option1": "Dead",
+        "option2": "Living",
+        "option3": "Both a & b",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Ecosystems are of _____ and _____ types.",
+        "option1": "Aquatic and terrestrial",
+        "option2": "Living and Non-living",
+        "option3": "Clean and Unclean",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Coral reef is an Example of _______ type of Ecosystem.",
+        "option1": "Terrestrial",
+        "option2": "Aquatic",
+        "option3": "Organic",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Tundra is an example of _______ type Ecosystem.",
+        "option1": "Marine",
+        "option2": "Terrestrial",
+        "option3": "Microbiological",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The essential components of Ecosystem is ,",
+        "option1": "Energy Source",
+        "option2": "Biotic and abiotic components",
+        "option3": "(a) and (b) Both",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Biotic and Abiotic Components involve",
+        "option1": "Biochemical Composition",
+        "option2": "Biochemical cycling",
+        "option3": "Biochemical Balances",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "_______ Chain involves Energy transformation",
+        "option1": "Food",
+        "option2": "Reactions",
+        "option3": "Cyclisation",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_______ Chain and _____ web involves energy transformation.",
+        "option1": "Food, Food",
+        "option2": "Producer, Consumer",
+        "option3": "Producer, Food",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "All ecosystems involve _____ transformations.",
+        "option1": "Ecology",
+        "option2": "Energy",
+        "option3": "Cycle",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "All Ecosystems involve _______ cycling.",
+        "option1": "Biological",
+        "option2": "Geological",
+        "option3": "Biogeochemical",
+        "option4": "Chemical",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Biogeochemical cycling links _____ and _______ components in Ecosystem.",
+        "option1": "Plants and Animals",
+        "option2": "Living and Non-living",
+        "option3": "Organic and Inorganic",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "_______ eats plants and its products.",
+        "option1": "Carnivores",
+        "option2": "Herbivores",
+        "option3": "Omnivores",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "911 ______ survive on herbivores.",
+        "option1": "Plants",
+        "option2": "Carnivores",
+        "option3": "Aquatic",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "912 Those which consumes dead plant and animal material.",
+        "option1": "Detritivores",
+        "option2": "Carnivores",
+        "option3": "Herbivores",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "913 Detritivores, Carnivores and Herbivores are part of",
+        "option1": "Food chain",
+        "option2": "World",
+        "option3": "Ecosystem",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "914 Energy flows from ______ to ______ trophic level.",
+        "option1": "Bottom, Top",
+        "option2": "Top, Bottom",
+        "option3": "Earth, Moon",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "915 Amount of Energy _____ from Bottom to Top trophic level.",
+        "option1": "Increases",
+        "option2": "Decreases",
+        "option3": "Remain same",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "916 In food chain, Grass hopper is _______ consumer.",
+        "option1": "Primary",
+        "option2": "Secondary",
+        "option3": "Tertiary",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "917 Snake is ______ consumer in food chain.",
+        "option1": "Secondary",
+        "option2": "Tertiary",
+        "option3": "Primary",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "918 In the presence of Sun and water _____ Produces Food.",
+        "option1": "Decomposer",
+        "option2": "Producer",
+        "option3": "Consumer",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "919 Fungi act as ______ in food chain.",
+        "option1": "Decomposer",
+        "option2": "Producer",
+        "option3": "Consumer",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "920 Decomposer Helps to send ______ to Producers.",
+        "option1": "Components",
+        "option2": "Nutrients",
+        "option3": "Constituents",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "921 Grass is categorized as _____ in grazer food chain.",
+        "option1": "Plant",
+        "option2": "Producer",
+        "option3": "Vegetable",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "922 Hawk act as _______ consumer grazer food chain.",
+        "option1": "Primary",
+        "option2": "Secondary",
+        "option3": "Tertiary",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "923 _____ and ______ are types of food chains.",
+        "option1": "Grazer, Detritus",
+        "option2": "Natural, Synthetic",
+        "option3": "Organic, Inorganic",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "924 In ____ Food chain, Dead organic matter is serves as principal energy input.",
+        "option1": "Detritus",
+        "option2": "Flowing",
+        "option3": "Original",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "925 Any food chain has no more than ___ Links.",
+        "option1": "4 to 5",
+        "option2": "3",
+        "option3": "3 to 4",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "926 The interconnected food chains form _____.",
+        "option1": "Ecosystem",
+        "option2": "Environment",
+        "option3": "Food Web",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "927 Food webs are very ____.",
+        "option1": "Simple",
+        "option2": "Small",
+        "option3": "Complicated",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "928 Most animals are part of _____ food chain.",
         "option1": "One",
         "option2": "Two",
         "option3": "Three",
-        "option4": "Four",
-        "Answer": "option2",
-        "marks": 1
-    },
-    {
-        "question": "How can we increase the efficiency of water irrigation systems?",
-        "option1": "By pouring unnecessary water on the land",
-        "option2": "By not supplying adequate water",
-        "option3": "By applying the drip irrigation method",
-        "option4": "By using more manure",
-        "Answer": "option3",
-        "marks": 1
-    },
-    {
-        "question": "What are the two main types of drip irrigation?",
-        "option1": "Surface and Subsurface drip irrigation",
-        "option2": "Under and Subsurface drip irrigation",
-        "option3": "Top and Surface drip irrigation",
-        "option4": "Top and Under drip irrigation",
+        "option4": "None of the above",
         "Answer": "option1",
         "marks": 1
     },
     {
-        "question": "Why should people implement rainwater harvesting?",
-        "option1": "In order to play with the water",
-        "option2": "In order to use during scarcity of water",
-        "option3": "In order to pour the rainwater directly into the sewage",
-        "option4": "In order to pass time",
+        "question": "929 Any food web indicates that ____ is connected to ______ else.",
+        "option1": "Everything, Everything",
+        "option2": "Nothing, Everything",
+        "option3": "Everything, Nothing",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "930 Ecological pyramid is a ______ representation.",
+        "option1": "Geological",
+        "option2": "Pyramidal",
+        "option3": "Graphical",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "931 Ecological Pyramid shows _____ productivity.",
+        "option1": "Biome",
+        "option2": "Biomass",
+        "option3": "Organic",
+        "option4": "None of the above",
         "Answer": "option2",
         "marks": 1
     },
+    {
+        "question": "932 Tertiary consumers are shown at ________ of Ecological pyramid.",
+        "option1": "Base",
+        "option2": "Top",
+        "option3": "Corner",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "933 Ecological pyramid is ______ in shape.",
+        "option1": "Circular",
+        "option2": "Triangular",
+        "option3": "Oval",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "934 Ecological pyramid Consists of ______ and ______ in sequence.",
+        "option1": "Plants, Animals",
+        "option2": "Producers, Consumers",
+        "option3": "Consumers, Producers",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "935 Productivity pyramid shows flow of ______ in food chain.",
+        "option1": "Production",
+        "option2": "Turnover",
+        "option3": "Energy",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "936 Productivity is expressed as _____ units.",
+        "option1": "Grams per meter2 per year",
+        "option2": "Calories per meter2 per year",
+        "option3": "Both a & b",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "937 In all Ecological pyramid, producers are always at ______.",
+        "option1": "Centre",
+        "option2": "Bottom",
+        "option3": "Top",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "938 ______ % energy is lost to environment in pyramid of energy flow.",
+        "option1": "25",
+        "option2": "10",
+        "option3": "10 to 25",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "939 In _______ pyramid each step as 10 % size of previous step.",
+        "option1": "Productivity",
+        "option2": "Ecological",
+        "option3": "Biomass",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "940 Pyramid of numbers is Graphical representation of ______ of each level in food chain.",
+        "option1": "Production",
+        "option2": "Population",
+        "option3": "Consumer",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "941 The _______ itself is a major Ecosystem.",
+        "option1": "Air",
+        "option2": "Sun",
+        "option3": "Earth",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "942 Island is an Example of _______ Ecosystem.",
+        "option1": "River",
+        "option2": "Earth",
+        "option3": "Ocean",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "943 Forests are part of ______ Ecosystem.",
+        "option1": "Tropical",
+        "option2": "Terrestrial",
+        "option3": "Marine",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "944 Regional Ecosystem governed by temperature and other atmospheric parameters are known as",
+        "option1": "Biomass",
+        "option2": "Biome",
+        "option3": "Biotic",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "945 Grass lands have ______ and ______ grasses.",
+        "option1": "Thick, Thin",
+        "option2": "Dense, Tall",
+        "option3": "Dense, Thick",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In coniferous forests _____ are long and cold.",
+        "option1": "Stones",
+        "option2": "Winter",
+        "option3": "Seasons",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "In Deciduous Forests ______ are warm.",
+        "option1": "Summer",
+        "option2": "All seasons",
+        "option3": "No seasons",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Short, Strong, Leafless, thorny plants are ______.",
+        "option1": "Cacti",
+        "option2": "Berry",
+        "option3": "Legumes",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Chaparral biome are found in _______.",
+        "option1": "Austria",
+        "option2": "Australia",
+        "option3": "South Africa",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Land is always snow covered in _______.",
+        "option1": "Tundra",
+        "option2": "Forest",
+        "option3": "Tropical",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Biome above 10000 feet is _____",
+        "option1": "Tundra",
+        "option2": "Taiga",
+        "option3": "Alpine",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Biome just below Himalayan mountain is ______.",
+        "option1": "Alpine",
+        "option2": "Wet Lands",
+        "option3": "Taiga",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Alpine has summer from _____ to _______.",
+        "option1": "March, May",
+        "option2": "June, September",
+        "option3": "April, June",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "In Alpine October to May is _____ Season.",
+        "option1": "Monsoon",
+        "option2": "Winter",
+        "option3": "Summer",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "In Alpine animals are ______ in height.",
+        "option1": "Normal",
+        "option2": "Short",
+        "option3": "Average",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "In Alpine, animals have _____ legs.",
+        "option1": "Long",
+        "option2": "Short",
+        "option3": "Bent",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "In Alpine animals have Large lungs, to survive ______ altitude and ______ O2 content.",
+        "option1": "High, Low",
+        "option2": "Low, High",
+        "option3": "High, High",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "In Alpine, animals have _____ Blood vessels to store more _______.",
+        "option1": "More, haemoglobin",
+        "option2": "Large, Blood",
+        "option3": "Thick, O2",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "In Alpine, ______ also have adaptations as animals.",
+        "option1": "Plants",
+        "option2": "Humans",
+        "option3": "Aquatic",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Just like in Alpine, in _______ also have adaptations of Lungs.",
+        "option1": "Nepal",
+        "option2": "Canada",
+        "option3": "India",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "People in Nepal/ Tibet is called as ______.",
+        "option1": "Sherapas",
+        "option2": "Gorkha",
+        "option3": "Himalayan",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "About ____ % area of earth is Oceans.",
+        "option1": "75",
+        "option2": "40",
+        "option3": "30",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Plants in/near water are _____.",
+        "option1": "Aquatic",
+        "option2": "Aquifers",
+        "option3": "Geodetic",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Aquatic plants prepare food by ______.",
+        "option1": "Metabolism",
+        "option2": "Photosynthesis",
+        "option3": "Photolysis",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Access of O2 is more in _______ Ocean water.",
+        "option1": "Deep",
+        "option2": "Shallow",
+        "option3": "Entire",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Photosynthesis does not take place in _____ ocean water.",
+        "option1": "Deep",
+        "option2": "Shallow",
+        "option3": "Both above",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Due to absence of photosynthesis, deep Ocean is rich in ______.",
+        "option1": "Minerals",
+        "option2": "O2",
+        "option3": "Aquifers",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Minerals/Oils mainly occur in ______.",
+        "option1": "Deep Ocean",
+        "option2": "Shallow Ocean",
+        "option3": "Air",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Ocean Ecosystem gives ______.",
+        "option1": "Minerals/Oils/Salts",
+        "option2": "Only Minerals",
+        "option3": "Only Oils",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Study of relationship of organisms to their environment is",
+        "option1": "Ecology",
+        "option2": "Palaeontology",
+        "option3": "Geology",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "What is true of ecosystem?",
+        "option1": "Primary consumers are least dependent upon producers",
+        "option2": "Primary consumers equal in number as producers",
+        "option3": "Producers are more than primary consumers",
+        "option4": "Secondary consumers are the largest and most powerful",
+        "Answer": "option3",
+        "marks": 2
+      },
+      {
+        "question": "Greenhouse effect is warming due to",
+        "option1": "Infra-red rays reaching earth",
+        "option2": "Moisture layer in atmosphere",
+        "option3": "Increase in temperature due to increase in carbon dioxide Concentration of atmosphere",
+        "option4": "Ozone layer of atmosphere",
+        "Answer": "option3",
+        "marks": 2
+      },
+      {
+        "question": "Name of Gas released during Bhopal tragedy was",
+        "option1": "Methyl isocyanate",
+        "option2": "Potassium Isothiocyanate",
+        "option3": "Sodium Isothiocyanate",
+        "option4": "Ethyl Isothiocyanate",
+        "Answer": "option1",
+        "marks": 2
+      },
+      {
+        "question": "Soil water available to roots is",
+        "option1": "Surface water",
+        "option2": "Hygroscopic water",
+        "option3": "Gravitational water",
+        "option4": "Capillary water",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "975 Pyramid of numbers deals with number of ____________",
+        "option1": "Species in area",
+        "option2": "Individuals in community",
+        "option3": "Individuals in a trophic level",
+        "option4": "Subspecies in community",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "976 The Taj Mahal is threatened due to the effect of",
+        "option1": "Oxygen",
+        "option2": "Hydrogen",
+        "option3": "Chlorine",
+        "option4": "Sulphur-dioxide",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "977 Which of the following is the most stable ecosystem?",
+        "option1": "Mountain",
+        "option2": "Ocean",
+        "option3": "Forest",
+        "option4": "Desert",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "978 Nature's hydrological cycle involves",
+        "option1": "Evaporation, condensation",
+        "option2": "Condensation, precipitation",
+        "option3": "Evaporation, precipitation",
+        "option4": "Evaporation, condensation and precipitation",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "979 Population of species decreasing over a period called as",
+        "option1": "Extinct",
+        "option2": "Eliminated",
+        "option3": "Endangered",
+        "option4": "Rare",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "980 The closely related morphologically similar identical populations, but reproductively isolated, are designated as",
+        "option1": "Clones",
+        "option2": "Sibling species",
+        "option3": "Clines",
+        "option4": "Denies",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "981 Which country has the greatest contribution for the hole formation in ozone layer?",
+        "option1": "Russia",
+        "option2": "Japan",
+        "option3": "USA",
+        "option4": "Germany",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "982 If there was no CO2 in earth’s atmosphere, the temperature of earth’s surface would be",
+        "option1": "Higher than the present",
+        "option2": "Dependent on the amount of oxygen in the atmosphere",
+        "option3": "Same as present",
+        "option4": "Less than the present",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "983 In the grazing food chain first energy transfer is from _______.",
+        "option1": "Plant",
+        "option2": "Fish",
+        "option3": "Animals",
+        "option4": "Sun",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "984 Energy transfer from one trophic level to other, in a food chain is",
+        "option1": "10%",
+        "option2": "20%",
+        "option3": "1%",
+        "option4": "2%",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "985 The final stable community in ecological succession is",
+        "option1": "Climax",
+        "option2": "Sere",
+        "option3": "Pioneers",
+        "option4": "Carnivores",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "986 Which is the result of damage to relative biological effectiveness?",
+        "option1": "High temperature",
+        "option2": "Pollution",
+        "option3": "Radiation",
+        "option4": "Low temperature",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "987 The entire biosphere is distributed into following number of biogeographic regions:",
+        "option1": "Six",
+        "option2": "Eight",
+        "option3": "Nine",
+        "option4": "Twelve",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "988 Biodiversity hotspots are also known as",
+        "option1": "Evergreen forests of tropic region.",
+        "option2": "Biologically rich areas with large percentage in endemic species.",
+        "option3": "Desert area",
+        "option4": "All of the above.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "989 Species with very limited distribution over relatively small locality is called",
+        "option1": "Endangered species",
+        "option2": "Extinct species.",
+        "option3": "Endemic species.",
+        "option4": "None of the above.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "990 The major threats to biodiversity is due to",
+        "option1": "Habitat loss/degradation",
+        "option2": "Pollution and global climate changes",
+        "option3": "Extinction of species by aggressive non-native species",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "991 Conservation of genetic resources in natural populations of plant or animal species is known as",
+        "option1": "In-situ conservation",
+        "option2": "Ex-situ conservation",
+        "option3": "Biodiversity conservation",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "992 The concept of biodiversity hotspots is given by",
+        "option1": "F.P. Odum.",
+        "option2": "Norman Myers",
+        "option3": "James Lovelock",
+        "option4": "Rachel Carson",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "993 Which of the following is an endemic species found in western Ghats, India?",
+        "option1": "Marsh Mongoose",
+        "option2": "Indian Rhinoceros",
+        "option3": "Brown Palm civet",
+        "option4": "Flying Squirrel",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "994 Which of the following is not a world heritage site of India?",
+        "option1": "Sunderbans National Park.",
+        "option2": "Manas Wildlife Sanctuary.",
+        "option3": "Sanjay Gandhi National Park",
+        "option4": "Kaziranga National Park.",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "995 Which of the following is a Ramsar site in India?",
+        "option1": "Sambhar Lake",
+        "option2": "Dal Lake",
+        "option3": "Ansupa Lake",
+        "option4": "Dimna Lake",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "996 Which of the following is an in-situ tiger reserves in India?",
+        "option1": "Dudhwa",
+        "option2": "Gulf of Myanmar",
+        "option3": "Western Ghats",
+        "option4": "Agasthyamalai.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "997 Which of the following is not a Biosphere reserve of India?",
+        "option1": "Sundarbans",
+        "option2": "Great Nicobar",
+        "option3": "Periyar national park",
+        "option4": "Khangchenzonga",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "998 Which of the following is a biodiversity hotspot in India?",
+        "option1": "Succulent karoo",
+        "option2": "Mediterranean basin",
+        "option3": "Caribbean Island",
+        "option4": "Eastern Himalayas",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "999 Which of the following animal is endemic to India?",
+        "option1": "Snow Leopard",
+        "option2": "Nilgiri Tahr",
+        "option3": "Asian Elephant",
+        "option4": "Red colobus monkey",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "1000 The variety and numbers of living organisms and Ecosystems is called",
+        "option1": "Biodiversity",
+        "option2": "Biopiracy",
+        "option3": "Biogeography",
+        "option4": "Bioprospecting",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Variations of genes within the same species is",
+        "option1": "Genetic diversity",
+        "option2": "Species diversity",
+        "option3": "Biodiversity",
+        "option4": "Ecosystem",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Extinction of weaker species by an aggressive alien species is the result of",
+        "option1": "endemism of weaker species",
+        "option2": "habitat loss",
+        "option3": "the domino effect",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is not a zone of Biosphere?",
+        "option1": "Core zone",
+        "option2": "Buffer zone",
+        "option3": "Transition zone",
+        "option4": "None of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an in-situ conservation measures taken by India?",
+        "option1": "project elephant",
+        "option2": "project lion",
+        "option3": "project rhino",
+        "option4": "all of the above",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Lion-Tailed Macaque is found in",
+        "option1": "western Ghats",
+        "option2": "Eastern Ghats",
+        "option3": "Caucasus",
+        "option4": "western Himalaya",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The dodo was extinct due to",
+        "option1": "pollution",
+        "option2": "invasion of non-native species",
+        "option3": "over-exploitation of resources",
+        "option4": "global environmental change",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Spot the site, which is not a biodiversity hotspot?",
+        "option1": "Brazil’s Cerrado",
+        "option2": "Central Chile",
+        "option3": "California floristic province",
+        "option4": "Pakistan",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The species with thin population localised within restricted area is said to be",
+        "option1": "rare",
+        "option2": "threatened",
+        "option3": "endangered",
+        "option4": "vulnerable",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The reason for certain animals getting endangered are",
+        "option1": "hunting",
+        "option2": "pollution of environment",
+        "option3": "natural calamities",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The red data book maintains a record of",
+        "option1": "plants and animals present in the whole world",
+        "option2": "relationship between man and biosphere",
+        "option3": "plants and animals which are known to be endangered",
+        "option4": "forest wealth in whole world",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Planting trees in a deforested land is known as",
+        "option1": "afforestation",
+        "option2": "deforestation",
+        "option3": "silviculture",
+        "option4": "sericulture",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a national park protection is given to",
+        "option1": "the entire flora",
+        "option2": "the entire fauna",
+        "option3": "the plants and animals",
+        "option4": "the entire ecosystem",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The endangered animal of the following is",
+        "option1": "crow",
+        "option2": "parrot",
+        "option3": "tiger",
+        "option4": "cock",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The scientific study of the geographic distribution of plants and animals is called",
+        "option1": "Biodiversity",
+        "option2": "Biogeography",
+        "option3": "Ecology",
+        "option4": "Biology",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "The variation of life forms within an ecosystem or on earth is named as:",
+        "option1": "biome",
+        "option2": "biodiversity",
+        "option3": "biological variety",
+        "option4": "none of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a type of biodiversity?",
+        "option1": "genetic",
+        "option2": "species",
+        "option3": "biology",
+        "option4": "none of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "_______________ is the number of species found in a particular area or ecosystem.",
+        "option1": "alpha biodiversity",
+        "option2": "delta biodiversity",
+        "option3": "species biodiversity",
+        "option4": "none of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Measurement of overall diversity for different ecosystems within a region comes under which of the following levels?",
+        "option1": "alpha",
+        "option2": "beta",
+        "option3": "gamma",
+        "option4": "none of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are types of biodiversity?",
+        "option1": "consumptive and productive",
+        "option2": "only productive uses",
+        "option3": "only consumptive uses",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Several agricultural disaster occurs due to lack of biodiversity. Which of the following term is used to describe “lack of biodiversity”?",
+        "option1": "aquaculture",
+        "option2": "pollination",
+        "option3": "monoculture",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Irish potato famine is an agriculture disaster. In which year it had occurred?",
+        "option1": "1845",
+        "option2": "1981",
+        "option3": "1972",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "US Southern corn leaf blight epidemic is an agricultural disaster of 1970. Which of following contribute as a major cause for it?",
+        "option1": "Biome",
+        "option2": "Bioculture",
+        "option3": "Monoculture",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following statement is correct for India?",
+        "option1": "India is a 7th largest country in world with megadiversity",
+        "option2": "India has no rank in world related to biodiversity",
+        "option3": "India is the third largest country in Asia with megadiversity",
+        "option4": "Option a & c",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following is major biodiversity in West Bengal?",
+        "option1": "Deccan Peninsula-Chhota Nagpur",
+        "option2": "Deccan Peninsula-Deccan south",
+        "option3": "Deccan Peninsula-central highlands",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following has largest desert of India?",
+        "option1": "Kutchchh",
+        "option2": "West coast",
+        "option3": "Nicobars",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is Islands?",
+        "option1": "Andaman and Nicobars",
+        "option2": "Lakshadweep",
+        "option3": "Majoli",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are semi arid region?",
+        "option1": "Punjab, Gujarat, Rajputana",
+        "option2": "Malabar plains",
+        "option3": "Nicobars",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Himalayan region is divided into north west, west, central and east Himalayas. These are known as",
+        "option1": "Biotic provinces",
+        "option2": "Mountain ranges",
+        "option3": "Abiotic regions",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Alpine zone of Himalaya lies very high and is full of particular types of trees. Which of the following is correct description for types of tree?",
+        "option1": "12000+ft altitude, timber trees",
+        "option2": "5500-12000 ft altitude, Kail and Chir, deoder",
+        "option3": "5000 ft altitude, Shisham trees",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Ladakh mountains and Tibetan plateau are part of",
+        "option1": "Trans Himalaya region",
+        "option2": "Desert",
+        "option3": "Semi Arid",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Kuchch and Thar comprise majority of",
+        "option1": "Western Ghats",
+        "option2": "Himalayan region",
+        "option3": "Deserts",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Aravali mountain are covering states such as",
+        "option1": "Gujarat, M.P, Rajasthan",
+        "option2": "Ladakh mountain",
+        "option3": "Coastal region",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the river plains extend up to Himalayan foothills?",
+        "option1": "The Gangetic plains",
+        "option2": "Punjab plains",
+        "option3": "Brahmaputra plain",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The north-east India comprises of",
+        "option1": "Himalayan hill range",
+        "option2": "Aravali hill range",
+        "option3": "Non-Himalayan range",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Cherrapunji is situated in which of the following regions in India?",
+        "option1": "The Western Ghats",
+        "option2": "The North-East Ghats",
+        "option3": "The North India",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following places receive maximum rainfall in India?",
+        "option1": "The North-East India",
+        "option2": "Non-Himalayan hills",
+        "option3": "Cherrapunji in the North-East India",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In which of the following is Lakshadweep situated?",
+        "option1": "Arabian Sea",
+        "option2": "Bay of Bengal",
+        "option3": "Atlantic Ocean",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following animals comes under the category of 'Critically endangered species'?",
+        "option1": "Sumatran Rhinos",
+        "option2": "Asiatic lion",
+        "option3": "Indian tiger",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following animals comes under the category of 'Threatened species'?",
+        "option1": "Giant Panda",
+        "option2": "Mouse",
+        "option3": "Dog",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Uncontrolled hybridization of different species of animals/plants leads to which of the following pollution?",
+        "option1": "Genetic pollution",
+        "option2": "Homogenization",
+        "option3": "Genetic swamping",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Genetic pollution may originate due to one of the following. Which of the following may be a possible reason?",
+        "option1": "Uncontrolled hybridization",
+        "option2": "Unprofitability",
+        "option3": "Natural phenomenon",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following is considered to be a major threat to global biodiversity?",
+        "option1": "Genetically modified species",
+        "option2": "Global warming",
+        "option3": "Pollination",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The 'Global Zoo Ecoregions' is a system derived to conserve biodiversity. Which of the following has taken this initiative?",
+        "option1": "The World Wildlife Fund",
+        "option2": "Africa",
+        "option3": "Latin America",
+        "option4": "World Ecological Fund",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following acronyms stands for threats to biodiversity: Habitat destruction, Invasive species, Pollution, Population explosion, and Overharvesting?",
+        "option1": "HIPPO",
+        "option2": "HIPPUO",
+        "option3": "HINPPEIO",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Poaching of wild animals is very common. Which of following is main reason?",
+        "option1": "Animals killed for their organs",
+        "option2": "Animals are killed only for food",
+        "option3": "Animals are killed as they are overpopulated",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Conservation on International Trade in Endangered Species [CITES] and World Heritage Convention [WHC] was held in years:",
+        "option1": "1976 & 1977 respectively",
+        "option2": "1981 & 1985",
+        "option3": "1986 & 1991",
+        "option4": "2000 & 2011",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "The Hailey National park established in 1935 was renamed as,",
+        "option1": "Jim Corbett national park",
+        "option2": "Sundarban national park",
+        "option3": "Kanha national park",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The totality of genes, species and ecosystem of a region is called as",
+        "option1": "Bio-society",
+        "option2": "Bio-diversity",
+        "option3": "Bio-living",
+        "option4": "Bio-physics",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Approximately ------------% of the known species are insects.",
+        "option1": "31",
+        "option2": "21",
+        "option3": "11",
+        "option4": "61",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Science knows only-----------species of mammals.",
+        "option1": "2100",
+        "option2": "2760",
+        "option3": "5450",
+        "option4": "1111",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Thar in India is a _________",
+        "option1": "Desert",
+        "option2": "Sea",
+        "option3": "River",
+        "option4": "Muddy land",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Chilka lake is in",
+        "option1": "Maharashtra",
+        "option2": "Bihar",
+        "option3": "Orissa",
+        "option4": "Utter Pradesh",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The evolution of new species is called as",
+        "option1": "Citation",
+        "option2": "Mutation",
+        "option3": "Mitigation",
+        "option4": "Speciation",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "The number of species in ecological community is known as",
+        "option1": "Evenness",
+        "option2": "Equitability",
+        "option3": "Species richness",
+        "option4": "Speciation",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The diversity within the community is involved in",
+        "option1": "Sigma diversity",
+        "option2": "Beta diversity",
+        "option3": "Gamma diversity",
+        "option4": "Alpha diversity",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "About ----------% of the Indian landmass is occupied by Deccan Peninsula.",
+        "option1": "25",
+        "option2": "35",
+        "option3": "42",
+        "option4": "61",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Morphin is a _______use of biodiversity.",
+        "option1": "Chemical",
+        "option2": "Physical",
+        "option3": "Medicinal",
+        "option4": "Mechanical",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Plant based synthetic product are called as",
+        "option1": "Botanochemical",
+        "option2": "Biochemical",
+        "option3": "Biodiochemical",
+        "option4": "Oxichemical",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "New species entering a geographical region are called as ________ species.",
+        "option1": "Exotic",
+        "option2": "Extic",
+        "option3": "Toxic",
+        "option4": "Exto exotic",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Exotic species are called",
+        "option1": "Extra species",
+        "option2": "Modular species",
+        "option3": "Alien species",
+        "option4": "Modern species",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "WCMC stands for __________________and it is executing agency of UN government.",
+        "option1": "World conservation monitoring centre",
+        "option2": "Wild conservation monitoring centre",
+        "option3": "World control monitoring centre",
+        "option4": "World conservation management centre",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "The world's first national park is ______which is located in USA.",
+        "option1": "Yellow park",
+        "option2": "Yellow wildlife",
+        "option3": "Yellow stone",
+        "option4": "Yellow centre",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The national park near Sydney is",
+        "option1": "Roger",
+        "option2": "Royal",
+        "option3": "Yellow stone",
+        "option4": "Sydney Harbour",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The Jim Corbett National Park is near",
+        "option1": "Nainital",
+        "option2": "Delhi",
+        "option3": "Mumbai",
+        "option4": "Nagpur",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "First national park established in India is",
+        "option1": "Jawaharlal Nehru National Park",
+        "option2": "Salim Ali National Park",
+        "option3": "Dr. Bose National Park",
+        "option4": "Jim Corbett National Park",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Jim Corbett National Park is in",
+        "option1": "Uttarakhand",
+        "option2": "Delhi",
+        "option3": "Haryana",
+        "option4": "Punjab",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Tadoba National Park is in",
+        "option1": "Gujarat",
+        "option2": "Maharashtra",
+        "option3": "MP",
+        "option4": "UP",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "At present, there are _______ biosphere reserves in India.",
+        "option1": "3",
+        "option2": "24",
+        "option3": "20",
+        "option4": "13",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The biosphere reserve consists of _______ zones.",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3",
+        "option4": "4",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The outermost part of the biosphere reserve is the",
+        "option1": "Core zone",
+        "option2": "Buffer zone",
+        "option3": "Transitional zone",
+        "option4": "Semi-buffer zone",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Undisturbed and legally protected ecosystem comes under ____ of biosphere reserve.",
+        "option1": "Core zone",
+        "option2": "Transition zone",
+        "option3": "Preserve zone",
+        "option4": "Buffer zone",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "____ lake in Sikkim has been declared sacred by the people to save aquatic life from degradation.",
+        "option1": "Khecheopalri",
+        "option2": "Dal",
+        "option3": "Nal",
+        "option4": "Zorich",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Germplasm banks or gene banks are established for _____ conservation of biodiversity.",
+        "option1": "In situ",
+        "option2": "Ex situ",
+        "option3": "Over situ",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Storage of germplasm at ultra-low temperature is called___",
+        "option1": "Cryopreservation",
+        "option2": "Preservation germ",
+        "option3": "Germ-pre",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In cryopreservation, storage of germplasm at ultra-low temperature is preserved. That ultra-low temperature is",
+        "option1": "-196 degree Celsius in liquid nitrogen",
+        "option2": "196 degrees Celsius in liquid nitrogen",
+        "option3": "0 degree Celsius in liquid nitrogen",
+        "option4": "100 degrees Celsius in liquid nitrogen",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "The book list containing a record of threatened species is called as",
+        "option1": "Yellow data book",
+        "option2": "Red data book",
+        "option3": "Orange data book",
+        "option4": "Wild data book",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Quinine, the drug used for the treatment of ______, is an example of the benefits of biodiversity.",
+        "option1": "Bone – T.B",
+        "option2": "Cancer",
+        "option3": "Cholera",
+        "option4": "Malaria",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "The name of the largest flying bird of today is",
+        "option1": "California condor",
+        "option2": "Mangor bird",
+        "option3": "Eagle- sofara",
+        "option4": "Eagle- sky- sulfur",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The edge effect ____ the amount of habitat typical to an ecosystem.",
+        "option1": "Increases",
+        "option2": "Reduces",
+        "option3": "Keeps same",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "The historic convention on biological diversity held in Rio de Janeiro in 1992 is known as",
+        "option1": "CITES convention",
+        "option2": "The Earth Summit",
+        "option3": "G-16 summit",
+        "option4": "MAB programme",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "The term Alpha diversity refers to",
+        "option1": "Genetic diversity",
+        "option2": "Community and ecosystem diversity",
+        "option3": "Species diversity",
+        "option4": "Diversity among the plants",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The water vapor present in the unit volume of air is called:",
+        "option1": "Relative Humidity",
+        "option2": "Static Humidity",
+        "option3": "Absolute Humidity",
+        "option4": "Total Humidity",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The plants which bloom when the light duration is more than 12 hours per day are known as:",
+        "option1": "Long day plants",
+        "option2": "Short day plants",
+        "option3": "Day neutral plants",
+        "option4": "Long day and short night plants",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Any unfavorable alteration of the environment may be called as",
+        "option1": "Eutrophication",
+        "option2": "Environmental Pollution",
+        "option3": "Biomagnification",
+        "option4": "Bioaccumulation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Extremely dry or cold climate develop soils very ________",
+        "option1": "Slowly",
+        "option2": "Fastly",
+        "option3": "at moderate rate",
+        "option4": "Climate does not have any effect on soil development",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The uppermost layer of the soil is called as ________ which consists of humus and some inorganic mineral particles.",
+        "option1": "C Horizon",
+        "option2": "B Horizon",
+        "option3": "A Horizon",
+        "option4": "O Horizon",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "C-Horizon of soil helps in _______",
+        "option1": "To determine pH of soil",
+        "option2": "Influences soils rate of water absorption",
+        "option3": "Influences soils rate of water retention",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are major causes of land degradation?",
+        "option1": "Soil erosion",
+        "option2": "Deforestration",
+        "option3": "Water logging",
+        "option4": "Desertification",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not type of pesticide?",
+        "option1": "Incecticides",
+        "option2": "Fungicides",
+        "option3": "Natural Fertilizers",
+        "option4": "Redenticides",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not an advantage of using insecticides?",
+        "option1": "Its use in short term has increased the amount of food as damage by pest is decreased",
+        "option2": "Its use is more economic",
+        "option3": "Current health problems are reduced due to control on mosquitoes",
+        "option4": "It leads to phenomenon of biomagnification.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Crop rotation is the technique to ______",
+        "option1": "Control Pest",
+        "option2": "Enhance Soil Fertility",
+        "option3": "Reduce Soil Erosion",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which option below is not an example of pollution?",
+        "option1": "Smog in Mumbai",
+        "option2": "Overpopulation",
+        "option3": "Nuclear Waste",
+        "option4": "Untreated Sewage",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The phenomenon of the entry of toxic chemicals into the food chains and more concentrated at higher trophic levels is",
+        "option1": "Biological Control",
+        "option2": "Biomagnification",
+        "option3": "Algal Boom",
+        "option4": "Red Tide",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Integrated pest management uses biopesticides which are derived from ________",
+        "option1": "Microbial Pesticides like bacteria, fungus",
+        "option2": "Botanical Sources",
+        "option3": "Bio chemical pesticides like bacillus, neem",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following is not the cause of Soil Pollution?",
+        "option1": "Use of Pesticides",
+        "option2": "Use of Organic waste and Inorganic contaminant",
+        "option3": "Use of bio-fertilizers",
+        "option4": "Penetration of Airborne Contaminants through acid rain, particulate matter",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Soil Pollution is caused by _____",
+        "option1": "Aerosol",
+        "option2": "Acid rain",
+        "option3": "Ozone",
+        "option4": "PAN",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Salinization is _______________________",
+        "option1": "Accumulation of salts in water",
+        "option2": "Accumulation of salts in soil",
+        "option3": "Accumulation of salts in body",
+        "option4": "Accumulation of salts in animals",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Find the odd thing about sources of water",
+        "option1": "Stream",
+        "option2": "Ocean",
+        "option3": "Pond",
+        "option4": "River",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "pH value of drinking water should be between ____ and 8.5.",
+        "option1": "7",
+        "option2": "4",
+        "option3": "2.5",
+        "option4": "10",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following is not the source of water pollution?",
+        "option1": "Domestic Sewage",
+        "option2": "Industrial Waste",
+        "option3": "Natural Sources like cyclone, flood etc.",
+        "option4": "Electricity Generation through Wind Mills",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "______ is not a point source of water pollution.",
+        "option1": "Municipal Discharge Pipes",
+        "option2": "Industrial discharge points",
+        "option3": "Acid Rain",
+        "option4": "Domestic Sewage",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "If waste materials contaminate the source of drinking water which of the following diseases will spread?",
+        "option1": "Scurvy",
+        "option2": "Typhoid",
+        "option3": "Malaria",
+        "option4": "Anaemia",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Enrichment of water body by nutrients like phosphorus and nitrogen is called ____________",
+        "option1": "Succession",
+        "option2": "Eutrophication",
+        "option3": "Stratification",
+        "option4": "Climax Vegetation",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "Which of the following is the water pollutant?",
+        "option1": "Pathogens",
+        "option2": "Salts",
+        "option3": "Nutrients",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the water pollutant?",
+        "option1": "Heat",
+        "option2": "Lead, Mercury, Zinc",
+        "option3": "Herbicides & Rodenticides",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Heat dissipation in water will ___________ in water",
+        "option1": "Decrease oxygen demand",
+        "option2": "Increase oxygen demand",
+        "option3": "Decrease dissolved oxygen concentration",
+        "option4": "Both B & C options are correct",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Pathogens are water pollutants which includes _____",
+        "option1": "Bacteria",
+        "option2": "Viruses",
+        "option3": "Protozoa and parasitic worms",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+    "question": "The amount of oxygen required to breakdown a certain amount of organic matter is called as ___________.",
+    "option1": "Biological Oxygen Demand",
+    "option2": "Biomagnification",
+    "option3": "Biochemical oxygen demand",
+    "option4": "Biological Organic Demand",
+    "Answer": "option1",
+    "marks": 2
+  },
+  {
+    "question": "Excess use of pesticides causes ______.",
+    "option1": "Biomagnification",
+    "option2": "Bioaccumulation",
+    "option3": "Both A & B",
+    "option4": "None of these",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is the source of groundwater pollution?",
+    "option1": "Leachate from landfills",
+    "option2": "Mining wastes",
+    "option3": "Poorly designed and inadequately maintained septic tanks",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Ganga Action Plan in India was launched in the year _________.",
+    "option1": "1975-76",
+    "option2": "1985-86",
+    "option3": "1995-96",
+    "option4": "2005-06",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Aquatic life is damaged by _______.",
+    "option1": "Sound Pollution",
+    "option2": "Air Pollution",
+    "option3": "Thermal Pollution",
+    "option4": "All of the above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "BOD of a river water is found very high. This means water _____.",
+    "option1": "is clear",
+    "option2": "is highly polluted",
+    "option3": "contains algae",
+    "option4": "contains many dissolved minerals",
+    "Answer": "option2",
+    "marks": 2
+  },
+  {
+    "question": "DDT is a ______________ pollutant.",
+    "option1": "Biodegradable",
+    "option2": "Unbiodegradable",
+    "option3": "Non-Biodegradable",
+    "option4": "Naturally degradable",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is meant by root zone process?",
+    "option1": "A control measure to prevent water pollution",
+    "option2": "A process by which roots of plants are spread on the ground",
+    "option3": "A control measure to prevent soil pollution",
+    "option4": "None of these",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "As per BIS standard, the turbidity of municipal supply of drinking water should be _____.",
+    "option1": "less than 10 ppm",
+    "option2": "more than 50 ppm",
+    "option3": "more than 100 ppm",
+    "option4": "equal to 40 ppm",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "As per BIS standard, the pH of municipal supply of drinking water should be _____.",
+    "option1": "6.5 to 8.5",
+    "option2": "2.5 to 4.5",
+    "option3": "9.0 to 10.0",
+    "option4": "zero",
+    "Answer": "option1",
+    "marks": 2
+  },
+  {
+    "question": "BIS stands for _________.",
+    "option1": "The Bureau of International Standards",
+    "option2": "The Bureau of Indian Standards",
+    "option3": "The Bureau of Independent Standards",
+    "option4": "The Bureau of Instruments and Safety",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "_________ is not the part of water treatment plant.",
+    "option1": "Activated Carbon",
+    "option2": "Chlorinator",
+    "option3": "Sand Filter",
+    "option4": "Hydrogen Tank",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "_________ these methods can be used to control water pollution.",
+    "option1": "Disinfection of water",
+    "option2": "Sedimentation",
+    "option3": "Filtration",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Excess of Lead and Mercury on the drinking water may lead to ______.",
+    "option1": "Kidney and Liver Damage",
+    "option2": "Affecting nervous system",
+    "option3": "Reduction in hemoglobin formation",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 2
+  },
+  {
+    "question": "Waste water can lead to",
+    "option1": "Decrease in pH of water",
+    "option2": "Increase in pH of water",
+    "option3": "no effect on the fresh water",
+    "option4": "None of these",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Sewage treatment does not aim to _________.",
+    "option1": "prevent offensive odor in the water",
+    "option2": "prevent pollution of water",
+    "option3": "prevent supply of pure drinking water",
+    "option4": "prevent destruction of aquatic life",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "_________ is the regulatory authority and mandates the treated water quality for any Sewage Treatment Plants in India.",
+    "option1": "BIS",
+    "option2": "CPCB",
+    "option3": "ISO",
+    "option4": "WHO",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Air pollution is caused by _____.",
+    "option1": "Insecticides",
+    "option2": "Sewage",
+    "option3": "Smoke",
+    "option4": "Loud Speakers",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Carbon monoxide is a pollutant because",
+    "option1": "It reacts with O2",
+    "option2": "It inhibits glycolysis",
+    "option3": "Makes nervous system inactive",
+    "option4": "Reacts with hemoglobin and reduces oxygen carrying capacity of blood",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is a secondary pollutant?",
+    "option1": "CO2",
+    "option2": "CO",
+    "option3": "O3",
+    "option4": "SO2",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The concentration of which gas is highest in our environment?",
+    "option1": "Oxygen",
+    "option2": "Nitrogen",
+    "option3": "Hydrogen",
+    "option4": "Carbon Dioxide",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Major cause of Ozone depletion is due to which chemical?",
+    "option1": "Chloro Fluoro Carbons",
+    "option2": "Polyphenols",
+    "option3": "Dioxin",
+    "option4": "Rayons",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Cigarette smoking exposes one to __________.",
+    "option1": "SO2",
+    "option2": "CO2",
+    "option3": "Nitrogen Peroxide",
+    "option4": "Carbon Monoxide",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Euro II standard refers to _________.",
+    "option1": "Lowering sulfur content in fuel",
+    "option2": "Increasing sulfur content in fuel",
+    "option3": "Lowering carbon content in fuel",
+    "option4": "Increasing carbon content in fuel",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "The presence of solid, liquid or gaseous compounds, which may not be normally present, or in excess concentration in _______.",
+    "option1": "Air Pollution",
+    "option2": "Water Pollution",
+    "option3": "Soil Pollution",
+    "option4": "Radioactive Pollution",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The historical monument that is affected by acid rain is _______.",
+    "option1": "Pyramid of Egypt",
+    "option2": "Taj Mahal",
+    "option3": "Pisa Tower",
+    "option4": "Golden Temple",
+    "Answer": "option2",
+    "marks": 2
+  },
+  {
+    "question": "_______ layer is the innermost layer of atmosphere which extends 17 km above sea level.",
+    "option1": "Stratosphere",
+    "option2": "Mesosphere",
+    "option3": "Troposphere",
+    "option4": "Thermosphere",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Ozone layer is found in __________ layer of atmosphere.",
+    "option1": "Stratosphere",
+    "option2": "Mesosphere",
+    "option3": "Torosphere",
+    "option4": "Thermosphere",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Disease aggravated by air pollution is _______.",
+    "option1": "cholera",
+    "option2": "rheumatism",
+    "option3": "bronchitis",
+    "option4": "haemophilia",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following type of pollution can cause the outbreak of Jaundice?",
+    "option1": "Air Pollution",
+    "option2": "Water Pollution",
+    "option3": "Thermal Pollution",
+    "option4": "Land Pollution",
+    "Answer": "option2",
+    "marks": 2
+  },
+  {
+    "question": "Colorless odorless and non corrosive air pollutant is _______.",
+    "option1": "SO2",
+    "option2": "NO2",
+    "option3": "CO2",
+    "option4": "Ozone",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The combustion of waste in the absence of Oxygen is called _______.",
+    "option1": "Haemolysis",
+    "option2": "Pyrolysis",
+    "option3": "Hydrolysis",
+    "option4": "None of these",
+    "Answer": "option2",
+    "marks": 2
+  },
+  {
+    "question": "Photochemical smog is called ___________.",
+    "option1": "Tokyo Smog",
+    "option2": "London Smog",
+    "option3": "Delhi Smog",
+    "option4": "None of these",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The cause of Bhopal disaster is _______.",
+    "option1": "Methyl Alcohol",
+    "option2": "Methyl Carbonate",
+    "option3": "Methyl Iso Chloride",
+    "option4": "Methyl Iso Cynide",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Particulates are small pieces of solid material in the form of _______.",
+    "option1": "Smoke particles from fire",
+    "option2": "Dust Particles",
+    "option3": "Ash from industry",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which are not the objectives of waste minimisation?",
+    "option1": "Reduced hazard to human health from the generation of toxic wastes",
+    "option2": "Preventing environmental degradation caused by unnecessary release of waste materials",
+    "option3": "To de-neutralise the waste",
+    "option4": "Reduced the waste disposal and its cost reduction",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following on inhalation dissolved in the blood hemoglobin more rapidly than oxygen?",
+    "option1": "SO2",
+    "option2": "Carbon monoxide",
+    "option3": "Ozone",
+    "option4": "Nitrous Oxide",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Chloro-Fluro Carbons are used in _____.",
+    "option1": "Air conditioners and Refrigerators",
+    "option2": "Perfumers, Room Fresheners",
+    "option3": "Foams for mattresses and cushions",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Ozone layer depletion results into _______ due to ultraviolet radiation.",
+    "option1": "Lung Cancer",
+    "option2": "Skin Cancer",
+    "option3": "Asthma",
+    "option4": "Malaria",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Ultra Violet Radiation does not affect/cause _______.",
+    "option1": "Ability of plants to capture light energy into process of photosynthesis",
+    "option2": "Paint and fabric, causing them to fade faster",
+    "option3": "Rain",
+    "option4": "Global Warming",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "_______ equipments can be used to control air pollution.",
+    "option1": "Electrostatic Precipitators",
+    "option2": "Scrubbers",
+    "option3": "Filters",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The TAJ MAHAL at AGRA may be damaged by _______.",
+    "option1": "Sulphar Dioxide",
+    "option2": "Chlorine",
+    "option3": "Oxygen",
+    "option4": "Hydrogen",
+    "Answer": "option1",
+    "marks": 2
+  },
+  {
+    "question": "Global Warming is caused by _______.",
+    "option1": "Green House Gases",
+    "option2": "CFC",
+    "option3": "NH4",
+    "option4": "NO2",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Acid rain mainly results from _______.",
+    "option1": "CO2",
+    "option2": "SO2",
+    "option3": "Carbon Monoxide",
+    "option4": "Ammonia",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "_________ strategies can be used to control air pollution.",
+    "option1": "Adsorption and Absorption",
+    "option2": "Condensation and chemical Reaction",
+    "option3": "Incineration",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Noise is _______________.",
+    "option1": "Huge sound",
+    "option2": "Sound of vehicles",
+    "option3": "Undesirable and unwanted sound",
+    "option4": "Sound of crackers",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The unit of measurement of intensity of sound is in _________.",
+    "option1": "Decibel",
+    "option2": "Lux",
+    "option3": "Pascal",
+    "option4": "Candela",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is temporary threshold shift?",
+    "option1": "Hearing loss due to excessive noise",
+    "option2": "Noise that is untolerable",
+    "option3": "Tolerable noise",
+    "option4": "Inaudible noise",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not the function of CPCB?",
+    "option1": "To lay down and annual standards for the quality of air",
+    "option2": "To discourage investigations and research for handling air pollution",
+    "option3": "To collect, compile and publish the data related to air pollution",
+    "option4": "To advice state pollution control board",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The level at which sound becomes physically painful is _______.",
+    "option1": "above 30 dB",
+    "option2": "above 80 dB",
+    "option3": "above 100 dB",
+    "option4": "above 120 dB",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Noise pollution can result into _______.",
+    "option1": "Cardiovascular Diseases",
+    "option2": "Annoyance",
+    "option3": "Hearing Loss",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "CNG is a _______.",
+    "option1": "Polluted Fuel",
+    "option2": "Clean Fuel",
+    "option3": "Harmful Fuel",
+    "option4": "None of these",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not a method to control the noise?",
+    "option1": "Increase the path length",
+    "option2": "Decrease the path length",
+    "option3": "Block the path of noise",
+    "option4": "Reduce the noise at source",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "A safe level of noise depends on _______.",
+    "option1": "Level of noise and exposure to noise",
+    "option2": "Area",
+    "option3": "Pitch",
+    "option4": "Frequency",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Apart from hearing loss, excessive noise pollution effects _______.",
+    "option1": "Migraine headaches, Heart Palpitation, Dizziness",
+    "option2": "Nausea",
+    "option3": "Gastric Ulcers",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Acceptable 'Noise Pollution Level' in India range between _______.",
+    "option1": "10-35 dB",
+    "option2": "40-45 dB",
+    "option3": "70-100 dB",
+    "option4": "10-15 dB",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Transboundary pollution (or) Acid rain is caused by:",
+    "option1": "Hydrocarbon",
+    "option2": "Carbon Dioxide",
+    "option3": "Carbon Monoxide",
+    "option4": "Nitrogen Oxide and Sulpher Dioxide",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Carbon monoxide poisoning can be cured by:",
+    "option1": "Eating butter.",
+    "option2": "Drinking lemon-water.",
+    "option3": "Consuming multi-vitamin tablet.",
+    "option4": "Exposing the affected person to fresh oxygen",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Which of the following fuels causes minimum environmental pollution?",
+    "option1": "Coal",
+    "option2": "Hydrogen",
+    "option3": "Diesel",
+    "option4": "Kerosene",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "\"Green House Effect\" means:",
+    "option1": "Cultivation of crops in greenhouse to conserve heat",
+    "option2": "Trapping of solar energy due to carbon dioxide gases",
+    "option3": "Trapping of solar energy by earth's upper surface",
+    "option4": "Increase of heat due to atmospheric pollution",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Which of the following processes does not increase the amount of carbon dioxide in air?",
+    "option1": "Breathing",
+    "option2": "Burning of petrol",
+    "option3": "Photosynthesis",
+    "option4": "Aerobic decay of vegetation",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which of the following does not cause pollution?",
+    "option1": "Burning of petrol",
+    "option2": "Use of solar energy",
+    "option3": "Burning of rubber",
+    "option4": "All of the above",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Municipal Solid Waste does not include:",
+    "option1": "Homes",
+    "option2": "Commercial Establishments",
+    "option3": "Construction and demolition debris",
+    "option4": "None of these",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which of the following is the control measure for Solid Waste Management?",
+    "option1": "Source Reduction",
+    "option2": "Recycling",
+    "option3": "Disposal",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "_________ is the process of burning municipal solid waste in a properly designed furnace under suitable temperature.",
+    "option1": "Incineration",
+    "option2": "Recycling",
+    "option3": "Disposal",
+    "option4": "Combustion",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "Which of the below is not an idea behind solid waste management?",
+    "option1": "Control of waste generation",
+    "option2": "Storage and collection",
+    "option3": "Disposal",
+    "option4": "Stop Waste Generation",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Which of the following is a biodegradable waste?",
+    "option1": "Polythene Bags",
+    "option2": "Synthetic Fibre",
+    "option3": "Food Waste",
+    "option4": "Paper",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "In which method of disposal of municipal solid waste, the waste is dumped in the soil?",
+    "option1": "Incineration",
+    "option2": "Composting",
+    "option3": "Land Filling",
+    "option4": "Shredding",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "The process of decomposition of biodegradable solid waste by earthworms is called:",
+    "option1": "Land Filling",
+    "option2": "Shredding",
+    "option3": "Vermi-Composting",
+    "option4": "Composting",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "What is E-Waste?",
+    "option1": "Edible Waste",
+    "option2": "Easter Waste",
+    "option3": "Electronic Waste",
+    "option4": "Eternal Waste",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which item is not an e-waste product?",
+    "option1": "Radio",
+    "option2": "Phone",
+    "option3": "Computer",
+    "option4": "Vacuum",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Which toxic compound is not found in e-waste?",
+    "option1": "Mercury",
+    "option2": "Cadmium",
+    "option3": "Neon",
+    "option4": "Lead",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "What is the most valuable recyclable component of a circuit board?",
+    "option1": "Copper",
+    "option2": "Silver",
+    "option3": "Gold",
+    "option4": "Platinum",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which country produces the most e-waste per year?",
+    "option1": "Britain",
+    "option2": "China",
+    "option3": "India",
+    "option4": "USA",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "When you find biomedical waste in regular waste, which of these things should you do?",
+    "option1": "Fill out an AEMS Report",
+    "option2": "Notify Area Leader",
+    "option3": "Notify your service coordinator",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "The Central Pollution Control Board (CPCB) was constituted in the year:",
+    "option1": "September, 1972",
+    "option2": "September, 1974",
+    "option3": "September, 1981",
+    "option4": "None of the above",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Which of the following articles of Indian Constitution make provision for environmental protection?",
+    "option1": "Article 51-A (g)",
+    "option2": "Article 48 - A",
+    "option3": "Both A & B",
+    "option4": "None of A & B",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "What does Article 51-A of the constitution of India promulgate?",
+    "option1": "Right to Vote",
+    "option2": "Fundamental duties of Citizens of India",
+    "option3": "Right to Education",
+    "option4": "Duties of CPCB",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Which of the following states/Union Territory of India is not covered under Forest (Conservation) Act 1980?",
+    "option1": "West Bengal",
+    "option2": "Kerala",
+    "option3": "Jammu and Kashmir",
+    "option4": "Lakshadweep",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Offences by the Authorities and Government Department in Forest Act is under:",
+    "option1": "Section 5B",
+    "option2": "Section 5A",
+    "option3": "Section 3B",
+    "option4": "Section 8A",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "The Wildlife (Protection) Act of India was enacted in the year:",
+    "option1": "1986",
+    "option2": "1974",
+    "option3": "1994",
+    "option4": "1972",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "The Wildlife (Protection) Act contains:",
+    "option1": "66 Sections",
+    "option2": "60 Sections",
+    "option3": "70 Sections",
+    "option4": "46 Sections",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "The acronym NGO stands for:",
+    "option1": "Non-Governmental Organization",
+    "option2": "Neo-Governmental Organization",
+    "option3": "No-Gain Organizations",
+    "option4": "National-Grade Organization",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "How many Nuclear power stations are there in India currently?",
+    "option1": "5",
+    "option2": "6",
+    "option3": "7",
+    "option4": "8",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which of the following occurred first?",
+    "option1": "Noise Pollution Rule, India",
+    "option2": "Air Act, India",
+    "option3": "Environmental Protection Act, India",
+    "option4": "Water Act, India",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Activities like tilling, harvesting, heating and ventilation are direct consumers of:",
+    "option1": "Sun",
+    "option2": "Energy",
+    "option3": "Air",
+    "option4": "Heat",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Which of the following is not an effect of modern agriculture?",
+    "option1": "Nitrate pollution",
+    "option2": "Eutrophication",
+    "option3": "Biomagnification",
+    "option4": "Ozone depletion",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Example of renewable energy resource is _______________",
+    "option1": "Coal",
+    "option2": "Fossil fuel",
+    "option3": "Nuclear reaction",
+    "option4": "Sunlight",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Which of the following entities get affected by Housing development?",
+    "option1": "Neighbourhood",
+    "option2": "Energy consumption",
+    "option3": "Water consumption",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Which of the following human activity causes maximum environmental Pollution at Regional and Global perspective?",
+    "option1": "Urbanization",
+    "option2": "Tourism",
+    "option3": "Farming",
+    "option4": "Industrialization",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "The process of extraction of mineral and metal ores from earth is called as __________________",
+    "option1": "Agriculture",
+    "option2": "Transportation",
+    "option3": "Mining",
+    "option4": "Sustainable development",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Production, transformation and use of energy are the features of",
+    "option1": "Industrial Industrial Growth",
+    "option2": "Sustainable growth",
+    "option3": "Global warming",
+    "option4": "Aforestation",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "In EIA the decision to hold hearing has to make within:",
+    "option1": "5 days",
+    "option2": "10 days",
+    "option3": "20 days",
+    "option4": "30 days",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "SPCB?s are required to give notice in how many newspapers mentioning the date, time and place of public hearing:",
+    "option1": "2",
+    "option2": "4",
+    "option3": "6",
+    "option4": "8",
+    "Answer": "option1",
+    "marks": 2
+},
+{
+    "question": "Meeting the needs of the present without compromising the ability of future generation to meet their own need? is gi",
+    "option1": "Brundtland",
+    "option2": "Mahatma Gandhi",
+    "option3": "Maathai",
+    "option4": "Sunderlal Bahugana",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "The world as World Environmental day is celebrated on:",
+    "option1": "Dec-01",
+    "option2": "Nov-14",
+    "option3": "Jun-05",
+    "option4": "Aug-15",
+    "Answer": "option3",
+    "marks": 2
+},
+{
+    "question": "The constitutional provision for environmental protection was made in the year _________________",
+    "option1": "1976",
+    "option2": "1950",
+    "option3": "1982",
+    "option4": "1960",
+    "Answer": "option1",
+    "marks": 2
+},
+{
+    "question": "Noise pollution has been inserted as pollution in the Air Act in:",
+    "option1": "1981",
+    "option2": "1987",
+    "option3": "1982",
+    "option4": "2000",
+    "Answer": "option2",
+    "marks": 2
+},
+{
+    "question": "The Women?s Population in the world is almost:",
+    "option1": "Half",
+    "option2": "One-forth",
+    "option3": "One-Third",
+    "option4": "One-fifth",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "Literacy among women has which of the following effect on the society?",
+    "option1": "Reduction in infant mortality rate",
+    "option2": "Reduction in rate of population growth",
+    "option3": "Promotion of education",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "The idea of sustainable development was conceived in early:",
+    "option1": "1950",
+    "option2": "1960",
+    "option3": "1970",
+    "option4": "1980",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "How many agreements are there in Agenda 21(Non binding action plan to sustainable development)?",
+    "option1": "4",
+    "option2": "5",
+    "option3": "6",
+    "option4": "7",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "The Air (Prevention and Control of Pollution) Act was enacted in the year:",
+    "option1": "1981",
+    "option2": "1996",
+    "option3": "2000",
+    "option4": "1974",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "The EPA contains:",
+    "option1": "25 Sections",
+    "option2": "12 Sections",
+    "option3": "26 Sections",
+    "option4": "14 Sections",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "The EPA consists:",
+    "option1": "2 Chapters",
+    "option2": "4 Chapters",
+    "option3": "7 Chapters",
+    "option4": "8 Chapters",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Which of the following is a problem associated with population growth?",
+    "option1": "Increased resource consumption",
+    "option2": "Increased solid waste generation",
+    "option3": "Food and energy scarcity",
+    "option4": "All of A, B & C",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "The statistical Study of human population prediction for the future is called;",
+    "option1": "Demography",
+    "option2": "Biography",
+    "option3": "Calligraphy",
+    "option4": "Geography",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "The maximum population size of a biological species that the environment can sustain indefinitely is called as _____",
+    "option1": "Biotic potential",
+    "option2": "Carrying capacity",
+    "option3": "Environmental resistance",
+    "option4": "Population size",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Supporting capacity and assimilative capacity are the components of _______________ in environmental management",
+    "option1": "Carrying capacity",
+    "option2": "Holding capacity",
+    "option3": "Containing capacity",
+    "option4": "Capturing capacity",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "The management of natural resources should take into",
+    "option1": "A long term perspective",
+    "option2": "Environmental pollution",
+    "option3": "Their equitable distribution",
+    "option4": "(a), (b), (c) and safe disposal of wastes",
+    "Answer": "option4",
+    "marks": 2
+},
+{
+    "question": "Which state in India designed the Khadin or Dhora water harvesting method?",
+    "option1": "Rajasthan",
+    "option2": "Maharashtra",
+    "option3": "Bihar",
+    "option4": "Uttar Pradesh",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "The traditional water harvesting method used in Rajasthan is:",
+    "option1": "Surangams",
+    "option2": "Kattas",
+    "option3": "Kulhs",
+    "option4": "Khadin",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Which of the following river originates as well as ends in the territory of India?",
+    "option1": "Brahmaputra",
+    "option2": "Indus",
+    "option3": "Kosi",
+    "option4": "Chambal",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Which of the following Indian river flows through the central part of India?",
+    "option1": "Indus",
+    "option2": "Brahmaputra",
+    "option3": "Godavari",
+    "option4": "Cauvery",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Indira Sagar Dam located in Madhya Pradesh is built on which of the following river?",
+    "option1": "Betwa",
+    "option2": "Chambal",
+    "option3": "Narmada",
+    "option4": "Shipra",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which of the following is the most abundant dissolved ion in the Ocean?",
+    "option1": "Chlorine",
+    "option2": "Bromine",
+    "option3": "Potassium",
+    "option4": "Calcium",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "Which is the longest river in India?",
+    "option1": "Nile",
+    "option2": "Ganga",
+    "option3": "Tapi",
+    "option4": "Brahmaputra",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Which of the following is a non-renewable resource?",
+    "option1": "Coal",
+    "option2": "Forests",
+    "option3": "Water",
+    "option4": "Wildlife",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "Which among the following is not a renewable source of energy?",
+    "option1": "Solar energy",
+    "option2": "Biomass energy",
+    "option3": "Hydro-power",
+    "option4": "Thermal power",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Identify the non-renewable energy resource from the following:",
+    "option1": "Bio fuel cell",
+    "option2": "Hydrogen fuel cell",
+    "option3": "Wind",
+    "option4": "Liquid Petroleum Gas (LPG)",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Which of the following is a disadvantage of majority of the renewable energy sources?",
+    "option1": "Highly polluting",
+    "option2": "High waste disposal cost",
+    "option3": "Unreliable supply",
+    "option4": "High running cost",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Photovoltaic energy is the conversion of sunlight into:",
+    "option1": "Chemical energy",
+    "option2": "Biogas",
+    "option3": "Electricity",
+    "option4": "Geothermal energy",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which of the following are vertical axis wind mills?",
+    "option1": "Tower mills",
+    "option2": "Smock mills",
+    "option3": "Both A & B",
+    "option4": "None of A & B",
+    "Answer": "option3",
+    "marks": 2
+},
+{
+    "question": "Steam reforming is currently the least expensive method of producing:",
+    "option1": "Coal",
+    "option2": "Biogas",
+    "option3": "Hydrogen",
+    "option4": "Natural gas",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "In order to produce electricity, a fuel cell burns:",
+    "option1": "Helium",
+    "option2": "Nitrogen",
+    "option3": "Hydrogen",
+    "option4": "None of the above",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Sustainable development does not support at maximizing the present day benefits through __________ resource consumption.",
+    "option1": "Increased",
+    "option2": "Decreased",
+    "option3": "Both A & B",
+    "option4": "None of A & B",
+    "Answer": "option1",
+    "marks": 2
+},
+{
+    "question": "________ released from mobile phones also contribute to photochemical smog.",
+    "option1": "Hydrocarbons",
+    "option2": "Radiations",
+    "option3": "Sound",
+    "option4": "None of the above",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "Runoff water from surface is conserved by ________ method.",
+    "option1": "Rain Water Conservation",
+    "option2": "Rain Water Harvesting",
+    "option3": "Water Storage Systems",
+    "option4": "None of the above",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Which of the following problem persist with surface water reservoirs?",
+    "option1": "Evaporation",
+    "option2": "Reduced Rainfall",
+    "option3": "Reduced storage",
+    "option4": "Difficulty to manage",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "The suspended impurities can be trapped by using __________.",
+    "option1": "Membrane",
+    "option2": "Mesh",
+    "option3": "Filter Paper",
+    "option4": "None of the above",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Water scarcity can be addressed to some extent solved by ________.",
+    "option1": "Construction of more roads",
+    "option2": "Construction of more buildings",
+    "option3": "Rain Water Harvesting",
+    "option4": "Purifying the water",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "The main advantage of watershed approach is ________.",
+    "option1": "High Cost",
+    "option2": "Time consuming method",
+    "option3": "Environment friendly",
+    "option4": "None of the above",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which of the following is the prime objective of Watershed Management?",
+    "option1": "Utilization",
+    "option2": "Conservation",
+    "option3": "Analysis",
+    "option4": "Pollution",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Water stored using rain water harvesting is useful for ________.",
+    "option1": "Drinking",
+    "option2": "Agriculture",
+    "option3": "Industrial Process",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "________ of rivers help to redistribute water logging.",
+    "option1": "Interlinking",
+    "option2": "DAM",
+    "option3": "Diverting water",
+    "option4": "None of the above",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "Which of the following aspects does Article 48-(A) of Indian Constitution deal with?",
+    "option1": "Conservation and Improvement of Environment",
+    "option2": "Sustainable development",
+    "option3": "Water conservation",
+    "option4": "Deforestation",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "Which of the following Articles of Indian Constitution deals with fundamental duties?",
+    "option1": "48-A",
+    "option2": "51-A",
+    "option3": "51-A (g)",
+    "option4": "19",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "________ technology is highly useful for environment and health.",
+    "option1": "Digital",
+    "option2": "Chemical",
+    "option3": "Information",
+    "option4": "Computational",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which of the following is the first stage of Environmental Clearance process?",
+    "option1": "Screening",
+    "option2": "Scoping",
+    "option3": "Public Consultation",
+    "option4": "Appraisal",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "The most commonly noticeable effect of Indoor Pollutants on human health is ________.",
+    "option1": "Gastric disorder",
+    "option2": "Respiratory disorder",
+    "option3": "Reproductive disorder",
+    "option4": "Skin Disorder",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "NGO has freedom to take issues in ________.",
+    "option1": "Parliament",
+    "option2": "Municipality",
+    "option3": "Court",
+    "option4": "Society",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "The process that converts solid coal into liquid hydrocarbon fuel is called:",
+    "option1": "Carbonation",
+    "option2": "Liquefaction",
+    "option3": "Catalytic conversion",
+    "option4": "Cracking",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Which of the following is the highest ranked coal (Having High carbon content)?",
+    "option1": "Lignite",
+    "option2": "Subbituminous",
+    "option3": "Anthracite",
+    "option4": "Bituminous",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which of the following country is the world's largest producer of Geothermal energy?",
+    "option1": "New Zealand",
+    "option2": "Iceland",
+    "option3": "United States",
+    "option4": "Germany",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which of the following comprises of black painted panels exposed to sun to trap heat and energy?",
+    "option1": "Solar Cells",
+    "option2": "Solar heater",
+    "option3": "Solar furnace",
+    "option4": "Solar battery",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "The benefits of using Renewable energy include:",
+    "option1": "Check on Global Warming",
+    "option2": "Conservation of fossil fuels",
+    "option3": "Both A & B",
+    "option4": "None of A & B",
+    "Answer": "option3",
+    "marks": 2
+},
+{
+    "question": "Which of the following energy source is expensive and used in small scales?",
+    "option1": "Solar energy",
+    "option2": "Wind energy",
+    "option3": "Geothermal energy",
+    "option4": "Thermal energy",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "Which source of energy has benefited from improvement in technology?",
+    "option1": "Solar energy",
+    "option2": "Wind energy",
+    "option3": "Hydro energy",
+    "option4": "Thermal energy",
+    "Answer": "option2",
+    "marks": 2
+},
+{
+    "question": "Which type of energy has high cost of research into new technology?",
+    "option1": "Renewable energy",
+    "option2": "Solar energy",
+    "option3": "Non-Renewable energy",
+    "option4": "Hydro energy",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "India's major non-renewable energy source is _________.",
+    "option1": "Petroleum and other liquids",
+    "option2": "Natural gas",
+    "option3": "Nuclear energy",
+    "option4": "Coal",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Which of the following nonrenewable energy is not classified under a fossil fuel?",
+    "option1": "Natural gas",
+    "option2": "Petroleum and other liquids",
+    "option3": "Oil",
+    "option4": "Nuclear energy",
+    "Answer": "option4",
+    "marks": 2
+},
+{
+    "question": "Wind is beneficial resource of energy as it doesn't cause:",
+    "option1": "Pollution",
+    "option2": "Noise",
+    "option3": "Echo",
+    "option4": "Vibration",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "Which of the following uses Boiling water reactor or pressurized water reactors?",
+    "option1": "Nuclear reactor",
+    "option2": "Solar reactor",
+    "option3": "OTEC",
+    "option4": "Biogas reactor",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "Which of the following consists of thousands of mirrors or curved metals to focus solar energy to generate very high?",
+    "option1": "solar cells",
+    "option2": "solar heater",
+    "option3": "solar furnace",
+    "option4": "solar battery",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "When was the world's first controlled fission of an atom carried out?",
+    "option1": "1920",
+    "option2": "1928",
+    "option3": "1925",
+    "option4": "1938",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Which of the following describes crude oil properly?",
+    "option1": "Colourless liquid",
+    "option2": "Odourless liquid",
+    "option3": "Smelly yellow to black liquid",
+    "option4": "Odourless yellow to black liquid",
+    "Answer": "option3",
+    "marks": 2
+},
+{
+    "question": "Which of the following are Common energy source in rural India?",
+    "option1": "Electricity",
+    "option2": "Coal",
+    "option3": "Sun",
+    "option4": "Wood and animal dung",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "The outermost layer of the earth's troposphere is:",
+    "option1": "Mantle",
+    "option2": "Core",
+    "option3": "Crust",
+    "option4": "None of the above",
+    "Answer": "option3",
+    "marks": 2
+},
+{
+    "question": "Penalty for conservation of the provisions of the Forest Act is under:",
+    "option1": "Section 4A",
+    "option2": "Section 3A",
+    "option3": "Section 12A",
+    "option4": "Section 8A",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "EIA Stands for Environmental _________.",
+    "option1": "Internal Assessment",
+    "option2": "Implementing Assessment",
+    "option3": "In Assessment",
+    "option4": "Impact Assessment",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "The Ministry of Environment and Forests issued revised Notification on Environment Clearance in September 2006 and _",
+    "option1": "Dec-06",
+    "option2": "Dec-07",
+    "option3": "Dec-08",
+    "option4": "Dec-09",
+    "Answer": "option4",
+    "marks": 1
+},
+{
+    "question": "Green buildings are the structures which use eco-friendly materials reducing the depletion of ______________.",
+    "option1": "Natural resources",
+    "option2": "Fossil Fuels",
+    "option3": "Mineral deposits",
+    "option4": "Open lands",
+    "Answer": "option1",
+    "marks": 1
+},
+{
+    "question": "Green buildings generate non-degradable waste to some extent!",
+    "option1": "TRUE",
+    "option2": "FALSE",
+    "option3": "Either True or False",
+    "option4": "Neither True nor False",
+    "Answer": "option1",
+    "marks": 2
+},
+{
+    "question": "In the Water Act the entire National Capital Territory of Delhi has been declared as water pollution prevention cont.",
+    "option1": "Section 21",
+    "option2": "Section 23",
+    "option3": "Section 19",
+    "option4": "Section 24",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which of the following Acts under which the Central Pollution Control Board (CPCB) Came into existence?",
+    "option1": "Air(Prevention and Control of Pollution) Act of India",
+    "option2": "Water(Prevention and control of Pollution) Act of India",
+    "option3": "Environmental Protection Act of India",
+    "option4": "CPCB Act",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "The functions of State Board are given under:",
+    "option1": "Section 16",
+    "option2": "Section 17",
+    "option3": "Section 21",
+    "option4": "Section 45",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Power to give directions are declared under:",
+    "option1": "Section 16",
+    "option2": "Section 17",
+    "option3": "Section 18",
+    "option4": "Section 25",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "The Air Act contains:",
+    "option1": "5 Chapters",
+    "option2": "6 Chapters",
+    "option3": "7 Chapters",
+    "option4": "8 Chapters",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "The Air Act have:",
+    "option1": "56 Sections",
+    "option2": "54 Sections",
+    "option3": "58 Sections",
+    "option4": "62 Sections",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Which of the following rivers form the western border of Aizwal?",
+    "option1": "Tuirial",
+    "option2": "Tlawng river",
+    "option3": "Hwang Ho",
+    "option4": "Irawadi",
+    "Answer": "option2",
+    "marks": 2
+},
+{
+    "question": "Groundwater source is also known as:",
+    "option1": "Jack Well",
+    "option2": "Recharge Well",
+    "option3": "Discharge Well",
+    "option4": "Sump Well",
+    "Answer": "option2",
+    "marks": 1
+},
+{
+    "question": "Which of the following river is the home for freshwater dolphins?",
+    "option1": "Brahamaputra",
+    "option2": "Yamuna",
+    "option3": "Ganga",
+    "option4": "Sabarmati",
+    "Answer": "option3",
+    "marks": 1
+},
+{
+    "question": "Which of the following Agro climatic Zone is a part of Maharashtra?",
+    "option1": "Western Dry Region",
+    "option2": "Eastern Plateau Hills",
+    "option3": "Western Plateau Hills",
+    "option4": "East coast Plains Hills",
+    "Answer": "option3",
+    "marks": 1
+},
 
+];
 
+const VJ_Tech_java = [
+    {
+        "question": "Which package is required for an adapter classes?",
+        "option1": "java.awt.event",
+        "option2": "java.lang",
+        "option3": "java.util",
+        "option4": "java.swing",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "An adapter class provides an empty implementation of all methods in an __________________ .",
+        "option1": "inheritance",
+        "option2": "class",
+        "option3": "Class ,Object",
+        "option4": "event listener interface",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following is adapter class?",
+        "option1": "WindowAdapter",
+        "option2": "KeyAdapter",
+        "option3": "MouseAdapter",
+        "option4": "All the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the output of following code?\\nimport java.awt.Frame;\\nimport java.awt.event.WindowAdapter;\\nimport java.awt.event.WindowEvent;\\npublic class FrameClosing2 extends Frame\\n{\\n public FrameClosing2()\\n {\\n CloseMe cm = new CloseMe();\\n addWindowListener(cm);\\n setTitle(\"Frame closing Style 2\");\\n setSize(300, 300);\\n setVisible(true);\\n }\\n public static void main(String args[])\\n {\\n new FrameClosing2();\\n }\\n}\\nclass CloseMe extends WindowAdapter\\n{\\n public void windowClosing(WindowEvent e)\\n {\\n System.exit(0);\\n }\\n}",
+        "option1": "A.",
+        "option2": "B.",
+        "option3": "C.",
+        "option4": "D.",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "_________ class have the KeyListerner interface.",
+        "option1": "KeyListernerAdapter",
+        "option2": "KeyAdapter",
+        "option3": "Adapter",
+        "option4": "None",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Write correct word at blank spaces.\\nf.addWindowListener(new _____________\\n {\\n public void windowClosing(WindowEvent e)\\n {\\n System.exit(0);\\n }\\n ________",
+        "option1": "} and );",
+        "option2": "WindowAdapter() and });",
+        "option3": "KeyAdapter() and });",
+        "option4": "Window and ;",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "Identify the correct adapter name and event name.\\npublic class MyFocusListener extends _______________\\n{\\n public void focusGained(_________________ fe)\\n{\\n Button button = (Button) fe.getSource();\\n label.setText(button.getLabel());\\n }\\n }",
+        "option1": "Focusevent, Focusadapter",
+        "option2": "FocusAdapter, Event",
+        "option3": "FocusAdapter, FocusEvent",
+        "option4": "Adapter, FocusEvent",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "Adapter classes are an ____________class for receiving various events.",
+        "option1": "Abstract",
+        "option2": "Inner",
+        "option3": "Inline",
+        "option4": "Inherited",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Adapter classes are used to create _________objects.",
+        "option1": "Class",
+        "option2": "Method",
+        "option3": "Package",
+        "option4": "Listener",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Identify the class which is not an adapter class?",
+        "option1": "KeyAdapter",
+        "option2": "FocusAdapter",
+        "option3": "ItemAdapter",
+        "option4": "MouseMotionAdapter",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Adapter classes are used to ___________ the process of event handling.",
+        "option1": "solve",
+        "option2": "simplify",
+        "option3": "avoid",
+        "option4": "create",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "An adapter class listener interface and Event class Listener interface",
+        "option1": "adapter",
+        "option2": "Static",
+        "option3": "Inner",
+        "option4": "Super",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "____________is a subclass of ComponentEvent.",
+        "option1": "InputEvent",
+        "option2": "ContainerEvent",
+        "option3": "TextEvent",
+        "option4": "WindowEvent",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "An adapter class provides an _________ implementation of all methods in an interface.",
+        "option1": "pluggable",
+        "option2": "simple",
+        "option3": "empty",
+        "option4": "Interface",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method does not belong to WindowListerner interface?",
+        "option1": "windowActivated",
+        "option2": "windowClosed",
+        "option3": "windowClosing",
+        "option4": "windowReactivated",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following method is invoked when a window is changed from minimized state?",
+        "option1": "windowActivated()",
+        "option2": "windowClosed()",
+        "option3": "windowClosing()",
+        "option4": "windowIconified()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is adapter class for component listener interface?",
+        "option1": "Component",
+        "option2": "ComponentAdapter",
+        "option3": "ComponentListenerAdapter",
+        "option4": "None",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Whether adapter classes use the methods of event classes?",
+        "option1": "Yes",
+        "option2": "No",
+        "option3": "Sometimes",
+        "option4": "Depends on some requirement",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these methods is defined in MouseMotionAdapter class?",
+        "option1": "mouseDragged()",
+        "option2": "mousePressed()",
+        "option3": "mouseReleased()",
+        "option4": "mouseClicked()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these is a superclass of all Adapter classes?",
+        "option1": "Applet",
+        "option2": "ComponentEvent",
+        "option3": "Event",
+        "option4": "InputEvent",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If an adapter class is inherited, there is no need of implementing all listener interfaces.",
+        "option1": "Sometimes",
+        "option2": "Never",
+        "option3": "Always",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Adapter class can be also used for incorporating ___________ property.",
+        "option1": "Inheritance",
+        "option2": "Polymorphism",
+        "option3": "Encapsulation",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In Adapter class it is sufficient to include only the methods required.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "Sometimes",
+        "option4": "Never",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Adapter class makes programmers' task easier.",
+        "option1": "Sometimes",
+        "option2": "True",
+        "option3": "False",
+        "option4": "Never",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Fill in the blank: this.addComponentListener(new ______________________ { public void componentShown(ComponentEvent evt) { System.out.println('componentShown'); } });",
+        "option1": "Component()",
+        "option2": "componentadapter()",
+        "option3": "ComponentAdapter()",
+        "option4": "ContainerAdapter()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the output of the following code? import java.awt.*; import java.awt.event.*; import java.applet.*; /*<applet code='AdapterDemo' width=300 height=100></applet>*/ public class AdapterDemo extends Applet { public void init() { addMouseListener(new MyMouseAdapter(this)); } } class MyMouseAdapter extends MouseAdapter { AdapterDemo adapterDemo; public MyMouseAdapter(AdapterDemo adapterDemo) { this.adapterDemo = adapterDemo; } public void mouseClicked(MouseEvent me) { adapterDemo.showStatus('Mouse clicked'); } }",
+        "option1": "Mouse moved",
+        "option2": "Mouse dragged",
+        "option3": "Mouse pressed",
+        "option4": "Mouse clicked",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "___________ is a superclass of ContainerEvent.",
+        "option1": "ComponentEvent",
+        "option2": "WindowEvent",
+        "option3": "InputEvent",
+        "option4": "MouseMotionEvent",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In an adapter class program, if it contains 5 methods, how many methods are overridden?",
+        "option1": "1",
+        "option2": "2",
+        "option3": "4",
+        "option4": "5",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which is the abstract adapter class for receiving keyboard focus events?",
+        "option1": "FocusListener",
+        "option2": "FocusAdapter",
+        "option3": "AdapterFocus",
+        "option4": "AdapterListener",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Adapter Class and interfaces are the same.",
+        "option1": "Sometimes",
+        "option2": "Never",
+        "option3": "True",
+        "option4": "False",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Adapter class saves _________.",
+        "option1": "Time",
+        "option2": "Code",
+        "option3": "Space",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Following are the integer constants which does not belong to the ComponentEvent class.",
+        "option1": "COMPONENT_HIDDEN",
+        "option2": "COMPONENT_ICONIFIED",
+        "option3": "COMPONENT_MOVED",
+        "option4": "COMPONENT_SHOWN",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "__________ is a superclass of all AWT events that are handled by the model.",
+        "option1": "AWTEvent",
+        "option2": "Event",
+        "option3": "UtilityEvent",
+        "option4": "AWT",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A class which adapts methods of another class by giving different names to the same methods is called as __________.",
+        "option1": "Inner Class",
+        "option2": "Simple Class",
+        "option3": "Adapter Class",
+        "option4": "Inherited Class",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "If a class MyWindowAdapter extends WindowAdapter and implements the method. How to register this class?",
+        "option1": "this.addWindowListener(new MyWindowAdapter());",
+        "option2": "this.addWindow(new MyWindowAdapter());",
+        "option3": "this.addWindowAdapter(new MyWindowAdapter());",
+        "option4": "this.addWindowWindow(new MyWindowAdapter());",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Commonly used methods of CardLayout class are____________.",
+        "option1": "public void next(Container parent)",
+        "option2": "public void previous(Container parent)",
+        "option3": "public void first(Container parent)",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Java allows a programmer to write a class within another class, this is called_______________ .",
+        "option1": "Abstract Class",
+        "option2": "Inner Class",
+        "option3": "Derived Class",
+        "option4": "Simple Class",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What are the different types of inner classes?",
+        "option1": "Local",
+        "option2": "Anonymous",
+        "option3": "Both A & B",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Fill in the proper name of the class. import java.awt.*; import java.awt.event.*; import java.applet.*; /*<applet code='AdapterDemo' width=300 height=100></applet>*/ public class AdapterDemo extends Applet { public void init() { addMouseListener(new MyMouseAdapter(this)); } } class MyMouseAdapter extends MouseAdapter { __________ adapterDemo; public MyMouseAdapter(AdapterDemo adapterDemo) { this.adapterDemo = adapterDemo; } public void mouseClicked(MouseEvent me) { adapterDemo.showStatus('Mouse clicked'); } }",
+        "option1": "AdapterDemo",
+        "option2": "adapterdemo",
+        "option3": "AdapterDemo1",
+        "option4": "Adapter",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Generates _____________ when the user enters a character.",
+        "option1": "Text Event",
+        "option2": "Character Event",
+        "option3": "Label Event",
+        "option4": "TextField Event",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "MouseWheelEvent defines integer constants.",
+        "option1": "WHEEL_BLOCK_SCROLL,WHEEL_UNIT_SCROLL",
+        "option2": "BLOCK_SCROLL,UNIT_SCROLL",
+        "option3": "WHEEL_SCROLL,BLOCK_SCROLL",
+        "option4": "WHEEL_PAGE_SCROLL,WHEEL_TRACK_SCROLL",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the return type of isTemporary() method?",
+        "option1": "int",
+        "option2": "Long",
+        "option3": "String",
+        "option4": "boolean",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The abstract class ______________ is a subclass of ComponentEvent and for component input events.",
+        "option1": "FocusEvent",
+        "option2": "InputEvent",
+        "option3": "WindowEvent",
+        "option4": "TextEvent",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Inner class can access all the members of outer class including_______ methods.",
+        "option1": "Private",
+        "option2": "Public",
+        "option3": "Protected",
+        "option4": "Static",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "____________________ can be achieved by using Inner Class.",
+        "option1": "Code Extension",
+        "option2": "Code Inheritance",
+        "option3": "Code Optimization",
+        "option4": "Code Development",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The __________ method returns the object that generated the event.",
+        "option1": "Adjustable()",
+        "option2": "getModifiers()",
+        "option3": "getAdjustable()",
+        "option4": "getAdjust()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "______ is a class which is declared inside the class or interface.",
+        "option1": "Inner Class",
+        "option2": "Inherited Class",
+        "option3": "Nested Interfaces",
+        "option4": "Static Class",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "To handle any events of mouse, you must implement following interfaces",
+        "option1": "MouseListener, MouseMotionListener, MouseWheelListener",
+        "option2": "MouseListener, MouseWheelListener",
+        "option3": "MouseMotionListener, MouseWheelListener",
+        "option4": "MouseListener",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The _________ method returns a reference to the component that was added from the container.",
+        "option1": "getParent()",
+        "option2": "get()",
+        "option3": "getTime()",
+        "option4": "getChild()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A class that has no name is known as_______________ inner class in Java.",
+        "option1": "Anonymous",
+        "option2": "Local",
+        "option3": "Nested",
+        "option4": "Static",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which are two ways to create Java Anonymous inner class?",
+        "option1": "Class, Interface",
+        "option2": "Class, Object",
+        "option3": "Interface, Object",
+        "option4": "Class, Constructor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which event is generated when a button is pressed?",
+        "option1": "TextEvent",
+        "option2": "ItemEvent",
+        "option3": "InputEvent",
+        "option4": "ActionEvent",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which event is generated when checkable menu item is selected or deselected?",
+        "option1": "ActionEvent",
+        "option2": "InputEvent",
+        "option3": "ItemEvent",
+        "option4": "TextEvent",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "If you compile a file containing an inner class how many .class files are generated?",
+        "option1": "1",
+        "option2": "4",
+        "option3": "3",
+        "option4": "2",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When a component is added to and removed from a container, _________ generates.",
+        "option1": "ComponentEvent",
+        "option2": "WindowEvent",
+        "option3": "FrameEvent",
+        "option4": "ContainerEvent",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "What is the output of the following code?",
+        "option1": "error",
+        "option2": "data is Null",
+        "option3": "data is 30",
+        "option4": "data is 0",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "The AdjustmentEvent class defines integer constants.",
+        "option1": "ALT, CTRL, META, and/or SHIFT",
+        "option2": "BLOCK_DECREMENT, BLOCK_INCREMENT, TRACK",
+        "option3": "ALT, CTRL, UNIT_INCREMENT, UNIT_DECREMENT",
+        "option4": "UNIT_INCREMENT, UNIT_DECREMENT, SHIFT",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Since Nested class is a member of its enclosing class Outer, you can use __________ notation to access Nested class and its members.",
+        "option1": "->(arrow)",
+        "option2": ".(dot)",
+        "option3": "* (asterisk)",
+        "option4": "& (ampersand)",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Inner classes provide ____________ mechanism in Java.",
+        "option1": "Safety",
+        "option2": "Protection",
+        "option3": "Security",
+        "option4": "Risk Handling",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "ItemEvent class defines the integer constants.",
+        "option1": "DESELECT, SELECT",
+        "option2": "DESELECTED, SELECTED",
+        "option3": "ENABLED, NOTENABLED",
+        "option4": "CHECKED, UNCHECKED",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The non-static nested classes are also known as _______________.",
+        "option1": "event class",
+        "option2": "class",
+        "option3": "adapter classes",
+        "option4": "inner classes",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Inner class mainly used for _________________ .",
+        "option1": "Code Optimization",
+        "option2": "to access all the members",
+        "option3": "to develop more readable and maintainable code",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Can outer Java classes access inner class private members?",
+        "option1": "No",
+        "option2": "Sometimes",
+        "option3": "Yes",
+        "option4": "Never",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the output of the following?",
+        "option1": "Mouse Clicked",
+        "option2": "Mouse Moved",
+        "option3": "Mouse Dragged",
+        "option4": "Mouse Pressed",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Fill in the blanks.",
+        "option1": "addMouse, Adapter",
+        "option2": "addMouseListener, Adapter",
+        "option3": "addMouseListener, MouseAdapter",
+        "option4": "addListener, MouseAdapter",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "What is the output of the following Java program?",
+        "option1": "inside innerMethod inside outerMethod",
+        "option2": "inside outerMethod inside innerMethod",
+        "option3": "inside innerMethod inside innerMethod",
+        "option4": "inside outerMethod inside outerMethod",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "Identify the correct adapter name and event name.",
+        "option1": "Window, WindowEvent",
+        "option2": "WindowAdapter, Window",
+        "option3": "WindowAdapter, WindowEvent",
+        "option4": "Adapter, Event",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "In the following code, what is the name of the inner class?",
+        "option1": "getISBN",
+        "option2": "Periodical",
+        "option3": "ISBN",
+        "option4": "Book",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "Identify the type of class for the following code?",
+        "option1": "Inner Class",
+        "option2": "Adapter class",
+        "option3": "Anonymous Inner Class",
+        "option4": "static class",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "In case of _______ we can implement only required methods of any interface.",
+        "option1": "interface",
+        "option2": "package",
+        "option3": "adapter classes",
+        "option4": "event classes",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The ___________ method returns a value that indicates which modifier when the event was generated.",
+        "option1": "getModifiers()",
+        "option2": "getAdjustable()",
+        "option3": "Modifiers()",
+        "option4": "Adjustable()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "getLocalHost() method simply returns the InetAddress object which represents______________",
+        "option1": "host name",
+        "option2": "machine name",
+        "option3": "local host",
+        "option4": "remote host",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The getByName() method returns an ________________ with host name",
+        "option1": "IP address",
+        "option2": "InetAddress Object",
+        "option3": "port number",
+        "option4": "IPv4",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "getAllByName() method returns an array of_____________ that represents addresses that specific host name has",
+        "option1": "host names",
+        "option2": "InetAddresses",
+        "option3": "ip addresses",
+        "option4": "objects",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the output of the following program\nimport java.net.*;\nclass Demo\n{\npublic static void main(String arg[]) throws UnknownHostException\n{\nInetAddress ipa=InetAddress.getLocalHost();\nSystem.out.println(ipa);\n}",
+        "option1": "host name/IP address",
+        "option2": "iPAddress/Host name",
+        "option3": "IPAddress",
+        "option4": "Host name",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "Which type of Statement can execute parameterized queries?",
+        "option1": "ParameterizedStatement",
+        "option2": "PreparedStatement",
+        "option3": "ParameterizedStatement and CallableStatement",
+        "option4": "All kinds of Statements",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How can you retrieve information from a ResultSet?",
+        "option1": "By invoking the method get(String type) on the ResultSet, where type is a database type",
+        "option2": "By invoking the method get(Type type) on the ResultSet, where Type is a database type",
+        "option3": "By invoking the method getValue(), and cast the result to the desired",
+        "option4": "By invoking the special getter methods on the ResultSet: getString(), getClob()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which type of statement can execute parameterized queries?",
+        "option1": "PreparedStatement",
+        "option2": "ParameterizedStatement",
+        "option3": "CallableStatement",
+        "option4": "All of the Above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the meaning of ResultSet.TYPE_SCROLL_INSENSITIVE",
+        "option1": "This means that the ResultSet is insensitive to scrolling",
+        "option2": "This means that the Resultset is sensitive to scrolling, but insensitive not updateable",
+        "option3": "This means that the ResultSet is sensitive to scrolling, but insensitive by others",
+        "option4": "The meaning depends on the type of data source, and the type and version you use with this data source",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What statements are correct about JDBC transactions?",
+        "option1": "A transaction is a set of successfully executed statements in the data",
+        "option2": "A transaction is finished when commit() or rollback() is called on the",
+        "option3": "A transaction is finished when commit() or rollback() is called on the",
+        "option4": "A transaction is finished when close() is called on the Connection obj",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What happens if you call the method close() on a ResultSet object?",
+        "option1": "the method close() does not exist for a ResultSet. Only Connections can close",
+        "option2": "the database and JDBC resources are released",
+        "option3": "you will get a SQLException, because only Statement objects can close",
+        "option4": "the ResultSet, together with the Statement which created it and the Connection, will be closed and release all database resources",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What happens if you call deleteRow() on a ResultSet object?",
+        "option1": "The row you are positioned on is deleted from the ResultSet, but not from the database",
+        "option2": "The row you are positioned on is deleted from the ResultSet and from the database",
+        "option3": "The result depends on whether the property synchronizeWithDataSource is false.",
+        "option4": "You will get a compile error: the method does not exist because you can't delete from a ResultSet.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is correct about DDL statements?",
+        "option1": "DDL statements are treated as normal SQL statements, and are executed using execute() method on a Statement",
+        "option2": "To execute DDL statements, you have to install additional support file",
+        "option3": "DDL statements cannot be executed by making use of JDBC, you should use database tools for this",
+        "option4": "Support for DDL statements will be a feature of a future release of JDBC",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statements is false as far as different types of statement in JDBC?",
+        "option1": "Regular Statement",
+        "option2": "Prepared Statement",
+        "option3": "Callable Statement",
+        "option4": "Interim Statement",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "JDBC facilitates to store the Java objects by using which of these methods?",
+        "option1": "setObject(), setBlob()",
+        "option2": "setObject(), setBlob(), setClob()",
+        "option3": "setObject(), setClob()",
+        "option4": "setBlob(), setClob()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "_______ method to establish actual database connection.",
+        "option1": "executeQuery()",
+        "option2": "executeUpdate()",
+        "option3": "getConnection()",
+        "option4": "prepareCall()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following describes the correct sequence of steps in connection with a database?",
+        "option1": "Loading the driver, Making the connection with the database, Executing the SQL statements, Processing the results.",
+        "option2": "Loading the driver, Processing the results, Making the connection with the database, Executing the SQL statements.",
+        "option3": "Processing the results, Loading the driver, Making the connection with the database, Executing the SQL statements.",
+        "option4": "Executing the SQL statements, Loading the driver, Processing the results, Making the connection with the database.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which method is used to perform DML statements in JDBC?",
+        "option1": "execute()",
+        "option2": "executeQuery()",
+        "option3": "executeUpdate()",
+        "option4": "executeResult()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Can we retrieve a whole row of data at once, instead of calling an individual ResultSet.getXXX method for each column?",
+        "option1": "No",
+        "option2": "Yes",
+        "option3": "Statement is incorrect",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Are Prepared Statements actually compiled?",
+        "option1": "Yes",
+        "option2": "No",
+        "option3": "Statement is incorrect",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In order to transfer data between a database and an application written in a programming language, the JDBC API provides which of these methods?",
+        "option1": "Methods on the ResultSet class for retrieving SQL SELECT results as Java objects.",
+        "option2": "Methods on the PreparedStatement class for sending Java types as SQL statement parameters.",
+        "option3": "Methods on the CallableStatement class for retrieving SQL OUT parameters.",
+        "option4": "All mentioned above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "_________ calls get converted into native C or C++ API calls.",
+        "option1": "API",
+        "option2": "ODBC",
+        "option3": "JDBC API",
+        "option4": "None of the above.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which method drops all changes made since the previous commit/rollback?",
+        "option1": "public void rollback()",
+        "option2": "public void commit()",
+        "option3": "public void close()",
+        "option4": "public Statement createStatement()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is used to set the maximum number of rows?",
+        "option1": "setMaxRows(int i)",
+        "option2": "setMinRows(int i)",
+        "option3": "getMaxrows(int i)",
+        "option4": "getMinRows(int i)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "____ method of ResultSet is used to move the cursor to the row next from current position.",
+        "option1": "fetch method",
+        "option2": "current method",
+        "option3": "next method",
+        "option4": "access method",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following encapsulates an SQL statement which is passed to be parsed, compiled, planned and executed?",
+        "option1": "DriverManager",
+        "option2": "JDBC driver",
+        "option3": "Connection",
+        "option4": "Statement",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The interface ResultSet has a method, getMetaData(), that returns a/an",
+        "option1": "Tuple",
+        "option2": "Value",
+        "option3": "Object",
+        "option4": "Result",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which method is used to find the number of columns in ResultSet?",
+        "option1": "getNumberOfColumn()",
+        "option2": "getMaxColumn()",
+        "option3": "getColumnCount()",
+        "option4": "getColumns()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "commit() method belongs to which interface?",
+        "option1": "ResultSet",
+        "option2": "Statement",
+        "option3": "PreparedStatement",
+        "option4": "Connection",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which one is the correct syntax for creating a Statement?",
+        "option1": "Statement stmt = connection.createStatements();",
+        "option2": "Statement stmt = connection.preparedStatement();",
+        "option3": "Statement stmt = connection.createStatement();",
+        "option4": "none of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "101 Which statement is correct?",
+        "option1": "ResultSet rs = stmt.selectQuery(\"SELECT ROLLNO,STUDNAME FROM STUDENT\")",
+        "option2": "ResultSet rs = stmt.executeSelect(\"SELECT ROLLNO,STUDNAME FROM STUDENT\")",
+        "option3": "ResultSet rs = stmt.executeUpdate(\"SELECT ROLLNO,STUDNAME FROM STUDENT\")",
+        "option4": "ResultSet rs = stmt.executeQuery(\"SELECT ROLLNO,STUDNAME FROM STUDENT\")",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "102 INSERT, DELETE, UPDATE comes under?",
+        "option1": "Data Modification Language",
+        "option2": "Data Definition Language",
+        "option3": "Data Control Language",
+        "option4": "Data Manipulation Language",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "103 The return type of execute(String query) is?",
+        "option1": "int",
+        "option2": "ResultSet",
+        "option3": "boolean",
+        "option4": "void",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "104 Consider the following program. Select the missing statement in given:",
+        "option1": "stmt.setString(2,\"Ratan\");",
+        "option2": "int i=stmt.executeQuery();",
+        "option3": "ResultSet rs=stmt.executeQuery();",
+        "option4": "ResultSet rs=stmt.executeQuery(\"select * from student\");",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "105 Consider the following code. To execute the query, which of the following is used?",
+        "option1": "int rowsAffected = preparedStatement.executeUpdate();",
+        "option2": "ResultSet rs=preparedStatement.executeQuery(sql);",
+        "option3": "int rowsAffected = preparedStatement.executeQuery(sql);",
+        "option4": "ResultSet rs=preparedStatement.executeUpdate();",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "106 Which method is used to insert image in database?",
+        "option1": "statement.getImage()",
+        "option2": "statement.getDouble()",
+        "option3": "statement.getBLOB()",
+        "option4": "statement.getIcon()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "107 All raw data types (including binary documents or images) should be retrieved from the database as an array of?",
+        "option1": "byte",
+        "option2": "int",
+        "option3": "char",
+        "option4": "long",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "108 Consider the following code and select the missing statement:",
+        "option1": "ResultSet rs=stmt.runQuery(\"select * from emp\");",
+        "option2": "ResultSet rs=stmt.executeQuery(\"select * from emp\");",
+        "option3": "int n=stmt.executeQuery(\"select * from emp\");",
+        "option4": "int n=stmt.executeUpdate(\"select * from emp\");",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "109 Consider the following program. Find which statement contains error:",
+        "option1": "No error",
+        "option2": "error",
+        "option3": "compile time error",
+        "option4": "Run time error",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "110 Consider the following code and write the value of String sql to delete employee:",
+        "option1": "sql=\"delete from Employee where empid=\" + num;",
+        "option2": "sql=\"delete * Employee where empid=\" + num;",
+        "option3": "sql=\"select * from Employee\";",
+        "option4": "sql=\"delete from Employee where empid=\";",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "111 Following four methods belong to which class?",
+        "option1": "Graphics class",
+        "option2": "Component class",
+        "option3": "Both A & B",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "112 Which is the container that does not contain title bar and MenuBars but contains components like button, textfield, etc?",
+        "option1": "Window",
+        "option2": "Menu bar",
+        "option3": "Panel",
+        "option4": "Output Screen",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "113 Whose object is to be created to show any number of choices in the visible area?",
+        "option1": "JLabel",
+        "option2": "JButton",
+        "option3": "JList",
+        "option4": "JCheckbox",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "114 What is used to store partial data results, as well as to perform dynamic return values for methods, and dispatch exceptions?",
+        "option1": "Window",
+        "option2": "Button",
+        "option3": "Container",
+        "option4": "Frame",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "115 Which class is used for processActionEvent( ) Processing Method?",
+        "option1": "JButton, JList, JMenuItem",
+        "option2": "JButton Only",
+        "option3": "JScrollbar",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "116 a) It is lightweight. b) It supports pluggable look and feel. c) It follows MVC (Model View Controller) architecture. Above advantages are of _____________",
+        "option1": "Swing",
+        "option2": "AWT",
+        "option3": "Networking",
+        "option4": "Databases",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "117 JFrame myFrame = new JFrame (); Any command (such as the one listed above) which creates a new object (in this case a new JFrame object called myFrame) is generally called",
+        "option1": "Constructor",
+        "option2": "Layout manager",
+        "option3": "Parameter",
+        "option4": "GUI",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "118 Suppose you are developing a Java Swing application and want to toggle views of the design area. Which of the views given below are present for toggle?",
+        "option1": "Design View",
+        "option2": "Requirement View",
+        "option3": "Source View",
+        "option4": "Toggle View",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "119 The size of a frame on the screen is measured in:",
+        "option1": "Inches",
+        "option2": "Centimetres",
+        "option3": "Dots",
+        "option4": "Pixels",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "120 The layout of a container can be altered by using which of the following?",
+        "option1": "setLayout(LayoutManager)",
+        "option2": "layoutmanager(LayoutManager)",
+        "option3": "addLayout(LayoutManager)",
+        "option4": "setLayoutManager(LayoutManager)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "121 In JDBC _____ imports all java classes concerned with database connection?",
+        "option1": "javax.sql.*",
+        "option2": "java.mysql.*",
+        "option3": "java.sql.*",
+        "option4": "com.*",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "122 Methods of ResultSet throws ...... exception.",
+        "option1": "IOException",
+        "option2": "SQLException",
+        "option3": "MethodNotFoundException",
+        "option4": "ResultSetException",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "123 Which of the following is FALSE with reference to JDBC Driver?",
+        "option1": "All drivers implement the java.sql.Driver interface.",
+        "option2": "Driver classes are not supplied by the database vendor.",
+        "option3": "Driver class return a java.sql.Connection object.",
+        "option4": "None of the Above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "124 How do you indicate where a component will be positioned using FlowLayout?",
+        "option1": "North, South, East, West",
+        "option2": "Assign a row/column grid reference",
+        "option3": "Do nothing, the FlowLayout will position the component",
+        "option4": "Pass a X/Y percentage parameter to the add method",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "125 Match the following: i) Type 1 Driver a) Native API, partly Java ii) Type 2 Driver b) Pure Java direct to database iii) Type 3 Driver c) JDBC-ODBC bridge iv) Type 4 Driver d) Pure Java to database middleware",
+        "option1": "i -> c, ii -> b, iii -> d, iv -> a",
+        "option2": "i -> c, ii -> a, iii -> d, iv -> b",
+        "option3": "i -> c, ii -> a, iii -> b, iv -> d",
+        "option4": "i -> c, ii -> d, iii -> a, iv -> b",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "126 PreparedStatements are used for calling ........ statements",
+        "option1": "Interpreted Statements",
+        "option2": "Executed statements",
+        "option3": "Resultset statements",
+        "option4": "Precompiled Statement",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "127 Which TextComponent method is used to set a TextComponent to the read-only mode?",
+        "option1": "setReadOnly()",
+        "option2": "setRead()",
+        "option3": "setUpdate()",
+        "option4": "setTextReadOnly()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "128 Which type of Driver communicates using a network protocol to a middleware?",
+        "option1": "Type 1 Driver",
+        "option2": "Type 2 Driver",
+        "option3": "Type 3 Driver",
+        "option4": "Type 4 Driver",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "129 Which method will cause a JFrame to get displayed?",
+        "option1": "show()",
+        "option2": "setVisible()",
+        "option3": "showFrame()",
+        "option4": "displayFrame()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "130 Which of the Following Drivers Sun describes it as being experimental use only where no other driver is available?",
+        "option1": "Type 1 Driver",
+        "option2": "Type 2 Driver",
+        "option3": "Type 3 Driver",
+        "option4": "Type 4 Driver",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "131 ___________ interface allows storing results of query?",
+        "option1": "ResultSet",
+        "option2": "Connection",
+        "option3": "Statement",
+        "option4": "Result",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "132 Which of the Following Drivers require native library files to be installed on client systems.",
+        "option1": "Type 1 Driver",
+        "option2": "Type 2 Driver",
+        "option3": "Type 3 Driver",
+        "option4": "Type 4 Driver",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "133 InetAddress also Includes a factory method called____",
+        "option1": "getByAddress()",
+        "option2": "getHostName()",
+        "option3": "getAddress()",
+        "option4": "getIPAddress()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "134 Which of the following statements are TRUE in case of Type 2 JDBC Driver?",
+        "option1": "It use native methods to call vendor-specific API functions.",
+        "option2": "Native library files are to be installed on client systems.",
+        "option3": "Both of the Above",
+        "option4": "None of the Above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "135 In JDBC 2.0 a Connection object is created either by a call to",
+        "option1": "DriverManager.getConnection()",
+        "option2": "DataSource.Connection()",
+        "option3": "Both of the Above",
+        "option4": "None of the Above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "136 How to create the Tabbed pane in swings?",
+        "option1": "JTab jt=new JTab();",
+        "option2": "JTabPane jt=new JTabPane();",
+        "option3": "JTabP =new JTabP();",
+        "option4": "JTabbedPane jt=new JTabbedPane ();",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "137 In JDBC URL string protocol is always",
+        "option1": "jdbc",
+        "option2": "odbc",
+        "option3": "Jdbc-odbc",
+        "option4": "Any one of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "138 Choose the correct option to insert rollno and student name into table and display its contents",
+        "option1": "import java.sql.*; class Example1{ public static void main(\"jdbc:oracle:thin:@localhost:1521:xe\",\"system\",\"oPreparedStatement stmt=con.prepareStatement(\"insert into studenSystem.out.println(e);} }",
+        "option2": "import java.sql.*; class Example1{ public static void main(\"jdbc:oracle:thin:@localhost:1521:xe\",\"system\",\"oPreparedStatement stmt=con.preparedStatement(\"insert into studestmt.setInt(1,\"Ratan\"); stmt.setString(2,101); int i=stmtC.",
+        "option3": "import java.sql.*; class Example1{ public static void mainvalues(?,?)\" ; stmt.setInt(1,101); stmt.setString(2,XYZ); i=stmt.executeQuery(); con.close(); }catch(Exception e){ System.out.println(e);} }",
+        "option4": "import java.sql.*; class Example1{ public static void main(\"jdbc:oracle:thin:@localhost:1521:xe\",\"system\",\"oPreparedStatement stmt=con.preparedStatement(\"insert into studestmt.setInt(1,101); stmt.setString(2,\"Ratan\"); int i=stmt.executeUpdate(); con.close(); }catch(Exception e){ System.out.println(e);} }",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "139 What is the output of following program",
+        "option1": "www.google.com/217.56.216.195",
+        "option2": "www.google.com",
+        "option3": "217.56.216.195",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "140 What does the following line of code do? JTextfield text = new JTextfield(10);",
+        "option1": "Creates text object that can hold 10 columns of text.",
+        "option2": "Creates text object that can hold 10 rows of text.",
+        "option3": "Creates the object text and initializes it with 10.",
+        "option4": "The code is illegal",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "141 Which of the following is FALSE with reference to JDBC database URL",
+        "option1": "URL string has three components",
+        "option2": "protocol in URL string is always jdbc",
+        "option3": "subprotocol in URL string is always odbc.",
+        "option4": "subname identifies the specific database to connect",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "142 The Swing component classes that are used to encapsulate a mutually exclusive group of buttons?",
+        "option1": "AbstractButton",
+        "option2": "ButtonGroup",
+        "option3": "JButton",
+        "option4": "Button",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "143 Which class has strong support of the JDBC architecture?",
+        "option1": "The JDBC driver manager",
+        "option2": "JDBC driver test suite",
+        "option3": "JDBC ODBC bridge",
+        "option4": "All of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "144 Connection object can be initialized using the ____________method of the class.",
+        "option1": "putConnection()",
+        "option2": "setConnection()",
+        "option3": "Connection()",
+        "option4": "getConnection()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "145 In model-view-controller (MVC) architecture of swings, model defines the_______________________________",
+        "option1": "Data layer",
+        "option2": "Presentation layer",
+        "option3": "Business-logic layer",
+        "option4": "Both A and C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "146 Which of the following methods are needed for loading a database driver?",
+        "option1": "registerDriver() method",
+        "option2": "Class.forName ()",
+        "option3": "Both A and B",
+        "option4": "getConnection ()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "147 Disadvantages of MVC architecture can be:",
+        "option1": "Navigation control is decentralized",
+        "option2": "Time consuming",
+        "option3": "both a & b",
+        "option4": "UI components are not user friendly",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "148 Native API converts ____________into the ________________used by DBMS.",
+        "option1": "JDBC API, network protocol",
+        "option2": "JDBC API, Native API calls",
+        "option3": "JDBC API, User call",
+        "option4": "JDBC API, ODBC API calls",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "149 _______ method of DriverManager class is used to establish connection",
+        "option1": "openConnection()",
+        "option2": "getConnection()",
+        "option3": "connect()",
+        "option4": "createConnection()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "150 . . . . . . helps you to maintain data when you move from controller to view.",
+        "option1": "View Bag",
+        "option2": "View Data",
+        "option3": "Temp Data",
+        "option4": "Both A and B",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "151 What is the output of following program",
+        "option1": "array of hostnames",
+        "option2": "array of hostname/IPaddress",
+        "option3": "array of IPaddress",
+        "option4": "IPAddress/Hostname",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "152 Which of the following view file types are supported in MVC?",
+        "option1": ".cshtml",
+        "option2": ".vbhtml",
+        "option3": ".aspx",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "153 Can we use view state in MVC?",
+        "option1": "Yes",
+        "option2": "No",
+        "option3": "Both A & B",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "154 subname part of JDBC URL string NOT contains",
+        "option1": "Database name",
+        "option2": "Username & password",
+        "option3": "Port number",
+        "option4": "Protocol",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "155 The code below draws a line. What is the color of the line created?",
+        "option1": "Red",
+        "option2": "Green",
+        "option3": "Yellow",
+        "option4": "Cyan",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "156 What does the following code draw?",
+        "option1": "A red vertical line that is 40 pixels long and a red square with sides",
+        "option2": "A black vertical line that is 40 pixels long and a red square with sides",
+        "option3": "A black vertical square that is 50 pixels long and a red square with sides",
+        "option4": "A red vertical line that is 50 pixels long and a red square with sides",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "157 boolean equals(Object other) will return_______",
+        "option1": "Returns true if object has same internet address as other.",
+        "option2": "Returns False if object has same internet address as other.",
+        "option3": "Returns true if object has not same internet address as other.",
+        "option4": "Returns null if object has same internet address as other.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "158 Which method is used to construct a 24-point bold serif font?",
+        "option1": "new Font(Font.SERIF, 24,Font.BOLD);",
+        "option2": "new Font(\"SERIF\", 24, BOLD\");",
+        "option3": "new Font(\"BOLD\", 24,Font.SERIF);",
+        "option4": "new Font(\"SERIF\", Font.BOLD,24);",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "159 What is the role of getAddress() method?",
+        "option1": "returns Ip address of network.",
+        "option2": "Returns a byte array that represents the object's Ip address in the network.",
+        "option3": "Returns an array of objects that represents Ip address.",
+        "option4": "Returns the byte array of Ip address of network host machine.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "160 Which of the following type of JDBC driver, is also called Type 3 JDBC?",
+        "option1": "JDBC-ODBC Bridge plus ODBC driver",
+        "option2": "Native-API, partly Java driver",
+        "option3": "JDBC-Net, pure Java driver",
+        "option4": "Native-protocol, pure Java driver",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "161 What will be the following code draw on the screen. Where \"g\" is a graphic context object and the code is g.fillArc(45,90,50,50,90,180);",
+        "option1": "An arc bounded by a box of height 45, width 90 with a centre point of an angle of 90 degrees traversing through 180 degrees counterclockwise.",
+        "option2": "An arc bounded by a box of height 50, width 50, with a centre point of an angle of 90 degrees traversing through 180 degrees clockwise.",
+        "option3": "An arc bounded by a box of width 50, height 50, with a top left at coordinates (45,90), starting at 90 degrees and traversing through 180 degrees counterclockwise.",
+        "option4": "An arc starting at 45 degrees, traversing through 90 degrees clockwise of height 50, width 50 with a centre point of 90, 180.",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "162 Analyze the following code and fill the appropriate statement in the blank: import java.sql.*; class Demo { public static void main(String args[])throws Exception { Class.forName(\"sun.jdbc.odbc.JdbcOdbcDriver\"); Connection con=DriverManager.getConnection(\"jdbc:odbc:stud\"); Statement stmt=con.createStatement(); ResultSet rs=stmt.________________(\"select * from student where rollno\"); System.out.println(\"RollNo Name Branch\"); while(rs.next()) { System.out.println(rs.getString(1)+\" \"+rs.getString(2)+\" \"+rs.getInt(3)); } con.close(); } }",
+        "option1": "executeUpdate()",
+        "option2": "executeQuery()",
+        "option3": "execute()",
+        "option4": "All of the Above",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "163 What will be the output of the following program? The program overrides the paint method as follows: import java.applet.*; import java.awt.*; public class HelloWorldApplet extends Applet { public void paint(Graphics g) { g.drawString(\"Dolly\", 50, 10); } }",
+        "option1": "The string \"Dolly\" will be displayed at the centre of the frame.",
+        "option2": "An error at compilation complaining at the signature of the paint method.",
+        "option3": "The string \"Dolly\" will be seen at the top of the form.",
+        "option4": "The string \"Dolly\" will be shown at the bottom of the form.",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "164 What is the output of the following program? import java.awt.*; import javax.swing.*; public class FrameTest extends JFrame { public FrameTest() { add(new JButton(\"First\")); add(new JButton(\"Second\")); add(new JButton(\"Third\")); pack(); setVisible(true); } public static void main(String args[]) { new FrameTest(); } }",
+        "option1": "Three buttons are displayed across a window.",
+        "option2": "A runtime exception is generated (no layout manager specified).",
+        "option3": "Only the first button is displayed.",
+        "option4": "Only the third button is displayed.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "165 Which of the following type of JDBC driver, is also called Type 1 JDBC?",
+        "option1": "JDBC-ODBC Bridge Driver",
+        "option2": "Native API/ Partly java driver",
+        "option3": "All java / Net-protocol driver",
+        "option4": "Native protocol / all-java driver",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "166 Which of the following type of JDBC driver, is also called Type 2 JDBC?",
+        "option1": "Native API/ Partly java driver",
+        "option2": "JDBC-ODBC Bridge Driver",
+        "option3": "Native protocol / all-java driver",
+        "option4": "All java / Net-protocol driver",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "167 Suppose a JPanel is added to a JFrame and a JButton is added to the JPanel. If JFrame's font is set to 12-point TimesRoman, the JPanel's font is set to TimesRoman, and the JButton's font is not set, what font will be taken for the JButton's label?",
+        "option1": "12-point TimesRoman.",
+        "option2": "11-point TimesRoman.",
+        "option3": "10-point TimesRoman.",
+        "option4": "09-point TimesRoman.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "168 Which of the following type of JDBC driver, is also called Type 4 JDBC?",
+        "option1": "All java / Net-protocol driver",
+        "option2": "Native protocol / all-java driver",
+        "option3": "Native API/ Partly java driver",
+        "option4": "JDBC-ODBC Bridge Driver",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "169 What is the result of the following applet code? import java.applet.JApplet; import javax.swing.*; public class Sample extends JApplet { private String text = \"Hello World\"; public void init() { add(new JLabel(text)); } public Sample(String string) { text = string; } } It is accessed from the following HTML page: <html> <title>Sample Applet</title> <body> <applet code=\"Sample.class\" width=200 height=200></applet></body></html>.",
+        "option1": "Prints \"Hello World\"",
+        "option2": "Generates a runtime error",
+        "option3": "Does nothing",
+        "option4": "Generates a compile time error",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "170 What is the method setLabel() used with in the following code? import java.applet.JApplet; import javax.swing.*; public class Sample extends JApplet { private String text = \"Hello World\"; public void init() { add(new JLabel(text)); } public Sample(String string) { text = string; } } It is accessed from the following HTML page: <html> <title>Sample Applet</title> <body> <applet code=\"Sample.class\" width=200 height=200></applet></body></html>.",
+        "option1": "Float",
+        "option2": "int",
+        "option3": "JTextField",
+        "option4": "String",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "171 Which Swing Component classes are used to encapsulate mutually exclusive buttons?",
+        "option1": "AbstractButton",
+        "option2": "ButtonGroup",
+        "option3": "JButton",
+        "option4": "Button",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "172 Which method is used to add tooltip text to almost all components of Java Swing?",
+        "option1": "getToolTipText()",
+        "option2": "setToolTipText(String s)",
+        "option3": "setToolTip(String s)",
+        "option4": "getToolTipText(String s)",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "173 In Swing, the content pane can be obtained by using which method?",
+        "option1": "getContent()",
+        "option2": "getContentPane()",
+        "option3": "Both A & B",
+        "option4": "getContainedPane()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "174 Which one of the following is the correct sequence of activities to perform for JDBC connectivity in Java?",
+        "option1": "Register the Driver class - Create statement - Create connection - Execute query - Close connection",
+        "option2": "Register the Driver class - Create connection - Create statement - Execute query - Close connection",
+        "option3": "Create connection - Register the Driver class - Create statement - Execute query - Close connection",
+        "option4": "Create connection - Create statement - Register the Driver class - Execute query - Close connection",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "175 Model is the _________ in the MVC architecture.",
+        "option1": "top most level",
+        "option2": "middle most level",
+        "option3": "bottom most level",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "176 Double-buffering built-in, tooltips, dockable toolbars, keyboard accelerators, cursors, etc. are new features of _______?",
+        "option1": "AWT",
+        "option2": "Networking",
+        "option3": "Swing",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "177 JCheckBox is ___________________ Component.",
+        "option1": "heavyweight",
+        "option2": "mediumweight",
+        "option3": "No weight",
+        "option4": "lightweight",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "178 The default layout manager for the content pane of a swing is:",
+        "option1": "CardLayout",
+        "option2": "GridLayout",
+        "option3": "BorderLayout",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "179 Type of server in two-tier architectures which provides data to client pages is called",
+        "option1": "transaction server",
+        "option2": "functional server",
+        "option3": "disk server",
+        "option4": "data server",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "180 Application program interface in two-tier architecture database management system is provided by the",
+        "option1": "close module connectivity",
+        "option2": "open module connectivity",
+        "option3": "close database connectivity",
+        "option4": "open database connectivity",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "181 Database system compiles query when it is",
+        "option1": "prepared",
+        "option2": "invoked",
+        "option3": "executed",
+        "option4": "initialized",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "182 Standard which allows access to DBMS by Java client programs is classified as",
+        "option1": "JCBD standard",
+        "option2": "JDBC standard",
+        "option3": "BDJC standard",
+        "option4": "CJBD standard",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "183 Which of the Following is NOT a valid Syntax for getConnection() Method?",
+        "option1": "public static Connection getConnection(String url)",
+        "option2": "public static Connection getConnection(String url, String userID, String password)",
+        "option3": "public static Connection getConnection(jdbc:<subprotocol>:<subname>Strpassword)",
+        "option4": "None of the Above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "184 In two-tier client/server architecture, running of application program interface programs is in control of___________",
+        "option1": "modulation side",
+        "option2": "client side",
+        "option3": "server side",
+        "option4": "host side",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "185 Which of the following must be closed at the end of a Java program?",
+        "option1": "Result",
+        "option2": "Connection",
+        "option3": "Query",
+        "option4": "Both A and B",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "186 A Java application program does not include declarations for",
+        "option1": "Data stored in database",
+        "option2": "Data retrieved from database",
+        "option3": "Data executed",
+        "option4": "Data manipulated",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "187 A label is a simple control which is used to display __________________ on the window",
+        "option1": "button",
+        "option2": "Editable Text",
+        "option3": "Non-Editable Text",
+        "option4": "All of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "188 Which statement is true with respect to the following code? import java.awt.*; import javax.swing.*; public class Test { public static void main(String[] args) { JFrame frame = new JFrame(\"My Frame\"); frame.getContentPane().add(new JButton(\"OK\")); frame.getContentPane().add(new JButton(\"Cancel\")); frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); frame.setSize(200, 200); frame.setVisible(true); } }",
+        "option1": "Only button OK is displayed.",
+        "option2": "Only button Cancel is displayed.",
+        "option3": "Both button OK and button Cancel are displayed and button OK is displayed aside of button OK.",
+        "option4": "Both button OK and button Cancel are displayed and button OK is displayed aside",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "Label is ___________ entity.",
+        "option1": "Active",
+        "option2": "Passive",
+        "option3": "Both A& B",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": " ___________ method is used to set or change the text in a Label.",
+        "option1": "setText(String strLabel)",
+        "option2": "getText()",
+        "option3": "getAlignment()",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "191 getAlignment() is the method of ________ class.",
+        "option1": "Button",
+        "option2": "List",
+        "option3": "Choice",
+        "option4": "Label",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "192 Label(String str) creates a label that contains the string specified b_________",
+        "option1": "Right-Justified",
+        "option2": "Left-Justified",
+        "option3": "Center-Justifed",
+        "option4": "All of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "193 Which of the following Statement is NOT true for Type-2 Drivers",
+        "option1": "Driver needs to be installed separately in individual client machines",
+        "option2": "The Vendor client library needs to be installed on client machine.",
+        "option3": "Type-2 driver isn't written in java, that's why it isn't a portable dr",
+        "option4": "None of the Above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "194 Which of the following method is used to set Label for Button B",
+        "option1": "B.setLabel(String S)",
+        "option2": "B.getLabel()",
+        "option3": "Both A& B",
+        "option4": "B.setText(String S)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "195 With respect to Type-3 drivers",
+        "option1": "A)Type-3 drivers are fully written in Java, hence they are portable drB)No client side library is required because of application server thatasks like auditing, load balancing, logging etc.",
+        "option2": "A is True But B is False",
+        "option3": "B is True But A is False",
+        "option4": "Both are True",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "196 The various controls supported by AWT are",
+        "option1": "Buttons,Scrollbar",
+        "option2": "Label,TabbedPanes",
+        "option3": "Tress,Tables",
+        "option4": "All of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "197 Which of the following is NOT true for Type - 4 drivers",
+        "option1": "Type-4 driver is also called native protocol driver.",
+        "option2": "Different driver is not needed for different database.",
+        "option3": "No client-side or server-side installation required.",
+        "option4": "It is fully written in Java language, hence they are portable drivers.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "198 Which method does return true value if specified address is a multicast?",
+        "option1": "isMulticastHostName()",
+        "option2": "isMulticastHostAddress()",
+        "option3": "isMulticastAddress()",
+        "option4": "isMulticastIPAddress()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "199 InetAddress has two subclasses called as:",
+        "option1": "IPV4Address() and IPV6Address()",
+        "option2": "IP4VAddress() and IP6VAddress()",
+        "option3": "Inet4Address() and Inet6Address()",
+        "option4": "InetAddress4() and InetAddress6()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "200 What is output of following code? import java.net.*; class Inet{ public static void main(String arg[]){ InetAddress ip=InetAddress.getLocalHost(); System.out.println(ip.getHostAddress()); }}",
+        "option1": "192.168.0.100",
+        "option2": "localhost/192.168.0.100",
+        "option3": "localhost machine",
+        "option4": "localhost//8080:",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "201 what is the output of following program import java.net.*; class Demo { public static void main(String arg[]) throws UnKnownHostException { InetAddress ipa=InetAddress.getLocalHost(); InetAddress ipa1=InetAddress.getLocalHost(\"www.google.com\"); boolean b=ipa.equals(ipa1); System.out.println(b); }}",
+        "option1": "true",
+        "option2": "false",
+        "option3": "compile time error",
+        "option4": "0",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "202 what is the output of following program import java.net.*; class Demo { public static void main(String arg[]) throws UnKnownHostException { InetAddress ipa=InetAddress.getLocalHost(); InetAddress ipa1=InetAddress.getLocalHost(); boolean b=ipa.equals(ipa1); System.out.println(b); }}",
+        "option1": "true",
+        "option2": "false",
+        "option3": "0",
+        "option4": "1",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "203 InetAddress class is used to encapsulate both numerical IP address and",
+        "option1": "port number",
+        "option2": "host name",
+        "option3": "server name",
+        "option4": "socket name",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "204 what is the output of following program import java.net.*; class Demo { public static void main(String arg[]) throws UnKnownHostException { InetAddress ipa=InetAddress.getByName(\"www.google.com\"); System.out.println(ipa.getHostName()); }}",
+        "option1": "www.google.com",
+        "option2": "www.google.com/217.196.214.99",
+        "option3": "217.196.214.99",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "205 You can simply use InetAddress class when working with IP address because it can accommodate both ___________ styles.",
+        "option1": "IP4V and IP6V",
+        "option2": "IPV4 and IPV6",
+        "option3": "host name and IP",
+        "option4": "A and B",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "206 What does getHostAddress() of InetAddress class return?",
+        "option1": "Returns host address with ipaddress.",
+        "option2": "Returns a string that represents ipaddresses with hostname.",
+        "option3": "Returns a string that represents a host address associated with the Inet.",
+        "option4": "Returns a string that represents a host name associated with InetAddress.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "207 getHostName() of InetAddress class is used to_______",
+        "option1": "Return a string that represents host name associated with Inetaddress",
+        "option2": "Return a string that represents host address associated with Inetaddress",
+        "option3": "Return an object that represents Ipaddress associated with host name",
+        "option4": "Return Ipaddress that is associated with InetAddress object.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "208 Which of the following statement is correct ?",
+        "option1": "There are two kinds of sockets in java one is for server and other for client.",
+        "option2": "There is only one socket for server.",
+        "option3": "There is only one socket for client.",
+        "option4": "There is only one socket for server as well as for client.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "209 Which of the following class is used to create server that listen for",
+        "option1": "httpserver",
+        "option2": "ServerSocket",
+        "option3": "DatagramSocket",
+        "option4": "Socket",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "210 What happens if server socket is not able to listen on specified port",
+        "option1": "The system exits gracefully with appropriate message",
+        "option2": "The system will wait till port is free.",
+        "option3": "IoException is thrown when opening the socket",
+        "option4": "PortOccupiedException is thrown.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "211 Which exception will be thrown if client socket does not specify the host created?",
+        "option1": "IOException",
+        "option2": "UnknownHostException",
+        "option3": "UnknownHostNameException",
+        "option4": "UnknownPortException",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "212 Which constructor will you use to create client socket using a preexisting object and a port?",
+        "option1": "Socket (String hostname, int port )",
+        "option2": "Socket (Inetaddress ipAdd, int port )",
+        "option3": "Socket (Inetaddress ip Add, string Hostname)",
+        "option4": "Socket ( int port, Inetaddress ipAdd )",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "213 __________method returns the local part to which the invoking socket object is bound?",
+        "option1": "int getLocalHost()",
+        "option2": "int getLocalPort()",
+        "option3": "int getPort()",
+        "option4": "int GetLocalHost()",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "214 Which of the following are factory methods of InetAddress class?",
+        "option1": "static InetAddress[] getAllByName(String hostname)",
+        "option2": "static InetAddress getLocalHost()",
+        "option3": "string getHostName()",
+        "option4": "A and B",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "215 Which of the following methods belong to ServerSocket class?",
+        "option1": "accept()",
+        "option2": "connect()",
+        "option3": "bind()",
+        "option4": "A and C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "216 ServerSocket class has one of the following constructor?",
+        "option1": "ServerSocket(int port)",
+        "option2": "ServerSocket(String host, int port)",
+        "option3": "ServerSocket(int port, InetAddress add)",
+        "option4": "ServerSocket(InetAddress add, int port)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "217 Socket method called ________ returns the port number that socket is bound to machine?",
+        "option1": "int getLocalPort()",
+        "option2": "int getPort()",
+        "option3": "InetAddress getInetAddress()",
+        "option4": "string getHostAddress()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "218 What are different factory methods of InetAddress class?",
+        "option1": "getByName()",
+        "option2": "GetLocalHost()",
+        "option3": "getByAddress()",
+        "option4": "both A & C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "219 How long is an IPv6 address?",
+        "option1": "32 bits",
+        "option2": "128 bytes",
+        "option3": "64 bits",
+        "option4": "128 bits",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "220 __________________method is needed only when you instantiate the socket argument constructor.",
+        "option1": "bind()",
+        "option2": "connect()",
+        "option3": "accept()",
+        "option4": "SetHostName()",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "221 InetAddress class having method which returns a string that shows the address.",
+        "option1": "toString()",
+        "option2": "getHostAddress()",
+        "option3": "getLocalHost()",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "222 If server socket is created using serversocket () constructor then which method is used to bind the server socket?",
+        "option1": "isbind()",
+        "option2": "bind()",
+        "option3": "bind To()",
+        "option4": "bind ( socketAddress host , int backlog)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "223 accept method is used for _______________________",
+        "option1": "Incoming Client connection",
+        "option2": "Incoming Server socket",
+        "option3": "Accepting request from server",
+        "option4": "Waiting socket",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "224 _____________Class represents the socket that both the client & server communicate with each other?",
+        "option1": "java.net.Serversocket",
+        "option2": "java.net.Server",
+        "option3": "Java.net.socket",
+        "option4": "java.net.Clientsocket",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "225 Socket s1= Socket ( localhost, 1346), What does it means?",
+        "option1": "Client socket is waiting for connection",
+        "option2": "Client socket is created to connect with specified host name and port",
+        "option3": "Client socket is name as localhost and Port number is 1346",
+        "option4": "server socket is connected to local host with port number 1346",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "226 What is the output of following statements",
+        "option1": "localhost",
+        "option2": "localhost/1234",
+        "option3": "1234",
+        "option4": "1234/localhost",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "227 Correct way of using ServerSocket is___________",
+        "option1": "ServerSocket(int port)",
+        "option2": "ServerSocket(int port,int maxQueue)",
+        "option3": "ServerSocket(int port,int maxQueue,InetAddress localAddress)",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "228 What is the output of following statements?",
+        "option1": "port number of client socket",
+        "option2": "1349",
+        "option3": "local port",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "229 public InputStream getInputStream() is method of ____________ class",
+        "option1": "Serversocket",
+        "option2": "ClientSocket",
+        "option3": "Socket",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "230 getOutputStream() returns the output stream of the ________",
+        "option1": "Socket",
+        "option2": "ServerSocket",
+        "option3": "ClientSocket",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "231 Which of the following statement is correct?",
+        "option1": "The input stream of socket is connected to the output stream of remote",
+        "option2": "The output stream of socket is connected to the input stream of remote",
+        "option3": "The output stream of socket is connected to the output stream of remote",
+        "option4": "A and B",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "232 __________method makes socket object no longer capable of connecting after connection?",
+        "option1": "send()",
+        "option2": "wait()",
+        "option3": "connect()",
+        "option4": "close()",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "233 If your application has successfully bound to specified port and is rejected, then_________",
+        "option1": "an exception is thrown",
+        "option2": "an IOException is thrown",
+        "option3": "it does not throw an exception",
+        "option4": "UnknownHostException is thrown",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "234 Socket is the combination of ______________ and __________.",
+        "option1": "IP address and port number",
+        "option2": "port number and local host",
+        "option3": "IPAddress and machine number",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "235 Which steps occur when establishing a TCP connection between two computers?",
+        "option1": "The server initiates a ServerSocket object denoting port number to be used",
+        "option2": "The server invokes the accept() method of ServerSocket class. This method waits until a client connects to the server on the given port",
+        "option3": "After the server is waiting, a client instantiates a socket object with the specified server name and port number",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "236 What is the output of the following statement?",
+        "option1": "port number of client socket",
+        "option2": "1234",
+        "option3": "local port",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "237 What is the output of following statement?",
+        "option1": "1234",
+        "option2": "localhost",
+        "option3": "localhost/1234",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "238 What is the output of following statement? Socket s1=new Socket(\"localhost\",1234); System.out.println(s1.getRemoteSocketAddress());",
+        "option1": "IPAddress of client with port number",
+        "option2": "host name, IPAddress and port number of Serversocket",
+        "option3": "host name and IPAddress Serversocket",
+        "option4": "IPAddress of server with port number",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "239 Connection timed out exception is occurred _________",
+        "option1": "if client socket is not created",
+        "option2": "if serversocket does not accept client request",
+        "option3": "if port number is not available which is specified by client socket wiD.",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "240 Which method is used to expose the details of establishing connection socket & client socket ?",
+        "option1": "connect()",
+        "option2": "receive()",
+        "option3": "there is no such method",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "241 You can gain access to the input and output streams associated with sogetInputStream()",
+        "option1": "getOutStream()",
+        "option2": "setOutputStream()",
+        "option3": "getOutputStream()",
+        "option4": "getOutputClass()",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "242 Which exception will occur when port is already bound with an application and application is requesting for same port?",
+        "option1": "IOException",
+        "option2": "PortNotFoundException",
+        "option3": "UnknownPortNameException",
+        "option4": "ConectException",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "243 When you will use this ServerSocket(int port, int que) constructor to socket",
+        "option1": "to create ServerSocket with port number",
+        "option2": "to create ServerSocket with port number & Ip address",
+        "option3": "to create ServerSocket with port number and number of incoming client",
+        "option4": "B & C",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "244 Socket(InetAddress host, int port) in this constructor, what does first parameter represent?",
+        "option1": "host name",
+        "option2": "host name and IPAddress specified by InetAddress object",
+        "option3": "IpAddress of host",
+        "option4": "ipaddress and port number",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "245 Which constructor will you use to connect to specified host and port on the local host at specified address & port?",
+        "option1": "Socket()",
+        "option2": "Socket(String host, int port)",
+        "option3": "Socket(Inetaddress ipAdd,int port)",
+        "option4": "Socket(String host,int port, Inetaddress ipAdd, int localport)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "246 Which of the following class is used to create client socket",
+        "option1": "httpserver",
+        "option2": "Datagram Socket",
+        "option3": "Socket",
+        "option4": "ClientSocket",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "247 What will be the output of following statements: Socket s1=Socket(\"localhost\",1349); System.out.println(s1.getLocalPort());",
+        "option1": "1349",
+        "option2": "port number of local machine",
+        "option3": "local host",
+        "option4": "localhost/1349",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "248 Which of the following are Instance method of InetAddress Class",
+        "option1": "byte[] getAddress()",
+        "option2": "string getHostName()",
+        "option3": "A and B",
+        "option4": "static InetAddress getByName(string hostname)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "249 Which constructor of DatagramSocket class is used to create a datagram socket with the given port number?",
+        "option1": "DatagramSocket(int port)",
+        "option2": "DatagramSocket(int port, InetAddress add)",
+        "option3": "DatagramSocket()",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "250 Which class is used for connection-less socket programming?",
+        "option1": "DatagramSocket",
+        "option2": "DatagramServer",
+        "option3": "A and B",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "251 Which exception will occur if specified port number is not available?",
+        "option1": "UnknownException",
+        "option2": "SocketException",
+        "option3": "UnknownSocketException",
+        "option4": "UnknownPortException",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "252 Which of the following constructor is used to create datagram socket with host address?",
+        "option1": "DatagramSocket(int port)",
+        "option2": "DatagramSocket(int port, InetAddress add)",
+        "option3": "DatagramSocket()",
+        "option4": "A & B",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "253 Which constructor will you use to send packet?",
+        "option1": "DatagramPacket(byte[] bar, int len)",
+        "option2": "DatagramPacket(byte[] bar, int len, int port)",
+        "option3": "DatagramPacket(string s1, int len, InetAddress, int port)",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "254 Java DatagramSocket and DatagramPacket classes are used for __________ programming",
+        "option1": "Connection-oriented",
+        "option2": "Connection-less",
+        "option3": "A & B",
+        "option4": "Reliable",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "255 Datagram Packet is a message that can be used for _________ messages",
+        "option1": "Connection-oriented or connection less",
+        "option2": "send and store",
+        "option3": "send and receive",
+        "option4": "receive and read",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "256 Which constructors are used to receive data from packet?",
+        "option1": "DatagramPacket(byte[] bar, int len)",
+        "option2": "DatagramPacket(byte[] bar, int off, int len)",
+        "option3": "DatagramPacket(string s1, int len, InetAddress, int port)",
+        "option4": "A and B",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "257 getData() & getLength() are the methods of ___________ class",
+        "option1": "DatagramSocket",
+        "option2": "ServerSocket",
+        "option3": "DatagramPacket",
+        "option4": "ClientSocket",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "258 What is the output of following code? DatagramPacket dp =new DatagramPacket(byte[] data, 1024); System.out.println(dp.getLength());",
+        "option1": "1024",
+        "option2": "data, 1024",
+        "option3": "1024, data",
+        "option4": "Null",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "259 Find the correct code from following program for given output",
+        "option1": "import java.awt.*; import javax.swing; /* <applet code=\"JLabelDemo\" width=250 height=150> </applet> */ public class JLabelDemo public void init() { Container contentPane = getContentPane(); ImageIcon ii = new ImageIcon(\"IC.jpg\"); JLabel jl = new JLabel(\"IC\", ii, JLabel.CENTER); contentPane.add(jl);}",
+        "option2": "import java.awt.*; import javax.swing; /* <applet code=\"JLabelDemo\" width=250 height=150> </applet> */ public class JLabelDemo extends JApplet { public void init() { ContgetContentPane(); ImageIcon ii = new ImageIcon(\"IC.jpg\"); JLabel jl = new JLabel(\"IC\", } }",
+        "option3": "import java.awt.*; import javax.swing; /* <applet code=\"JLabelDemo\" width=250 height=150> </applet> */ public class JLabelDemo extends JApplet { public void init() { ImageIcon ii = new ImageIcon(\"IC.jpg\"); JLabel jl = new JLabel(\"IC\", ii, JLabel.CENTER); contentPane.add(jl);}",
+        "option4": "/* <applet code=\"JLabelDemo\" width=250 height=150> </applet> */ public extends JApplet { public void init() { Container contentPane = getCImageIcon ii = new ImageIcon(\"IC.jpg\"); JLabel jl = new JLabel(\"IC\", contentPane.add(jl); } }",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "260 Consider the following code and state the missing code. import java.sql.*; class Example1{ public static void main(String args[]){ try{ Class.forName(\"oracle.jdbc.driver.OracleDriver\"); Connection con=DriverManager.getConnection(\"jdbc:oracle:thin:@localhost:1521:xe\", PreparedStatement stmt=con.prepareStatement(\"insert into Emp values(?, ---------------------------------------------- int i=stmt.executeUpdate(); con.close(); }catch(Exception e){ System.out.println(e); } } }",
+        "option1": "stmt.setInt(1,101); stmt.setString(2,\"Ratan\"); stmt.setString(2,50)",
+        "option2": "stmt.setInt(1,101); stmt.setString(2,\"Ratan\"); stmt.setInt(3,50000)",
+        "option3": "stmt.setInt(1,101); stmt.setString(2,2); stmt.setInt(3,50000);",
+        "option4": "stmt.setInt(101); stmt.setString(2,2); stmt.setInt(3,50000);",
+        "Answer": "option2",
+        "marks": 2
+    },
+    {
+        "question": "261 Choose the correct code to display the following output.",
+        "option1": "import javax.swing.*; /* <applet code=\"JCheckBoxDemo\" width=400 heightpublic class JCheckBoxDemo extends JApplet implements ItemListener { Jpublic void init() { Container contentPane = getContentPane(); contentFlowLayout()); JCheckBox cb = new JCheckBox(\"C\", true); cb.addItemListcontentPane.add(cb); cb = new JCheckBox(\"C++\", false); cb.addItemListecontentPane.add(cb); cb = new JCheckBox(\"Java\", false); cb.addItemListcontentPane.add(cb); cb = new JCheckBox(\"Perl\", false); cb.addItemListcontentPane.add(cb); jtf = new JTextField(15); contentPane.add(jtf); }itemStateChanged(ItemEvent ie) { JCheckBox cb = (JCheckBox)ie.getItemjtf.setText(cb.getText()); } }",
+        "option2": "import java.awt.*; import java.awt.event.*; import javax.swing.*; /*clextends JApplet implements ItemListener { JTextField jtf; public void contentPane = getContentPane(); contentPane.setLayout(new FlowLayout()new JCheckBox(\"C\", true); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"C++\", false); cb.addItemListener(this); contentPane.add(cb)JCheckBox(\"Java\", false); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"Perl\", false); cb.addItemListener(this); contentPane.add(cbJTextField(15); contentPane.add(jtf); } public void itemStateChanged(IJCheckBox cb = (JCheckBox)ie.getItem(); jtf.setText(cb.getText()); } }",
+        "option3": "import java.awt.*; import java.awt.event.*; import javax.swing.*; /* <code=\"JCheckBoxDemo\" width=400 height=50> </applet> */ public class JCJApplet implements ItemListener { JTextField jtf; public void init() {contentPane = getContentPane(); contentPane.setLayout(new FlowLayout()new JCheckBox(\"C\", true); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"C++\", false); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"Java\", false); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"Perl\", false); cb.addItemListener(this); contentPane.add(cbJTextField(15); contentPane.add(jtf); } public void itemStateChanged(IJCheckBox cb = (JCheckBox)ie.getItem(); jtf.setText(cb.getText()); } }",
+        "option4": "import java.awt.*; import java.awt.event.*; import javax.swing.*; /* <code=\"JCheckBoxDemo\" width=400 height=50> </applet> */ public class JCJApplet implements ItemListener { JTextField jtf; public void init() {contentPane = getContentPane(); contentPane.setLayout(new FlowLayout()new JCheckBox(\"C\", true); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"C++\", false); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"Java\", false); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"Perl\", false); cb.addItemListener(this); contentPane.add(cbJTextField(15); contentPane.add(jtf); } public void itemStateChanged(IJCheckBox cb = (JCheckBox)ie.getItem(); jtf.setText(cb.getText()); } }",
+        "Answer": "option3",
+        "marks": 2
+    },
+    {
+        "question": "262 Choose the correct code to display the following output.",
+        "option1": "import javax.swing.*; /* <applet code=\"JButtonDemo\" width=250 height=public class JButtonDemo extends JApplet implements ActionListener { Jpublic void init() { Container contentPane = getContentPane(); contentFlowLayout()); ImageIcon france = new ImageIcon(\"green.jpg\"); JButton JButton(france); jb.setActionCommand(\"Green\"); jb.addActionListener(thcontentPane.add(jb); ImageIcon germany = new ImageIcon(\"red.jpg\"); jb JButton(germany); jb.setActionCommand(\"Red\"); jb.addActionListener(thicontentPane.add(jb); ImageIcon italy = new ImageIcon(\"yellow.jpg\"); jbJButton(italy); jb.setActionCommand(\"Yellow\"); jb.addActionListener(thcontentPane.add(jb); ImageIcon japan = new ImageIcon(\"black.jpg\"); jb JButton(japan); jb.setActionCommand(\"Black\"); jb.addActionListener(thicontentPane.add(jb); jtf = new JTextField('15'); contentPane.add(jtf); }actionPerformed(ActionEvent ae) { jtf.setText(ae.getActionCommand());",
+        "option2": "import java.awt.*; import java.awt.event.*; import javax.swing.*; /* <code=\"JButtonDemo\" width=250 height=300> </applet> */ public class JBuJApplet implements ActionListener { JTextField jtf; public void init() { contentPane = getContentPane(); contentPane.setLayout(new FlowLayout()= new ImageIcon(\"green.jpg\"); JButton jb = new JButton(france); jb.setActionCommand(\"Green\"); jb.addActionListener(this); contentPane.germany = new ImageIcon(\"red.jpg\"); jb = new JButton(germany); jb.setActionCommand(\"Red\"); jb.addActionListener(this); contentPane.aditaly = new ImageIcon(\"yellow.jpg\"); jb = new JButton(italy); jb.setActionCommand(\"Yellow\"); jb.addActionListener(this); contentPanejapan = new ImageIcon(\"black.jpg\"); jb = new JButton(japan); jb.setActionCommand(\"Black\"); jb.addActionListener(this); contentPane.JTextField(15); contentPane.add(jtf); } public void actionPerformed(Ac}",
+        "option3": "import java.awt.*; import java.awt.event.*; import javax.swing.*; /* <code=\"JButtonDemo\" width=250 height=300> </applet> */ public class JBuJApplet implements ActionListener { JTextField jtf; public void init() { contentPane = getContentPane(); contentPane.setLayout(new FlowLayout()= new ImageIcon(\"green.jpg\"); JButton jb = new JButton(france); jb.setActionCommand(\"Green\"); jb.addActionListener(this); contentPane.germany = new ImageIcon(\"red.jpg\"); jb = new JButton(germany); jb.setActionCommand(\"Red\"); jb.addActionListener(this); contentPane.aditaly = new ImageIcon(\"yellow.jpg\"); jb = new JButton(italy); jb.setActionCommand(\"Yellow\"); jb.addActionListener(this); contentPanejapan = new ImageIcon(\"black.jpg\"); jb = new JButton(japan); jb.setActionCommand(\"Black\"); jb.addActionListener(this); contentPane.JTextField(15); contentPane.add(jtf); } public void actionPerformed(Acjtf.setText(ae.getActionCommand());",
+        "option4": "import java.awt.*; import java.awt.event.*; import javax.swing.*; /* <code=\"JButtonDemo\" width=250 height=300> </applet> */ public class JBuJApplet implements ActionListener { JTextField jtf; public void init() { contentPane = getContentPane(); contentPane.setLayout(new FlowLayout()= new ImageIcon(\"green.jpg\"); JButton jb = new JButton(france); jb.setActionCommand(\"Green\"); jb.addActionListener(this); contentPane.germany = new ImageIcon(\"red.jpg\"); jb = new JButton(germany); jb.setActionCommand(\"Red\"); jb.addActionListener(this); contentPane.aditaly = new ImageIcon(\"yellow.jpg\"); jb = new JButton(italy); jb.setActionCommand(\"Yellow\"); jb.addActionListener(this); contentPanejapan = new ImageIcon(\"black.jpg\"); jb = new JButton(japan); jb.setActionCommand(\"Black\"); jb.addActionListener(this); contentPane.JTextField(15); contentPane.add(jtf); } public void actionPerformed(Acjtf.setText(ae.getActionCommand()); }",
+        "Answer": "option4",
+        "marks": 2
+    },
+    {
+        "question": "263 Choose the correct code to display the following output.",
+        "option1": "import java.awt.*; import java.awt.event.*; import javax.swing.*; /* <code=\"JCheckBoxDemo\" width=400 height=50> </applet> */ public class JCJApplet implements ItemListener { JTextField jtf; public void init() {contentPane = getContentPane(); contentPane.setLayout(new FlowLayout()new JCheckBox(\"C\", true); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"C++\", false); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"Java\", false); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"Perl\", false); cb.addItemListener(this); contentPane.add(cbJTextField(15); contentPane.add(jtf); } public void itemStateChanged(IJCheckBox cb = (JCheckBox)ie.getItem(); jtf.setText(cb.getText()); } }",
+        "option2": "import javax.swing.*; /* <applet code=CheckBoxDemo\" width=400 heighpublic class JCheckBoxDemo extends JApplet implements ItemListener { Jpublic void init() { Container contentPane = getContentPane(); contentFlowLayout()); JCheckBox cb = new JCheckBox(\"C\", true); cb.addItemListcontentPane.add(cb); cb = new JCheckBox(\"C++\", false); cb.addItemListecontentPane.add(cb); cb = new JCheckBox(\"Java\", false); cb.addItemListcontentPane.add(cb); cb = new JCheckBox(\"Perl\", false); cb.addItemListcontentPane.add(cb); jtf = new JTextField(15); contentPane.add(jtf); }itemStateChanged(ItemEvent ie) { JCheckBox cb = (JCheckBox)ie.getItemjtf.setText(cb.getText()); } }",
+        "option3": "import java.awt.*; import java.awt.event.*; import javax.swing.*; /* <code=\"JCheckBoxDemo\" width=400 height=50> </applet> */ public class JCJApplet implements ItemListener { JTextField jtf; public void init() {contentPane = getContentPane(); contentPane.setLayout(new FlowLayout()new JCheckBox(\"C\", true); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"C++\", false); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"Java\", false); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"Perl\", false); cb.addItemListener(this); contentPane.add(cbJTextField(15); contentPane.add(jtf); } public void itemStateChanged(IJCheckBox cb = (JCheckBox)ie.getItem(); jtf.setText(cb.getText()); } }",
+        "option4": "import java.awt.*; import java.awt.event.*; import javax.swing.*; /* <code=\"JCheckBoxDemo\" width=400 height=50> </applet> */ public class JCJApplet implements ItemListener { JTextField jtf; public void init() {contentPane = getContentPane(); contentPane.setLayout(new FlowLayout()new JCheckBox(\"C\", true); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"C++\", false); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"Java\", false); cb.addItemListener(this); contentPane.add(cbJCheckBox(\"Perl\", false); cb.addItemListener(this); contentPane.add(cbJTextField(15); contentPane.add(jtf); } public void itemStateChanged(IJCheckBox cb = (JCheckBox)ie.getItem(); jtf.setText(cb.getText()); } }",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "264 Choose the correct code to display the following output.",
+        "option1": "import java.awt.*; import java.awt.event.*; import javax.swing.*; /* <code=\"JComboBoxDemo\" width=300 height=100> </applet> */ public class Jextends JApplet implements ItemListener { JLabel jl; ImageIcon green, public void init() { Container contentPane = getContentPane(); contentFlowLayout()); JComboBox jc = new JComboBox(); jc.addItem(\"Green\"); jcjc.addItem(\"Black\"); jc.addItem(\"Yellow\"); jc.addItemListener(this); cjl = new JLabel(new ImageIcon(\"green.jpg\")); contentPane.add(jl); } puitemStateChanged(ItemEvent ie) { String s = (String)ie.getItem(); jl.sImageIcon(s + \".jpg\")); } }",
+        "option2": "import javax.swing.*; /* <applet code=\"JComboBoxDemo\" width=300 heighpublic class JComboBoxDemo extends JApplet implements ItemListener { Jgreen, red, black, yellow; public void init() { Container contentPane contentPane.setLayout(new FlowLayout()); JComboBox jc = new JComboBox(jc.addItem(\"Green\"); jc.addItem(\"Red\"); jc.addItem(\"Black\"); jc.addItejc.addItemListener(this); contentPane.add(jc); jl = new JLabel(new ImageIcon(\"green.jpg\")); contentPane.add(jl); } public void itemStateCie) { String s = (String)ie.getItem(); jl.setIcon(new ImageIcon(s + \".C.",
+        "option3": "import java.awt.*; import java.awt.event.*; import javax.swing.*; /* <code=\"JComboBoxDemo\" width=300 height=100> </applet> */ public class Jextends JApplet implements ItemListener { JLabel jl; ImageIcon green, public void init() { contentPane.setLayout(new FlowLayout()); JComboBJComboBox();addItem(\"Green\"); jc.addItem(\"Red\"); jc.addItem(\"Black\"); jc.addItem(\"Yellow\"); jc.addItemListener(this); contentPane.add(jc); jl = new JLabel(new ImageIcon(\"green.jpg\")); contentPane.add(jl); } public void itemStateCha{ String s = (String)ie.getItem(); jl.setIcon(new ImageIcon(s + \".jpg\")); } }",
+        "option4": "import java.awt.*; import java.awt.event.*; import javax.swing.*; /* <code=\"JComboBoxDemo\" width=300 height=100> </applet> */ public class Jextends JApplet implements ItemListener { JLabel jl; ImageIcon green, public void init() { Container contentPane = getContentPane(); contentFlowLayout()); JComboBox jc = new JComboBox(); jc.addItem(\"Green\"); jc.addItem(\"Black\"); jc.addItem(\"Yellow\"); jc.addItemListener(this); jl = new JLabel(new ImageIcon(\"green.jpg\")); contentPane.add(jl); public void itemStateCha{ String s = (String)ie.getItem(); jl.setIcon(new ImageIcon(s + \".jpg\")); } }",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "265 Choose the correct code to display the following output.",
+        "option1": "import java.awt.*; import javax.swing.*; /* <applet code=\"JScrollPaneDemo\" height=250> </applet> */ public class JScrollPaneDemo extends JApplet init() { Container contentPane = getContentPane(); contentPane.setLayoBorderLayout()); JPanel jp = new JPanel(); jp.setLayout(new GridLayout0; for(int i = 0; i < 20; i++) { for(int j = 0; j < 20; j++) { jp.add(\" + b)); ++b; } } int v = ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED; JScrollPane jsp = v, h); contentPane.add(jsp, BorderLayout.CENTER); }}",
+        "option2": "/* <applet code=\"JScrollPaneDemo\" width=300 height=250> </applet> */ public class JScrollPaneDemo extends JApplet { public void init() { Container contegetContentPane(); contentPane.setLayout(new BorderLayout()); JPanel jpjp.setLayout(new GridLayout(20, 20)); int b = 0; for(int i = 0; i < 20= 0; j < 20; j++) { jp.add(new JButton(\"Button \" + b)); ++b; } } int vScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED; int h = ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED; JScrollPane jsp = v, h); contentPane.add(jsp, BorderLayout.CENTER); }",
+        "option3": "import java.awt.*; import javax.swing.*; /* <applet code=\"JScrollPaneDemo\" height=250> </applet> */ public class JScrollPaneDemo extends JApplet init() { Container contentPane = getContentPane(); contentPane.setLayoBorderLayout()) JPanel jp = new JPanel(); jp.setLayout(new GridLayout(0; for(int i = 0; i < 20; i++) { for(int j = 0; j < 20; j++) { } int vScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED; int h = ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED; JScrollPane jsp = v, h); contentPane.add(jsp, BorderLayout.CENTER); }",
+        "option4": "import java.awt.*; import javax.swing/* <applet code=\"JScrollPaneDemo\" height=250> </applet> */ public class JScrollPaneDemo extends JApplet init() { Container contentPane = getContentPane(); contentPane.setLayoBorderLayout()); JPanel jp = new JPanel(); jp.setLayout(new GridLayout0; for(int i = 0; i < 20; i++) { for(int j = 0; j < 20; j++) { jp.add(\" + b)); ++b; } } int v = ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED; JScrollPane jsp = v, h); contentPane.add(jsp, BorderLayout.CENTER); }",
+        "Answer": "option1",
+        "marks": 2
+    },
+    {
+        "question": "266 Which of the following are ways to create a Frame?",
+        "option1": "By creating the object of Frame class (association)",
+        "option2": "By extending Frame class (inheritance)",
+        "option3": "a and b",
+        "option4": "none of these",
+        "answer": "optionc",
+        "marks": 1
+    },
+    {
+        "question": "267 Choose the correct code to display the following output.",
+        "option1": "import java.awt.*;import java.awt.event.*;import javax.swing.*;import /*<applet code=\"JTreeEvents\" width=400 height=200></applet>*/ public cextends JApplet {JTree tree;JTextField jtf; public void init() { // GeContainer contentPane = getContentPane();// Set layout manager contentBorderLayout());// Create top node of tree DefaultMutableTreeNode top DefaultMutableTreeNode(\"Options\");// Create subtree of \"A\" DefaultMutaDefaultMutableTreeNode(\"A\"); top.add(a); DefaultMutableTreeNode a1 = nDefaultMutableTreeNode(\"A1\"); a.add(a1); DefaultMutableTreeNode a2 = nDefaultMutableTreeNode(\"A2\"); a.add(a2);// Create subtree of \"B\" Defaub=new DefaultMutableTreeNode(\"B\"); top.add(b); DefaultMutableTreeNode DefaultMutableTreeNode(\"B1\"); b1 = new DefaultMutableTreeNode(\"B1\"); DefaultMutableTreeNode b3 = new DefaultMutableTreeNode(\"B3\"); b.add(b3tree = new JTree(top);// Add tree to a scroll pane int v = ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED; int h = ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED; JScrollPane jsp = JScrollPane(tree, v, h);// Add scroll pane to the content pane contentBorderLayout.CENTER); // Add text field to applet jtf = new JTextFieldcontentPane.add(jtf, BorderLayout.SOUTH);// Anonymous inner class to htree.addMouseListener(new MouseAdapter() {public void mouseClicked(Mou{doMouseClicked(me);}});} void doMouseClicked(MouseEvent me) {TreePathtree.getPathForLocation(me.getX(), me.getY()); if(tp != null)jtf.setTeelse jtf.setText(\"\");}}",
+        "option2": "import java.awt.*;import java.awt.event.*;import javax.swing.*;import /*<applet code=\"JTreeEvents\" width=400 height=200></applet>*/ public cextends JApplet {JTree tree;JTextField jtf; public void init() { // GeContainer contentPane = getContentPane();// Set layout manager contentBorderLayout());// Create top node of tree DefaultMutableTreeNode top DefaultMutableTreeNode(\"Options\");// Create subtree of \"A\" DefaultMutaDefaultMutableTreeNode(\"A\");top.add(a); DefaultMutableTreeNode a1 = neDefaultMutableTreeNode(\"A1\"); a.add(a1);DefaultMutableTreeNode a2 = neDefaultMutableTreeNode(\"A2\"); a.add(a2);// Create subtree of \"B\" Defaub=new DefaultMutableTreeNode(\"B\"); top.add(b);DefaultMutableTreeNode bDefaultMutableTreeNode(\"B1\"); b.add(b1);DefaultMutableTreeNode b2 = neDefaultMutableTreeNode(\"B2\"); b.add(b2);DefaultMutableTreeNode b3 = neDefaultMutableTreeNode(\"B3\"); b.add(b3);// Create tree tree = new JTreto a scroll pane int v = ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED; JScrollPane jsp = JScrollPane(tree, v, h);// Add scroll pane to the content pane contentBorderLayout.CENTER); // Add text field to applet jtf = new JTextFieldcontentPane.add(jtf, BorderLayout.SOUTH);// Anonymous inner class to htree.addMouseListener(new MouseAdapter() {public void mouseClicked(Mou{doMouseClicked(me);}});} void doMouseClicked(MouseEvent me) {TreePathtree.getPathForLocation(me.getX(), me.getY()); if(tp != null)jtf.setTeelse jtf.setText(\"\");}}",
+        "option3": "import java.awt.*;import java.awt.event.*;import javax.swing.*;import /*<applet code=\"JTreeEvents\" width=400 height=200></applet>*/ public cextends JApplet {JTree tree;JTextField jtf; public void init() { // GeContainer contentPane = getContentPane();// Set layout manager contentBorderLayout());// Create top node of tree DefaultMutableTreeNode top DefaultMutableTreeNode(\"Options\");// Create subtree of \"A\" DefaultMutaDefaultMutableTreeNode(\"A\"); top.add(a); DefaultMutableTreeNode a1 = nDefaultMutableTreeNode(\"A1\"); a.add(a1); // Create subtree of \"B\" Defb=new DefaultMutableTreeNode(\"B\"); top.add(b); DefaultMutableTreeNode DefaultMutableTreeNode(\"B1\"); b1 = new DefaultMutableTreeNode(\"B1\"); DefaultMutableTreeNode b3 = new DefaultMutableTreeNode(\"B3\"); b.add(b3tree = new JTree(top);// Add tree to a scroll pane int v = ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED; int h = ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED; JScrollPane jsp = JScrollPane(tree, v, h);// Add scroll pane to the content pane contentBorderLayout.CENTER); // Add text field to applet jtf = new JTextFieldcontentPane.add(jtf, BorderLayout.SOUTH);// Anonymous inner class to htree.addMouseListener(new MouseAdapter() {public void mouseClicked(Mou{doMouseClicked(me);}});} void doMouseClicked(MouseEvent me) {TreePathtree.getPathForLocation(me.getX(), me.getY()); if(tp != null)jtf.setTeelse jtf.setText(\"\");}}",
+        "option4": "import java.awt.*;import java.awt.event.*;import javax.swing.*;import /*<applet code=\"JTreeEvents\" width=400 height=200></applet>*/ public cextends JApplet {JTree tree;JTextField jtf; public void init() { // GeContainer contentPane = getContentPane();// Set layout manager contentBorderLayout());// Create top node of tree DefaultMutableTreeNode top DefaultMutableTreeNode(\"Options\");// Create subtree of \"A\" DefaultMutaDefaultMutableTreeNode(\"A\"); top.add(a); DefaultMutableTreeNode a1 = nDefaultMutableTreeNode(\"A1\"); a.add(a1); DefaultMutableTreeNode a2 = nDefaultMutableTreeNode(\"A2\"); a.add(a2); // Create subtree of \"B\" Defab=new DefaultMutableTreeNode(\"B\"); top.add(b); DefaultMutableTreeNode DefaultMutableTreeNode(\"B1\"); b1 = new DefaultMutableTreeNode(\"B1\"); new JTree(top);// Add tree to a scroll pane int v = ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED; int h = ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED; JScrollPane jsp = JScrollPane(tree, v, h);// Add scroll pane to the content pane contentBorderLayout.CENTER); // Add text field to applet jtf = new JTextFieldcontentPane.add(jtf, BorderLayout.SOUTH);// Anonymous inner class to htree.addMouseListener(new MouseAdapter() {public void mouseClicked(Mou{doMouseClicked(me);}});} void doMouseClicked(MouseEvent me) {TreePathtree.getPathForLocation(me.getX(), me.getY()); if(tp != null)jtf.setTeelse jtf.setText(\"\");}}",
+        "answer": "optionb",
+        "marks": 2
+    },
+    {
+        "question": "268 Give the abbreviation of AWT?",
+        "option1": "Applet Windowing Toolkit",
+        "option2": "Abstract Windowing Toolkit",
+        "option3": "Absolute Windowing Toolkit",
+        "option4": "None of the above",
+        "answer": "optionb",
+        "marks": 1
+    },
+    {
+        "question": "270 Which of the below are common network protocols?",
+        "option1": "TCP",
+        "option2": "UDP",
+        "option3": "TCP and UDP",
+        "option4": "FTP",
+        "answer": "optionc",
+        "marks": 1
+    },
+    {
+        "question": "271 Choose the following code for following output :",
+        "option1": "Code A",
+        "option2": "Code B",
+        "option3": "Code C",
+        "option4": "Code D",
+        "answer": "optiona",
+        "marks": 2
+    },
+    {
+        "question": "272 Which of the following statement is used to establish connection with database?",
+        "option1": "Connection conn = DriverManager.getConnection(jdbc:mysql://localhost:3306/booksdb,user,password);",
+        "option2": "Connection conn = DriverManager.getConnected(jdbc:mysql://localhost:33password);",
+        "option3": "Connection conn = DriverManager.getConnection(jdbc:odbc:mysql://localhost:3306/booksdb,user,password);",
+        "option4": "Connection conn = DriverManager.getConnection(localhost:3306/booksdb,user,password);",
+        "answer": "optiona",
+        "marks": 1
+    },
+    {
+        "question": "273 Which class provides many methods for graphics programming?",
+        "option1": "javax.awt.graphics",
+        "option2": "java.Graphics",
+        "option3": "java.awt.Graphics",
+        "option4": "None of the above",
+        "answer": "optionc",
+        "marks": 1
+    },
+    {
+        "question": "274 How would you set the color of a graphics context called g to cyan?",
+        "option1": "g.setColor(Color.cyan);",
+        "option2": "g.setCurrentColor(cyan);",
+        "option3": "g.setColor(\"Color.cyan\");",
+        "option4": "g.setColor(new Color(cyan));",
+        "answer": "optiona",
+        "marks": 1
+    },
+    {
+        "question": "275 Which of the following are passed as an argument to the paint( ) method?",
+        "option1": "A Canvas object",
+        "option2": "A Graphics object",
+        "option3": "An Image object",
+        "option4": "A paint object",
+        "answer": "optionb",
+        "marks": 1
+    },
+    {
+        "question": "276 Which of the following methods are invoked by the AWT to support paint operations?",
+        "option1": "paint( )",
+        "option2": "repaint( )",
+        "option3": "draw( )",
+        "option4": "redraw( )",
+        "answer": "optiona",
+        "marks": 1
+      },
+      {
+        "question": "277 Which of the following classes have a paint( ) method?",
+        "option1": "Canvas",
+        "option2": "Image",
+        "option3": "Frame",
+        "option4": "Graphics",
+        "answer": "optionb",
+        "marks": 1
+      },
+      {
+        "question": "278 Which of the following are methods of the Graphics class?",
+        "option1": "drawRect( )",
+        "option2": "drawImage( )",
+        "option3": "drawPoint( )",
+        "option4": "drawString( )",
+        "answer": "optiond",
+        "marks": 1
+      },
+      {
+        "question": "279 Which of the following are true about AWT repainting?",
+        "option1": "The AWT automatically causes a window to be repainted when a portion has been minimized and then maximized.",
+        "option2": "The AWT automatically causes a window to be repainted when a portion has been covered and then uncovered.",
+        "option3": "The AWT automatically causes a window to be repainted when application state is changed.",
+        "option4": "The AWT does not support repainting operations.",
+        "answer": "optiona",
+        "marks": 1
+      },
+      {
+        "question": "280 Given the following code: How could you set the frame surface color to pink and set its width to 200 pixels?",
+        "option1": "s.setBackground(Color.pink); s.setSize(300,200);",
+        "option2": "s.setColor(PINK); s.setSize(200,300);",
+        "option3": "s.Background(pink); s.setSize(300,200);",
+        "option4": "s.color=Color.pink; s.Size(300,200);",
+        "answer": "optiona",
+        "marks": 2
+      },
+      {
+        "question": "281 PreparedStatement interface extends which interface?",
+        "option1": "Statement",
+        "option2": "CallableStatement",
+        "option3": "ResultSet",
+        "option4": "None of the above",
+        "answer": "optiona",
+        "marks": 1
+      },
+      {
+        "question": "282 Consider the following program. Find which statement contains an error.",
+        "option1": "Error",
+        "option2": "No Error",
+        "option3": "Compile time error",
+        "option4": "Run time error",
+        "answer": "optionb",
+        "marks": 2
+      },
+      {
+        "question": "283 Which of the following methods can be used to change the size of a Java object?",
+        "option1": "dimension()",
+        "option2": "setSize()",
+        "option3": "size()",
+        "option4": "resize()",
+        "answer": "optiond",
+        "marks": 1
+      },
+      {
+        "question": "284 Consider the following program. Find the correct output.",
+        "option1": "Red background applied",
+        "option2": "Green background applied",
+        "option3": "Blue background applied",
+        "option4": "All of the above",
+        "answer": "optiond",
+        "marks": 2
+      },
+      {
+        "question": "285 Find out the missing line in the following code.",
+        "option1": "Container cp=getContentPane()",
+        "option2": "JRadioButton()",
+        "option3": "ButtonGroup bg=new ButtonGroup();",
+        "option4": "bg.add(b1);",
+        "answer": "optiona",
+        "marks": 2
+      },
+      {
+        "question": "286 Observe the following code. What will be the output of the program?",
+        "option1": "The output is obtained in Applet with BorderLayout placing button on each side.",
+        "option2": "The output is obtained in Applet with BorderLayout placing button on east and west, TextArea at center.",
+        "option3": "The output is obtained in Applet south and TextArea at center.",
+        "option4": "The output is obtained in Applet with BorderLayout placing button on east, west, north, south, and TextArea at center.",
+        "answer": "optiond",
+        "marks": 2
+      },
+      {
+        "question": "287 What is the output of the following JTableDemo program?",
+        "option1": "The output is obtained in table with two rows and two columns with horizontal and vertical scrollbars.",
+        "option2": "The output is obtained in table with two rows and three columns with horizontal and vertical scrollbars.",
+        "option3": "The output is obtained in table with three rows and three columns with horizontal and vertical scrollbars.",
+        "option4": "The output is obtained in table with four rows and three columns with horizontal and vertical scrollbars.",
+        "answer": "optionb",
+        "marks": 2
+      },
+      {
+        "question": "288 Which of the following is true about AWT and Swing components?",
+        "option1": "AWT Components create a process whereas Swing Component create a thread.",
+        "option2": "AWT Components create a thread whereas Swing Component create a process.",
+        "option3": "Both AWT and Swing Component create a process.",
+        "option4": "Both AWT and Swing Component create a thread.",
+        "answer": "optiona",
+        "marks": 1
+      },
+      {
+        "question": "289 Which of the following is not a constructor of JTree Class?",
+        "option1": "JTree(Object obj[])",
+        "option2": "JTree(int x)",
+        "option3": "JTree(TreeNode tn)",
+        "option4": "JTree()",
+        "answer": "optionb",
+        "marks": 1
+      },
+      {
+        "question": "290 Observe the following program and point out which statement contains an error.",
+        "option1": "Error in statement in which JScrollPane is created.",
+        "option2": "Statement in which JScrollPane is not created.",
+        "option3": "No Error in statement in which JScrollPane is created.",
+        "option4": "Error in statement in which JScrollPane is deleted.",
+        "answer": "optiona",
+        "marks": 2
+      },
+      {
+        "question": "291 ............. method is used to execute CREATE Table query.",
+        "option1": "executeQuery()",
+        "option2": "executeUpdate()",
+        "option3": "execute()",
+        "option4": "All of the above",
+        "answer": "optionb",
+        "marks": 1
+      },
+      {
+        "question": "292 The setBackground() method is part of the following class in java.awt",
+        "option1": "Graphics",
+        "option2": "Component",
+        "option3": "Applet",
+        "option4": "Container",
+        "answer": "optionb",
+        "marks": 1
+      },
+      {
+        "question": "293 Find the missing statement in the following code\nContainer contentPane = getContentPane();\nImageIcon ii = new ImageIcon(\"IC.jpg\");\nJLabel jl = new JLabel(\"IC\", ii, JLabel.CENTER);\n--------------------",
+        "option1": "setcontentPane.add(jl);",
+        "option2": "getcontentPane.add(jl);",
+        "option3": "contentPane.add(jl);",
+        "option4": "contentPane.add(j);",
+        "answer": "optionc",
+        "marks": 2
+      },
+      {
+        "question": "294 Find the missing statement in the following code\ncontentPane.setLayout(new FlowLayout());\n_________________________________\ncontentPane.add(jtf);",
+        "option1": "jtf = new JTextField(15);",
+        "option2": "jtf = JTextField(15);",
+        "option3": "Both A & B",
+        "option4": "None Of the above",
+        "answer": "optiona",
+        "marks": 2
+      },
+      {
+        "question": "295 Which of the following classes are derived from the Container class?",
+        "option1": "Component",
+        "option2": "Panel",
+        "option3": "Dialog",
+        "option4": "Frame",
+        "answer": "optiona",
+        "marks": 1
+      },
+      {
+        "question": "296 Find the missing statement in the following code\njtf.setText(ae.getActionCommand());",
+        "option1": "jtf.setText(ae.getActionCommand());",
+        "option2": "jtf.setText(ae.setActionCommand());",
+        "option3": "jtf.setText(ae.ActionCommand());",
+        "option4": "None of the above",
+        "answer": "optiona",
+        "marks": 2
+      },
+      {
+        "question": "297 Find the missing statement in the following code\ncontentPane.getLayout(new FlowLayout());",
+        "option1": "contentPane.setLayout(FlowLayout());",
+        "option2": "contentPane.Layout(new FlowLayout());",
+        "option3": "contentPane.getLayout(new FlowLayout());",
+        "option4": "contentPane.setLayout(new FlowLayout());",
+        "answer": "optiond",
+        "marks": 2
+      },
+      {
+        "question": "298 Find out the correct statement",
+        "option1": "public PreparedStatement prepareStatement(String query) throws IOException",
+        "option2": "private PreparedStatement preparedStatement(String query) throws IOException",
+        "option3": "public PreparedStatement prepareStatement(String query) throws SQLException",
+        "option4": "protected PrepareStatement prepareStatement(String query) throws FileNotFoundException",
+        "answer": "optionc",
+        "marks": 1
+      },
+      {
+        "question": "299 Which of the following classes are derived from the Container class?",
+        "option1": "Panel",
+        "option2": "Window",
+        "option3": "Frame",
+        "option4": "Dialog",
+        "answer": "optionb",
+        "marks": 1
+      },
+      {
+        "question": "300 Which are the parameters of setString() method?",
+        "option1": "String value, String paramIndex",
+        "option2": "String paramIndex, String value",
+        "option3": "int paramIndex, int value",
+        "option4": "int paramIndex, String value",
+        "answer": "optiond",
+        "marks": 1
+      },
+      {
+        "question": "301 Name the class used to represent a GUI application window, which is open and can have a title bar, an icon, and menus.",
+        "option1": "Window",
+        "option2": "Panel",
+        "option3": "Dialog",
+        "option4": "Frame",
+        "answer": "optiond",
+        "marks": 1
+      },
+      {
+        "question": "302 What components will be needed to get following output?",
+        "option1": "Label, TabbedPane, CheckBox",
+        "option2": "Panel, TabbedPane, List",
+        "option3": "TabbedPane, List, Applet",
+        "option4": "Applet, TabbedPane, Pane",
+        "answer": "optionb",
+        "marks": 2
+      },
+      {
+        "question": "303 What is the return type of executeQuery() method?",
+        "option1": "int",
+        "option2": "connection",
+        "option3": "ResultSet",
+        "option4": "None of the above",
+        "answer": "optionc",
+        "marks": 1
+      },
+      {
+        "question": "304 Button B1 = new Button(\"Submit\"); Which method is used to obtain output as a string?",
+        "option1": "setText()",
+        "option2": "setLabel()",
+        "option3": "getText()",
+        "option4": "getLabel()",
+        "answer": "optiond",
+        "marks": 1
+      },
+      {
+        "question": "305 Which of these packages contains classes and interfaces for networking?",
+        "option1": "java.io",
+        "option2": "java.util",
+        "option3": "java.net",
+        "option4": "java.network",
+        "answer": "optionc",
+        "marks": 1
+      },
+      {
+        "question": "306 Label lb = new Label(\"Advanced Java\"); Which method is used to obtain the text \"Advanced Java\"?",
+        "option1": "setText()",
+        "option2": "setLabel()",
+        "option3": "getText()",
+        "option4": "getLabel()",
+        "answer": "optionc",
+        "marks": 1
+      },
+      {
+        "question": "307 By using ___________ control, we can create a set of mutually exclusive checkboxes in which only one checkbox in the group can be checked at a time.",
+        "option1": "Button",
+        "option2": "Checkbox",
+        "option3": "CheckboxGroup",
+        "option4": "List",
+        "answer": "optionc",
+        "marks": 1
+      },
+      {
+        "question": "308 Superclass of TextField and TextArea classes that is used to create simple or multiple textfields is?",
+        "option1": "TextBox",
+        "option2": "TextComponent",
+        "option3": "Checkbox",
+        "option4": "Choice",
+        "answer": "optionb",
+        "marks": 1
+      },
+      {
+        "question": "309 Subclass of TextComponent is?",
+        "option1": "TextArea",
+        "option2": "Button",
+        "option3": "Label",
+        "option4": "Checkbox",
+        "answer": "optiona",
+        "marks": 1
+      },
+      {
+        "question": "310 Following are constructors of TextArea class?",
+        "option1": "TextArea(String str)",
+        "option2": "TextArea(int numLines, int numChars)",
+        "option3": "TextArea(String str, int numLines, int numChars, int sBars)",
+        "option4": "All of the above",
+        "answer": "optiond",
+        "marks": 1
+      },
+      {
+        "question": "311 Which of these is a protocol for breaking and sending packets to an address in a network?",
+        "option1": "TCP/IP",
+        "option2": "DNS",
+        "option3": "Socket",
+        "option4": "Proxy Server",
+        "answer": "optiona",
+        "marks": 1
+      },
+      {
+        "question": "312 Which of the following is not an AWT class?",
+        "option1": "Label",
+        "option2": "CheckboxGroup",
+        "option3": "RadioButton",
+        "option4": "List",
+        "answer": "optionc",
+        "marks": 1
+      },
+      {
+        "question": "313 How many ports of TCP/IP are reserved for specific protocols?",
+        "option1": "10",
+        "option2": "1024",
+        "option3": "2048",
+        "option4": "512",
+        "answer": "optionb",
+        "marks": 1
+      },
+      {
+        "question": "314 Multiple selection of items in List is possible using following Constructor?",
+        "option1": "List()",
+        "option2": "List(int numRows)",
+        "option3": "List(int numRows, boolean multipleSelect)",
+        "option4": "None of these",
+        "answer": "optionc",
+        "marks": 1
+      },
+      {
+        "question": "315 Which object can be constructed to show and select any number of choices in a window?",
+        "option1": "Button",
+        "option2": "Choice",
+        "option3": "List",
+        "option4": "Label",
+        "answer": "optionc",
+        "marks": 1
+      },
+      {
+        "question": "316 Which method of Choice class is used to return index of the selected item?",
+        "option1": "getSelectedIndex()",
+        "option2": "getSelectedIndexes()",
+        "option3": "getSelectedItem()",
+        "option4": "getSelectedItems()",
+        "answer": "optiona",
+        "marks": 1
+      },
+      {
+        "question": "317 Swing components that don't rely on Native GUI are referred to as?",
+        "option1": "GUI component",
+        "option2": "heavy weight component",
+        "option3": "Lightweight component",
+        "option4": "middle weight component",
+        "answer": "optionc",
+        "marks": 1
+      },
+      {
+        "question": "318 How many bits are in a single IP address?",
+        "option1": "8",
+        "option2": "16",
+        "option3": "32",
+        "option4": "64",
+        "answer": "optionc",
+        "marks": 1
+      },
+      {
+        "question": "319 Developing GUI in swings does?",
+        "option1": "Uses buttons, menus, icons, and all other components",
+        "option2": "Should be easy for the end user to manipulate",
+        "option3": "Stands for Graphic Use Interaction",
+        "option4": "Both (a) and (c)",
+        "answer": "optiond",
+        "marks": 1
+      },
+      {
+        "question": "320 Which of these functions is called to display the output of an applet?",
+        "option1": "display()",
+        "option2": "paint()",
+        "option3": "displayApplet()",
+        "option4": "PrintApplet()",
+        "answer": "optionb",
+        "marks": 1
+      },
+      
 ]
 
-module.exports = { data: UT2EST};
+
+module.exports = { data: ET_EST};

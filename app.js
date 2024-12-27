@@ -56,22 +56,22 @@ app.get("/test/:id", async (req, res) => {
     let { id } = req.params;
     const examquestions = await questions.find({ subject: id });
     const max = examquestions.length;
-    
-    if (max < 20) {
+    const count = parseInt(req.query.count) || 70;
+    if (max < 70) {
         return res.status(400).send("Not enough questions to generate the test.");
     }
     
     const allquestions = [];
     const selectedIndexes = new Set();
     
-    while (allquestions.length < 20) {
+    while (allquestions.length < count) {
         let randomInteger = Math.floor(Math.random() * max);
         if (!selectedIndexes.has(randomInteger)) {
             allquestions.push(examquestions[randomInteger]);
             selectedIndexes.add(randomInteger);
         }
     }
-    
+    console.log(allquestions.length);
     res.render("testapp/test.ejs", { allquestions });
 });
 
