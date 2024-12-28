@@ -71,7 +71,6 @@ app.get("/test/:id", async (req, res) => {
             selectedIndexes.add(randomInteger);
         }
     }
-    console.log(allquestions.length);
     res.render("testapp/test.ejs", { allquestions });
 });
 

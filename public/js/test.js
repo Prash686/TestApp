@@ -110,7 +110,7 @@ try {
       totalMarks = 0;
       questions.forEach((question, index) => {
         if (selectedAnswers[index] === question.Answer) {
-          totalMarks += parseInt(question.marks);
+          totalMarks += 1;
         }
       });
     }
