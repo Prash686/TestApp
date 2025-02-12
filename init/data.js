@@ -17829,6 +17829,12 @@ const courses = [
 const subjects = [
     {
         "course": "MSBTE",
+        "title": "Management UT",
+        "discription": "Environmental Studies (EST) focuses on understanding the relationship between humans and the natural environment, addressing issues like pollution, biodiversity, and sustainability. It promotes awareness and solutions to environmental challenges for a healthier planet.",
+        "image": "/images/msbte.jpeg",
+    },
+    {
+        "course": "MSBTE",
         "title": "Final EST",
         "discription": "Environmental Studies (EST) focuses on understanding the relationship between humans and the natural environment, addressing issues like pollution, biodiversity, and sustainability. It promotes awareness and solutions to environmental challenges for a healthier planet.",
         "image": "/images/msbte.jpeg",
@@ -46540,5 +46546,971 @@ const VJ_Tech_java = [
       
 ]
 
+const MUT = [
+    {
+        "question": "Who said, “Management is the function of executive leadership anywhere”?",
+        "option1": "Ralph",
+        "option2": "Mary Parker Follet",
+        "option3": "F.W. Taylor",
+        "option4": "Joseph L. Massie",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Universal, goal-oriented, multidimensional, continuous process are some characteristics of -",
+        "option1": "Management",
+        "option2": "Organization",
+        "option3": "Administration",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Optimum utilization of resources can be ensured by -",
+        "option1": "Controlling",
+        "option2": "Inventory Control",
+        "option3": "Management",
+        "option4": "Planning",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Motivating the people and building team spirit to improve the life standard of workers is possible due to -",
+        "option1": "Leadership",
+        "option2": "Management",
+        "option3": "Administration",
+        "option4": "Organization",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "------------- is the art of getting work done through people.",
+        "option1": "Controlling",
+        "option2": "Counselling",
+        "option3": "Administration",
+        "option4": "Management",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Management is a creative and …………….. process.",
+        "option1": "Systematic",
+        "option2": "Continuous",
+        "option3": "Long",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Management is -1. The art of getting things done through people 2. The art of knowing what you want to do in the best and cheapest way 3. Necessary to run the factory in an efficient way 4. An inbuilt part of any organization",
+        "option1": "1 & 2",
+        "option2": "1 & 3",
+        "option3": "2 & 4",
+        "option4": "2 & 3",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "---------- is concerned with decision-making and policy-making.",
+        "option1": "Management",
+        "option2": "Administration",
+        "option3": "Organisation",
+        "option4": "General Manager",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The difference between administration and management is that -",
+        "option1": "Administration is largely determinative while management is essentially executive",
+        "option2": "Management is largely determinative while administration is essentially executive",
+        "option3": "Management is performed at a higher level of management, while administration is performed at a lower level",
+        "option4": "Administration is a part of management",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A tool manufacturing firm wants to improve its performance from good to best. Suggest the steps they should follow -",
+        "option1": "Optimum utilization of resources and reducing wastage; Building team spirit to achieve goals",
+        "option2": "Changing the management; Employing experts and skilled employees",
+        "option3": "Adopting the latest technology; Using suitable manufacturing techniques",
+        "option4": "Increasing the wages of employees; Increasing profit margin",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Frederick Winslow Taylor’s Mechanism of Scientific Management includes -",
+        "option1": "Scientific task setting",
+        "option2": "Standardization of tools and equipment",
+        "option3": "Planning the task",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "“Unity of Command” principle of effective direction means -",
+        "option1": "There should be unity amongst subordinates",
+        "option2": "A superior can supervise a limited number of subordinates",
+        "option3": "There should be unity amongst superiors",
+        "option4": "Subordinates should be responsible to one superior",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The founder of Scientific Management is -",
+        "option1": "Henri Fayol",
+        "option2": "F.W. Taylor",
+        "option3": "Elton Mayo",
+        "option4": "Peter Drucker",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "“No one in the organization should have more than one boss” is a statement of -",
+        "option1": "Principle of specialization",
+        "option2": "Principle of authority",
+        "option3": "Principle of unity of command",
+        "option4": "Principle of span of control",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "“Subordinate should take orders from only one superior to avoid confusion, mistakes, and delay.” This feature is categorized as -",
+        "option1": "Division of Work",
+        "option2": "Espirit de corps",
+        "option3": "Unity of Direction",
+        "option4": "Unity of Command",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The founder of Modern Management was -",
+        "option1": "Elton Mayo",
+        "option2": "Peter Drucker",
+        "option3": "Henri Fayol",
+        "option4": "F.W. Taylor",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Under the mechanism of scientific management, scientific task setting includes -",
+        "option1": "Time study",
+        "option2": "Motion study",
+        "option3": "Method study",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "“Each management objective should have only one plan, and efforts shall be taken to pursue a common goal.” This feature is categorized as -",
+        "option1": "Division of Work",
+        "option2": "Espirit de corps",
+        "option3": "Unity of Direction",
+        "option4": "Unity of Command",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The factors coming under the philosophy of scientific management are -",
+        "option1": "Cooperation",
+        "option2": "Standardization of tools and equipment",
+        "option3": "Harmony",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Authority, discipline, unity of command, and unity of direction are -",
+        "option1": "Taylor's four principles of management",
+        "option2": "Principles of the human relations movement",
+        "option3": "Elements of Weber's ideal bureaucratic structure",
+        "option4": "Four of Fayol's fourteen principles of management",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Frederick Winslow Taylor’s Mechanism of Scientific Management includes -",
+        "option1": "Scientific task setting",
+        "option2": "Standardization of tools and equipment",
+        "option3": "Planning the task",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "“Unity of Command” principle of effective direction means -",
+        "option1": "There should be unity amongst subordinates",
+        "option2": "A superior can supervise a limited number of subordinates",
+        "option3": "There should be unity amongst superiors",
+        "option4": "Subordinates should be responsible to one superior",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The founder of Scientific Management is -",
+        "option1": "Henri Fayol",
+        "option2": "F.W. Taylor",
+        "option3": "Elton Mayo",
+        "option4": "Peter Drucker",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "“No one in the organization should have more than one boss” is a statement of -",
+        "option1": "Principle of specialization",
+        "option2": "Principle of authority",
+        "option3": "Principle of unity of command",
+        "option4": "Principle of span of control",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "“Subordinate should take orders from only one superior to avoid confusion, mistakes, and delay.” This feature is categorized as -",
+        "option1": "Division of Work",
+        "option2": "Espirit de corps",
+        "option3": "Unity of Direction",
+        "option4": "Unity of Command",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The founder of Modern Management was -",
+        "option1": "Elton Mayo",
+        "option2": "Peter Drucker",
+        "option3": "Henri Fayol",
+        "option4": "F.W. Taylor",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Under the mechanism of scientific management, scientific task setting includes -",
+        "option1": "Time study",
+        "option2": "Motion study",
+        "option3": "Method study",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "“Each management objective should have only one plan, and efforts shall be taken to pursue a common goal.” This feature is categorized as -",
+        "option1": "Division of Work",
+        "option2": "Espirit de corps",
+        "option3": "Unity of Direction",
+        "option4": "Unity of Command",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The factors coming under the philosophy of scientific management are -",
+        "option1": "Cooperation",
+        "option2": "Standardization of tools and equipment",
+        "option3": "Harmony",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Authority, discipline, unity of command, and unity of direction are -",
+        "option1": "Taylor's four principles of management",
+        "option2": "Principles of the human relations movement",
+        "option3": "Elements of Weber's ideal bureaucratic structure",
+        "option4": "Four of Fayol's fourteen principles of management",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Planning, organizing, directing, and controlling are the:",
+        "option1": "Objectives of management",
+        "option2": "Goals of management",
+        "option3": "Functions of management",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Guiding and supervising the efforts of subordinates toward the attainment of the organization’s goals describes the function of:",
+        "option1": "Planning",
+        "option2": "Controlling",
+        "option3": "Staffing",
+        "option4": "Directing",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Staffing function of management comprises the activities of:",
+        "option1": "Selecting the suitable person for positions",
+        "option2": "Defining the requirements with regard to the people for the job to be done",
+        "option3": "Training and developing staff to accomplish their task more effectively",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which managerial function clarifies the boundaries of authority and responsibility within a department?",
+        "option1": "Planning",
+        "option2": "Organizing",
+        "option3": "Controlling",
+        "option4": "Directing",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The following are the sub-functions of Directing except:",
+        "option1": "Staffing",
+        "option2": "Communication",
+        "option3": "Leadership",
+        "option4": "Motivation",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "1. Setting up or establishment of standards, 2. measuring actual performance, 3.comparing actual performance with established standards,  4. taking corrective actions if needed—these are the steps of:",
+        "option1": "Planning",
+        "option2": "Controlling",
+        "option3": "Evaluating",
+        "option4": "Organizing",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which function is regarded as the essence of management?",
+        "option1": "Planning",
+        "option2": "Staffing",
+        "option3": "Coordination",
+        "option4": "Organizing",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Directing function of management embraces activities of:",
+        "option1": "Issuing orders to subordinates",
+        "option2": "Guiding and teaching the subordinates",
+        "option3": "Providing leadership and motivation to subordinates",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The relationship between leadership and management is most accurately stated as:",
+        "option1": "Leadership is a subset of management",
+        "option2": "There is no relationship between leadership and management",
+        "option3": "Management is a subset of leadership",
+        "option4": "Both are different things",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "To the extent that an executive is carrying out the functions of planning, organizing, and staffing, they are engaged in:",
+        "option1": "Administrative activities",
+        "option2": "Financial activities",
+        "option3": "Managerial activities",
+        "option4": "Non-managerial activities",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Strategic Planning and Tactical planning are the types of planning under the criteria-",
+        "option1": "Coverage of activity",
+        "option2": "Approach adopted",
+        "option3": "Importance of contents",
+        "option4": "Degree of formalization",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Arrange the following steps of planning in the correct sequence:\n1. Establish Objectives\n2. Identification of alternatives\n3. Selection of alternative\n4. Developing derivative/supportive plan\n5. Measuring and controlling the process",
+        "option1": "1,2,4,3,5",
+        "option2": "1,2,3,4,5",
+        "option3": "1,2,3,5,4",
+        "option4": "1,2,4,3,5",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The following is not a principle of organization:",
+        "option1": "Principle of exception",
+        "option2": "Principle of balance",
+        "option3": "Principle of complexity",
+        "option4": "Principle of coordination",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The process of dividing the work and then grouping them into units and subunits for the purpose of administration is known as:",
+        "option1": "Departmentation",
+        "option2": "Organisation structure",
+        "option3": "Formation of expert committee",
+        "option4": "Dividing in sections",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Span of Control means-",
+        "option1": "The number of subordinates that a manager can supervise directly",
+        "option2": "Time required to control the process",
+        "option3": "Power given to supervisors",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Organizational structure should not be static means-",
+        "option1": "It should be dynamic",
+        "option2": "Subject to change from time to time",
+        "option3": "Shall be flexible",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": ".......... of the enterprise influences the organizational structure:",
+        "option1": "Objectives",
+        "option2": "Infrastructure",
+        "option3": "Location of enterprise",
+        "option4": "Mission of enterprise",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Plan that outlines who reports to whom and who is responsible for what is called:",
+        "option1": "Organizational Chart",
+        "option2": "Organizational Plan",
+        "option3": "Organizational Structure",
+        "option4": "Organizational Framework",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The organization chart will not show:",
+        "option1": "How the work is divided",
+        "option2": "Chain of command",
+        "option3": "The informal organization",
+        "option4": "The nature of the work performed by the components",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "\"No one in the organization should have more than one boss\" is a statement of:",
+        "option1": "Principle of specialization",
+        "option2": "Principle of authority",
+        "option3": "Principle of unity of command",
+        "option4": "Principle of span of control",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Principle of Delegation is related to:",
+        "option1": "Delegation of Power",
+        "option2": "Delegation of Authority",
+        "option3": "Delegation of Responsibility",
+        "option4": "Delegation of Work",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Span of management means:",
+        "option1": "A good organization should consist of departments.",
+        "option2": "Authority of each person must be clearly defined.",
+        "option3": "Each subordinate should have one superior.",
+        "option4": "A manager can supervise a limited number of executives.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In which of the following organization structures, each specialist is supposed to give his functional advice to all other foremen and workers?",
+        "option1": "Line organization",
+        "option2": "Functional organization",
+        "option3": "Line and staff organization",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Suggest the suitable organization structure for a big steel plant:",
+        "option1": "Line organization",
+        "option2": "Functional organization",
+        "option3": "Line and staff organization",
+        "option4": "Flexible organization",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The process of dividing the work and then grouping them into units and subunits for the purpose of administration is known as:",
+        "option1": "Departmentation",
+        "option2": "Organization structure",
+        "option3": "Committee",
+        "option4": "Subunit",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The following is also known as Military organization:",
+        "option1": "Line organization",
+        "option2": "Functional organization",
+        "option3": "Line and staff organization",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the oldest type of organization?",
+        "option1": "Functional organization",
+        "option2": "Line organization",
+        "option3": "Line and staff organization",
+        "option4": "Project organization",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The following is not a principle of organization:",
+        "option1": "Principle of exception",
+        "option2": "Principle of balance",
+        "option3": "Principle of complexity",
+        "option4": "Principle of coordination",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The organization chart will not show:",
+        "option1": "How the work is divided",
+        "option2": "Chain of command",
+        "option3": "The informal organization",
+        "option4": "The nature of the work performed by the components",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "\"No one in the organization should have more than one boss\" is a statement of:",
+        "option1": "Principle of specialization",
+        "option2": "Principle of authority",
+        "option3": "Principle of unity of command",
+        "option4": "Principle of span of control",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The following is not a type of organization structure:",
+        "option1": "Functional organization",
+        "option2": "Line organization",
+        "option3": "Line and staff organization",
+        "option4": "Flexible organization",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Management needs:",
+        "option1": "Conceptual & Human Skills",
+        "option2": "Technical & Human Skills",
+        "option3": "Financial & Human Skills",
+        "option4": "Commercial & Human Skills",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "“Person's knowledge and proficiency in any type of process or technique” is the following type of managerial skill:",
+        "option1": "Technical Skill",
+        "option2": "Commercial Skill",
+        "option3": "Conceptual Skill",
+        "option4": "Human Relation Skill",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Mr. Ram has joined a tractor manufacturing company as a Production Manager. Suggest the suitable skills required to perform his job efficiently 1. Technical skill 2. Human relation 3. Financial management 4. Conceptual skill.",
+        "option1": "1,2,3,4",
+        "option2": "1,2",
+        "option3": "1,2,4",
+        "option4": "1,2,3",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Suggest the skills required for a line supervisor: 1. Technical skill 2. Conceptual skill 3. Human relationship 4. Financial skill",
+        "option1": "1,3",
+        "option2": "1,2",
+        "option3": "2,3",
+        "option4": "1,4",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "“Ability to conceptualize the environment, the organization, and his own job, so that he can set appropriate goals for his organization, for himself, and for his team.” This statement focuses on the following managerial skill:",
+        "option1": "Technical Skill",
+        "option2": "Conceptual Skill",
+        "option3": "Commercial Skill",
+        "option4": "Financial Skill",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "............... is also known as operational management.",
+        "option1": "Middle-level management",
+        "option2": "Production management",
+        "option3": "Personnel management",
+        "option4": "Information management",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Creation of demand, customer satisfaction, market share, and generation of profits is related to:",
+        "option1": "Financial management",
+        "option2": "Marketing management",
+        "option3": "Personnel management",
+        "option4": "Advertisement management",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Financial management deals with:",
+        "option1": "Procurement and utilization of funds",
+        "option2": "Financial planning and forecasting",
+        "option3": "Optimum funds utilization",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Manpower recruitment and training is the responsibility of:",
+        "option1": "Board of Directors",
+        "option2": "Personnel management",
+        "option3": "Government",
+        "option4": "HR Manager",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "“To produce goods and services of the right quality and quantity at the right time and right manufacturing cost” is the objective of:",
+        "option1": "Personnel management",
+        "option2": "Information management",
+        "option3": "Production management",
+        "option4": "Top-level management",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Group relationships are:",
+        "option1": "One to many (intra-group)",
+        "option2": "Many to many (inter-group)",
+        "option3": "Both of the above",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Following is not an interpersonal skill:",
+        "option1": "Communication skills",
+        "option2": "Computer operating",
+        "option3": "Listening skills",
+        "option4": "Empathy",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A group is any number of people who do not manifest the following:",
+        "option1": "Have a common purpose or objective.",
+        "option2": "Interact with each other to accomplish their objectives.",
+        "option3": "Are not aware of one another.",
+        "option4": "Perceive themselves to be part of the group.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "People come together as a work group to:",
+        "option1": "Solve problems",
+        "option2": "Attain goals",
+        "option3": "Facilitate coordination",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Following is not a characteristic of team functioning:",
+        "option1": "Autonomy",
+        "option2": "Cohesion",
+        "option3": "Confrontation",
+        "option4": "Collaboration",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Select the wrong attribute for group behavior:",
+        "option1": "Friendly",
+        "option2": "Recognize and respect individual differences",
+        "option3": "Non-cooperative",
+        "option4": "Include others in decision-making processes",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Components of the skill are:",
+        "option1": "Knowledge",
+        "option2": "Expertise & physical fitness",
+        "option3": "Attitude",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "People skills refer to:",
+        "option1": "Creating good relationships and the ability to handle people.",
+        "option2": "Writing nicely",
+        "option3": "Operating a computer",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Competency mapping includes:",
+        "option1": "Competency map",
+        "option2": "Competency profiling",
+        "option3": "Both of the above",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Following is not a monetary factor of motivation:",
+        "option1": "Salary and wages",
+        "option2": "Appreciation",
+        "option3": "Incentives and perks",
+        "option4": "Facilities",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Motivation is required for:",
+        "option1": "Higher efficiency",
+        "option2": "Reduced absenteeism",
+        "option3": "Improved morale",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In need hierarchy, which need is at the second place?",
+        "option1": "Safety & security",
+        "option2": "Social needs",
+        "option3": "Physiological needs",
+        "option4": "Ego needs",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Organizations are an association of:",
+        "option1": "Machines",
+        "option2": "Men",
+        "option3": "Men with a common goal",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Organization means or connotes:",
+        "option1": "Structure",
+        "option2": "Structure & process",
+        "option3": "Process",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Who is/are involved in manpower planning?",
+        "option1": "Supervisor & section head",
+        "option2": "Supervisor and departmental head",
+        "option3": "Supervisor and production head",
+        "option4": "Supervisor, section head, departmental head, production head, HR",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What are the tasks of the supervisor?",
+        "option1": "Assigning jobs to workers",
+        "option2": "Maintain discipline at the shop floor",
+        "option3": "Communicate between management and workers",
+        "option4": "All the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Supervisors have no role in the following:",
+        "option1": "Selection of plant & machinery",
+        "option2": "Machine planning",
+        "option3": "Material planning",
+        "option4": "Selection of PPE",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Following is not a component of the shop floor:",
+        "option1": "Machinery",
+        "option2": "Stores",
+        "option3": "Smoking zone",
+        "option4": "Quality section",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Characteristics of a budget are:",
+        "option1": "It is mainly a forecasting and controlling device.",
+        "option2": "It is prepared in advance.",
+        "option3": "It is in connection with a definite future period.",
+        "option4": "All are true.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statements is wrong?",
+        "option1": "Budget is made only for materials.",
+        "option2": "Budget is made for each purpose of business.",
+        "option3": "All functional budgets become part of the master budget.",
+        "option4": "Budgeting is future-oriented.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statements is correct?",
+        "option1": "Budgetary control is a method of managing costs through preparation of budgets.",
+        "option2": "Budgetary control includes the establishment of budgets for each purpose of the business.",
+        "option3": "All are correct.",
+        "option4": "Budgetary control enables the management to perform business in the most professional manner.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Material budgeting does not ensure:",
+        "option1": "High risk of inventory planning",
+        "option2": "Highest purchase lead time",
+        "option3": "Low transportation cost",
+        "option4": "Better vendor relations",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Following is not a part of material budgeting:",
+        "option1": "Direct material budget",
+        "option2": "Storekeeping budget",
+        "option3": "Material consumption budget",
+        "option4": "Material purchase budget",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Following is not included in information in an HR budget:",
+        "option1": "Forecasting on the number of employees",
+        "option2": "Recruitment budget",
+        "option3": "Employee travel budget",
+        "option4": "Overtime",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Hierarchy of planning is:",
+        "option1": "Long-term plans, action plans, operational plans",
+        "option2": "Action plans, operational plans, long-term plans",
+        "option3": "Operational plans, long-term plans, action plans",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Operational plans are:",
+        "option1": "Soft side of the planning",
+        "option2": "Hard side of the planning",
+        "option3": "None of the above",
+        "option4": "Both",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Who has a key role in performance at the shop floor?",
+        "option1": "Top managers",
+        "option2": "Departmental heads",
+        "option3": "Supervisors",
+        "option4": "Vendors",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Following department is not included in the shop floor:",
+        "option1": "Purchase",
+        "option2": "Sales",
+        "option3": "Quality control",
+        "option4": "Production",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "For material planning, the following system is not used:",
+        "option1": "MRPI",
+        "option2": "MRPII",
+        "option3": "ERP",
+        "option4": "Tally",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Supervisors face everyday contingencies and should do appropriate:",
+        "option1": "Situational planning",
+        "option2": "Tactical planning",
+        "option3": "Strategic planning",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The process of any management activity starts from or the foremost step in management is:",
+        "option1": "Directing",
+        "option2": "Controlling",
+        "option3": "Planning",
+        "option4": "Staffing",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How is the nature of planning?",
+        "option1": "It is past-oriented",
+        "option2": "It is future-oriented",
+        "option3": "It is future-oriented and does not consider the past.",
+        "option4": "It is future-oriented but takes clues from the past also.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Supervisors are supposed to be involved in:",
+        "option1": "Long-term / strategic planning",
+        "option2": "Short-term / operational planning",
+        "option3": "Medium-term / tactical planning",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the function of the supervisor?",
+        "option1": "Creating organizational objectives and policies",
+        "option2": "Creating strategic plans",
+        "option3": "Identifying departmental objectives and evolving tactical plans",
+        "option4": "To guide and instruct workers for day-to-day activity",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Planning is a:",
+        "option1": "One-time process",
+        "option2": "Continuous process",
+        "option3": "Mental and continuous process",
+        "option4": "Physical and one-time process",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Supervisor is involved at the shop floor level in:",
+        "option1": "Completing daily production targets",
+        "option2": "Completing sales targets",
+        "option3": "Completing dispatches",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
 
-module.exports = { data: ET_EST};
+]
+
+module.exports = { data: MUT};
