@@ -1,4 +1,4 @@
-require('dotenv').config(); // Load environment variables from .env file
+const dotenv = require('dotenv'); // Load environment variables from .env file
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
@@ -10,8 +10,9 @@ const flash = require('connect-flash');
 const ejsMate = require('ejs-mate');
 const path = require('path');
 
+dotenv.config();
 // MongoDB connection string from environment variables
-const Mongo = "mongodb+srv://prash:prash%4011@cluster0.p4iok.mongodb.net/myDatabase?retryWrites=true&w=majority";
+const Mongo = process.env.MONGO_URI;
 console.log(Mongo);
 async function main() {
     try {

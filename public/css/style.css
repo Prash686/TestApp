@@ -25,7 +25,7 @@ body {
   transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background and shadow */
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 10;
   margin-bottom: 0.5rem;
 }
 

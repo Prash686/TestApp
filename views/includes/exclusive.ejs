@@ -1,7 +1,8 @@
 <style>
  /* Notification Bar Link */
-#notification-bar-link {
+ #notification-bar-link {
     text-decoration: none;
+    z-index: 5;
 }
 
 /* Notification Bar Styling */
@@ -19,7 +20,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: translateY(-100%);
     animation: slideDown 1s forwards ease-out, heartbeat 1.5s infinite;
-    z-index: 1000;
+    z-index: 5;
     border-radius: 4px;
     box-shadow: 0 0 15px rgba(255, 221, 68, 0.6);
     cursor: pointer; /* Make the bar appear clickable */

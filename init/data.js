@@ -17829,6 +17829,12 @@ const courses = [
 const subjects = [
     {
         "course": "MSBTE",
+        "title": "ETI",
+        "discription": "Environmental Studies (EST) focuses on understanding the relationship between humans and the natural environment, addressing issues like pollution, biodiversity, and sustainability. It promotes awareness and solutions to environmental challenges for a healthier planet.",
+        "image": "/images/msbte.jpeg",
+    },
+    {
+        "course": "MSBTE",
         "title": "Management UT",
         "discription": "Environmental Studies (EST) focuses on understanding the relationship between humans and the natural environment, addressing issues like pollution, biodiversity, and sustainability. It promotes awareness and solutions to environmental challenges for a healthier planet.",
         "image": "/images/msbte.jpeg",
@@ -47513,4 +47519,1123 @@ const MUT = [
 
 ]
 
-module.exports = { data: MUT};
+const ETI = [
+    {
+        "question": "What is Artificial intelligence?",
+        "option1": "Putting your intelligence into Computer",
+        "option2": "Programming with your own intelligence",
+        "option3": "Making a Machine intelligent",
+        "option4": "Putting more memory into Computer",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Who is the father of AI?",
+        "option1": "Alain Colmerauer",
+        "option2": "John McCarthy",
+        "option3": "Nicklaus Wirth",
+        "option4": "Seymour Papert",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Artificial Intelligence has its expansion in the following application.",
+        "option1": "Planning and Scheduling",
+        "option2": "Game Playing",
+        "option3": "Robotics",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The characteristics of the computer system capable of thinking, reasoning and learning is known as",
+        "option1": "Machine intelligence",
+        "option2": "Human intelligence",
+        "option3": "Artificial intelligence",
+        "option4": "Virtual intelligence",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The first AI programming language was called:",
+        "option1": "BASIC",
+        "option2": "FORTRAN",
+        "option3": "IPL",
+        "option4": "LISP",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The first widely used commercial form of Artificial Intelligence (AI) is being used in many popular products like microwave ovens, automobiles, and plug-in circuit boards for desktop PCs. What is the name of AI?",
+        "option1": "Boolean logic",
+        "option2": "Human logic",
+        "option3": "Fuzzy logic",
+        "option4": "Functional logic",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the term used for describing the judgmental or commonsense part of problem-solving?",
+        "option1": "Heuristic",
+        "option2": "Critical",
+        "option3": "Value-based",
+        "option4": "Analytical",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "______ is a branch of computer science which deals with helping machines find solutions to complex problems in a more human-like fashion.",
+        "option1": "Artificial Intelligence",
+        "option2": "Internet of Things",
+        "option3": "Embedded System",
+        "option4": "Cyber Security",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In ______ the goal is for the software to use what it has learned in one area to solve problems in other areas.",
+        "option1": "Machine Learning",
+        "option2": "Deep Learning",
+        "option3": "Neural Networks",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Computer programs that mimic the way the human brain processes information are called",
+        "option1": "Machine Learning",
+        "option2": "Deep Learning",
+        "option3": "Neural Networks",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A ______ is a rule of thumb, strategy, trick, simplification, or any other kind of device which drastically limits the search for solutions in large problem spaces.",
+        "option1": "Heuristic",
+        "option2": "Critical",
+        "option3": "Value-based",
+        "option4": "Analytical",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "______ do not guarantee optimal/any solutions",
+        "option1": "Heuristic",
+        "option2": "Critical",
+        "option3": "Value based",
+        "option4": "Analytical",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Cognitive science is related with",
+        "option1": "Act like human",
+        "option2": "ELIZA",
+        "option3": "Think like human",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "______ model should reflect how results were obtained.",
+        "option1": "Design model",
+        "option2": "Logic model",
+        "option3": "Computational model",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Communication between man and machine is related with",
+        "option1": "LISP",
+        "option2": "ELIZA",
+        "option3": "All of the above",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "ELIZA was created by",
+        "option1": "John McCarthy",
+        "option2": "Steve Russell",
+        "option3": "Alain Colmerauer",
+        "option4": "Joseph Weizenbaum",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The concept derived from ______ level is propositional logic, tautology, predicate calculus, model, temporal logic.",
+        "option1": "Cognition level",
+        "option2": "Logic level",
+        "option3": "Functional level",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "PROLOG is an AI programming language that solves problems with a form of symbolic logic known as ______.",
+        "option1": "Propositional logic",
+        "option2": "Tautology",
+        "option3": "Predicate calculus",
+        "option4": "Temporal logic",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The ______ level contains constituents at the third level, which are knowledge-based systems, heuristic search, automatic theorem proving, and multi-agent systems.",
+        "option1": "Cognition level",
+        "option2": "Gross level",
+        "option3": "Functional level",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "PROLOG, LISP, and NLP are the languages of",
+        "option1": "Artificial Intelligence",
+        "option2": "Machine Learning",
+        "option3": "Internet of Things",
+        "option4": "Deep Learning",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "______ is used for AI because it supports the implementation of software that computes with symbols very well.",
+        "option1": "LISP",
+        "option2": "ELIZA",
+        "option3": "PROLOG",
+        "option4": "NLP",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Symbols, symbolic expressions, and computing with those is at the core of",
+        "option1": "LISP",
+        "option2": "ELIZA",
+        "option3": "PROLOG",
+        "option4": "NLP",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "______ deals with the interaction between computers and humans using the natural language.",
+        "option1": "LISP",
+        "option2": "ELIZA",
+        "option3": "PROLOG",
+        "option4": "NLP",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The core components and constituents of AI are derived from",
+        "option1": "Concept of logic",
+        "option2": "Cognition",
+        "option3": "Computation",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Aristotle’s theory of syllogism and Descartes and Kant's critique of pure reasoning made knowledge on",
+        "option1": "Logic",
+        "option2": "Computation logic",
+        "option3": "Cognition logic",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Charles Babbage and Boole demonstrated the power of",
+        "option1": "Logic",
+        "option2": "Computation logic",
+        "option3": "Cognition logic",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In the 1960s, ______ pushed the logical formalism to integrate reasoning with knowledge.",
+        "option1": "Marvin Minsky",
+        "option2": "Alain Colmerauer",
+        "option3": "John McCarthy",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Sensing organs as input, mechanical movement organs as output, and the central nervous system (CNS) in the brain as control and computing devices is known as ______ of human beings.",
+        "option1": "Information Control Paradigm",
+        "option2": "Information Processing Paradigm",
+        "option3": "Information Processing Control",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "______ model was developed and incorporated in machines which mimicked the functionalities of human origin.",
+        "option1": "Functional model",
+        "option2": "Neural model",
+        "option3": "Computational model",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Chomsky’s linguistic computational theory generated a model for syntactic analysis through",
+        "option1": "Regular Grammar",
+        "option2": "Regular Expression",
+        "option3": "Regular Word",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Human to Machine is ______ and Machine to Machine is ______.",
+        "option1": "Process, Process",
+        "option2": "Process, Program",
+        "option3": "Program, Hardware",
+        "option4": "Program, Program",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Weak AI is also known as",
+        "option1": "Narrow AI",
+        "option2": "General AI",
+        "option3": "Neural AI",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "______ AI is able to perform a dedicated task.",
+        "option1": "Narrow AI",
+        "option2": "General AI",
+        "option3": "Neural AI",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Narrow AI can perform multiple tasks at a time.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Weak AI is",
+        "option1": "The embodiment of human intellectual capabilities within a computer.",
+        "option2": "A set of computer programs that produce output that would be considered to reflect intelligence if it were generated by humans.",
+        "option3": "The study of mental faculties through the use of mental models implemented on a computer",
+        "option4": "All of the above",
+        "option5": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Strong AI is",
+        "option1": "The embodiment of human intellectual capabilities within a computer.",
+        "option2": "A set of computer programs that produce output that would be considered to reflect intelligence if it were generated by humans.",
+        "option3": "The study of mental faculties through the use of mental models implemented on a computer",
+        "option4": "All of the above",
+        "option5": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Artificial intelligence is",
+        "option1": "The embodiment of human intellectual capabilities within a computer.",
+        "option2": "A set of computer programs that produce output that would be considered to reflect intelligence if it were generated by humans.",
+        "option3": "The study of mental faculties through the use of mental models implemented on a computer",
+        "option4": "All of the above",
+        "option5": "None of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Apple Siri is a good example of ______ AI.",
+        "option1": "Narrow AI",
+        "option2": "General AI",
+        "option3": "Neural AI",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "IBM Watson supercomputer comes under ______ AI.",
+        "option1": "Narrow AI",
+        "option2": "General AI",
+        "option3": "Neural AI",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "______ AI is a type of intelligence which could perform any intellectual task with efficiency like a human.",
+        "option1": "Narrow AI",
+        "option2": "General AI",
+        "option3": "Super AI",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The idea behind ______ AI is to make a system that could be smarter and think like a human on its own.",
+        "option1": "Narrow AI",
+        "option2": "General AI",
+        "option3": "Super AI",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The worldwide researchers are now focusing on developing machines with ______ AI.",
+        "option1": "Narrow AI",
+        "option2": "General AI",
+        "option3": "Super AI",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Playing chess, purchasing suggestions on an e-commerce site, self-driving cars, speech recognition, and image recognition are examples of ______.",
+        "option1": "Narrow AI",
+        "option2": "General AI",
+        "option3": "Super AI",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A machine that can perform any task better than a human with cognitive properties is known as ______ AI.",
+        "option1": "Narrow AI",
+        "option2": "General AI",
+        "option3": "Super AI",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The ability to think, puzzle, make judgments, plan, learn, and communicate by its own is known as ______ AI.",
+        "option1": "Narrow AI",
+        "option2": "General AI",
+        "option3": "Super AI",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "______ AI is a hypothetical concept of AI.",
+        "option1": "Narrow AI",
+        "option2": "General AI",
+        "option3": "Super AI",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which AI system does not store memories or past experiences for future actions?",
+        "option1": "Reactive machine",
+        "option2": "Limited memory",
+        "option3": "Theory of mind",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which machines only focus on current scenarios and react to them as per the best possible action?",
+        "option1": "Reactive machine",
+        "option2": "Limited memory",
+        "option3": "Theory of mind",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "IBM’s Deep Blue system is an example of ______.",
+        "option1": "Reactive machine",
+        "option2": "Limited memory",
+        "option3": "Theory of mind",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Google AlphaGo is an example of ______.",
+        "option1": "Reactive machine",
+        "option2": "Limited memory",
+        "option3": "Theory of mind",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which AI system stores past experiences or some data for a short period of time?",
+        "option1": "Reactive machine",
+        "option2": "Limited memory",
+        "option3": "Theory of mind",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The self-driving car is an example of ______.",
+        "option1": "Reactive machine",
+        "option2": "Limited memory",
+        "option3": "Theory of mind",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which AI should understand human emotions, people, and beliefs and be able to interact socially like humans?",
+        "option1": "Reactive machine",
+        "option2": "Limited memory",
+        "option3": "Theory of mind",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which machines will be smarter than the human mind?",
+        "option1": "Reactive machine",
+        "option2": "Limited memory",
+        "option3": "Theory of mind",
+        "option4": "Self-Awareness",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "______ machines will have their own consciousness and sentiments.",
+        "option1": "Reactive machine",
+        "option2": "Theory of mind",
+        "option3": "Self-Awareness",
+        "option4": "Both B & C",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is not a commonly used programming language for AI?",
+        "option1": "PROLOG",
+        "option2": "LISP",
+        "option3": "Perl",
+        "option4": "JavaScript",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is Machine Learning?",
+        "option1": "The autonomous acquisition of knowledge through the use of computer programs",
+        "option2": "The autonomous acquisition of knowledge through the use of manual programs",
+        "option3": "The selective acquisition of knowledge through the use of computer programs",
+        "option4": "The selective acquisition of knowledge through the use of manual programs",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "______ is a branch of science that deals with programming systems in such a way that they automatically learn and improve with experience.",
+        "option1": "Machine Learning",
+        "option2": "Deep Learning",
+        "option3": "Neural Networks",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Classifying email as spam, labeling webpages based on their content, and voice recognition are examples of ______.",
+        "option1": "Supervised learning",
+        "option2": "Unsupervised learning",
+        "option3": "Machine learning",
+        "option4": "Deep learning",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "K-means, self-organizing maps, and hierarchical clustering are examples of ______.",
+        "option1": "Supervised learning",
+        "option2": "Unsupervised learning",
+        "option3": "Machine learning",
+        "option4": "Deep learning",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Deep learning is a subfield of machine learning where concerned algorithms are inspired by the structure and function of the brain called ______.",
+        "option1": "Machine learning",
+        "option2": "Artificial neural networks",
+        "option3": "Deep learning",
+        "option4": "Robotics",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Machine learning was invented by ______.",
+        "option1": "John McCarthy",
+        "option2": "Nicklaus Wirth",
+        "option3": "Joseph Weizenbaum",
+        "option4": "Arthur Samuel",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Embedded systems are",
+        "option1": "General-purpose",
+        "option2": "Special purpose",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Embedded system is",
+        "option1": "An electronic system",
+        "option2": "A pure mechanical system",
+        "option3": "An electro-mechanical system",
+        "option4": "(A) or (C)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not true about embedded systems?",
+        "option1": "Built around specialized hardware",
+        "option2": "Always contain an operating system",
+        "option3": "Execution behavior may be deterministic",
+        "option4": "All of these",
+        "option5": "None of these",
+        "Answer": "option5",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not an example of a \"small-scale embedded system\"?",
+        "option1": "Electronic Barbie doll",
+        "option2": "Simple calculator",
+        "option3": "Cell phone",
+        "option4": "Electronic toy car",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The first recognized modern embedded system is",
+        "option1": "Apple computer",
+        "option2": "Apollo Guidance Computer (AGC)",
+        "option3": "Calculator",
+        "option4": "Radio navigation system",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The first mass-produced embedded system is",
+        "option1": "Minuteman-I",
+        "option2": "Minuteman-II",
+        "option3": "Autonetics D-17",
+        "option4": "Apollo Guidance Computer (AGC)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an (are) an intended purpose(s) of embedded systems?",
+        "option1": "Data collection",
+        "option2": "Data processing",
+        "option3": "Data communication",
+        "option4": "All of these",
+        "option5": "None of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is (are) example(s) of an embedded system for data communication?",
+        "option1": "Network router",
+        "option2": "Digital camera",
+        "option3": "Music player",
+        "option4": "All of these",
+        "option5": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What are the essential tight constraints related to the design metrics of an embedded system?",
+        "option1": "Ability to fit on a single chip",
+        "option2": "Low power consumption",
+        "option3": "Fast data processing for real-time operations",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A digital multimeter is an example of an embedded system for",
+        "option1": "Data communication",
+        "option2": "Monitoring",
+        "option3": "Control",
+        "option4": "All of these",
+        "option5": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+                
+    {
+        "question": "Which of the following is an (are) example(s) of an embedded system for signal processing?",
+        "option1": "Apple iPod (media player device)",
+        "option2": "SanDisk USB mass storage device",
+        "option3": "Both (A) and (B)",
+        "option4": "None of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The instruction set of RISC processor is",
+        "option1": "Simple and lesser in number",
+        "option2": "Complex and lesser in number",
+        "option3": "Simple and larger in number",
+        "option4": "Complex and larger in number",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is true about CISC processors?",
+        "option1": "The instruction set is non-orthogonal",
+        "option2": "The number of general-purpose registers is limited",
+        "option3": "Instructions are like macros in C language",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Main processor chip in computers is",
+        "option1": "ASIC",
+        "option2": "ASSP",
+        "option3": "CPU",
+        "option4": "CPLD",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Processors used in many microcontroller products need to be",
+        "option1": "High power",
+        "option2": "Low power",
+        "option3": "Low interrupt response",
+        "option4": "Low code density",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In microcontrollers, UART is acronym of",
+        "option1": "Universal Applied Receiver/Transmitter",
+        "option2": "Universal Asynchronous Rectified Transmitter",
+        "option3": "Universal Asynchronous Receiver/Transmitter",
+        "option4": "United Asynchronous Receiver/Transmitter",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which architecture is followed by general-purpose microprocessors?",
+        "option1": "Harvard architecture",
+        "option2": "Von Neumann architecture",
+        "option3": "None of the mentioned",
+        "option4": "All of the mentioned",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which architecture involves both the volatile and non-volatile memory?",
+        "option1": "Harvard architecture",
+        "option2": "Von Neumann architecture",
+        "option3": "None of the mentioned",
+        "option4": "All of the mentioned",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which architecture provides separate buses for program and data memory?",
+        "option1": "Harvard architecture",
+        "option2": "Von Neumann architecture",
+        "option3": "None of the mentioned",
+        "option4": "All of the mentioned",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Harvard architecture allows:",
+        "option1": "Separate program and data memory",
+        "option2": "Pipe-lining",
+        "option3": "Complex architecture",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    
+    {
+        "question": "Which of the following processor architecture supports easier instruction pipelining?",
+        "option1": "Harvard",
+        "option2": "Von Neumann",
+        "option3": "Both of them",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an example of a wireless communication interface?",
+        "option1": "RS-232C",
+        "option2": "Wi-Fi",
+        "option3": "Bluetooth",
+        "option4": "Both (B) and (C)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "ARM stands for",
+        "option1": "Advanced RISC Machine",
+        "option2": "Advanced RISC Methodology",
+        "option3": "Advanced Reduced Machine",
+        "option4": "Advanced Reduced Methodology",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the processor used by ARM7?",
+        "option1": "8-bit CISC",
+        "option2": "8-bit RISC",
+        "option3": "32-bit CISC",
+        "option4": "32-bit RISC",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The main importance of ARM microprocessors is providing operation with",
+        "option1": "Low cost and low power consumption",
+        "option2": "Higher degree of multi-tasking",
+        "option3": "Lower error or glitches",
+        "option4": "Efficient memory management",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "ARM processors were basically designed for",
+        "option1": "Mainframe systems",
+        "option2": "Distributed systems",
+        "option3": "Mobile systems",
+        "option4": "Supercomputers",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "ASIC chip is",
+        "option1": "Simple in design.",
+        "option2": "Manufacturing time is less.",
+        "option3": "It is faster",
+        "option4": "Both A&C.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "ASIC stands for",
+        "option1": "Application-System Integrated Circuits",
+        "option2": "Application-Specific Integrated Circuits",
+        "option3": "Application-System Internal Circuits",
+        "option4": "Application-Specific Internal Circuits",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In microcontrollers, I2C stands for",
+        "option1": "Inter-Integrated Clock",
+        "option2": "Initial-Integrated Clock",
+        "option3": "Intel-Integrated Circuit",
+        "option4": "Inter-Integrated Circuit",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the smallest microcontroller that can be programmed to perform a large range of tasks?",
+        "option1": "PIC microcontrollers",
+        "option2": "ARM microcontrollers",
+        "option3": "AVR microcontrollers",
+        "option4": "ASIC microcontrollers",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which microcontroller was developed in the year 1996 by ATMEL Corporation?",
+        "option1": "PIC",
+        "option2": "AVR",
+        "option3": "ARM",
+        "option4": "ASIC",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "AVR stands for:",
+        "option1": "Advanced Virtual RISC",
+        "option2": "Alf-Egil Bogen and Vegard Wollan RISC",
+        "option3": "Both A & B",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "AVR microcontroller executes most of the instructions in:",
+        "option1": "Single execution cycle.",
+        "option2": "Double execution cycle.",
+        "option3": "Both A & B",
+        "option4": "None of the above.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The term 'the Internet of Things' was coined by",
+        "option1": "Edward L. Schneider",
+        "option2": "Kevin Ashton",
+        "option3": "John H.",
+        "option4": "Charles Anthony",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The huge number of devices connected to the Internet of Things have to communicate automatically, not via humans. What is this called?",
+        "option1": "Bot to Bot (B2B)",
+        "option2": "Machine to Machine (M2M)",
+        "option3": "InterCloud",
+        "option4": "Skynet",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What does 'Things' in IoT refer to?",
+        "option1": "General device",
+        "option2": "Information",
+        "option3": "IoT devices",
+        "option4": "Object",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Interconnection of Internet and computing devices embedded in everyday objects, enabling them to send and receive data is called",
+        "option1": "Internet of Things",
+        "option2": "Network Interconnection",
+        "option3": "Object Determination",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which concept describes everyday physical objects being connected to the internet?",
+        "option1": "IoT (Internet of Things)",
+        "option2": "MQTT",
+        "option3": "COAP",
+        "option4": "SPI",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Devices may support a number of interoperable communication protocols and communicate with other devices and also with infrastructure. This is related to:",
+        "option1": "Artificial Intelligence",
+        "option2": "Machine Learning",
+        "option3": "Internet of Things",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which one is not an element of IoT?",
+        "option1": "Process",
+        "option2": "People",
+        "option3": "Security",
+        "option4": "Things",
+        "Answer": "option3",
+        "marks": 1
+    },
+                    
+    {
+        "question": "IIOT stands for",
+        "option1": "Information Internet of Things",
+        "option2": "Industrial Internet of Things",
+        "option3": "Innovative Internet of Things",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Name of the IoT device which is first recognized?",
+        "option1": "Smart Watch",
+        "option2": "ATM",
+        "option3": "Radio",
+        "option4": "Video Game",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which is used by IoT?",
+        "option1": "Radio information technology",
+        "option2": "Satellite",
+        "option3": "Cable",
+        "option4": "Broadband",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which consists of communication protocols for electronic devices, typically a mobile device and a standard device?",
+        "option1": "RFID",
+        "option2": "MQTT",
+        "option3": "NFC",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What refers to establishing a proper connection between all the things of IoT?",
+        "option1": "Connectivity",
+        "option2": "Analyzing",
+        "option3": "Sensing",
+        "option4": "Active Engagement",
+        "Answer": "option1",
+        "marks": 1
+    },
+
+    {
+        "question": "IOT devices which have unique identities and can perform.",
+        "option1": "Remote sensing",
+        "option2": "Actuating",
+        "option3": "Monitoring capabilities",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The sensed data communicated.",
+        "option1": "Cloud-based servers/storage.",
+        "option2": "I/O interfaces.",
+        "option3": "Internet connectivity.",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "IoT devices are various types, for instance.",
+        "option1": "Wearable sensors",
+        "option2": "Smartwatches.",
+        "option3": "LED lights",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "is a collection of wired Ethernet standard for the link layer.",
+        "option1": "IEEE 802.3",
+        "option2": "IEEE 802.11",
+        "option3": "IEEE 802.16",
+        "option4": "IEEE 802.15.4",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "is a collection of WLAN communication standards.",
+        "option1": "IEEE 802.3",
+        "option2": "IEEE 802.11",
+        "option3": "IEEE 802.16",
+        "option4": "IEEE 802.15.4",
+        "Answer": "option2",
+        "marks": 1
+    },
+    
+        {
+            "question": "is a collection of wireless broadband standards (WiMax).",
+            "option1": "IEEE 802.3",
+            "option2": "IEEE 802.11",
+            "option3": "IEEE 802.16",
+            "option4": "IEEE 802.15.4",
+            "Answer": "option3",
+            "marks": 1
+        },
+        {
+            "question": "is a collection of standards for LR-WPANs.",
+            "option1": "IEEE 802.3",
+            "option2": "IEEE 802.11",
+            "option3": "IEEE 802.16",
+            "option4": "IEEE 802.15.4",
+            "Answer": "option4",
+            "marks": 1
+        },
+        {
+            "question": "LR-WPANs standards form the basis of specifications for high-level communication protocol such as.",
+            "option1": "Zigbee",
+            "option2": "Allsean",
+            "option3": "Tyrell",
+            "option4": "Microsoft's Azure",
+            "Answer": "option1",
+            "marks": 1
+        },
+        {
+            "question": "includes GSM and CDMA.",
+            "option1": "2G",
+            "option2": "3G",
+            "option3": "4G",
+            "option4": "None of the above",
+            "Answer": "option1",
+            "marks": 1
+        },
+        {
+            "question": "include UMTS and CDMA2000.",
+            "option1": "2G",
+            "option2": "3G",
+            "option3": "4G",
+            "option4": "None of the above",
+            "Answer": "option2",
+            "marks": 1
+        },
+        {
+            "question": "include LTE.",
+            "option1": "2G",
+            "option2": "3G",
+            "option3": "4G",
+            "option4": "None of the above",
+            "Answer": "option3",
+            "marks": 1
+        },
+        {
+            "question": "layer protocols determine how the data is physically sent over the network’s physical layer or medium.",
+            "option1": "Application layer",
+            "option2": "Transport layer",
+            "option3": "Network layer",
+            "option4": "Link-layer",
+            "Answer": "option4",
+            "marks": 1
+        },
+        {
+            "question": "layer is responsible for sending of IP datagrams from the source network to the destination network.",
+            "option1": "Application layer",
+            "option2": "Transport layer",
+            "option3": "Network layer",
+            "option4": "Link-layer",
+            "Answer": "option3",
+            "marks": 1
+        },
+        {
+            "question": "layer performs the host addressing and packet routing.",
+            "option1": "Application layer",
+            "option2": "Transport layer",
+            "option3": "Network layer",
+            "option4": "Link-layer",
+            "Answer": "option3",
+            "marks": 1
+        },
+        {
+            "question": "protocols provide end to end message transfer capability independent of the underlying network.",
+            "option1": "Network layer",
+            "option2": "Transport layer",
+            "option3": "Application layer",
+            "option4": "Link-layer",
+            "Answer": "option2",
+            "marks": 1
+        },
+                                
+                                
+                            
+                            
+                    
+                    
+                
+
+        
+    
+]
+
+module.exports = { data: ETI};
