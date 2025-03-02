@@ -12,7 +12,7 @@ const path = require('path');
 
 dotenv.config();
 // MongoDB connection string from environment variables
-const Mongo = "prash:prash%4011@cluster0.p4iok.mongodb.net/myDatabase?retryWrites=true&w=majority";
+const Mongo = "mongodb+srv://prash:prash%4011@cluster0.p4iok.mongodb.net/myDatabase?retryWrites=true&w=majority";
 console.log(Mongo);
 async function main() {
     try {
