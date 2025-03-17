@@ -1,9 +1,6 @@
 <% layout('/layouts/boilerplate') -%>
 
 <div class="container">
-    <% if (error.length > 0) { %>
-        <div class="alert alert-danger"><%= error %></div>
-    <% } %>
 
     <h1 class="text-center">Login</h1>
     <form action="/auth/login" method="POST">

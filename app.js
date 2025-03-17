@@ -78,7 +78,8 @@ app.get("/auth/signup", (req, res) => {
 app.post("/auth/signup", async (req, res) => {
     try {
         const { username, email, phone, password } = req.body;
-        const user = new User({ username, email, phone});
+        const user = new User({ username, email, password, phone});
+
         const registeredUser = await User.register(user, password);
         req.login(registeredUser, (err) => {
             if (err) return next(err);
