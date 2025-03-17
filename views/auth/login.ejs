@@ -1,0 +1,20 @@
+<% layout('/layouts/boilerplate') -%>
+
+<div class="container">
+    <% if (error.length > 0) { %>
+        <div class="alert alert-danger"><%= error %></div>
+    <% } %>
+
+    <h1 class="text-center">Login</h1>
+    <form action="/auth/login" method="POST">
+        <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" name="username" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" name="password" class="form-control" required />
+        </div>
+        <button class="btn btn-success">Login</button>
+    </form>
+</div>

@@ -32,7 +32,17 @@
               <a class="nav-link" href="/TestApp/test"><i class="fas fa-clipboard nav-i"></i> Test</a>
               <a class="nav-link" href="/subjects"><i class="fas fa-book nav-i"></i> Subjects</a>
               <a class="nav-link" href="/courses"><i class="fas fa-graduation-cap nav-i"></i> Courses</a>
-              <a class="nav-link" href="/about"><i class="fas fa-info-circle nav-i"></i> About</a>
+<a class="nav-link" href="/about"><i class="fas fa-info-circle nav-i"></i> About</a>
+              <div class="dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" id="profileDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fas fa-user nav-i"></i> Profile
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="profileDropdown">
+                      <li><a class="dropdown-item" href="/auth/login">Login</a></li>
+                      <li><a class="dropdown-item" href="/auth/signup">Sign Up</a></li>
+                  </ul>
+              </div>
+
           </div>
       </div>
   </div>

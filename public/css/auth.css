@@ -1,0 +1,21 @@
+/* Custom styles for login and signup pages */
+body {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.container {
+    max-width: 400px; /* Limit the width of the form */
+    margin: auto; /* Center the form */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* White background for the form */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+}
+
+.btn {
+    width: 100%; /* Full width for buttons */
+}

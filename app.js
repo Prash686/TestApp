@@ -1,37 +1,64 @@
-const dotenv = require('dotenv'); // Load environment variables from .env file
-const express = require('express');
-const app = express();
-const mongoose = require('mongoose');
-const questions = require('./init/question.js');
-const subjects = require('./init/subjects.js');
-const courses = require('./init/course.js');
-const ExpressError = require('./util/ExpressError.js');
-const flash = require('connect-flash');
-const ejsMate = require('ejs-mate');
-const path = require('path');
-
-dotenv.config();
-// MongoDB connection string from environment variables
-const Mongo = "mongodb+srv://prash:prash%4011@cluster0.p4iok.mongodb.net/myDatabase?retryWrites=true&w=majority";
-console.log(Mongo);
-async function main() {
-    try {
-        await mongoose.connect(Mongo);
-        console.log("Connected to MongoDB");
-    } catch (err) {
-        console.error("Failed to connect to MongoDB:", err);
-    }
+if (process.env.NODE_ENV !== "production") {
+    require("dotenv").config();
 }
 
-main();
+const express = require("express");
+const app = express();
+const questions = require("./models/question.js");
+const subjects = require("./models/subjects.js");
+const courses = require("./models/course.js");
+const mongoose = require("mongoose");
+const path = require("path");
+const session = require("express-session");
+const flash = require("connect-flash");
+const passport = require("passport");
+const LocalStrategy = require("passport-local");
+const methodOverride = require("method-override");
+const ejsMate = require("ejs-mate");
+const ExpressError = require('./utils/ExpressError.js')
+const User = require("./models/user.js");
+const routes = require("./routes/auth.js")
 
-// Middleware
+
+const dbUrl = "mongodb+srv://prash:prash%4011@cluster0.p4iok.mongodb.net/myDatabase?retryWrites=true&w=majority";
+
+mongoose.connect(dbUrl)
+    .then(() => console.log("MongoDB connected"))
+    .catch((err) => console.log("MongoDB connection error:", err));
+
+const sessionOptions = {
+    secret: "mysecret",
+    resave: false,
+    saveUninitialized: true,
+    cookie: {
+        expires: Date.now() + 7 * 24 * 60 * 60 * 1000,
+        maxAge: 7 * 24 * 60 * 60 * 1000,
+        httpOnly: true
+    }
+};
+
+app.engine("ejs", ejsMate);
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
+
 app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-app.engine('ejs', ejsMate);
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
-app.use(express.static(path.join(__dirname, '/public')));
+app.use(methodOverride("_method"));
+app.use(express.static(path.join(__dirname, "/public")));
+app.use(session(sessionOptions));
+app.use(flash());
+
+app.use(passport.initialize());
+app.use(passport.session());
+passport.use(new LocalStrategy(User.authenticate()));
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
+
+app.use((req, res, next) => {
+    res.locals.success = req.flash("success");
+    res.locals.error = req.flash("error");
+    res.locals.currentUser = req.user;
+    next();
+});
 
 // Routes
 app.get("/", async (req, res) => {
@@ -41,6 +68,51 @@ app.get("/", async (req, res) => {
 app.get('/ads.txt', (req, res) => {
     res.sendFile(path.join(__dirname, 'ads.txt'));
 });
+
+app.get("/auth/signup", (req, res) => {
+    res.render("auth/signup.ejs");
+});
+
+// Handle Signup
+app.post("/auth/signup", async (req, res) => {
+    try {
+        const { username, email, phone, password } = req.body;
+        const user = new User({ username, email, phone});
+        const registeredUser = await User.register(user, password);
+        req.login(registeredUser, (err) => {
+            if (err) return next(err);
+            req.flash("success", "Welcome to TestApp!");
+            res.redirect("/");
+        });
+    } catch (err) {
+        req.flash("error", err.message);
+        res.redirect("/auth/signup");
+    }
+});
+
+// Render Login Page
+app.get("/auth/login", (req, res) => {
+    res.render("auth/login.ejs");
+});
+
+app.post("/auth/login", passport.authenticate("local", {
+    failureRedirect: "/auth/login",
+    failureFlash: true
+}), (req, res) => {
+    req.flash("success", "Welcome Back!");
+    res.redirect("/");
+
+});
+
+// Handle Logout
+app.get("/auths/logout", (req, res, next) => {
+    req.logout((err) => {
+        if (err) return next(err);
+        req.flash("success", "You have logged out!");
+        res.redirect("/");
+    });
+});
+
 
 app.get("/practice/:id", async (req, res) => {
     let { id } = req.params;
