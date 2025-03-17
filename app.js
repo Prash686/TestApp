@@ -65,6 +65,7 @@ app.get("/", async (req, res) => {
     res.render("testapp/home.ejs");
 });
 
+
 app.get('/ads.txt', (req, res) => {
     res.sendFile(path.join(__dirname, 'ads.txt'));
 });
@@ -105,7 +106,7 @@ app.post("/auth/login", passport.authenticate("local", {
 });
 
 // Handle Logout
-app.get("/auths/logout", (req, res, next) => {
+app.get("/auth/logout", (req, res, next) => {
     req.logout((err) => {
         if (err) return next(err);
         req.flash("success", "You have logged out!");
