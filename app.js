@@ -3,6 +3,8 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 const express = require("express");
+const userRoutes = require('./routes/user'); // Import user routes
+
 const app = express();
 const questions = require("./models/question.js");
 const subjects = require("./models/subjects.js");
@@ -63,6 +65,12 @@ app.use((req, res, next) => {
 // Routes
 app.get("/", async (req, res) => {
     res.render("testapp/home.ejs");
+});
+
+
+app.get("/courses", async (req, res) => {
+    const allCourses = await courses.find({});
+    res.render("testapp/courses.ejs", { allCourses });
 });
 
 
@@ -154,9 +162,8 @@ app.get("/subjects", async (req, res) => {
     res.render("testapp/subjects.ejs", { allSubjects });
 });
 
-app.get("/courses", async (req, res) => {
-    const allCourses = await courses.find({});
-    res.render("testapp/courses.ejs", { allCourses });
+app.get("/subjects/new", async (req, res) => {
+    res.render("testapp/subjectNew.ejs");
 });
 
 app.get("/courses/:id", async (req, res) => {

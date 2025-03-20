@@ -3,7 +3,8 @@ const Schema = mongoose.Schema;
 
 const courseSchema = new Schema({
     title: String,
-    description: String
+    description: String,
+    image: String
 });
 
 module.exports = mongoose.model('Course', courseSchema);
