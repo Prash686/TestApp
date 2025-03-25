@@ -6,7 +6,7 @@ const express = require("express");
 const userRoutes = require('./routes/user'); // Import user routes
 
 const app = express();
-const questions = require("./models/question.js");
+const Questions = require("./models/question.js");
 const subjects = require("./models/subjects.js");
 const courses = require("./models/course.js");
 const mongoose = require("mongoose");
@@ -126,10 +126,10 @@ app.get("/auth/logout", (req, res, next) => {
 
 app.get("/practice/:id", async (req, res) => {
     let { id } = req.params;
-    const allquestions = await questions.find({ subject: id });
+    const allquestions = await Questions.find({ subject: id });
     
     if (allquestions.length === 0) {
-        return res.status(404).send("No questions found for this subject");
+        return res.status(404).send("No Questions found for this subject");
     }
 
     res.render("testapp/practice.ejs", { allquestions });
@@ -137,11 +137,11 @@ app.get("/practice/:id", async (req, res) => {
 
 app.get("/test/:id", async (req, res) => {
     let { id } = req.params;
-    const examquestions = await questions.find({ subject: id });
+    const examquestions = await Questions.find({ subject: id });
     const max = examquestions.length;
     const count = parseInt(req.query.count) || 70;
     if (max < 70) {
-        return res.status(400).send("Not enough questions to generate the test.");
+        return res.status(400).send("Not enough Questions to generate the test.");
     }
     
     const allquestions = [];
@@ -165,6 +165,36 @@ app.get("/subjects", async (req, res) => {
 app.get("/subjects/new", async (req, res) => {
     res.render("testapp/subjectNew.ejs");
 });
+
+app.post('/subjects', async (req, res) => {
+    try {
+        const { title, description, image, questions } = req.body;
+        const newSubject = new subjects({ title, description, image });
+        await newSubject.save();
+
+        // Save questions associated with the new subject
+        if (questions && questions.length > 0) {
+            for (let questionData of questions) {
+                const newQuestion = new Questions({
+                    subject: title,
+                    question: questionData.question,
+                    option1: questionData.option1, // Corrected
+                    option2: questionData.option2, // Corrected
+                    option3: questionData.option3, // Corrected
+                    option4: questionData.option4, // Corrected
+                    Answer: questionData.Answer
+                });
+                await newQuestion.save();
+            }
+        }
+
+        res.redirect('/subjects'); // Redirect to the subjects page
+    } catch (error) {
+        console.error(error);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
 
 app.get("/courses/:id", async (req, res) => {
     try {
@@ -199,7 +229,7 @@ app.get('/new', (req, res) => {
 
 app.post("/questions", async (req, res) => {
     const que = req.body;
-    const newQuestion = new questions(que);
+    const newQuestion = new Questions(que);
     
     try {
         await newQuestion.save();

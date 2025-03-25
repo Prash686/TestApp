@@ -14,10 +14,12 @@ router.post('/subjects', async (req, res) => {
         if (questions && questions.length > 0) {
             for (let questionData of questions) {
                 const newQuestion = new Question({
-                    subject: newSubject._id,
+                    subject: title,
                     question: questionData.question,
                     option1: questionData.option1,
                     option2: questionData.option2,
+                    option1: questionData.option3,
+                    option1: questionData.option4,
                     Answer: questionData.Answer
                 });
                 await newQuestion.save();
