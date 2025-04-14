@@ -66,7 +66,7 @@ const isLoggedIn = (req, res, next) => {
     if (!req.isAuthenticated()) {
         req.session.redirectUrl = req.originalUrl;
         req.flash("error", "Please Login");
-        return res.redirect("auth/login");
+        return res.redirect("/auth/login");
     }
     next();
 };
@@ -133,7 +133,7 @@ app.get("/auth/logout", (req, res, next) => {
 });
 
 
-app.get("/practice/:id", async (req, res) => {
+app.get("/practice/:id", isLoggedIn, async (req, res) => {
     let { id } = req.params;
     const allquestions = await Questions.find({ subject: id });
     
