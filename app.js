@@ -133,7 +133,7 @@ app.get("/auth/logout", (req, res, next) => {
 });
 
 
-app.get("/practice/:id", isLoggedIn, async (req, res) => {
+app.get("/practice/:id", async (req, res) => {
     let { id } = req.params;
     const allquestions = await Questions.find({ subject: id });
     
