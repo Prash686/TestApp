@@ -48638,4 +48638,1772 @@ const ETI = [
     
 ]
 
-module.exports = { data: ETI};
+const ManagementUT = [
+    {
+        "question": "Industrial safety management is that branch of management which is concerned with ______ hazards from the industries.",
+        "option1": "Reducing",
+        "option2": "Controlling",
+        "option3": "Eliminating",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The following is(are) physical hazard agent(s):",
+        "option1": "Falls",
+        "option2": "Inhalation",
+        "option3": "Electricity",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which device is used to push material into the cutting area?",
+        "option1": "Push Button",
+        "option2": "Push Stick",
+        "option3": "Push Bar",
+        "option4": "None of Above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "First aid is…",
+        "option1": "Temporary and immediate care given to the victim",
+        "option2": "Permanent care given to victim",
+        "option3": "Both a and b",
+        "option4": "Neither a nor b",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following precautions is/are necessary in electrical work?",
+        "option1": "The equipment’s should be earthed properly",
+        "option2": "Cable should be completely insulated",
+        "option3": "Cable should have any joints",
+        "option4": "Both a and b",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "SMS Means ----",
+        "option1": "Safety management society",
+        "option2": "Safety Management System",
+        "option3": "Safety Moving System",
+        "option4": "None of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Long form of PPE",
+        "option1": "Personal Productive Equipment",
+        "option2": "Production Planning Engineering",
+        "option3": "Personal Protective Equipment",
+        "option4": "None of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "If you wanted to convey the most severe type of hazard, which word would you use?",
+        "option1": "Warning",
+        "option2": "Notice",
+        "option3": "Danger",
+        "option4": "Caution",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Safety promotes:",
+        "option1": "Sales",
+        "option2": "Productivity",
+        "option3": "Research",
+        "option4": "Profit",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not concerned with general safety norms?",
+        "option1": "Perform Job Safely",
+        "option2": "Follow rules and regulation",
+        "option3": "Incident not reported to supervisor",
+        "option4": "Eliminate fire hazards.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Safety Programmes is a continuous process to achieve adequate:",
+        "option1": "Profit",
+        "option2": "Sales",
+        "option3": "Safety",
+        "option4": "Loss",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Four E’s of Safety are:",
+        "option1": "Engineering, Education, Enlistment, Enforcement",
+        "option2": "Engineering, Education, Enlistment, Environment",
+        "option3": "Environment, Education, Enlistment, Enforcement",
+        "option4": "Engineering, Economic, Enlistment, Enforcement",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which equipment is used for protection of lungs?",
+        "option1": "Hard Hats",
+        "option2": "Shields",
+        "option3": "Gas Masks",
+        "option4": "Apron",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Electrical insulation should be tested:",
+        "option1": "Frequency",
+        "option2": "Monthly",
+        "option3": "Periodically",
+        "option4": "Daily",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Repair work should be done after switching the:",
+        "option1": "Power on",
+        "option2": "Power off",
+        "option3": "Shut down",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "You should wear eye, head and face protection if you are working with which of the following tools?",
+        "option1": "Portable abrasive wheel tools",
+        "option2": "Electric tools",
+        "option3": "Pneumatic tools",
+        "option4": "Liquid fuel tools",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The most dangerous place to use electrical equipment’s is:",
+        "option1": "Near a ladder",
+        "option2": "Outdoors",
+        "option3": "Near water",
+        "option4": "Near other electric equipment’s",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which equipment is used for protection of eyes?",
+        "option1": "Face mask",
+        "option2": "Goggles",
+        "option3": "Gas mask",
+        "option4": "Asbestos clothing",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "One way to learn to operate your equipment properly and safely is to read:",
+        "option1": "Safety datasheet",
+        "option2": "Manufacturer’s instructions",
+        "option3": "OSHA’s general duty clause",
+        "option4": "None of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Safe and proper equipment operation generally includes:",
+        "option1": "Inspection and maintenance",
+        "option2": "Warming it up",
+        "option3": "Knowing how to contact emergency",
+        "option4": "All of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "SOP means",
+        "option1": "Safe operating procedure",
+        "option2": "Standard operating Process",
+        "option3": "Safe operation procedure",
+        "option4": "Standard operation policy",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Safe operating procedure is revised.",
+        "option1": "No",
+        "option2": "Yes",
+        "option3": "Can’t say",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Who is responsible to take care of health and safety of worker?",
+        "option1": "Worker",
+        "option2": "Safety committee",
+        "option3": "Manager",
+        "option4": "All of above",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "SOP is a -----document",
+        "option1": "Oral",
+        "option2": "Written",
+        "option3": "None of above",
+        "option4": "Visual",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Who ensure to follow safe procedure?",
+        "option1": "Employers",
+        "option2": "Workers",
+        "option3": "Managers",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Issue means",
+        "option1": "Pre job check",
+        "option2": "Post job check",
+        "option3": "During Job check",
+        "option4": "None of Above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "In permit to work system a document is",
+        "option1": "Oral",
+        "option2": "Written",
+        "option3": "Visual",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Confined space includes",
+        "option1": "Storage bins",
+        "option2": "Silos",
+        "option3": "Tanks",
+        "option4": "Grounds",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Inspection is an example of",
+        "option1": "Hot work permit",
+        "option2": "Cold work permit",
+        "option3": "Electrical permit",
+        "option4": "Ground disturbance permit",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "In work permit system, who is responsible for keeping area and staff safe?",
+        "option1": "Issuer,Executer, Field operator",
+        "option2": "Manager, Engineer, Worker",
+        "option3": "Supervisor, Officer, Engineer",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "____ is a sudden and unfortunate happening which causes damage or loss of property , material or human",
+        "option1": "Accident",
+        "option2": "Activity",
+        "option3": "Process",
+        "option4": "Movement",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "General causes of accidents are as follows",
+        "option1": "Accidents due to dangerous machines",
+        "option2": "Unsafe physical conditions",
+        "option3": "Moving objects",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following may be the cause of accident?",
+        "option1": "Overconfidence of the employee",
+        "option2": "Proper training",
+        "option3": "Sound knowledge",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Taking shortcuts and lack of adequate knowledge are causes of accidents because of ______",
+        "option1": "Workers",
+        "option2": "Management",
+        "option3": "Faculty layout",
+        "option4": "Natural disaster",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Why should near misses be reported?",
+        "option1": "To educate employees",
+        "option2": "To test the first aider",
+        "option3": "To ensure complete recovery",
+        "option4": "To stop a more serious event occurring",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "An accident is",
+        "option1": "An unsafe act",
+        "option2": "An unsafe condition",
+        "option3": "Unplanned , something that happens by chance",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "I can help prevent accidents by",
+        "option1": "Using my own equipment’s",
+        "option2": "Doing only what I am trained to do",
+        "option3": "Riding in car pools",
+        "option4": "Helping others with their jobs",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "In case of accident, the victim should immediately be",
+        "option1": "Asked to take rest",
+        "option2": "Enquires about the accident",
+        "option3": "Attended to",
+        "option4": "Left to himself without treatment",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Accidents are",
+        "option1": "Preventable",
+        "option2": "Costly",
+        "option3": "Part of life",
+        "option4": "Both a and b",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "If I have an accident or injury I should",
+        "option1": "Fix what I broke",
+        "option2": "Tell my supervisor",
+        "option3": "Keep working and not worry about it",
+        "option4": "Report it within a week",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "The responsibility of fire prevention belongs to:",
+        "option1": "Manager",
+        "option2": "Supervisor",
+        "option3": "Everyone",
+        "option4": "Fire department",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "I can prevent electrical fire by:",
+        "option1": "Non turning on lights",
+        "option2": "Never plugging anything into a outlet",
+        "option3": "Both a and b above",
+        "option4": "Not overloading electrical circuit",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Fire extinguishers have a short use period of about:",
+        "option1": "8-15 sec",
+        "option2": "1-2 min",
+        "option3": "2-3 hours",
+        "option4": "4-5 days",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following colours allows you to identify a foam fire extinguisher?",
+        "option1": "Blue",
+        "option2": "Red",
+        "option3": "Yellow",
+        "option4": "Cream",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The acronym for putting out a fire using a fire extinguisher is PASS. What does PASS stand for:",
+        "option1": "Pull, Aim, Squeeze, Spread",
+        "option2": "Pull, Accuracy, Squeeze, Spread",
+        "option3": "Pin, Aim, Squeeze, Sweep",
+        "option4": "Pull, Aim, Squeeze, Sweep",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following types of materials is responsible for fuelling a Class A fire?",
+        "option1": "Oils that you typically cook with",
+        "option2": "Flammable liquids",
+        "option3": "Electrical Equipment",
+        "option4": "Wood, plastic, paper, and other kinds of solid materials",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In the event of a fire, everyone is responsible for:",
+        "option1": "Informing the supervisor of what is happening.",
+        "option2": "Pulling the fire alarm if they see a fire.",
+        "option3": "Making sure everyone gets to the fire assembly point safely",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What type of permit is needed in order to carry out work that could potentially result in a fire breaking out on the work site?",
+        "option1": "A fire permit",
+        "option2": "A hot permit",
+        "option3": "A work permit",
+        "option4": "No permit is needed",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What class of fire was a Combustible Metal?",
+        "option1": "Class A fire",
+        "option2": "Class D fire",
+        "option3": "Class F fire",
+        "option4": "Class B fire",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Who has the authority to pull the fire alarm after discovering a fire on the worksite?",
+        "option1": "Only the manager can activate the fire alarm",
+        "option2": "Anyone who has seen a fire can activate the fire alarm.",
+        "option3": "Only the health and safety rep can activate the fire alarm",
+        "option4": "Only the owner can activate the fire alarm.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Industrial legislation necessary for",
+        "option1": "Social welfare of worker",
+        "option2": "Economic benefits of workers",
+        "option3": "Improve efficiency of industry",
+        "option4": "All above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Industrial legislation safeguards the ----------against exploitation",
+        "option1": "Top management",
+        "option2": "Workers",
+        "option3": "Middle Management",
+        "option4": "All above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Factories act came into force from",
+        "option1": "1948",
+        "option2": "1950",
+        "option3": "1972",
+        "option4": "1976",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which industrial act safeguards interests of workers regarding their health, safety and welfare?",
+        "option1": "Workmen’s compensation act",
+        "option2": "Minimum wages ac",
+        "option3": "Indian factories act",
+        "option4": "Industrial dispute act",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "It is an Act to provide for the compensation for injury by accident",
+        "option1": "Indian factories act",
+        "option2": "Minimum wages act",
+        "option3": "Workmen’s compensation act",
+        "option4": "Industrial dispute act",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Indian factory act come in to force on ----------",
+        "option1": "1st May 1960",
+        "option2": "1st April 1949",
+        "option3": "15th August 1947",
+        "option4": "26th January 1950",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "As per Indian factory act, The person who has control over the affairs of factory is known as -------",
+        "option1": "Employee",
+        "option2": "worker",
+        "option3": "occupier",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "As per Indian Factory act, Employer has to provide canteen facility, if there are ---- number of employees.",
+        "option1": "50",
+        "option2": "100",
+        "option3": "200",
+        "option4": "250",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "-- is not statuary welfare facility under Factory act",
+        "option1": "Canteen",
+        "option2": "Medical",
+        "option3": "Transport",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Arrangements of drinking water is mentioned under------ section of Factory act",
+        "option1": "15",
+        "option2": "11",
+        "option3": "10",
+        "option4": "18",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The occupier of a factory is required to send written notice to the Chief Inspector of Factories at least --------- days before he begins to occupy the premises as factory.",
+        "option1": "7",
+        "option2": "15",
+        "option3": "10",
+        "option4": "30",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "As per the Factories Act,1948 any engine, motor or other appliance which generates or otherwise provides power is termed as --------------",
+        "option1": "Prime Mover",
+        "option2": "Machinery",
+        "option3": "Equipment",
+        "option4": "All of the Above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "As per section 16 of the Factory Act, 1948 the minimum space to be allocated to each worker employed in the factory is ---------------",
+        "option1": "12.2 cu.met",
+        "option2": "13.2 cu.met",
+        "option3": "4.2 cu.met",
+        "option4": "15.2 cu.met",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "An adult worker is allowed to work for -------- hours in a week.",
+        "option1": "35",
+        "option2": "48",
+        "option3": "40",
+        "option4": "45",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Section 2 (m) of the Factory Act 1948 Says about --",
+        "option1": "Factory",
+        "option2": "Manufacturing Process",
+        "option3": "Workers",
+        "option4": "All of the Above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The maximum daily hours of work in a day with normal wage allowed in factories is -----------",
+        "option1": "8",
+        "option2": "9",
+        "option3": "10",
+        "option4": "11",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "--------- is the chairman of Site Appraisal Committees",
+        "option1": "The Chief Inspector of the State",
+        "option2": "The Inspector of The District",
+        "option3": "Occupier",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "------- authority enforces the Factory Act 1948",
+        "option1": "The Heavy Industries Department of Central Government",
+        "option2": "Human Resources Department",
+        "option3": "The Labour Department of the State Government",
+        "option4": "All of the Above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "-------- means a person who has completed his fourteenth year of age but has not completed his eighteenth year",
+        "option1": "adult",
+        "option2": "adolescent",
+        "option3": "workmen",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "------- means a person who has completed his eighteenth year of age",
+        "option1": "Minor",
+        "option2": "adolescent",
+        "option3": "Adult",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Section 27 under the Industrial dispute act is about ........",
+        "option1": "Manufacturing process",
+        "option2": "Penalty for instigation/ Provocation",
+        "option3": "occupier",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "--- year did the Industrial Dispute act come into operation.",
+        "option1": "1960",
+        "option2": "1947",
+        "option3": "2019",
+        "option4": "1965",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "-------- is a machinery for the settlement of Industrial Disputes in India",
+        "option1": "National Commission on Labour",
+        "option2": "Wage Board",
+        "option3": "Industrial Tribunal",
+        "option4": "Standing Labour Committee",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "------- machinery has been mentioned in the Industrial Dispute act accountable for the speedy and amicable settlement of industrial disputes",
+        "option1": "Adjudication",
+        "option2": "Conciliation",
+        "option3": "Arbitration",
+        "option4": "Appropriate government",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "________ means an interim or a final determination of any industrial dispute or of any question relating there  by any labour court.",
+        "option1": "Banking Company",
+        "option2": "Conciliation Proceeding",
+        "option3": "Closure",
+        "option4": "Award",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Industrial Dispute means, Dispute between -----",
+        "option1": "Employer and workmen",
+        "option2": "workmen and workmen",
+        "option3": "Employer and Employer",
+        "option4": "All of the Above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "The ------- authorities are set up for settling the industrial Dispute.",
+        "option1": "labor court",
+        "option2": "Industrial Tribunal",
+        "option3": "Conciliation Board",
+        "option4": "All of the Above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "‘Award’ under Industrial Disputes Act, 1947 is-------",
+        "option1": "interim determination of industrial dispute",
+        "option2": "final determination of industrial dispute",
+        "option3": "arbitration award under Section 10A",
+        "option4": "Both A & B",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "How many members does a conciliation board consist of as per the appropriate government?",
+        "option1": "Chairman and 2 or 4 other members",
+        "option2": "Chairman and 1 more member",
+        "option3": "Chairman and 5 or 6 other members",
+        "option4": "Chairman and 10 other members",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "------------- includes any court constituted under any law relating to investigation and settlement of industrial disputes in force in any State",
+        "option1": "Labour court",
+        "option2": "District court",
+        "option3": "Supreme court",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "No person employed in a public utility service shall go on strike in breach of contract within ____ of giving such a notice.",
+        "option1": "2 weeks",
+        "option2": "6 weeks",
+        "option3": "1 week",
+        "option4": "4 weeks",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Section ____ of industrial dispute act covers the compensation provided to workers who are in continuous service for not less than one year.",
+        "option1": "25",
+        "option2": "25A",
+        "option3": "25-FFF",
+        "option4": "26",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "------- is the time period in which all the awards of the arbitration are to be published from the date of its receipt by the appropriate government",
+        "option1": "15 days",
+        "option2": "7 days",
+        "option3": "180 days",
+        "option4": "30 days",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Where do the labour court, tribunal and national tribunals submit their awards of the dispute?",
+        "option1": "Appropriate government",
+        "option2": "Central government",
+        "option3": "Employer",
+        "option4": "Conciliation",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "How much compensation does the workman deserve at the time of retrenchment?",
+        "option1": "Equivalent to 15 days average pay",
+        "option2": "6 months",
+        "option3": "Equivalent to 30 days average pay",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "If death results from the injury, the amount of compensation to the employee equal to",
+        "option1": "40% monthly wages multiplied by the relevant factor",
+        "option2": "150% monthly wages multiplied by the relevant factor",
+        "option3": "100% monthly wages multiplied by the relevant factor",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "If workmen Loss of both hands or amputation at higher sites then he /she will get compensation ----- percentage of loss of earning capacity",
+        "option1": "25",
+        "option2": "100",
+        "option3": "50",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "If workmen have permanent total disablement, he /she will get compensation amount ----- percentage of monthly wages.",
+        "option1": "50",
+        "option2": "25",
+        "option3": "100",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "A workmen have Loss of both eyes, then He/ She will get compensation ------ Percentage of loss of earning capacity",
+        "option1": "30",
+        "option2": "50",
+        "option3": "40",
+        "option4": "100",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Most common and usual form of direct compensation paid in organizations is -----",
+        "option1": "base pay and benefits",
+        "option2": "variable pay and benefit",
+        "option3": "base and variable pay",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+      },
+    
+      {
+        "question": "Characteristic of a good compensation system is -------",
+        "option1": "Higher the qualification of worker, higher is compensation",
+        "option2": "Higher the efficiency of worker, higher is compensation",
+        "option3": "Higher the rank of worker, higher is compensation",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Major factors influencing compensation of worker are -----",
+        "option1": "skill",
+        "option2": "effort",
+        "option3": "working condition",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Under this Act, employer shall not be liable to pay compensation in respect of any injury not resulting in death or permanent total disablement caused by an accident",
+        "option1": "Under the influence of drink or drug",
+        "option2": "Due to the wilful disobedience of the workman to an order expressly given or to a rule expressly framed for the purpose of securing the safety of workmen",
+        "option3": "Due to the wilful removal or disregard by the workman of any safety guard or other device he knew to have been provided for the purpose of securing the safety of workman",
+        "option4": "All the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "While working at the construction of a multi-storeyed building of a company, a worker employed by a ‘contractor’, supplied by a ‘sirdar’, faced an accident and became temporarily disabled. For paying compensation to the worker, who shall be held responsible as per law?",
+        "option1": "Individual manager subordinate to an employer cannot act as managing agent.",
+        "option2": "Managing agent includes an individual manager subordinate to an employer.",
+        "option3": "Only employer can act as managing agent.",
+        "option4": "The contractor who employed the worker",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The maximum daily hours of work in a day with normal wage allowed in factories is -----------",
+        "option1": "8",
+        "option2": "9",
+        "option3": "10",
+        "option4": "11",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Minimum rates of wages may be fixed by -----",
+        "option1": "Hour",
+        "option2": "Day",
+        "option3": "Month",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Basic compensations given to employees as salaries or wages are called -------",
+        "option1": "Basic pay",
+        "option2": "wages",
+        "option3": "salary",
+        "option4": "variable pay",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "---------- is the total cash and non-cash payments that you give to an employee in exchange for the work they do for your business.",
+        "option1": "Salary",
+        "option2": "wages",
+        "option3": "Mobadla",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In graduated time rates system, if basic salary is Rs.2000 and dearness allowance is 150% then total remuneration will be Rs. -----",
+        "option1": "3000",
+        "option2": "5000",
+        "option3": "2000",
+        "option4": "2150",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "----- is the maximum wage period for the payment of wages",
+        "option1": "15 days",
+        "option2": "21 days",
+        "option3": "1 day",
+        "option4": "1 month",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "-------- deductions is not authorized payment of wages act",
+        "option1": "Deduction for Fines",
+        "option2": "Deduction for payment of Income tax",
+        "option3": "Deduction for Payment of insurance",
+        "option4": "Deduction for payment of uniform and property",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "-------- of the wages payable is the maximum limit of fine to be imposed on an employee",
+        "option1": "5%",
+        "option2": "1%",
+        "option3": "3%",
+        "option4": "10%",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "------- means all remuneration expressed in terms of money",
+        "option1": "Salary",
+        "option2": "wages",
+        "option3": "Mobadla",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "According to the definition of 'Week' under the Minimum wage Act, it is a period of 7 days beginning at midnight on______",
+        "option1": "Sunday",
+        "option2": "Monday",
+        "option3": "Friday",
+        "option4": "Saturday",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Leave with wages is allowed for employees if they work for _____days in a month",
+        "option1": "28",
+        "option2": "20",
+        "option3": "30",
+        "option4": "31",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Under Minimum Wages Act an Adult means a Person who has completed age of -------- years",
+        "option1": "18",
+        "option2": "15",
+        "option3": "16",
+        "option4": "19",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Statutory Minimum wage is fixed under",
+        "option1": "Payment of Wages Act, 1936",
+        "option2": "Equal Remuneration Act, 1976",
+        "option3": "Workmen’s Compensation Act, 1923",
+        "option4": "Minimum Wages Act, 1948",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Under the Minimum Wages Act, 1948 the appropriate government shall fix the minimum rates of wages payable to the employees employed in an employment specified in",
+        "option1": "Schedule I part I",
+        "option2": "Schedule I part II",
+        "option3": "Schedule I, Part I, II and the employments and added under section 27",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a method for fixing Minimum Wages under the Minimum Wages Act, 1948?",
+        "option1": "Notification Method",
+        "option2": "Committee Method",
+        "option3": "Bargaining Method",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What are the benefits to supervisor of understanding team?",
+        "option1": "To take perfect decision",
+        "option2": "Promotion",
+        "option3": "Status",
+        "option4": "Increments",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Directions by supervisors cannot avoid following problems",
+        "option1": "Wastages of time",
+        "option2": "Rework",
+        "option3": "Machine capacity",
+        "option4": "Repetitive mistakes",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Instructions by supervisor should be___",
+        "option1": "Clear",
+        "option2": "Simple",
+        "option3": "On time",
+        "option4": "Specific",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is chronology of steps in control process?",
+        "option1": "1-4-2-3",
+        "option2": "1-2-4-3",
+        "option3": "1-3-2-4",
+        "option4": "2-1-4-3",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In giving directions when supervisor says “goal of workers and organization are same”. Then such directions are called___",
+        "option1": "Unity of command",
+        "option2": "Harmony of objective",
+        "option3": "Direct supervision",
+        "option4": "Follow through",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Direction should not be face to face.",
+        "option1": "Only 1 correct",
+        "option2": "Only 2 correct",
+        "option3": "Both are correct",
+        "option4": "Both are wrong",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What are the types of audits?",
+        "option1": "Internal",
+        "option2": "External",
+        "option3": "Management",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Out of following which is not the qualitative standards?",
+        "option1": "Relations",
+        "option2": "Goodwill",
+        "option3": "Motivation",
+        "option4": "Time",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Too many controls ___workers",
+        "option1": "Motivate",
+        "option2": "Assist",
+        "option3": "Irritate",
+        "option4": "Benefit",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Communication with all department is ____",
+        "option1": "Open loop",
+        "option2": "Closed loop",
+        "option3": "Oral",
+        "option4": "Non verbal",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When instructions are in written form___",
+        "option1": "Subjects are importance",
+        "option2": "Details are not involved",
+        "option3": "No geographical distance with subordinates",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Instructions by supervisor should be___",
+        "option1": "Clear",
+        "option2": "Simple",
+        "option3": "On time",
+        "option4": "Specific",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How decision can be elaborated?",
+        "option1": "By written document",
+        "option2": "By conducting meeting",
+        "option3": "By counselling",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Why counselling by supervisor is needed?",
+        "option1": "Loss of confidence",
+        "option2": "Dull working conditions",
+        "option3": "Need support",
+        "option4": "All",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "To avoid confusion taken by higher management, decision must be_____",
+        "option1": "Elaborated",
+        "option2": "Canceled",
+        "option3": "Forced",
+        "option4": "Reversed",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Why understanding team is needed?",
+        "option1": "To assign team work",
+        "option2": "To control activities of team",
+        "option3": "To satisfy needs of team",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is chronology of steps in control process?",
+        "option1": "1-4-2-3",
+        "option2": "1-2-4-3",
+        "option3": "1-3-2-4",
+        "option4": "2-1-4-3",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Critical point control method is concerned with___",
+        "option1": "Taking corrective actions",
+        "option2": "Measurement of actual performance",
+        "option3": "Analysing deviations",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Steps in controlling process are ____",
+        "option1": "Setting performance standards",
+        "option2": "Measurement of actual performance",
+        "option3": "Comparing actual performance with standards",
+        "option4": "All the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Following is not the quantitative control technic",
+        "option1": "Ratio analysis",
+        "option2": "Breakeven analysis",
+        "option3": "Observations",
+        "option4": "Audits",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Controlling should never be flexible",
+        "option1": "Only 1 correct",
+        "option2": "Only 2 correct",
+        "option3": "Both correct",
+        "option4": "Both wrong",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is meant by understanding team?",
+        "option1": "Specialty of team",
+        "option2": "Number of team members",
+        "option3": "Requirements of team",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Why understanding team is needed?",
+        "option1": "To assign team work",
+        "option2": "To control activities of team",
+        "option3": "To satisfy needs of team",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What are the benefits to supervisor of understanding team?",
+        "option1": "To take perfect decision",
+        "option2": "Promotion",
+        "option3": "Status",
+        "option4": "Increments",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Due to link with maintenance department, supervisor___",
+        "option1": "Can give intimation of breakdown",
+        "option2": "Can avoid production stoppages",
+        "option3": "Both are correct",
+        "option4": "Both are incorrect",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Due to link of supervisors with stores and inventory",
+        "option1": "Material can be arrived in time",
+        "option2": "Accumulation of material is avoided",
+        "option3": "1 is correct",
+        "option4": "Both wrong",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Due to link of supervisor with quality control____",
+        "option1": "Errors can be understood",
+        "option2": "Errors can be rectified",
+        "option3": "1 is correct",
+        "option4": "Both wrong",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Communication with all department is ____",
+        "option1": "Open loop",
+        "option2": "Closed loop",
+        "option3": "Oral",
+        "option4": "Non verbal",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Why directions by supervisor are necessary?",
+        "option1": "To avoid mistakes",
+        "option2": "Peoples get directions",
+        "option3": "Time is saved",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Directions by supervisors cannot avoid following problems",
+        "option1": "Wastages of time",
+        "option2": "Rework",
+        "option3": "Machine capacity",
+        "option4": "Repetitive mistakes",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Deviation in work is possible when there are no_____",
+        "option1": "Directions",
+        "option2": "Instructions",
+        "option3": "Control",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Following are the features of complete instructions",
+        "option1": "Instructions at proper time",
+        "option2": "By proper person",
+        "option3": "Simple and clear",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Instructions by supervisor should be___",
+        "option1": "Clear, Simple correct, On time, Specific",
+        "option2": "All correct",
+        "option3": "All wrong",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Good supervisor is not the following",
+        "option1": "Counsellor",
+        "option2": "Advisor",
+        "option3": "Mentor",
+        "option4": "Teacher",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Why counselling by supervisor is needed?",
+        "option1": "Loss of confidence",
+        "option2": "Dull working conditions",
+        "option3": "Need support",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Following is not quality of supervisor as counsellor",
+        "option1": "Emotional",
+        "option2": "Stable",
+        "option3": "Motivator",
+        "option4": "Listener",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "To give future predictions",
+        "option1": "Understanding present is not important",
+        "option2": "Logical thinking is needed",
+        "option3": "Both correct",
+        "option4": "Both wrong",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Future losses can be minimized by____",
+        "option1": "Future predictions",
+        "option2": "Planning",
+        "option3": "Organizing",
+        "option4": "Staffing",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "To avoid confusion taken by higher management, decision must be_____",
+        "option1": "Elaborated",
+        "option2": "Canceled",
+        "option3": "Forced",
+        "option4": "Reversed",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How decision can be elaborated",
+        "option1": "By written document",
+        "option2": "By conducting meeting",
+        "option3": "By counselling",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What are not ways to lay disciplinary standards",
+        "option1": "Disciplinary actions",
+        "option2": "Training for discipline",
+        "option3": "Policy decisions in discipline",
+        "option4": "Forgiving for few times",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Steps in controlling process are ____",
+        "option1": "Setting performance standards",
+        "option2": "Measurement of actual performance",
+        "option3": "Comparing actual performance with standards",
+        "option4": "All the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is chronology of steps in control process?",
+        "option1": "1-4-2-3",
+        "option2": "1-2-4-3",
+        "option3": "1-3-2-4",
+        "option4": "2-1-4-3",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Out of following which is not the quantitative standards",
+        "option1": "Cost",
+        "option2": "Time",
+        "option3": "Relations",
+        "option4": "Amount",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Out of following which is not the qualitative standards",
+        "option1": "Relations",
+        "option2": "Goodwill",
+        "option3": "Motivation",
+        "option4": "Time",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which is the method of measuring actual performance",
+        "option1": "Sample checking",
+        "option2": "Counting",
+        "option3": "Personal observation",
+        "option4": "All the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Critical point control method is concerned with___",
+        "option1": "Taking corrective actions",
+        "option2": "Measurement of actual performance",
+        "option3": "Analysing deviations",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "After identifying the deviations___",
+        "option1": "Causes are analysed",
+        "option2": "Actions are taken on workers",
+        "option3": "Measurements are taken",
+        "option4": "Performance standards are calculated",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If machinery is obsolete then what is the correct action?",
+        "option1": "Do technological upgradation of machinery",
+        "option2": "Replace it",
+        "option3": "Sell it",
+        "option4": "Destroy it",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "If the cause of deviation is defective process, then the correct action is",
+        "option1": "Replace the process by new work",
+        "option2": "Postpone the work",
+        "option3": "Change the specification standards",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If material used is defective then how to correct it",
+        "option1": "Change the material",
+        "option2": "Cancel the process",
+        "option3": "Take action on the supplier",
+        "option4": "Change the quality standards of the material",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If machinery used is defective then how to take corrective action on it?",
+        "option1": "Repair the existing machine",
+        "option2": "Sell out the machinery",
+        "option3": "Upgrade the machinery",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If physical condition of work is defective then how to take the correct actions",
+        "option1": "Improvement in physical conditions",
+        "option2": "Change the operator",
+        "option3": "Take action on the architecture",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "For controlling overall organizational performance following technics are used",
+        "option1": "Observations",
+        "option2": "Performance evaluation",
+        "option3": "Spot inspections",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Following is not the quantitative control technic",
+        "option1": "Ratio analysis",
+        "option2": "Breakeven analysis",
+        "option3": "Observations",
+        "option4": "Audits",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What are the types of audits",
+        "option1": "Internal",
+        "option2": "External",
+        "option3": "Management",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "For effective controlling by supervisors’ essential parameters are",
+        "option1": "Timely and forward looking",
+        "option2": "Flexible",
+        "option3": "Comprehensive",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Controlling should never be flexible and objectives of control should be clear",
+        "option1": "only 1 correct",
+        "option2": "only 2 correct",
+        "option3": "both correct",
+        "option4": "both wrong",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The benefits obtained from the control system should be ___ then the cost involved in implementing it",
+        "option1": "more",
+        "option2": "less",
+        "option3": "equal",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Correct OR Wrong: Control system should be periodically reviewed, control system should be flexible",
+        "option1": "only 1 correct",
+        "option2": "only 2 correct",
+        "option3": "both correct",
+        "option4": "both wrong",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Why workers do resistance to managerial control",
+        "option1": "too many controls",
+        "option2": "incomplete measurements",
+        "option3": "unreasonable standards",
+        "option4": "all of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Too many controls ___workers",
+        "option1": "motivate",
+        "option2": "assist",
+        "option3": "irritate",
+        "option4": "benefit",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Employees always dislike control because",
+        "option1": "they don’t want controls",
+        "option2": "they want to control management",
+        "option3": "controls are too many, incomplete in nature, unreasonable, discloses unpleasant facts",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is not the control technic",
+        "option1": "past oriented and future oriented",
+        "option2": "market control",
+        "option3": "production control",
+        "option4": "clan control",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Inspections of job is___",
+        "option1": "past control",
+        "option2": "future control",
+        "option3": "clan control",
+        "option4": "new control",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Funds flow analysis is",
+        "option1": "past control",
+        "option2": "future control",
+        "option3": "clan control",
+        "option4": "old control",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Prices of products are due to which control?",
+        "option1": "past control",
+        "option2": "future control",
+        "option3": "market control",
+        "option4": "clan control",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "____ is established by generating trust, tradition and shared belief",
+        "option1": "past control",
+        "option2": "future control",
+        "option3": "market control",
+        "option4": "clan control",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Controls due to government rules are___",
+        "option1": "past",
+        "option2": "future",
+        "option3": "market",
+        "option4": "bureaucratic",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Financial and accounting based controls are ____",
+        "option1": "future",
+        "option2": "old",
+        "option3": "market",
+        "option4": "clan",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "___ provide that information which is not available with old techniques",
+        "option1": "Old",
+        "option2": "New",
+        "option3": "Clan",
+        "option4": "Market",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which are needs of directions by supervisors?",
+        "option1": "Harmony of objective",
+        "option2": "Direct supervision",
+        "option3": "Unity of command",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In giving directions when supervisor says “goal of workers and organization are same”. Then such directions are called___",
+        "option1": "Unity of command",
+        "option2": "Harmony of objective",
+        "option3": "Direct supervision",
+        "option4": "Follow through",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Correct OR Wrong\n1. Direction should not be face to face.\n2. there should be unity of command in directions",
+        "option1": "Only 1 correct",
+        "option2": "Only 2 correct",
+        "option3": "Both are correct",
+        "option4": "Both are wrong",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Supervisors gives directions, check this performance and help the workers. This is called",
+        "option1": "Unity of command",
+        "option2": "Follow through",
+        "option3": "Harmony of objectives",
+        "option4": "Efficient communications",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Face to face suggestions are___",
+        "option1": "More effective",
+        "option2": "Less effective",
+        "option3": "Not necessary",
+        "option4": "Avoided",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Correct OR Wrong.\n1. Order should be clear and complete.\n2. order should be non-compatible",
+        "option1": "Only 1 correct",
+        "option2": "Only 2 correct",
+        "option3": "Both correct",
+        "option4": "Both wrong",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When instructions are in written form___",
+        "option1": "Subjects are importance",
+        "option2": "Details are not involved",
+        "option3": "No geographical distance with subordinates",
+        "option4": "1 and 3 correct",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Match the pairs:\n1. Harmony of objectives               A) do what I say otherwise\n2. Force                                              B) do what I say because I am good to you\n3. Paternalism                                   C) you do as I say\n4. Bargain                                           D) if we perform together, each will Benefited.",
+        "option1": "1-D, 2-A, 3-B, 4-C",
+        "option2": "1-D, 2-A, 3-C, 4-B",
+        "option3": "1-A, 2-D, 3-B, 4-C",
+        "option4": "1-B, 2-C, 3-D, 4-A",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "“Do what I say or otherwise” is ____ instruction.",
+        "option1": "Force",
+        "option2": "Paternalism",
+        "option3": "Bargain",
+        "option4": "Harmony",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "“Do what I say because I am good to you” is ____ instruction.",
+        "option1": "Force",
+        "option2": "Paternalism",
+        "option3": "Bargain",
+        "option4": "Harmony",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "“You do as I say “is _____ instruction.",
+        "option1": "Force",
+        "option2": "Paternalism",
+        "option3": "Bargain",
+        "option4": "Harmony",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "“If we perform together each will achieve his goal” is ____ instructions.",
+        "option1": "Force",
+        "option2": "Paternalism",
+        "option3": "Bargain",
+        "option4": "Harmony",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Good instruction is_____",
+        "option1": "Reasonable",
+        "option2": "Enforceable",
+        "option3": "Clear",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Good instruction is____",
+        "option1": "Understandable",
+        "option2": "Complete",
+        "option3": "Appropriate tone",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Good instruction is not ___",
+        "option1": "Reasonable",
+        "option2": "Oral",
+        "option3": "Complete",
+        "option4": "Clearly defined",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Correct OR Wrong.\n1. Directions starts from top and goes to bottom\n2. Direction is not continuing process",
+        "option1": "Only 1 correct",
+        "option2": "Only 2 correct",
+        "option3": "Both correct",
+        "option4": "Both wrong",
+        "Answer": "option1",
+        "marks": 1
+    }
+] 
+
+module.exports = { data: ManagementUT};

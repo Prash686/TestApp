@@ -62,13 +62,22 @@ app.use((req, res, next) => {
     next();
 });
 
+const isLoggedIn = (req, res, next) => {
+    if (!req.isAuthenticated()) {
+        req.session.redirectUrl = req.originalUrl;
+        req.flash("error", "Please Login");
+        return res.redirect("auth/login");
+    }
+    next();
+};
+
 // Routes
-app.get("/", async (req, res) => {
+app.get("/", isLoggedIn, async (req, res) => {
     res.render("testapp/home.ejs");
 });
 
 
-app.get("/courses", async (req, res) => {
+app.get("/courses", isLoggedIn, async (req, res) => {
     const allCourses = await courses.find({});
     res.render("testapp/courses.ejs", { allCourses });
 });
@@ -124,7 +133,7 @@ app.get("/auth/logout", (req, res, next) => {
 });
 
 
-app.get("/practice/:id", async (req, res) => {
+app.get("/practice/:id", isLoggedIn, async (req, res) => {
     let { id } = req.params;
     const allquestions = await Questions.find({ subject: id });
     
@@ -135,7 +144,7 @@ app.get("/practice/:id", async (req, res) => {
     res.render("testapp/practice.ejs", { allquestions });
 });
 
-app.get("/test/:id", async (req, res) => {
+app.get("/test/:id", isLoggedIn, async (req, res) => {
     let { id } = req.params;
     const examquestions = await Questions.find({ subject: id });
     const max = examquestions.length;
@@ -157,7 +166,7 @@ app.get("/test/:id", async (req, res) => {
     res.render("testapp/test.ejs", { allquestions });
 });
 
-app.get("/subjects", async (req, res) => {
+app.get("/subjects", isLoggedIn, async (req, res) => {
     const allSubjects = await subjects.find({});
     res.render("testapp/subjects.ejs", { allSubjects });
 });
@@ -166,7 +175,7 @@ app.get("/subjects/new", async (req, res) => {
     res.render("testapp/subjectNew.ejs");
 });
 
-app.post('/subjects', async (req, res) => {
+app.post('/subjects', isLoggedIn, async (req, res) => {
     try {
         const { title, description, image, questions } = req.body;
         const newSubject = new subjects({ title, description, image });
@@ -196,7 +205,7 @@ app.post('/subjects', async (req, res) => {
 });
 
 
-app.get("/courses/:id", async (req, res) => {
+app.get("/courses/:id", isLoggedIn, async (req, res) => {
     try {
         let { id } = req.params;
         const allSubjects = await subjects.find({ course: id });
@@ -207,13 +216,13 @@ app.get("/courses/:id", async (req, res) => {
     }
 });
 
-app.get("/TestApp/:id", async (req, res) => {
+app.get("/TestApp/:id", isLoggedIn, async (req, res) => {
     let { id } = req.params;
     const allSubjects = await subjects.find({});
     res.render("testapp/testOrPractice.ejs", { allSubjects, id });
 });
 
-app.get("/subjects/:id", async (req, res) => {
+app.get("/subjects/:id", isLoggedIn, async (req, res) => {
     try {
         let { id } = req.params;
         res.render("testapp/cards.ejs", { id });
@@ -223,11 +232,11 @@ app.get("/subjects/:id", async (req, res) => {
     }
 });
 
-app.get('/new', (req, res) => {
+app.get('/new', isLoggedIn, (req, res) => {
     res.render('testapp/new.ejs');
 });
 
-app.post("/questions", async (req, res) => {
+app.post("/questions", isLoggedIn, async (req, res) => {
     const que = req.body;
     const newQuestion = new Questions(que);
     
@@ -241,7 +250,7 @@ app.post("/questions", async (req, res) => {
 });
 
 // Catch-all route for undefined routes
-app.all('*', (req, res, next) => {
+app.all('*', isLoggedIn, (req, res, next) => {
     next(new ExpressError('Page Not Found', 404));
 });
 
