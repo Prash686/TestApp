@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="your-google-site-verification-code-here" />
     <meta name="google-adsense-account" content="ca-pub-1690818929033321">
     <link rel="icon" href="/images/logo.png" type="image/png">
-    <title>Test App</title>
+    <title><%= typeof title !== 'undefined' ? title : 'Test App' %></title>
+    <meta name="description" content="<%= typeof description !== 'undefined' ? description : 'Test your knowledge with interactive MCQs and tests for ETI, Management, EST, AJP and more.' %>">
+    <meta name="keywords" content="<%= typeof keywords !== 'undefined' ? keywords : 'mcq, mcqs, ETI, Management, EST, AJP, tests, practice, online tests' %>">
+    <meta property="og:title" content="<%= typeof title !== 'undefined' ? title : 'Test App' %>">
+    <meta property="og:description" content="<%= typeof description !== 'undefined' ? description : 'Test your knowledge with interactive MCQs and tests for ETI, Management, EST, AJP and more.' %>">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://msbtemcq.in/">
+    <meta property="og:image" content="https://msbtemcq.in/images/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
@@ -31,6 +39,60 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'YOUR_TRACKING_ID');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalContent",
+  "name": "MSBTE MCQ Practice",
+  "description": "Practice and test your knowledge with MCQs for ETI, Management, EST, AJP and other subjects on msbtemcq.in.",
+  "url": "https://msbtemcq.in/",
+  "provider": {
+    "@type": "Organization",
+    "name": "MSBTE MCQ",
+    "url": "https://msbtemcq.in/"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is MSBTE MCQ Practice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MSBTE MCQ Practice is a platform to practice multiple choice questions for various subjects like ETI, Management, EST, AJP and more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I practice MCQs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can select a subject and start practicing MCQs online with instant results."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://msbtemcq.in/"
+    }
+  ]
+}
 </script>
 </head>
 <body>

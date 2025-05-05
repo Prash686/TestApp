@@ -45,7 +45,10 @@ app.set("views", path.join(__dirname, "views"));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
-app.use(express.static(path.join(__dirname, "/public")));
+app.use(express.static(path.join(__dirname, "/public"), {
+    maxAge: '30d',
+    etag: false
+}));
 app.use(session(sessionOptions));
 app.use(flash());
 
@@ -73,13 +76,22 @@ const isLoggedIn = (req, res, next) => {
 
 // Routes
 app.get("/", isLoggedIn, async (req, res) => {
-    res.render("testapp/home.ejs");
+    res.render("testapp/home.ejs", {
+        title: "MSBTE MCQ Practice - ETI, Management, EST, AJP MCQs",
+        description: "Practice and test your knowledge with MCQs for ETI, Management, EST, AJP and other subjects. Improve your skills with interactive tests on msbtemcq.in.",
+        keywords: "mcq, mcqs, ETI, Management, EST, AJP, practice tests, online tests, msbte"
+    });
 });
 
 
 app.get("/courses", isLoggedIn, async (req, res) => {
     const allCourses = await courses.find({});
-    res.render("testapp/courses.ejs", { allCourses });
+    res.render("testapp/courses.ejs", {
+        allCourses,
+        title: "Courses - MSBTE MCQ Practice",
+        description: "Explore various courses and their MCQs including ETI, Management, EST, AJP and more on msbtemcq.in.",
+        keywords: "mcq, mcqs, courses, ETI, Management, EST, AJP, practice, msbte"
+    });
 });
 
 
@@ -88,7 +100,11 @@ app.get('/ads.txt', (req, res) => {
 });
 
 app.get("/auth/signup", (req, res) => {
-    res.render("auth/signup.ejs");
+    res.render("auth/signup.ejs", {
+        title: "Sign Up - MSBTE MCQ Practice",
+        description: "Create an account to access MCQ practice tests for ETI, Management, EST, AJP and more on msbtemcq.in.",
+        keywords: "signup, register, mcq, practice, msbte"
+    });
 });
 
 // Handle Signup
@@ -111,7 +127,11 @@ app.post("/auth/signup", async (req, res) => {
 
 // Render Login Page
 app.get("/auth/login", (req, res) => {
-    res.render("auth/login.ejs");
+    res.render("auth/login.ejs", {
+        title: "Login - MSBTE MCQ Practice",
+        description: "Login to access your account and practice MCQs for ETI, Management, EST, AJP and more on msbtemcq.in.",
+        keywords: "login, mcq, practice, msbte"
+    });
 });
 
 app.post("/auth/login", passport.authenticate("local", {
@@ -136,12 +156,20 @@ app.get("/auth/logout", (req, res, next) => {
 app.get("/practice/:id", isLoggedIn, async (req, res) => {
     let { id } = req.params;
     const allquestions = await Questions.find({ subject: id });
+    const subject = await subjects.findOne({ title: id });
     
     if (allquestions.length === 0) {
         return res.status(404).send("No Questions found for this subject");
     }
 
-    res.render("testapp/practice.ejs", { allquestions });
+    const subjectName = subject ? subject.title : id;
+
+    res.render("testapp/practice.ejs", {
+        allquestions,
+        title: `MSBTE MCQ Test for ${subjectName} - Practice & Learn`,
+        description: `Free MSBTE MCQs for ${subjectName}. Practice online tests, get instant results, and improve your marks.`,
+        keywords: `mcq, mcqs, ${subjectName}, practice, msbte`
+    });
 });
 
 app.get("/test/:id", isLoggedIn, async (req, res) => {
@@ -155,6 +183,8 @@ app.get("/test/:id", isLoggedIn, async (req, res) => {
     
     const allquestions = [];
     const selectedIndexes = new Set();
+    const subject = await subjects.findOne({ title: id });
+    const subjectName = subject ? subject.title : id;
     
     while (allquestions.length < count) {
         let randomInteger = Math.floor(Math.random() * max);
@@ -163,16 +193,30 @@ app.get("/test/:id", isLoggedIn, async (req, res) => {
             selectedIndexes.add(randomInteger);
         }
     }
-    res.render("testapp/test.ejs", { allquestions });
+    res.render("testapp/test.ejs", {
+        allquestions,
+        title: `MSBTE MCQ Test for ${subjectName} - Practice & Learn`,
+        description: `Free MSBTE MCQs for ${subjectName}. Practice online tests, get instant results, and improve your marks.`,
+        keywords: `mcq, mcqs, ${subjectName}, test, msbte`
+    });
 });
 
 app.get("/subjects", isLoggedIn, async (req, res) => {
     const allSubjects = await subjects.find({});
-    res.render("testapp/subjects.ejs", { allSubjects });
+    res.render("testapp/subjects.ejs", {
+        allSubjects,
+        title: "Subjects - MSBTE MCQ Practice",
+        description: "Explore all subjects for MCQ practice including ETI, Management, EST, AJP and more on msbtemcq.in.",
+        keywords: "mcq, mcqs, subjects, ETI, Management, EST, AJP, practice, msbte"
+    });
 });
 
 app.get("/subjects/new", async (req, res) => {
-    res.render("testapp/subjectNew.ejs");
+    res.render("testapp/subjectNew.ejs", {
+        title: "Add New Subject - MSBTE MCQ Practice",
+        description: "Add a new subject to practice MCQs for ETI, Management, EST, AJP and more on msbtemcq.in.",
+        keywords: "add subject, new subject, mcq, practice, msbte"
+    });
 });
 
 app.post('/subjects', isLoggedIn, async (req, res) => {
@@ -219,13 +263,24 @@ app.get("/courses/:id", isLoggedIn, async (req, res) => {
 app.get("/TestApp/:id", isLoggedIn, async (req, res) => {
     let { id } = req.params;
     const allSubjects = await subjects.find({});
-    res.render("testapp/testOrPractice.ejs", { allSubjects, id });
+    res.render("testapp/testOrPractice.ejs", {
+        allSubjects,
+        id,
+        title: `Test or Practice - MSBTE MCQ - ${id}`,
+        description: `Choose to test or practice MCQs for ${id} on msbtemcq.in.`,
+        keywords: `mcq, mcqs, test, practice, ${id}, msbte`
+    });
 });
 
 app.get("/subjects/:id", isLoggedIn, async (req, res) => {
     try {
         let { id } = req.params;
-        res.render("testapp/cards.ejs", { id });
+        res.render("testapp/cards.ejs", {
+            id,
+            title: `Subject Cards - MSBTE MCQ - ${id}`,
+            description: `Explore MCQs and tests for subject ${id} on msbtemcq.in.`,
+            keywords: `mcq, mcqs, subject, ${id}, msbte`
+        });
     } catch (err) {
         console.error(err);
         res.status(500).send("An error occurred while fetching subjects");
@@ -233,7 +288,11 @@ app.get("/subjects/:id", isLoggedIn, async (req, res) => {
 });
 
 app.get('/new', isLoggedIn, (req, res) => {
-    res.render('testapp/new.ejs');
+    res.render('testapp/new.ejs', {
+        title: "New MCQ - MSBTE MCQ Practice",
+        description: "Add new MCQs for ETI, Management, EST, AJP and more on msbtemcq.in.",
+        keywords: "new mcq, add mcq, practice, msbte"
+    });
 });
 
 app.post("/questions", isLoggedIn, async (req, res) => {

@@ -2,10 +2,12 @@
 <link rel="stylesheet" href="/css/practice.css">
 
 <div class="container mt-5" style="min-height: 70vh;">
+  <h1 class="text-center mb-3">MSBTE model questions for <%= subjectName %> Engineering</h1>
+  <p class="text-center mb-4">MSBTE I-scheme MCQs 2025. Practice and improve your knowledge with free online tests.</p>
   <h3 class="text-center mb-4">Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
 
   <!-- Hidden input field to store the JSON string of questions -->
-  <input type="hidden" id="questions-data" value="<%- JSON.stringify(allquestions).replace(/"/g, '&quot;') %>">
+  <input type="hidden" id="questions-data" value="<%- JSON.stringify(allquestions).replace(/"/g, '"') %>">
 
   <form method="GET" action="/submit">
     <div id="question-container" class="bg-white p-4 rounded shadow-lg mb-4"></div>
