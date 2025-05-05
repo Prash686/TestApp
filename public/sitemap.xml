@@ -3,9 +3,11 @@
   <!-- Static URLs -->
   <url>
     <loc>https://msbtemcq.in/</loc>
+    <lastmod>2025-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://msbtemcq.in/courses</loc>
     <changefreq>weekly</changefreq>
@@ -29,22 +31,22 @@
 
   <!-- Dynamic URL patterns (replace with actual URLs if possible) -->
   <url>
-    <loc>https://msbtemcq.in/practice/subject-name</loc>
+    <loc>https://msbtemcq.in/practice/ESS</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://msbtemcq.in/test/subject-name</loc>
+    <loc>https://msbtemcq.in/test/ETI</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://msbtemcq.in/courses/course-name</loc>
+    <loc>https://msbtemcq.in/courses/MSBTE</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://msbtemcq.in/subjects/subject-name</loc>
+    <loc>https://msbtemcq.in/subjects/MANAGEMENT</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
