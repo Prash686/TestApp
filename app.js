@@ -34,7 +34,7 @@ const sessionOptions = {
     saveUninitialized: true,
     cookie: {
         expires: Date.now() + 7 * 24 * 60 * 60 * 1000,
-        maxAge: 7 * 24 * 60 * 60 * 1000,
+        maxAge: 365 * 24 * 60 * 60 * 1000,
         httpOnly: true
     }
 };
@@ -68,7 +68,7 @@ const isLoggedIn = (req, res, next) => {
         req.flash("error", "Please Login");
         return res.redirect("/auth/login");
     }
-    next();
+    next();
 };
 
 // Routes
@@ -120,8 +120,8 @@ app.post("/auth/login", passport.authenticate("local", {
 }), (req, res) => {
     req.flash("success", "Welcome Back!");
     res.redirect("/");
-
 });
+
 
 // Handle Logout
 app.get("/auth/logout", (req, res, next) => {

@@ -50406,4 +50406,2180 @@ const ManagementUT = [
     }
 ] 
 
-module.exports = { data: ManagementUT};
+const ETIUT2 =[
+    {
+        "question": "The digital evidence are used to establish a credible link between",
+        "option1": "Attacker and victim and the crime scene",
+        "option2": "Attacker and crime scene",
+        "option3": "victim and the crime scene",
+        "option4": "Attacker and Information",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Digital evidences must follow the requirements of the",
+        "option1": "Ideal Evidences rule",
+        "option2": "Best Evidences rule",
+        "option3": "Exchange rule",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "From the two given statements 1 & 2, select the correct option:\n1) Original media can be used to carry out digital investigation process\n2) By default, every part of the victim’s computer is considered unreliable.",
+        "option1": "a and b both are true",
+        "option2": "a is true and b is false",
+        "option3": "a and b both are false",
+        "option4": "a is false and b is true",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The evidences of proof that can be obtained from the electronic source is called the",
+        "option1": "Digital Evidence",
+        "option2": "Demonstrative Evidence",
+        "option3": "Explainable Evidence",
+        "option4": "Substantial Evidence",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a type of volatile evidence?",
+        "option1": "Routing Table",
+        "option2": "Main Memory",
+        "option3": "Log files",
+        "option4": "Cached Data",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A valid definition of digital evidence is:",
+        "option1": "Data stored or transmitted using a computer",
+        "option2": "Information of probative value",
+        "option3": "Digital data of probative value",
+        "option4": "Any digital evidence on a computer",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What are the three general categories of computer systems that can contain digital evidence?",
+        "option1": "Desktop, laptop, server",
+        "option2": "Personal computer, Internet, mobile telephone",
+        "option3": "Hardware, software, networks",
+        "option4": "Open computer systems, communication systems, embedded systems",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In terms of digital evidence, a hard drive is an example of:",
+        "option1": "Open computer systems",
+        "option2": "Communication systems",
+        "option3": "Embedded computer systems",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In terms of digital evidence, a mobile telephone is an example of:",
+        "option1": "Open computer systems",
+        "option2": "Communication systems",
+        "option3": "Embedded computer systems",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In terms of digital evidence, a Smart Card is an example of:",
+        "option1": "Open computer systems",
+        "option2": "Communication systems",
+        "option3": "Embedded computer systems",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In terms of digital evidence, the Internet is an example of:",
+        "option1": "Open computer systems",
+        "option2": "Communication systems",
+        "option3": "Embedded computer systems",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Computers can be involved in which of the following types of crime?",
+        "option1": "Homicide and sexual assault",
+        "option2": "Computer intrusions and intellectual property theft",
+        "option3": "Civil disputes",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A logon record tells us that, at a specific time",
+        "option1": "An unknown person logged into the system using the account",
+        "option2": "The owner of a specific account logged into the system",
+        "option3": "The account was used to log into the system",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The criminological principle which states that, when anyone, or anything, enters a crime scene he/she takes something of the scene with him/her, and leaves something of himself/herself behind, is:",
+        "option1": "Locard’s Exchange Principle",
+        "option2": "Differential Association Theory",
+        "option3": "Beccaria’s Social Contract",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Personal computers and networks are often a valuable source of evidence. Those involved with------should be comfortable with this technology",
+        "option1": "Criminal investigation",
+        "option2": "Prosecution",
+        "option3": "Defense work",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Digital evidence is only useful in a court of law.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Video surveillance can be a form of digital evidence.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "All forensic examinations should be performed on the original digital evidence.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Digital evidence can be duplicated exactly without any changes to the original data.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Computers were involved in the investigations into both World Trade Center attacks.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Computer professionals who take inappropriate actions when they encounter child pornography on their employer’s systems can lose their jobs or break the law.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Digital evidence is always circumstantial.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Digital evidence alone can be used to build a solid case.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Automobiles have computers that record data such as vehicle speed, brake status, and throttle position when an accident occurs.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Computers can be used by terrorists to detonate bombs.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The aim of a forensic examination is to prove with certainty what occurred.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Even digital investigations that do not result in legal action can benefit from principles of forensic science.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Forensic science is the application of science to investigation and prosecution of crime or to the just resolution of conflict.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When a file is deleted from a hard drive, it can often be recovered.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Preservation of digital evidence can involve which of the following?",
+        "option1": "Collecting computer hardware",
+        "option2": "Making a forensic image of storage media",
+        "option3": "Copying the files that are needed from storage media",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Examination of digital evidence includes (but is not limited to) which of the following activities?",
+        "option1": "Seizure, preservation, and documentation",
+        "option2": "Recovery, harvesting, and reduction",
+        "option3": "Experimentation, fusion, and correlation",
+        "option4": "Arrest, interviewing, and trial",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Analysis of digital evidence includes which of the following activities?",
+        "option1": "Seizure, preservation, and documentation",
+        "option2": "Experimentation, fusion, and correlation",
+        "option3": "Recovery, harvesting, and reduction",
+        "option4": "Arrest, interviewing, and trial",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Evidence can be related to its source in which of the following ways?",
+        "option1": "Top, middle, bottom",
+        "option2": "IP address, MD5 value, filename, date-time stamps",
+        "option3": "Production, segment, alteration, location",
+        "option4": "Parent, uncle, orphan",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Different types of analysis include which of the following?",
+        "option1": "Relational (e.g., link analysis) and temporal (e.g., timeline analysis)",
+        "option2": "Cryptography",
+        "option3": "Metadata hashing",
+        "option4": "Digital photography",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "When a website is under investigation, before obtaining authorization to seize the systems it is necessary to:",
+        "option1": "Determine where the web servers are located",
+        "option2": "Inform personnel at the web server location that you‟ll be coming to seize the systems",
+        "option3": "Conduct a reconnaissance probe of the target website",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is NOT an information gathering process?",
+        "option1": "Scanning the system remotely",
+        "option2": "Studying security audit reports",
+        "option3": "Attempting to bypass logon security",
+        "option4": "Examining e-mail headers",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Unlike law enforcement, system administrators are permitted to _______ on their network when it is necessary to protect the network and the data it contains.",
+        "option1": "Open unread e-mails.",
+        "option2": "Monitor network traffic.",
+        "option3": "Modify system logs.",
+        "option4": "Divulge user personal information.",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Although it was not designed with evidence collection in mind, _______ can still be useful for examining network traffic.",
+        "option1": "EnCase",
+        "option2": "FTK",
+        "option3": "Wireshark",
+        "option4": "CHKDSK",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Issues to be aware of when connecting to a computer over a network and collecting information include:",
+        "option1": "Creating and following a set of standard operating procedures",
+        "option2": "Keeping a log of actions taken during the collection process",
+        "option3": "Documenting which server actually contains the data that’s being collected",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "When a computer contains digital evidence, it is always advisable to turn it off immediately.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "A forensic image of a hard disk drive preserves the partition table.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "All forensic tools acquire digital evidence from storage media in the same way.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "It is not necessary to sanitize/wipe a hard drive purchased directly from a manufacturer.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Chain of custody enables anyone to determine where a piece of evidence has been, who handled it when, and what was done to it since it was seized.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "No two files can have the same MD5 value.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "After the MD5 value of a piece of digital evidence has been calculated, any change in that piece of evidence can be detected.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "When drawing up an affidavit for a warrant, it is important to specifically mention all desired digital evidence.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "When seeking authorization to search a network and digital evidence that may exist in more than one jurisdiction it is not necessary to obtain a search warrant for each location.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Digital investigators should remember that evidence can reside in unexpected places, such as network routers.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Active monitoring is time consuming, invasive, and costly and should only be used as a last resort.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "A digital evidence class characteristic is similar to tool mark analysis in the physical world.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "TCP/IP network traffic never contains useful class characteristics.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "It is not possible to recover deleted system or network log files.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Having a member of the search team trained to handle digital evidence:",
+        "option1": "Can reduce the number of people who handle the evidence",
+        "option2": "Can serve to streamline the presentation of the case",
+        "option3": "Can reduce the opportunity for opposing counsel to impugn the integrity of the evidence",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "A digital investigator pursuing a line of investigation in a case because that line of investigation proved successful in two previous cases is an example of:",
+        "option1": "Logical reasoning",
+        "option2": "Common sense",
+        "option3": "Preconceived theory",
+        "option4": "Investigator’s intuition",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Regarding the admissibility of evidence, which of the following is not a consideration:",
+        "option1": "Relevance",
+        "option2": "Authenticity",
+        "option3": "Best evidence",
+        "option4": "Nominally prejudicial",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "According to the text, the most common mistake that prevents evidence seized from being admitted is:",
+        "option1": "Uninformed consent",
+        "option2": "Forcible entry",
+        "option3": "Obtained without authorization",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "The process of documenting the seizure of digital evidence and, in particular, when that evidence changes hands, is known as:",
+        "option1": "Chain of custody",
+        "option2": "Field notes",
+        "option3": "Interim report",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "When assessing the reliability of digital evidence, the investigator is concerned with whether the computer that generated the evidence was functioning normally, and:",
+        "option1": "Whether chain of custody was maintained",
+        "option2": "Whether there are indications that the actual digital evidence was tampered with",
+        "option3": "Whether the evidence was properly secured in transit",
+        "option4": "Whether the evidence media was compatible with forensic machines",
+        "Answer": "option2",
+        "marks": 1
+      },
+    {
+        "question": "The fact that with modern technology, a photocopy of a document has become acceptable in place of the original is known as:",
+        "option1": "Best evidence rule",
+        "option2": "Due diligence",
+        "option3": "Quid pro quo",
+        "option4": "Voir dire",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Evidence contained in a document provided to prove that statements made in court are true is referred to as:",
+        "option1": "Inadmissible evidence",
+        "option2": "Illegally obtained evidence",
+        "option3": "Hearsay evidence",
+        "option4": "Direct evidence",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Business records are considered to be an exception to:",
+        "option1": "Direct evidence",
+        "option2": "Inadmissible evidence",
+        "option3": "Illegally obtained evidence",
+        "option4": "Hearsay evidence",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Direct evidence establishes a:",
+        "option1": "Fact",
+        "option2": "Assumption",
+        "option3": "Error",
+        "option4": "Line of inquiry",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "There is no need for any specialized training in the collection of digital evidence.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "It is the duty of a digital investigator to ignore influences from any source.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The application of preconceived theories to a particular case is a good method of reducing caseload.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In the United States, the prosecution must prove guilt beyond a reasonable doubt.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Chain of custody is the process of documenting who has handled evidence, where and when, as it travels from the crime scene to the courts.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Typically, a photocopy of a document is considered hearsay evidence and is not admissible in court.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Direct evidence establishes a fact.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Coerced testimony is the most common mistake that prevents evidence seized from being admitted.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Determining whether digital evidence has been tampered with is a major concern of the digital examiner.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Exceeding the scope of a warrant is not likely to affect the admissibility of the evidence collected.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Digital evidence cannot be direct evidence because of its separation from the events it represents.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When creating an expert report, digital investigators should support assertions in their reports with multiple independent sources of evidence.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Voir dire is the process of becoming accepted as an expert by the court.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "During testimony, when a lawyer appears not to be tech savvy, it is a good practice to guess what the attorney is trying to ask.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A proper response to a question that you do not know the answer to is, 'I don’t know.'",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The term 'computer contaminant' refers to:",
+        "option1": "Excessive dust found inside the computer case",
+        "option2": "Viruses, worms, and other malware",
+        "option3": "Spam e-mails",
+        "option4": "Nigerian scam e-mails",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In those states with legislation addressing computer forgery, contraband in the form of 'forgery devices' may include:",
+        "option1": "Computers",
+        "option2": "Computer equipment",
+        "option3": "Specialized computer software",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Hacking is an example of:",
+        "option1": "Computer-assisted crime",
+        "option2": "Computer-related crime",
+        "option3": "Computer-integrity crime",
+        "option4": "Computer malfeasance crime",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Forgery is an example of:",
+        "option1": "Computer assisted crime",
+        "option2": "Computer-related crime",
+        "option3": "Computer-integrity crime",
+        "option4": "Computer malfeasance crime",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Jurisdiction claims may be based on:",
+        "option1": "Location of the perpetrator’s computer",
+        "option2": "Location of the victim’s computer",
+        "option3": "Location of intermediary computers",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The goal of an investigation is to:",
+        "option1": "Convict the suspect",
+        "option2": "Discover the truth",
+        "option3": "Find incriminating evidence",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "An investigation can be hindered by the following:",
+        "option1": "Preconceived theories",
+        "option2": "Improperly handled evidence",
+        "option3": "Offender concealment behavior",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Forensic examination involves which of the following:",
+        "option1": "Assessment, experimentation, fusion, correlation, and validation",
+        "option2": "Seizure and preservation",
+        "option3": "Recovery, harvesting, filtering, organization, and search",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Forensic analysis involves the following:",
+        "option1": "Assessment, experimentation, fusion, correlation, and validation",
+        "option2": "Seizure and preservation",
+        "option3": "Recovery, harvesting, filtering, organization, and search",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The first step in applying the scientific method to a digital investigation is to:",
+        "option1": "Form a theory on what may have occurred",
+        "option2": "Experiment or test the available evidence to confirm or refute your prediction",
+        "option3": "Make one or more observations based on events that occurred",
+        "option4": "Form a conclusion based on the results of your findings",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following should the digital investigator consider when arranging for the transportation of evidence?",
+        "option1": "Should the evidence be physically in the possession of the investigator at all times?",
+        "option2": "Will the evidence copies be shared with other experts at other locations?",
+        "option3": "Will there be environmental factors associated with the digital media?",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Generating a plan of action and obtaining supporting resources and materials falls under which step in the digital investigation?",
+        "option1": "Preparation",
+        "option2": "Survey/identification",
+        "option3": "Preservation",
+        "option4": "Examination and analysis",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Forensic examination and forensic analysis are separate processes.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When a network is involved in a crime, investigators must seize and preserve all systems on the network.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When seizing a computer, it is always acceptable to lose the contents of RAM.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Case management is a critical part of digital investigations.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Forensic examination is the process of extracting, viewing, and analyzing information from the evidence collected.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The crime scene preservation process includes all but which of the following:",
+        "option1": "Protecting against unauthorized alterations",
+        "option2": "Acquiring digital evidence",
+        "option3": "Confirming system date and time",
+        "option4": "Controlling access to the crime scene",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The challenge to controlling access to a digital crime scene is that:",
+        "option1": "Information may be stored on Internet servers in different locations.",
+        "option2": "The computer may be shared.",
+        "option3": "The computer case may be locked.",
+        "option4": "None of the above.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When presenting evidence on an organizational network, the digital investigator may require the assistance of:",
+        "option1": "System administrators",
+        "option2": "The CEO of the organization",
+        "option3": "The CSO (Chief Security Officer)",
+        "option4": "Additional forensic investigators",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The proper collection of evidence at a crime scene is crucial in terms of admissibility in court.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The investigation and study of victim characteristics is known as:",
+        "option1": "Criminal profiling",
+        "option2": "Behavioral imprints",
+        "option3": "Victimology",
+        "option4": "Crime scene analysis",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "One reason digital investigators write threshold assessments more often than full reports is because:",
+        "option1": "They will be included in a final report, and so, distribute the time for final report preparation over the entire period of the investigation.",
+        "option2": "They keep their supervisor aware of their productivity.",
+        "option3": "They take less time to prepare and may be sufficient to close out an investigation.",
+        "option4": "They serve as field notes for the investigator.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "One reason not to put too much trust into those who run the company’s computers is that:",
+        "option1": "There has always been an antagonism between system administrators and law enforcement.",
+        "option2": "They are typically too busy to take the time to answer your questions.",
+        "option3": "They are usually not authorized to answer questions.",
+        "option4": "They may be the offenders.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Although crime scenes are typically photographed, it is a good idea to create diagrams of the crime scene because:",
+        "option1": "Diagramming is a common crime scene technician’s skill; however, it requires continual practice.",
+        "option2": "The process of creating a diagram can result in a digital investigator noticing an important item of evidence that would otherwise have been missed.",
+        "option3": "The quality of photographs taken at the crime scene is not known until the film is developed.",
+        "option4": "None of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When processing the digital crime scene in a violent crime investigation it is important to have to ensure that all digital evidence and findings can hold up under close scrutiny.",
+        "option1": "A good supply of electrostatic bags for holding sensitive electronic components",
+        "option2": "More than one reliable camera for photographing the crime scene",
+        "option3": "Standard operating procedures for processing a digital crime scene",
+        "option4": "A good supply of nitrile gloves",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Hackers who help in finding bugs and vulnerabilities in a system & don’t intend to crack a system are termed as",
+        "option1": "Black Hat hackers",
+        "option2": "White Hat Hackers",
+        "option3": "Grey Hat Hackers",
+        "option4": "Red Hat Hackers",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which is the legal form of hacking based on which jobs are provided in IT industries and firms?",
+        "option1": "Cracking",
+        "option2": "Non ethical Hacking",
+        "option3": "Ethical hacking",
+        "option4": "Hactivism",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "They are nefarious hackers, and their main motive is to gain financial profit by doing cybercrimes. Who are 'they' referred to here?",
+        "option1": "Gray Hat Hackers",
+        "option2": "White Hat Hackers",
+        "option3": "Hactivists",
+        "option4": "Black Hat Hackers",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "are the combination of both white as well as black hat hackers.",
+        "option1": "Grey Hat hackers",
+        "option2": "Green Hat hackers",
+        "option3": "Blue Hat Hackers",
+        "option4": "Red Hat Hackers",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The amateur or newbie in the field of hacking who don’t have many skills about coding and in-depth working of security and hacking tools are called",
+        "option1": "Sponsored Hackers",
+        "option2": "Hactivists",
+        "option3": "Script Kiddies",
+        "option4": "Whistle Blowers",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Suicide Hackers are those",
+        "option1": "who break a system for some specific purpose with or without keeping in mind that they may suffer long term imprisonment due to their malicious activity",
+        "option2": "individuals with no knowledge of codes but an expert in using hacking tools",
+        "option3": "who know the consequences of their hacking activities and hence try to prevent them by erasing their digital footprints",
+        "option4": "who are employed in an organization to do malicious activities on other firms",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Criminal minded individuals who work for terrorist organizations and steal information of nations and other secret intelligence are",
+        "option1": "State sponsored hackers",
+        "option2": "Blue Hat Hackers",
+        "option3": "Cyber Terrorists",
+        "option4": "Red Hat Hackers",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "One who disclose information to public of a company, organization, firm, government and private agency and he/she is the member or employee of that organization; such individuals are termed as",
+        "option1": "Sponsored hackers",
+        "option2": "Crackers",
+        "option3": "Hactivist",
+        "option4": "Whistleblowers",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "These types of hackers are the most skilled hackers in the hackers’ community. Who are 'they' referred to?",
+        "option1": "White hat Hackers",
+        "option2": "Elite Hackers",
+        "option3": "Licensed Penetration Testers",
+        "option4": "Red Hat Hackers",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "are those individuals who maintain and handles IT security in any firm or organization.",
+        "option1": "IT Security Engineer",
+        "option2": "Cyber Security Interns",
+        "option3": "Software Security Specialist",
+        "option4": "Security Auditor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Role of security auditor is to",
+        "option1": "secure the network",
+        "option2": "probe for safety and security of organization’s security components and systems",
+        "option3": "detects and prevents cyber-attacks and threats to organization",
+        "option4": "does penetration testing on different web applications",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "are senior level corporate employees who have the role and responsibilities of creating and designing secured network or security structures.",
+        "option1": "Ethical Hackers",
+        "option2": "Chief Technical Officer",
+        "option3": "IT Security Engineers",
+        "option4": "Security Architect",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "security consultants uses database security monitoring & scanning tools to maintain security to different data residing in the database / servers / cloud.",
+        "option1": "Database",
+        "option2": "Network",
+        "option3": "System",
+        "option4": "Hardware",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Governments hired some highly skilled hackers. These types of hackers are termed as",
+        "option1": "Special Hackers",
+        "option2": "Government Hackers",
+        "option3": "Cyber Intelligence Agents",
+        "option4": "Nation / State sponsored hackers",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Someone (from outside) who tests security issues for bugs before launching a system or application, and who is not a part of that organization or company are",
+        "option1": "Black Hat hacker",
+        "option2": "External penetration tester",
+        "option3": "Blue Hat hacker",
+        "option4": "White Hat Hacker",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The full form of Malware is",
+        "option1": "Malfunctioned Software",
+        "option2": "Multipurpose Software",
+        "option3": "Malicious Software",
+        "option4": "Malfunctioning of Security",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Who deploy Malwares to a system or network?",
+        "option1": "Criminal organizations, Black hat hackers, malware developers, cyber-terrorists",
+        "option2": "Criminal organizations, White hat hackers, malware developers, cyber-terrorists",
+        "option3": "Criminal organizations, Black hat hackers, software developers, cyber-terrorists",
+        "option4": "Criminal organizations, gray hat hackers, Malware developers, Penetration testers",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "is a code injecting method used for attacking the database of a system / website.",
+        "option1": "HTML injection",
+        "option2": "SQL Injection",
+        "option3": "Malicious code injection",
+        "option4": "XML Injection",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "XSS is abbreviated as",
+        "option1": "Extreme Secure Scripting",
+        "option2": "Cross Site Security",
+        "option3": "X Site Scripting",
+        "option4": "Cross Site Scripting",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "This attack can be deployed by infusing a malicious code in a website’s comment section. What is “this” attack referred to here?",
+        "option1": "SQL injection",
+        "option2": "HTML Injection",
+        "option3": "Cross Site Scripting (XSS)",
+        "option4": "Cross Site Request Forgery (XSRF)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When there is an excessive amount of data flow, which the system cannot handle, attack takes place.",
+        "option1": "Database crash attack",
+        "option2": "DoS (Denial of Service) attack",
+        "option3": "Data overflow Attack",
+        "option4": "Buffer Overflow attack",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Compromising a user’s session for exploiting the user’s data and do malicious activities or misuse user’s credentials is called",
+        "option1": "Session Hijacking",
+        "option2": "Session Fixation",
+        "option3": "Cookie stuffing",
+        "option4": "Session Spying",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of this is an example of physical hacking?",
+        "option1": "Remote Unauthorised access",
+        "option2": "Inserting malware loaded USB to a system",
+        "option3": "SQL Injection on SQL vulnerable site",
+        "option4": "DDoS (Distributed Denial of Service) attack",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of them is not a wireless attack?",
+        "option1": "Eavesdropping",
+        "option2": "MAC Spoofing",
+        "option3": "Wireless Hijacking",
+        "option4": "Phishing",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "An attempt to harm, damage or cause threat to a system or network is broadly termed as",
+        "option1": "Cyber-crime",
+        "option2": "Cyber Attack",
+        "option3": "System hijacking",
+        "option4": "Digital crime",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which method of hacking will record all your keystrokes?",
+        "option1": "Keyhijacking",
+        "option2": "Keyjacking",
+        "option3": "Keylogging",
+        "option4": "Keyboard monitoring",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "___ are the special type of programs used for recording and tracking user’s keystroke.",
+        "option1": "Keylogger",
+        "option2": "Trojans",
+        "option3": "Virus",
+        "option4": "Worms",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Stuxnet is a",
+        "option1": "Worm",
+        "option2": "Virus",
+        "option3": "Trojan",
+        "option4": "Antivirus",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "According to the CIA Triad, which of the below-mentioned element is not considered in the triad?",
+        "option1": "Confidentiality",
+        "option2": "Integrity",
+        "option3": "Authenticity",
+        "option4": "Availability",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "___ is the latest technology that faces an extra challenge because of CIA paradigm.",
+        "option1": "Big data",
+        "option2": "Database systems",
+        "option3": "Cloud storages",
+        "option4": "Smart dust",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "One common way to maintain data availability is",
+        "option1": "Data clustering",
+        "option2": "Data backup",
+        "option3": "Data recovery",
+        "option4": "Data Altering",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "___ is the practice and precautions taken to protect valuable information from unauthorized access, recording, disclosure or destruction.",
+        "option1": "Network Security",
+        "option2": "Database Security",
+        "option3": "Information Security",
+        "option4": "Physical Security",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "From the options below, which of them is not a vulnerability to information security?",
+        "option1": "Flood",
+        "option2": "Without deleting data, disposal of storage media",
+        "option3": "Unchanged default password",
+        "option4": "Latest patches and updates not done",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "___ platforms are used for safety and protection of information in the cloud.",
+        "option1": "Cloud workload protection platforms",
+        "option2": "Cloud security protocols",
+        "option3": "AWS",
+        "option4": "One Drive",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "___ technology is used for analyzing and monitoring traffic in network and information flow.",
+        "option1": "Cloud access security brokers (CASBs)",
+        "option2": "Managed detection and response (MDR)",
+        "option3": "Network Security Firewall",
+        "option4": "Network traffic analysis (NTA)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Compromising confidential information comes under",
+        "option1": "Bug",
+        "option2": "Threat",
+        "option3": "Vulnerability",
+        "option4": "Attack",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Lack of access control policy is a",
+        "option1": "Bug",
+        "option2": "Threat",
+        "option3": "Vulnerability",
+        "option4": "Attack",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Possible threat to any information cannot be",
+        "option1": "Reduced",
+        "option2": "Transferred",
+        "option3": "Protected",
+        "option4": "Ignored",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How many basic processes or steps are there in ethical hacking?",
+        "option1": "4",
+        "option2": "5",
+        "option3": "6",
+        "option4": "7",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "___ is the information gathering phase in ethical hacking from the target user.",
+        "option1": "Reconnaissance",
+        "option2": "Scanning",
+        "option3": "Gaining access",
+        "option4": "Maintaining access",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a reconnaissance tool or technique for information gathering?",
+        "option1": "Hping",
+        "option2": "NMAP",
+        "option3": "Google Dorks",
+        "option4": "Nexpose",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "There are ___ subtypes of reconnaissance.",
+        "option1": "2",
+        "option2": "3",
+        "option3": "4",
+        "option4": "5",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an example of active reconnaissance?",
+        "option1": "Searching public records",
+        "option2": "Telephone calls as a help desk or fake customer care person",
+        "option3": "Looking for the target’s details in the database",
+        "option4": "Searching the target’s details in paper files",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an example of passive reconnaissance?",
+        "option1": "Telephonic calls to target victim",
+        "option2": "Attacker as a fake person for Help Desk support",
+        "option3": "Talk to the target user in person",
+        "option4": "Search about target records in online people database",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of them does not come under scanning methodologies?",
+        "option1": "Vulnerability scanning",
+        "option2": "Sweeping",
+        "option3": "Port Scanning",
+        "option4": "Google Dorks",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of them is not a scanning tool?",
+        "option1": "NMAP",
+        "option2": "Nexpose",
+        "option3": "Maltego",
+        "option4": "Nessus",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following comes after the scanning phase in ethical hacking?",
+        "option1": "Scanning",
+        "option2": "Maintaining access",
+        "option3": "Reconnaissance",
+        "option4": "Gaining access",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In which phase does the hacker exploit the network or system vulnerabilities?",
+        "option1": "Scanning",
+        "option2": "Maintaining access",
+        "option3": "Reconnaissance",
+        "option4": "Gaining access",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A ___ can gain access illegally to a system if the system is not properly tested in scanning and gaining access phase.",
+        "option1": "Security officer",
+        "option2": "Malicious hacker",
+        "option3": "Security auditor",
+        "option4": "Network analyst",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following hacking tools and techniques hackers do not use for maintaining access in a system?",
+        "option1": "Rootkits",
+        "option2": "Backdoors",
+        "option3": "Trojans",
+        "option4": "Wireshark",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In ___ phase, the hackers try to hide their footprints.",
+        "option1": "Scanning",
+        "option2": "Tracks clearing",
+        "option3": "Reconnaissance",
+        "option4": "Gaining access",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of them is not a track clearing technique?",
+        "option1": "Altering log files",
+        "option2": "Tunnelling",
+        "option3": "Port Scanning",
+        "option4": "Footprint removing",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "___ is the last phase of the ethical hacking process.",
+        "option1": "Scanning",
+        "option2": "Tracks clearing",
+        "option3": "Reconnaissance",
+        "option4": "Reporting",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Ethical Hacking is also known as",
+        "option1": "Black Hat hacking",
+        "option2": "White Hat hacking",
+        "option3": "Encrypting",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Tool(s) used by ethical hackers",
+        "option1": "Scanner",
+        "option2": "Decoder",
+        "option3": "Proxy",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Vulnerability scanning in Ethical hacking finds",
+        "option1": "Strengths",
+        "option2": "Weakness",
+        "option3": "a & b",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Ethical hacking will allow to all the massive security breaches.",
+        "option1": "Remove",
+        "option2": "Measure",
+        "option3": "Reject",
+        "option4": "None of these",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Sequential steps hackers use are , , , ) Maintaining AccessB) Reconnaissance C) Scanning D) Gaining Access",
+        "option1": "B, C, D, A",
+        "option2": "B, A, C, D",
+        "option3": "A, B, C, D",
+        "option4": "D, C, B, A",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "phase in ethical hacking is known as the pre-attack phase.",
+        "option1": "Reconnaissance",
+        "option2": "Scanning",
+        "option3": "Gaining access",
+        "option4": "Maintaining access",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "SNMP stands for",
+        "option1": "Simple Network Messaging Protocol",
+        "option2": "Simple Network Mailing Protocol",
+        "option3": "Simple Network Management Protocol",
+        "option4": "Simple Network Master Protocol",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following tool is used for Network Testing and port scanning?",
+        "option1": "NetCat",
+        "option2": "SuperScan",
+        "option3": "NetScan",
+        "option4": "All of Above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Banner grabbing is often used for",
+        "option1": "White Hat Hacking",
+        "option2": "Black Hat Hacking",
+        "option3": "Gray Hat Hacking",
+        "option4": "Script Kiddies",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "An attacker can create an attack by sending hundreds or thousands of e-mails with very large attachments.",
+        "option1": "Connection Attack",
+        "option2": "Auto responder Attack",
+        "option3": "Attachment Overloading Attack",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "An email bomb is also known as",
+        "option1": "Post bomb",
+        "option2": "Internet bomb",
+        "option3": "Letter bomb",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "is any action that might compromise cyber-security.",
+        "option1": "Threat",
+        "option2": "Vulnerability",
+        "option3": "Exploit",
+        "option4": "Attack",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Existence of weakness in a system or network is called",
+        "option1": "Threat",
+        "option2": "Vulnerability",
+        "option3": "Exploit",
+        "option4": "Attack",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "is an act of hacking by the means of which a political or social message is conveyed.",
+        "option1": "Hacktivism",
+        "option2": "Whistle-blowing",
+        "option3": "Surveillance",
+        "option4": "Pseudonymization",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "is the method of developing or creating a structurally similar yet unauthentic and illegitimate data of any firm or company.",
+        "option1": "Data copying",
+        "option2": "Data masking",
+        "option3": "Data breaching",
+        "option4": "Data duplicating",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Data masking is also known as",
+        "option1": "Data obfuscation",
+        "option2": "Data copying",
+        "option3": "Data breaching",
+        "option4": "Data duplicating",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Backdoors are also known as",
+        "option1": "Trap doors",
+        "option2": "Front doors",
+        "option3": "Cover doors",
+        "option4": "Back entry",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Adware are pre-chosen developed to display ads.",
+        "option1": "banner",
+        "option2": "software",
+        "option3": "malware",
+        "option4": "shareware",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "is an attack technique occurs when excess data gets written to a memory block.",
+        "option1": "Over buffering",
+        "option2": "Buffering",
+        "option3": "Buffer overflow",
+        "option4": "Memory full",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "is an attempt to steal, spy, damage or destroy computer systems, networks or their associated information.",
+        "option1": "Cyber-security",
+        "option2": "Cyber-attack",
+        "option3": "Digital hacking",
+        "option4": "Computer security",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "is a device which secretly collects data from credit / debit cards.",
+        "option1": "Card Skimmer",
+        "option2": "Data Stealer",
+        "option3": "Card Copier",
+        "option4": "Card cloner",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "is the way or technique through which majority of the malware gets installed in our system.",
+        "option1": "Drive-by click",
+        "option2": "Drive-by redirection",
+        "option3": "Drive-by download",
+        "option4": "Drive-by injecting USB devices",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "is the hacking approach where cyber-criminals design fake websites or pages for tricking or gaining additional traffic.",
+        "option1": "Cyber-replication",
+        "option2": "Mimicking",
+        "option3": "Website-Duplication",
+        "option4": "Pharming",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "RAM-Scraping is a special kind of malware that looks (scrape) for sensitive data in the hard drive.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When you book online tickets by swiping your card, the details of the card gets stored in",
+        "option1": "database system",
+        "option2": "point-of-sale system",
+        "option3": "servers",
+        "option4": "hard drives",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "are deadly exploits where the vulnerability is known and found by cyber-criminals but not known and fixed by the owner of that application or company.",
+        "option1": "Unknown attacks",
+        "option2": "Secret attacks",
+        "option3": "Elite exploits",
+        "option4": "Zero-day exploits",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Zero-day exploits are also called",
+        "option1": "zero-day attacks",
+        "option2": "hidden attacks",
+        "option3": "un-patched attacks",
+        "option4": "un-fixed exploits",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "There are major types of ports in computers.",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3",
+        "option4": "4",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "PS2 and DVI are examples of Logical ports.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Physical ports are usually referred to as",
+        "option1": "jacks",
+        "option2": "cables",
+        "option3": "interfaces",
+        "option4": "hardware plugs",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "are logical numbers assigned for logical connections.",
+        "option1": "Logical ports",
+        "option2": "Physical ports",
+        "option3": "Networking cables",
+        "option4": "IP address",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Logical ports are also known as",
+        "option1": "numbered ports",
+        "option2": "virtual numbering",
+        "option3": "virtual ports",
+        "option4": "network protocol ports",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the port number for FTP data?",
+        "option1": "20",
+        "option2": "21",
+        "option3": "22",
+        "option4": "23",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the port number for SMTP data?",
+        "option1": "20",
+        "option2": "21",
+        "option3": "25",
+        "option4": "23",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the port number for FTP control?",
+        "option1": "20",
+        "option2": "21",
+        "option3": "22",
+        "option4": "23",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the port number for SSH (Secure Shell)?",
+        "option1": "20",
+        "option2": "21",
+        "option3": "22",
+        "option4": "23",
+        "Answer": "option3",
+        "marks": 1
+    },
+
+    {
+        "question": "Which of the following is the port number for Telnet?",
+        "option1": "20",
+        "option2": "21",
+        "option3": "22",
+        "option4": "23",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are the port numbers for IPSec service?",
+        "option1": "50, 51",
+        "option2": "49, 50",
+        "option3": "51, 52",
+        "option4": "23, 24",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are the port numbers for DHCP?",
+        "option1": "66, 67",
+        "option2": "67, 68",
+        "option3": "65, 66",
+        "option4": "68, 69",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the port number for TFTP service?",
+        "option1": "69",
+        "option2": "70",
+        "option3": "71",
+        "option4": "72",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Port 80 handles unencrypted web traffic.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Why it is important to know which service is using which port number?",
+        "option1": "For database security",
+        "option2": "For reporting data security to the auditor",
+        "option3": "For understanding which data is going through secured traffic and which is not",
+        "option4": "For checking unused data traffic",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the port number for HTTP?",
+        "option1": "79",
+        "option2": "80",
+        "option3": "81",
+        "option4": "82",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the port number for POP3?",
+        "option1": "110",
+        "option2": "111",
+        "option3": "112",
+        "option4": "113",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the port number for SNMP?",
+        "option1": "160",
+        "option2": "161",
+        "option3": "162",
+        "option4": "163",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Firewalls can be of kinds.",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3",
+        "option4": "4",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "An ethical hacker must need to have the skills of understanding the problem, networking knowledge and to know how the technology works.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "______ enables a hacker to open a piece of program or application and re-build it with further features & capabilities.",
+        "option1": "Social engineering",
+        "option2": "Reverse engineering",
+        "option3": "Planting malware",
+        "option4": "Injecting code",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following do not comes under the intangible skills of hackers?",
+        "option1": "Creative thinking",
+        "option2": "Problem-solving capability",
+        "option3": "Persistence",
+        "option4": "Smart attacking potential",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Why programming language is important for ethical hackers and security professionals?",
+        "option1": "Only to write malware",
+        "option2": "For solving problems and building tool and programs",
+        "option3": "To teach programming",
+        "option4": "To develop programs to harm others",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Understanding of ______ is also important for gaining access to a system through networks.",
+        "option1": "OS",
+        "option2": "email-severs",
+        "option3": "Network",
+        "option4": "Hardware",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "For hacking a database or accessing and manipulating data which of the following language the hacker must know?",
+        "option1": "SQL",
+        "option2": "HTML",
+        "option3": "Tcl",
+        "option4": "F#",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Information Gathering about the system or the person or about organization or network is not important.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "_______ is an ethical hacking technique used for determining what operating system (OS) is running on a remote computer.",
+        "option1": "Footprinting",
+        "option2": "Cyber-printing",
+        "option3": "OS fingerprinting",
+        "option4": "OS penetration testing",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "How many types of fingerprinting are there in ethical hacking?",
+        "option1": "5",
+        "option2": "4",
+        "option3": "3",
+        "option4": "2",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "_______ is a common tool used for doing OS fingerprinting.",
+        "option1": "Hping",
+        "option2": "Wireshark",
+        "option3": "Nmap",
+        "option4": "Nessus",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "To secure your system from such type of attack, you have to hide your system behind any VPN or proxy server.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "A _______ is a network scanning practice through which hackers can use to conclude to a point which IP address from a list of IP addresses is mapping to live hosts.",
+        "option1": "ping-based hacking",
+        "option2": "ping sweep",
+        "option3": "ping-range",
+        "option4": "pinging",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Ping sweep is also known as",
+        "option1": "ICMP sweep",
+        "option2": "SNMP sweep",
+        "option3": "SGNP sweep",
+        "option4": "SICMP sweep",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "The command _______ is used on Linux for getting the DNS and host-related information.",
+        "option1": "dnslookup",
+        "option2": "lookup",
+        "option3": "nslookup",
+        "option4": "infolookup",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "The configuration of DNS needs to be done in a secure way.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "_______ are piece of programs or scripts that allow hackers to take control over any system.",
+        "option1": "Exploits",
+        "option2": "Antivirus",
+        "option3": "Firewall by-passers",
+        "option4": "Worms",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "The process of finding vulnerabilities and exploiting them using exploitable scripts or programs are known as",
+        "option1": "infiltrating",
+        "option2": "exploitation",
+        "option3": "cracking",
+        "option4": "hacking",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Which of them is not a powerful vulnerability detecting tool?",
+        "option1": "Nessus",
+        "option2": "Nexpose",
+        "option3": "Metasploit",
+        "option4": "Nmap",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "_______ is the specific search engine for exploits where anyone can find all the exploits associated to vulnerability.",
+        "option1": "Google",
+        "option2": "Bing",
+        "option3": "Exploit-db",
+        "option4": "Exploit-engine",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is not a type of cyber crime?",
+        "option1": "Data theft",
+        "option2": "Forgery",
+        "option3": "Damage to data and systems",
+        "option4": "Installing software updates",
+        "Answer": "option4",
+        "marks": 1
+      },
+    
+      {
+        "question": "Cyber-laws are incorporated for punishing all criminals only.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Cyber-crime can be categorized into types.",
+        "option1": "4",
+        "option2": "3",
+        "option3": "2",
+        "option4": "6",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is not a type of peer-to-peer cyber-crime?",
+        "option1": "Phishing",
+        "option2": "Injecting Trojans to a target victim",
+        "option3": "MiTM",
+        "option4": "Credit card details leak in deep web",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is not an example of a computer as weapon cyber-crime?",
+        "option1": "Credit card fraudulent",
+        "option2": "Spying someone using keylogger",
+        "option3": "IPR Violation",
+        "option4": "Pornography",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following is not done by cyber criminals?",
+        "option1": "Unauthorized account access",
+        "option2": "Mass attack using Trojans as botnets",
+        "option3": "Email spoofing and spamming",
+        "option4": "Report vulnerability in any system",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "What is the name of the IT law that India is having in the Indian legislature?",
+        "option1": "India‟s Technology (IT) Act, 2000",
+        "option2": "India‟s Digital Information Technology (DIT) Act, 2000",
+        "option3": "India‟s Information Technology (IT) Act, 2000",
+        "option4": "The Technology Act, 2008",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "In which year India’s IT Act came into existence?",
+        "option1": "2000",
+        "option2": "2001",
+        "option3": "2002",
+        "option4": "2003",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "What is the full form of ITA-2000?",
+        "option1": "Information Tech Act -2000",
+        "option2": "Indian Technology Act -2000",
+        "option3": "International Technology Act -2000",
+        "option4": "Information Technology Act -2000",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "The Information Technology Act -2000 bill was passed by K. R. Narayanan.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Under which section of IT Act, stealing any digital asset or information is written a cyber-crime.",
+        "option1": "65",
+        "option2": "65-D",
+        "option3": "67",
+        "option4": "70",
+        "Answer": "option1",
+        "marks": 1
+      },
+    
+      {
+        "question": "What is the punishment in India for stealing computer documents, assets or any software’s source code from any organization, individual, or from any other means?",
+        "option1": "6 months of imprisonment and a fine of Rs. 50,000",
+        "option2": "1 year of imprisonment and a fine of Rs. 100,000",
+        "option3": "2 years of imprisonment and a fine of Rs. 250,000",
+        "option4": "3 years of imprisonment and a fine of Rs. 500,000",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "What is the updated version of the IT Act, 2000?",
+        "option1": "IT Act, 2007",
+        "option2": "Advanced IT Act, 2007",
+        "option3": "IT Act, 2008",
+        "option4": "Advanced IT Act, 2008",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "In which year the Indian IT Act, 2000 got updated?",
+        "option1": "2006",
+        "option2": "2008",
+        "option3": "2010",
+        "option4": "2012",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "What type of cyber-crime, its laws and punishments does section 66 of the Indian IT Act holds?",
+        "option1": "Cracking or illegally hack into any system",
+        "option2": "Putting antivirus into the victim",
+        "option3": "Stealing data",
+        "option4": "Stealing hardware components",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "What is the ethics behind training how to hack a system?",
+        "option1": "To think like hackers and know how to defend such attacks",
+        "option2": "To hack a system without the permission",
+        "option3": "To hack a network that is vulnerable",
+        "option4": "To corrupt software or service using malware",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "Performing a shoulder surfing in order to check other’s password is ethical practice.",
+        "option1": "a good",
+        "option2": "not so good",
+        "option3": "very good social engineering practice",
+        "option4": "a bad",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "______ has now evolved to be one of the most popular automated tools for unethical hacking.",
+        "option1": "Automated apps",
+        "option2": "Database software",
+        "option3": "Malware",
+        "option4": "Worms",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Leaking your company data to the outside network without prior permission of senior authority is a crime.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "______ is the technique used in business organizations and firms to protect IT assets.",
+        "option1": "Ethical hacking",
+        "option2": "Unethical hacking",
+        "option3": "Fixing bugs",
+        "option4": "Internal data-breach",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "The legal risks of ethical hacking include lawsuits due to ______ of personal data.",
+        "option1": "stealing",
+        "option2": "disclosure",
+        "option3": "deleting",
+        "option4": "hacking",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Before performing any penetration test, through legal procedure, which key points listed below is not mandatory?",
+        "option1": "Know the nature of the organization",
+        "option2": "Characteristics of work done in the firm",
+        "option3": "System and network",
+        "option4": "Type of broadband company used by the firm",
+        "Answer": "option4",
+        "marks": 1
+      },
+      {
+        "question": "An ethical hacker must ensure that proprietary information of the firm does not get leaked.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "After performing the ethical hacking, the hacker should never disclose client information to other parties.",
+        "option1": "hacking",
+        "option2": "cracking",
+        "option3": "penetration testing",
+        "option4": "",
+        "Answer": "option3",
+        "marks": 1
+      }
+
+    
+]
+
+module.exports = { data: ETIUT2};
