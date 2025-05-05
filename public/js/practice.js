@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let jsonData = document.getElementById('questions-data').value;
   const cleanedJsonData = jsonData.replace(/&quot;/g, '"');
   const questions = JSON.parse(cleanedJsonData);
-
+  console.log(questions);
   const questionContainer = document.getElementById('question-container');
   const questionNumber = document.getElementById('question-number');
   const prevBtn = document.getElementById('prev-btn');

@@ -166,6 +166,7 @@ app.get("/practice/:id", isLoggedIn, async (req, res) => {
 
     res.render("testapp/practice.ejs", {
         allquestions,
+        subjectName,
         title: `MSBTE MCQ Test for ${subjectName} - Practice & Learn`,
         description: `Free MSBTE MCQs for ${subjectName}. Practice online tests, get instant results, and improve your marks.`,
         keywords: `mcq, mcqs, ${subjectName}, practice, msbte`
