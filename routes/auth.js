@@ -12,6 +12,13 @@ router.get("/signup", (req, res) => {
 router.post("/signup", async (req, res) => {
     try {
         const { username, email, password } = req.body;
+
+        // Validate username for spaces and uppercase letters
+        if (/\s/.test(username) || /[A-Z]/.test(username)) {
+            req.flash("error", "Username must be lowercase and must not contain spaces.");
+            return res.redirect("/auth/signup");
+        }        
+
         const user = new User({ username, email, password });
 
         const registeredUser = await User.register(user, password);

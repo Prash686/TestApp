@@ -75,7 +75,7 @@ const isLoggedIn = (req, res, next) => {
 };
 
 // Routes
-app.get("/", isLoggedIn, async (req, res) => {
+app.get("/", async (req, res) => {
     res.render("testapp/home.ejs", {
         title: "MSBTE MCQ Practice - ETI, Management, EST, AJP MCQs",
         description: "Practice and test your knowledge with MCQs for ETI, Management, EST, AJP and other subjects. Improve your skills with interactive tests on msbtemcq.in.",
