@@ -102,7 +102,7 @@ app.get('/ads.txt', (req, res) => {
 app.get("/auth/signup", (req, res) => {
     res.render("auth/signup.ejs", {
         title: "Sign Up - MSBTE MCQ Practice",
-        description: "Create an account to access MCQ practice tests for ETI, Management, EST, AJP and more on msbtemcq.in.",
+        description: "access MCQ practice tests for ETI, Management, EST, AJP and more on msbtemcq.in.",
         keywords: "signup, register, mcq, practice, msbte"
     });
 });
@@ -129,7 +129,7 @@ app.post("/auth/signup", async (req, res) => {
 app.get("/auth/login", (req, res) => {
     res.render("auth/login.ejs", {
         title: "Login - MSBTE MCQ Practice",
-        description: "Login to access your account and practice MCQs for ETI, Management, EST, AJP and more on msbtemcq.in.",
+        description: "practice MCQs for ETI, Management, EST, AJP and more on msbtemcq.in.",
         keywords: "login, mcq, practice, msbte"
     });
 });
