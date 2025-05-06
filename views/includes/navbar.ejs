@@ -26,28 +26,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="/"><i class="fas fa-home nav-i"></i> Home</a>
-              <a class="nav-link" href="/#features"><i class="fas fa-list nav-i"></i> Features</a>
-              <a class="nav-link" href="/TestApp/practice"><i class="fas fa-pen nav-i"></i> Practice</a>
-              <a class="nav-link" href="/TestApp/test"><i class="fas fa-clipboard nav-i"></i> Test</a>
-              <a class="nav-link" href="/subjects"><i class="fas fa-book nav-i"></i> Subjects</a>
-              <a class="nav-link" href="/courses"><i class="fas fa-graduation-cap nav-i"></i> Courses</a>
-<a class="nav-link" href="/about"><i class="fas fa-info-circle nav-i"></i> About</a>
-              <div class="dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" id="profileDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                      <i class="fas fa-user nav-i"></i> Profile
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="profileDropdown">
-                    <% if(!currentUser) {%>
-                        <li><a class="dropdown-item" href="/auth/login">Login</a></li>
-                        <li><a class="dropdown-item" href="/auth/signup">Sign Up</a></li>
-                    <% } %>
-                    <% if(currentUser) {%>
-                        <li><a class="dropdown-item" href="/auth/logout">Logout</a></li>
-                    <% } %>
-                  </ul>
-              </div>
-
+              <span class="nav-link" style="font-weight: normal; font-size: 1rem;">
+                Explore all subjects for MCQ practice including ETI, Management, EST, AJP and more on msbtemcq.in.
+              </span>
           </div>
       </div>
   </div>
