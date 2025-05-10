@@ -52582,4 +52582,5343 @@ const ETIUT2 =[
     
 ]
 
-module.exports = { data: ETIUT2};
+const BEE = [
+    {
+      "question": "Permeability in a magnetic circuit corresponds to ................in an electric circuit",
+      "option1": "Resistance",
+      "option2": "Resistivity",
+      "option3": "Conductivity",
+      "option4": "Conductance",
+      "Answer": "option3",
+      "marks": 1
+    },
+    {
+      "question": "Those magnetic materials are best suited for making armature and transformer cores which have ...........permeability and ...........hysteresis loss",
+      "option1": "High, high",
+      "option2": "Low, high",
+      "option3": "High, low",
+      "option4": "Low, low",
+      "Answer": "option3",
+      "marks": 1
+    },
+    {
+      "question": "The property of a material which opposes the creation of magnetic flux in it is known as",
+      "option1": "Reluctivity",
+      "option2": "Magnetomotive force",
+      "option3": "Permeance",
+      "option4": "Reluctance",
+      "Answer": "option4",
+      "marks": 1
+    },
+    {
+      "question": "The unit of magnetic flux is",
+      "option1": "Henry",
+      "option2": "Weber",
+      "option3": "Ampere-turn/weber",
+      "option4": "Ampere/meter",
+      "Answer": "option2",
+      "marks": 1
+    },
+    {
+      "question": "The unit of reluctance is",
+      "option1": "Meter/henry",
+      "option2": "Henry/meter",
+      "option3": "Henry",
+      "option4": "1/henry",
+      "Answer": "option4",
+      "marks": 1
+    },
+    {
+      "question": "Reciprocal of reluctance is",
+      "option1": "Reluctivity",
+      "option2": "Permeance",
+      "option3": "Permiability",
+      "option4": "Susceptibility",
+      "Answer": "option2",
+      "marks": 1
+    },
+    {
+      "question": "Conductivity is analogous to",
+      "option1": "Retentivity",
+      "option2": "Resistivity",
+      "option3": "Permeability",
+      "option4": "Inductance",
+      "Answer": "option3",
+      "marks": 1
+    },
+    {
+      "question": "An air gap is usually inserted in magnetic circuits to",
+      "option1": "Increase m.m.f",
+      "option2": "Increase the flux",
+      "option3": "Prevent saturation",
+      "option4": "None of the above",
+      "Answer": "option3",
+      "marks": 1
+    },
+    {
+      "question": "Magnetic effect of current was discovered by",
+      "option1": "Oersted",
+      "option2": "Faraday",
+      "option3": "Bohr",
+      "option4": "Ampere",
+      "Answer": "option1",
+      "marks": 1
+    },
+    {
+      "question": "Inside the magnet, the field lines moves",
+      "option1": "From north to south",
+      "option2": "From south to north",
+      "option3": "Away from south pole",
+      "option4": "Away from north pole",
+      "Answer": "option1",
+      "marks": 1
+    },
+    {
+      "question": "Direction of rotation of a coil in electric motor is determined by",
+      "option1": "Fleming’s right hand rule",
+      "option2": "Fleming’s left hand rule",
+      "option3": "Faraday law of electromagnetic inductors",
+      "option4": "None of above",
+      "Answer": "option2",
+      "marks": 1
+    },
+    {
+      "question": "We can induce the current in a coil by",
+      "option1": "Moving the coil in a magnetic field",
+      "option2": "By changing the magnetic field around it",
+      "option3": "By changing the orientation of the coil in the magnetic field",
+      "option4": "All of above",
+      "Answer": "option1",
+      "marks": 1
+    },
+    {
+      "question": "A D.C generator works on the principle of",
+      "option1": "Ohm’s law",
+      "option2": "Joule’s law of heating",
+      "option3": "Faraday’s law of electromagnetic induction",
+      "option4": "None of the above",
+      "Answer": "option3",
+      "marks": 1
+    },
+    {
+        "question": "Which among the following is true about Faraday’s law of Induction?",
+        "option1": "An emf is induced in a conductor when it cuts the magnetic flux",
+        "option2": "An emf is induced in a conductor when it moves parallel to the magnetic field",
+        "option3": "An emf is induced in a conductor when it moves perpendicular to the magnetic field",
+        "option4": "An emf is induced in a conductor when it is just entering a magnetic field",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is proportional to the magnitude of the induced emf in the circuit?",
+        "option1": "Rate of change of current in the circuit",
+        "option2": "Rate of change of resistance offered",
+        "option3": "Rate of change of magnetic flux",
+        "option4": "Rate of change of voltage",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Faraday’s laws are result of the conservation of which quantity?",
+        "option1": "Momentum",
+        "option2": "Energy",
+        "option3": "Charge",
+        "option4": "Magnetic field",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The induced emf persists only as long as the change in magnetic flux continues.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The polarity of induced emf is given by",
+        "option1": "Ampere’s circuital law",
+        "option2": "Biot-Savart law",
+        "option3": "Lenz’s law",
+        "option4": "Fleming’s right hand rule",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When an insulated wire coil is connected to a battery, the pointer of the galvanometer is deflected due to",
+        "option1": "the induced current produced",
+        "option2": "the coil acts like a magnet",
+        "option3": "the number of turns in the coil of the galvanometer is changed",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Give the SI unit of self-inductance.",
+        "option1": "Farad",
+        "option2": "Ampere",
+        "option3": "Henry",
+        "option4": "Maxwell",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Mutual inductance is called the inertia of electricity.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the self-inductance of the coil, if the magnetic flux of 10 microwebers is linked with a coil when a current of 5 mA flows through it?",
+        "option1": "20 mH",
+        "option2": "5 mH",
+        "option3": "2 mH",
+        "option4": "250 mH",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What are the positive and negative terminals of direct current (DC) known to have?",
+        "option1": "fixed polarity",
+        "option2": "no polarity",
+        "option3": "always negative polarity",
+        "option4": "variable polarity",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The peak value of alternating supply is 600 V. What is its rms voltage?",
+        "option1": "410 V",
+        "option2": "312.5 V",
+        "option3": "424.3 V",
+        "option4": "130 V",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Find the average value of current when the current that are equidistant are 4A, 5A and 6A.",
+        "option1": "5A",
+        "option2": "6A",
+        "option3": "15A",
+        "option4": "10A",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "RMS stands for ________",
+        "option1": "Root Mean Square",
+        "option2": "Root Mean Sum",
+        "option3": "Root Maximum sum",
+        "option4": "Root Minimum Sum",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the effective value of current?",
+        "option1": "RMS current",
+        "option2": "Average current",
+        "option3": "Instantaneous current",
+        "option4": "Total current",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a sinusoidal wave, average current is always _______ rms current.",
+        "option1": "Greater than",
+        "option2": "Less than",
+        "option3": "Equal to",
+        "option4": "Not related",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "For a rectangular wave, average current is ______ rms current.",
+        "option1": "Greater than",
+        "option2": "Less than",
+        "option3": "Equal to",
+        "option4": "Not related",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Unit of Magnetic Flux is",
+        "option1": "Tesla",
+        "option2": "Weber",
+        "option3": "Weber - metre",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "EMF Stands for",
+        "option1": "Electromechanical force",
+        "option2": "Electromagnetic force",
+        "option3": "Electromotive force",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Volt is equal to",
+        "option1": "Joule/Coulomb",
+        "option2": "Ampere/Seconds",
+        "option3": "Joule/Seconds",
+        "option4": "Coulomb/Seconds",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "B in B-H curve is known as",
+        "option1": "Reluctance",
+        "option2": "Magnetizing Force",
+        "option3": "Magnetic flux density",
+        "option4": "Magnetic Intensity",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The Unit of Magnetic Flux Density is",
+        "option1": "Tesla",
+        "option2": "Weber",
+        "option3": "Weber - metre",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "MMF stands for",
+        "option1": "Magnetic Memory field",
+        "option2": "Magnetic Material Force",
+        "option3": "Magneto Motive Force",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "H in B-H curve is known as",
+        "option1": "Reluctance",
+        "option2": "Magnetizing Force",
+        "option3": "Magnetic flux density",
+        "option4": "Magnetic Intensity",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Hysteresis in magnetic circuit is phenomenon of",
+        "option1": "Lagging of B behind H",
+        "option2": "Lagging of H behind B",
+        "option3": "Setting up constant flux",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The SI Unit of Actual Permeability of free space is",
+        "option1": "Henry",
+        "option2": "Henry/Metre",
+        "option3": "Weber - metre",
+        "option4": "Farad/Metre",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Magnetic flux passes more readily through",
+        "option1": "Wood",
+        "option2": "Air",
+        "option3": "Iron",
+        "option4": "Vacuum",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "MMF in magnetic circuit corresponds to in electric circuit",
+        "option1": "Potential Difference",
+        "option2": "EMF",
+        "option3": "Current",
+        "option4": "Resistance",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The B-H curve of______will not be a straight line",
+        "option1": "Wood",
+        "option2": "Air",
+        "option3": "Soft Iron",
+        "option4": "Copper",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Direction of induced EMF can be found out from",
+        "option1": "Faradays law",
+        "option2": "Amperes law",
+        "option3": "Fleming right hand Rule",
+        "option4": "Lenz´s law",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following material has least area of Hysteresis loop",
+        "option1": "Wrought Iron",
+        "option2": "Hard Steel",
+        "option3": "Soft Iron",
+        "option4": "Silicon Steel",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "If charge Q is 4 coulombs and time t is 1 seconds then current I is",
+        "option1": "1 Ampere",
+        "option2": "5 Ampere",
+        "option3": "3 Ampere",
+        "option4": "4 Ampere",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "If 3 joules work is done to charge a body to one coulomb Q then voltage V is",
+        "option1": "1 Volt",
+        "option2": "2 Volt",
+        "option3": "3 Volt",
+        "option4": "4 Volt",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "If current I is 7 amperes and time is 1 seconds then charge Q is",
+        "option1": "6 coulombs",
+        "option2": "7 coulombs",
+        "option3": "8 coulombs",
+        "option4": "1 coulombs",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The unit of frequency is",
+        "option1": "Cycle",
+        "option2": "Cycle-second",
+        "option3": "Hertz/second",
+        "option4": "Hertz",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The frequency of an alternating current is",
+        "option1": "The speed with which the alternator runs",
+        "option2": "The number of cycles generated in one minute",
+        "option3": "The number of waves passing through a point in one second",
+        "option4": "The number of electrons passing through a point in one second",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The power factor of an AC circuit is equal to",
+        "option1": "Cosine of the phase angle",
+        "option2": "Sine of the phase angle",
+        "option3": "Unity for a capacitive circuit",
+        "option4": "Unity for a inductive circuit",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If two sinusoids of the same frequency but of different amplitudes and phase angles are subtracted, the resultant is",
+        "option1": "A sinusoid of the same frequency",
+        "option2": "A sinusoid of half the original frequency",
+        "option3": "A sinusoid of double the frequency",
+        "option4": "Not a sinusoid",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Form factor for a sine wave is",
+        "option1": "1.414",
+        "option2": "0.707",
+        "option3": "1.11",
+        "option4": "0.637",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In an A.C. circuit power is dissipated in",
+        "option1": "Resistance only",
+        "option2": "Inductance only",
+        "option3": "Capacitance only",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The voltage of domestic supply is 220 V. This value represents",
+        "option1": "Mean value",
+        "option2": "R.M.S value",
+        "option3": "Peak value",
+        "option4": "Average value",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The power consumed in a circuit element will be least when the phase difference between the current and voltage is",
+        "option1": "180°",
+        "option2": "90°",
+        "option3": "60°",
+        "option4": "0°",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The power consumed by 230 volt, 10 ampere and 0.8 power factor circuit is",
+        "option1": "2300 Watt",
+        "option2": "1840 Watt",
+        "option3": "230 Watt",
+        "option4": "1000 Watt",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Power factor of the following pure circuit will be zero",
+        "option1": "Resistance",
+        "option2": "Inductance",
+        "option3": "Capacitance",
+        "option4": "Both (B) and (C)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The magnetic flux density in a magnetic field in which flux is 600 Microweber and area is 0.1 m² is",
+        "option1": "6000 microtesla",
+        "option2": "600 microtesla",
+        "option3": "6 tesla",
+        "option4": "0.6 tesla",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Can we apply Kirchhoff’s law to magnetic circuits?",
+        "option1": "Yes",
+        "option2": "No",
+        "option3": "Depends on the circuit",
+        "option4": "Insufficient information provided",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an advantage of 3 Phase AC over 1 Phase AC System?",
+        "option1": "More output power",
+        "option2": "Less space required to produce same power",
+        "option3": "Self-starting of machine is possible",
+        "option4": "All of them",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "All the rules and laws of D.C. circuit also apply to A.C. circuit containing",
+        "option1": "Capacitance only",
+        "option2": "Inductance only",
+        "option3": "Resistance only",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Capacitive reactance is more when",
+        "option1": "Capacitance and frequency of supply is less",
+        "option2": "Capacitance is less and frequency of supply is more",
+        "option3": "Capacitance is more and frequency of supply is less",
+        "option4": "Capacitance and frequency of supply is more",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Pure inductive circuit",
+        "option1": "Consumes some power on average",
+        "option2": "Does not take power at all from the line",
+        "option3": "Stores energy in magnetic field and again returns to source",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Power factor of the following pure circuit will be zero",
+        "option1": "Resistance",
+        "option2": "Inductance",
+        "option3": "Capacitance",
+        "option4": "Both (B) and (C)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In Unbalanced star or Delta connected load all phase and line values of current & voltage will be ……",
+        "option1": "Unequal",
+        "option2": "Depends on type of load",
+        "option3": "Equal",
+        "option4": "None of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Delta connection is also known as____________",
+        "option1": "Y-connection",
+        "option2": "Mesh connection",
+        "option3": "Either Y-connection or mesh connection",
+        "option4": "Neither Y-connection nor mesh connection",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Ra is resistance at A, Rb is resistance at B, Rc is resistance at C in star connection. After transforming to delta, what is resistance between B and C?",
+        "option1": "Rc + Rb + Rc*Rb/Ra",
+        "option2": "Rc + Rb + Ra*Rb/Rc",
+        "option3": "Ra + Rb + Ra*Rc/Rb",
+        "option4": "Rc + Rb + Rc*Ra/Rb",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a delta-connected load, the relation between line voltage and the phase voltage is?",
+        "option1": "Line voltage > phase voltage",
+        "option2": "Line voltage < phase voltage",
+        "option3": "Line voltage = phase voltage",
+        "option4": "Line voltage >= phase voltage",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A polyphase system is generated by______?",
+        "option1": "Having two or more generator windings separated by equal electrical angle.",
+        "option2": "Having generator windings at equal distances",
+        "option3": "None of the above",
+        "option4": "A and C",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a three-phase AC circuit, the sum of all three generated voltages is _______ ?",
+        "option1": "Infinite (∞)",
+        "option2": "Zero (0)",
+        "option3": "One (1)",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "For a star connected three-phase AC circuit ——",
+        "option1": "Phase voltage is equal to line voltage and phase current is three times the line current",
+        "option2": "Phase voltage is square root three times line voltage and phase current is equal to line current",
+        "option3": "Phase voltage is equal to line voltage and line current is equal to phase current",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the type of current obtained by finding the square of the currents and then finding their average and then finding the square root?",
+        "option1": "RMS current",
+        "option2": "Average current",
+        "option3": "Instantaneous current",
+        "option4": "Total current",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Find the total current in the circuit if two currents of 4+5j flow in the circuit.",
+        "option1": "4+5j A",
+        "option2": "4A",
+        "option3": "5A",
+        "option4": "8+10j A",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In balanced star or Delta connected load all phase and line values of current & voltage will be…….",
+        "option1": "Unequal",
+        "option2": "Depends on type of load",
+        "option3": "Equal",
+        "option4": "None of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the correct expression of ω?",
+        "option1": "ω=2π",
+        "option2": "ω=2πf",
+        "option3": "ω=πf",
+        "option4": "ω=2f²",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Find the value of ω if the frequency is 5Hz?",
+        "option1": "3.14 rad/s",
+        "option2": "31.4 rad/s",
+        "option3": "34 rad/s",
+        "option4": "341 rad/s",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When one sine wave passes through the zero following the other, it is _________",
+        "option1": "Leading",
+        "option2": "Lagging",
+        "option3": "Neither leading nor lagging",
+        "option4": "Either leading or lagging",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The time axis of an AC phasor represents?",
+        "option1": "Time",
+        "option2": "Phase angle",
+        "option3": "Voltage",
+        "option4": "Current",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The length of the phasor represents?",
+        "option1": "Magnitude of the quantity",
+        "option2": "Direction of the quantity",
+        "option3": "Neither magnitude nor direction",
+        "option4": "Either magnitude or direction",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The average power supplied to an inductor over one complete alternating current cycle is:",
+        "option1": "0",
+        "option2": "IV²",
+        "option3": "I²",
+        "option4": "IR²",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Ohm’s law for magnetic circuits is _________",
+        "option1": "F=ϕS",
+        "option2": "F=ϕ/S",
+        "option3": "F=ϕ²S",
+        "option4": "F=ϕ/S²",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What happens to the MMF when the magnetic flux decreases?",
+        "option1": "Increases",
+        "option2": "Decreases",
+        "option3": "Remains constant",
+        "option4": "Becomes zero",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Calculate the MMF when the magnetic flux is 5Wb and the reluctance is 3A/Wb.",
+        "option1": "10At",
+        "option2": "10N",
+        "option3": "15N",
+        "option4": "15At",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A ring having a cross-sectional area of 500 mm², a circumference of 400 mm and ϕ=800 microWb has a coil of 200 turns wound around it. Calculate the flux density of the ring.",
+        "option1": "1.6T",
+        "option2": "2.6T",
+        "option3": "3.6T",
+        "option4": "4.6T",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is Transformer?",
+        "option1": "Transformer is a device used to convert low alternating voltage to a high alternating voltage",
+        "option2": "Transformer is a device used to convert alternating current to direct current",
+        "option3": "Transformer is a device used to convert low alternating current to a high alternating current",
+        "option4": "Transformers are used only for low alternating voltage",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the function of a transformer?",
+        "option1": "Transformer is used to step down or up the AC voltages and currents",
+        "option2": "Transformer is used to step down or up the DC voltages and currents",
+        "option3": "Transformer converts DC to AC voltages",
+        "option4": "Transformer converts AC to DC voltages",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the working principle of a Transformer?",
+        "option1": "Transformer works on the principle of self-induction",
+        "option2": "Transformer works on the principle of mutual induction",
+        "option3": "Transformer works on the principle of ampere law",
+        "option4": "Transformer works on the principle of coulomb law",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Transformer ratings are given in _____________",
+        "option1": "kVA",
+        "option2": "HP",
+        "option3": "kVAR",
+        "option4": "kW",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the current transformer?",
+        "option1": "Transformer used with an A.C. voltmeter",
+        "option2": "Transformer used with an A.C. ammeter",
+        "option3": "Transformer used with a D.C. voltmeter",
+        "option4": "Transformer used with a D.C. ammeter",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Transformer core is generally made of ___________",
+        "option1": "Cannot be determined",
+        "option2": "Can be made with any of the above methods",
+        "option3": "By stacking a large number of sheets together",
+        "option4": "Single block of core material",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The purpose of the transformer core is to provide ____________",
+        "option1": "Low reluctance path",
+        "option2": "High inductive path",
+        "option3": "High capacitive path",
+        "option4": "High reluctance path",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Transformers are generally designed for ___________",
+        "option1": "One-time use",
+        "option2": "Off-site problem solving",
+        "option3": "Short-time use",
+        "option4": "On-site problem solving",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Primary winding of a transformer ______________",
+        "option1": "Could either be a low voltage or high voltage winding",
+        "option2": "Is always a high voltage winding",
+        "option3": "Cannot be determined",
+        "option4": "Is always a low voltage winding",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "An ideal transformer will have maximum efficiency at a load such that _____________",
+        "option1": "Copper loss > Iron loss",
+        "option2": "Cannot be determined",
+        "option3": "Copper loss = Iron loss",
+        "option4": "Copper loss < Iron loss",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Power transformers are designed to have maximum efficiency at",
+        "option1": "Full load",
+        "option2": "50% load",
+        "option3": "80% load",
+        "option4": "No load",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Transformer core are laminated in order to",
+        "option1": "Reduce hysteresis loss",
+        "option2": "Reduce hysteresis & eddy current loss",
+        "option3": "Minimize eddy current loss",
+        "option4": "Copper loss",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Breather is provided in a transformer to",
+        "option1": "Absorb moisture of air during breathing",
+        "option2": "Provide cold air in the transformer",
+        "option3": "The filter of transformer oil",
+        "option4": "None of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The leakage flux in a transformer depends upon the value of",
+        "option1": "Frequency",
+        "option2": "Mutual Flux",
+        "option3": "Load current",
+        "option4": "Applied Voltage",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In a transformer ideally the resistance between its primary and secondary is",
+        "option1": "Zero",
+        "option2": "Infinite",
+        "option3": "1000 ohm",
+        "option4": "100 ohm",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which winding in a transformer has more number of turns?",
+        "option1": "Secondary winding",
+        "option2": "Primary winding",
+        "option3": "High voltage winding",
+        "option4": "Low voltage winding",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "An autotransformer can be used as",
+        "option1": "Step up device",
+        "option2": "Step down device",
+        "option3": "Both step up and step down",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In an Auto Transformer, The Primary and Secondary are_______ Coupled",
+        "option1": "Electrically only",
+        "option2": "Magnetically only",
+        "option3": "Both electrically & magnetically",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are applications of Auto-transformer?",
+        "option1": "Used as switch",
+        "option2": "Used as Variac",
+        "option3": "Used for voltage correction",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the major disadvantage of Autotransformer?",
+        "option1": "No primary and secondary wire isolation",
+        "option2": "Insulation failure of primary winding may damage the whole autotransformer",
+        "option3": "Individual earthing of winding is not possible",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The size of the transformer core mainly depends on",
+        "option1": "Frequency",
+        "option2": "Area of core",
+        "option3": "Flux density of core",
+        "option4": "Both frequency and area of core",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Auto-transformer makes effective saving on copper and copper losses, when its transformation ratio is",
+        "option1": "Approximately equal to one",
+        "option2": "Less than one",
+        "option3": "Greater than one",
+        "option4": "Cannot be found",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Auto-transformer makes effective saving on copper and copper losses, when its transformation ratio is",
+        "option1": "Approximately equal to one",
+        "option2": "Less than one",
+        "option3": "Greater than one",
+        "option4": "Cannot be found",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Total windings present in an autotransformer are __________",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3",
+        "option4": "4",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What are the modes in which power can be transferred in an autotransformer?",
+        "option1": "Conduction",
+        "option2": "Induction",
+        "option3": "Conduction and Induction",
+        "option4": "Cannot be said",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What will happen if a DC shunt motor is connected across an AC supply?",
+        "option1": "Will run at normal speed",
+        "option2": "Will not run",
+        "option3": "Will run at lower speed",
+        "option4": "Burn due to heat produced in the field winding",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What will happen if the back emf of a DC motor vanishes suddenly?",
+        "option1": "The motor will stop",
+        "option2": "The motor will continue to run",
+        "option3": "The armature may burn",
+        "option4": "The motor will run noisy",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What will happen, with the increase in speed of a DC motor?",
+        "option1": "Back emf increases but line current falls.",
+        "option2": "Back emf falls and line current increases.",
+        "option3": "Both back emf as well as line current increase.",
+        "option4": "Both back emf as well as line current fall.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which part will surely tell that the given motor is a DC motor and not an AC type?",
+        "option1": "Winding",
+        "option2": "Shaft",
+        "option3": "Commutator",
+        "option4": "Stator",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Direction of rotation of a motor is determined by ____________",
+        "option1": "Faraday’s law",
+        "option2": "Lenz’s law",
+        "option3": "Coulomb’s law",
+        "option4": "Fleming’s left-hand rule",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The current drawn by the armature of a DC motor is directly proportional to ________________",
+        "option1": "Torque",
+        "option2": "Speed",
+        "option3": "The voltage across the terminals",
+        "option4": "Cannot be determined",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which power is mentioned on the nameplate of a motor?",
+        "option1": "Gross power",
+        "option2": "Power drawn in kVA",
+        "option3": "Power drawn in kW",
+        "option4": "Output power available at the shaft",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following quantity will decrease if supply voltage is increased?",
+        "option1": "Starting torque",
+        "option2": "Operating speed",
+        "option3": "Full-load current",
+        "option4": "Cannot be determined",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The main parts of a DC motor are",
+        "option1": "Yoke",
+        "option2": "Armature core",
+        "option3": "Commutator",
+        "option4": "All Of The Above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Application of Universal Motor",
+        "option1": "Robotics",
+        "option2": "Textile industries",
+        "option3": "Mixer",
+        "option4": "Automotive",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Where is the field winding mounted in a DC machine?",
+        "option1": "Stator",
+        "option2": "Rotor",
+        "option3": "Absent",
+        "option4": "Anywhere on stator or rotor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What are the materials used for brushes in DC machines?",
+        "option1": "Iron",
+        "option2": "Carbon",
+        "option3": "Aluminum",
+        "option4": "Steel",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Function of yoke is to provide the return path for magnetic flux.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following part is used in construction of DC machine but not in AC machine?",
+        "option1": "Armature Winding",
+        "option2": "Field winding",
+        "option3": "Commutator",
+        "option4": "Shaft",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In normal dc machines operating at full-load conditions, the most powerful electromagnet is",
+        "option1": "Field winding",
+        "option2": "Interpole Winding",
+        "option3": "Interpole and compensating winding together",
+        "option4": "Armature winding",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following d.c. motor has highest speed at no-load condition?",
+        "option1": "Cumulative compound motor",
+        "option2": "Shunt motor",
+        "option3": "Differentially compound motor",
+        "option4": "Series motor",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Differentially compound DC motors are used in applications requiring",
+        "option1": "High starting torque",
+        "option2": "Low starting torque",
+        "option3": "Variable speed",
+        "option4": "Frequent on-off cycles",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A universal motor is one which",
+        "option1": "Is available universally",
+        "option2": "Can be marketed internationally",
+        "option3": "Can be operated either on dc or ac supply",
+        "option4": "Runs at dangerously high speed on no-load",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Speed of the universal motor is",
+        "option1": "Dependent on frequency of supply",
+        "option2": "Proportional to frequency of supply",
+        "option3": "Independent of frequency of supply",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following motor can be referred as a universal motor?",
+        "option1": "DC shunt motor",
+        "option2": "DC compound motor",
+        "option3": "Permanent magnet motor",
+        "option4": "DC series motor",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Universal motor have which of the following application?",
+        "option1": "Domestic pump.",
+        "option2": "Food mixer.",
+        "option3": "Traction.",
+        "option4": "Lift.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Universal motor is used in vacuum cleaners, table fans and portable drilling machine.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The rotor of a stepper motor has no",
+        "option1": "Windings",
+        "option2": "Commutator",
+        "option3": "Brushes",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A stepping motor is a ____________ device.",
+        "option1": "Mechanical",
+        "option2": "Electrical",
+        "option3": "Analogue",
+        "option4": "Incremental",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The rotational speed of a given stepper motor is determined solely by the",
+        "option1": "Shaft load",
+        "option2": "Step pulse frequency",
+        "option3": "Polarity of stator current",
+        "option4": "Magnitude of stator current",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A stepper motor may be considered as a ____________ converter.",
+        "option1": "Dc to dc",
+        "option2": "Ac to ac",
+        "option3": "Dc to ac",
+        "option4": "Digital-to-analogue",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which type of motor uses brushes and a commutator?",
+        "option1": "DC motor",
+        "option2": "AC motor",
+        "option3": "Induction motor",
+        "option4": "Synchronous motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which type of motor does not require a separate power source for the rotor?",
+        "option1": "Synchronous motor",
+        "option2": "Induction motor",
+        "option3": "Brushless DC motor",
+        "option4": "Universal motor",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the primary function of the stator in an electric motor?",
+        "option1": "To provide mechanical support",
+        "option2": "To generate a rotating magnetic field",
+        "option3": "To convert electrical energy into mechanical energy",
+        "option4": "To regulate the motor’s speed",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which type of motor is commonly used in household appliances like refrigerators and air conditioners?",
+        "option1": "Single-phase induction motor",
+        "option2": "Synchronous motor",
+        "option3": "Brushless DC motor",
+        "option4": "Universal motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What determines the speed of a DC motor?",
+        "option1": "Number of poles",
+        "option2": "Applied voltage",
+        "option3": "Armature resistance",
+        "option4": "Back EMF",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which type of motor provides the highest starting torque?",
+        "option1": "DC series motor",
+        "option2": "DC shunt motor",
+        "option3": "AC induction motor",
+        "option4": "Brushless DC motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which motor is suitable for applications requiring variable speed control?",
+        "option1": "DC motor",
+        "option2": "AC motor",
+        "option3": "Stepper motor",
+        "option4": "Synchronous motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which motor is commonly used in ceiling fans?",
+        "option1": "Single-phase induction motor",
+        "option2": "Synchronous motor",
+        "option3": "Brushless DC motor",
+        "option4": "Universal motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which type of motor is used in robotics and precision control applications?",
+        "option1": "Stepper motor",
+        "option2": "AC induction motor",
+        "option3": "Synchronous motor",
+        "option4": "Brushless DC motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which motor is commonly used in electric pumps?",
+        "option1": "Single-phase induction motor",
+        "option2": "Synchronous motor",
+        "option3": "Brushless DC motor",
+        "option4": "Universal motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which motor type is suitable for high-speed applications?",
+        "option1": "Brushless DC motor",
+        "option2": "DC series motor",
+        "option3": "Induction motor",
+        "option4": "Universal motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which motor type is commonly used in household washing machines?",
+        "option1": "Universal motor",
+        "option2": "Induction motor",
+        "option3": "Brushless DC motor",
+        "option4": "Stepper motor",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which motor type is commonly used in robotic vacuum cleaners?",
+        "option1": "Brushless DC motor",
+        "option2": "DC series motor",
+        "option3": "Induction motor",
+        "option4": "Stepper motor",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the primary disadvantage of a universal motor?",
+        "option1": "Limited speed range",
+        "option2": "Lower efficiency",
+        "option3": "Larger size",
+        "option4": "Complex control circuitry",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which motor type is commonly used in electric fans?",
+        "option1": "Synchronous motor",
+        "option2": "DC shunt motor",
+        "option3": "Induction motor",
+        "option4": "Universal motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which motor type is commonly used in CNC machines and 3D printers?",
+        "option1": "Stepper motor",
+        "option2": "DC shunt motor",
+        "option3": "Synchronous motor",
+        "option4": "Brushless DC motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the primary disadvantage of a stepper motor?",
+        "option1": "Limited speed range",
+        "option2": "Higher cost",
+        "option3": "Larger size",
+        "option4": "Complex control circuitry",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which motor type is commonly used in electric bicycles?",
+        "option1": "Brushless DC motor",
+        "option2": "DC series motor",
+        "option3": "Induction motor",
+        "option4": "Universal motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which motor type is commonly used in electric drills and power tools?",
+        "option1": "Universal motor",
+        "option2": "Synchronous motor",
+        "option3": "Induction motor",
+        "option4": "Brushless DC motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which motor type is commonly used in electric cars?",
+        "option1": "Brushless DC motor",
+        "option2": "Synchronous motor",
+        "option3": "Induction motor",
+        "option4": "Universal motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which motor type is commonly used in dishwashers and washing machines?",
+        "option1": "Universal motor",
+        "option2": "Synchronous motor",
+        "option3": "Induction motor",
+        "option4": "Brushless DC motor",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Differentially compound DC motors are used in applications requiring _______",
+        "option1": "High starting torque",
+        "option2": "Low starting torque",
+        "option3": "Variable speed",
+        "option4": "Frequent on-off cycles",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which DC motor is more preferred for elevators?",
+        "option1": "Shunt motor",
+        "option2": "Series motor",
+        "option3": "Differential compound motor",
+        "option4": "Cumulative compound motor",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which DC motor has got maximum self-loading property?",
+        "option1": "Series motor",
+        "option2": "Shunt motor",
+        "option3": "Cumulative compound motor",
+        "option4": "Differential compound motor",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "For the same H.P. rating and full load speed, which of the following motor has poor starting torque?",
+        "option1": "Series motor",
+        "option2": "Shunt motor",
+        "option3": "Cumulative compound motor",
+        "option4": "Differential compound motor",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "DC motor is to drive a load which is almost zero for certain part of the load cycle and peak value for short duration. We will select __________",
+        "option1": "Series motor",
+        "option2": "Shunt motor",
+        "option3": "Compound motor",
+        "option4": "Any DC motors",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The direction of rotation of universal motor can be reversed by reversing the flow of current through",
+        "option1": "Armature winding",
+        "option2": "Field winding",
+        "option3": "Either armature winding or field winding",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Universal motor is used in vacuum cleaners, table fans and portable drilling machine.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_______ Generator is used in arc welding purposes.",
+        "option1": "Differential compound dc",
+        "option2": "Dc series",
+        "option3": "Cumulative compounded dc",
+        "option4": "Shunt",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which value of the flux is involved in the EMF equation of transformer?",
+        "option1": "Average value",
+        "option2": "R.M.S. Value",
+        "option3": "Critical value",
+        "option4": "Maximum value",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What criteria’s are necessary to consider when selecting a stepper motor?",
+        "option1": "Mechanical Motion",
+        "option2": "Inertial Load",
+        "option3": "Speed Requirements",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following motor rotates in discrete angular steps?",
+        "option1": "Servo motor",
+        "option2": "DC motor",
+        "option3": "Stepper motor",
+        "option4": "Linear Induction Motor (LIM)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which type of device is a stepper motor?",
+        "option1": "Electromechanical",
+        "option2": "Electrochemical",
+        "option3": "Embedded system",
+        "option4": "Electromagnetic",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Stepper motors are extremely reliable.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following is not the type of a stepper motor?",
+        "option1": "Variable reluctance",
+        "option2": "Permanent magnet",
+        "option3": "Hybrid",
+        "option4": "Variable magnet",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A stepper motor is a bad choice whenever control movement is required.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which type of stepper motors have low cost and low-resolution motor?",
+        "option1": "Permanent magnet stepper motor",
+        "option2": "Variable reluctance stepper motor",
+        "option3": "Hybrid stepper motor",
+        "option4": "DC motor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not the main selection criterion of a stepper motor?",
+        "option1": "Resolution required",
+        "option2": "Drive mechanism component required",
+        "option3": "Torque required",
+        "option4": "Speed",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the formula to calculate the step angle of a stepper motor?",
+        "option1": "(360*ph.)/nph",
+        "option2": "(ph/nph)",
+        "option3": "(nph/ph)",
+        "option4": "(360*nph)/ph",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a DC series motor, if the armature current is halved, the torque of the motor will be equal to",
+        "option1": "100% of the previous value",
+        "option2": "50% of the previous value",
+        "option3": "25% of the previous value",
+        "option4": "10% of the previous value",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The slot edges in a DC machine are made of",
+        "option1": "mild steel",
+        "option2": "silicon steel",
+        "option3": "fibre",
+        "option4": "cast iron",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In a shunt dc machine, the armature and field winding resistance are respectively",
+        "option1": "of higher values",
+        "option2": "of lower values",
+        "option3": "high and low",
+        "option4": "low and high",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The principle of dynamically induced emf is utilized in",
+        "option1": "generator",
+        "option2": "transformer",
+        "option3": "thermocouple",
+        "option4": "choke",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a transformer, the winding is tapped in the middle",
+        "option1": "to avoid the radial forces on the windings",
+        "option2": "to reduce the insulation level of the windings",
+        "option3": "to provide a mechanical balance to the windings",
+        "option4": "to eliminate the axial forces on the windings",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the working principle of DC motor?",
+        "option1": "Fleming’s right hand rule",
+        "option2": "Fleming’s left hand rule",
+        "option3": "Maxwell’s second law",
+        "option4": "Maxwell’s third law",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of CPR with respect to motor movement?",
+        "option1": "Clocks per rotation",
+        "option2": "Counts per revolution",
+        "option3": "Counts per rotation",
+        "option4": "Clocks per revolution",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "AC motors do not have brushes.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What does 'MCB' stand for?",
+        "option1": "Miniature circuit breaker",
+        "option2": "Mini circuit breaker",
+        "option3": "Miniature capacitor breaker",
+        "option4": "Mini Capacitance breaker",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the principal on which MCB (Miniature circuit breaker) works?",
+        "option1": "Magnetic effect of electric current",
+        "option2": "Lenz law",
+        "option3": "Faradays law of electric current",
+        "option4": "Flemings Right hand rule",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the standard colour of ac supply ground wire in India?",
+        "option1": "Red",
+        "option2": "Magenta",
+        "option3": "Pink",
+        "option4": "Green",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the standard colour of ac supply live wire in India?",
+        "option1": "Red",
+        "option2": "Magenta",
+        "option3": "Pink",
+        "option4": "Green",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the standard colour of ac supply neutral wire in India?",
+        "option1": "Red",
+        "option2": "Black",
+        "option3": "Pink",
+        "option4": "Green",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Green and yellow striped wire is also used to indicate ac (alternating current) supply live wire.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Live wire and hot wire are same.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Fuse is a device which is used for ___________.",
+        "option1": "protection",
+        "option2": "amplification",
+        "option3": "impedance matching",
+        "option4": "none of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Fuse are connected in Parallel.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Fuse are used in circuit for ________________.",
+        "option1": "Equipment Safety",
+        "option2": "Human Safety",
+        "option3": "None of Above",
+        "option4": "a & b are correct",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Fuse is an Electronic Component used for ___________.",
+        "option1": "current limiting",
+        "option2": "power limiting",
+        "option3": "a & b are correct",
+        "option4": "none of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The melting point of Fuse element is ____________.",
+        "option1": "low",
+        "option2": "medium",
+        "option3": "high",
+        "option4": "all are correct",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Fuse wire is always connected with _________.",
+        "option1": "live",
+        "option2": "neutral",
+        "option3": "earth",
+        "option4": "all are correct",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Digital multimeter is used for _________",
+        "option1": "measuring a.c. and d.c. current, voltage and resistance",
+        "option2": "measuring a.c. current and voltage",
+        "option3": "measuring d.c. current and resistance",
+        "option4": "measuring a.c. voltage and resistance",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Current is converted to voltage __________",
+        "option1": "through a voltmeter",
+        "option2": "through a resistance",
+        "option3": "through an ammeter",
+        "option4": "through a galvanometer",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Quantities are digitised using _________",
+        "option1": "D/A converter",
+        "option2": "oscillator",
+        "option3": "amplifier",
+        "option4": "A/D converter",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Analog multimeters require power supply.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Output of a digital multimeter is _________",
+        "option1": "mechanical",
+        "option2": "optical",
+        "option3": "electrical",
+        "option4": "analog",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Basic building blocks of digital multimeter are _________",
+        "option1": "oscillator, amplifier",
+        "option2": "diode, op amp",
+        "option3": "rectifier, schmitt trigger",
+        "option4": "A/D, attenuator, counter",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Resistance is measured using _________",
+        "option1": "constant current source",
+        "option2": "constant voltage source",
+        "option3": "variable current source",
+        "option4": "variable voltage source",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A.C. voltages are measured using _________",
+        "option1": "oscillators and op amps",
+        "option2": "rectifiers and filters",
+        "option3": "resistor and capacitor",
+        "option4": "inductor and resistor",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which material is commonly used for making the arch of circuit breakers?",
+        "option1": "Copper",
+        "option2": "Tungsten",
+        "option3": "Aluminium",
+        "option4": "Copper tungsten alloy",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The full form of ELCB is",
+        "option1": "Earth Line Circuit Breaker",
+        "option2": "Earth Line Current Breaker",
+        "option3": "Earth Leakage Current Breaker",
+        "option4": "Earth Leakage Circuit Breaker",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The rated current of MCB is",
+        "option1": "Less than 10 A",
+        "option2": "Less than 100 A",
+        "option3": "More than 100A",
+        "option4": "More than 200A",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is earthing?",
+        "option1": "connecting electrical machines to earth",
+        "option2": "providing a connection to the ground",
+        "option3": "connecting the electrical machines to source",
+        "option4": "providing a source of current",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is an earth electrode?",
+        "option1": "electrode that is connected to earth",
+        "option2": "material used for earthing",
+        "option3": "electrode connected to the circuit",
+        "option4": "electrode which is connected to the mains",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Earth electrode provides ____________",
+        "option1": "high resistance",
+        "option2": "medium resistance",
+        "option3": "low resistance",
+        "option4": "very high resistance",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How is the condition of an earth electrode measured?",
+        "option1": "by measuring the voltage",
+        "option2": "by measuring the current",
+        "option3": "by measuring the power",
+        "option4": "by measuring resistance",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In a three phase system, the neutral is _________",
+        "option1": "earthed",
+        "option2": "connected to low voltage",
+        "option3": "connected to high voltage",
+        "option4": "not connected",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Earthing does not help in protecting the equipment.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "After earthing, the different parts of an electrical machinery are at _________",
+        "option1": "infinite potential",
+        "option2": "intermediate potential",
+        "option3": "zero potential",
+        "option4": "undefined potential",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Connection of the various parts of a circuit to earth has a _________",
+        "option1": "medium resistance",
+        "option2": "high resistance",
+        "option3": "very high resistance",
+        "option4": "very low resistance",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Specific resistance of soil is _________",
+        "option1": "changes from soil to soil",
+        "option2": "is constant",
+        "option3": "depends on the circuit connected to it",
+        "option4": "depends on the supply voltage",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "State true or false: Earthing helps prevent the risk of fire hazards.",
+        "option1": "TRUE",
+        "option2": "FALSE",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Earthing helps to prevent",
+        "option1": "Water leakage",
+        "option2": "Current leakage",
+        "option3": "Storms",
+        "option4": "Device upgrade",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Choose YES or NO: Electric appliances like iron boxes, television, and refrigerator are connected to the earth wire while operating.",
+        "option1": "YES",
+        "option2": "NO",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which among the following statement is true related to fuse?",
+        "option1": "Greater the current smaller is the time taken by the fuse to blow out.",
+        "option2": "Greater the current greater is the time taken by the fuse to blow out.",
+        "option3": "The current is directly proportion to the blow out time of fuse.",
+        "option4": "Is dependent on the temperature and atmospheric conditions.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "For a current upto 10A which material is used as the fusing element?",
+        "option1": "Copper",
+        "option2": "Silver",
+        "option3": "Alloy of lead and tin",
+        "option4": "Zinc",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is fusing factor?",
+        "option1": "The ratio of current rating of the fuse to the minimum fusing current.",
+        "option2": "The ratio of minimum fusing current to the current rating of the fuse.",
+        "option3": "The ratio of maximum fusing current to the current rating of the fuse.",
+        "option4": "The ratio of minimum fusing current to the voltage rating of the fuse.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What should be the value of fusing factor?",
+        "option1": "Equal to zero",
+        "option2": "Equal to one",
+        "option3": "Less than one",
+        "option4": "More than one",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which is a type of solid state switch?",
+        "option1": "NPN Diode",
+        "option2": "Bipolar junction transistor",
+        "option3": "DPDT (Double pole double throw) Switch",
+        "option4": "Push button Switch",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Earth resistance is dependent on",
+        "option1": "Depth of earth electrode in earth",
+        "option2": "Size of earth electrode and earth wire",
+        "option3": "Temperature of soil surrounding the earth electrode",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In case of HRC fuse a current carrying element is surrounded by ___________ to quench the arc.",
+        "option1": "Oil",
+        "option2": "Water",
+        "option3": "Quartz powder",
+        "option4": "Sf6 gas",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The combination of fuse and switch is called as ___________",
+        "option1": "SFU",
+        "option2": "FSU",
+        "option3": "Both a and b",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In SFU the fuses are _____________",
+        "option1": "Stationary",
+        "option2": "Moving",
+        "option3": "Adjustable",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "It is not necessary to change a _________ after tripping",
+        "option1": "Fuse",
+        "option2": "MCB",
+        "option3": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A current flowing from live point of ac supply to earth is called as ___________ current.",
+        "option1": "Load",
+        "option2": "Source",
+        "option3": "Leakage",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "_______ is used for preventing electric shocks.",
+        "option1": "MCB",
+        "option2": "MCCB",
+        "option3": "ELCB",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "MCB provides protection against _______________",
+        "option1": "Short circuit",
+        "option2": "Overload",
+        "option3": "Earth fault",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The length of earthing electrode is about",
+        "option1": "0.5 meter",
+        "option2": "1.0 meter",
+        "option3": "2.5 meter",
+        "option4": "5 meter",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Why is there a sudden increase in current in Zener diode?",
+        "option1": "Due to the rupture of ionic bonds",
+        "option2": "Due to rupture of covalent bonds",
+        "option3": "Due to viscosity",
+        "option4": "Due to potential difference",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the semiconductor diode used as?",
+        "option1": "Oscillator",
+        "option2": "Amplifier",
+        "option3": "Rectifier",
+        "option4": "Modulator",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is rectification?",
+        "option1": "Process of conversion of ac into dc",
+        "option2": "Process of conversion of low ac into high ac",
+        "option3": "Process of conversion of dc into ac",
+        "option4": "Process of conversion of low dc into high dc",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is a Zener diode used as?",
+        "option1": "Oscillator",
+        "option2": "Regulator",
+        "option3": "Rectifier",
+        "option4": "Filter",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Forward biasing of p-n junction offers infinite resistance.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When a junction diode is reverse biased, what causes current across the junction?",
+        "option1": "Diffusion of charges",
+        "option2": "Nature of material",
+        "option3": "Drift of charges",
+        "option4": "Both drift and diffusion of charges",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What can a p-n junction diode be used as?",
+        "option1": "Condenser",
+        "option2": "Regulator",
+        "option3": "Amplifier",
+        "option4": "Rectifier",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In a PN junction with no external voltage, the electric field between acceptor and donor ion is called a",
+        "option1": "Peak",
+        "option2": "Barrier",
+        "option3": "Threshold",
+        "option4": "Path",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In a PN junction the potential barrier is due to the charges on either side of the junction, these charges are",
+        "option1": "Majority carriers",
+        "option2": "Minority carriers",
+        "option3": "Both (a) and (b)",
+        "option4": "Fixed donor and accepter ions",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The capacitance of a reverse-biased PN junction",
+        "option1": "Increases as reverse bias is increased",
+        "option2": "Decreases as reverse bias is increased",
+        "option3": "Increases as reverse bias is decreased",
+        "option4": "Is significantly low",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "For a PN junction diode, the current in reverse bias maybe",
+        "option1": "Few milliamperes",
+        "option2": "Between 0.2 A and 15 A",
+        "option3": "Few amperes",
+        "option4": "Few micro or nano amperes",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When PN junction is in forward bias, by increasing the battery voltage",
+        "option1": "Circuit resistance increases",
+        "option2": "Current through P_N junction increases",
+        "option3": "Current through P_N junction decreases",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When a PN junction is reverse biased",
+        "option1": "Holes and electrons tend to concentrate towards the junction",
+        "option2": "The barrier tends to break down",
+        "option3": "Holes and electrons tend to move away from the junction",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A PN junction",
+        "option1": "Has low resistance in forward as well as reverse directions",
+        "option2": "Has high resistance in forward as well as reverse directions",
+        "option3": "Conducts in the forward direction only",
+        "option4": "Conducts in the reverse direction only",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A PN junction is said to be forward-biased when",
+        "option1": "The positive terminal of the battery is connected to P-side and the negative side to the N-side",
+        "option2": "Junction is earthed",
+        "option3": "N-side is connected directly to the p-side",
+        "option4": "The positive terminal of the battery is connected to N-side and the negative side to P-side.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "PN Junction is also called ________.",
+        "option1": "diode",
+        "option2": "transistor",
+        "option3": "triode",
+        "option4": "inductor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The P-type region of diode is called ________.",
+        "option1": "cathode",
+        "option2": "anode",
+        "option3": "grid",
+        "option4": "both a & b",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The N-type of region of PN Junction diode is called Cathode. True / False",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When a diode is forward bias then it shows the conventional direction of current.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How can we identify the positive and negative leads of a diode?",
+        "option1": "colour coding",
+        "option2": "colour band",
+        "option3": "both a & b",
+        "option4": "none is correct",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "PN Junction diode is a _________ device.",
+        "option1": "one way",
+        "option2": "two way",
+        "option3": "double way",
+        "option4": "b & c are correct",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The barrier potential of germanium is .3v.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The barrier potential of silicon is ________.",
+        "option1": ".3v",
+        "option2": ".7v",
+        "option3": ".5v",
+        "option4": ".4v",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The reverse saturation (Is) or maximum (Io) current during reverse bias of a PN junction diode depends on _________.",
+        "option1": "temperature",
+        "option2": "doping level",
+        "option3": "physical size of junction",
+        "option4": "all are correct",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How to protect a diode from increasing voltages of breakdown level?",
+        "option1": "Filter capacitor",
+        "option2": "Limiting resistor",
+        "option3": "Zener diode",
+        "option4": "None is correct",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Zener diodes are also known as",
+        "option1": "Voltage regulators",
+        "option2": "Forward bias diode",
+        "option3": "Breakdown diode",
+        "option4": "None of the mentioned",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is true about the resistance of a Zener diode?",
+        "option1": "It has an incremental resistance",
+        "option2": "It has dynamic resistance",
+        "option3": "The value of the resistance is the inverse of the slope of the i-v characteristics of the Zener diode",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Zener diode is designed to specifically work in which region without getting damaged?",
+        "option1": "Active region",
+        "option2": "Breakdown region",
+        "option3": "Forward bias",
+        "option4": "Reverse bias",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the level of doping in Zener Diode?",
+        "option1": "Lightly Doped",
+        "option2": "Heavily Doped",
+        "option3": "Moderately Doped",
+        "option4": "No doping",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When the reverse voltage across the Zener diode is increased _____________",
+        "option1": "The value of saturation current increases",
+        "option2": "No effect",
+        "option3": "The value of cut-off potential increases",
+        "option4": "The value of cut-off potential decreases",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Zener Diode is mostly used as ____________",
+        "option1": "Half-wave rectifier",
+        "option2": "Full-wave rectifier",
+        "option3": "Voltage Regulator",
+        "option4": "LED",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In normal junctions, the breakdown is same as Zener breakdown.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The depletion region of the Zener diode is ____________",
+        "option1": "Thick",
+        "option2": "Normal",
+        "option3": "Very Thin",
+        "option4": "Very thick",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A light emitting diode is _________",
+        "option1": "Heavily doped",
+        "option2": "Lightly doped",
+        "option3": "Intrinsic semiconductor",
+        "option4": "Zener diode",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following materials can be used to produce infrared LED?",
+        "option1": "Si",
+        "option2": "GaAs",
+        "option3": "CdS",
+        "option4": "PbS",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The reverse breakdown voltage of LED is very low.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What should be the band gap of the semiconductors to be used as LED?",
+        "option1": "0.5 eV",
+        "option2": "1 eV",
+        "option3": "1.5 eV",
+        "option4": "1.8 eV",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What should be the biasing of the LED?",
+        "option1": "Forward bias",
+        "option2": "Reverse bias",
+        "option3": "Forward bias than Reverse bias",
+        "option4": "No biasing required",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Increase in the forward current always increases the intensity of an LED.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which process of the Electron-hole pair is responsible for emitting of light?",
+        "option1": "Generation",
+        "option2": "Movement",
+        "option3": "Recombination",
+        "option4": "Diffusion",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a characteristic of LED?",
+        "option1": "Fast action",
+        "option2": "High Warm-up time",
+        "option3": "Low operational voltage",
+        "option4": "Long life",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "LEDs work on the principle of ______.",
+        "option1": "Electromagnetic induction",
+        "option2": "Conduction",
+        "option3": "Electroluminescence",
+        "option4": "Induction",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "State true or false: High warm-up time is needed for LEDs.",
+        "option1": "TRUE",
+        "option2": "FALSE",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Aluminium alloys are used to obtain _______ light.",
+        "option1": "Red",
+        "option2": "Orange",
+        "option3": "Yellow",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Why is there a sudden increase in current in Zener diode?",
+        "option1": "Due to the rupture of ionic bonds",
+        "option2": "Due to rupture of covalent bonds",
+        "option3": "Due to viscosity",
+        "option4": "Due to potential difference",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In a pure semiconductor crystal, if current flows due to breakage of crystal bonds, then what is the semiconductor is called?",
+        "option1": "Acceptor",
+        "option2": "Donor",
+        "option3": "Intrinsic semiconductor",
+        "option4": "Extrinsic semiconductor",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In a p-type semiconductor, germanium is doped with which of the following?",
+        "option1": "Gallium",
+        "option2": "Copper",
+        "option3": "Phosphorous",
+        "option4": "Nitrogen",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What are the majority charge carriers in P-type semiconductors?",
+        "option1": "Electrons",
+        "option2": "Holes",
+        "option3": "Negative Ions",
+        "option4": "Positive Ions",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is operated in forward bias?",
+        "option1": "LED",
+        "option2": "Zener diode",
+        "option3": "Photodiode",
+        "option4": "Solar cell",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+    "question": "In a shunt capacitor filter, the mechanism that helps the removal of ripples is",
+    "option1": "The current passing through the capacitor",
+    "option2": "The property of capacitor to store electrical energy",
+    "option3": "The voltage variations produced by shunting the capacitor",
+    "option4": "Uniform charge flow through the rectifier",
+    "Answer": "option2",
+    "marks": 1
+    },
+    {
+    "question": "The charge (q) lost by the capacitor during the discharge time for shunt capacitor filter.",
+    "option1": "IDC*T",
+    "option2": "IDC/T",
+    "option3": "IDC*2T",
+    "option4": "IDC/2T",
+    "Answer": "option1",
+    "marks": 1
+    },
+    {
+    "question": "Which of the following are true about capacitor filter?",
+    "option1": "It is also called as capacitor output filter",
+    "option2": "It is electrolytic",
+    "option3": "It is connected in parallel to load",
+    "option4": "It helps in storing the magnetic energy",
+    "Answer": "option2",
+    "marks": 1
+    },
+    {
+    "question": "The rms ripple voltage (Vrms) of a shunt filter is",
+    "option1": "IDC/2√3",
+    "option2": "IDC2√3",
+    "option3": "IDC/√3",
+    "option4": "IDC√3",
+    "Answer": "option1",
+    "marks": 1
+    },
+    {
+    "question": "What is the effect of an inductor filter on a multi frequency signal?",
+    "option1": "Dampens the AC signal",
+    "option2": "Dampens the DC signal",
+    "option3": "To reduce ripples",
+    "option4": "To change the current",
+    "Answer": "option1",
+    "marks": 1
+    },
+    {
+    "question": "The inductor filter gives a smooth output because",
+    "option1": "It offers infinite resistance to ac components",
+    "option2": "It offers infinite resistance to dc components",
+    "option3": "Pulsating dc signal is allowed",
+    "option4": "The ac signal is amplified",
+    "Answer": "option1",
+    "marks": 1
+    },
+    {
+    "question": "Which of the following can be a source of supply in dc power supplies?",
+    "option1": "Battery",
+    "option2": "Dry cell",
+    "option3": "Full wave rectifier",
+    "option4": "All of the mentioned",
+    "Answer": "option4",
+    "marks": 1
+    },
+    {
+    "question": "Which of the application’s filters used for?",
+    "option1": "Reducing ripples",
+    "option2": "Increasing ripples",
+    "option3": "Increasing phase change",
+    "option4": "Increasing amplitude",
+    "Answer": "option1",
+    "marks": 1
+    },
+    {
+    "question": "Which of the following represent a change of output voltage when load current is increased?",
+    "option1": "Line regulation",
+    "option2": "Load regulation",
+    "option3": "Current regulation",
+    "option4": "Voltage regulation",
+    "Answer": "option2",
+    "marks": 1
+    },
+    {
+    "question": "Why zener diodes are provided in dc supply?",
+    "option1": "For forward conduction",
+    "option2": "For reverse conduction",
+    "option3": "For reference voltage",
+    "option4": "For increasing amplitude",
+    "Answer": "option3",
+    "marks": 1
+    },
+    {
+    "question": "Stability of output voltage is entirely depended on ____________",
+    "option1": "Stability of transformer",
+    "option2": "Stability of zener diode",
+    "option3": "Quality of wires",
+    "option4": "Capacitor values",
+    "Answer": "option2",
+    "marks": 1
+    },
+    {
+        "question": "Which of the following are not the standard value of Zener diodes?",
+        "option1": "5.1 V",
+        "option2": "5.6 V",
+        "option3": "5.8V",
+        "option4": "6.2V",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Which of the following can be used in series with a Zener diode so that combination has almost zero temperature coefficient?",
+        "option1": "Diode",
+        "option2": "Resistor",
+        "option3": "Transistor",
+        "option4": "MOSFET",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "_________ is used for critical loads where temporary power failure can cause a great deal of inconvenience.",
+        "option1": "SMPS",
+        "option2": "UPS",
+        "option3": "MPS",
+        "option4": "RCCB",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "__________ is used in the rotating type UPS system to supply the mains.",
+        "option1": "DC motor",
+        "option2": "Self excited DC generator",
+        "option3": "Alternator",
+        "option4": "Battery bank",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Static UPS requires __________",
+        "option1": "only rectifier",
+        "option2": "only inverter",
+        "option3": "both inverter and rectifier",
+        "option4": "none of the mentioned",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Usually __________ batteries are used in the UPS systems.",
+        "option1": "NC",
+        "option2": "Li-On",
+        "option3": "Lead acid",
+        "option4": "All of the mentioned",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "What is the expansion of UPS?",
+        "option1": "Uninterrupted Power System",
+        "option2": "Uninterrupted Power Supply",
+        "option3": "Uninterrupted Power Solution",
+        "option4": "Uninterrupted Power Section",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Which electrical / electronic device requires UPS?",
+        "option1": "Air conditioner",
+        "option2": "Micro wave oven",
+        "option3": "Computer",
+        "option4": "Television",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "What is the number of capacitors and inductors used in a CLC filter?",
+        "option1": "1, 2 respectively",
+        "option2": "2, 1 respectively",
+        "option3": "1, 1 respectively",
+        "option4": "2, 2 respectively",
+        "Answer": "option2",
+        "marks": 1
+      },
+      {
+        "question": "Major part of the filtering is done by the first capacitor in a CLC filter because _________",
+        "option1": "The capacitor offers a very low reactance to the ripple frequency",
+        "option2": "The capacitor offers a very high reactance to the ripple frequency",
+        "option3": "The inductor offers a very low reactance to the ripple frequency",
+        "option4": "The inductor offers a very high reactance to the ripple frequency",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "The inductor is placed in the L section filter because_________",
+        "option1": "It offers zero resistance to DC component",
+        "option2": "It offers infinite resistance to DC component",
+        "option3": "It bypasses the DC component",
+        "option4": "It bypasses the AC component",
+        "Answer": "option1",
+        "marks": 1
+      },
+      {
+        "question": "In practice the output from the diode rectifier has",
+        "option1": "AC component only",
+        "option2": "DC component only",
+        "option3": "AC + DC component",
+        "option4": "None of the mentioned",
+        "Answer": "option3",
+        "marks": 1
+      },
+      {
+        "question": "Choose the correct statement",
+        "option1": "The AC component in the output of rectifier does the useful work",
+        "option2": "The AC component in the output of rectifier increases the efficiency of the system",
+        "option3": "The AC component in the output of rectifier causes ohmic losses",
+        "option4": "The AC component in the output of rectifier does not affect the operation",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "An L filter is connected ________",
+        "option1": "in series",
+        "option2": "in parallel",
+        "option3": "in both series and parallel",
+        "option4": "none of the mentioned",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In case of an L filter connected with a rectifier in series with the load, it offers ________ impedance to ac whereas _______ resistance to dc respectively.",
+        "option1": "high, high",
+        "option2": "high, low",
+        "option3": "low, high",
+        "option4": "low, low",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In case of a C filter, the AC is not allowed to pass to the load by",
+        "option1": "offering it high impedance",
+        "option2": "offering it low impedance",
+        "option3": "short circuiting the AC component",
+        "option4": "open circuiting the AC component",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A capacitor filter or C filter can be used in a rectifier by connecting it",
+        "option1": "in parallel with the load",
+        "option2": "in series with the load",
+        "option3": "in parallel with the supply",
+        "option4": "in series with the supply",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a shunt capacitor filter, the mechanism that helps the removal of ripples is_________",
+        "option1": "The current passing through the capacitor",
+        "option2": "The property of capacitor to store electrical energy",
+        "option3": "The voltage variations produced by shunting the capacitor",
+        "option4": "Uniform charge flow through the rectifier",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The cut-in point of a capacitor filter is_________",
+        "option1": "The instant at which the conduction starts",
+        "option2": "The instant at which the conduction stops",
+        "option3": "The time after which the output is not filtered",
+        "option4": "The time during which the output is perfectly filtered",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The rectifier current is a short duration pulses which cause the diode to act as a_________",
+        "option1": "Voltage regulator",
+        "option2": "Mixer",
+        "option3": "Switch",
+        "option4": "Oscillator",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The output waveform of CLC filter is superimposed by a waveform referred to as_________",
+        "option1": "Square wave",
+        "option2": "Triangular wave",
+        "option3": "Saw tooth wave",
+        "option4": "Sine wave",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A PN junction has a thickness of the order",
+        "option1": "1 cm",
+        "option2": "1 mm",
+        "option3": "10-6 m",
+        "option4": "10-12 cm",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In the depletion region of an unbiased PN junction diode there are",
+        "option1": "Only electrons",
+        "option2": "Only holes",
+        "option3": "Both electrons and holes",
+        "option4": "Only fixed ions",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In Zener diode, the Zener breakdown takes place",
+        "option1": "Below 6 V",
+        "option2": "At 6 V",
+        "option3": "Above 6 V",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A Zener diode when biased correctly",
+        "option1": "Never overheats",
+        "option2": "Has a constant voltage across it",
+        "option3": "Acts as a fixed resistance",
+        "option4": "Has a constant current passing through it",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Depletion region behaves as",
+        "option1": "Semiconductor",
+        "option2": "Insulator",
+        "option3": "Conductor",
+        "option4": "High resistance",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The advantages of a pi-flter is_________",
+        "option1": "low output voltage",
+        "option2": "low PIV",
+        "option3": "low ripple factor",
+        "option4": "high voltage regulation",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The basic purpose of filter at the output of a rectifier is to",
+        "option1": "minimize variations in ac input signal",
+        "option2": "suppress harmonics in rectified output",
+        "option3": "remove ripples from the rectified output",
+        "option4": "stabilize dc output voltage",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is correct about the ripple factor of LC filter?",
+        "option1": "Increases with the load current",
+        "option2": "increases with the load resistance",
+        "option3": "remains constant with the load current",
+        "option4": "has the lowest value",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Commercial power supplies have voltage regulation ________",
+        "option1": "of 10%",
+        "option2": "of 15%",
+        "option3": "of 25%",
+        "option4": "within 1%",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In an unregulated power supply, if load current increases, the output voltage __________",
+        "option1": "Remains the same",
+        "option2": "Decreases",
+        "option3": "Increases",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Two similar 15 V Zeners are connected in series. What is the regulated output voltage?",
+        "option1": "15 V",
+        "option2": "5 V",
+        "option3": "30 V",
+        "option4": "45 V",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The voltage regulator output impedance is _______",
+        "option1": "Very small",
+        "option2": "Large",
+        "option3": "Infinite",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A Zener diode utilises ………… characteristic for voltage regulation",
+        "option1": "Forward",
+        "option2": "Reverse",
+        "option3": "Both forward and reverse",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A Zener diode is used as a …………… voltage regulating device",
+        "option1": "Shunt",
+        "option2": "Series",
+        "option3": "Series-shunt",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is true about the temperature coefficient or TC of the Zener diode?",
+        "option1": "For Zener voltage less than 5V, TC is negative",
+        "option2": "For Zener voltage around 5V, TC can be made zero",
+        "option3": "For higher values of Zener voltage, TC is positive",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Zener diodes can be effectively used in voltage regulator. However, they are these days being replaced by more efficient",
+        "option1": "Operational Amplifier",
+        "option2": "MOSFET",
+        "option3": "Integrated Circuits",
+        "option4": "None of the mentioned",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is true about the resistance of a Zener diode?",
+        "option1": "It has an incremental resistance",
+        "option2": "It has dynamic resistance",
+        "option3": "The value of the resistance is the inverse of the slope of the i-v characteristics of the Zener diode",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "BJT stands for __________",
+        "option1": "Bi-Junction Transfer",
+        "option2": "Blue Junction Transistor",
+        "option3": "Bipolar Junction Transistor",
+        "option4": "Base Junction Transistor",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The doped region in a transistor are ________",
+        "option1": "Emitter and Collector",
+        "option2": "Emitter and Base",
+        "option3": "Collector and Base",
+        "option4": "Emitter, Collector and Base",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which region of the transistor is highly doped?",
+        "option1": "Emitter",
+        "option2": "Base",
+        "option3": "Collector",
+        "option4": "Both Emitter and Collector",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Both the junctions in a transistor are forward biased.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which junction is forward biased when transistor is used as an amplifier?",
+        "option1": "Emitter-Base",
+        "option2": "Emitter-Collector",
+        "option3": "Collector-Base",
+        "option4": "No junction is forward biased",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If Ie is the current entering the emitter, Ib is the current leaving the base and Ic is the current leaving the collector in a p-n-p transistor used for amplification, what is the relation between Ie, Ib and Ic?",
+        "option1": "Ie < Ic",
+        "option2": "Ic < Ib",
+        "option3": "Ib < Ic",
+        "option4": "Ie < Ib + Ic",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In the active state, the emitter-base junction has a higher resistance than the collector-base junction.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A low input to the transistor gives __________",
+        "option1": "Low output",
+        "option2": "High Output",
+        "option3": "Normal Output",
+        "option4": "No Output",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "From the output characteristics of a transistor, one cannot calculate __________",
+        "option1": "IB",
+        "option2": "VBE",
+        "option3": "Ic",
+        "option4": "VCE",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the expression for the Current Amplification factor?",
+        "option1": "ΔIcΔVc",
+        "option2": "ΔVcΔIc",
+        "option3": "(ΔICΔIB)VCE",
+        "option4": "(ΔICΔIB)VBE",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A transistor has ……..",
+        "option1": "one pn junction",
+        "option2": "two pn junctions",
+        "option3": "three pn junctions",
+        "option4": "four pn junctions",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The number of depletion layers in a transistor is ……..",
+        "option1": "four",
+        "option2": "three",
+        "option3": "one",
+        "option4": "two",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The element that has the biggest size in a transistor is ……..",
+        "option1": "collector",
+        "option2": "base",
+        "option3": "emitter",
+        "option4": "collector-base junction",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a pnp transistor, the current carriers are ……..",
+        "option1": "acceptor ions",
+        "option2": "donor ions",
+        "option3": "free electrons",
+        "option4": "holes",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A transistor is a ……… operated device.",
+        "option1": "current",
+        "option2": "voltage",
+        "option3": "both voltage and current",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In an npn transistor,-------are the minority carriers",
+        "option1": "free electrons",
+        "option2": "holes",
+        "option3": "donor ions",
+        "option4": "acceptor ions",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In a transistor, the base current is about ……..of emitter current.",
+        "option1": "25%",
+        "option2": "20%",
+        "option3": "35%",
+        "option4": "5%",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The input impedance of a transistor is ……",
+        "option1": "high",
+        "option2": "low",
+        "option3": "very high",
+        "option4": "almost zero",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In a transistor, IC = IE + IB, IB = IC + IE, IE = IC − IB",
+        "option1": "IC = IE + IB",
+        "option2": "IB = IC + IE",
+        "option3": "IE = IC − IB",
+        "option4": "IE = IC + IB",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The value of α of a transistor is ……..",
+        "option1": "more than 1",
+        "option2": "less than 1",
+        "option3": "1",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The most commonly used transistor arrangement is …….. arrangement.",
+        "option1": "common emitter",
+        "option2": "common base",
+        "option3": "common collector",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a BJT",
+        "option1": "The base region is sandwiched between emitter and collector",
+        "option2": "The collector is sandwiched between base and emitter",
+        "option3": "The emitter region is sandwiched between base and collector",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Amplifiers and oscillators using BJT, operate in ...... region",
+        "option1": "Inverted mode",
+        "option2": "Active",
+        "option3": "Cut off",
+        "option4": "Saturation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Base is always a ___ and ___ doped layer.",
+        "option1": "Thin, lightly",
+        "option2": "Thick, lightly",
+        "option3": "Thin, heavily",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "For a BJT, for common base configuration the input characteristics are represented by a plot between which of the following parameters?",
+        "option1": "VBE and IE",
+        "option2": "VBE and IB",
+        "option3": "VCE and IC",
+        "option4": "VCC and IC",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a BJT, if the collector-base junction is reverse-biased and the base-emitter junction is forward-biased, which region is the BJT operating in?",
+        "option1": "Saturation region",
+        "option2": "Active region",
+        "option3": "Cutoff region",
+        "option4": "Reverse active region",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In a BJT, if the collector-base junction is forward-biased and the base-emitter junction is forward-biased, which region is the BJT operating in?",
+        "option1": "Saturation region",
+        "option2": "Active region",
+        "option3": "Cutoff region",
+        "option4": "Reverse active region",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a BJT, if the collector-base junction and the base-emitter junction are both reverse-biased, which region is the BJT operating in?",
+        "option1": "Saturation region",
+        "option2": "Active region",
+        "option3": "Cutoff region",
+        "option4": "Reverse active region",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In P-N-P transistor, base will be of",
+        "option1": "P material",
+        "option2": "N material",
+        "option3": "Either of the above",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A P-N-P transistor has",
+        "option1": "Only acceptor ions",
+        "option2": "Only donor ions",
+        "option3": "Two P-regions and one N-region",
+        "option4": "Three P-N junction",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which type of amplifiers exhibits the current gain approximately equal to unity without any current amplification?",
+        "option1": "CE",
+        "option2": "CB",
+        "option3": "CC",
+        "option4": "Cascade",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The configuration in which voltage gain of transistor amplifier is lowest is ____________",
+        "option1": "common collector",
+        "option2": "common emitter",
+        "option3": "common base",
+        "option4": "common emitter & base",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The configuration in which current gain of transistor amplifier is lowest is ___________",
+        "option1": "common collector",
+        "option2": "common base",
+        "option3": "common emitter",
+        "option4": "common emitter & base",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The configuration in which input impedance of transistor amplifier is lowest is ___________",
+        "option1": "common collector",
+        "option2": "common emitter",
+        "option3": "common base",
+        "option4": "common emitter & base",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The configuration in which output impedance of transistor amplifier is highest is ___________",
+        "option1": "common collector",
+        "option2": "common base",
+        "option3": "common emitter",
+        "option4": "common collector and base",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In which region a transistor acts as an open switch?",
+        "option1": "cut off region",
+        "option2": "inverted region",
+        "option3": "active region",
+        "option4": "saturated region",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In which region a transistor acts as a closed switch?",
+        "option1": "cut off region",
+        "option2": "inverted region",
+        "option3": "active region",
+        "option4": "saturated region",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The current which is helpful for LED to turn on is_________",
+        "option1": "emitter current",
+        "option2": "base current",
+        "option3": "collector current",
+        "option4": "depends on bias",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statements is true?",
+        "option1": "Solid state switches are applications for an AC output",
+        "option2": "LED’s can be driven by transistor logics",
+        "option3": "Only NPN transistor can be used as a switch",
+        "option4": "Transistor operates as a switch only in active region",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The base emitter voltage in a cut off region is_________",
+        "option1": "greater than 0.7V",
+        "option2": "equal to 0.7V",
+        "option3": "less than 0.7V",
+        "option4": "cannot be predicted",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In saturation region, the depletion layer_________",
+        "option1": "increases linearly with carrier concentration",
+        "option2": "decreases linearly with carrier concentration",
+        "option3": "increases by increasing the emitter current",
+        "option4": "decreases by decreasing the emitter voltage drop",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The base emitter voltage in a saturation region is_________",
+        "option1": "greater than 0.7V",
+        "option2": "equal to 0.7V",
+        "option3": "less than 0.7V",
+        "option4": "cannot be predicted",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The switching of power with a PNP transistor is called_________",
+        "option1": "sourcing current",
+        "option2": "sinking current",
+        "option3": "forward sourcing",
+        "option4": "reverse sinking",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The switching of power with a NPN transistor is called_________",
+        "option1": "sourcing current",
+        "option2": "sinking current",
+        "option3": "forward sourcing",
+        "option4": "reverse sinking",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a part of a BJT?",
+        "option1": "Base",
+        "option2": "Collector",
+        "option3": "Emitter",
+        "option4": "None of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In which of the following modes can a BJT be used?",
+        "option1": "Cut-off mode",
+        "option2": "Active mode",
+        "option3": "Saturation mode",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "If a BJT is to be used as a switch, it must operate in____________",
+        "option1": "Cut-off mode or active mode",
+        "option2": "Active Mode or saturation mode",
+        "option3": "Cut-off mode or saturation mode",
+        "option4": "Cut-off mode or saturation mode or active mode",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In cut off mode",
+        "option1": "The base-emitter junction is forward biased and emitter-collector junction is reversed biased",
+        "option2": "The base-emitter junction is forward biased and emitter-collector junction is forward biased",
+        "option3": "The base-emitter junction is reversed biased and emitter-collector junction is reversed biased",
+        "option4": "The base-emitter junction is reversed biased and emitter-collector junction is forward biased",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "On which of the following does the collector current not depends upon?",
+        "option1": "Saturation current",
+        "option2": "Thermal voltage",
+        "option3": "Voltage difference between the base and emitter",
+        "option4": "None of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Where is the input measured in a common base transistor physical model?",
+        "option1": "Collector terminal",
+        "option2": "Emitter terminal",
+        "option3": "Base terminal",
+        "option4": "Ground",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which parameter of the physical model is varied while measuring the input characteristics of a common-base transistor?",
+        "option1": "Emitter current",
+        "option2": "Emitter voltage",
+        "option3": "Collector current",
+        "option4": "Emitter base voltage",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Where is the output measured in a common base transistor physical model?",
+        "option1": "Collector terminal",
+        "option2": "Emitter terminal",
+        "option3": "Base terminal",
+        "option4": "Ground",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which parameter of the physical model is varied while measuring the output characteristics of a common-base transistor?",
+        "option1": "Emitter current",
+        "option2": "Emitter voltage",
+        "option3": "Collector current",
+        "option4": "Collector base voltage",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How do you calculate the dynamic input resistance of a CB transistor?",
+        "option1": "ΔVBE / ΔIC",
+        "option2": "ΔVBE / ΔIE",
+        "option3": "ΔVCB / ΔIC",
+        "option4": "ΔVCB / ΔIE",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A bipolar junction transistor has beta=250 and base current=10micro ampere. What is the collector current?",
+        "option1": "25 micro ampere",
+        "option2": "10 micro ampere",
+        "option3": "2.5 milli ampere",
+        "option4": "10 milli ampere",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What happens to the collector current if the emitter current increases while no base voltage is applied?",
+        "option1": "Increases",
+        "option2": "Decreases",
+        "option3": "No current",
+        "option4": "First increases then decreases",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which is an example of bipolar junction transistor?",
+        "option1": "BC547B",
+        "option2": "CMCP793V-500",
+        "option3": "SLB700A/06VA",
+        "option4": "MBR5H100MFST1G",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In bipolar junction transistors both electron and holes are responsible for conduction.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Three PN junctions is present in a bipolar junction transistor.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the minimum voltage required to make base emitter junction of a real silicon bipolar junction transistor in forward biased?",
+        "option1": "0.7 volts",
+        "option2": "1.8 volts",
+        "option3": "2.3 volts",
+        "option4": "0.3 volts",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What are the parameters over which transfer characteristics curve of bipolar junction transistor is made in common emitter configuration?",
+        "option1": "Emitter Current and time",
+        "option2": "Emitter Voltage and time",
+        "option3": "Collector Current and frequency",
+        "option4": "Collector to Emitter Voltage and Collector current",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A bipolar junction transistor has beta=100 and base current= 8 micro ampere. What is the collector current?",
+        "option1": "25 micro ampere",
+        "option2": "0.8 micro ampere",
+        "option3": "0.8 milli ampere",
+        "option4": "10 milli ampere",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "FET is a voltage controlled device.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statement is true about FET?",
+        "option1": "It has high output impedance",
+        "option2": "It has high input impedance",
+        "option3": "It has low input impedance",
+        "option4": "It does not offer any resistance",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Comparing the size of BJT and FET, choose the correct statement?",
+        "option1": "BJT is larger than the FET",
+        "option2": "BJT is smaller than the FET",
+        "option3": "Both are of same size",
+        "option4": "Depends on application",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the main advantage of FET which makes it more useful in industrial applications?",
+        "option1": "Voltage controlled operation",
+        "option2": "Less cost",
+        "option3": "Small size",
+        "option4": "Semiconductor device",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "For a FET when will maximum current flows?",
+        "option1": "Vgs = 0V",
+        "option2": "Vgs = 0v and Vds >= |Vp|",
+        "option3": "VDS >= |Vp|",
+        "option4": "Vp = 0",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the value of current when the gate to source voltage is less than the pinch off voltage?",
+        "option1": "1A",
+        "option2": "5A",
+        "option3": "100A",
+        "option4": "0",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the value of drain current when Vgs=pinch off voltage?",
+        "option1": "0A",
+        "option2": "1A",
+        "option3": "2A",
+        "option4": "Cannot be determined",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "To use FET as a voltage controlled resistor, in which region it should operate?",
+        "option1": "Ohmic region",
+        "option2": "Cut off",
+        "option3": "Saturation",
+        "option4": "Cut off and saturation",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "For an n-channel FET, What is the direction of current flow?",
+        "option1": "Source to drain",
+        "option2": "Drain to source",
+        "option3": "Gate to source",
+        "option4": "Gate to drain",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "For a p-channel FET, What is the direction of current flow?",
+        "option1": "Source to drain",
+        "option2": "Drain to source",
+        "option3": "Gate to source",
+        "option4": "Gate to drain",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Field effect transistors are known as",
+        "option1": "Unipolar device",
+        "option2": "Bipolar device",
+        "option3": "Tripolar device",
+        "option4": "Multipolar device",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Field effect transistor’s conductivity is regulated by",
+        "option1": "Input current",
+        "option2": "Output current",
+        "option3": "Terminal voltage",
+        "option4": "Supply voltage",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In FET, the current enters the channel through",
+        "option1": "Source",
+        "option2": "Drain",
+        "option3": "Gate",
+        "option4": "Nodes",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which terminal biases the transistor to operation?",
+        "option1": "Source",
+        "option2": "Drain",
+        "option3": "Gate",
+        "option4": "Base",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In FET, the width is greater than the length of the gate.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which terminal controls the electron flow passage?",
+        "option1": "source",
+        "option2": "drain",
+        "option3": "gate",
+        "option4": "base",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The expansion of depletion region in n-channel device makes the channel",
+        "option1": "narrow",
+        "option2": "wide",
+        "option3": "does not affect the channel",
+        "option4": "cannot be determined",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which voltage increases the channel size?",
+        "option1": "negative Vgs",
+        "option2": "positive Vgs",
+        "option3": "negative Vds",
+        "option4": "positive Vds",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which mode of operation of FET is used, when amplification is needed?",
+        "option1": "active",
+        "option2": "saturation",
+        "option3": "non saturation",
+        "option4": "linear",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following relation is true about gate current?",
+        "option1": "IG=ID+IS",
+        "option2": "ID=IG",
+        "option3": "IS= IG",
+        "option4": "IG=0",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "For a fixed bias circuit the drain current was 1mA, what is the value of source current?",
+        "option1": "0mA",
+        "option2": "1mA",
+        "option3": "2mA",
+        "option4": "3mA",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "For a fixed bias circuit the drain current was 1mA, VDD=12V, determine drain resistance required if VDS=10V?",
+        "option1": "1KΩ",
+        "option2": "1.5KΩ",
+        "option3": "2KΩ",
+        "option4": "4KΩ",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Field effect transistors are different from BJTs in that they are _________",
+        "option1": "monopolar devices",
+        "option2": "bipolar devices",
+        "option3": "bidirectional device",
+        "option4": "none of the mentioned",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "JFET is a ______ carrier device.",
+        "option1": "Unipolar",
+        "option2": "Bipolar",
+        "option3": "Minority",
+        "option4": "Majority",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The n-channel JFET, the pinch off voltage is ______________",
+        "option1": "not greater than 0",
+        "option2": "greater than or equal to 0",
+        "option3": "less than or equal to 0",
+        "option4": "not less than 0",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "An N-channel JFET is ___________",
+        "option1": "Always ON",
+        "option2": "Always OFF",
+        "option3": "Enhancement mode JFET",
+        "option4": "Has a p-type substrate",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A JFET has three terminals, namely …………",
+        "option1": "cathode, anode, grid",
+        "option2": "emitter, base, collector",
+        "option3": "source, gate, drain",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The gate of a JFET is ………… biased",
+        "option1": "reverse",
+        "option2": "forward",
+        "option3": "reverse as well as forward",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A common base configuration of a pnp transistor is analogous to …………. of a JFET",
+        "option1": "common source configuration",
+        "option2": "common drain configuration",
+        "option3": "common gate configuration",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In a JFET, when drain voltage is equal to pinch-off voltage, the depletion layers ………",
+        "option1": "almost touch each other",
+        "option2": "have large gap",
+        "option3": "have moderate gap",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a JFET, IDSS is known as …………..",
+        "option1": "drain to source current",
+        "option2": "drain to source current with gate shorted",
+        "option3": "drain to source current with gate open",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A JFET has high input impedance because ___________",
+        "option1": "it is made of semiconductor material",
+        "option2": "input is reverse biased",
+        "option3": "of impurity atoms",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "JFET in properly biased condition acts as a",
+        "option1": "current controlled current source",
+        "option2": "voltage controlled voltage source",
+        "option3": "voltage controlled current source",
+        "option4": "impedance controlled current source",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The input resistance of a FET is of the order of",
+        "option1": "100 Ω",
+        "option2": "10 kΩ",
+        "option3": "1 MΩ",
+        "option4": "100 MΩ",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "FET is which type of device?",
+        "option1": "4 terminal voltage controlled device",
+        "option2": "3 terminal voltage controlled device",
+        "option3": "3 terminal current controlled device",
+        "option4": "2 terminal current controlled device",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In which mode the JFET can operate?",
+        "option1": "depletion-mode only",
+        "option2": "enhancement-mode only",
+        "option3": "saturation mode only",
+        "option4": "noise mode only",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The most common semiconductor used for manufacturing of FET is",
+        "option1": "Gallium Arsenide",
+        "option2": "Indium Arsenide",
+        "option3": "Indium Gallium Arsenide",
+        "option4": "Silicon",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a characteristic of an ideal transducer?",
+        "option1": "High dynamic range",
+        "option2": "Low linearity",
+        "option3": "High repeatability",
+        "option4": "Low noise",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following represent active transducer?",
+        "option1": "Strain gauge",
+        "option2": "Thermistor",
+        "option3": "LVDT",
+        "option4": "Thermocouple",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which transducer is known as ‘self-generating transducer’?",
+        "option1": "Active transducer",
+        "option2": "Passive transducer",
+        "option3": "Secondary transducer",
+        "option4": "Analog transducer",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an analog transducer?",
+        "option1": "Encoders",
+        "option2": "Strain gauge",
+        "option3": "Digital tachometers",
+        "option4": "Limit switches",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the principle of operation of LVDT?",
+        "option1": "Mutual inductance",
+        "option2": "Self-inductance",
+        "option3": "Permanence",
+        "option4": "Reluctance",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following can be measured using Piezo-electric transducer?",
+        "option1": "Velocity",
+        "option2": "Displacement",
+        "option3": "Force",
+        "option4": "Sound",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Capacitive transducer is used for?",
+        "option1": "Static measurement",
+        "option2": "Dynamic measurement",
+        "option3": "Transient measurement",
+        "option4": "Both static and dynamic",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is used in photo conductive cell?",
+        "option1": "Selenium",
+        "option2": "Quartz",
+        "option3": "Rochelle salt",
+        "option4": "Lithium sulphate",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What are transducers?",
+        "option1": "They convert power from one form to another",
+        "option2": "They convert work from one form to another",
+        "option3": "They convert work to power",
+        "option4": "They convert energy from one form to another",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Active transducers do not require any type of additional power source for an operation.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What type of energy conversion does a piezoelectric transducer perform?",
+        "option1": "It converts mechanical energy to sound energy",
+        "option2": "It converts sound energy to mechanical energy",
+        "option3": "It converts mechanical energy to electrical energy",
+        "option4": "It converts electrical energy to mechanical energy",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The IC LM35 is used as which type of sensor?",
+        "option1": "Pressure sensor",
+        "option2": "Temperature sensor",
+        "option3": "Light sensor",
+        "option4": "Mechanical sensor",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the range of frequency of the waves produced by the Ultrasonic transducer?",
+        "option1": "20 Kilohertz to several Gigahertz",
+        "option2": "1 Kilohertz to several Gigahertz",
+        "option3": "40 Kilohertz to several Megahertz",
+        "option4": "less than 20 Kilohertz",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of LVDT with respect to displacement transducer?",
+        "option1": "Linear variable differential temperature",
+        "option2": "Linear variable differential transformer",
+        "option3": "Liquid visible differential transformer",
+        "option4": "Liquified visible differential transformer",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the effect on properties of LDR when light falls on it?",
+        "option1": "Its resistance remains same",
+        "option2": "Its resistance changes",
+        "option3": "Its capacitance changes",
+        "option4": "Its inductance changes",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is measured by a hall effect transducer?",
+        "option1": "Electric flux",
+        "option2": "Electric Field",
+        "option3": "Magnetic field",
+        "option4": "Temperature",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following represents the application of inductive transducers?",
+        "option1": "Displacement measurement",
+        "option2": "Thickness measurement",
+        "option3": "Both displacement and thickness measurement",
+        "option4": "None of the mentioned",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Inductive potentiometers are used to measure ________________",
+        "option1": "Voltage",
+        "option2": "Current",
+        "option3": "Displacement",
+        "option4": "None of the mentioned",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Capacitive transducers can be used by _______________",
+        "option1": "Measuring change in distance between plates",
+        "option2": "Measuring change in area of plates",
+        "option3": "Change in a dielectric material",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Capacitive transducers cannot be used as strain gauges.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is correct for the capacitive transducer?",
+        "option1": "Capacitive strain gauges",
+        "option2": "Capacitive tachometers",
+        "option3": "Capacitive pressure transducer",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "For a material capacitance increases with _____________",
+        "option1": "Decrease in area of plates, all other factors constant",
+        "option2": "Increase in distance between plates, all other factors constant",
+        "option3": "Decrease in distance between plates, all other factors constant",
+        "option4": "None of the mentioned",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following quantities cannot be measured by capacitive transducers?",
+        "option1": "Displacement",
+        "option2": "Speed",
+        "option3": "Moisture",
+        "option4": "None of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Thermometers are not possible using a capacitive transducer.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Who invented the piezoelectric effect?",
+        "option1": "Mary Elizabeth Barber",
+        "option2": "Christian Doppler",
+        "option3": "Marie curie and Pierre curie",
+        "option4": "Pierre curie and Jacques curie",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following represents piezoelectric materials?",
+        "option1": "ADP",
+        "option2": "Quartz",
+        "option3": "Bernilite",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following quantities cannot be measured using piezoelectric transducers?",
+        "option1": "Pressure",
+        "option2": "Strain",
+        "option3": "Acceleration",
+        "option4": "None of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In piezoelectric strain transducer voltage developed is ______________ to strain applied.",
+        "option1": "Directly proportional",
+        "option2": "Inversely proportional",
+        "option3": "Equal",
+        "option4": "Independent",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Photoelectric devices are sensitive to all wavelength.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In photo emissive transducers, electrons are attracted by ___________",
+        "option1": "Cathode",
+        "option2": "Anode",
+        "option3": "Grid",
+        "option4": "Body",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The quantity to be measured by an instrumentation system is",
+        "option1": "Measurement",
+        "option2": "Measurand",
+        "option3": "Signal",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "LVDT is a ______________",
+        "option1": "Active",
+        "option2": "Passive",
+        "option3": "Hybrid",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following materials can be used as photoconductive transducer?",
+        "option1": "Selenium",
+        "option2": "Silicon",
+        "option3": "Germanium",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Semiconductor layer using silicon and germanium is known as _______________",
+        "option1": "Photo diodes",
+        "option2": "Photo junction diodes",
+        "option3": "Photo material",
+        "option4": "Photo sensitive materials",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following are used to form photo transistors?",
+        "option1": "Two photo diodes",
+        "option2": "Three photo diodes",
+        "option3": "Normal diodes",
+        "option4": "None of the mentioned",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Thermocouple is a ______________",
+        "option1": "Primary device",
+        "option2": "Secondary transducer",
+        "option3": "Tertiary transducer",
+        "option4": "None of the mentioned",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Operation of thermocouple is governed by _______________",
+        "option1": "Peltier effect",
+        "option2": "Seebeck effect",
+        "option3": "Thomson effect",
+        "option4": "All of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Thermocouple cannot be used for measurement of temperature of liquid.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Active transducers are classified into ____________",
+        "option1": "4 types",
+        "option2": "2 types",
+        "option3": "6 types",
+        "option4": "8 types",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Active transducers develop ______________",
+        "option1": "Mechanical parameter",
+        "option2": "Electrical parameter",
+        "option3": "Chemical parameter",
+        "option4": "Physical parameter",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How do passive transducers develop electrical signals?",
+        "option1": "using a transformer",
+        "option2": "using internal source",
+        "option3": "using external source",
+        "option4": "using a diode",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Capacitive transduction involves ___________",
+        "option1": "change in resistance",
+        "option2": "change in inductance",
+        "option3": "change in resistance",
+        "option4": "change in capacitance",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In electromagnetic based transduction measurand is ___________",
+        "option1": "converted into mechanical force",
+        "option2": "converted into electromotive force",
+        "option3": "converted into chemical force",
+        "option4": "converted into physical force",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Inductive transduction involves ___________",
+        "option1": "change in self-inductance",
+        "option2": "change in capacitance",
+        "option3": "change in mutual inductance",
+        "option4": "change in resistance",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Photovoltaic transduction involves ___________",
+        "option1": "voltage generation heat",
+        "option2": "voltage generation through sound",
+        "option3": "voltage generation through light",
+        "option4": "voltage generation current",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Analog transducers convert input into ___________",
+        "option1": "voltage",
+        "option2": "current",
+        "option3": "digital",
+        "option4": "analog",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Inverse transducer converts electrical into a physical quantity.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Digital transducers produce analog output.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Selection of a transducer depends on the quantity being measured.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Transducers must operate under ___________",
+        "option1": "zero electromagnetic field",
+        "option2": "constant electromagnetic fields",
+        "option3": "varying electromagnetic fields",
+        "option4": "infinite electromagnetic field",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How many passive transducers are there?",
+        "option1": "1",
+        "option2": "3",
+        "option3": "5",
+        "option4": "7",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Smallest change which a sensor can detect is ____________",
+        "option1": "Resolution",
+        "option2": "Accuracy",
+        "option3": "Precision",
+        "option4": "Scale",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Thermocouple generate output voltage according to ____________",
+        "option1": "Circuit parameters",
+        "option2": "Humidity",
+        "option3": "Temperature",
+        "option4": "Voltage",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Sensor is a type of transducer.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not an analog sensor?",
+        "option1": "Potentiometer",
+        "option2": "Force-sensing resistors",
+        "option3": "Accelerometers",
+        "option4": "None of the mentioned",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A ________ is thermally sensitive resistor that exhibits a large change in resistance.",
+        "option1": "Thermistor",
+        "option2": "Resistance Thermometer",
+        "option3": "Thermo couple",
+        "option4": "Semiconductor based sensor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "________ measures temperature by correlating the resistance of the RTD with temperature.",
+        "option1": "Thermistor",
+        "option2": "Resistance Thermometer",
+        "option3": "Thermo couple",
+        "option4": "Semiconductor based sensor",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "________ consists of two different metals connected at two points.",
+        "option1": "Thermistor",
+        "option2": "Resistance Thermometer",
+        "option3": "Thermocouple",
+        "option4": "Semiconductor based sensor",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which type of temperature sensor is placed in Integrated Circuits?",
+        "option1": "Thermistor",
+        "option2": "Resistance Thermometer",
+        "option3": "Thermocouple",
+        "option4": "Semiconductor based sensor",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which sensor is linear and low accuracy?",
+        "option1": "Thermistor",
+        "option2": "Resistance Thermometer",
+        "option3": "Thermocouple",
+        "option4": "Semiconductor based sensor",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Inverse transducers are also known as _________________",
+        "option1": "Open loop transducers",
+        "option2": "Closed loop transducers",
+        "option3": "Input transducers",
+        "option4": "Output transducers",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Inverse transducer is system which converts ____________",
+        "option1": "Electrical quantity to non-electrical quantity",
+        "option2": "Non-electrical quantity to electrical quantity",
+        "option3": "Electrical quantity to electrical quantity itself",
+        "option4": "Non-electrical quantity to non-electrical quantity itself",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an inverse transducer _____________",
+        "option1": "Piezoelectric transducer",
+        "option2": "LVDT",
+        "option3": "Load cell",
+        "option4": "Bourdon tube",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Input transducers and inverse transducers are the same.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following cannot act as inverse transducer?",
+        "option1": "Quartz",
+        "option2": "Barium titanate",
+        "option3": "Lead zirconate",
+        "option4": "Cadmium",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which type of transducer requires energy to be put into it in order to translate changes due to the measurand?",
+        "option1": "active transducers",
+        "option2": "passive transducers",
+        "option3": "powered transducers",
+        "option4": "local transducers",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Active transducers work on the principle of ________",
+        "option1": "energy conversion",
+        "option2": "mass conversion",
+        "option3": "energy alteration",
+        "option4": "volume conversion",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Accuracy is ______",
+        "option1": "ability of the transducer or sensor to see small differences in reading",
+        "option2": "ability of the transducer or sensor to see small differences in reading",
+        "option3": "algebraic difference between the indicated value and the true or theoretical value of the measurand",
+        "option4": "total operating range of the transducer",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The smallest change in measurant that will result in a measurable change in the transducer output is called _______",
+        "option1": "offset",
+        "option2": "linearity",
+        "option3": "resolution",
+        "option4": "threshold",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Unwanted signal at the output due either to internal sources or to interference is called ________",
+        "option1": "offset",
+        "option2": "noise",
+        "option3": "drift",
+        "option4": "threshold",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The ability of the sensor to see small differences in reading is called ______",
+        "option1": "resolution",
+        "option2": "drift",
+        "option3": "offset",
+        "option4": "linearity",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Linearity of transducer is ___________",
+        "option1": "Closeness of the transducer’s calibration curve to a special curved line within a given percentage of full scale output",
+        "option2": "Closeness of the transducer’s calibration curve to a special straight line within a given percentage of full scale output",
+        "option3": "Closeness of the transducer’s calibration curve to a special straight line within a given percentage of half scale output",
+        "option4": "Closeness of the transducer’s calibration curve to a special curved within a given percentage of half scale output",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the principle behind photoelectric transducers?",
+        "option1": "Conversion of wind energy to electrical energy",
+        "option2": "conversion of light energy to electrical energy",
+        "option3": "conversion of mechanical energy to electrical energy",
+        "option4": "conversion of electrical energy to light energy",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following material is used to build photovoltaic cells?",
+        "option1": "Selenium",
+        "option2": "celenuim",
+        "option3": "silicon",
+        "option4": "iron",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Photo-diodes work in _________",
+        "option1": "forward biased",
+        "option2": "reverse biased",
+        "option3": "independent of forward and reverse biasing",
+        "option4": "any configuration",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Photovoltaic cells need an external electrical supply to function.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Thermistor is used to measure ____________",
+        "option1": "temperature",
+        "option2": "pressure",
+        "option3": "height",
+        "option4": "displacement",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Inverse transducers are also known as:",
+        "option1": "Open loop transducers",
+        "option2": "Closed loop transducers",
+        "option3": "Input transducers",
+        "option4": "Output transducers",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Inverse transducer is system which converts:",
+        "option1": "Electrical quantity to non-electrical quantity",
+        "option2": "Non-electrical quantity to electrical quantity",
+        "option3": "Electrical quantity to electrical quantity itself",
+        "option4": "Non-electrical quantity to non-electrical quantity itself",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is an inverse transducer?",
+        "option1": "Piezoelectric transducer",
+        "option2": "LVDT",
+        "option3": "Load cell",
+        "option4": "Bourdon tube",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Input transducers and inverse transducers are the same.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following cannot act as inverse transducer?",
+        "option1": "Quartz",
+        "option2": "Barium titanate",
+        "option3": "Lead zirconate",
+        "option4": "Cadmium",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following has the widest range of temperature measurement?",
+        "option1": "RTD",
+        "option2": "Thermocouple",
+        "option3": "Thermistor",
+        "option4": "Mercury thermometer",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The junction at a higher temperature in thermocouple is termed as measuring junction.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When two wires of different material are joined together at either end, forming two junctions which are maintained at a different temperature, a _________ force is generated.",
+        "option1": "Thermo-motive",
+        "option2": "Electro-motive",
+        "option3": "Chemical reactive",
+        "option4": "Mechanical",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The junction at a lower temperature in the thermocouple called measuring junction.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The lower temperature junction in thermocouple is maintained at ________",
+        "option1": "-273 K",
+        "option2": "0 K",
+        "option3": "-327 K",
+        "option4": "273 K",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "RTD stands for ________",
+        "option1": "Resistance temperature device",
+        "option2": "Resistance temperature detector",
+        "option3": "Reluctance thermal device",
+        "option4": "Resistive thermal detector",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Thermistor is used to measure _____________",
+        "option1": "Temperature",
+        "option2": "Pressure",
+        "option3": "Height",
+        "option4": "Displacement",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the principle of operation of LVDT?",
+        "option1": "Mutual inductance",
+        "option2": "Self-inductance",
+        "option3": "Permanence",
+        "option4": "Reluctance",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following can be measured using Piezo-electric transducer?",
+        "option1": "Velocity",
+        "option2": "Displacement",
+        "option3": "Force",
+        "option4": "Sound",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Capacitive transducer is used for?",
+        "option1": "Static measurement",
+        "option2": "Dynamic measurement",
+        "option3": "Transient measurement",
+        "option4": "Both static and dynamic",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is used in photo conductive cell?",
+        "option1": "Selenium",
+        "option2": "Quartz",
+        "option3": "Rochelle salt",
+        "option4": "Lithium sulphate",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What are transducers?",
+        "option1": "They convert power from one form to another",
+        "option2": "They convert work from one form to another",
+        "option3": "They convert work to power",
+        "option4": "They convert energy from one form to another",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Active transducer do not require any type of additional power source for an operation.",
+        "option1": "True",
+        "option2": "False",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What type of energy conversion does a piezoelectric transducer perform?",
+        "option1": "It converts mechanical energy to sound energy",
+        "option2": "It converts sound energy to mechanical energy",
+        "option3": "It converts mechanical energy to electrical energy",
+        "option4": "It converts electrical energy to mechanical energy",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The IC LM35 is used as which type of sensor?",
+        "option1": "Pressure sensor",
+        "option2": "Temperature sensor",
+        "option3": "Light sensor",
+        "option4": "Mechanical sensor",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of LVDT with respect to displacement transducer?",
+        "option1": "Linear variable differential temperature",
+        "option2": "Linear variable differential transformer",
+        "option3": "Liquid visible differential transformer",
+        "option4": "Liquified visible differential transformer",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the effect on properties of LDR when light falls on it?",
+        "option1": "Its resistance remains same",
+        "option2": "Its resistance changes",
+        "option3": "Its capacitance changes",
+        "option4": "Its inductance changes",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is measured by a hall effect transducer?",
+        "option1": "Electric flux",
+        "option2": "Electric Field",
+        "option3": "Magnetic field",
+        "option4": "Temperature",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A transistor has …………………",
+        "option1": "one pn junction",
+        "option2": "two pn junctions",
+        "option3": "three pn junctions",
+        "option4": "four pn junctions",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The number of depletion layers in a transistor is …………",
+        "option1": "four",
+        "option2": "three",
+        "option3": "one",
+        "option4": "two",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The base of a transistor is ………….. doped",
+        "option1": "heavily",
+        "option2": "moderately",
+        "option3": "lightly",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The element that has the biggest size in a transistor is ………………..",
+        "option1": "collector",
+        "option2": "base",
+        "option3": "emitter",
+        "option4": "collector-base-junction",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a pnp transistor, the current carriers are ………….",
+        "option1": "acceptor ions",
+        "option2": "donor ions",
+        "option3": "free electrons",
+        "option4": "holes",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The collector of a transistor is …………. doped",
+        "option1": "heavily",
+        "option2": "moderately",
+        "option3": "lightly",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A transistor is a …………… operated device",
+        "option1": "current",
+        "option2": "voltage",
+        "option3": "both voltage and current",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a npn transistor, ……………. are the minority carriers",
+        "option1": "free electrons",
+        "option2": "holes",
+        "option3": "donor ions",
+        "option4": "acceptor ions",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The emitter of a transistor is ………………… doped",
+        "option1": "lightly",
+        "option2": "heavily",
+        "option3": "moderately",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In a transistor, the base current is about ………….. of emitter current",
+        "option1": "25%",
+        "option2": "20%",
+        "option3": "35 %",
+        "option4": "5%",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "At the base-emitter junctions of a transistor, one finds ……………",
+        "option1": "a reverse bias",
+        "option2": "a wide depletion layer",
+        "option3": "low resistance",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The input impedance of a transistor is ………….",
+        "option1": "high",
+        "option2": "low",
+        "option3": "very high",
+        "option4": "almost zero",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Most of the majority carriers from the emitter ………………..",
+        "option1": "recombine in the base",
+        "option2": "recombine in the emitter",
+        "option3": "pass through the base region to the collector",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The current IB is …………",
+        "option1": "electron current",
+        "option2": "hole current",
+        "option3": "donor ion current",
+        "option4": "acceptor ion current",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a transistor ………………..",
+        "option1": "IC = IE + IB",
+        "option2": "IB = IC + IE",
+        "option3": "IE = IC – IB",
+        "option4": "IE = IC + IB",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The value of α of a transistor is ……….",
+        "option1": "more than 1",
+        "option2": "less than 1",
+        "option3": "1",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "IC = αIE + ………….",
+        "option1": "IB",
+        "option2": "ICEO",
+        "option3": "ICBO",
+        "option4": "βIB",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The output impedance of a transistor is ……………..",
+        "option1": "high",
+        "option2": "zero",
+        "option3": "low",
+        "option4": "very low",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a transistor, IC = 100 mA and IE = 100.2 mA. The value of β is …………",
+        "option1": "100",
+        "option2": "50",
+        "option3": "about 1",
+        "option4": "200",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In a transistor if β = 100 and collector current is 10 mA, then IE is …………",
+        "option1": "100 mA",
+        "option2": "100.1 mA",
+        "option3": "110 mA",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The relation between β and α is …………..",
+        "option1": "β = 1 / (1 – α )",
+        "option2": "β = (1 – α ) / α",
+        "option3": "β = α / (1 – α )",
+        "option4": "β = α / (1 + α )",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The value of β for a transistor is generally ………………..",
+        "option1": "1",
+        "option2": "less than 1",
+        "option3": "between 20 and 500",
+        "option4": "above 500",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The most commonly used transistor arrangement is …………… arrangement",
+        "option1": "common emitter",
+        "option2": "common base",
+        "option3": "common collector",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The input impedance of a transistor connected in …………….. arrangement is the highest",
+        "option1": "common emitter",
+        "option2": "common collector",
+        "option3": "common base",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The output impedance of a transistor connected in ……………. arrangement is the highest",
+        "option1": "common emitter",
+        "option2": "common collector",
+        "option3": "common base",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The phase difference between the input and output voltages in a common base arrangement is …………….",
+        "option1": "180°",
+        "option2": "90°",
+        "option3": "270°",
+        "option4": "0°",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The power gain in a transistor connected in ……………. arrangement is the highest",
+        "option1": "common emitter",
+        "option2": "common base",
+        "option3": "common collector",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The phase difference between the input and output voltages of a transistor connected in common emitter arrangement is ………………",
+        "option1": "0°",
+        "option2": "180°",
+        "option3": "90°",
+        "option4": "270°",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The voltage gain in a transistor connected in ……………… arrangement is the highest",
+        "option1": "common base",
+        "option2": "common collector",
+        "option3": "common emitter",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "As the temperature of a transistor goes up, the base-emitter resistance ……………",
+        "option1": "decreases",
+        "option2": "increases",
+        "option3": "remains the same",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The voltage gain of a transistor connected in common collector arrangement is ………..",
+        "option1": "equal to 1",
+        "option2": "more than 10",
+        "option3": "more than 100",
+        "option4": "less than 1",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The phase difference between the input and output voltages of a transistor connected in common collector arrangement is ………………",
+        "option1": "180o",
+        "option2": "0o",
+        "option3": "90o",
+        "option4": "270o",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "IC = β IB + ………..",
+        "option1": "ICBO",
+        "option2": "IC",
+        "option3": "ICEO",
+        "option4": "αIE",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "IC = [α / (1 – α )] IB + ………….",
+        "option1": "ICEO",
+        "option2": "ICBO",
+        "option3": "IC",
+        "option4": "(1 – α ) IB",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "IC = [α / (1 – α )] IB + […….. / (1 – α )]",
+        "option1": "ICBO",
+        "option2": "ICEO",
+        "option3": "IC",
+        "option4": "IE",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "BC 147 transistor indicates that it is made of …………..",
+        "option1": "germanium",
+        "option2": "silicon",
+        "option3": "carbon",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "ICEO = (………) ICBO",
+        "option1": "β",
+        "option2": "1 + α",
+        "option3": "1 + β",
+        "option4": "none of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A transistor is connected in CB mode. If it is not connected in CE mode with same bias voltages, the values of IE, IB and IC will …………..",
+        "option1": "remain the same",
+        "option2": "increase",
+        "option3": "decrease",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If the value of α is 0.9, then value of β is ………..",
+        "option1": "9",
+        "option2": "0.9",
+        "option3": "900",
+        "option4": "90",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In a transistor, signal is transferred from a …………… circuit",
+        "option1": "high resistance to low resistance",
+        "option2": "low resistance to high resistance",
+        "option3": "high resistance to high resistance",
+        "option4": "low resistance to low resistance",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The arrow in the symbol of a transistor indicates the direction of …………….",
+        "option1": "electron current in the emitter",
+        "option2": "electron current in the collector",
+        "option3": "hole current in the emitter",
+        "option4": "donor ion current",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The leakage current in CE arrangement is ……………. that in CB arrangement",
+        "option1": "more than",
+        "option2": "less than",
+        "option3": "the same as",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A heat sink is generally used with a transistor to …………",
+        "option1": "increase the forward current",
+        "option2": "decrease the forward current",
+        "option3": "compensate for excessive doping",
+        "option4": "prevent excessive temperature rise",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The most commonly used semiconductor in the manufacture of a transistor is ………….",
+        "option1": "germanium",
+        "option2": "silicon",
+        "option3": "carbon",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The collector-base junction in a transistor has ……………..",
+        "option1": "forward bias at all times",
+        "option2": "reverse bias at all times",
+        "option3": "low resistance",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When transistors are used in digital circuits they usually operate in the ………….",
+        "option1": "active region",
+        "option2": "breakdown region",
+        "option3": "saturation and cutoff regions",
+        "option4": "linear region",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Three different Q points are shown on a dc load line. The upper Q point represents the ………….",
+        "option1": "minimum current gain",
+        "option2": "intermediate current gain",
+        "option3": "maximum current gain",
+        "option4": "cutoff point",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A transistor has a of 250 and a base current, IB, of 20 A. The collector current, IC, equals to …………….",
+        "option1": "500 μA",
+        "option2": "5 mA",
+        "option3": "50 mA",
+        "option4": "5 A",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A current ratio of IC/IE is usually less than one and is called …………",
+        "option1": "beta",
+        "option2": "theta",
+        "option3": "alpha",
+        "option4": "omega",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "With the positive probe on an NPN base, an ohmmeter reading between the other transistor terminals should be ……",
+        "option1": "open",
+        "option2": "infinite",
+        "option3": "low resistance",
+        "option4": "high resistance",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In a CE configuration, an emitter resistor is used for ……",
+        "option1": "stabilization",
+        "option2": "ac signal bypass",
+        "option3": "collector bias",
+        "option4": "higher gain",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Voltage-divider bias provides ……….",
+        "option1": "an unstable Q point",
+        "option2": "a stable Q point",
+        "option3": "a Q point that easily varies with changes in the transistor’s current gain",
+        "option4": "a Q point that is stable and easily varies with changes in the transistor’s current gain",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "To operate properly, a transistor’s base-emitter junction must be forward biased with reverse bias applied to which junction?",
+        "option1": "collector-emitter",
+        "option2": "base-collector",
+        "option3": "base-emitter",
+        "option4": "collector-base",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The ends of a load line drawn on a family of curves determine ……",
+        "option1": "saturation and cutoff",
+        "option2": "the operating point",
+        "option3": "the power curve",
+        "option4": "the amplification factor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If VCC = +18 V, voltage-divider resistor R1 is 4.7 k , and R2 is 1500 , then the base bias voltage is ……….",
+        "option1": "8.7 V",
+        "option2": "4.35 V",
+        "option3": "2.9 V",
+        "option4": "0.7 V",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The C-B configuration is used to provide which type of gain?",
+        "option1": "voltage",
+        "option2": "current",
+        "option3": "resistance",
+        "option4": "power",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The Q point on a load line may be used to determine …………",
+        "option1": "VC",
+        "option2": "VCC",
+        "option3": "VB",
+        "option4": "IC",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A transistor may be used as a switching device or as a ………….",
+        "option1": "fixed resistor",
+        "option2": "tuning device",
+        "option3": "rectifier",
+        "option4": "variable resistor",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "If an input signal ranges from 20–40 A (microamps), with an output signal ranging from .5–1.5 mA (milliamps), what is the ac beta?",
+        "option1": "0.05",
+        "option2": "20",
+        "option3": "50",
+        "option4": "500",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Beta’s current ratio is ……..",
+        "option1": "IC/IB",
+        "option2": "IC/IE",
+        "option3": "IB/IE",
+        "option4": "IE/IB",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A collector characteristic curve is a graph showing ………..",
+        "option1": "emitter current (IE) versus collector-emitter voltage (VCE) with (VBB) base bias voltage held constant",
+        "option2": "collector current (IC) versus collector-emitter voltage (VCE) with (VBB) base bias voltage held constant",
+        "option3": "collector current (IC) versus collector-emitter voltage (VC) with (VBB) base bias voltage held constant",
+        "option4": "collector current (IC) versus collector-emitter voltage (VCC) with (VBB) base bias voltage held constant",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "With low-power transistor packages, the base terminal is usually the ……….",
+        "option1": "tab end",
+        "option2": "middle",
+        "option3": "right end",
+        "option4": "stud mount",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When a silicon diode is forward biased, VBE for a CE configuration is ……..",
+        "option1": "voltage-divider bias",
+        "option2": "0.4 V",
+        "option3": "0.7 V",
+        "option4": "emitter voltage",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the current gain for a common-base configuration where IE = 4.2 mA and IC = 4.0 mA?",
+        "option1": "16.8",
+        "option2": "1.05",
+        "option3": "0.2",
+        "option4": "0.95",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "With a PNP circuit, the most positive voltage is probably ………...",
+        "option1": "ground",
+        "option2": "VC",
+        "option3": "VBE",
+        "option4": "VCC",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If a 2 mV signal produces a 2 V output, what is the voltage gain?",
+        "option1": "0.001",
+        "option2": "0.004",
+        "option3": "100",
+        "option4": "1000",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Most of the electrons in the base of an NPN transistor flow ………...",
+        "option1": "out of the base lead",
+        "option2": "into the collector",
+        "option3": "into the emitter",
+        "option4": "into the base supply",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In a transistor, collector current is controlled by ………..",
+        "option1": "collector voltage",
+        "option2": "base current",
+        "option3": "collector resistance",
+        "option4": "all of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Total emitter current is ………...",
+        "option1": "IE – IC",
+        "option2": "IC + IE",
+        "option3": "IB + IC",
+        "option4": "IB – IC",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Often a common-collector will be the last stage before the load; the main function(s) of this stage is to ………….",
+        "option1": "provide voltage gain",
+        "option2": "provide phase inversion",
+        "option3": "provide a high-frequency path to improve the frequency response",
+        "option4": "buffer the voltage amplifiers from the low-resistance load and provide impedance matching for maximum power transfer",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "For a CC configuration to operate properly, the collector-base junction should be reverse biased, while forward bias should be applied to …………… junction.",
+        "option1": "collector-emitter",
+        "option2": "base-emitter",
+        "option3": "collector-base",
+        "option4": "cathode-anode",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The input/output relationship of the common-collector and common-base amplifiers is ………..",
+        "option1": "270 degrees",
+        "option2": "180 degrees",
+        "option3": "90 degrees",
+        "option4": "0 degrees",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "If a transistor operates at the middle of the dc load line, a decrease in the current gain will move the Q point ………….",
+        "option1": "off the load line",
+        "option2": "nowhere",
+        "option3": "up",
+        "option4": "down",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which is the higher gain provided by a CE configuration?",
+        "option1": "voltage",
+        "option2": "current",
+        "option3": "resistance",
+        "option4": "power",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the collector current for a CE configuration with a beta of 100 and a base current of 30 A?",
+        "option1": "30 A",
+        "option2": "0.3 A",
+        "option3": "3 mA",
+        "option4": "3 MA",
+        "Answer": "option3",
+        "marks": 1
+    }
+    
+] 
+module.exports = { data: BEE};

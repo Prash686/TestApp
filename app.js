@@ -68,8 +68,8 @@ app.use((req, res, next) => {
 const isLoggedIn = (req, res, next) => {
     if (!req.isAuthenticated()) {
         req.session.redirectUrl = req.originalUrl;
-        req.flash("error", "Please Login");
-        return res.redirect("/auth/login");
+        req.flash("error", "Please Signup");
+        return res.redirect("/auth/signup");
     }
     next();
 };
@@ -116,7 +116,7 @@ app.post("/auth/signup", async (req, res) => {
         const registeredUser = await User.register(user, password);
         req.login(registeredUser, (err) => {
             if (err) return next(err);
-            req.flash("success", "Welcome to TestApp!");
+req.flash("success", "Welcome to msbtemcq!");
             res.redirect("/");
         });
     } catch (err) {
