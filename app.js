@@ -3,7 +3,7 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 const express = require("express");
-const userRoutes = require('./routes/user'); // Import user routes
+
 
 const app = express();
 const Questions = require("./models/question.js");
@@ -19,7 +19,6 @@ const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
 const ExpressError = require('./utils/ExpressError.js')
 const User = require("./models/user.js");
-const routes = require("./routes/auth.js")
 
 
 const dbUrl = "mongodb+srv://prash:prash%4011@cluster0.p4iok.mongodb.net/myDatabase?retryWrites=true&w=majority";
@@ -54,7 +53,35 @@ app.use(flash());
 
 app.use(passport.initialize());
 app.use(passport.session());
-passport.use(new LocalStrategy(User.authenticate()));
+
+
+passport.use(new LocalStrategy(async (username, password, done) => {
+    try {
+        // Determine if the username is email, phone, or username
+        let loginField = "username";
+        if (/\S+@\S+\.\S+/.test(username)) {
+            loginField = "email";
+        } else if (/^\d{10}$/.test(username)) {
+            loginField = "phone";
+        }
+
+        // Find user by loginField
+        const user = await User.findOne({ [loginField]: username });
+        if (!user) {
+            return done(null, false, { message: "Incorrect username/email/phone." });
+        }
+
+        // Verify password
+        const isValid = await user.authenticate(password);
+        if (!isValid) {
+            return done(null, false, { message: "Incorrect password." });
+        }
+
+        return done(null, user);
+    } catch (err) {
+        return done(err);
+    }
+}));
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
@@ -111,12 +138,20 @@ app.get("/auth/signup", (req, res) => {
 app.post("/auth/signup", async (req, res) => {
     try {
         const { username, email, phone, password } = req.body;
-        const user = new User({ username, email, password, phone});
+
+        // Validate username format (Instagram-like: letters, numbers, and underscores)
+        const usernamePattern = /^[a-z0-9_]+$/;
+        if (!usernamePattern.test(username)) {
+            req.flash("error", "Username can only contain letters, numbers, and underscores.");
+            return res.redirect("/auth/signup");
+        }
+
+        const user = new User({ username, email, password, phone });
 
         const registeredUser = await User.register(user, password);
         req.login(registeredUser, (err) => {
             if (err) return next(err);
-req.flash("success", "Welcome to msbtemcq!");
+            req.flash("success", "Welcome to msbtemcq!");
             res.redirect("/");
         });
     } catch (err) {
@@ -124,21 +159,61 @@ req.flash("success", "Welcome to msbtemcq!");
         res.redirect("/auth/signup");
     }
 });
-
-// Render Login Page
+// Route to render the login page
 app.get("/auth/login", (req, res) => {
     res.render("auth/login.ejs", {
         title: "Login - MSBTE MCQ Practice",
-        description: "practice MCQs for ETI, Management, EST, AJP and more on msbtemcq.in.",
+        description: "Practice MCQs for ETI, Management, EST, AJP, and more on msbtemcq.in.",
         keywords: "login, mcq, practice, msbte"
     });
 });
 
-app.post("/auth/login", passport.authenticate("local", {
-    failureRedirect: "/auth/login",
-    failureFlash: true
-}), (req, res) => {
-    req.flash("success", "Welcome Back!");
+// Login route with custom logic for username/phone/email
+app.post("/auth/login", async (req, res, next) => {
+    try {
+        const { username, password } = req.body;
+
+        // Determine if the input is an email or phone number or username
+        let loginField = "username";
+        let loginValue = username;
+
+        // Check if the username is in the email format
+        if (/\S+@\S+\.\S+/.test(username)) {
+            loginField = "email";
+            loginValue = username;
+        }
+        // Check if the username is a phone number (basic check)
+        else if (/^\d{10}$/.test(username)) {
+            loginField = "phone";
+            loginValue = username;
+        }
+
+        // Find user by the login field (username, email, or phone)
+        const user = await User.findOne({ [loginField]: loginValue });
+
+        if (!user) {
+            req.flash("error", "No account found with that username/email/phone.");
+            return res.redirect("/auth/login");
+        }
+
+        // Authenticate user using passport-local strategy
+        passport.authenticate("local", {
+            failureRedirect: "/auth/login",
+            failureFlash: true
+        })(req, res, () => {
+            req.flash("success", "Welcome back!");
+            res.redirect("/");  // Redirect to homepage or dashboard after successful login
+        });
+
+    } catch (err) {
+        req.flash("error", "Something went wrong. Please try again.");
+        res.redirect("/auth/login");
+    }
+});
+
+// Callback after successful login
+app.post("/auth/login", (req, res) => {
+    req.flash("success", "Welcome back!");
     res.redirect("/");
 });
 

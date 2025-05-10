@@ -2,10 +2,10 @@
 
 <div class="container">
     <h1 class="text-center">Signup</h1>
-    <form action="/auth/signup" method="POST">
+    <form action="/auth/signup" method="POST" onsubmit="return validatePassword()">
         <div class="mb-3">
             <label for="username" class="form-label">Username</label>
-            <input type="text" name="username" class="form-control" required />
+            <input type="text" name="username" class="form-control" pattern="^[a-zA-Z0-9_]+$" title="Username can only contain Small letters, numbers, and underscores." required />
         </div>
         <div class="mb-3">
             <label for="phone" class="form-label">Phone</label>
@@ -17,7 +17,11 @@
         </div>
         <div class="mb-3">
             <label for="password" class="form-label">Create New Password</label>
-            <input type="password" name="password" class="form-control" required />
+            <input type="password" name="password" id="password" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label for="confirmPassword" class="form-label">Confirm Password</label>
+            <input type="password" name="confirmPassword" id="confirmPassword" class="form-control" required />
         </div>
         <button class="btn btn-primary">Signup</button>
     </form>
@@ -25,3 +29,16 @@
         Do you already have an account? <a href="/auth/login"> Login here</a>
     </div>
 </div>
+
+<script>
+    function validatePassword() {
+        var password = document.getElementById('password').value;
+        var confirmPassword = document.getElementById('confirmPassword').value;
+
+        if (password !== confirmPassword) {
+            alert("Passwords do not match!");
+            return false; // Prevent form submission
+        }
+        return true;
+    }
+</script>
