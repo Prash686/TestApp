@@ -2,6 +2,9 @@ if (process.env.NODE_ENV !== "production") {
     require("dotenv").config();
 }
 
+// Additional required imports
+const crypto = require('crypto');
+const nodemailer = require('nodemailer');
 const express = require("express");
 
 
@@ -108,6 +111,133 @@ app.get("/", async (req, res) => {
         description: "Practice and test your knowledge with MCQs for ETI, Management, EST, AJP and other subjects. Improve your skills with interactive tests on msbtemcq.in.",
         keywords: "mcq, mcqs, ETI, Management, EST, AJP, practice tests, online tests, msbte"
     });
+});
+
+// GET route to render forgot password form
+app.get('/auth/forgot-password', (req, res) => {
+    res.render('auth/forgot-password.ejs', {
+        title: "Forgot Password - MSBTE MCQ Practice",
+        description: "Reset your password for MSBTE MCQ Practice",
+        keywords: "forgot password, reset password, msbte"
+    });
+});
+
+// POST route to handle forgot password form submission
+app.post('/auth/forgot-password', async (req, res) => {
+    const { email } = req.body;
+    try {
+        const user = await User.findOne({ email: email });
+        if (!user) {
+            req.flash('error', 'No account with that email address exists.');
+            return res.redirect('/auth/forgot-password');
+        }
+
+        // Generate reset token
+        const token = crypto.randomBytes(20).toString('hex');
+        // console.log("Generated reset token:", token);
+
+        // Set token and expiration on user
+        user.resetPasswordToken = token;
+        user.resetPasswordExpires = Date.now() + 3600000; // 1 hour
+
+        await user.save();
+        //console.log("Saved user with reset token and expiration:", user.resetPasswordToken, user.resetPasswordExpires);
+
+        // Setup nodemailer transporter
+        const transporter = nodemailer.createTransport({
+            service: 'Gmail',
+            auth: {
+                user: "gsa115376@gmail.com",
+                pass: "rbnc ynms jssn cloq"
+            }
+        });
+
+        const resetUrl = `http://${req.headers.host}/auth/reset-password/${token}`;
+        //console.log("Password reset URL:", resetUrl);
+
+        const mailOptions = {
+            to: user.email,
+            from: process.env.GMAIL_USER,
+            subject: 'MSBTE MCQ Practice Password Reset',
+            text: `You are receiving this because you (or someone else) have requested the reset of the password for your account.\n\n
+Please click on the following link, or paste this into your browser to complete the process:\n\n
+${resetUrl}\n\n
+If you did not request this, please ignore this email and your password will remain unchanged.\n`
+        };
+
+        await transporter.sendMail(mailOptions);
+
+        req.flash('success', `An e-mail has been sent to ${user.email} with further instructions.`);
+        res.redirect('/auth/forgot-password');
+    } catch (err) {
+        console.error(err);
+        req.flash('error', 'Error sending the password reset email. Please try again later.');
+        res.redirect('/auth/forgot-password');
+    }
+});
+
+// GET route to render reset password form
+app.get('/auth/reset-password/:token', async (req, res) => {
+    try {
+        console.log("Received reset token in URL:", req.params.token);
+        const user = await User.findOne({
+            resetPasswordToken: req.params.token,
+            resetPasswordExpires: { $gt: Date.now() }
+        });
+        console.log("User found for reset token:", user);
+
+        if (!user) {
+            req.flash('error', 'Password reset token is invalid or has expired.');
+            return res.redirect('/auth/forgot-password');
+        }
+
+        res.render('auth/reset-password.ejs', {
+            token: req.params.token,
+            title: "Reset Password - MSBTE MCQ Practice",
+            description: "Reset your password for MSBTE MCQ Practice",
+            keywords: "reset password, msbte"
+        });
+    } catch (err) {
+        console.error(err);
+        req.flash('error', 'Error processing your request.');
+        res.redirect('/auth/forgot-password');
+    }
+});
+
+// POST route to handle reset password form submission
+app.post('/auth/reset-password/:token', async (req, res) => {
+    try {
+        const user = await User.findOne({
+            resetPasswordToken: req.params.token,
+            resetPasswordExpires: { $gt: Date.now() }
+        });
+
+        if (!user) {
+            req.flash('error', 'Password reset token is invalid or has expired.');
+            return res.redirect('/auth/forgot-password');
+        }
+
+        const { password, confirmPassword } = req.body;
+
+        if (password !== confirmPassword) {
+            req.flash('error', 'Passwords do not match.');
+            return res.redirect(`/auth/reset-password/${req.params.token}`);
+        }
+
+        // Set new password using passport-local-mongoose's setPassword
+        await user.setPassword(password);
+        user.resetPasswordToken = undefined;
+        user.resetPasswordExpires = undefined;
+
+        await user.save();
+
+        req.flash('success', 'Your password has been updated. You can now log in.');
+        res.redirect('/auth/login');
+    } catch (err) {
+        console.error(err);
+        req.flash('error', 'Error resetting your password. Please try again.');
+        res.redirect('/auth/forgot-password');
+    }
 });
 
 

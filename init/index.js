@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
-const initData = require("./data.js");
-const Questions = require("./question.js");
+//const initData = require("./data.js");
+//const Questions = require("./question.js");
+const Users = require("./user.js");
 
 const MONGO_URL = "mongodb+srv://prash:prash%4011@cluster0.p4iok.mongodb.net/myDatabase?retryWrites=true&w=majority";
 
@@ -17,10 +18,10 @@ async function main() {
 }
 
 const initDB = async () => {
-  //await Questions.deleteMany({subject : "ETI"});
+  await Users.deleteMany({});
   // await Questions.insertMany(initData.data);
-  await Questions.updateMany({ subject: "ETI" },{ $set: { subject: "Emerging Trends(Computer)" } });
-  console.log("data was Updated");
+  //await Questions.updateMany({ subject: "ETI" },{ $set: { subject: "Emerging Trends(Computer)" } });
+  console.log("All users are deleted.");
 };
 
 initDB();

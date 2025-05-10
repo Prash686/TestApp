@@ -3,13 +3,17 @@
 <div class="container mt-5">
     <h1 class="text-center mb-4">Login</h1>
     <form action="/auth/login" method="POST">
-        <div class="mb-3">
+        <div class="mb-3 position-relative">
             <label for="username" class="form-label">Username / Email / Phone</label>
             <input type="text" name="username" class="form-control" id="username" placeholder="Enter your username, email, or phone number" required />
         </div>
-        <div class="mb-3">
+        <div class="mb-3 position-relative">
             <label for="password" class="form-label">Password</label>
             <input type="password" name="password" class="form-control" id="password" placeholder="Enter your password" required />
+            <i id="togglePassword" class="fa-solid fa-eye" style="position: absolute; top: 38px; right: 10px; cursor: pointer; user-select: none;"></i>
+        </div>
+        <div class="mb-3">
+            <a href="/auth/forgot-password">Forgot Password?</a>
         </div>
         <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="rememberMe" />
@@ -21,3 +25,17 @@
         Don't have an account? <a href="/auth/signup">Sign up here</a>
     </div>
 </div>
+
+<script>
+    const togglePassword = document.querySelector('#togglePassword');
+    const password = document.querySelector('#password');
+
+    togglePassword.addEventListener('click', function () {
+        // toggle the type attribute
+        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        password.setAttribute('type', type);
+        // toggle the eye / eye-slash icon
+        this.classList.toggle('fa-eye-slash');
+        this.classList.toggle('fa-eye');
+    });
+</script>
