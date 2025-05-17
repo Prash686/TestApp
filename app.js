@@ -105,12 +105,22 @@ const isLoggedIn = (req, res, next) => {
 };
 
 // Routes
-app.get("/", async (req, res) => {
-    res.render("testapp/home.ejs", {
-        title: "MSBTE MCQ Practice - ETI, Management, EST, AJP MCQs",
+// app.get("/", async (req, res) => {
+//     res.render("testapp/home.ejs", {
+//         title: "MSBTE MCQ Practice - ETI, Management, EST, AJP MCQs",
+//         description: "Practice and test your knowledge with MCQs for ETI, Management, EST, AJP and other subjects. Improve your skills with interactive tests on msbtemcq.in.",
+//         keywords: "mcq, mcqs, ETI, Management, EST, AJP, practice tests, online tests, msbte"
+//     });
+// });
+
+app.get('/', async (req, res, ) => {
+    // Fetch featured subjects (example: limit to 6)
+    const allSubjects = await subjects.find({}).limit(6).exec();
+    
+    // Render home page with subjects data
+    res.render('testapp/home', { allSubjects,title: "MSBTE MCQ Practice - ETI, Management, EST, AJP MCQs",
         description: "Practice and test your knowledge with MCQs for ETI, Management, EST, AJP and other subjects. Improve your skills with interactive tests on msbtemcq.in.",
-        keywords: "mcq, mcqs, ETI, Management, EST, AJP, practice tests, online tests, msbte"
-    });
+        keywords: "mcq, mcqs, ETI, Management, EST, AJP, practice tests, online tests, msbte"});
 });
 
 // GET route to render forgot password form

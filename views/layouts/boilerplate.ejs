@@ -155,5 +155,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
+<script>
+  fetch('/heartbeat') // or any valid API route
+    .then(res => {
+      if (!res.ok) throw new Error('Server Error');
+    })
+    .catch(() => {
+      window.location.href = 'https://testapp-sm6a.onrender.com/';
+    });
+</script>
+
 </body>
 </html>

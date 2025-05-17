@@ -19,3 +19,16 @@ h1 {
 .btn {
     width: 100%; /* Full width for buttons */
 }
+
+.position-relative {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 38px;
+    right: 10px;
+    cursor: pointer;
+    color: #6c757d;
+    user-select: none;
+}

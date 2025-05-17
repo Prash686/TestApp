@@ -50,6 +50,26 @@
     </div>
   </section>
 
+  
+
+  <!-- Featured Subjects Section -->
+  <section id="featured-subjects" class="container my-5">
+    <h2 class="text-center mb-4">Featured Subjects</h2>
+    <div class="card-container row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-3">
+      <% if (allSubjects && allSubjects.length > 0) { %>
+        <% allSubjects.forEach(subject => { %>
+          <div class="card" onclick="window.location.href='/subjects/<%= subject.title %>'">
+            <img src="<%= subject.image || '/images/msbte.jpeg' %>" alt="Subject Image" class="subject-image">
+            <h3><%= subject.title %></h3>
+          </div>
+        <% }) %>
+      <% } else { %>
+        <p>No featured subjects available at the moment.</p>
+      <% } %>
+    </div>
+  </section>
+
+
   <!-- Features Section -->
   <section id="features" class="container my-5">
     <h2 class="text-center mb-4">Features</h2>
