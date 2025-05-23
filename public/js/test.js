@@ -195,7 +195,24 @@ try {
         renderQuestion(currentQuestionIndex);
       }
     });
-
+async function sendProgress(progressData) {
+    try {
+      const response = await fetch('/api/user/progress', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(progressData)
+      });
+      if (!response.ok) {
+        throw new Error(`Server error: ${response.statusText}`);
+      }
+      return await response.json();
+    } catch (error) {
+      console.error('Error sending progress:', error);
+      throw error;
+    }
+  }
     renderQuestion(currentQuestionIndex);
     startTimer();
 

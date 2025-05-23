@@ -21,7 +21,8 @@ const initDB = async () => {
   await Users.deleteMany({});
   // await Questions.insertMany(initData.data);
   //await Questions.updateMany({ subject: "ETI" },{ $set: { subject: "Emerging Trends(Computer)" } });
-  console.log("All users are deleted.");
+  //await Users.find({});
+  console.log( await Users.find({}));
 };
 
 initDB();

@@ -368,7 +368,7 @@ app.get("/auth/logout", (req, res, next) => {
 });
 
 
-app.get("/practice/:id", isLoggedIn, async (req, res) => {
+app.get("/practice/:id", async (req, res) => {
     let { id } = req.params;
     const allquestions = await Questions.find({ subject: id });
     const subject = await subjects.findOne({ title: id });
@@ -476,7 +476,7 @@ app.get("/courses/:id", isLoggedIn, async (req, res) => {
     }
 });
 
-app.get("/TestApp/:id", isLoggedIn, async (req, res) => {
+app.get("/TestApp/:id", async (req, res) => {
     let { id } = req.params;
     const allSubjects = await subjects.find({});
     res.render("testapp/testOrPractice.ejs", {
@@ -524,10 +524,61 @@ app.post("/questions", isLoggedIn, async (req, res) => {
     }
 });
 
+// Route to render user profile page
+app.get('/profile', isLoggedIn, async (req, res) => {
+    try {
+        const user = await User.findById(req.user._id).select('username email phone progress');
+        res.render('testapp/profile', { currentUser: user, progress: user.progress });
+    } catch (err) {
+        console.error(err);
+        req.flash('error', 'Failed to load profile');
+        res.redirect('/');
+    }
+});
+
+// API route to get user progress data
+// app.get('/api/user/progress', isLoggedIn, async (req, res) => {
+//     try {
+//         const user = await User.findById(req.user._id).select('progress');
+//         res.json({ progress: user.progress });
+//     } catch (err) {
+//         console.error(err);
+//         res.status(500).json({ error: 'Failed to fetch user progress' });
+//     }
+// });
+
+// // API route to update user progress data after test/practice completion
+// app.post('/api/user/progress', isLoggedIn, async (req, res) => {
+//     try {
+//         const { subject, score, totalQuestions, details } = req.body;
+//         const user = await User.findById(req.user._id);
+//         if (!user) {
+//             return res.status(404).json({ error: 'User not found' });
+//         }
+//         user.progress.push({ subject, score, totalQuestions, details });
+//         await user.save();
+//         // Removed duplicate response to fix ERR_HTTP_HEADERS_SENT
+//         res.json({ message: 'Progress updated successfully' });
+//     } catch (err) {
+//         console.error(err);
+//         res.status(500).json({ error: 'Failed to update user progress' });
+//     }
+// });
+
+
+app.get('/Contact', (req, res) => {
+    res.render('testapp/contact', {
+        title: "Contact Us - MSBTE MCQ Practice",
+        description: "Contact MSBTE MCQ Practice for questions, feedback, or support.",
+        keywords: "contact, support, feedback, msbte"
+    });
+});
+
 // Catch-all route for undefined routes
 app.all('*', isLoggedIn, (req, res, next) => {
     next(new ExpressError('Page Not Found', 404));
 });
+
 
 // Global error handler
 app.use((err, req, res, next) => {

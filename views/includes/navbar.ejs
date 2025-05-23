@@ -1,53 +1,118 @@
 <style>
-   
-    /* Make sure the logo scales properly */
-.navbar-logo {
-    max-width: auto;        /* Ensures the logo doesn't exceed the container's width */
-    height: 50px;           /* Keeps the aspect ratio intact */
-    width: auto;           /* Adjust this based on your preference */
-}
+  .navbar-logo {
+    height: 50px;
+    width: auto;
+  }
 
-/* Optional: Adjust the logo size on smaller screens */
-@media (max-width: 767px) {
+  @media (max-width: 767px) {
     .navbar-logo {
-        width: 70px; /* Reduce size on small screens */
+      height: 40px;
     }
-}
 
+    .navbar-brand{
+      font-size: 1rem;
+    }
+    
+    .mobile-profile a {
+      font-size: 1rem;
+    }
+  }
+
+  .mobile-profile {
+    display: flex;
+    align-items: center;
+    color: white !important;
+    font-weight: 600;
+  }
+
+  .dropdown-menu {
+    z-index: 9999;
+  }
 </style>
+
+
 <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/">
-          <img src="/images/msbtemcq3.png" alt="Logo" class="navbar-logo">
-          <samp style="margin-left: 10px;">MSBTE-MCQ</samp> 
-      </a>    
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="/"><i class="fas fa-home nav-i"></i> Home</a>
-                <a class="nav-link" href="/#features"><i class="fas fa-list nav-i"></i> Features</a>
-                <a class="nav-link" href="/TestApp/practice"><i class="fas fa-pen nav-i"></i> Practice</a>
-                <a class="nav-link" href="/TestApp/test"><i class="fas fa-clipboard nav-i"></i> Test</a>
-                <a class="nav-link" href="/subjects"><i class="fas fa-book nav-i"></i> Subjects</a>
-                <a class="nav-link" href="/courses"><i class="fas fa-graduation-cap nav-i"></i> Courses</a>
-  <a class="nav-link" href="/about"><i class="fas fa-info-circle nav-i"></i> About</a>
-                <div class="dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" id="profileDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fas fa-user nav-i"></i> Profile
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="profileDropdown">
-                      <% if (currentUser) { %>
-                          <li><a class="dropdown-item" href="/auth/logout">Logout</a></li>
-                      <% } else { %>
-                          <li><a class="dropdown-item" href="/auth/login">Login</a></li>
-                          <li><a class="dropdown-item" href="/auth/signup">Sign Up</a></li>
-                      <% } %>
-                    </ul>
-                </div>
-  
-            </div>
-        </div>
+  <div class="container-fluid d-flex align-items-center justify-content-between">
+
+    <!-- Logo and brand -->
+    <a class="navbar-brand d-flex align-items-center" href="/">
+      <img src="/images/msbtemcq3.png" alt="Logo" class="navbar-logo">
+      <span style="margin-left: 10px;">MSBTE-MCQ</span>
+    </a>
+
+    <!-- Right-side: Profile + Toggle -->
+<div class="d-flex flex-nowrap align-items-center gap-2">
+
+  <!-- Mobile Profile dropdown -->
+  <div class="mobile-profile dropdown d-md-none">
+    <a class="nav-link dropdown-toggle" href="#" id="mobileProfileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fas fa-user nav-i"></i> Profile
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="mobileProfileDropdown">
+      <% if (currentUser) { %>
+      <li><a class="dropdown-item" href="/profile">My Profile</a></li>
+      <li><a class="dropdown-item" href="/auth/logout">Logout</a></li>
+      <% } else { %>
+      <li><a class="dropdown-item" href="/auth/login">Login</a></li>
+      <li><a class="dropdown-item" href="/auth/signup">Sign Up</a></li>
+      <% } %>
+    </ul>
+  </div>
+
+  <!-- Navbar toggle button -->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+</div>
+
+  <!-- Main navbar -->
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link" href="/"><i class="fas fa-home nav-i"></i> Home</a>
+      <a class="nav-link" href="/TestApp/practice"><i class="fas fa-pen nav-i"></i> Practice</a>
+      <a class="nav-link" href="/TestApp/test"><i class="fas fa-clipboard nav-i"></i> Test</a>
+      <a class="nav-link" href="/subjects"><i class="fas fa-book nav-i"></i> Subjects</a>
+      <a class="nav-link" href="/Contact"><i class="fa-solid fa-headset nav-i"></i>Contact Us</a>
+
+      <!-- Desktop Profile dropdown -->
+      <div class="nav-item dropdown d-none d-md-block">
+        <a class="nav-link dropdown-toggle" href="#" id="desktopProfileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-user nav-i"></i> Profile
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="desktopProfileDropdown">
+          <% if (currentUser) { %>
+          <li><a class="dropdown-item" href="/profile">My Profile</a></li>
+          <li><a class="dropdown-item" href="/auth/logout">Logout</a></li>
+          <% } else { %>
+          <li><a class="dropdown-item" href="/auth/login">Login</a></li>
+          <li><a class="dropdown-item" href="/auth/signup">Sign Up</a></li>
+          <% } %>
+        </ul>
+      </div>
     </div>
-  </nav>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('click', function(event) {
+    var navbarCollapse = document.getElementById('navbarNavAltMarkup');
+    var navbarToggler = document.querySelector('.navbar-toggler');
+
+    if (!navbarCollapse || !navbarToggler) return;
+
+    var isNavbarOpen = navbarCollapse.classList.contains('show');
+    var isClickInsideNavbar = navbarCollapse.contains(event.target);
+    var isClickOnToggler = navbarToggler.contains(event.target);
+
+    if (isNavbarOpen && !isClickInsideNavbar && !isClickOnToggler) {
+      // Use Bootstrap Collapse API to hide the menu
+      var bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+      if (!bsCollapse) {
+        bsCollapse = new bootstrap.Collapse(navbarCollapse);
+      }
+      bsCollapse.hide();
+    }
+  });
+</script>

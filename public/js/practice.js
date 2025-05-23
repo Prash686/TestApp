@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   let jsonData = document.getElementById('questions-data').value;
-  const cleanedJsonData = jsonData.replace(/&quot;/g, '"');
+  const cleanedJsonData = jsonData.replace(/"/g, '"');
   const questions = JSON.parse(cleanedJsonData);
   console.log(questions);
   const questionContainer = document.getElementById('question-container');

@@ -1,0 +1,66 @@
+<% layout('/layouts/boilerplate') -%>
+<style>
+  form input:focus,
+  form textarea:focus {
+    border-color: #3c2559;
+    box-shadow: 0 0 0 0.2rem rgba(60, 37, 89, 0.25);
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+</style>
+<main class="container py-5">
+  <div class="text-center mb-5">
+    <h1 class="display-5 fw-bold text-primary animate__animated animate__fadeInDown">
+      <i class="bi bi-envelope-fill me-2"></i>Contact Us
+    </h1>
+    <p class="text-muted fs-5">We’ll love to hear from you</p>
+  </div>
+
+  <div class="row g-4">
+    <!-- Developer Info -->
+    <div class="col-md-6">
+      <div class="p-4 bg-white rounded-4 shadow animate__animated animate__fadeInLeft">
+        <h4 class="text-secondary mb-4"><i class="bi bi-person-badge-fill me-2"></i>Developer Info</h4>
+        <ul class="list-unstyled fs-6">
+          <li class="mb-3"><i class="bi bi-person-circle me-2 text-dark"></i><strong>Name:</strong> Pravin Nitin Gondane</li>
+          <li class="mb-3"><i class="bi bi-building me-2 text-dark"></i><strong>College:</strong> Government Polytechnic , Beed</li>
+          <li class="mb-3"><i class="bi bi-phone-fill me-2 text-dark"></i><strong>Phone:</strong> +91 8788809009</li>
+          <li class="mb-3"><i class="bi bi-envelope-at-fill me-2 text-dark"></i><strong>Email:</strong> gsa115376.com</li>
+          <li class="mb-3"><i class="bi bi-instagram me-2 text-danger"></i><strong>Instagram:</strong> <a href="https://www.instagram.com/_pravin_drdz_/" target="_blank">@_pravin_drdz_</a></li>
+          <li class="mb-3"><i class="bi bi-linkedin me-2 text-primary"></i><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pravin-gondane-b734432a8/" target="_blank">pravin-gondane</a></li>
+          <li class="mb-3"><i class="bi bi-github me-2"></i><strong>GitHub:</strong> <a href="https://github.com/Prash686" target="_blank">Prash686</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="col-md-6">
+      <div class="p-4 bg-white rounded-4 shadow animate__animated animate__fadeInRight">
+        <h4 class="text-secondary mb-4"><i class="bi bi-chat-dots-fill me-2"></i>Send a Message</h4>
+        <form action="/Contact" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label"><i class="bi bi-person-fill me-2"></i>Name</label>
+            <input type="text" class="form-control shadow-sm" id="name" name="name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label"><i class="bi bi-envelope-fill me-2"></i>Email</label>
+            <input type="email" class="form-control shadow-sm" id="email" name="email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label"><i class="bi bi-chat-left-text-fill me-2"></i>Message</label>
+            <textarea class="form-control shadow-sm" id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-success w-100 py-2 mt-3 shadow-sm">
+            <i class="bi bi-send-fill me-2"></i>Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>

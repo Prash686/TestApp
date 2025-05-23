@@ -1,0 +1,40 @@
+<% layout('/layouts/boilerplate') -%>
+
+<div class="container mt-4">
+    <h1>User Profile</h1>
+    <div class="card mb-4">
+        <div class="card-body">
+            <h3>Welcome, <%= currentUser.username %></h3>
+            <p>Email: <%= currentUser.email %></p>
+            <p>Phone: <%= currentUser.phone || 'Not provided' %></p>
+        </div>
+    </div>
+
+    <h2>Progress Summary</h2>
+    <% if (progress && progress.length > 0) { %>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Score</th>
+                    <th>Total Questions</th>
+                    <th>Date</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% progress.forEach(function(session) { %>
+                    <tr>
+                        <td><%= session.subject %></td>
+                        <td><%= session.score %></td>
+                        <td><%= session.totalQuestions %></td>
+                        <td><%= new Date(session.date).toLocaleDateString() %></td>
+                        <td><a href="/profile/progress/<%= session._id %>">View</a></td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    <% } else { %>
+        <p>No progress data available.</p>
+    <% } %>
+</div>
