@@ -368,7 +368,7 @@ app.get("/auth/logout", (req, res, next) => {
 });
 
 
-app.get("/practice/:id", async (req, res) => {
+app.get("/practice/:id", isLoggedIn, async (req, res) => {
     let { id } = req.params;
     const allquestions = await Questions.find({ subject: id });
     const subject = await subjects.findOne({ title: id });
@@ -427,7 +427,7 @@ app.get("/subjects", isLoggedIn, async (req, res) => {
     });
 });
 
-app.get("/subjects/new", async (req, res) => {
+app.get("/subjects/new", isLoggedIn, async (req, res) => {
     res.render("testapp/subjectNew.ejs", {
         title: "Add New Subject - MSBTE MCQ Practice",
         description: "Add a new subject to practice MCQs for ETI, Management, EST, AJP and more on msbtemcq.in.",
@@ -476,7 +476,7 @@ app.get("/courses/:id", isLoggedIn, async (req, res) => {
     }
 });
 
-app.get("/TestApp/:id", async (req, res) => {
+app.get("/TestApp/:id", isLoggedIn, async (req, res) => {
     let { id } = req.params;
     const allSubjects = await subjects.find({});
     res.render("testapp/testOrPractice.ejs", {
