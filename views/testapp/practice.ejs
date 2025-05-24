@@ -1,18 +1,18 @@
 <% layout('/layouts/boilerplate') -%>
 <link rel="stylesheet" href="/css/practice.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 <div class="container mt-5" style="min-height: 70vh;">
-  <h1 class="text-center mb-3">MSBTE model questions for <%= subjectName %> </h1>
-  <p class="text-center mb-4">MSBTE I-scheme MCQs 2025. Practice and improve your knowledge with free online tests.</p>
-  <h3 class="text-center mb-4">Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
+  <h1 class="text-center mb-3 animate__animated animate__fadeInDown">MSBTE model questions for <%= subjectName %> </h1>
+  <p class="text-center mb-4 animate__animated animate__fadeIn animate__delay-1s">MSBTE I-scheme MCQs 2025. Practice and improve your knowledge with free online tests.</p>
+  <h3 class="text-center mb-4 animate__animated animate__fadeInUp animate__delay-2s">Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
 
-  <!-- Hidden field to pass questions to JS -->
   <input type="hidden" id="questions-data" value='<%- JSON.stringify(allquestions).replace(/'/g, "&#39;") %>'>
 
   <form method="GET" action="/submit">
-    <div id="question-container" class="bg-white p-4 rounded shadow-lg mb-4"></div>
+    <div id="question-container" class="bg-white p-4 rounded shadow-lg mb-4 animate__animated animate__zoomIn"></div>
 
-    <div class="btn-group d-flex justify-content-between align-items-center mb-3">
+    <div class="btn-group d-flex justify-content-between align-items-center mb-3 animate__animated animate__fadeInUp animate__delay-1s">
       <div id="next-submit-buttons" class="d-flex justify-content-center">
         <button type="button" id="prev-btn" class="btn btn-primary btn-lg" disabled>Previous</button>
         <button type="button" id="next-btn" class="btn btn-primary btn-lg mx-2">Next</button>
@@ -28,9 +28,22 @@
 
   <!-- Modal -->
   <div id="modal" class="modal fade" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-dialog-centered animate__animated animate__fadeIn" role="document">
       <div class="modal-content rounded-3 shadow-lg">
         <div class="modal-header bg-info text-white">
+          <!-- Correct Answer Popup -->
+          <div id="correct-popup" class="popup animate__animated animate__bounceIn d-none">
+            <div class="popup-content bg-success text-white rounded p-4 text-center shadow-lg">
+              <h2 class="animate__animated animate__heartBeat">Correct Answer!</h2>
+            </div>
+          </div>
+
+          <!-- Wrong Answer Popup -->
+          <div id="wrong-popup" class="popup animate__animated animate__shakeX d-none">
+            <div class="popup-content bg-danger text-white rounded p-4 text-center shadow-lg">
+              <h2 class="animate__animated animate__wobble">Wrong Answer!</h2>
+            </div>
+          </div>
           <h5 class="modal-title">Result</h5>
           <button type="button" class="btn-close" id="modal-close" aria-label="Close"></button>
         </div>

@@ -17,8 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const selectedAnswers = {};
 
   function renderQuestion(index) {
+
     const question = questions[index];
-    questionContainer.innerHTML = '';
+    questionContainer.classList.remove('animate__zoomIn'); // reset if needed
+    void questionContainer.offsetWidth; // reflow trick
+    questionContainer.classList.add('animate__animated', 'animate__zoomIn');
+
 
     const questionText = document.createElement('p');
     questionText.textContent = `Q. ${question.question} (marks ${question.marks})`;
@@ -63,8 +67,19 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function showModal(message) {
+  function showModal(message, type) {
+    const correctPopup = document.getElementById("correct-popup");
+    const wrongPopup = document.getElementById("wrong-popup");
+    correctPopup.classList.add("d-none");
+    wrongPopup.classList.add("d-none");
     modalMessage.textContent = message;
+     if (type === "correct") {
+        correctPopup.classList.remove("d-none");
+        setTimeout(() => correctPopup.classList.add("d-none"), 2000);
+      } else if (type === "wrong") {
+        wrongPopup.classList.remove("d-none");
+        setTimeout(() => wrongPopup.classList.add("d-none"), 2000);
+      }
     modal.show();
   }
 
@@ -78,9 +93,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!selectedOption) {
       showModal('Please select an answer.');
     } else if (selectedOption.value === correctAnswer) {
-      showModal('🎉 Correct Answer!');
+      showModal('🎉 Correct Answer!',"correct");
     } else {
-      showModal(`❌ Wrong Answer. Correct is: ${correctAnswer.replace('option', '')}) ${questions[currentQuestionIndex][correctAnswer]}`);
+      showModal(`❌ Wrong Answer. Correct is: ${correctAnswer.replace('option', '')}) ${questions[currentQuestionIndex][correctAnswer]}`,"wrong");
     }
   }
 
