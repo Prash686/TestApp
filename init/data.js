@@ -57921,4 +57921,4722 @@ const BEE = [
     }
     
 ] 
-module.exports = { data: BEE};
+
+const ETM =[
+    {
+        "question": "The fuel efficiency of Mild hybrids vehicle is more as compared to conventional hybrid systems by",
+        "option1": "10-15%",
+        "option2": "7-15%",
+        "option3": "3-15%",
+        "option4": "1-15%",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which voltage is likely to be available from the battery of an electric vehicle also known as Mild hybrid?",
+        "option1": "12V",
+        "option2": "24V",
+        "option3": "300V",
+        "option4": "100V",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The MHEV system consists of which volt?",
+        "option1": "12v",
+        "option2": "24V",
+        "option3": "48V",
+        "option4": "none of the above.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "World's first commercially mass-produced and marketed hybrid automobile was the Toyota Prius. It became available on the Japanese market in what year?",
+        "option1": "1998",
+        "option2": "1996",
+        "option3": "1997",
+        "option4": "1999",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Hybrid vehicles convert energy that is normally lost through braking into electrical energy. What is the term that is used for this recycling of energy?",
+        "option1": "Perpetual motion",
+        "option2": "Regenerative braking",
+        "option3": "Kinetic conversation",
+        "option4": "Hybrid archamy",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "First mass produced hybrid vehicle internationally is",
+        "option1": "Tesla model X",
+        "option2": "Mahindra e20",
+        "option3": "Toyota Prius",
+        "option4": "Ford GT",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The first vehicle with hybrid technology was developed by........",
+        "option1": "Ferdinand Porsche",
+        "option2": "Thomas Edison",
+        "option3": "Isaac Newton",
+        "option4": "Alexander Graham Bell",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not an advantage of hybrid vehicles.",
+        "option1": "Environmentally friendly",
+        "option2": "Initial cost is low",
+        "option3": "Better mileage",
+        "option4": "Higher energy conservation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a disadvantage of hybrid vehicles?",
+        "option1": "You will not get as many discounts or incentives as you will get with electric vehicles.",
+        "option2": "They aren't as powerful.",
+        "option3": "Lower mileage and higher emissions.",
+        "option4": "They are not exempted from tax.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not the type of hybrid vehicle?",
+        "option1": "Plug in hybrid",
+        "option2": "Parallel hybrid",
+        "option3": "Natural gas for vehicle",
+        "option4": "Series hybrid",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Regenerative braking involves:",
+        "option1": "Nano fibers that repair the surface of brake pads",
+        "option2": "Reducing the amount of friction",
+        "option3": "Reclaiming heat from the brake and using it for power",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What purpose does a generator serve in a hybrid vehicle?",
+        "option1": "It converts nuclear energy into more nuclear energy.",
+        "option2": "It converts mechanical energy into electrical energy.",
+        "option3": "It converts chemical energy into electrical energy.",
+        "option4": "It converts electrical energy into mechanical energy.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which technology helps to stop a combustion engine when the vehicle pulls to a stop and restart it when driver accelerates?",
+        "option1": "Start stop technology",
+        "option2": "Passive braking technology",
+        "option3": "Regenerative braking technology",
+        "option4": "Internal cooling technology",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What does MHEV stand for?",
+        "option1": "Mild hybrid electric vehicle",
+        "option2": "Micro hybrid electric vehicle",
+        "option3": "Mild horsepower electric vehicle",
+        "option4": "Micro horsepower electric vehicle",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The electric motor in a hybrid car can also act as",
+        "option1": "A generator",
+        "option2": "A Fuel pump",
+        "option3": "Cooling fan",
+        "option4": "Compressor",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The full form of BAHV is:",
+        "option1": "Battery assisted hybrid vehicle",
+        "option2": "Battery proxy hybrid vehicle",
+        "option3": "Battery assist hydro vehicle",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The BAS mild hybrid system is used to start the internal combustion engine using:",
+        "option1": "Belt drive",
+        "option2": "Chain drive",
+        "option3": "Direct drive",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The electric motor in a mild hybrid is acting as a:",
+        "option1": "Power booster",
+        "option2": "Hydro boost",
+        "option3": "Buffalo power booster",
+        "option4": "Booster plug",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In _______ vehicle energy is stored in an auxiliary battery and then it is used to quickly start a vehicle.",
+        "option1": "Full hybrid",
+        "option2": "Micro hybrid",
+        "option3": "Series hybrid",
+        "option4": "Mild hybrid",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In which vehicle system lowest size of a battery is used?",
+        "option1": "Micro hybrid",
+        "option2": "Mild hybrid",
+        "option3": "Series hybrid",
+        "option4": "Parallel hybrid",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In which vehicle system bigger size of a battery is used?",
+        "option1": "Micro hybrid",
+        "option2": "Mild hybrid",
+        "option3": "Series hybrid",
+        "option4": "Full hybrid",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Following is not type of hybrid electric vehicle.",
+        "option1": "Series",
+        "option2": "Parallel",
+        "option3": "Vertical",
+        "option4": "Complex",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In parallel hybrid vehicle Internal Combustion Engine and electric motor are coupled by a device.",
+        "option1": "Hydraulic",
+        "option2": "Pneumatic",
+        "option3": "Mechanical",
+        "option4": "Electric",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The combustion engine can operate in RPM range, even as a car changes speed.",
+        "option1": "Moderate",
+        "option2": "Wide",
+        "option3": "Narrow",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In this configuration, efforts are made to operate the electric motor alone at _____ and ICE alone at _____.",
+        "option1": "medium speed and lower speed",
+        "option2": "higher speed and lower speed",
+        "option3": "higher speed and medium speed",
+        "option4": "lower speed and higher speed",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Full form of CVT",
+        "option1": "continuously variation transform",
+        "option2": "continue various transmission",
+        "option3": "continuously various transformation",
+        "option4": "continuously variable transmission",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Full form of ICE",
+        "option1": "Internal continuous engine",
+        "option2": "Internal combination engine",
+        "option3": "internal continue emission",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Full form of PEM in fuel cell",
+        "option1": "petrol-exchange membrane",
+        "option2": "proton-execute membrane",
+        "option3": "proton-exchange membrane",
+        "option4": "petrol-execute membrane",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which vehicles do not require the same level of battery power and do not achieve the same levels of fuel economy?",
+        "option1": "Mild Hybrid",
+        "option2": "Full Hybrid",
+        "option3": "Series Hybrid",
+        "option4": "Parallel Hybrid",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What does PHEV stands for?",
+        "option1": "Plug-in Hybrid Electronic Vehicles",
+        "option2": "Plug-in Hybrid Electric Vehicles",
+        "option3": "Plug-out Hybrid Electronic Vehicles",
+        "option4": "Plug-out Hybrid Electric Vehicles",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of these is the purpose of power-split device?",
+        "option1": "To split Electrical Energy into Mechanical Energy.",
+        "option2": "To allow both the engine and Electric motor to propel the vehicle",
+        "option3": "To recharge the battery while braking",
+        "option4": "To recharge the brakes while driving",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A Hybrid Vehicle equipped with push button start will enter the power ON mode but will not enter the ready to drive mode. No diagnostic trouble code are stored. This could be caused by",
+        "option1": "The high voltage safety plug is removed",
+        "option2": "A failed brake on/off switch",
+        "option3": "An empty fuel tank",
+        "option4": "A disconnect 12v battery",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The MIL is illuminated and a battery module deterioration diagnostic trouble code is stored. The most likely cause is a failed",
+        "option1": "High voltage battery",
+        "option2": "High voltage inverter",
+        "option3": "Motor/ generator",
+        "option4": "DC/ DC converter",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A conventional vehicle costs 10 to 15 percent per mile in fuel to operate. How much does an electric vehicle cost per mile?",
+        "option1": "2 to 4 cents",
+        "option2": "5 to 6 cents",
+        "option3": "7 to 8 cents",
+        "option4": "9 to 10 cents",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The strategic petroleum reserve was created to lower oil prices during supply disruptions. How much did the US spend to build and fill the SPR?",
+        "option1": "$980 billion",
+        "option2": "$2 million",
+        "option3": "$4.5 billion",
+        "option4": "$22 billion",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Current levels of off-peak electric capacity are sufficient to power how much of our nation’s car and light-duty truck fleet?",
+        "option1": "19%",
+        "option2": "33%",
+        "option3": "55%",
+        "option4": "73%",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of these is the purpose of the power-split device?",
+        "option1": "To split electrical energy into mechanical energy",
+        "option2": "To allow both the engine and electric motor to propel the vehicle",
+        "option3": "To recharge the battery while braking",
+        "option4": "To control the speed of the hybrid motor",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The electric cars available in India are:",
+        "option1": "Hyndai Kona Electric",
+        "option2": "Mahindra E20",
+        "option3": "Tata Tigor EV 2019",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The following companies have launched electric motorcycles in India:",
+        "option1": "Revolt",
+        "option2": "Hero",
+        "option3": "Yamaha",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "India's first electric bus was launched in 2014 in:",
+        "option1": "Chennai",
+        "option2": "Mumbai",
+        "option3": "Gujarat",
+        "option4": "Bangalore",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Ashok Leyland launched its electric bus in:",
+        "option1": "Oct 2015",
+        "option2": "Oct 2016",
+        "option3": "April 2016",
+        "option4": "April 2015",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "SMEV stands for",
+        "option1": "society of manufacturing of ergonic volts",
+        "option2": "society of manufacturing of electronic vehicles",
+        "option3": "society of manufacturing of environment vehicles",
+        "option4": "society of manufacturing of electric vehicles",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Society of Indian automobile manufactures:",
+        "option1": "SMEV",
+        "option2": "VMCV",
+        "option3": "SEMV",
+        "option4": "SSEV",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "There is main reason for which the automotive manufacturers are developing and selling HEVs.",
+        "option1": "Reduction of c02 emission.",
+        "option2": "Direction of exhaust gas toxic emission.",
+        "option3": "Improvement of powertrain dynamics",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Who is the largest manufacturer of lithium batteries?",
+        "option1": "Us giga factory",
+        "option2": "Samsung solco",
+        "option3": "Panasonic",
+        "option4": "Toshiba",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many km can an electric car go?",
+        "option1": "500 Km",
+        "option2": "700 km",
+        "option3": "450 km",
+        "option4": "1OOkm",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The storage battery generally used in electric power station is",
+        "option1": "nickel-cadmium battery",
+        "option2": "zinc-carbon battery",
+        "option3": "lead-acid battery",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The output voltage of a charger is",
+        "option1": "less than the battery voltage",
+        "option2": "Higher than the battery voltage",
+        "option3": "The same as the battery voltage",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the challenge with electric vehicles?",
+        "option1": "Vehicle durability",
+        "option2": "Cell life",
+        "option3": "Cost",
+        "option4": "Both A and B",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the life of battery in an electric car?",
+        "option1": "8 year",
+        "option2": "10 year",
+        "option3": "4 year",
+        "option4": "20 year",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What type of battery is used in an electric car?",
+        "option1": "Lithium ion",
+        "option2": "Nickel -metal hydride",
+        "option3": "Both A and B",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The capacity of a battery is expressed in terms of",
+        "option1": "ampere per hour",
+        "option2": "current",
+        "option3": "volt",
+        "option4": "ampere",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Life of a battery in the electric vehicle is about",
+        "option1": "8 years",
+        "option2": "5 years",
+        "option3": "10 years",
+        "option4": "20 years",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Who was the inventor of electric batteries in electric cars",
+        "option1": "Thomas Davenport",
+        "option2": "newton",
+        "option3": "Dr Abdul kalam",
+        "option4": "Nikola tesla",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How much time it takes for a electric car of 60kWh battery to charge",
+        "option1": "5 hours",
+        "option2": "8 hours",
+        "option3": "6-7 hours",
+        "option4": "None of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Advantages of lithium batteries",
+        "option1": "Light weight",
+        "option2": "Compact",
+        "option3": "Low maintenance",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How many volts it take to charge an electric car?",
+        "option1": "140",
+        "option2": "150",
+        "option3": "120",
+        "option4": "200",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many known modes of charging of EVs are available",
+        "option1": "3",
+        "option2": "2",
+        "option3": "4",
+        "option4": "1",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which from the listed are fuel cells",
+        "option1": "SOFC",
+        "option2": "MCFC",
+        "option3": "PAFC",
+        "option4": "ALL OF THE ABOVE",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Modern lithium ion batteries provide average range of",
+        "option1": "120-280 kilometres",
+        "option2": "320-480 kilometres",
+        "option3": "520-680 kilometres",
+        "option4": "720-980 kilometres",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The electrolyte used in sodium nickel chloride batteries is",
+        "option1": "Sodium chloride",
+        "option2": "Tetra chloraluminate",
+        "option3": "Sodium bicarbonate",
+        "option4": "Sodium glutamate",
+        "Answer": "option2",
+        "marks": 1
+    },
+
+
+    {
+        "question": "Average temperature of electrolyte in sodium nickel chloride batteries",
+        "option1": "100 to 200 degree Celsius",
+        "option2": "270 to 350 degree Celsius",
+        "option3": "380 to 410 degree Celsius",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Average lifespan of sodium nickel chloride batteries",
+        "option1": "5 years",
+        "option2": "10 years",
+        "option3": "15 years",
+        "option4": "20 years",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Sodium nickel chloride batteries are also called as",
+        "option1": "Horse",
+        "option2": "Zebra",
+        "option3": "Cobra",
+        "option4": "Turbo",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What are the various types of batteries used in electric vehicles",
+        "option1": "Lithium ion batteries",
+        "option2": "Sodium nickel chloride batteries",
+        "option3": "Sodium sulphor batteries",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Sodium sulphur battery is a type of molten-salt battery constructed from sodium and sulphur.",
+        "option1": "Solid",
+        "option2": "Liquid",
+        "option3": "Plasma",
+        "option4": "Gases",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The following is the operating temperatures of the sodium —sulphur battery.",
+        "option1": "400 to 6000c",
+        "option2": "1000 to 15000c",
+        "option3": "300 to 3500 C",
+        "option4": "100 to 2000c",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The cell is usually in shape.",
+        "option1": "Triangular",
+        "option2": "Circular",
+        "option3": "Rectangular",
+        "option4": "Cylindrical",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Entire cell is enclosed by a steel casing that is protected usually by and",
+        "option1": "Nickel, chromium",
+        "option2": "Chromium, molybdenum",
+        "option3": "Aluminium, molybdenum",
+        "option4": "Nickel, aluminium",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Full form of BASE is",
+        "option1": "Basic Analysis and Security Engine.",
+        "option2": "Biefield Academic Search Engine.",
+        "option3": "Basel Agency for Sustainable Energy.",
+        "option4": "Beta-Aluminium Solid Electrolyte.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The sulphur in sulphur sodium battery is absorbed by sponge.",
+        "option1": "Sodium",
+        "option2": "Carbon",
+        "option3": "Wire",
+        "option4": "Cellulose",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not the name of charging station?",
+        "option1": "Electric vehicle charging station",
+        "option2": "EVSE",
+        "option3": "ECS",
+        "option4": "ESSV",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The charging time depends on which of the following factor?",
+        "option1": "Battery size",
+        "option2": "Battery capacity",
+        "option3": "Size of vehicle",
+        "option4": "Voltage of batery",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The capacity of a battery is expressed in terms of",
+        "option1": "Current rating",
+        "option2": "Voltage rating",
+        "option3": "Ampere hour rating",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The storage battery generally used in electric power station is",
+        "option1": "Nickel-cadmium battery",
+        "option2": "Zinc carbon battery",
+        "option3": "Lead-acid battery",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Trickle charger of a storage battery helps to",
+        "option1": "Maintain proper electrolyte level",
+        "option2": "Increase its reverse capacity",
+        "option3": "Prevent sulphation",
+        "option4": "Keep it fresh and fully charged",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "On over charging a battery",
+        "option1": "It will bring about chemical change in active materials",
+        "option2": "It will increase the capacity of the battery",
+        "option3": "It will raise the specific gravity of the electrolyte",
+        "option4": "None of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Battery container should be acid resistance therefore it is made up of",
+        "option1": "Glass",
+        "option2": "Plastic",
+        "option3": "Wood",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Following will happen if battery charging rate is too high",
+        "option1": "Excessive gassing will occur",
+        "option2": "Temperature rise will occur",
+        "option3": "Bulging and buckling of plates will occur",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "To prevent local action in battery, only is used in electrolytes",
+        "option1": "Pump water",
+        "option2": "Distilled water",
+        "option3": "Tap water",
+        "option4": "Both A and C",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Ampere hour capacity of an industrial battery is based on hours discharge rate",
+        "option1": "8",
+        "option2": "12",
+        "option3": "16",
+        "option4": "24",
+        "Answer": "option1",
+        "marks": 1
+    },
+
+
+    {
+        "question": "Lithium cells operate in the temperature range of:",
+        "option1": "-25°C to 25°C",
+        "option2": "-50°C to 25°C",
+        "option3": "-50°C to 75°C",
+        "option4": "-75°C to 75°C",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The positive plates of nickel iron cell are made up of:",
+        "option1": "Nickel hydroxide",
+        "option2": "Lead peroxide",
+        "option3": "Ferrous hydroxide",
+        "option4": "Potassium hydroxide",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In lead acid accumulators, the container is filled with distilled water and concentrated sulphuric acid in the ratio of:",
+        "option1": "1:2",
+        "option2": "2:1",
+        "option3": "3:1",
+        "option4": "1:3",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The emf of the dry cell is about:",
+        "option1": "0V",
+        "option2": "0.5V",
+        "option3": "1V",
+        "option4": "1.5V",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In a cell, current flows in the outer circuit from:",
+        "option1": "Positive terminal to negative terminal and electrons from negative to positive",
+        "option2": "Positive terminal to negative terminal and electrons from positive to negative",
+        "option3": "Negative terminal to positive terminal and electrons from negative to positive",
+        "option4": "Negative terminal to positive terminal and electrons from positive to negative",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following battery is used for aircraft?",
+        "option1": "Lead acid battery",
+        "option2": "Nickel-iron battery",
+        "option3": "Dry cell battery",
+        "option4": "Silver oxide battery",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When two batteries are connected in parallel, it should be ensured that:",
+        "option1": "They have same emf",
+        "option2": "They have same make",
+        "option3": "They have same ampere hour capacity",
+        "option4": "They have identical internal resistance",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The electrode for a battery must be:",
+        "option1": "A semi conductor",
+        "option2": "An insulator",
+        "option3": "A good conductor of electricity",
+        "option4": "A bad conductor of electricity",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A dead storage battery can be revived by:",
+        "option1": "Adding distilled water",
+        "option2": "Adding so-called battery restorer",
+        "option3": "A dose of H₂SO₄",
+        "option4": "None of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The open circuit voltage of any storage cell depends wholly upon:",
+        "option1": "Its chemical constituents",
+        "option2": "On the strength of its electrolyte",
+        "option3": "Its temperature",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Each cell has a vent cap:",
+        "option1": "To allow gases out when the cell is on charge",
+        "option2": "To add water to the cell if needed",
+        "option3": "To check the level of electrolyte",
+        "option4": "To do all above functions",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is one of the primary downsides of fuel cells?",
+        "option1": "Weight",
+        "option2": "Cost",
+        "option3": "Pollution",
+        "option4": "Maintenance",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A fuel cell converts ______ energy into electrical energy:",
+        "option1": "Mechanical",
+        "option2": "Magnetic",
+        "option3": "Solar",
+        "option4": "Chemical",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following primary cells has the highest voltage?",
+        "option1": "Manganese-alkaline",
+        "option2": "Carbon-zinc",
+        "option3": "Lithium",
+        "option4": "Mercury",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of these is a problem electric car makers are trying to solve?",
+        "option1": "Electric cars aren't noisy enough",
+        "option2": "They don't produce enough sulphur dioxides",
+        "option3": "They don't cost enough",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Identify the incorrect statement about electric vehicles:",
+        "option1": "Insufficient charging stations",
+        "option2": "Long charging period",
+        "option3": "Limited range",
+        "option4": "High operating cost",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which vehicle has the smallest number of principle components?",
+        "option1": "Traditional vehicle",
+        "option2": "Hybrid vehicle",
+        "option3": "Electric vehicle",
+        "option4": "Both A and B",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following vehicles produces zero emissions?",
+        "option1": "Traditional",
+        "option2": "Hybrid",
+        "option3": "Electric",
+        "option4": "Both A and B",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How long does an electric car battery last per charge?",
+        "option1": "20 min - 10 hr",
+        "option2": "30 min - 12 hr",
+        "option3": "40 min - 9 hr",
+        "option4": "60 min - 8 hr",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the life span of electric car batteries?",
+        "option1": "8 years",
+        "option2": "10 years",
+        "option3": "9 years",
+        "option4": "11 years",
+        "Answer": "option1",
+        "marks": 1
+    },
+
+
+
+    {
+        "question": "Which electric vehicle has 30 kWh and 160 km range?",
+        "option1": "Nissan leaf",
+        "option2": "Ford focus",
+        "option3": "Mitsubishi MiE5",
+        "option4": "Smart ED",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which is the modified form of batteries in today's electronic cars?",
+        "option1": "Lithium ion",
+        "option2": "Nickel iron",
+        "option3": "Lead Acid",
+        "option4": "Sodium Nitrate",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How to increase the range on electric vehicles?",
+        "option1": "By increasing the battery capacity.",
+        "option2": "By reducing battery capacity.",
+        "option3": "By installing a turbocharger.",
+        "option4": "By installing another DC motor.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Inverter cell anode and cathode of the cell is used for vehicle",
+        "option1": "Copper electrode zinc",
+        "option2": "Zinc copper",
+        "option3": "Aluminium zinc",
+        "option4": "Nickel Cobalt",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The positive plants of nickel iron cell is made up of",
+        "option1": "Nickel hydroxide",
+        "option2": "Lead peroxide",
+        "option3": "Ferrous hydroxide",
+        "option4": "Potassium hydroxide",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A stable interface between solid, liquid and gaseous promotes high rate of electrode processes.",
+        "option1": "Fuel, electrolyte, electrode",
+        "option2": "Electrode, fuel, electrolyte",
+        "option3": "Electrode, electrolyte, fuel",
+        "option4": "Fuel, electrode, electrolyte",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not an example of a fuel cell?",
+        "option1": "Hydrogen-oxygen cell",
+        "option2": "Methyl-oxygen-alcohol cell",
+        "option3": "Propane-oxygen cell",
+        "option4": "Hexanone-oxygen cell",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The electrolytic solution used in a hydrogen-oxygen fuel cell is",
+        "option1": "75% KOH solution",
+        "option2": "25% KOH solution",
+        "option3": "75% NaOH solution",
+        "option4": "25% NaOH solution",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The residual product discharged by the hydrogen-oxygen cell is",
+        "option1": "Hydrogen peroxide",
+        "option2": "Alcohol",
+        "option3": "Water",
+        "option4": "Potassium permanganate",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "By what percentage do seatbelts reduce the risk of death for a person sitting in front seat?",
+        "option1": "50%",
+        "option2": "60%",
+        "option3": "70%",
+        "option4": "40%",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Where do typical car seat belts apply most of the stopping force?",
+        "option1": "To the shoulder and hips",
+        "option2": "To the chest and abdomen",
+        "option3": "To the rib cage and pelvis",
+        "option4": "To the head and legs",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What area of car is designed to deform in a collision?",
+        "option1": "The crumple zone",
+        "option2": "The interior",
+        "option3": "The doors",
+        "option4": "The rear end",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What's the primary advantage of an anti-lock braking system?",
+        "option1": "They allow you to stop easier",
+        "option2": "They prevent locking",
+        "option3": "They allow you to steer while braking",
+        "option4": "They stop the vehicle faster",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Tempered safety glass is how many times stronger than regular glass?",
+        "option1": "1 to 3 times stronger",
+        "option2": "5 to 10 times stronger",
+        "option3": "3 to 5 times stronger",
+        "option4": "2 to 4 times stronger",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "By what percentage can airbags reduce the risk of dying in a direct frontal crash?",
+        "option1": "30%",
+        "option2": "40%",
+        "option3": "50%",
+        "option4": "60%",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What kind of gas inflates an airbag?",
+        "option1": "Hydrogen",
+        "option2": "Oxygen",
+        "option3": "Helium",
+        "option4": "Nitrogen",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How far behind the steering wheel should you sit to avoid injury from an inflated airbag?",
+        "option1": "8 inches",
+        "option2": "5 inches",
+        "option3": "10 inches",
+        "option4": "13 inches",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What are the requirements for a child to sit in a forward-facing child seat?",
+        "option1": "He or she should weigh 10 to 15 pounds",
+        "option2": "He or she should weigh 13 to 15 pounds",
+        "option3": "He or she should weigh 15 to 18 pounds",
+        "option4": "He or she should weigh 20 pounds or more",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When is a child ready to use an adult seat belt?",
+        "option1": "When they're around 4 feet, 9 inches tall",
+        "option2": "When they're around 3 feet, 5 inches tall",
+        "option3": "When they're around 4 feet, 5 inches tall",
+        "option4": "When they're around 3 feet, 9 inches tall",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What does airbag, used for safety of car driver, contain?",
+        "option1": "Sodium bicarbonate",
+        "option2": "Sodium azide",
+        "option3": "Sodium nitrite",
+        "option4": "Sodium peroxide",
+        "Answer": "option2",
+        "marks": 1
+    },
+
+
+
+
+    {
+        "question": "What year did the government mandate driver's side airbags?",
+        "option1": "1989",
+        "option2": "1996",
+        "option3": "2001",
+        "option4": "The government has never mandated it.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Cruise control is used in which vehicles?",
+        "option1": "Road vehicles",
+        "option2": "Water vehicles",
+        "option3": "Aeroplane",
+        "option4": "Bus",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Adaptive cruise control is used to adjust _ of vehicle",
+        "option1": "Speed",
+        "option2": "Direction",
+        "option3": "Magnitude",
+        "option4": "Light",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Adaptive cruise control system uses",
+        "option1": "All of the below",
+        "option2": "Laser sensor",
+        "option3": "Radar sensor",
+        "option4": "Camera setup",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Autonomous cruise control are considered a car",
+        "option1": "Level 1",
+        "option2": "Level 2",
+        "option3": "Level 3",
+        "option4": "Level 4",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Introduced laser 'preview distance control'",
+        "option1": "Mitsubishi Diamante",
+        "option2": "BMW",
+        "option3": "Toyota",
+        "option4": "Mercedes",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Toyota offered a cruise control",
+        "option1": "Lazer",
+        "option2": "Radar",
+        "option3": "Camera",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What was based system do not detect and dark vehicles in adverse weather?",
+        "option1": "Laser",
+        "option2": "Camera",
+        "option3": "Phone",
+        "option4": "Laptop",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If the impulse response is absolutely integrable then the system is",
+        "option1": "Absolutely stable",
+        "option2": "Unstable",
+        "option3": "Linear",
+        "option4": "Stable",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Asymptotic stability is connected with:",
+        "option1": "A system under influence of input.",
+        "option2": "A system not under influence of input.",
+        "option3": "A system under influence of input.",
+        "option4": "A system not under influence out.",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "If root of the characteristics equation has positive real part system is",
+        "option1": "Stable",
+        "option2": "Unstable",
+        "option3": "Marginally stable",
+        "option4": "Linear",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "_____ is a quantitative measure of how fast the transients die out in the system.",
+        "option1": "Absolutely stable",
+        "option2": "Conditionally stable",
+        "option3": "Unstable",
+        "option4": "Relative stability",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A controller essentially is a",
+        "option1": "Sensor",
+        "option2": "Clipper",
+        "option3": "Comparator",
+        "option4": "Amplifier",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When brakes are applied on a moving vehicle the kinetic energy is converted to",
+        "option1": "Mechanical energy",
+        "option2": "Heat energy",
+        "option3": "Electrical energy",
+        "option4": "Potential energy",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The force required to stop a vehicle is dependent on",
+        "option1": "The weight of vehicle",
+        "option2": "The deceleration rate",
+        "option3": "Both A and B",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Handbrake is applicable to",
+        "option1": "Only front wheels",
+        "option2": "Only rear wheels",
+        "option3": "Both front and rear wheel",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The power brake may be exerted by",
+        "option1": "Electrical energy",
+        "option2": "Engine vacuum",
+        "option3": "Air pressure",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What do airbags, used for safety of car driver, contain?",
+        "option1": "Sodium bicarbonate",
+        "option2": "Sodium azide",
+        "option3": "Sodium nitrate",
+        "option4": "Sodium peroxide",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which country first used airbags in the aerospace industry?",
+        "option1": "India",
+        "option2": "U.S",
+        "option3": "China",
+        "option4": "Pakistan",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which spacecraft landing first used airbags?",
+        "option1": "Luna 9 and Luna 13",
+        "option2": "Luna 10 and Luna 12",
+        "option3": "Luna 11 and Luna 4",
+        "option4": "Luna 16 and Luna 18",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "First used pedestrian airbags?",
+        "option1": "Volvo V50",
+        "option2": "Volvo V60",
+        "option3": "Volvo V40",
+        "option4": "Volvo V70",
+        "Answer": "option3",
+        "marks": 1
+    },
+
+
+
+    {
+        "question": "Who invented air bags in Japan.",
+        "option1": "Yasuzaburou kanka.",
+        "option2": "Yasuzaburou kobori",
+        "option3": "Varun Khatri.",
+        "option4": "Saurabh zombie",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The time between the collision of two aircraft on a collision course is called",
+        "option1": "Differential time",
+        "option2": "Tau",
+        "option3": "Traffic Time",
+        "option4": "Collision Time",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the surveillance range of a general TCS system?",
+        "option1": "30 sec",
+        "option2": "20min",
+        "option3": "2 min",
+        "option4": "4 min",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Anti-collision system is also known as",
+        "option1": "Collision Avoidance System",
+        "option2": "Pre-crash System",
+        "option3": "Collision Mitigation system",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In India, Autonomous Emergency Braking system (AEB) could become mandatory on new cars by",
+        "option1": "2020",
+        "option2": "2024",
+        "option3": "2022",
+        "option4": "2026",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A 2015 study based on European and Australasian data suggests the AEB can decrease rear end collisions by",
+        "option1": "38%",
+        "option2": "24%",
+        "option3": "56%",
+        "option4": "40%",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is adaptive cruise control?",
+        "option1": "Adaptive cruise control is a safety and comfort providing technology in automobile",
+        "option2": "Adaptive cruise control is automatic car driving technology",
+        "option3": "Adaptive cruise control is fast car driving technology",
+        "option4": "Adaptive cruise control is slow car driving technology",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When was cruise control invented?",
+        "option1": "1945",
+        "option2": "1948",
+        "option3": "1952",
+        "option4": "1961",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Purpose of inventing Adaptive cruise control?",
+        "option1": "To reduce accident",
+        "option2": "To increase efficiency of automobile",
+        "option3": "To increase driving comfort",
+        "option4": "To invent new driving technology",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Demerits of Adaptive cruise control?",
+        "option1": "System may fail",
+        "option2": "This system do not work on wet surface well",
+        "option3": "Not effective in bad weather",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Major components of Adaptive cruise control?",
+        "option1": "Radar sensor",
+        "option2": "ACC buttons on the steering wheel",
+        "option3": "Multi-information display",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Where is the ACC system most effective?",
+        "option1": "In traffic conditions",
+        "option2": "High ways",
+        "option3": "Hills",
+        "option4": "Wet and slippery surface",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The following is not a drum brake",
+        "option1": "External contracting brake",
+        "option2": "Internal expanding brake",
+        "option3": "Disc brake",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In disc brake, the disc is attached to the",
+        "option1": "wheel",
+        "option2": "axle",
+        "option3": "suspension system",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The mechanical brakes are operated by means of",
+        "option1": "levers",
+        "option2": "bell cranks",
+        "option3": "cams",
+        "option4": "all of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Hydraulic brakes function on the principle of",
+        "option1": "Law of conservation of momentum",
+        "option2": "Law of conservation of energy",
+        "option3": "Pascal's law",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Tandem master cylinder consists of",
+        "option1": "One cylinder and one reservoir",
+        "option2": "Two cylinders and one reservoir",
+        "option3": "One cylinder and two reservoirs",
+        "option4": "Two cylinders and two reservoirs",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Electronic Stability Program is used to",
+        "option1": "Assist in braking",
+        "option2": "Reducing loss of traction",
+        "option3": "Use in ECU",
+        "option4": "For proper loading and unloading of weight in vehicle",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When the Electronic Stability Program system intervenes?",
+        "option1": "When it detects probable loss of steering control",
+        "option2": "When tire starts to skid",
+        "option3": "When sudden brakes are applied",
+        "option4": "All of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Electronic Stability control generally works when",
+        "option1": "Steering is in over steering and under steering condition",
+        "option2": "When collision has to be prevented",
+        "option3": "Fuel is low",
+        "option4": "Roads are uneven",
+        "Answer": "option1",
+        "marks": 1
+    },
+
+
+
+    {
+    "question": "Electronic Stability control can effect by",
+    "option1": "Dry road condition",
+    "option2": "Frozen road condition",
+    "option3": "both a and b",
+    "option4": "non of these",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "These are main components of Electronic Stability control system",
+    "option1": "Speed Sensor",
+    "option2": "Steering angle measurement angle",
+    "option3": "Yaw-rate sensor",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": " - is a feature that alerts a driver to an imminent crash and helps them use the maximum braking capacity of the car.",
+    "option1": "AEB",
+    "option2": "Air Bag",
+    "option3": "Vehicles",
+    "option4": "Electronic Stability control",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The loads supported by an automobile frame are",
+    "option1": "Weight of the body and Passengers.",
+    "option2": "Torque from engine and Transmission.",
+    "option3": "Sudden Impact from Collision",
+    "option4": "All of the above.",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What area of car is designed to deform in a collision?",
+    "option1": "Crumple zone",
+    "option2": "Interior zone",
+    "option3": "Doors",
+    "option4": "Rear end",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The energy absorb by brake is always kinetic.",
+    "option1": "No, potential",
+    "option2": "Kinetic or potential",
+    "option3": "Potential",
+    "option4": "Strain Energy",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Hand brake is applicable to",
+    "option1": "only front wheels",
+    "option2": "only rear wheels",
+    "option3": "both front and rear wheels",
+    "option4": "all of the above",
+    "Answer": "option2",
+    "marks": 1
+  },
+
+
+
+
+  {
+    "question": "A boiler is a device used to create steam by applying to water",
+    "option1": "Light energy",
+    "option2": "heat energy",
+    "option3": "Wind energy",
+    "option4": "mechanical energy",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Process boiler is a type of boiler with a capacity of Buts per hour",
+    "option1": "200,000",
+    "option2": "300,000",
+    "option3": "400,000",
+    "option4": "50,000",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "_____ is the most widely used media in distribution of heat over distance in industries",
+    "option1": "Steam",
+    "option2": "light",
+    "option3": "Springs",
+    "option4": "water",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The temperature and pressure in saturated steam has relationship",
+    "option1": "Direct",
+    "option2": "indirect",
+    "option3": "Neither of above",
+    "option4": "both a and b",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "What should be the temperature of feed water?",
+    "option1": "120 c",
+    "option2": "800c",
+    "option3": "50c",
+    "option4": "none of above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "For carrying the heat efficiently the steam must be",
+    "option1": "dry",
+    "option2": "wet",
+    "option3": "saturated",
+    "option4": "none of above",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What happens when air dissolves in condensate?",
+    "option1": "non corrosive",
+    "option2": "temperature of air increases",
+    "option3": "corrosive",
+    "option4": "none of above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "_____ is used to release condensate in pipe work",
+    "option1": "steam trap",
+    "option2": "valves",
+    "option3": "power generators",
+    "option4": "none of above",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Water tube boilers are those in which",
+    "option1": "Flue gases pass through tubes and water around it",
+    "option2": "Water passes through the tubes and flue gases around it",
+    "option3": "Work is done during adiabatic expansion",
+    "option4": "Change is enthalpy",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Fire tube boilers are those in which",
+    "option1": "Flue gases pass through tubes and water around it",
+    "option2": "Water passes through the tubes and flue gases around it",
+    "option3": "Work is done during adiabatic expansion",
+    "option4": "Change is enthalpy",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Size of boiler tubes is specified by",
+    "option1": "Mean diameter and thickness",
+    "option2": "Inside diameter and thickness",
+    "option3": "Outside diameter and thickness",
+    "option4": "Outside diameter and inside diameter",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Cochran boiler is a",
+    "option1": "Horizontal fire tube boiler",
+    "option2": "Horizontal water tube boiler",
+    "option3": "Vertical water tube type",
+    "option4": "Vertical fire tube type",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Locomotive boiler has",
+    "option1": "137 fire tubes and 44 superheated tubes",
+    "option2": "147 fire tubes and 34 superheated tubes",
+    "option3": "157 fire tubes and 24 superheated tubes",
+    "option4": "167 fire tubes and 14 superheated tubes",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Water tube boilers produce steam at a pressure than that of fire tube boilers.",
+    "option1": "Higher",
+    "option2": "Lower",
+    "option3": "Same",
+    "option4": "None of the above",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The biggest loss in the boiler is",
+    "option1": "Moisture in fuel",
+    "option2": "Dry flue gases",
+    "option3": "Steam formation",
+    "option4": "Unburnt carbon",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The draught in locomotive boilers is produced by a",
+    "option1": "Chimney",
+    "option2": "Centrifugal fan",
+    "option3": "Steam jet",
+    "option4": "All of the above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The draught may be produced by a",
+    "option1": "Chimney",
+    "option2": "Mechanical fan",
+    "option3": "Steam jet",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The efficiency of the plant with the mechanical draught",
+    "option1": "Increases",
+    "option2": "Decreases",
+    "option3": "Remain constant",
+    "option4": "None of the above",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following boiler is best suited to meet the fluctuating demand of steam",
+    "option1": "Locomotive boiler",
+    "option2": "Lancashire boiler",
+    "option3": "Cornish boiler",
+    "option4": "Babcock and wilcox boiler",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is a water tube boiler",
+    "option1": "Locomotive boiler",
+    "option2": "Lancashire boiler",
+    "option3": "Cornish boiler",
+    "option4": "Babcock and wilcox boiler",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The economiser is used in boilers to",
+    "option1": "Increase thermal efficiency of boiler",
+    "option2": "Economise on fuel",
+    "option3": "Extract heat from the exhaust gases",
+    "option4": "Increase flue gas temperature",
+    "Answer": "option4",
+    "marks": 1
+  },
+
+
+
+
+  {
+        "question": "An economiser in a boiler",
+        "option1": "Increases steam pressure.",
+        "option2": "Increases steam flow",
+        "option3": "Decreases fuel consumption",
+        "option4": "Decreases steam pressure",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In a condensation process, the change is from",
+        "option1": "Gas to Solid",
+        "option2": "Gas to Liquid",
+        "option3": "Liquid to Gas",
+        "option4": "Liquid to Solid",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When vapour is compressed isothermally, the change is in",
+        "option1": "Volume",
+        "option2": "Pressure",
+        "option3": "Temperature",
+        "option4": "None of the mentioned",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Condensation starts at the",
+        "option1": "Dew point",
+        "option2": "Bubble point",
+        "option3": "Triple point",
+        "option4": "None of the mentioned",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When gas changes to liquid through condensation, the temperature",
+        "option1": "Increases",
+        "option2": "Decreases",
+        "option3": "Remains constant",
+        "option4": "None of the mentioned",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When vapour is cooled at constant total system volume, the change is in",
+        "option1": "Volume",
+        "option2": "Pressure",
+        "option3": "Temperature",
+        "option4": "None of the mentioned",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following boilers is best suited to meet fluctuating demand of steam?",
+        "option1": "Locomotive boiler",
+        "option2": "Lancashire boiler",
+        "option3": "Cornish boiler",
+        "option4": "Babcock and Wilcox boiler",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Boiler efficiency is a measure of how effectively energy in fuel is converted into heat energy in steam going to the turbines",
+        "option1": "Chemical energy",
+        "option2": "Heat energy",
+        "option3": "Thermal energy",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A boiler incorporates a firebox or furnace in order to burn the fuel and generate heat.",
+        "option1": "Steam",
+        "option2": "Boiler",
+        "option3": "Hydrogen",
+        "option4": "None",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The water tubes in a simple vertical boiler are",
+        "option1": "Horizontal",
+        "option2": "Vertical",
+        "option3": "Inclined",
+        "option4": "All of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The diameter of fine tubes in Cochran boiler is of the order of",
+        "option1": "2 cm",
+        "option2": "6 cm",
+        "option3": "8 cm",
+        "option4": "15 cm",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The diameter of internal flue tubes of a Lancashire boiler is about that of its shell",
+        "option1": "One fourth",
+        "option2": "One third",
+        "option3": "Two fifth",
+        "option4": "One half",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Thermal efficiency of a well-maintained boiler will be of the order",
+        "option1": "30%",
+        "option2": "55%",
+        "option3": "90%",
+        "option4": "45%",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the temperature at which steam boilers are capable to withstand?",
+        "option1": "2000°C",
+        "option2": "2800°C",
+        "option3": "5400°C",
+        "option4": "358°C",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Where are steam boilers used in industries?",
+        "option1": "Heating requirement for facility",
+        "option2": "Steam for batching",
+        "option3": "Steam for processing",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a part of a boiler?",
+        "option1": "Burner the combination",
+        "option2": "Chamber",
+        "option3": "Water reservoir",
+        "option4": "None above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The heat in the boiler is used for making",
+        "option1": "Steam",
+        "option2": "Condensing process",
+        "option3": "Ice",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many cooling towers are there near a reactor?",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3",
+        "option4": "4",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Cooling towers vary from size of 40 meters to",
+        "option1": "400",
+        "option2": "120",
+        "option3": "450",
+        "option4": "560",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the main component in a boiler?",
+        "option1": "Steam",
+        "option2": "Heat",
+        "option3": "Pressure condenser",
+        "option4": "Combination",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which cooling towers use a process similar to the one found in small evaporation active cooling units?",
+        "option1": "Hyperbolic",
+        "option2": "Tower",
+        "option3": "Condensate loop",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+
+
+
+
+    {
+        "question": "What is the reason to service a cooling tower?",
+        "option1": "to ensure proper air flow",
+        "option2": "to clean the tubes",
+        "option3": "to inspect the water pump",
+        "option4": "all of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A is a type of heat exchange system where water is heated to its boiling point via combustion of a fuel blown through a tube submerged in water.",
+        "option1": "Condensate loop",
+        "option2": "Hyperbolic cooling tower",
+        "option3": "Steam boiler",
+        "option4": "All of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The heat produced in this system is then rejected into the system as",
+        "option1": "Steam",
+        "option2": "Boiler",
+        "option3": "Both a & b",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Incorporates a firebox or furnace in order to burn the fuel and generate heat.",
+        "option1": "Boiler, generate",
+        "option2": "Heat, boiler",
+        "option3": "Steam, pressure",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A boiler is an enclosed vessel that provides a means for ______ and ______ heat to water until it becomes hot water or steam.",
+        "option1": "Generate, boiler",
+        "option2": "Condenser, loop",
+        "option3": "Combustion, transfers",
+        "option4": "All of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Steam produced in a boiler can be used for a variety of purposes including space heating, drying and",
+        "option1": "Sterilization",
+        "option2": "Humidification",
+        "option3": "Power generation",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The system includes anywhere that the steam condenses to form liquid water.",
+        "option1": "Loop",
+        "option2": "Power",
+        "option3": "Liquid",
+        "option4": "Condensate",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The back pressure created by lift is approximately PSIG for every 2 feet of condensate lift.",
+        "option1": "1 PSIG",
+        "option2": "3PSIG",
+        "option3": "IPSGI",
+        "option4": "3PSG1",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Condensate is the liquid formed when steam passes from the ______ to the ______ state.",
+        "option1": "Vapor, solid",
+        "option2": "Solid, liquid",
+        "option3": "Vapor, liquid",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A ______ incorporates a firebox or furnace in order to burn the fuel and generate heat.",
+        "option1": "Steam",
+        "option2": "Boiler",
+        "option3": "Hydrogen",
+        "option4": "None",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The generated heat is transferred to water to make the process of boiling.",
+        "option1": "Steam",
+        "option2": "Boiler",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Steam is regularly used for propulsion (as a driving force) in applications such as turbines.",
+        "option1": "Gas turbine",
+        "option2": "Steam turbine",
+        "option3": "Water turbine",
+        "option4": "None",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Steam Boilers are used in industries for:",
+        "option1": "Heating Requirement for Facility",
+        "option2": "Steam for Batching",
+        "option3": "Steam for Processing",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Industrial boilers are closed vessels that use a fuel source or electricity to generate ______ for industrial purposes.",
+        "option1": "Fuel",
+        "option2": "Food",
+        "option3": "Steam",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Basic Parts of a Boiler include:",
+        "option1": "Burner",
+        "option2": "The combustion chamber",
+        "option3": "The heat exchanger",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Boiler water pH refers to a quantitative figure that expresses the acidity or alkalinity of boiler water. Ideally it should be between:",
+        "option1": "8.5 to 9.5",
+        "option2": "7.5 to 8.5",
+        "option3": "9.5 to 10.5",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Steam Properties and Qualities include:",
+        "option1": "They are capable of dividing and renewing themselves for long periods",
+        "option2": "They are unspecialized",
+        "option3": "They can give rise to specialized cell types",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "On Mollier chart, free expansion or throttling process from High pressure to atmosphere is represented by:",
+        "option1": "Horizontal straight line",
+        "option2": "Vertical straight line",
+        "option3": "Straight inclined line",
+        "option4": "Curved line",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the function of a boiler?",
+        "option1": "To burn the fuel in a confined closed system with the supply of air",
+        "option2": "To generate steam in varying pressure",
+        "option3": "To generate steam at constant pressure",
+        "option4": "To produce flue gases by burning fuel at a given pressure",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the temperature at which steam boilers are capable to withstand?",
+        "option1": "2000C",
+        "option2": "2800C",
+        "option3": "5400C",
+        "option4": "358 0C",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What increases as steam pressure increases inside a boiler?",
+        "option1": "Force",
+        "option2": "Density",
+        "option3": "Rate of steam conversion",
+        "option4": "Viscosity",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In what is water in a high pressure boiler circulated through?",
+        "option1": "Conduits",
+        "option2": "Cove",
+        "option3": "Channel",
+        "option4": "Tubes",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Why is a single boiler unit per turbine commonly equipped?",
+        "option1": "For better turbine control",
+        "option2": "To reduce the cost",
+        "option3": "For overcoming losses of power",
+        "option4": "To improve the efficiency",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Cornish boiler is an example of which type of boiler?",
+        "option1": "Fire tube boiler",
+        "option2": "Water tube boiler",
+        "option3": "Vertical tube boiler",
+        "option4": "Externally fired boiler",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these is a stationary boiler?",
+        "option1": "Locomotive boiler",
+        "option2": "Marine boiler",
+        "option3": "Mobile boiler",
+        "option4": "Babcock Wilcox boiler",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the steam pressure limit of natural circulation boiler?",
+        "option1": "650 bar",
+        "option2": "180 bar",
+        "option3": "400 bar",
+        "option4": "550 bar",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A device known as a ______ is used to release condensate from the pipework whilst preventing the steam from escaping from the system.",
+        "option1": "Steam traps",
+        "option2": "Steam pipes",
+        "option3": "Boiler nose",
+        "option4": "Release valve",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of these is a 'fissile fuel'?",
+        "option1": "Thorium",
+        "option2": "Carbon",
+        "option3": "Potassium",
+        "option4": "Graphite",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What kind of energy output is obtained from a 'Steam Power Plant'?",
+        "option1": "Heat energy",
+        "option2": "Sound energy",
+        "option3": "Electricity",
+        "option4": "Thermal energy",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Water that is fed back to the boiler by the pump is called?",
+        "option1": "Absorber",
+        "option2": "Absolute",
+        "option3": "Compressor",
+        "option4": "Condensate",
+        "Answer": "option4",
+        "marks": 1
+    },
+
+
+
+
+
+    {
+        "question": "Which of these is an output of a 'Furnace'?",
+        "option1": "Fuel gas",
+        "option2": "Cool Air",
+        "option3": "Flue gases",
+        "option4": "Water Vapor",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The product of efficiency & heat transferred to the working fluid is?",
+        "option1": "Net temperature change",
+        "option2": "Net work done",
+        "option3": "Net enthalpy change",
+        "option4": "None of the mentioned",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Rankine cycle efficiency in a good steam power station may be in the range between",
+        "option1": "15% - 20%",
+        "option2": "35% - 40%",
+        "option3": "50% - 60%",
+        "option4": "90% - 95%",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The following is the correct order of energy conversion in thermal power plants",
+        "option1": "Chemical energy — Mechanical energy — Electrical energy",
+        "option2": "Mechanical energy Chemical energy Electrical energy",
+        "option3": "Wind energy — Mechanical energy — Electrical energy",
+        "option4": "Heat energy — Electrical energy — Mechanical energy",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Feed water usually at ____ oc temperature.",
+        "option1": "70",
+        "option2": "120",
+        "option3": "1000",
+        "option4": "80",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "If the water level inside the boiler were not carefully controlled...",
+        "option1": "explosion",
+        "option2": "overheat and fail",
+        "option3": "both a) & b)",
+        "option4": "None of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When steam is condensate volume is drastically",
+        "option1": "reduces",
+        "option2": "increase",
+        "option3": "both a) & b)",
+        "option4": "None of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Following image shows part of",
+        "option1": "compressor",
+        "option2": "separator",
+        "option3": "steam tube",
+        "option4": "boiler shell",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Direct relation between of saturated steam, the amount of energy input to process easy to control.",
+        "option1": "volume, pressure",
+        "option2": "volume, temperature",
+        "option3": "temperature, pressure",
+        "option4": "None of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "____ is excellent carrier of heat",
+        "option1": "Water",
+        "option2": "steam",
+        "option3": "solid",
+        "option4": "None of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A steam and condensate system represents a ____ loop.",
+        "option1": "Discontinuous",
+        "option2": "Continuous",
+        "option3": "None of the above",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Once the condensate reaches the ____, it becomes available to the boiler for recycling.",
+        "option1": "Condenser",
+        "option2": "Turbine",
+        "option3": "Boiler",
+        "option4": "Generator",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A boiler or steam generator is a device used to create steam by applying heat energy to",
+        "option1": "Water",
+        "option2": "Petrol",
+        "option3": "Oil",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a type of boiler?",
+        "option1": "Fire tube boiler",
+        "option2": "Water tube boiler",
+        "option3": "Cast iron boiler",
+        "option4": "Hot water boiler",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the combustion accessory of a boiler?",
+        "option1": "Fuel oil system",
+        "option2": "Gas system",
+        "option3": "Coal system",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Find the wrong statement.",
+        "option1": "Boiler is used to produce electricity in the energy business.",
+        "option2": "Boiler is used to produce steam for generating electricity.",
+        "option3": "Boiler can pressurize the water and can also evaporate it.",
+        "option4": "All are wrong.",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When the bubbles of steam are produced?",
+        "option1": "Once the water reaches saturation temperature",
+        "option2": "Once the water starts evaporating",
+        "option3": "Once the temperature decreases",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If steam is pressurized",
+        "option1": "It occupies more space",
+        "option2": "It occupies less space",
+        "option3": "Both are correct",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Combustion air positive shut-off shall be provided on all newly installed",
+        "option1": "Grant boilers",
+        "option2": "Process boilers",
+        "option3": "Worcester boilers",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Process boilers with capacity of 2.5 MMBtu/h and above are also referred as",
+        "option1": "Natural draft boilers",
+        "option2": "Atmospheric boilers",
+        "option3": "Both a. And b.",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A flue damper and a vent damper are two examples of",
+        "option1": "Combustion air positive shut off devices",
+        "option2": "Combustion air negative shut off devices",
+        "option3": "Both a. & b.",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "For process boilers, combustion air fans must meet the following requirements",
+        "option1": "The fan motor shall be driven by a variable speed drive",
+        "option2": "The fan motor shall include controls that limit the fan motor demand to no more than 30 %",
+        "option3": "Both a. & b.",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Use of ____ is prohibited in process boilers.",
+        "option1": "Use of a common gas",
+        "option2": "combustion air control linkage",
+        "option3": "jack shaft",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Oxygen trim control strategy",
+        "option1": "continuously measures the oxygen content in the flue gas",
+        "option2": "adjusts the combustion air flow",
+        "option3": "Continually tuning the air-fuel mixture.",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "It is easy to detect and monitor excess air",
+        "option1": "As oxygen not used for combustion is heated and discharged with the exhaust gases.",
+        "option2": "Oxygen is discharged without heating",
+        "option3": "Both a. & b.",
+        "option4": "None of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Detecting and monitoring carbon monoxide assures the air/fuel ratio is not too rich as",
+        "option1": "The excess air is trimmed",
+        "option2": "Excess air is let out",
+        "option3": "Both a. & b.",
+        "option4": "None of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Based on the exhaust gas analysis, a controller maintains stoichiometric combustion",
+        "option1": "by commanding a servo motor to adjust the combustion air damper",
+        "option2": "By commanding servo motor to adjust the fuel supply valve.",
+        "option3": "Both a. & b.",
+        "option4": "None of the above.",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Combustion is the ideal air/fuel ratio where",
+        "option1": "the mixing proportion is correct,",
+        "option2": "all fuel is burnt, and all oxygen is consumed",
+        "option3": "the oxygen is entirely consumed",
+        "option4": "All of the above.",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Green coal, in order to be burnt, must be",
+        "option1": "Heated sufficiently",
+        "option2": "Burnt in excess air",
+        "option3": "Heated to its ignition point",
+        "option4": "Burnt as powder",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A safety valve usually employed with stationary boilers is",
+        "option1": "Lever safety valve",
+        "option2": "Dead weight safety valve",
+        "option3": "High steam and low water safety valve",
+        "option4": "All of these ",
+        "Answer": "option4",
+        "marks": 1
+    },
+
+
+
+
+    {
+    "question": "The relative heat absorption for successively added equal areas of boiler convection heating surfaces",
+    "option1": "Increases",
+    "option2": "Decreases",
+    "option3": "Remain unaffected",
+    "option4": "First increases and then decreases",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The pressure of steam in the engine cylinder at the beginning of the stroke is the boiler pressure.",
+    "option1": "Equal to",
+    "option2": "Less than",
+    "option3": "Higher than",
+    "option4": "None of these",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Adiabatic process is",
+    "option1": "Essentially an isentropic process",
+    "option2": "Non-heat transfer process",
+    "option3": "Reversible process",
+    "option4": "Constant temperature process",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Presence of moisture in fuel oil would",
+    "option1": "Keep the burner tips cool",
+    "option2": "Aid in proper combustion",
+    "option3": "Cause sputtering, possibly extinguishing flame",
+    "option4": "Clean the nozzles",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "In a steam condenser, the partial pressure of steam and air are 0.06 bar and 0.007 bar respectively. The condenser pressure is",
+    "option1": "0.007 bar",
+    "option2": "0.053 bar",
+    "option3": "0.06 bar",
+    "option4": "0.067 bar",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Find false statement about effect of sulphur in fuel?",
+    "option1": "It has heating value",
+    "option2": "It helps in electrostatic precipitation of ash in flue gases",
+    "option3": "It leads to corrosion of air heaters, ducting, etc. if flue gas exit temperature is low",
+    "option4": "It erodes furnace walls",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The isentropic enthalpy drop in moving blade is two-third of the isentropic enthalpy drop in fixed blades of a turbine. The degree of reaction will be",
+    "option1": "0.4",
+    "option2": "0.56",
+    "option3": "0.67",
+    "option4": "1.67",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "A turbine is said to have an axial discharge when the steam leaves the blade tip at to the direction of the blade motion.",
+    "option1": "60°",
+    "option2": "90°",
+    "option3": "180°",
+    "option4": "270°",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not a result of the excess of impurity in boiler-feed.",
+    "option1": "Scale and sludge formation",
+    "option2": "Decomposition",
+    "option3": "Corrosion, priming and foaming",
+    "option4": "Caustic embrittlement",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "If the precipitate formed is soft, loose and slimy, these are ___ and if the precipitate is hard and adhering on the inner wall, it is called ___",
+    "option1": "Sludges, scale",
+    "option2": "Scale, sludges",
+    "option3": "Sludges, rodent",
+    "option4": "Scale, rodent",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following option is incorrect about the sludges?",
+    "option1": "Sludges are soft, loose and slimy precipitate",
+    "option2": "They are non-adherent deposits and can be easily removed",
+    "option3": "Formed generally at heated portions of the boiler",
+    "option4": "Can be removed by blow down operation",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The propulsion of water into steam drum by extremely rapid, almost explosive boiling of water at the heating surface is called",
+    "option1": "Foaming",
+    "option2": "Priming",
+    "option3": "Corrosion",
+    "option4": "Caustic embrittlement",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The phenomenon during which the boiler material becomes brittle due to accumulation of caustic substances is known as",
+    "option1": "Foaming",
+    "option2": "Priming",
+    "option3": "Corrosion",
+    "option4": "Caustic embrittlement",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Foaming is caused by the formation of",
+    "option1": "Acids",
+    "option2": "Alcohols",
+    "option3": "Oils and alkalis",
+    "option4": "Ketones",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Boiler is an enclosed vessel that provides",
+    "option1": "Expansion",
+    "option2": "Ignition",
+    "option3": "Combustion",
+    "option4": "None of the above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "High pressure boilers operate at",
+    "option1": "Lower than 15 psig",
+    "option2": "Higher than 15 psig",
+    "option3": "15 psig",
+    "option4": "None of above",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Boiler works from application of which type of energies",
+    "option1": "Fuel combustion",
+    "option2": "Electricity",
+    "option3": "Nuclear energy",
+    "option4": "All of above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Combustion of which fuels from following is source of heat for boiler",
+    "option1": "Wood",
+    "option2": "Coal",
+    "option3": "Oil",
+    "option4": "All of above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Boilers are used in places like",
+    "option1": "Domestic heating",
+    "option2": "Commercial heating",
+    "option3": "Industrial heating application",
+    "option4": "All of above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Type of Lamont boiler is",
+    "option1": "Forced circulation",
+    "option2": "Natural circulation",
+    "option3": "Over-through",
+    "option4": "Positive forced circulation",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is called as the heart of the Lamont boiler?",
+    "option1": "Water drum",
+    "option2": "Centrifugal pump",
+    "option3": "Furnace",
+    "option4": "Blower",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Through what is feed water from hot-well passed through, before entering steam and water drum in Lamont boiler?",
+    "option1": "Evaporator tubes",
+    "option2": "Economizer",
+    "option3": "Distributor header",
+    "option4": "Circulating pump",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In what form are the boiler tubes arranged in Lamont boiler?",
+    "option1": "Parallel in vertical",
+    "option2": "Inclined vertically",
+    "option3": "Parallel in horizontal",
+    "option4": "Horizontally inclined",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Through which does the even circulation of water is possible in Lamont boiler?",
+    "option1": "Nozzles",
+    "option2": "Water trough",
+    "option3": "Feed pump",
+    "option4": "Hose",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is the pressure range between which Lamont boiler operates?",
+    "option1": "80-120 bar",
+    "option2": "120-160 bar",
+    "option3": "180-360 bar",
+    "option4": "450-560 bar",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In which year was Lamont boiler invented?",
+    "option1": "1905",
+    "option2": "1910",
+    "option3": "1920",
+    "option4": "1925",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What type of steam is generated by evaporator tube of Lamont boiler?",
+    "option1": "Saturated steam",
+    "option2": "Unsaturated steam",
+    "option3": "Superheated steam",
+    "option4": "Flash steam",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Where is water steam separator drum located in Lamont boiler?",
+    "option1": "Inside of the boiler",
+    "option2": "Right above the furnace",
+    "option3": "Before the feed water pump",
+    "option4": "Outside the boiler",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What is the main disadvantage of Lamont boiler?",
+    "option1": "Less flexible in design",
+    "option2": "Low heat transfer rate",
+    "option3": "Formation of bubbles",
+    "option4": "Low steam generation capacity",
+    "Answer": "option3",
+    "marks": 1
+  },
+
+
+
+
+  {
+    "question": "A supercritical boiler is one that operates above the pressure and temperature of following values",
+    "option1": "100 kg/cm2 and 5400C",
+    "option2": "1 kg/cm2 and 100 0C",
+    "option3": "218 kg/cm2 abs and 373 0 C",
+    "option4": "218 kg/cm2 abs and 5400C",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Steam is generated in a boiler at a pressure above the critical point.",
+    "option1": "Simple",
+    "option2": "once through",
+    "option3": "Superficial",
+    "option4": "thrice through",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Apart from feed heating, what should a plant have to obtain a gain in thermal efficiency?",
+    "option1": "Lubrication",
+    "option2": "Differential heating",
+    "option3": "Reheating cycles",
+    "option4": "Regenerative cycles",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What is the critical point of steam generation in a 'once through' boiler?",
+    "option1": "221.5 bar",
+    "option2": "221.4 bar",
+    "option3": "221.3 bar",
+    "option4": "221.2 bar",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "In a typical layout of a 215MW reheat power plant, the feed in the boiler is at?",
+    "option1": "280 degree Centigrade",
+    "option2": "230 degree Centigrade",
+    "option3": "238 degree Centigrade",
+    "option4": "250 degree Centigrade",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The input to the low pressure feed water heater is from?",
+    "option1": "Drain heater",
+    "option2": "Drain cooler",
+    "option3": "Drain pipe",
+    "option4": "None of the mentioned",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In which year was Benson boiler was invented?",
+    "option1": "1918",
+    "option2": "1920",
+    "option3": "1921",
+    "option4": "1922",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What type of boiler is a Benson boiler?",
+    "option1": "Super critical boiler",
+    "option2": "Fire tube boiler",
+    "option3": "Natural circulation boiler",
+    "option4": "Over-through boiler",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is the capacity of Benson boiler?",
+    "option1": "180 tonnes/hr & above",
+    "option2": "150 tonnes/hr & above",
+    "option3": "250 tonnes/hr & above",
+    "option4": "300 tonnes/hr & above",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "What is the major disadvantage of the Benson boilers?",
+    "option1": "Boiler is big in size",
+    "option2": "Has large storage capacity",
+    "option3": "Deposition of salts",
+    "option4": "Bubble formation",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The increment in thermal efficiency compared to the corresponding Subcritical cycle is gained at the expanse of?",
+    "option1": "compactness of the plant",
+    "option2": "simplicity of the plant",
+    "option3": "complexity of the plant",
+    "option4": "expanse of the plant",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The input to the low pressure feedwater heater is from?",
+    "option1": "Drain heater",
+    "option2": "Drain cooler",
+    "option3": "Drain pipe",
+    "option4": "None of the mentioned",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Supercritical boiler generate to pressure.",
+    "option1": "22Mpa to 25Mpa",
+    "option2": "28Mpa to 20Mpa",
+    "option3": "23Mpa to 27Mpa",
+    "option4": "25Mpa to 28Mpa",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Supercritical boilers are used for",
+    "option1": "Thermal power",
+    "option2": "Electric power",
+    "option3": "Solar power",
+    "option4": "Steam power",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which type of boiler is used at critical pressure?",
+    "option1": "Benson boiler",
+    "option2": "Water tube boiler",
+    "option3": "Fire tube",
+    "option4": "Steam boiler",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Who patented the design for the boiler?",
+    "option1": "Mark Benson",
+    "option2": "Mark Zuckerberg",
+    "option3": "Newton",
+    "option4": "C.N. Rao",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following needs to be incorporated to prevent the low pressure turbine exhaust wetness from being excessive?",
+    "option1": "Double regeneration",
+    "option2": "Double carbonization",
+    "option3": "Double reheat",
+    "option4": "Double cooling",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "An ultra-supercritical boiler operates at",
+    "option1": "Ultra-Supercritical pressure",
+    "option2": "Thermal pressure",
+    "option3": "Critical pressure",
+    "option4": "Atmospheric pressure",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Terms used to describe supercritical and ultra-supercritical coal generation by the coal industry.",
+    "option1": "High-efficiency and low-emissions",
+    "option2": "Low-efficiency and high-emissions",
+    "option3": "High-efficiency and high-emissions",
+    "option4": "Low-efficiency and low-emissions",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In 1922, who was granted a patent for a boiler designed to convert at high pressure?",
+    "option1": "Mark Benson",
+    "option2": "James Watt",
+    "option3": "Alexander Graham Bell",
+    "option4": "Archimedes",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What was the main concern behind Benson's concept?",
+    "option1": "Safety",
+    "option2": "Power generation",
+    "option3": "Conservation of energy",
+    "option4": "All of the above",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The subcritical temperature is",
+    "option1": "Up to 809 F and 221.2 bar",
+    "option2": "Up to 705 F and 221.2 bar",
+    "option3": "Up to 900 F and 344.3 bar",
+    "option4": "Up to 605 F and 216.3 bar",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Ultra-supercritical temperature is up to",
+    "option1": "980°C",
+    "option2": "620°C",
+    "option3": "550°C",
+    "option4": "720°C",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which of these is not a type of steam generator depending upon the kind of applications?",
+    "option1": "Utility steam generators",
+    "option2": "Marine steam generators",
+    "option3": "Agricultural steam generators",
+    "option4": "Industrial steam generators",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The subcritical steam generators operate between a pressure range of?",
+    "option1": "120-160 bar",
+    "option2": "100-110 bar",
+    "option3": "130-180 bar",
+    "option4": "140-200 bar",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Industrial steam generators operate at a steam capacity of?",
+    "option1": "1300 kg/s",
+    "option2": "1000 kg/s",
+    "option3": "500 kg/s",
+    "option4": "125 kg/s",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Ultra-supercritical boiler uses steam with very high temperature up to",
+    "option1": "980 c",
+    "option2": "620 c",
+    "option3": "550 c",
+    "option4": "720 c",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "An ultra-supercritical boiler generates less emission per of power output.",
+    "option1": "Kilowatt",
+    "option2": "Watt",
+    "option3": "Megawatt",
+    "option4": "Metric horse power",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "An ultra-supercritical boiler was developed in the US in",
+    "option1": "1950s",
+    "option2": "1970s",
+    "option3": "1960s",
+    "option4": "1940s",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Philo unit 6 in Ohio was built by",
+    "option1": "Thomas Savery",
+    "option2": "Denis Papin",
+    "option3": "Thomas Edison",
+    "option4": "Babcock and Wilcox",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "If coal has a future, then ultra-supercritical boiler will be the key.",
+    "option1": "Coal",
+    "option2": "Fossil fuels",
+    "option3": "Natural gas",
+    "option4": "Oil",
+    "Answer": "option1",
+    "marks": 1
+  },
+
+
+
+
+  {
+        "question": "A ultra-super critical boiler technology is today the option of choice for most new fired power stations.",
+        "option1": "Coal",
+        "option2": "Natural gas",
+        "option3": "Biogas",
+        "option4": "Oil",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In ultra-super critical boiler technology the units run at about efficiency.",
+        "option1": "50%",
+        "option2": "55%",
+        "option3": "45%",
+        "option4": "40%",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Yuhuan has first 1000MW ultra-super critical pressure boiler.",
+        "option1": "America",
+        "option2": "China",
+        "option3": "India",
+        "option4": "Russia",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which type of generator is a type of boiler that at maximum critical pressure frequently used in the production of electric power.",
+        "option1": "Supercritical boiler",
+        "option2": "High pressure boiler",
+        "option3": "Low pressure boiler",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Ultra supercritical boilers are mostly used in",
+        "option1": "Petrochemical industries",
+        "option2": "Coal industries",
+        "option3": "Textile industries",
+        "option4": "none",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Supercritical is % efficient than subcritical boiler.",
+        "option1": "42-47",
+        "option2": "50-55",
+        "option3": "32-38",
+        "option4": "More than 60",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Find false statement",
+        "option1": "Tube of supercritical boilers are self-supporting",
+        "option2": "Corners are easy to form",
+        "option3": "Uniform heating of water takes place in supercritical boiler occurs",
+        "option4": "All",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "State disadvantage of Supercritical boiler.",
+        "option1": "Corrosion problem",
+        "option2": "Setting of material in feed lines can produce explosions",
+        "option3": "Leakage problem",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What type of boiler is supercritical boiler",
+        "option1": "Drum type",
+        "option2": "Once through type",
+        "option3": "Both",
+        "option4": "None",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A ultra-supercritical steam generator operates at pressures above the critical pressure-",
+        "option1": "2400 psi",
+        "option2": "1500 psi",
+        "option3": "3200 psi",
+        "option4": "4600 psi",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The point of ultra-supercritical steam generator is to save on coal to heat the water and reduce emissions.",
+        "option1": "Oxygen (O2)",
+        "option2": "Water (H2O)",
+        "option3": "Carbon dioxide (CO2)",
+        "option4": "Both 'a' and 'c'",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Because less coal is consumed in this system, emissions of and particulate and solid waste by products are reduced.",
+        "option1": "Sulphur dioxide (SO2)",
+        "option2": "Nitrogen oxide (NOx)",
+        "option3": "Carbon dioxide (CO2)",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Higher plant efficiency up to over the entire load range.",
+        "option1": "30%-50%",
+        "option2": "20%-40%",
+        "option3": "60%-90%",
+        "option4": "50%-80%",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The world's first boiler using supercritical technology was introduced by \"B&W\" in",
+        "option1": "1948",
+        "option2": "1936",
+        "option3": "1928",
+        "option4": "1957",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The thermal efficiency of a Watt's Beam Engine is about?",
+        "option1": "50%",
+        "option2": "100%",
+        "option3": "5%",
+        "option4": "2%",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Among which locomotive steam engines have the highest efficiency?",
+        "option1": "1 MW",
+        "option2": "2 MW",
+        "option3": "30 MW",
+        "option4": "660 MW",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the simplest method of cooling the condenser water?",
+        "option1": "Spray cooling pond",
+        "option2": "Cooling tower",
+        "option3": "Indirect air cooling",
+        "option4": "Hyperbolic cooling tower",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Open cooling system is also called as",
+        "option1": "parallel system",
+        "option2": "once through system",
+        "option3": "Clair based system",
+        "option4": "non-reversible system",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What type of cooling system is used in the large power plants?",
+        "option1": "Cooling ponds",
+        "option2": "Natural flow system",
+        "option3": "Cooling towers",
+        "option4": "Single deck system",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Wet cooling towers (or open circuit cooling towers) operate on the principle of",
+        "option1": "Condensation",
+        "option2": "Evaporative cooling",
+        "option3": "Both of the above",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How does outside air enter into the wet cooling system?",
+        "option1": "Air vents",
+        "option2": "Louvers",
+        "option3": "Tuyeres",
+        "option4": "Vacuum",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How is water circulated throughout the dry cooling tower system?",
+        "option1": "Finned tubes",
+        "option2": "Metal pipes",
+        "option3": "Porous tubes",
+        "option4": "Swirling tubes",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Why is exhaust steam coming out of turbine is admitted to a steam header?",
+        "option1": "To increase the pressure",
+        "option2": "To decrease the velocity",
+        "option3": "To decrease the pressure drop",
+        "option4": "To control the pollution",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How is air produced in mechanical draught cooling tower?",
+        "option1": "Air Tuyeres",
+        "option2": "Propeller fans",
+        "option3": "Air blowers",
+        "option4": "Louvre",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Hyperbolic cooling towers generally used in the",
+        "option1": "Steel industry",
+        "option2": "Fertilizer industry",
+        "option3": "Alumina industry",
+        "option4": "Power industry",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Design of hyperbolic cooling tower standard for all cooling tower",
+        "option1": "Mechanical draft",
+        "option2": "Natural draft",
+        "option3": "Both a & b",
+        "option4": "Neither a & b",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Beams of hyperbolic cooling towers are made up of",
+        "option1": "Tungsten",
+        "option2": "Iron",
+        "option3": "Stainless steel",
+        "option4": "Brass",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Natural draft in hyperbolic cooling towers reduces of fans",
+        "option1": "Damage",
+        "option2": "Efficiency",
+        "option3": "Cost",
+        "option4": "Speed",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Hyperbolic design allows for use of without sacrificing structural integrity",
+        "option1": "Minimum material",
+        "option2": "Maximum material",
+        "option3": "High quality material",
+        "option4": "Low quality material",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Following is not the advantage of hyperbolic design",
+        "option1": "Less maintenance cost",
+        "option2": "Less initial cost",
+        "option3": "Less noise",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+
+
+
+
+    {
+        "question": "Following is advantage of hyperbolic design",
+        "option1": "Less initial cost",
+        "option2": "Less noise",
+        "option3": "Less vibration",
+        "option4": "All above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Hyperbolic cooling towers used in",
+        "option1": "Coal-fired power plant",
+        "option2": "Nuclear plants",
+        "option3": "Thermal power plant",
+        "option4": "All of these",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Natural draft in hyperbolic cooling tower is used for production of",
+        "option1": "Fertilizer",
+        "option2": "Steel",
+        "option3": "Chemical",
+        "option4": "Electrical energy",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "When vapour is cooled at constant total system volume, the changes.",
+        "option1": "Volume",
+        "option2": "PRESSURE",
+        "option3": "Temperature",
+        "option4": "None of the mentioned",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Approximately about of cooling in cooling tower is through The sensible cooling",
+        "option1": "80%",
+        "option2": "60%",
+        "option3": "20%",
+        "option4": "40%",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Condensation starts at point.",
+        "option1": "Dew",
+        "option2": "Bubble",
+        "option3": "Triple",
+        "option4": "None of the mentioned",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In which type of cooling system are nozzle arranged on different elevation?",
+        "option1": "Single deck system",
+        "option2": "Double deck system",
+        "option3": "Natural flow system",
+        "option4": "Direct flow system",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The exhaust steam coming out of turbine is admitted to a steam header to",
+        "option1": "Increase the pressure",
+        "option2": "Decrease the pressure",
+        "option3": "Decrease the pressure drop",
+        "option4": "Control the pollution",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Wet cooling towers operate on the principle of",
+        "option1": "Condensation",
+        "option2": "Evaporative Cooling",
+        "option3": "Both of the above",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The open cooling is also called as?",
+        "option1": "Parallel system",
+        "option2": "Once through system",
+        "option3": "Air based system",
+        "option4": "Nonreversible system",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "How does outside air enter into the wet cooling system?",
+        "option1": "Air vents",
+        "option2": "Louvers",
+        "option3": "Tuyeres",
+        "option4": "Vacuum",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following has the maximum effect on cooling tower performance?",
+        "option1": "Fill media",
+        "option2": "Drift",
+        "option3": "Louvers",
+        "option4": "Casing",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many number of spray nozzle does each module on spray pond cooling system contain?",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3",
+        "option4": "4",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the simplest method of cooling the condenser water?",
+        "option1": "Spray cooling pond",
+        "option2": "Cooling tower",
+        "option3": "Indirect air cooling",
+        "option4": "Hyperbolic air cooling",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In which type of cooling pond system are nozzles arranged on same elevation?",
+        "option1": "Single deck system",
+        "option2": "Double deck system",
+        "option3": "Natural flow system",
+        "option4": "Direct flow system",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What are used in the direct flow system to transfer the pond batch uniting at intake?",
+        "option1": "Separators",
+        "option2": "Filters",
+        "option3": "Baffle walls",
+        "option4": "Porous pipes",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What type of cooling system is used in the large power plants?",
+        "option1": "Cooling ponds",
+        "option2": "Natural flow system",
+        "option3": "Cooling towers",
+        "option4": "Single deck system",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How is water circulated throughout the dry cooling tower system?",
+        "option1": "Finned tubes",
+        "option2": "Metal pipes",
+        "option3": "Porous tubes",
+        "option4": "Swifting tubes",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following gives out highest pollutants to the atmosphere?",
+        "option1": "Cooling tower",
+        "option2": "Water tower",
+        "option3": "Steam tower",
+        "option4": "Fire tower",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What comes out from the cooling tower of a nuclear power plant?",
+        "option1": "Smoke",
+        "option2": "Cool air",
+        "option3": "Hot air",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What are built to cool down the cooling water in a power plant?",
+        "option1": "Towers",
+        "option2": "Cooling pond",
+        "option3": "Air filter",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What are present depending on cooling tower building material as well?",
+        "option1": "Pollution",
+        "option2": "Population",
+        "option3": "Dust",
+        "option4": "None of these",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Why is exhaust system coming out of the turbine admitted to a steam header?",
+        "option1": "To increase the pressure",
+        "option2": "To increase the velocity",
+        "option3": "To decrease the pressure",
+        "option4": "To increase the velocity",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a fissile fuel?",
+        "option1": "Carbon",
+        "option2": "Potassium",
+        "option3": "Thorium",
+        "option4": "Graphite",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How is air produced in mechanical cooling tower?",
+        "option1": "Air fan",
+        "option2": "Propeller fans",
+        "option3": "Air blowers",
+        "option4": "Propeller blowers",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "______ cooling towers use a process similar to the one found in small evaporative cooling units.",
+        "option1": "Hyperboloid",
+        "option2": "Tower",
+        "option3": "Condensate loop",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Hyperboloid cooling towers have become the design standard for all _____ draft cooling towers because of their structural strength and minimum usage of material.",
+        "option1": "Natural",
+        "option2": "Induce",
+        "option3": "Force",
+        "option4": "None",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The hyperboloid shape also aids in accelerating the upward convective air flow, improving _____ efficiency.",
+        "option1": "Heating",
+        "option2": "Warming",
+        "option3": "Cooling",
+        "option4": "Cold",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The _____ that are present depend on cooling tower building material, as well. Cooling towers are built of concrete, wood, plastic or metal.",
+        "option1": "Heat",
+        "option2": "Pollutants",
+        "option3": "Cold",
+        "option4": "All of Above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "There are _____ main types of cooling towers that are defined by how water or air passes through them.",
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "Answer": "option3",
+        "marks": 1
+    },
+
+
+
+
+    {
+        "question": "A ___ is a specialized heat exchanger in which air and water are brought into direct contact with each other in order to reduce the water's temperature.",
+        "option1": "Cooling tower",
+        "option2": "Heating tower",
+        "option3": "Both",
+        "option4": "All are wrong",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How can we increase the efficiency of a cooling tower?",
+        "option1": "Save energy.",
+        "option2": "Reduce the amount of water being consumed.",
+        "option3": "Decrease the amount of chemicals required for water treatment.",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "There are two huge cooling towers close to building site of reactor and of the Chernobyl Power Plant.",
+        "option1": "1 & 3",
+        "option2": "4 & 5",
+        "option3": "2 & 5",
+        "option4": "1 & 4",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Cooling towers vary in size from small roof-top units to very large hyperboloid structures that can be up to ___ meters tall and ___ meters in diameter, or rectangular structures that can be over 40 meters tall and 80 meters long.",
+        "option1": "200 & 100",
+        "option2": "100 & 50",
+        "option3": "200 & 50",
+        "option4": "200 & 150",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How do you service a cooling tower?",
+        "option1": "Ensure Proper Airflow.",
+        "option2": "Clean Your Tubes.",
+        "option3": "Inspect the Water Pump.",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The hyperboloid shape also aids in accelerating the upward convective air flow, improving ___ efficiency.",
+        "option1": "Performance",
+        "option2": "Cooling",
+        "option3": "Heating",
+        "option4": "All of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Cooling towers have become the design standard for all natural-draft cooling towers because of their structural strength and minimum usage of material.",
+        "option1": "HCT",
+        "option2": "CCT",
+        "option3": "Hyperboloid",
+        "option4": "None",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The pollutants that are present depend on building material, as well.",
+        "option1": "Cooling tower",
+        "option2": "Water tower",
+        "option3": "Steam tower",
+        "option4": "Fire tower",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The presence of these pollutants can cause a series of problems. The main problems that are caused are fouling, limestone formation, corrosion and biological.",
+        "option1": "Are fouling",
+        "option2": "Lime stone formation",
+        "option3": "Corriosion & biological",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Most cooling towers are capacity rated at a \"standard\" wet bulb temperature of",
+        "option1": "72°F",
+        "option2": "52°F",
+        "option3": "78°F",
+        "option4": "75°F",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "When sizing a cooling tower the highest anticipated ___ should be used?",
+        "option1": "Dry bulb",
+        "option2": "Wet bulb",
+        "option3": "Both dry and wet bulb",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In ___ cooling tower there is no direct contact between the water and air.",
+        "option1": "Dry type",
+        "option2": "Evaporative type",
+        "option3": "Once through",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In cooling tower, higher temperature corrosion potential",
+        "option1": "Decrease",
+        "option2": "Increase",
+        "option3": "Temperature has no effect on corrosion",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following factors affect the cooling tower performance?",
+        "option1": "The range",
+        "option2": "Heat load",
+        "option3": "Wet bulb temperature",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In which system is cooling of hot water done on tray as step by step?",
+        "option1": "Mechanical draught cooling system",
+        "option2": "Hyperbolic cooling tower",
+        "option3": "Atmospheric cooling tower",
+        "option4": "Wet cooling tower",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How does the flow of air occur in natural draught cooling towers?",
+        "option1": "Natural pressure head density between cold outside air and humid inside air",
+        "option2": "Variation in pressure of both cold outside air and humid inside air",
+        "option3": "Due to the given air vents and vacuum ports",
+        "option4": "Because of difference in the volume of both the airs",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The first hyperboloid shaped cooling tower was introduced by the Dutch engineers Frederik van Iterson and Gerard Kuypers and built in",
+        "option1": "1918",
+        "option2": "1870",
+        "option3": "1919",
+        "option4": "1920",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Hyperbolic cooling towers are made up of high height reinforced ___ structure.",
+        "option1": "plastic",
+        "option2": "alloy",
+        "option3": "metal",
+        "option4": "concrete",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The hyperbolic cooling towers are associated with ___ and ___ power plants.",
+        "option1": "electrical, thermal",
+        "option2": "nuclear, electrical",
+        "option3": "thermal, nuclear",
+        "option4": "none of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Wind is the prime lateral load and its combination with self-weight of the tower shell can cause the buckling instability leading to ___ failure.",
+        "option1": "polytropic",
+        "option2": "both a) & b)",
+        "option3": "catastrophic",
+        "option4": "none of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Cooling efficiency of a cooling tower is significantly affected under cross-wind condition and might decrease to ___ in the range of moderate to high wind velocity condition.",
+        "option1": "50%",
+        "option2": "75%",
+        "option3": "25%",
+        "option4": "90%",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The ___-induced response of cooling tower is the key factor to improve safety and to reduce tower crack.",
+        "option1": "wind",
+        "option2": "water",
+        "option3": "heat",
+        "option4": "steam",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Wind load analysis can be performed following methods.",
+        "option1": "experiments wind pressure coefficient",
+        "option2": "shape factors",
+        "option3": "wind-induced vibration coefficient",
+        "option4": "all of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The ___ used to improve the stability of the total structure HCT.",
+        "option1": "concrete material",
+        "option2": "stiffening rings",
+        "option3": "wind properties",
+        "option4": "functional structure",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "For achieving maximum buckling stability use ___ parameters.",
+        "option1": "location",
+        "option2": "dimensions",
+        "option3": "quantity",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Natural draft cooling towers are mainly used in the",
+        "option1": "Steel industry",
+        "option2": "Fertilizer industry",
+        "option3": "Alumina industry",
+        "option4": "Power stations",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A better indicator for cooling tower performance is",
+        "option1": "Wet bulb temperature",
+        "option2": "Dry bulb temperature",
+        "option3": "Range",
+        "option4": "Approach",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Cooling tower effectiveness is the ratio of",
+        "option1": "Range / (range + approach)",
+        "option2": "Approach / (range + approach)",
+        "option3": "Range / Approach",
+        "option4": "Approach / Range",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The cooling water reduces the water temperature close to",
+        "option1": "Dry bulb temperature",
+        "option2": "Ambient wet bulb temperature",
+        "option3": "Dew point temperature",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The ratio of dissolved solids in circulating water to dissolved solids in makeup water is called:",
+        "option1": "Liquid gas ratio",
+        "option2": "Cycle of concentration",
+        "option3": "Cooling tower effectiveness",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+
+
+
+
+
+    {
+    "question": "Which one of the following is true to estimate the range of cooling tower?",
+    "option1": "Range = Cooling water inlet temperature- wet bulb temperature",
+    "option2": "Range = Cooling water outlet temperature- wet bulb temperature",
+    "option3": "Range = heat load in kcal per hour / water circulation in liters per hour",
+    "option4": "None of the above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which one of the following fill material is more energy efficient for cooling towers in case of sea water cooling?",
+    "option1": "Splash fill",
+    "option2": "Film fill",
+    "option3": "Low clog film fill",
+    "option4": "None of the above",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "L/G ratio in a cooling tower is a ratio of",
+    "option1": "Length and girth",
+    "option2": "Length and temperature gradient",
+    "option3": "Water flow rate and air mass flow rate",
+    "option4": "Air mass flow rate and water flow rate",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Normally the guaranteed best approach a cooling tower can achieve is",
+    "option1": "5 C",
+    "option2": "12 C",
+    "option3": "8 C",
+    "option4": "2.80 C",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Hyperbolic cooling towers have become design standard for all natural draft towers because",
+    "option1": "Their structural strength",
+    "option2": "Minimum usage of material",
+    "option3": "Improving cooling efficiency",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Common applications of Cooling towers include",
+    "option1": "Cooling the circulating water used in oil refineries",
+    "option2": "Petrochemical and other chemical plants",
+    "option3": "Thermal power stations",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The hyperboloid cooling towers are often associated",
+    "option1": "With nuclear power plants",
+    "option2": "Used in some coal-fired plants",
+    "option3": "In some large chemical and other industrial plants",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which type of cooling towers are structurally strong?",
+    "option1": "Counter flow towers",
+    "option2": "Hyperbolic towers",
+    "option3": "Cross flow towers",
+    "option4": "None of the above",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which type of cooling towers operate through a chimney or stack?",
+    "option1": "Cross flow",
+    "option2": "Counter flow",
+    "option3": "Hyperbolic",
+    "option4": "All of above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Hyperbolic cooling towers are also referred as",
+    "option1": "Natural draft towers",
+    "option2": "Cross flow towers",
+    "option3": "Hyperboloid towers",
+    "option4": "None of the above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which type of cooling towers are used with nuclear power plants?",
+    "option1": "Cross flow",
+    "option2": "Natural draft",
+    "option3": "Hyperbolic",
+    "option4": "None of above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Improved cooling efficiency and minimum usage of material are the key features of",
+    "option1": "Natural draft cooling towers",
+    "option2": "Cross flow towers",
+    "option3": "Hyperbolic cooling",
+    "option4": "All of above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The first hyperbolic cooling tower was built in...",
+    "option1": "1916",
+    "option2": "1917",
+    "option3": "1918",
+    "option4": "1919",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Thermal efficiencies up to have been observed in hybrid cooling towers",
+    "option1": "92",
+    "option2": "82",
+    "option3": "72",
+    "option4": "62",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In which system is Cooling of hot water is done on tray as step by?",
+    "option1": "Mechanical draught cooling system",
+    "option2": "Hyperbolic cooling tower",
+    "option3": "Atmospheric cooling tower",
+    "option4": "Wet cooling tower",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is the simplest method of cooling the condenser water?",
+    "option1": "Spray cooling pond",
+    "option2": "Cooling tower",
+    "option3": "Indirect air cooling",
+    "option4": "Hyperbolic cooling tower",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Natural Draft or Hyperbolic towers have been used for",
+    "option1": "Large Capacity of water",
+    "option2": "Small Capacity of Water",
+    "option3": "High Efficiency",
+    "option4": "Low capital cost",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Why is exhaust steam coming out of turbine admitted to a steam header?",
+    "option1": "To increase the pressure",
+    "option2": "To decrease the velocity",
+    "option3": "To decrease the pressure drop",
+    "option4": "To control the pollution",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "In which system is Cooling of hot water is done on tray as step by?",
+    "option1": "Mechanical draught cooling system",
+    "option2": "Hyperbolic cooling tower",
+    "option3": "Atmospheric cooling tower",
+    "option4": "Wet cooling tower",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "How does the flow of air occur in natural draught cooling towers?",
+    "option1": "Natural pressure head density between cold outside air and humid inside air",
+    "option2": "Variation in pressure of both cold outside air and humid inside air",
+    "option3": "Due to the given air vents and vacuum ports",
+    "option4": "Because of difference in the volume of both the of airs",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "How is air produced in mechanical draught cooling tower?",
+    "option1": "Air Tuyeres",
+    "option2": "Propeller fans",
+    "option3": "Air blowers",
+    "option4": "Louvre",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Why is induced draught considered better than the forced draught?",
+    "option1": "Because power requirement is high for forced draught",
+    "option2": "Maintenance of induced draught fan is costlier",
+    "option3": "Forced draught is less efficient",
+    "option4": "Forced draught produces less amount of speed of air",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Natural draft cooling towers are mainly used in",
+    "option1": "Steel Industry",
+    "option2": "Alumina industry",
+    "option3": "Fertilizer industry",
+    "option4": "Power station",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Cooling tower effectiveness is the ratio of",
+    "option1": "Range/( Range + approach)",
+    "option2": "Approach/(range + approach)",
+    "option3": "Range /(range - approach)",
+    "option4": "Approach/ /(range - approach)",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which one of the following is true to estimate the range of cooling tower?",
+    "option1": "Range = cooling water inlet temperature — wet bulb temperature",
+    "option2": "Range = cooling water outlet temperature — wet bulb temperature",
+    "option3": "Range = heat load in kcal per hour / water circulation in lines per hour",
+    "option4": "None of the above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The ratio of dissolved solids in circulating water to the dissolved solids in makeup water is called",
+    "option1": "Liquid gas ratio",
+    "option2": "Cycle of concentration",
+    "option3": "Cooling tower effectiveness",
+    "option4": "None of the above",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Cooling tower is a device",
+    "option1": "Heat absorption",
+    "option2": "Heat rejection",
+    "option3": "Both a and b",
+    "option4": "Neither a nor b",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In natural draft cooling tower the air flow is obtained by",
+    "option1": "Difference in air pressure",
+    "option2": "Difference in air temperature",
+    "option3": "Difference in air speed",
+    "option4": "None of the above",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In the natural draft cooling tower is not required",
+    "option1": "Fan",
+    "option2": "Tower",
+    "option3": "Nozzle",
+    "option4": "None of the above",
+    "Answer": "option1",
+    "marks": 1
+  },
+
+
+
+
+  {
+        "question": "Which among the following are the components of natural draft cooling tower?",
+        "option1": "Supply basin",
+        "option2": "Reinforced concrete",
+        "option3": "Hot water distribution",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Water lost in form of liquid droplet is called as:",
+        "option1": "Drift",
+        "option2": "Water loss",
+        "option3": "Water evaporation",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The effect that takes place which results in cooling action is:",
+        "option1": "Condensing",
+        "option2": "Heating",
+        "option3": "Cooling",
+        "option4": "Evaporating",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How many times a year cooling water must be cleaned?",
+        "option1": "Once a year",
+        "option2": "Thrice a year",
+        "option3": "Twice a year",
+        "option4": "Four times a year",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How many times chlorination must be carried out for cooling towers?",
+        "option1": "Twice a year",
+        "option2": "Once a year",
+        "option3": "Thrice a year",
+        "option4": "None of above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Cooling towers operate through a process that efficiently cools the already cycled water to be reused.",
+        "option1": "Heat exchange",
+        "option2": "Heat expand",
+        "option3": "Heat transfer",
+        "option4": "None of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In hyperboloid cooling towers the material is filled at:",
+        "option1": "Tower's bottom",
+        "option2": "Tower's top",
+        "option3": "Near tower",
+        "option4": "None of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Pollution caused by cooling tower includes:",
+        "option1": "Fouling",
+        "option2": "Limestone formation",
+        "option3": "Corrosion",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Out of the following which one is not unconventional source of energy?",
+        "option1": "Tidal power",
+        "option2": "Geothermal energy",
+        "option3": "Nuclear energy",
+        "option4": "Wind power",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Pulverized coal is:",
+        "option1": "Coal free from ash",
+        "option2": "Non-smoking coal",
+        "option3": "Coal which burns for long time",
+        "option4": "Coal broken into fine particles",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Heating value of coal is approximately in power plant:",
+        "option1": "1000-2000 kcal/kg",
+        "option2": "2000-4000 kcal/kg",
+        "option3": "5000-6500 kcal/kg",
+        "option4": "9000-10,500 kcal/kg",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Water gas is a mixture of:",
+        "option1": "CO2 and O2",
+        "option2": "O2 and H2",
+        "option3": "H2, N2 and O2",
+        "option4": "CO, N2 and H2",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Coal used in power plant is also known as:",
+        "option1": "Steam coal",
+        "option2": "Charcoal",
+        "option3": "Coke",
+        "option4": "Soft coal",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is considered as superior quality of coal?",
+        "option1": "Bituminous coal",
+        "option2": "Peat",
+        "option3": "Lignite",
+        "option4": "Coke",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In a power plant, coal is carried from storage place to boilers generally by means of:",
+        "option1": "Bucket",
+        "option2": "V-belts",
+        "option3": "Trolleys",
+        "option4": "Manually",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Live storage of coal in a power plant means:",
+        "option1": "Coal ready for combustion",
+        "option2": "Preheated coal",
+        "option3": "Storage of coal sufficient to meet 24 hour demand of the plant",
+        "option4": "Coal in transit",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Pressure of steam in condenser is:",
+        "option1": "Atmospheric pressure",
+        "option2": "More than atmospheric pressure",
+        "option3": "Slightly less than atmospheric pressure",
+        "option4": "Much less than atmospheric pressure",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Equipment used for pulverizing the coal is known as:",
+        "option1": "Ball mill",
+        "option2": "Hopper",
+        "option3": "Burner",
+        "option4": "Stoker",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Major advantage of waste heat recovery in industry is:",
+        "option1": "Reduction in pollution",
+        "option2": "Increase in efficiency",
+        "option3": "Both a & b",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Heat recovery equipment will be most effective when the temperature of flue gas is:",
+        "option1": "250°C",
+        "option2": "200°C",
+        "option3": "400°C",
+        "option4": "280°C",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The waste gases coming out from gas turbine exhausts are of the order of:",
+        "option1": "370-540°C",
+        "option2": "450-700°C",
+        "option3": "700-800°C",
+        "option4": "250-440°C",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Recuperator is used mainly as a waste heat recovery system in a:",
+        "option1": "Boiler",
+        "option2": "Billet Reheating Furnace",
+        "option3": "Compressor",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Recuperator will be more efficient if the flow path of hot and cold fluids is in:",
+        "option1": "Co-current mode",
+        "option2": "Counter current mode",
+        "option3": "Cross current mode",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The major limitation of metallic recuperator is:",
+        "option1": "Limitation of handling COX, NOX etc.",
+        "option2": "Limitation of reduced life for handling temperature more than 1000°C",
+        "option3": "Manufacturing difficulty of the required design",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Ceramic recuperators can withstand temperatures up to:",
+        "option1": "600°C",
+        "option2": "1300°C",
+        "option3": "1700°C",
+        "option4": "9500°C",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Air preheater is not used as a waste heat recovery system in a:",
+        "option1": "Boiler",
+        "option2": "Billet Reheating Furnace",
+        "option3": "Heat treatment furnace",
+        "option4": "Compressor",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Typical waste gases temperature from glass melting furnace:",
+        "option1": "1000-1550°C",
+        "option2": "800-950°C",
+        "option3": "0°C",
+        "option4": "760-815°C",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Regenerator is widely used in:",
+        "option1": "Reheating Furnaces",
+        "option2": "Heat treatment furnaces",
+        "option3": "Baking Ovens",
+        "option4": "Glass melting furnaces",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In a low to medium temperature waste heat recovery system which of the devices is most suitable?",
+        "option1": "Economiser",
+        "option2": "Heat wheels",
+        "option3": "Air preheater",
+        "option4": "Recuperator",
+        "Answer": "option2",
+        "marks": 1
+    },
+
+
+
+
+
+    {
+        "question": "Recovery of heat from dryer exhaust air is a typical application of:",
+        "option1": "Waste heat recovery boiler",
+        "option2": "Heat pump",
+        "option3": "Heat wheel",
+        "option4": "Economizer",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Capillary wick is a part of:",
+        "option1": "heat pump",
+        "option2": "heat wheel",
+        "option3": "heat pipe",
+        "option4": "regenerator",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Economizer is provided to utilize the flue gas heat for:",
+        "option1": "preheating the boiler feed water",
+        "option2": "preheating the stock",
+        "option3": "preheating the combustion air",
+        "option4": "preheating fuel",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Recovery of waste heat from hot fluid to fluid is called:",
+        "option1": "thermo compressor",
+        "option2": "waste heat recovery boiler",
+        "option3": "heat Pump",
+        "option4": "economizer",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Thermo-compressor is commonly used for:",
+        "option1": "compressing hot air",
+        "option2": "flash steam recovery",
+        "option3": "distillation",
+        "option4": "reverse compression of C02",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The exchanger typically used in the pressurizing section of a dairy plant is:",
+        "option1": "Plate heat exchanger",
+        "option2": "Shell and tube exchanger",
+        "option3": "Run around coil exchanger",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Pick up the odd one out:",
+        "option1": "Regenerator",
+        "option2": "Recuperator",
+        "option3": "Metallic recuperator",
+        "option4": "Economiser",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Energy recovery is typically via production of:",
+        "option1": "Gas",
+        "option2": "Heat",
+        "option3": "Light",
+        "option4": "Steam",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the maximum percent of energy recovered if the steam is condensed before reintroduced to system?",
+        "option1": "25",
+        "option2": "35",
+        "option3": "45",
+        "option4": "55",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following industrial process uses waste as a fuel?",
+        "option1": "Cement kilns",
+        "option2": "Lead manufacturing",
+        "option3": "Acid manufacturing",
+        "option4": "Sulphur manufacturing",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the combustion temperature range in cement kiln incineration?",
+        "option1": "1300-1600",
+        "option2": "1350-1650",
+        "option3": "1250-1450",
+        "option4": "1235-1600",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Non-volatile heavy metals in kiln are fixed into:",
+        "option1": "Clinker's crystalline structure",
+        "option2": "Fumes",
+        "option3": "Solid lump",
+        "option4": "Slag",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following waste types are not suitable for co-combustion in cement kilns?",
+        "option1": "Chlorine",
+        "option2": "Hydrogen",
+        "option3": "Calcium",
+        "option4": "Carbonate",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A major advantage of waste heat recovery in industry is:",
+        "option1": "Reduction in pollution",
+        "option2": "Increase efficiency",
+        "option3": "None of the above",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Nellore to medium temperature waste heat recovery system the most suitable device is:",
+        "option1": "Economizer",
+        "option2": "Heat wheels",
+        "option3": "Air preheater",
+        "option4": "Recuperate",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following act regulates transportation of hazardous waste?",
+        "option1": "RCRA",
+        "option2": "CERCLA",
+        "option3": "NEPA",
+        "option4": "NPL",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "When was the first law regarding transportation of hazardous materials passed?",
+        "option1": "1966",
+        "option2": "1866",
+        "option3": "1855",
+        "option4": "1965",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statute made transportation of hazardous materials illegal?",
+        "option1": "1869",
+        "option2": "1870",
+        "option3": "1871",
+        "option4": "1872",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following act improves regulatory and enforcement activities?",
+        "option1": "HMTA",
+        "option2": "DOT",
+        "option3": "ICC",
+        "option4": "NPL",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A waste heat recovery system in industrial process has been key to reduce Consumption of:",
+        "option1": "Coal",
+        "option2": "Fuel",
+        "option3": "Biogas",
+        "option4": "Oil",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Heat loss can be classified into:",
+        "option1": "High temperature",
+        "option2": "Low temperature",
+        "option3": "Medium temperature",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Heat recovery provides valuable energy sources and consumption:",
+        "option1": "Reduce energy",
+        "option2": "Increase energy",
+        "option3": "Increase fuel",
+        "option4": "Reduce fuel",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Techniques of waste heat recovery include:",
+        "option1": "Direct contact condensation",
+        "option2": "Indirect contact condensation",
+        "option3": "Transport membrane condensation",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "One of the key areas for energy saving in existing systems is waste heat recovery:",
+        "option1": "Potential",
+        "option2": "Kinetic",
+        "option3": "Thermal",
+        "option4": "Electrical",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The biggest point sources of waste heat originate from production of:",
+        "option1": "Steel or Brass",
+        "option2": "Copper or Glass",
+        "option3": "Steel or Glass",
+        "option4": "Steel or Copper",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The system is suitable to recover heat from ______ temperature exhaust gases:",
+        "option1": "Medium-low",
+        "option2": "Medium-high",
+        "option3": "High-low",
+        "option4": "High",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The waste heat energy could be used to produce:",
+        "option1": "Cool air",
+        "option2": "Hot air",
+        "option3": "Exhaust gas",
+        "option4": "All of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A waste heat recovery unit is an energy recovery heat exchanger that transfers heat from process outputs at:",
+        "option1": "High temperature",
+        "option2": "Medium temperature",
+        "option3": "Low temperature",
+        "option4": "Both a & b",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A waste heat recovery unit (WHRU) is an ______ that transfers heat from process outputs at high temperature to another part of the process for some purpose, usually increased efficiency:",
+        "option1": "Energy recovery heat exchanger",
+        "option2": "Energy recovery heat diffuser",
+        "option3": "Both 'a' and 'b'",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The waste heat recovery unit (WHRU) is a tool involved in:",
+        "option1": "Regeneration",
+        "option2": "Cogeneration",
+        "option3": "Both 'a' and 'b'",
+        "option4": "None of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+
+
+
+    {
+        "question": "Using an organic fluid that boils at a low temperature means that energy could be regenerated from waste fluids is known as",
+        "option1": "Heat exchanger",
+        "option2": "Heat remover",
+        "option3": "Heat pumps",
+        "option4": "Heat absorber",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Traditionally, waste heat of low temperature range has not been used for electricity generation despite efforts by ORC companies, mainly because the Carnot efficiency is rather low.",
+        "option1": "0-250 °C",
+        "option2": "0-150 °C",
+        "option3": "0-200 °C",
+        "option4": "0-120 °C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What are the benefits or the advantages of waste heat recovery units (WHRU)?",
+        "option1": "Reduced Pollution",
+        "option2": "Reduced equipment sizes",
+        "option3": "Reduced auxiliary energy consumption.",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A high temperature waste heat recovery unit consists of recovering waste heat at temperatures greater than",
+        "option1": "200 °C",
+        "option2": "500 °C",
+        "option3": "300 °C",
+        "option4": "400 °C",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Types of waste heat exchanger are:",
+        "option1": "Regenerative and recuperative burners",
+        "option2": "Economizers",
+        "option3": "Waste heat boilers",
+        "option4": "All of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Calculate the recoverable waste heat (Q, in kCal/hour) from flue gases using the following parameters: V (flow rate of the substance) 2000 m3/hr, r (density of the flue gas): 0.9 kg/m3, Cp (specific heat of the substance): 0.20 kCal/kg°C, ΔT (temperature difference): 120°C, h (recovery factor): 50%",
+        "option1": "21600",
+        "option2": "43200",
+        "option3": "25600",
+        "option4": "34000",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In industrial operations fluids with temperature less than are set as the limit for waste heat recovery because of the risk of condensation of corrosive liquids",
+        "option1": "80°C",
+        "option2": "100°C",
+        "option3": "110°C",
+        "option4": "200°C",
+        "Answer": "option2",
+        "marks": 1
+    }
+]
+module.exports = { data: ETM};

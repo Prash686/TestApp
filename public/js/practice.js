@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  let jsonData = document.getElementById('questions-data').value;
-  const cleanedJsonData = jsonData.replace(/"/g, '"');
-  const questions = JSON.parse(cleanedJsonData);
-  console.log(questions);
+  const rawData = document.getElementById('questions-data').value;
+  const questions = JSON.parse(rawData);
   const questionContainer = document.getElementById('question-container');
   const questionNumber = document.getElementById('question-number');
   const prevBtn = document.getElementById('prev-btn');
@@ -18,13 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentQuestionIndex = 0;
   const selectedAnswers = {};
 
-  // Function to render the current question
   function renderQuestion(index) {
-    if (!questions || questions.length === 0) {
-      questionContainer.textContent = 'No questions available.';
-      return;
-    }
-
     const question = questions[index];
     questionContainer.innerHTML = '';
 
@@ -59,12 +51,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     questionNumber.textContent = index + 1;
-    jumpToInput.placeholder = `Q. ${index + 1}`; // Update placeholder
+    jumpToInput.placeholder = `Q. ${index + 1}`;
     prevBtn.disabled = index === 0;
     nextBtn.disabled = index === questions.length - 1;
   }
 
-  // Function to save the selected answer
   function saveAnswer() {
     const selectedOption = document.querySelector('input[name="answer"]:checked');
     if (selectedOption) {
@@ -72,37 +63,27 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Function to show modal with message
   function showModal(message) {
     modalMessage.textContent = message;
     modal.show();
   }
 
-  // Close modal event listeners
-  modalClose.addEventListener('click', () => {
-    modal.hide();
-  });
+  modalClose.addEventListener('click', () => modal.hide());
+  modalCloseBtn.addEventListener('click', () => modal.hide());
 
-  modalCloseBtn.addEventListener('click', () => {
-    modal.hide();
-  });
-
-  // Function to check if the selected answer is correct
   function checkAnswer() {
     const selectedOption = document.querySelector('input[name="answer"]:checked');
-    if (selectedOption) {
-      const correctAnswer = questions[currentQuestionIndex].Answer;
-      if (selectedOption.value === correctAnswer) {
-        showModal('Correct Answer!');
-      } else {
-        showModal('Wrong Answer!');
-      }
-    } else {
+    const correctAnswer = questions[currentQuestionIndex].Answer;
+
+    if (!selectedOption) {
       showModal('Please select an answer.');
+    } else if (selectedOption.value === correctAnswer) {
+      showModal('🎉 Correct Answer!');
+    } else {
+      showModal(`❌ Wrong Answer. Correct is: ${correctAnswer.replace('option', '')}) ${questions[currentQuestionIndex][correctAnswer]}`);
     }
   }
 
-  // Handle Previous button click
   prevBtn.addEventListener('click', () => {
     saveAnswer();
     if (currentQuestionIndex > 0) {
@@ -111,7 +92,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Handle Next button click
   nextBtn.addEventListener('click', () => {
     saveAnswer();
     if (currentQuestionIndex < questions.length - 1) {
@@ -120,26 +100,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Handle Submit button click
   submitBtn.addEventListener('click', () => {
     saveAnswer();
     checkAnswer();
   });
 
-  // Handle Jump button click
   jumpBtn.addEventListener('click', () => {
-    const questionNumber = parseInt(jumpToInput.value);
-
-    // Check if input is valid
-    if (isNaN(questionNumber) || questionNumber < 1 || questionNumber > questions.length) {
-      alert(`Please enter a valid question number between 1 and ${questions.length}.`);
+    const number = parseInt(jumpToInput.value);
+    if (!number || number < 1 || number > questions.length) {
+      showModal(`Please enter a valid question number between 1 and ${questions.length}.`);
     } else {
       saveAnswer();
-      currentQuestionIndex = questionNumber - 1; // Set 0-based index
+      currentQuestionIndex = number - 1;
       renderQuestion(currentQuestionIndex);
     }
   });
 
-  // Initial rendering of the first question
   renderQuestion(currentQuestionIndex);
 });
