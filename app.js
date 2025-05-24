@@ -568,10 +568,42 @@ app.get('/profile', isLoggedIn, async (req, res) => {
 
 app.get('/Contact', (req, res) => {
     res.render('testapp/contact', {
-        title: "Contact Us - MSBTE MCQ Practice",
-        description: "Contact MSBTE MCQ Practice for questions, feedback, or support.",
+        title: "MSBTEMCQ.IN Feedback",
+        description: "Contact MSBTE MCQ feedback, or support.",
         keywords: "contact, support, feedback, msbte"
     });
+});
+
+// POST route to handle forgot password form submission
+app.post('/Contact', async (req, res) => {
+    const {name , email, message} = req.body;
+
+    try {
+        // Setup nodemailer transporter
+        const transporter = nodemailer.createTransport({
+            service: 'Gmail',
+            auth: {
+                user: "gsa115376@gmail.com",
+                pass: "rbnc ynms jssn cloq"
+            }
+        });
+
+        const mailOptions = {
+            to: "gsa115376@gmail.com",
+            from: email,
+            subject: name+"'s Massege/Feedback From msbtemcq.in.",
+            text: message,
+        };
+
+        await transporter.sendMail(mailOptions);
+
+        req.flash('success', `An Message has been sent to Developer`);
+        res.redirect('/Contact');
+    } catch (err) {
+        console.error(err);
+        req.flash('error', 'Error sending the Message. Please try again later.');
+        res.redirect('/Contact');
+    }
 });
 
 // Catch-all route for undefined routes
