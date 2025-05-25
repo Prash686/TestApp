@@ -536,35 +536,6 @@ app.get('/profile', isLoggedIn, async (req, res) => {
     }
 });
 
-// API route to get user progress data
-// app.get('/api/user/progress', isLoggedIn, async (req, res) => {
-//     try {
-//         const user = await User.findById(req.user._id).select('progress');
-//         res.json({ progress: user.progress });
-//     } catch (err) {
-//         console.error(err);
-//         res.status(500).json({ error: 'Failed to fetch user progress' });
-//     }
-// });
-
-// // API route to update user progress data after test/practice completion
-// app.post('/api/user/progress', isLoggedIn, async (req, res) => {
-//     try {
-//         const { subject, score, totalQuestions, details } = req.body;
-//         const user = await User.findById(req.user._id);
-//         if (!user) {
-//             return res.status(404).json({ error: 'User not found' });
-//         }
-//         user.progress.push({ subject, score, totalQuestions, details });
-//         await user.save();
-//         // Removed duplicate response to fix ERR_HTTP_HEADERS_SENT
-//         res.json({ message: 'Progress updated successfully' });
-//     } catch (err) {
-//         console.error(err);
-//         res.status(500).json({ error: 'Failed to update user progress' });
-//     }
-// });
-
 
 app.get('/Contact', (req, res) => {
     res.render('testapp/contact', {

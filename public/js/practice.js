@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const rawData = document.getElementById('questions-data').value;
-  const questions = JSON.parse(rawData);
+  let jsonData = document.getElementById('questions-data').value;
+  const cleanedJsonData = jsonData.replace(/"/g, '"');
+  const questions = JSON.parse(cleanedJsonData);
   const questionContainer = document.getElementById('question-container');
   const questionNumber = document.getElementById('question-number');
   const prevBtn = document.getElementById('prev-btn');
@@ -9,20 +10,22 @@ document.addEventListener('DOMContentLoaded', () => {
   const jumpToInput = document.getElementById('jump-to-input');
   const jumpBtn = document.getElementById('jump-btn');
   const modal = new bootstrap.Modal(document.getElementById('modal'));
-  const modalBodyContent = document.getElementById('modal-body-content');
+  const modalMessage = document.getElementById('modal-message');
   const modalClose = document.getElementById('modal-close');
   const modalCloseBtn = document.getElementById('modal-close-btn');
 
   let currentQuestionIndex = 0;
   const selectedAnswers = {};
 
+  // Function to render the current question
   function renderQuestion(index) {
+    if (!questions || questions.length === 0) {
+      questionContainer.textContent = 'No questions available.';
+      return;
+    }
 
     const question = questions[index];
-    questionContainer.classList.remove('animate__zoomIn'); // reset if needed
-    void questionContainer.offsetWidth; // reflow trick
-    questionContainer.classList.add('animate__animated', 'animate__zoomIn');
-
+    questionContainer.innerHTML = '';
 
     const questionText = document.createElement('p');
     questionText.textContent = `Q. ${question.question} (marks ${question.marks})`;
@@ -55,61 +58,50 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     questionNumber.textContent = index + 1;
-    jumpToInput.placeholder = `Q. ${index + 1}`;
+    jumpToInput.placeholder = `Q. ${index + 1}`; // Update placeholder
     prevBtn.disabled = index === 0;
     nextBtn.disabled = index === questions.length - 1;
   }
 
+  // Function to save the selected answer
   function saveAnswer() {
     const selectedOption = document.querySelector('input[name="answer"]:checked');
     if (selectedOption) {
       selectedAnswers[currentQuestionIndex] = selectedOption.value;
-      console.log("Answer Saved.")
     }
   }
 
-  function showModal(message, type) {
-    console.log('showModal called');
-    const modalBodyContent = document.getElementById('modal-body-content');
-    console.log('modalBodyContent:', modalBodyContent);
-    console.log('modal element:', document.getElementById('modal'));
-    if (!modalBodyContent) {
-      console.error('Modal body content element not found');
-      return;
-    }
-    modalBodyContent.innerHTML = ''; // Clear previous content
-    if (type === 'correct') {
-      const div = document.createElement('div');
-      div.className = 'popup-content correct-popup animate__animated animate__bounceIn';
-      div.textContent = '🎉 Correct Answer!';
-      modalBodyContent.appendChild(div);
-    } else if (type === 'wrong') {
-      const div = document.createElement('div');
-      div.className = 'popup-content wrong-popup animate__animated animate__shakeX';
-      div.textContent = message;
-      modalBodyContent.appendChild(div);
-    } else {
-      modalBodyContent.textContent = message;
-    }
+  // Function to show modal with message
+  function showModal(message) {
+    modalMessage.textContent = message;
     modal.show();
   }
 
-  modalClose.addEventListener('click', () => modal.hide());
-  modalCloseBtn.addEventListener('click', () => modal.hide());
+  // Close modal event listeners
+  modalClose.addEventListener('click', () => {
+    modal.hide();
+  });
 
+  modalCloseBtn.addEventListener('click', () => {
+    modal.hide();
+  });
+
+  // Function to check if the selected answer is correct
   function checkAnswer() {
     const selectedOption = document.querySelector('input[name="answer"]:checked');
-    const correctAnswer = questions[currentQuestionIndex].Answer;
-
-    if (!selectedOption) {
-      showModal('Please select an answer.');
-    } else if (selectedOption.value === correctAnswer) {
-      showModal('🎉 Correct Answer!', 'correct');
+    if (selectedOption) {
+      const correctAnswer = questions[currentQuestionIndex].Answer;
+      if (selectedOption.value === correctAnswer) {
+        showModal('Correct Answer!');
+      } else {
+        showModal('Wrong Answer!');
+      }
     } else {
-      showModal(`❌ Wrong Answer. Correct is: ${correctAnswer.replace('option', '')}) ${questions[currentQuestionIndex][correctAnswer]}`, 'wrong');
+      showModal('Please select an answer.');
     }
   }
 
+  // Handle Previous button click
   prevBtn.addEventListener('click', () => {
     saveAnswer();
     if (currentQuestionIndex > 0) {
@@ -118,6 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  // Handle Next button click
   nextBtn.addEventListener('click', () => {
     saveAnswer();
     if (currentQuestionIndex < questions.length - 1) {
@@ -126,22 +119,26 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  submitBtn.addEventListener('click', (event) => {
-    event.preventDefault();
+  // Handle Submit button click
+  submitBtn.addEventListener('click', () => {
     saveAnswer();
     checkAnswer();
   });
 
+  // Handle Jump button click
   jumpBtn.addEventListener('click', () => {
-    const number = parseInt(jumpToInput.value);
-    if (!number || number < 1 || number > questions.length) {
-      showModal(`Please enter a valid question number between 1 and ${questions.length}.`);
+    const questionNumber = parseInt(jumpToInput.value);
+
+    // Check if input is valid
+    if (isNaN(questionNumber) || questionNumber < 1 || questionNumber > questions.length) {
+      alert(`Please enter a valid question number between 1 and ${questions.length}.`);
     } else {
       saveAnswer();
-      currentQuestionIndex = number - 1;
+      currentQuestionIndex = questionNumber - 1; // Set 0-based index
       renderQuestion(currentQuestionIndex);
     }
   });
 
+  // Initial rendering of the first question
   renderQuestion(currentQuestionIndex);
 });
