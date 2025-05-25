@@ -18,6 +18,10 @@
     align-items: center;
     margin-bottom: 10px;
   }
+
+  .direct {
+    margin-right: 10px;
+  }
 </style>
 <div class="notification">
   <%- include("../includes/exclusive.ejs") %>
@@ -27,27 +31,54 @@
     <div class="container">
       <h1>Welcome to msbtemcq</h1>
       <p>Test your knowledge and improve your skills with our interactive Tests.</p>
+      <a href="/TestApp/practice" class="btn btn-primary btn-lg direct">Start Practice</a>
       <a href="/TestApp/test" class="btn btn-primary btn-lg">Start Test</a>
     </div>
   </section>
 <br>
-  <!-- Cards for Practice and Test -->
-  <section id="cards" class="container">
-    <h2 class="text-center mb-4">Explore Our Options</h2>
-    <div class="card-container">
-      <div class="card">
-        <img src="/images/practice.png" alt="Practice Image">
-        <h3>Practice</h3>
-        <p>Refine your skills and improve your knowledge with practice Tests.</p>
-        <a href="/TestApp/practice" class="btn btn-primary btn-lg">Start Practicing</a>
-      </div>
-      <div class="card">
-        <img src="/images/test.png" alt="Test Image">
-        <h3>Test</h3>
-        <p>Let's Challenge yourself with timed tests and see how you stack up.</p>
-        <a href="/TestApp/test" class="btn btn-primary btn-lg">Take the Test</a>
-      </div>
-    </div>
+  <!-- Leaderboard -->
+  <section id="leaderboard" class="container my-5">
+    <h2 class="text-center mb-4">Leaderboard - Top Users by Time Spent</h2>
+    <% function formatTime(seconds) {
+         const d = Math.floor(seconds / (3600*24));
+         const hr = Math.floor((seconds % (3600*24)) / 3600);
+         const m = Math.floor((seconds % 3600) / 60);
+         const s = Math.floor(seconds % 60);
+         if (d > 0) {
+           return `${d}d ${hr}hr ${m}m ${s}s`;
+         } else if (hr > 0) {
+           return `${hr}hr ${m}m ${s}s`;
+         } else if (m > 0) {
+           return `${m}m ${s}s`;
+         } else if (s > 0) {
+           return `${s}s`;
+         } else {
+           return `00s`;
+         }
+       }
+    %>
+    <% if (topUsers && topUsers.length > 0) { %>
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Username</th>
+            <th>Time Spent</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% topUsers.forEach((user, index) => { %>
+            <tr>
+              <td class="<%= index === 0 ? 'rank-one' : index === 1 ? 'rank-two' : index === 2 ? 'rank-three' : '' %>"><%= index + 1 %></td>
+              <td class="<%= index === 0 ? 'rank-one' : index === 1 ? 'rank-two' : index === 2 ? 'rank-three' : '' %>"><%= user.username %></td>
+              <td class="<%= index === 0 ? 'rank-one' : index === 1 ? 'rank-two' : index === 2 ? 'rank-three' : '' %>"><%= formatTime(user.timeSpent) %></td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    <% } else { %>
+      <p>No leaderboard data available.</p>
+    <% } %>
   </section>
 
   

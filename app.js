@@ -46,6 +46,7 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());  // Add this middleware to parse JSON request bodies
 app.use(methodOverride("_method"));
 app.use(express.static(path.join(__dirname, "/public"), {
     maxAge: '30d',
@@ -116,11 +117,22 @@ const isLoggedIn = (req, res, next) => {
 app.get('/', async (req, res, ) => {
     // Fetch featured subjects (example: limit to 6)
     const allSubjects = await subjects.find({}).limit(6).exec();
-    
-    // Render home page with subjects data
-    res.render('testapp/home', { allSubjects,title: "MSBTE MCQ Practice - ETI, Management, EST, AJP MCQs",
+
+    // Fetch top users by timeSpent descending, limit 10
+    const topUsers = await User.find({})
+        .sort({ timeSpent: -1 })
+        .limit(10)
+        .select('username timeSpent')
+        .exec();
+
+    // Render home page with subjects and top users data
+    res.render('testapp/home', {
+        allSubjects,
+        topUsers,
+        title: "MSBTE MCQ Practice - ETI, Management, EST, AJP MCQs",
         description: "Practice and test your knowledge with MCQs for ETI, Management, EST, AJP and other subjects. Improve your skills with interactive tests on msbtemcq.in.",
-        keywords: "mcq, mcqs, ETI, Management, EST, AJP, practice tests, online tests, msbte"});
+        keywords: "mcq, mcqs, ETI, Management, EST, AJP, practice tests, online tests, msbte"
+    });
 });
 
 // GET route to render forgot password form
@@ -574,6 +586,45 @@ app.post('/Contact', async (req, res) => {
         console.error(err);
         req.flash('error', 'Error sending the Message. Please try again later.');
         res.redirect('/Contact');
+    }
+});
+
+app.post('/user/timeSpent', isLoggedIn, async (req, res) => {
+    try {
+        const { timeSpent } = req.body;
+        if (!timeSpent || isNaN(timeSpent)) {
+            return res.status(400).json({ error: 'Invalid timeSpent value' });
+        }
+        const user = await User.findById(req.user._id);
+        if (!user) {
+            return res.status(404).json({ error: 'User not found' });
+        }
+        user.timeSpent = (user.timeSpent || 0) + Number(timeSpent);
+        user.updatedAt = new Date();
+        await user.save();
+        res.status(200).json({ message: 'Time spent updated successfully' });
+    } catch (err) {
+        console.error('Error updating time spent:', err);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+});
+
+app.get('/api/leaderboard', async (req, res) => {
+    try {
+        const skip = parseInt(req.query.skip) || 0;
+        const limit = parseInt(req.query.limit) || 10;
+
+        const users = await User.find({})
+            .sort({ timeSpent: -1 })
+            .skip(skip)
+            .limit(limit)
+            .select('username timeSpent')
+            .exec();
+
+        res.json(users);
+    } catch (err) {
+        console.error('Error fetching leaderboard users:', err);
+        res.status(500).json({ error: 'Internal server error' });
     }
 });
 

@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalMessage = document.getElementById('modal-message');
   const modalClose = document.getElementById('modal-close');
   const modalCloseBtn = document.getElementById('modal-close-btn');
+  const checkmarkSvg = document.querySelector('.checkmark');
+  const crossmarkSvg = document.querySelector('.crossmark');
 
   let currentQuestionIndex = 0;
   const selectedAnswers = {};
@@ -72,7 +74,26 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Function to show modal with message
-  function showModal(message) {
+  function showModal(message, isCorrect = false) {
+    if (isCorrect) {
+      // Show and animate the checkmark SVG
+      checkmarkSvg.style.display = 'block';
+      crossmarkSvg.style.display = 'none';
+
+      // Reset animation by removing and re-adding classes
+      checkmarkSvg.classList.remove('animate__animated', 'animate__fadeIn');
+      void checkmarkSvg.offsetWidth; // Trigger reflow
+      checkmarkSvg.classList.add('animate__animated', 'animate__fadeIn');
+    } else {
+      // Show and animate the crossmark SVG
+      crossmarkSvg.style.display = 'block';
+      checkmarkSvg.style.display = 'none';
+
+      // Reset animation by removing and re-adding classes
+      crossmarkSvg.classList.remove('animate__animated', 'animate__fadeIn');
+      void crossmarkSvg.offsetWidth; // Trigger reflow
+      crossmarkSvg.classList.add('animate__animated', 'animate__fadeIn');
+    }
     modalMessage.textContent = message;
     modal.show();
   }
@@ -86,15 +107,26 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.hide();
   });
 
+  // Add event listeners for Bootstrap modal events to manage inert attribute and aria-hidden
+  modal._element.addEventListener('shown.bs.modal', () => {
+    modal._element.removeAttribute('inert');
+    modal._element.removeAttribute('aria-hidden');
+  });
+
+  modal._element.addEventListener('hidden.bs.modal', () => {
+    modal._element.setAttribute('inert', '');
+    modal._element.removeAttribute('aria-hidden');
+  });
+
   // Function to check if the selected answer is correct
   function checkAnswer() {
     const selectedOption = document.querySelector('input[name="answer"]:checked');
     if (selectedOption) {
       const correctAnswer = questions[currentQuestionIndex].Answer;
       if (selectedOption.value === correctAnswer) {
-        showModal('Correct Answer!');
+        showModal('🎉 Correct Answer!', true);
       } else {
-        showModal('Wrong Answer!');
+        showModal('❌ Wrong Answer!');
       }
     } else {
       showModal('Please select an answer.');

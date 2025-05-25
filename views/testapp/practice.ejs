@@ -34,8 +34,19 @@
           <h5 class="modal-title">Result</h5>
           <button type="button" class="btn-close" id="modal-close" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
-          <p id="modal-message" class="text-center"></p>
+          <div class="modal-body">
+            <div class="modal-message-container d-flex align-items-center justify-content-center">
+              <svg viewBox="0 0 40 40" class="checkmark">
+                <circle class="checkmark__circle" cx="20" cy="20" r="10" fill="none"/>
+                <path class="checkmark__check" fill="none" d="M15 20l3 3 7-7"/>
+              </svg>
+              <svg viewBox="0 0 40 40" class="crossmark">
+                <circle class="crossmark__circle" cx="20" cy="20" r="10" fill="none"/>
+                <line class="crossmark__cross1" x1="15" y1="15" x2="25" y2="25" />
+                <line class="crossmark__cross2" x1="25" y1="15" x2="15" y2="25" />
+              </svg>
+              <p id="modal-message" class="text-center mb-0"></p>
+            </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" id="modal-close-btn">Close</button>
