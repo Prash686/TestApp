@@ -8,21 +8,14 @@ const userSchema = new Schema({
     phone: { type: String },
     resetPasswordToken: String,
     resetPasswordExpires: Date,
-    // progress: [
-    //     {
-    //         subject: String,
-    //         score: Number,
-    //         totalQuestions: Number,
-    //         timeSpent: Number,  // time spent in seconds or milliseconds
-    //         date: { type: Date, default: Date.now },
-    //         details: [
-    //             {
-    //                 questionId: { type: Schema.Types.ObjectId, ref: 'Question' },
-    //                 correct: Boolean
-    //             }
-    //         ]
-    //     }
-    // ],
+    progress: [
+        {
+            subject: String,
+            score: { type: Number, default: 0},
+            outof : { type: Number, default: 70},
+            date: { type: Date, default: Date.now },
+        }
+    ],
     timeSpent: Number,
     createdAt: { type: Date, default: Date.now },
     updatedAt: { type: Date, default: Date.now }

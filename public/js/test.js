@@ -158,12 +158,25 @@ try {
       testBody.appendChild(reviewContainer);
     }
 
-    function endExam() {
+    async function endExam() {
       clearInterval(timerInterval);
       examEnded = true;
       saveAnswer();
       calculateTotalMarks();
       showMessage(`Test ended early! Your total score is: ${totalMarks}`, 'info');
+      try {
+        // Assuming subject is available globally or from questions data
+        const subject = questions.length > 0 ? questions[0].subject || 'default' : 'default';
+        const progressData = {
+          subject: subject,
+          score: totalMarks,
+          outof: questions.length
+        };
+        await sendProgress(progressData);
+        showMessage('Progress saved to server!', 'success');
+      } catch (error) {
+        showMessage('Failed to save progress to server.', 'error');
+      }
       showReview();
     }
 

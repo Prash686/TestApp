@@ -19,6 +19,35 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentQuestionIndex = 0;
   const selectedAnswers = {};
 
+  // Helper functions to get and set cookies
+  function setCookie(name, value, days) {
+    const d = new Date();
+    d.setTime(d.getTime() + (days*24*60*60*1000));
+    const expires = "expires="+ d.toUTCString();
+    let cookieString = name + "=" + value + ";" + expires + ";path=/;SameSite=Lax";
+    if (location.protocol === 'https:') {
+      cookieString += ";Secure";
+    }
+    document.cookie = cookieString;
+    // console.log("Cookie was saved: " + cookieString);
+  }
+
+  function getCookie(name) {
+    const cname = name + "=";
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const ca = decodedCookie.split(';');
+    for(let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) === ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(cname) === 0) {
+        return c.substring(cname.length, c.length);
+      }
+    }
+    return "";
+  }
+
   // Function to render the current question
   function renderQuestion(index) {
     if (!questions || questions.length === 0) {
@@ -63,6 +92,11 @@ document.addEventListener('DOMContentLoaded', () => {
     jumpToInput.placeholder = `Q. ${index + 1}`; // Update placeholder
     prevBtn.disabled = index === 0;
     nextBtn.disabled = index === questions.length - 1;
+
+    // Save current question number and subject in cookies
+    const subjectName = document.getElementById('subject-name').value;
+    setCookie('practice_subject', subjectName, 7);
+    setCookie('practice_question', index + 1, 7);
   }
 
   // Function to save the selected answer
@@ -171,6 +205,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Initial rendering of the first question
+  // On page load, check cookies for saved subject and question number
+  const savedSubject = getCookie('practice_subject');
+  const savedQuestion = parseInt(getCookie('practice_question'));
+
+  const currentSubject = document.getElementById('subject-name').value;
+
+  if (savedSubject === currentSubject && savedQuestion && savedQuestion >= 1 && savedQuestion <= questions.length) {
+    currentQuestionIndex = savedQuestion - 1;
+  }
+
+  // Initial rendering of the first or saved question
   renderQuestion(currentQuestionIndex);
 });

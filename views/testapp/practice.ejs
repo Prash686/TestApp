@@ -8,6 +8,7 @@
   <h3 class="text-center mb-4 animate__animated animate__fadeInUp animate__delay-2s">Question <span id="question-number">1</span> of <%= allquestions.length %></h3>
 
   <input type="hidden" id="questions-data" value='<%- JSON.stringify(allquestions).replace(/'/g, "&#39;") %>'>
+  <input type="hidden" id="subject-name" value="<%= subjectName %>">
 
   <form method="GET" action="/submit">
     <div id="question-container" class="bg-white p-4 rounded shadow-lg mb-4 animate__animated animate__zoomIn"></div>
