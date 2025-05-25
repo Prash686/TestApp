@@ -64,10 +64,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const selectedOption = document.querySelector('input[name="answer"]:checked');
     if (selectedOption) {
       selectedAnswers[currentQuestionIndex] = selectedOption.value;
+      console.log("Answer Saved.")
     }
   }
 
   function showModal(message, type) {
+    console.log('showModal called');
+    const modalBodyContent = document.getElementById('modal-body-content');
+    console.log('modalBodyContent:', modalBodyContent);
+    console.log('modal element:', document.getElementById('modal'));
+    if (!modalBodyContent) {
+      console.error('Modal body content element not found');
+      return;
+    }
     modalBodyContent.innerHTML = ''; // Clear previous content
     if (type === 'correct') {
       const div = document.createElement('div');
@@ -117,7 +126,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  submitBtn.addEventListener('click', () => {
+  submitBtn.addEventListener('click', (event) => {
+    event.preventDefault();
     saveAnswer();
     checkAnswer();
   });
