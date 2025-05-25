@@ -628,6 +628,26 @@ app.get('/api/leaderboard', async (req, res) => {
     }
 });
 
+app.get('/leaderBoard', async (req, res) => {
+    try {
+        const topUsers = await User.find({})
+            .sort({ timeSpent: -1 })
+            .limit(10)
+            .select('username timeSpent')
+            .exec();
+
+        res.render('testapp/leaderBoard', {
+            topUsers,
+            title: "Leaderboard - MSBTE MCQ Practice",
+            description: "Top users by time spent practicing MCQs on msbtemcq.in.",
+            keywords: "leaderboard, top users, time spent, msbte"
+        });
+    } catch (err) {
+        console.error('Error fetching leaderboard users:', err);
+        res.status(500).send('Internal server error');
+    }
+});
+
 // Catch-all route for undefined routes
 app.all('*', isLoggedIn, (req, res, next) => {
     next(new ExpressError('Page Not Found', 404));
