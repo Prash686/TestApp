@@ -121,7 +121,7 @@ try {
       const testBody = document.getElementById('test');
       const reviewContainer = document.createElement('div');
       reviewContainer.id = 'review-container';
-
+      const isSloved = document.createElement('p');
       const totalMarksElement = document.createElement('p');
       totalMarksElement.classList.add('total-marks');
       totalMarksElement.textContent = `Your total score is: ${totalMarks}`;
@@ -131,13 +131,16 @@ try {
         const reviewItem = document.createElement('div');
         reviewItem.classList.add('review-item');
         ++i;
-        reviewItem.innerHTML = `<p>Q.${i} ${question.question} <br>`;
-  
-        for (let i = 1; i <= 4; i++) {
-          const optionValue = `option${i}`;
+        const isSolved = selectedAnswers[index] !== undefined;
+        if (!isSolved) {
+          reviewItem.innerHTML = '<p><p class="text-warning text-center"><i class="bi bi-exclamation-triangle-fill"></i> Question is not solved</p><br>';
+        }
+        reviewItem.innerHTML += `Q.${i} ${question.question} <br>`;
+
+        for (let j = 1; j <= 4; j++) {
+          const optionValue = `option${j}`;
           const isCorrect = optionValue === question.Answer;
           const isSelected = selectedAnswers[index] === optionValue;
-
           const optionText = question[optionValue];
 
           let optionHTML;
@@ -153,6 +156,7 @@ try {
         }
 
         reviewItem.innerHTML += `</p>`;
+
         reviewContainer.appendChild(reviewItem);
       });
       testBody.appendChild(reviewContainer);
