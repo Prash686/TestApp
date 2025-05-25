@@ -27,34 +27,20 @@
   </form>
 
   <!-- Modal -->
-  <div id="modal" class="modal fade" tabindex="-1" role="dialog">
+   <div id="modal" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-dialog-centered animate__animated animate__fadeIn" role="document">
       <div class="modal-content rounded-3 shadow-lg">
         <div class="modal-header bg-info text-white">
           <h5 class="modal-title">Result</h5>
           <button type="button" class="btn-close" id="modal-close" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
-          <p id="modal-message" class="text-center">
-            <!-- Correct Answer Popup -->
-            <div id="correct-popup" class="popup animate__animated animate__bounceIn d-none">
-              <div class="popup-content bg-success text-white rounded p-4 text-center shadow-lg">
-                <h2 class="animate__animated animate__heartBeat">Correct Answer!</h2>
-              </div>
-            </div>
-
-            <!-- Wrong Answer Popup -->
-            <div id="wrong-popup" class="popup animate__animated animate__shakeX d-none">
-              <div class="popup-content bg-danger text-white rounded p-4 text-center shadow-lg">
-                <h2 class="animate__animated animate__wobble">Wrong Answer!</h2>
-              </div>
-            </div>
-          </p>
+        <div class="modal-body text-center" id="modal-body-content">
+          <!-- Dynamic content will be inserted here -->
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" id="modal-close-btn">Close</button>
         </div>
-      </div>
+      </div> 
     </div>
   </div>
 </div>

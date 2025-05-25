@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const jumpToInput = document.getElementById('jump-to-input');
   const jumpBtn = document.getElementById('jump-btn');
   const modal = new bootstrap.Modal(document.getElementById('modal'));
-  const modalMessage = document.getElementById('modal-message');
+  const modalBodyContent = document.getElementById('modal-body-content');
   const modalClose = document.getElementById('modal-close');
   const modalCloseBtn = document.getElementById('modal-close-btn');
 
@@ -68,18 +68,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function showModal(message, type) {
-    const correctPopup = document.getElementById("correct-popup");
-    const wrongPopup = document.getElementById("wrong-popup");
-    correctPopup.classList.add("d-none");
-    wrongPopup.classList.add("d-none");
-    modalMessage.textContent = message;
-     if (type === "correct") {
-        correctPopup.classList.remove("d-none");
-        setTimeout(() => correctPopup.classList.add("d-none"), 2000);
-      } else if (type === "wrong") {
-        wrongPopup.classList.remove("d-none");
-        setTimeout(() => wrongPopup.classList.add("d-none"), 2000);
-      }
+    modalBodyContent.innerHTML = ''; // Clear previous content
+    if (type === 'correct') {
+      const div = document.createElement('div');
+      div.className = 'popup-content correct-popup animate__animated animate__bounceIn';
+      div.textContent = '🎉 Correct Answer!';
+      modalBodyContent.appendChild(div);
+    } else if (type === 'wrong') {
+      const div = document.createElement('div');
+      div.className = 'popup-content wrong-popup animate__animated animate__shakeX';
+      div.textContent = message;
+      modalBodyContent.appendChild(div);
+    } else {
+      modalBodyContent.textContent = message;
+    }
     modal.show();
   }
 
@@ -93,9 +95,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!selectedOption) {
       showModal('Please select an answer.');
     } else if (selectedOption.value === correctAnswer) {
-      showModal('🎉 Correct Answer!',"correct");
+      showModal('🎉 Correct Answer!', 'correct');
     } else {
-      showModal(`❌ Wrong Answer. Correct is: ${correctAnswer.replace('option', '')}) ${questions[currentQuestionIndex][correctAnswer]}`,"wrong");
+      showModal(`❌ Wrong Answer. Correct is: ${correctAnswer.replace('option', '')}) ${questions[currentQuestionIndex][correctAnswer]}`, 'wrong');
     }
   }
 

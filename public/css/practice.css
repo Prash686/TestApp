@@ -103,10 +103,30 @@ label[for="jump-to-input"] {
   width: 350px;
 }
 
+/* Popup animation styles for modal content */
 .popup-content {
   font-size: 1.5rem;
   animation-duration: 1s;
-  border-radius: 10px;
+}
+
+.correct-popup {
+  color: #fff;
+  background-color: #28a745; /* Bootstrap success green */
+  border-radius: 0.25rem;
+  padding: 1rem;
+  font-weight: bold;
+  animation-name: bounceIn;
+  animation-duration: 1s;
+}
+
+.wrong-popup {
+  color: #fff;
+  background-color: #dc3545; /* Bootstrap danger red */
+  border-radius: 0.25rem;
+  padding: 1rem;
+  font-weight: bold;
+  animation-name: shakeX;
+  animation-duration: 1s;
 }
 
 .d-none {
