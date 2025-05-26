@@ -62639,4 +62639,1808 @@ const ETM =[
         "marks": 1
     }
 ]
-module.exports = { data: ETM};
+
+const ETE = [
+    {
+        "question": "The most obvious change in the structure of smart substations compared to conventional substation is the emergence of the:",
+        "option1": "spacer layer",
+        "option2": "station control layer",
+        "option3": "bay layer",
+        "option4": "process layer",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A micro grid is a -------- that can operate independently or collaboratively with other small power grids.",
+        "option1": "small-scale power grid",
+        "option2": "medium-scale power grid",
+        "option3": "small-scale smart grid",
+        "option4": "small-scale regional grid",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Micro-sources are of much ------------- with respect to the large generators in conventional power plants.",
+        "option1": "fixed capacity",
+        "option2": "smaller capacity",
+        "option3": "higher capacity",
+        "option4": "medium capacity",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Power generated at distribution voltage can be directly fed to the ----------",
+        "option1": "interconnected grid system",
+        "option2": "power grid network",
+        "option3": "utility transmission network",
+        "option4": "utility distribution network",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Micro-grid system minimizes the greenhouse gas production by adoption of --------.",
+        "option1": "renewable",
+        "option2": "fossile",
+        "option3": "gases",
+        "option4": "oil",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In Smart substation all primary devices have been upgraded as ---------------------.",
+        "option1": "control devices",
+        "option2": "quality devices",
+        "option3": "intelligent devices",
+        "option4": "electronic devices",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Micro-grid increases ------------- with distributed generation, increases ------------- with reduced transmission length.",
+        "option1": "reliability, efficiency",
+        "option2": "efficiency, reliability",
+        "option3": "quality, security",
+        "option4": "security, quality",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Need of micro-grid system is for ----------- and --------------- use of distribution energy systems.",
+        "option1": "common, variable",
+        "option2": "fixed, variable",
+        "option3": "optimum, efficient",
+        "option4": "rigid, fixed",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "During the grid-connected mode the micro-grid sources will be controlled to provide constant ---------- ---------.",
+        "option1": "real and apparent power injection",
+        "option2": "ac and dc power injection",
+        "option3": "apparent and reactive power injection",
+        "option4": "real and reactive power injection",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In AC micro-grid, ---------------- and ------------ are connected to a common AC bus.",
+        "option1": "all Distributed Energy Resources, loads",
+        "option2": "all Micro-grids, Main grids",
+        "option3": "all Distributed Energy Resources, Main grids",
+        "option4": "all main grids, loads",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In Distributed generation creating a prosumer means ------------",
+        "option1": "a consumer of electricity",
+        "option2": "a producer and a consumer of electricity",
+        "option3": "a producer of electricity",
+        "option4": "nor producer neither consumer of electricity",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Communication network connects smart meters with consumers and Electricity Company for -------- --.",
+        "option1": "energy monitoring and control operations",
+        "option2": "voltage monitoring and safe operations",
+        "option3": "voltage monitoring and control operations",
+        "option4": "energy monitoring and safe operations",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Intelligent devices can automatically adjust to changing conditions to prevent ------------------------.",
+        "option1": "control and overload",
+        "option2": "control and decrease capacity",
+        "option3": "overload and decrease capacity",
+        "option4": "blackouts and increase capacity",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The smart grid project in Haryana BVN has peak load management with ---------------- in Panipat City.",
+        "option1": "31,500 consumers",
+        "option2": "30,500 consumers",
+        "option3": "20,500 consumers",
+        "option4": "40,500 consumers",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Micro grids are often used to provide backup power or supplement the main power grid during periods of ------------.",
+        "option1": "light demand",
+        "option2": "moderate demand",
+        "option3": "heavy demand",
+        "option4": "average demand",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Significance of Micro-grid is playing crucial role in optimization of ------------.",
+        "option1": "cost of energy",
+        "option2": "cost of generation",
+        "option3": "cost of equipment",
+        "option4": "cost of distributed generation",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Traffic surveillance system detects -------------------.",
+        "option1": "vehicle tyre",
+        "option2": "vehicle number plate",
+        "option3": "vehicle headlight",
+        "option4": "vehicle chassis number",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "With concerns about climate change and the need to reduce greenhouse gas emissions, EVs offer a clean and -------------------- of transportation.",
+        "option1": "unsustainable mode",
+        "option2": "sustainable mode",
+        "option3": "expensive mode",
+        "option4": "not sustainable mode",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "One of the most significant advantages of EVs is that they produce ----------------------- while driving.",
+        "option1": "zero emissions",
+        "option2": "carbon-dioxide",
+        "option3": "nitrogen-oxide",
+        "option4": "greenhouse gas",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "One of the most significant obstacles is the high upfront --------------------.",
+        "option1": "maintenance of EVs",
+        "option2": "pollution by EVs",
+        "option3": "cost of EVs",
+        "option4": "charging of EVs",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Pure EV major challenges are limited driving range, high initial cost, and lack of -----------------------.",
+        "option1": "uneven roads",
+        "option2": "traffic jam",
+        "option3": "road signals",
+        "option4": "charging infrastructure",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A modern electric drive configuration consists of three major subsystems: electric motor propulsion, energy source, and ------------.",
+        "option1": "vehicle controller",
+        "option2": "power electronic converter",
+        "option3": "auxiliary",
+        "option4": "electric motor",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The electric propulsion subsystem is comprised of a vehicle controller, power electronic converter, electric motor, mechanical transmission, and --------------.",
+        "option1": "power steering unit",
+        "option2": "energy source",
+        "option3": "energy management unit",
+        "option4": "driving wheels",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In EV, power rating and transmission parameters are the primary considerations to meet the performance specification and design of all these parameters depends mostly on the -------------------------- characteristics of the traction motor.",
+        "option1": "current–power (torque)",
+        "option2": "speed–frequency",
+        "option3": "speed–power (torque)",
+        "option4": "frequency–power (torque)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Basic vehicle performance includes maximum cruising speed, gradeability, and -----------------------.",
+        "option1": "clutch",
+        "option2": "brake",
+        "option3": "load",
+        "option4": "acceleration",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The energy per unit distance in kWh/km is generally used to evaluate the vehicle -------------------.",
+        "option1": "energy consumption",
+        "option2": "vehicle efficiency",
+        "option3": "vehicle losses",
+        "option4": "vehicle speed",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the batteries is not used in electric vehicles?",
+        "option1": "Lead Acid",
+        "option2": "Nickel Metal Hydride",
+        "option3": "Lithium-ion",
+        "option4": "Daniell Cell",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A fuel cell is a galvanic cell in which the chemical energy of a fuel is converted directly into electrical energy by means of ----------------------------------.",
+        "option1": "chemical processes",
+        "option2": "thermal processes",
+        "option3": "electrostatic processes",
+        "option4": "electrochemical processes",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "VR users move in a completely fictional world, while AR users are in contact with the -------------------- -.",
+        "option1": "virtual world",
+        "option2": "logic world",
+        "option3": "programmable world",
+        "option4": "real world",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "AR combines digital elements with real-life, physical elements while VR is fully -------------------------.",
+        "option1": "natural and superficial",
+        "option2": "artificial and immersive",
+        "option3": "real and superficial",
+        "option4": "true and natural",
+        "Answer": "option2",
+        "marks": 1
+    },
+
+
+
+
+    {
+        "question": "Which one of the following is not a smart home component?",
+        "option1": "Full-fledged smart home security systems",
+        "option2": "Conventional door locks",
+        "option3": "Door and window sensors",
+        "option4": "Security cameras",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Smart home is one of the most promising applications of the -----------------------.",
+        "option1": "Internet of Things",
+        "option2": "Artificial Intelligence",
+        "option3": "Data Management",
+        "option4": "Data Storage",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A smart home is important because it allows a household to become ---------------------------.",
+        "option1": "less energy efficient",
+        "option2": "take more time to perform task",
+        "option3": "inconvenient to perform task",
+        "option4": "more energy efficient",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Smart braking system will continuously keep the record of time taken for collision (tc) on the basis of the relative speeds and distance between the vehicles with the help of ultrasonic and -----------------------.",
+        "option1": "light sensors",
+        "option2": "pressure sensors",
+        "option3": "hall effect sensors",
+        "option4": "proximity sensors",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which one of the following factors is not correct for the time required to charge the battery?",
+        "option1": "how much energy it holds",
+        "option2": "how much depleted is the battery",
+        "option3": "the type of vehicle",
+        "option4": "the type of battery",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "DC chargers require more space and require much more complex spare parts to facilitate processes such as ----------------------.",
+        "option1": "active cooling",
+        "option2": "active heating",
+        "option3": "passive cooling",
+        "option4": "passive heating",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "An alternative battery recharging method that is receiving global attention is ------------------------, in which a depleted EV battery is removed from the vehicle and replaced with a fully charged one.",
+        "option1": "battery charging",
+        "option2": "battery swapping",
+        "option3": "battery retaining",
+        "option4": "battery discharging",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "An effective or true IoT environment is produced because of ……………..",
+        "option1": "Servers",
+        "option2": "Routers",
+        "option3": "Sensors",
+        "option4": "Gateways",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Cyber physical systems extend their capabilities by using ………………………",
+        "option1": "Human support",
+        "option2": "Cloud computing",
+        "option3": "Calculator",
+        "option4": "Automatic machines",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In smart factory, human intervention is ………..",
+        "option1": "Required in decision making",
+        "option2": "Required in quality control",
+        "option3": "Required in production monitoring",
+        "option4": "Not at all required",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Third Industrial Revolution is characterized by ………",
+        "option1": "Mechanization",
+        "option2": "Digitalization",
+        "option3": "Mass production",
+        "option4": "IoT",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Third Industrial Revolution facilitated …………….",
+        "option1": "Mass production",
+        "option2": "Assembly line",
+        "option3": "Flexible production",
+        "option4": "Smart machines",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Industry 4.0 is ………..",
+        "option1": "Mechanical revolution",
+        "option2": "Electrical revolution",
+        "option3": "Electronics revolution",
+        "option4": "Digital revolution",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "API stands for ……………….",
+        "option1": "Advanced Protocol Interface",
+        "option2": "Application Programming Interface",
+        "option3": "Application Protocol Interface",
+        "option4": "Advanced Programming Interface",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Smart manufacturing means ……………………",
+        "option1": "Manufacturing by smart people",
+        "option2": "Manufacturing by assembly line",
+        "option3": "Manufacturing by semi-automatic machines",
+        "option4": "Computer-integrated Manufacturing",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Cloud in Industry 4.0 refers to …………………",
+        "option1": "A computer",
+        "option2": "A server",
+        "option3": "A parallel & distributed computing system",
+        "option4": "Internet",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "More efficient use of natural resources & energy is offered by…………….",
+        "option1": "Ind. Revolution 1.0",
+        "option2": "Ind. Revolution 2.0",
+        "option3": "Ind. Revolution 3.0",
+        "option4": "Ind. Revolution 4.0",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "………………. is the backbone of Industry 4.0.",
+        "option1": "Computers",
+        "option2": "IoT",
+        "option3": "TVs",
+        "option4": "Radios",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "PLCs operate in -----",
+        "option1": "virtual time",
+        "option2": "real time",
+        "option3": "automaticaly",
+        "option4": "line with verbal instructions",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "------------------ is characterized by ability to operate in a GUI environment like windows.",
+        "option1": "IMCC",
+        "option2": "MCC",
+        "option3": "AC Drives",
+        "option4": "Power Monitoring Units",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A _____________ in IMCC database speeds up the working and reduces fatigue of handlling the data",
+        "option1": "comprehensive documentation",
+        "option2": "complete documentation",
+        "option3": "simple documentation",
+        "option4": "intermittent data",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The ____________ are preffered when standard starters with overload functionality are sufficient to get the requisite work with optimum accuracy",
+        "option1": "MCC",
+        "option2": "IMCC",
+        "option3": "starter",
+        "option4": "controllers",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Energy monitoring of AC Drive, low current conditions are __________ motor operation functions",
+        "option1": "basic",
+        "option2": "enhanced",
+        "option3": "regular",
+        "option4": "specialized",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "For more than standard starter functionality, _________ are preffered when networking is possible to increase efficiency and reduce downtime.",
+        "option1": "MCC",
+        "option2": "IMCC",
+        "option3": "PLC",
+        "option4": "softwares",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Unit view, spreadsheet view, event logging are examples of _____________ software screens in IMCC",
+        "option1": "preconfigured",
+        "option2": "estimated",
+        "option3": "predicted",
+        "option4": "complex",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "IMCC software can access the user's _________ data files",
+        "option1": "simple",
+        "option2": "small",
+        "option3": "large",
+        "option4": "specific",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "_____________ automatically logs preset and user defined faults and warnings",
+        "option1": "Unit view",
+        "option2": "MCC lineup view",
+        "option3": "Event logging",
+        "option4": "Spreadsheets",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Data fields like consumed energy, no. of starts, device operating hours can be made availaible by IMCC softwares with appropriate __________",
+        "option1": "coordination",
+        "option2": "synchronization",
+        "option3": "interface",
+        "option4": "interference",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Basic components of IMCC may comprise _____________",
+        "option1": "Engineering work station",
+        "option2": "control room",
+        "option3": "controllers",
+        "option4": "all of the above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Non-time delay fuses usually hold ___________ of their rating for about one-fourth second.",
+        "option1": "100%",
+        "option2": "200%",
+        "option3": "500%",
+        "option4": "750%",
+        "Answer": "option3",
+        "marks": 1
+    },
+
+
+
+
+     {
+        "question": "Time delay fuses play significant role at the time of ___________ of motor",
+        "option1": "starting",
+        "option2": "running",
+        "option3": "heavy load condition",
+        "option4": "no load condition",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "__________ are grouped together into classes based on their operating and construction characteristics",
+        "option1": "Circuit breakers",
+        "option2": "Isolators",
+        "option3": "Starters",
+        "option4": "Fuses",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Fuses are rated according to ____________ current carrying they can handle.",
+        "option1": "maximum continuous",
+        "option2": "maximum",
+        "option3": "continuous",
+        "option4": "minimum",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Basic performance and physical specification of fuses are standardised by ________________",
+        "option1": "Underwritter Laboratories",
+        "option2": "United Laboratories",
+        "option3": "Standard Laboratories",
+        "option4": "Local Laboratories",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "If a conductor is rated for 60A, the circuit breaker rating should not exceed _____",
+        "option1": "160A",
+        "option2": "120A",
+        "option3": "60A",
+        "option4": "30A",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "A motor control center (MCC) is an assembly of control of many electric motors with _____________",
+        "option1": "separate power bus",
+        "option2": "common power bus",
+        "option3": "specialized power bus",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "________________ controllers can be unplugged from the cabinet for testing and maintenance.",
+        "option1": "Small",
+        "option2": "Very large",
+        "option3": "medium",
+        "option4": "specialized",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Motor control center provide ___________ for field control and power cables",
+        "option1": "protocols",
+        "option2": "wire ways",
+        "option3": "softwares",
+        "option4": "none of the above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Motor control centers require __________ environment.",
+        "option1": "fire resistant",
+        "option2": "controlled light",
+        "option3": "controlled noise",
+        "option4": "none of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Controllers of electric welding cranes or electric vehicles may be mounted on the __________",
+        "option1": "wall",
+        "option2": "water",
+        "option3": "mobile equipment",
+        "option4": "Ceiling",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "___________ is an acceleration controller.",
+        "option1": "contactor",
+        "option2": "circuit breaker",
+        "option3": "fuse",
+        "option4": "soft starter",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "DOL Starters are used for motors having rating upto __________",
+        "option1": "2HP",
+        "option2": "3HP",
+        "option3": "5HP",
+        "option4": "10HP",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Peak and non peak hours for LT and HT consumers are",
+        "option1": "Same",
+        "option2": "Different",
+        "option3": "Peak hours same but non peak hour different",
+        "option4": "Peak hours different but non peak hour same",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In Maharashtra, Incentive is awarded if pf is maintained above ………………",
+        "option1": "0.95",
+        "option2": "0.9",
+        "option3": "0.8",
+        "option4": "0.85",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Time of Day (TOD) tariff give incentive to consumer during",
+        "option1": "Complete day time",
+        "option2": "Off peak and peak time",
+        "option3": "Peak times",
+        "option4": "Off peak times",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Time of Day tariff is to",
+        "option1": "Keep tariff rate different for day",
+        "option2": "shift the load from peak to off peak hours",
+        "option3": "Attract consumer to consume more energy",
+        "option4": "Shift the load from off peak to peak hours",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which factor is not considered for ARR determinations?",
+        "option1": "Depreciation",
+        "option2": "Income tax",
+        "option3": "Profit",
+        "option4": "Interest on Loan",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Aggregate Revenue Requirement (ARR) is prepared by",
+        "option1": "SLDC",
+        "option2": "MSEDCL",
+        "option3": "MERC",
+        "option4": "CERC",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Unit of the Average billing rate (ABR) is",
+        "option1": "INR /kWh",
+        "option2": "kVAh",
+        "option3": "kWh/INR",
+        "option4": "INR",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the main objective of Availability Based Tariff is",
+        "option1": "Make Availability of energy at high cost",
+        "option2": "Available energy as per consumer demand",
+        "option3": "To maintain Grid frequency",
+        "option4": "Supply energy when it is available",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "To maintain Grid frequency is the objectives of",
+        "option1": "Availability Based Tariff",
+        "option2": "Time of Day Tariff",
+        "option3": "kVAh based Tariff",
+        "option4": "Aggregate Revenue Requirement",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a function of ABT",
+        "option1": "Facilitating grid discipline",
+        "option2": "Facilitating trading in capacity and energy",
+        "option3": "Facilitating merit order dispatch as and when made effective",
+        "option4": "Facilitating consumers to purchase energy",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The energy rates in Time of Day tariff are",
+        "option1": "Fixed during day time",
+        "option2": "Fixed during night time",
+        "option3": "Not same during day & night times",
+        "option4": "Not fixed during time of the day",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which statement is incorrect in relation to ToD?",
+        "option1": "Reduction in cost of power purchase due to reduction in peak consumption",
+        "option2": "Advantage to Utility",
+        "option3": "Incentives to consumers is same for entire day",
+        "option4": "Additional revenue on account of TOD surcharge during peak hours",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Electricity rates charged to the consumer are as agreed in",
+        "option1": "PPA",
+        "option2": "MOU",
+        "option3": "National Power Policy",
+        "option4": "State power policy",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "To reduce Electricity Duty , one needs -----------",
+        "option1": "To reduce consumption per unit",
+        "option2": "To reduce generation",
+        "option3": "To reduce the power factor",
+        "option4": "To reduce the maximum demand",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Overall Average Cost of Supply (ACoS) does not depend on",
+        "option1": "Fuel prices",
+        "option2": "Capital inflow",
+        "option3": "Salary hikes",
+        "option4": "Tariff",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Wheeling charges in consumers electricity bill are for ----------------",
+        "option1": "the transportation charges to be paid to the Toll agencies",
+        "option2": "the transportation charges towards use of four wheelers used for officers",
+        "option3": "the electricity transportation charges to be paid to the transmission company",
+        "option4": "None of the above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In PPA the party which generates the electrical power is",
+        "option1": "Seller",
+        "option2": "Operator",
+        "option3": "Buyer",
+        "option4": "Organizer",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Single phase threshold limit of Rooftop Solar PV system",
+        "option1": "Less than 80kW/100 kVA",
+        "option2": "Less than 150kW/187 kVA",
+        "option3": "Less than 100kW/107 kVA",
+        "option4": "Less than 8 kW/40 A",
+        "Answer": "option4",
+        "marks": 1
+    },
+
+
+
+
+    {
+        "question": "PPA is the",
+        "option1": "MOU between two parties",
+        "option2": "Mode of behavior between two parties",
+        "option3": "Contract between two parties",
+        "option4": "Conditions for terminating the contract between two parties",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "PPA duration is generally",
+        "option1": "Upto Six Months",
+        "option2": "Four Year",
+        "option3": "One Year",
+        "option4": "5-20 Years",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In kVAh tariff, the maximum demand is charged as",
+        "option1": "INR/kW of MD",
+        "option2": "INR /kVA of MD",
+        "option3": "INR/kVAh",
+        "option4": "INR/kVAR of MD",
+        "Answer": "option2",
+        "marks": 1
+    },
+
+
+
+     {
+    "question": "Internet of things is natural extension of ----------------",
+    "option1": "Smart Factory",
+    "option2": "Computer",
+    "option3": "SCADA",
+    "option4": "I3.0",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "IOT is evolved from ---------------- communication",
+    "option1": "B2B",
+    "option2": "M2B",
+    "option3": "M2H",
+    "option4": "M2M",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Data speed in 4G is .",
+    "option1": "10Mbps",
+    "option2": "64Kbps",
+    "option3": "2 Mbps",
+    "option4": "2.4 Kbps",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Benefit of cloud computing services",
+    "option1": "Fast",
+    "option2": "Anywhere access",
+    "option3": "Higher utilization",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "IoT, Cyber Physical Systems, AI and Machine learning is characterized by",
+    "option1": "First revolution",
+    "option2": "Second revolution",
+    "option3": "Third Revolution",
+    "option4": "Fourth revolution",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The objective of industry 4.0 is",
+    "option1": "Increase efficiency",
+    "option2": "Reduce complexity",
+    "option3": "Enabled self-controlling",
+    "option4": "All above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "IIoT means",
+    "option1": "Information Internet of things.",
+    "option2": "Industrial Internet of things.",
+    "option3": "Innovative Internet of things.",
+    "option4": "Itemized Internet of things",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "WSN stands for",
+    "option1": "Wide Sensor Network",
+    "option2": "Wireless Sensor Network",
+    "option3": "Wired Sensor Network",
+    "option4": "None of these",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is first and most commonly used smart, interactive IoT device?",
+    "option1": "Smart Watch",
+    "option2": "ATM",
+    "option3": "Health Tracker",
+    "option4": "Video Game",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which one is not element of IOT?",
+    "option1": "Process",
+    "option2": "People",
+    "option3": "Security",
+    "option4": "Things",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": ". is used by IOT",
+    "option1": "Radio information technology",
+    "option2": "Satellite",
+    "option3": "Cable",
+    "option4": "Broadband",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": ". consists of communication protocols for electronic devices, typically a mobile device and a standard device.",
+    "option1": "RFID",
+    "option2": "MQTT",
+    "option3": "NFC",
+    "option4": "None of above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "refers to establish a proper connection between all the things of IOT.",
+    "option1": "Connectivity",
+    "option2": "Analyzing",
+    "option3": "Sensing",
+    "option4": "Active Engagement",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "IOT devices which have unique identities and can perform .",
+    "option1": "Remote sensing",
+    "option2": "Actuating",
+    "option3": "Monitoring capabilities",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The sensed data communicated .",
+    "option1": "Cloud-based servers/storage.",
+    "option2": "I/O interfaces.",
+    "option3": "Internet connectivity.",
+    "option4": "None of the above",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "IOT devices are various types, for instance .",
+    "option1": "Wearable sensors.",
+    "option2": "Smart watches.",
+    "option3": "LED lights.",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "MQTT is protocol.",
+    "option1": "Machine to Machine",
+    "option2": "Internet of Things",
+    "option3": "Machine to Machine and Internet of Things",
+    "option4": "Machine Things",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": ". Security based connection is provided by which layer?",
+    "option1": "Application layer",
+    "option2": "Transport layer",
+    "option3": "Session layer",
+    "option4": "Network layer",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "REST is acronym for",
+    "option1": "Representational State Transfer",
+    "option2": "Represent State Transfer",
+    "option3": "Representational State Transmit",
+    "option4": "Representational Store Transfer",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "PaaS stands for",
+    "option1": "Platform as a Service",
+    "option2": "Platform as a Survey",
+    "option3": "People as a Service",
+    "option4": "Platform as a Survey",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "_____ as a Service is a cloud computing infrastructure that creates a development environment upon which applications may be built.",
+    "option1": "Infrastructure",
+    "option2": "Service",
+    "option3": "Platform",
+    "option4": "All of the mentioned",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": ". is a cloud computing service model in which hardware is virtualized in the cloud.",
+    "option1": "IaaS",
+    "option2": "CaaS",
+    "option3": "PaaS",
+    "option4": "None of the mentioned",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "______ is suitable for IOT applications to have low latency or high throughput requirements.",
+    "option1": "REST",
+    "option2": "Publish-Subscriber",
+    "option3": "Push-Pull",
+    "option4": "WebSocket",
+    "Answer": "option4",
+    "marks": 1
+  },
+
+
+  {
+    "question": "Objective of Smart grid is…",
+    "option1": "Smart utilization of all the available resources.",
+    "option2": "Best utilization of all the available resources",
+    "option3": "optimum utilization of all the available resources",
+    "option4": "all of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Following systems are the systems that could reconfigure to harness disturbances.",
+    "option1": "Resilient",
+    "option2": "Resonating",
+    "option3": "Reserved",
+    "option4": "Reisolating",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Self-healing is the significant feature of ……",
+    "option1": "Conventional grid",
+    "option2": "Smart grid",
+    "option3": "Micro grid",
+    "option4": "Macrogrid",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "A micro-grid is designed for a usually for a certain community while the smart grid is designed for the electrical system.",
+    "option1": "small scale, whole",
+    "option2": "medium scale, whole",
+    "option3": "large scale ,whole",
+    "option4": "small scale, partial",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Plug-in-Hybrid Electric Vehicle (PHEV) is charged from .",
+    "option1": "Power grid",
+    "option2": "IC Engine of vehicle",
+    "option3": "Both A and B",
+    "option4": "Either A or B",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "PQM stands for",
+    "option1": "Power Quality Measure",
+    "option2": "Power Quality Management",
+    "option3": "Power Quantity Measurement",
+    "option4": "Power Quality Measurement",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Smart grid is required for",
+    "option1": "Islanding",
+    "option2": "Theft detection",
+    "option3": "Both a & b",
+    "option4": "None",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "A key feature of a micro-grid is its ability………from the utility seamlessly during grid disturbance",
+    "option1": "not to separate and isolate itself",
+    "option2": "to separate and isolate itself",
+    "option3": "to separate but not to isolate itself",
+    "option4": "not to separate and isolate itself",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Intruder alarms are example of",
+    "option1": "Temperature sensor",
+    "option2": "Humidity sensor",
+    "option3": "Motion sensor",
+    "option4": "Gas sensor",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "_______ are basic components that sense one form of energy like pressure, temperature and translate to electrical signals.",
+    "option1": "Sensors",
+    "option2": "Detectors",
+    "option3": "Reflectors",
+    "option4": "None",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "ISGTF abbreviation stands for ….",
+    "option1": "India Smart Grid Task Force",
+    "option2": "International Scout And Guide Fellowship",
+    "option3": "International Smart Grid Task Force",
+    "option4": "India Standard Grid Task Force",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "A micro-grid is designed for a usually for a certain community while the smart grid is designed for the electrical system.",
+    "option1": "small scale, whole",
+    "option2": "medium scale, whole",
+    "option3": "large scale ,whole",
+    "option4": "small scale, partial",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "A localized grouping of electricity generations, energy storages, and loads is termed as?",
+    "option1": "Macro grid",
+    "option2": "Micro grid",
+    "option3": "National grid",
+    "option4": "State grid",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Micro Grid can be operated said to be in islanded mode when……",
+    "option1": "it function synchronously",
+    "option2": "it functions autonomously.",
+    "option3": "it function asynchronously",
+    "option4": "it stops functioning.",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Plug-in-Hybrid Electric Vehicle (PHEV) is charged from .",
+    "option1": "Power grid",
+    "option2": "IC Engine of vehicle",
+    "option3": "Both A and B",
+    "option4": "Either A or B",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "PIR sensors stands for",
+    "option1": "Post Interrupt sensor",
+    "option2": "Post Infrared Sensor",
+    "option3": "Passive Infrared Sensor",
+    "option4": "Passive Interrupt sensor",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The simplest form of conventional grid is",
+    "option1": "Smart grid",
+    "option2": "Radial grid",
+    "option3": "Linear grid",
+    "option4": "Interconnected grid",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "In grid number of generation units and loads are connected in form of ring.",
+    "option1": "Smart grid",
+    "option2": "Radial grid",
+    "option3": "Ring main grid",
+    "option4": "Ring micro grid",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The process by which the faulty part of the system gets isolated from healthy part is called",
+    "option1": "Islanding",
+    "option2": "Earthing",
+    "option3": "Detecting",
+    "option4": "Isolation",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Electrical power and locomotives are the inventions of",
+    "option1": "First revolution",
+    "option2": "Second revolution",
+    "option3": "Third Revolution",
+    "option4": "Fourth revolution",
+    "Answer": "option2",
+    "marks": 1
+  },
+
+
+  {
+        "question": "Which of following is features of a smart city?",
+        "option1": "Preserving and developing open spaces",
+        "option2": "Promoting Rapid Transit system",
+        "option3": "Providing Online services",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Electronic service delivery is part of smart solutions.",
+        "option1": "E governance",
+        "option2": "Water management",
+        "option3": "Energy management",
+        "option4": "Urban mobility",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Greenfield Development means",
+        "option1": "Implementing greenery in city",
+        "option2": "Implemented in city area",
+        "option3": "Implemented around city area",
+        "option4": "None of above",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of following is not included in Smart City Mission?",
+        "option1": "Mumbai",
+        "option2": "Nashik",
+        "option3": "Kolhapur",
+        "option4": "Aurangabad",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Hybrid Electric Vehicle drive system.",
+        "option1": "Single",
+        "option2": "Two",
+        "option3": "Both A and B",
+        "option4": "None of the above",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Retrofitting in smart city means",
+        "option1": "Increase area of city",
+        "option2": "Decrease area of city",
+        "option3": "Make existing area more efficient and livable",
+        "option4": "Increase infrastructure base",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Smart metering is part of",
+        "option1": "Water management",
+        "option2": "Energy management",
+        "option3": "A and B",
+        "option4": "None of above",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The role of Electric Vehicles in Energy transition is",
+        "option1": "Reduce oil consumption",
+        "option2": "Increase Energy security",
+        "option3": "Reduce carbon emission",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The following applications are included under smart lighting:\ni. Smart bulbs\nii. Smart dimmers.\niii. Smart flash mount lighting.",
+        "option1": "Only i",
+        "option2": "Only ii",
+        "option3": "Only iii",
+        "option4": "i, ii and iii",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Pan city development is related to provide smart solutions for",
+        "option1": "Existing infrastructure of city",
+        "option2": "New infrastructure of city",
+        "option3": "Outside of city",
+        "option4": "New city",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Bhendi Bazar Project in Mumbai is an example of",
+        "option1": "Retrofitting",
+        "option2": "Redevelopment",
+        "option3": "Greenfield development",
+        "option4": "Pan city development",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of following is features of a smart city?",
+        "option1": "Preserving and developing open spaces",
+        "option2": "Promoting Rapid Transit system",
+        "option3": "Providing Online services",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of following is not included in Smart City Mission?",
+        "option1": "Mumbai",
+        "option2": "Nashik",
+        "option3": "Kolhapur",
+        "option4": "Aurangabad",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In the round 2 of Smart City Mission which city tops the list?",
+        "option1": "Amritsar",
+        "option2": "Ujjain",
+        "option3": "Rourkela",
+        "option4": "Nagpur",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Consider the following statements\n1. A 'smart city' is an urban region that is highly advanced in terms of overall infrastructure, sustainable real estate, communications and market viability.\n2. It will provide real time information on parking, traffic congestion, public transport\n3. Smart cities will be energy efficient and will have low carbon foot print\nWhich of the above statements is/are correct?",
+        "option1": "1, 2",
+        "option2": "2, 3",
+        "option3": "1, 3",
+        "option4": "All",
+        "Answer": "option4",
+        "marks": 1
+    },
+
+
+
+    {
+    "question": "Motor control involves….",
+    "option1": "Starting the motor.",
+    "option2": "Stopping the motor.",
+    "option3": "Direction and speed controls of the motor.",
+    "option4": "All of the above.",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Identify the component/s of the motor-supply circuit.",
+    "option1": "Circuit-breaker.",
+    "option2": "Fuse.",
+    "option3": "Power Contacts.",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Fuse is used in the circuit to…",
+    "option1": "Protect the circuit components from short circuit faults",
+    "option2": "Limit the starting current.",
+    "option3": "Disconnect the circuit from supply mains in the event of any fault",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Overload relay protects the motor from…",
+    "option1": "Over-voltage condition",
+    "option2": "Over-current condition",
+    "option3": "Excessive speeding",
+    "option4": "Undesirable oscillations",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "NO contact means…",
+    "option1": "Number One contact",
+    "option2": "Neutral On contact",
+    "option3": "Normally On contact",
+    "option4": "Normally Open contact",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Red push-button is generally used to…",
+    "option1": "Start the motor",
+    "option2": "Accelerate the motor",
+    "option3": "Decelerate the motor",
+    "option4": "Stop the motor",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Green push-button is generally used to…",
+    "option1": "Start the motor",
+    "option2": "Accelerate the motor",
+    "option3": "Decelerate the motor",
+    "option4": "Stop the motor",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "IMCC requires…",
+    "option1": "Effective communication networks with high bandwidths",
+    "option2": "Extensive process data",
+    "option3": "Components for Proper diagnostic features",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "A relay is said to be intelligent if it has the feature/s of",
+    "option1": "Built-in network communication",
+    "option2": "Programming facility to set the protective parameters",
+    "option3": "Diagnostics",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "BMS Controller measures parameters.",
+    "option1": "Voltage",
+    "option2": "Current",
+    "option3": "Temperature",
+    "option4": "Voltage, Current and Temperature",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Permanent magnets are not present in motor.",
+    "option1": "AC Induction",
+    "option2": "BLDC",
+    "option3": "Both A and B",
+    "option4": "Brushed DC Motor",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "A fuel cell vehicle emits.",
+    "option1": "Water",
+    "option2": "Heat",
+    "option3": "Both A and B",
+    "option4": "Carbon",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Motor control involves….",
+    "option1": "Starting the motor.",
+    "option2": "Stopping the motor.",
+    "option3": "Direction and speed controls of the motor.",
+    "option4": "All of the above.",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Identify the component/s of the motor-supply circuit.",
+    "option1": "Circuit-breaker.",
+    "option2": "Fuse.",
+    "option3": "Power Contacts.",
+    "option4": "All of the above.",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Contactor is ….",
+    "option1": "Manually operated switch",
+    "option2": "Protection device",
+    "option3": "Electromagnetic coil",
+    "option4": "Electromagnetically operated circuit breaker",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "NC contact means…",
+    "option1": "Neutral Cut contact",
+    "option2": "Normally Cut contact",
+    "option3": "Normally Closed contact",
+    "option4": "No Closed contact",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Green push-button is generally used to…",
+    "option1": "Start the motor",
+    "option2": "Accelerate the motor",
+    "option3": "Decelerate the motor",
+    "option4": "Stop the motor",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Motor Control Centre (MCC) is….",
+    "option1": "Compact assembly",
+    "option2": "Modular assembly",
+    "option3": "Integration of motor control & distribution components",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "VFD stands for….",
+    "option1": "Very Fast Drive",
+    "option2": "Variable Fastest Drive",
+    "option3": "Variable Frequency Drive",
+    "option4": "Voltage Frequency Drive",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Motor rotation of three-phase induction motor can be reversed by",
+    "option1": "Interchanging R & Y phases",
+    "option2": "Interchanging Y & B phases",
+    "option3": "Interchanging B & R phases",
+    "option4": "Any one of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "PLC stands for…",
+    "option1": "Phase Load Centre",
+    "option2": "Programmable Logic Controller",
+    "option3": "Phase Locked Contactor",
+    "option4": "Programmable Load Contactor",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Overload relay protects the motor from",
+    "option1": "Over-voltage condition",
+    "option2": "Over-current condition",
+    "option3": "Excessive speeding",
+    "option4": "Undesirable oscillations",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "A combination starter is a single enclosure comprising…",
+    "option1": "Motor starter",
+    "option2": "Fuse",
+    "option3": "Circuit breaker or disconnecting switch",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Intelligent MCC is smart MCC because.",
+    "option1": "It has multiple feeders",
+    "option2": "It has a common power busbar",
+    "option3": "It has multiple combination starters",
+    "option4": "It has communication capable motor management device",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "IMCC requires…",
+    "option1": "Effective communication networks with high bandwidths",
+    "option2": "Extensive process data",
+    "option3": "Components for Proper diagnostic features",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "A relay is said to be intelligent if it has the feature/s of",
+    "option1": "Built-in network communication",
+    "option2": "Programming facility to set the protective parameters",
+    "option3": "Diagnostics",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Average billing rate consist of (2M)",
+    "option1": "Fixed and Energy charges",
+    "option2": "O & M charges",
+    "option3": "Labor charges",
+    "option4": "Transmission charges",
+    "Answer": "option1",
+    "marks": 2
+  },
+
+
+
+  {
+    "question": "In PPA the party which generates the electrical power is",
+    "option1": "Seller",
+    "option2": "Buyer",
+    "option3": "Operator",
+    "option4": "Organizer",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Duration of PPA is generally",
+    "option1": "Up to Six Months",
+    "option2": "One Year",
+    "option3": "1-2 Years",
+    "option4": "15-20 Years",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Cross-subsidies can be defined as",
+    "option1": "A mechanism of charging consumer at different tariffs.",
+    "option2": "A mechanism of identifying types of consumer.",
+    "option3": "A mechanism of penalizing consumer for electrical theft.",
+    "option4": "None.",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Flat-rate tariff, Volumetric tariff, multi-part tariffs are",
+    "option1": "Types of subsidies",
+    "option2": "Slabs of billing",
+    "option3": "Key factors for Tariff Design",
+    "option4": "Types of consumers",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Unit of the Average billing rate is",
+    "option1": "kWh",
+    "option2": "INR /kWh",
+    "option3": "kWh/INR",
+    "option4": "INR",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of following is not a function of ABT",
+    "option1": "Facilitating grid discipline;",
+    "option2": "Facilitating trading in capacity and energy; and",
+    "option3": "Facilitating merit order dispatch as and when made effective",
+    "option4": "Facilitating consumers to purchase energy",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Basic purpose of ToD tariff is to",
+    "option1": "Shift the load from off-peak to peak hours",
+    "option2": "Shift the load from peak to off-peak hours",
+    "option3": "Keep tariff rate different for day",
+    "option4": "Attract consumers to consume more energy",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Duration of PPA is generally",
+    "option1": "Up to Six Months",
+    "option2": "One Year",
+    "option3": "1-2 Years",
+    "option4": "15-20 Years",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Cross-subsidies can be defined as",
+    "option1": "A mechanism of charging consumer at different tariffs.",
+    "option2": "A mechanism of identifying types of consumer.",
+    "option3": "A mechanism of penalizing consumer for electrical theft.",
+    "option4": "A mechanism of charging consumer at different tariffs.",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Flat-rate tariff, Volumetric tariff, multi-part tariffs are",
+    "option1": "Types of subsidies",
+    "option2": "Slabs of billing",
+    "option3": "Key factors for Tariff Design",
+    "option4": "Types of consumers",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "FAC Charges is the amount",
+    "option1": "that utilities apply on bills based on kWh use of the consumer",
+    "option2": "that utilities apply on bills based on p.f. of the consumer.",
+    "option3": "that utilities apply on bills based on the MD of the consumer.",
+    "option4": "that utilities apply on bills based on varying price of fuel or Coal",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Electricity rates charged to the consumer as agreed in",
+    "option1": "PPA",
+    "option2": "MOU",
+    "option3": "National Power Policy",
+    "option4": "None of the above",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Aggregate Revenue Requirement (ARR) is prepared by",
+    "option1": "DISCOM",
+    "option2": "State Government",
+    "option3": "Central Government",
+    "option4": "Central Electricity Authority",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Availability Based Tariff (ABT) is introduced by",
+    "option1": "National Thermal Power Corporation",
+    "option2": "State Distribution Companies",
+    "option3": "Central Electricity Regulatory Commission (CERC)",
+    "option4": "Maharashtra Electricity Regulatory Commission (MERC)",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Time of Day (TOD) tariff give incentive to consumer during",
+    "option1": "Off-peak times",
+    "option2": "Peak times",
+    "option3": "Off-peak and peak times",
+    "option4": "Complete day time",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "kVAh based tariff is applicable to consumers",
+    "option1": "All consumers",
+    "option2": "Consumer having load below 20kW",
+    "option3": "Consumer having load above 20kW",
+    "option4": "It is not depends on consumer load",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which following parameter not used for determination of ARR",
+    "option1": "Interest on Loan",
+    "option2": "Depreciation",
+    "option3": "Income Tax",
+    "option4": "Profit",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Objective of Availability Based Tariff is",
+    "option1": "To maintain Grid frequency",
+    "option2": "Available energy as per consumer demand",
+    "option3": "Supply energy when it is available",
+    "option4": "Make Availability of energy at high cost",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which of following is not a function of ABT",
+    "option1": "Facilitating grid discipline;",
+    "option2": "Facilitating trading in capacity and energy; and",
+    "option3": "Facilitating merit order dispatch as and when made effective",
+    "option4": "Facilitating consumers to purchase energy",
+    "Answer": "option4",
+    "marks": 1
+  },
+
+]
+
+
+module.exports = { data: ETE};

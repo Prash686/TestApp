@@ -1,38 +1,195 @@
-<style>
-  .navbar-logo {
-    height: 50px;
-    width: auto;
-  }
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-  @media (max-width: 767px) { /* for mobile devices */
+  <style>
+    .navbar {
+      background-color: #3c2559;
+      padding: 0.75rem 1rem;
+      width: 100%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      margin-bottom: 0.5rem;
+    }
+
     .navbar-logo {
-      height: 30px;
+      height: 40px;
+      width: auto;
+      max-width: 100%;
     }
 
-    .navbar-brand{
-      font-size: 0.8rem;
+    .navbar-brand {
+      color: #f8f9fa;
+      font-weight: bold;
+      font-size: 1.75rem;
+      display: flex;
+      align-items: center;
+      transition: color 0.3s ease;
     }
-    
-    .mobile-profile a {
-      font-size: 0.8rem;
+
+    .navbar-brand:hover {
+      color: #e9ecef;
     }
-  }
 
-  .mobile-profile {
-    display: flex;
-    align-items: center;
-    color: white !important;
-    font-size: 0.9rem;
-    font-weight: 450;
-  }
+    .navbar-nav .nav-link {
+      color: #f8f9fa;
+      padding: 0.5rem 1.25rem;
+      margin: 0 0.5rem;
+      border-radius: 0.5rem;
+      transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+      display: flex;
+      align-items: center;
+      font-size: 1.125rem;
+    }
 
-  .dropdown-menu {
-    z-index: 9999;
-  }
-</style>
+    .nav-i {
+      margin-right: 0.5rem;
+    }
+
+    .navbar-nav .nav-link:hover {
+      background-color: #2b1a3e;
+      color: #e9ecef;
+      transform: scale(1.05);
+    }
+
+    .navbar-toggler-icon {
+      filter: invert(1);
+    }
+
+    .navbar-toggler {
+      border: none;
+    }
+
+    .mobile-profile {
+      display: flex;
+      align-items: center;
+      font-size: 0.9rem;
+      font-weight: 300;
+      color: white !important;
+    }
+
+     .mobile-profile {
+        display: flex;
+        align-items: center;
+        color: white !important;
+        font-size: 0.9rem;
+        font-weight: 300;
+      }
+
+    .dropdown-menu {
+      z-index: 9999;
+    }
+
+    @media (max-width: 767px) {
+      .navbar-logo {
+        height: 30px;
+      }
+      .navbar-nav {
+        text-align: center;
+        font-size: 0.8rem;
+      }
+
+      .navbar-brand {
+        font-size: 0.8rem !important;
+      }
+
+      .navbar-nav .nav-link {
+        margin: 0.25rem 0;
+      }
+
+      .mobile-profile {
+        font-size: 0.8rem !important; /* 0.8rem / 3 ≈ 0.267rem */
+      }
+      .mobile-profile a {
+        font-size: 0.8rem !important;
+      }
+      .mobile-profile .nav-link .nav-i {
+        margin-right: 0rem; /* smaller icon margin */
+        font-size: 0.8rem !important;
+      }
+      .dropdown-menu {
+        min-width: 14rem;
+        padding: 0.5rem 0;
+        font-size: 0.5rem !important;
+        font-weight: 300;
+        margin: 0;
+      }
+    }
+
+   
+    @media (max-width: 575px) {
+      .navbar-nav .nav-link {
+        padding: 0.5rem 0.75rem;
+        margin: 0.25rem 0;
+        font-size: 0.875rem;
+      }
+
+      .navbar-brand {
+        font-size: 1.25rem;
+      }
+
+      .navbar-toggler {
+        margin-left: auto;
+      }
+
+      .mobile-profile a {
+        font-size: 0.8rem;
+      }
+    }
+
+     @media (max-width: 360px) {
+      .navbar-logo {
+        height: 25px;
+      }
+
+      .navbar-brand {
+        font-size: 0.8rem !important;
+      }
+
+      .mobile-profile {
+        font-size: 0.7rem !important; /* 0.8rem / 3 ≈ 0.267rem */
+      }
+      .mobile-profile a {
+        font-size: 0.7rem !important;
+      }
+      .mobile-profile .nav-link .nav-i {
+        margin-right: 0; /* smaller icon margin */
+        font-size: 0.7rem !important;
+      }
+      .dropdown-menu {
+        min-width: 14rem;
+        padding: 0.5rem 0;
+        font-size: 0.5rem !important;
+        font-weight: 300;
+        margin: 0;
+      }
+    }
 
 
-<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
+    @media (min-width: 992px) {
+      .navbar-nav .nav-link {
+        font-size: 1.25rem;
+      }
+
+      .navbar-brand {
+        font-size: 2rem;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .navbar-nav .nav-link {
+        font-size: 1.375rem;
+      }
+
+      .navbar-brand {
+        font-size: 2.25rem;
+      }
+    }
+  </style>
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
   <div class="container-fluid d-flex align-items-center justify-content-between">
 
     <!-- Logo and brand -->
@@ -97,24 +254,27 @@
   </div>
 </nav>
 
-<script>
-  document.addEventListener('click', function(event) {
-    var navbarCollapse = document.getElementById('navbarNavAltMarkup');
-    var navbarToggler = document.querySelector('.navbar-toggler');
+  <!-- Bootstrap JS (Required for dropdown and navbar) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    if (!navbarCollapse || !navbarToggler) return;
+  <!-- Auto-collapse on outside click -->
+  <script>
+    document.addEventListener('click', function (event) {
+      var navbarCollapse = document.getElementById('navbarNavAltMarkup');
+      var navbarToggler = document.querySelector('.navbar-toggler');
 
-    var isNavbarOpen = navbarCollapse.classList.contains('show');
-    var isClickInsideNavbar = navbarCollapse.contains(event.target);
-    var isClickOnToggler = navbarToggler.contains(event.target);
+      if (!navbarCollapse || !navbarToggler) return;
 
-    if (isNavbarOpen && !isClickInsideNavbar && !isClickOnToggler) {
-      // Use Bootstrap Collapse API to hide the menu
-      var bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
-      if (!bsCollapse) {
-        bsCollapse = new bootstrap.Collapse(navbarCollapse);
+      var isNavbarOpen = navbarCollapse.classList.contains('show');
+      var isClickInsideNavbar = navbarCollapse.contains(event.target);
+      var isClickOnToggler = navbarToggler.contains(event.target);
+
+      if (isNavbarOpen && !isClickInsideNavbar && !isClickOnToggler) {
+        var bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+        if (!bsCollapse) {
+          bsCollapse = new bootstrap.Collapse(navbarCollapse);
+        }
+        bsCollapse.hide();
       }
-      bsCollapse.hide();
-    }
-  });
-</script>
+    });
+  </script>
