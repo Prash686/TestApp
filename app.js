@@ -380,7 +380,7 @@ app.get("/auth/logout", (req, res, next) => {
 });
 
 
-app.get("/practice/:id",  async (req, res) => {
+app.get("/practice/:id",  isLoggedIn, async (req, res) => {
     let { id } = req.params;
     const allquestions = await Questions.find({ subject: id });
     const subject = await subjects.findOne({ title: id });
@@ -688,6 +688,24 @@ app.get('/leaderBoard', async (req, res) => {
         console.error('Error fetching leaderboard users:', err);
         res.status(500).send('Internal server error');
     }
+});
+
+// Privacy Policy page
+app.get('/privacy', (req, res) => {
+    res.render('testapp/privacy', {
+        title: "Privacy Policy - MSBTE MCQ Practice",
+        description: "Read the privacy policy for MSBTE MCQ Practice website.",
+        keywords: "privacy policy, data protection, msbte"
+    });
+});
+
+// Terms of Service page
+app.get('/terms', (req, res) => {
+    res.render('testapp/terms', {
+        title: "Terms of Service - MSBTE MCQ Practice",
+        description: "Read the terms of service for MSBTE MCQ Practice website.",
+        keywords: "terms of service, terms, msbte"
+    });
 });
 
 // Catch-all route for undefined routes

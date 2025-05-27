@@ -48625,18 +48625,9 @@ const ETI = [
             "option4": "Link-layer",
             "Answer": "option2",
             "marks": 1
-        },
-                                
-                                
-                            
-                            
-                    
-                    
-                
-
-        
+        },       
     
-]
+];
 
 const ManagementUT = [
     {
@@ -64441,6 +64432,8 @@ const ETE = [
   },
 
 ]
+
+const ETIComputer = [];
 
 
 module.exports = { data: ETE};
