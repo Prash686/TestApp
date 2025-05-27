@@ -41,4 +41,3 @@ logs/*
 .env.test
 public/uploads/*
 public/assets/*
-.env

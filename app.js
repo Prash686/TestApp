@@ -7,6 +7,8 @@ const crypto = require('crypto');
 const nodemailer = require('nodemailer');
 const express = require("express");
 
+const simpleGit = require("simple-git");
+const { exec } = require("child_process");
 
 const app = express();
 
@@ -716,6 +718,28 @@ app.get('/terms', (req, res) => {
     });
 });
 
+app.get('/git/pull', async (req, res) => {
+    try {
+        const git = simpleGit();
+        await git.pull('origin', 'main');
+        console.log('Git pull successful');
+
+        exec('pm2 restart all', (err, stdout, stderr) => {
+            if (err) {
+                console.error('Error restarting server:', err);
+                return res.status(500).send('Git pulled but restart failed');
+            }
+            console.log('Server restarted successfully');
+            return res.send('Git pull and restart successful');
+        });
+
+    } catch (err) {
+        console.error('Git pull error:', err);
+        return res.status(500).send('Git pull failed');
+    }
+});
+
+
 // Catch-all route for undefined routes
 app.all('*', isLoggedIn, (req, res, next) => {
     next(new ExpressError('Page Not Found', 404));
@@ -727,6 +751,7 @@ app.use((err, req, res, next) => {
     let { statusCode = 500, message = "Something went wrong" } = err;
     res.status(statusCode).render("testapp/error.ejs", { message });
 });
+
 
 // Start the server
 app.listen(8080, () => {
