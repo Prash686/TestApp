@@ -30,6 +30,7 @@
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^8.0.0",
+    "pm2": "^6.0.6",
     "simple-git": "^3.27.0",
     "simplegit": "^1.0.2"
   }

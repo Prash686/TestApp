@@ -724,14 +724,10 @@ app.get('/git/pull', async (req, res) => {
         await git.pull('origin', 'main');
         console.log('Git pull successful');
 
-        exec('pm2 restart all', (err, stdout, stderr) => {
-            if (err) {
-                console.error('Error restarting server:', err);
-                return res.status(500).send('Git pulled but restart failed');
-            }
-            console.log('Server restarted successfully');
-            return res.send('Git pull and restart successful');
-        });
+
+          res.send('Restarting...');
+          console.log('Initiated Docker Restart ✨');
+          process.exit(0); // Container stops
 
     } catch (err) {
         console.error('Git pull error:', err);
