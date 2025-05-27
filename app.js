@@ -9,6 +9,14 @@ const express = require("express");
 
 
 const app = express();
+
+// Middleware to redirect HTTP to HTTPS
+app.use((req, res, next) => {
+    if (req.headers['x-forwarded-proto'] && req.headers['x-forwarded-proto'] !== 'https') {
+        return res.redirect(301, 'https://' + req.headers.host + req.url);
+    }
+    next();
+});
 const Questions = require("./models/question.js");
 const subjects = require("./models/subjects.js");
 const courses = require("./models/course.js");

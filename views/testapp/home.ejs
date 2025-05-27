@@ -12,13 +12,49 @@
     position: relative;
     overflow: hidden;
   }
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+  }
+  .hero .container {
+    position: relative;
+    z-index: 1;
+  }
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    transition: opacity 0.5s ease;
+  }
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    transition: opacity 0.5s ease;
+  }
+  .hero a.btn {
+    background-color: #3c2559; /* Updated color */
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .hero a.btn:hover {
+    background-color: #2b1a3e; /* Darker shade */
+    transform: scale(1.05);
+  }
   .notification {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
   }
-
   .direct {
     margin-right: 10px;
   }
@@ -32,8 +68,13 @@
   <%- include("../includes/exclusive.ejs") %>
 </div>
   <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="container">
+  <section id="home" class="hero" style="position: relative; overflow: hidden;">
+    <picture>
+      <source srcset="/images/hero.webp" type="image/webp">
+      <source srcset="/images/hero.jpg" type="image/jpeg">
+      <img src="/images/hero.jpg" alt="Hero Image" style="width: 100%; height: auto; position: absolute; top: 0; left: 0; z-index: -1; object-fit: cover; height: 100%; width: 100%;">
+    </picture>
+    <div class="container" style="position: relative; z-index: 1;">
       <h1>Welcome to msbtemcq</h1>
       <p>Test your knowledge and improve your skills with our interactive Tests.</p>
       <a href="/TestApp/practice" class="btn btn-primary btn-lg direct">Start Practice</a>
@@ -95,7 +136,7 @@
       <% if (allSubjects && allSubjects.length > 0) { %>
         <% allSubjects.forEach(subject => { %>
           <div class="card" onclick="window.location.href='/subjects/<%= subject.title %>'">
-            <img src="<%= subject.image || '/images/msbte.jpeg' %>" alt="Subject Image" class="subject-image">
+            <img src="<%= subject.image || '/images/msbte.jpeg' %>" alt="Subject Image" class="subject-image" loading="lazy" width="300" height="200">
             <h3><%= subject.title %></h3>
           </div>
         <% }) %>
