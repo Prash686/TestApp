@@ -47519,7 +47519,7 @@ const MUT = [
 
 ]
 
-const ETI = [
+const ETI1 = [
     {
         "question": "What is Artificial intelligence?",
         "option1": "Putting your intelligence into Computer",
@@ -64433,7 +64433,7961 @@ const ETE = [
 
 ]
 
-const ETIComputer = [];
+const ETIComputer = [
+    {
+        "question": "Identify system shown in given figure?",
+        "option1": "Centralized System",
+        "option2": "Decentralized System",
+        "option3": "Decentralized and peer to peer system",
+        "option4": "None of these",
+        "Answer": "option3",
+        "marks": 1
+  },
+  {
+    "question": "___________________________ can be useful for data of a periodic nature, such that data values at one end of the scale can be logically joined to data values at the other end.",
+    "option1": "Cartesian coordinates",
+    "option2": "Polar coordinates",
+    "option3": "Non-linear axes",
+    "option4": "Linear scale",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which type of AI is commonly used for speech recognition and image recognition?",
+    "option1": "Narrow AI",
+    "option2": "General AI",
+    "option3": "Super AI",
+    "option4": "Strong AI",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The X dimension of AI philosophy is ________________.",
+    "option1": "Reasoning",
+    "option2": "Cognition",
+    "option3": "Interface",
+    "option4": "Knowledge",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following statements describes a discrete variable?",
+    "option1": "It can take on any value within a range of values",
+    "option2": "It can only take on whole number values",
+    "option3": "It is continuous and can take on any value",
+    "option4": "It is a categorical variable that represents groups or categories",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "____________is a subfield of machine learning.",
+    "option1": "Deep Learning",
+    "option2": "Artificial Intelligence",
+    "option3": "Shallow Learning",
+    "option4": "Artifical Neural Network",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "_______________________ makes sense of unlabeled data without having any predefined dataset for its training.",
+    "option1": "Supervised Learning",
+    "option2": "Unsupervised Learning",
+    "option3": "Reinforcement learning",
+    "option4": "Semi-Supervised Learning",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Quantitative data deals with _________________ .",
+    "option1": "Numbers",
+    "option2": "Characteristics",
+    "option3": "Images",
+    "option4": "Sketches",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "802.3 is the standard for 10BASE5 Ethernet that uses _______________ as a shared medium.",
+    "option1": "Twisted pair cable",
+    "option2": "Coaxial cable",
+    "option3": "Fiber optic cable",
+    "option4": "Copper wire",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "___________________ is one of the best examples of Limited Memory systems.",
+    "option1": "Self-driving car",
+    "option2": "IBM's Deep Blue system",
+    "option3": "Google's AlphaGo",
+    "option4": "Apple Siri",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "________________standards form the basis of specifications for high level communication protocols such as ZigBee.",
+    "option1": "802.3",
+    "option2": "802.11",
+    "option3": "802.16",
+    "option4": "802.15.4",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The core components and constituents of AI are derived from the concept of __________________.",
+    "option1": "Logic",
+    "option2": "Cognition",
+    "option3": "Computation",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "_____________ is a rule of thumb, strategy, trick, simplification, or any other kind of device which drastically limits search for solutions in large problem spaces.",
+    "option1": "Heuristic",
+    "option2": "Critical",
+    "option3": "Value based",
+    "option4": "Analytical",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "-------------------- is a polar coordinate system?",
+    "option1": "A system for measuring temperature",
+    "option2": "A system to specify positions via an angle and a radial distance from the origin",
+    "option3": "A system for measuring weight",
+    "option4": "A system for measuring time",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Wi Max, Wi-Fi, LTE Technology is used in ___mobile network.",
+    "option1": "2G",
+    "option2": "3G",
+    "option3": "4G",
+    "option4": "5G",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "__________________ is an actuator that creates motion in a straight line.",
+    "option1": "Relay",
+    "option2": "Solenoid",
+    "option3": "Linear Actuator",
+    "option4": "DC Motor",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "To prevent attachment-overload attacks what should be done?",
+    "option1": "Limit the size of operating system files",
+    "option2": "Limit the size of either e-mails or e-mail attachments.",
+    "option3": "Limit the number of users in the network",
+    "option4": "Limit the number of emails.",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "IEEE 802.11 is a collection of ___________________ communication standards.",
+    "option1": "Wireless local area network",
+    "option2": "Mobile",
+    "option3": "Ethernet",
+    "option4": "Wireless broadband",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "___________________ is performed with the target’s permission in a professional setting.",
+    "option1": "Ethical hacking",
+    "option2": "Social engineering",
+    "option3": "System Engineering",
+    "option4": "Software Testing",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "___________________ uses 128-bit address scheme that allows total of 2^128 or 3.4 x 10^38 addresses.",
+    "option1": "IPv4",
+    "option2": "IPv6",
+    "option3": "6LOWPAN",
+    "option4": "None of these",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following industries can benefit from NGN applications?",
+    "option1": "Transportation",
+    "option2": "Agriculture",
+    "option3": "Manufacturing",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The actuators used as an electromagnet is -----------------------",
+    "option1": "Solenoid",
+    "option2": "Relay",
+    "option3": "DC Motors",
+    "option4": "Stepper Motor",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "____________________ algorithms are inspired by the structure and function of the brain called artificial neural networks.",
+    "option1": "Machine Learning",
+    "option2": "Artificial Intelligence",
+    "option3": "Shallow Learning",
+    "option4": "Deep Learning",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "In telecommunication networks, NGN stands for __________________________.",
+    "option1": "Next Generation Network",
+    "option2": "Network Growth Nucleus",
+    "option3": "Network Generation Nexus",
+    "option4": "New Global Network",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Layers of NGN are ______________________________.",
+    "option1": "Access, Transport, Control, Service Layer",
+    "option2": "Physical, Data Link, Network, Session Layer",
+    "option3": "Application, Session, Transport, Network",
+    "option4": "Network, Application Layer",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The digital evidence are used to establish a credible link between____________",
+    "option1": "Attacker and Information",
+    "option2": "Victim and the crime scene",
+    "option3": "Attacker, victim and the crime scene",
+    "option4": "Attacker and the crime scene",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is the primary function of a Label Switch Router?",
+    "option1": "To forward packets based on their IP addresses",
+    "option2": "To forward packets based on their labels",
+    "option3": "To perform security functions on network traffic",
+    "option4": "To provide Quality of Service (QoS) for network traffic",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is an example of a 5G application for the agriculture industry?",
+    "option1": "Virtual reality gaming",
+    "option2": "Online shopping",
+    "option3": "Remote monitoring of crops and livestock",
+    "option4": "Social media",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "_____________________is a branch of science that deals with programming the systems in such a way that they automatically learn and improve with experience.",
+    "option1": "Machine Learning",
+    "option2": "Deep learning",
+    "option3": "Neural Network",
+    "option4": "IoT",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In Digital Forensic, Planning, Transport of Evidence and Presentation of hypothesis are phases of ____model.?",
+    "option1": "ADFM",
+    "option2": "EMCI",
+    "option3": "IDIP",
+    "option4": "None of these",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In 2008_______developed system which contains secure history of data exchange.",
+    "option1": "Merkle",
+    "option2": "Binary",
+    "option3": "Satoshi Nakamoto",
+    "option4": "All of above",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "In ADFM,Which phase is used to provide summary and explanation of conclusion?",
+    "option1": "Approach Strategy",
+    "option2": "Presentation",
+    "option3": "Preservation",
+    "option4": "Analysis",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "GDPR is a legal standard that protects the data of ____________________",
+    "option1": "European Union citizens",
+    "option2": "Asian citizen",
+    "option3": "American Citizens",
+    "option4": "African citizens",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What test did ELIZA successfully pass?",
+    "option1": "Medical Diagnosis Test",
+    "option2": "Customer Service Test",
+    "option3": "Turing Test",
+    "option4": "Financial Advisor Test",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which layer is called as logical layer of Blockchain architecture?",
+    "option1": "Consensus Layer",
+    "option2": "Semantic Layer",
+    "option3": "Data Link layer",
+    "option4": "Application Layer",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Ethical norms for investigator is ----------------------------",
+    "option1": "Should avoid harm to others",
+    "option2": "Should be honest and trustworthy",
+    "option3": "should contribute to the society",
+    "option4": "All of above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Classify the following attack in the suitable category : John floods a network with too many requests and creates a denial of service(DoS) for legitimate requests.",
+    "option1": "Operating system attack",
+    "option2": "Network infrastructure attack",
+    "option3": "Non-technical attack",
+    "option4": "Application attack",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "-------------------is Unethical norms for Digital Forensic Investigation ?",
+    "option1": "Display bias or prejudice in findings or observation",
+    "option2": "Honor confidentiality",
+    "option3": "Respect privacy of others",
+    "option4": "Being honest and trustworthy",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Number of layers in NGN architecture is _______.",
+    "option1": "7",
+    "option2": "6",
+    "option3": "5",
+    "option4": "4",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What do the Cyberterrorists do?",
+    "option1": "They are skilled criminal experts who write some of the hacking tools, including the scripts and other programs that the script kiddies and security professionals use.",
+    "option2": "They are highly technical and publicly known security experts who not only monitor and track computer, network, and application vulnerabilities but also write the tools and other code to exploit them.",
+    "option3": "attack corporate or government computers and public utility infrastructures, such as power grids and air-traffic control towers.",
+    "option4": "They are computer novices who take advantage of the exploit tools, vulnerability scanners, and documentation available free on the Internet but who don’t have any real knowledge of what’s really",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which one of the following is not commonly used aesthetics in data visualization?",
+    "option1": "Image",
+    "option2": "Color",
+    "option3": "Position",
+    "option4": "Shape",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "__________ indicates collection, sequence of control, transfer and analysis. It also documents each person who handled the evidence, the date/time it was collected or transferred and the purpose for the transfer.",
+    "option1": "Best Evidence",
+    "option2": "Locard's exchange principle",
+    "option3": "Chain of Custody",
+    "option4": "None of these",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "How many layers are there in Blockchain architecture?",
+    "option1": "3",
+    "option2": "4",
+    "option3": "5",
+    "option4": "7",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following statement is true about Blockchain?",
+    "option1": "Blockchain is peer to peer system with no third parties in between.",
+    "option2": "Blockchain is shared, decentralized and open ledger of transactions.",
+    "option3": "Blockchain technology was designed to enable true decentralization.",
+    "option4": "All of these",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "When the hacker corrupts data within the heap, and that code change forces your system to overwrite important data, it is called as ------------------",
+    "option1": "scan based buffer overflow",
+    "option2": "sweep based buffer overflow",
+    "option3": "heap based buffer overflow",
+    "option4": "stack based buffer overflow",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Exploiting weaknesses in network transport mechanisms, such as TCP/IP is an example of _________________",
+    "option1": "Operating system attack",
+    "option2": "Network infrastructure attacks",
+    "option3": "Non technical attack",
+    "option4": "Application attack",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Application of connection attack is done by --------------",
+    "option1": "crashing e-mail service or bring it to a crawl by filling the incoming Internet connection with junk.",
+    "option2": "creating an attachment-overloading attack by sending hundreds or thousands of e-mails with very large attachments.",
+    "option3": "multiple large messages are sent by hacker that can quickly fill the total storage capacity of an e-mail server.",
+    "option4": "a hacker sending a huge amount of e-mails simultaneously to addresses on the network.",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Respecting privacy is a --------------------",
+    "option1": "data hiding principle",
+    "option2": "security assessment principle",
+    "option3": "testing process principle",
+    "option4": "network security principle",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In ethical hacking Reading online help files for the given tool. Study the user’s manual guide for given commercial tool",
+    "option1": "Executing the plan",
+    "option2": "Formulating the plan",
+    "option3": "Evaluating results",
+    "option4": "using the Selected tool",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The function of Google dork intitle operator is --------------------------",
+    "option1": "To allows a hacker to develop the pages with specific text in their HTML title.",
+    "option2": "To allows a hacker to delete for pages with specific text in their HTML title.",
+    "option3": "To allows a hacker to search for pages with specific text in their HTML title.",
+    "option4": "To allows a hacker to change for pages with specific text in their HTML title.",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Built in authentication system of a College exam portal is broken down and passwords are cracked to gain access - this attack comes under _________________________",
+    "option1": "Operating system attack",
+    "option2": "Network infrastructure attack",
+    "option3": "nontechnical attack",
+    "option4": "application attack",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "______ is the art of exploiting the human elements to gain access to unauthorised resources",
+    "option1": "Social Engineering",
+    "option2": "IT Engineering",
+    "option3": "Software testing",
+    "option4": "Ethical Hacking",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Global information assurance certification (GIAC), Certified Information Systems Security Professional (CISSP) are examples of -------------",
+    "option1": "System testing certification",
+    "option2": "Network testing Certification",
+    "option3": "Datawarehousing testing certification",
+    "option4": "Securtiy testing certification",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The EMCI follows ………… model ?",
+    "option1": "Waterfall",
+    "option2": "Incremental",
+    "option3": "V-model",
+    "option4": "Data Flow",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "____________ meaning a rogue employee, contractor, intern, or other user who abuses his or her trusted privileges.",
+    "option1": "A malicious user",
+    "option2": "A tester",
+    "option3": "A Design engineer",
+    "option4": "An interpreter",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is traffic analysis or social network analysis?",
+    "option1": "Crashing servers and Transmitting malware",
+    "option2": "Gathering messaging-trend information via log files or a network analyzer that can tip off the attacker about conversations between people and organizations",
+    "option3": "Capturing information while it travels across the network and Perusing e-mails stored on servers and workstations",
+    "option4": "Gathering internal network configuration information, such as host-names and IP addresses",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In digital Forensics, while doing Investigation, the investigator should follow ?",
+    "option1": "Honesty towards the Investigation",
+    "option2": "Carefully Handling the digital evidences",
+    "option3": "Compliance with the law and professional Norms",
+    "option4": "All of above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "_________ system does not have a centralized control and every node has equal authority.",
+    "option1": "Centralized",
+    "option2": "Decentralized",
+    "option3": "Client server",
+    "option4": "Star Network",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "An email bomb is also known as a ---------------------",
+    "option1": "lattar bomb",
+    "option2": "later bomb",
+    "option3": "latter bomb",
+    "option4": "letter bomb",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "E-mail bombs attack is ---------------------------------",
+    "option1": "creating an attachment-overload attack by sending hundreds or thousands of e-mails with very large attachments to one or more recipients on your network.",
+    "option2": "creating denial of service (DoS) conditions against your e-mail software and even your network and Internet connection by taking up a large amount of bandwidth and, sometimes, requiring large amounts of storage space.",
+    "option3": "when attacker can crash your e-mail service or bring it to a crawl by filling the incoming Internet connection with junk.",
+    "option4": "denies large attachments from being written to disk.",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Vulnerability scanning in ethical hacking finds -------------------",
+    "option1": "Strengths",
+    "option2": "Weaknesses",
+    "option3": "Opportunities",
+    "option4": "Threats",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "An attacker can create an ___________________ by sending hundreds or thousands of e-mails with very large attachments to one or more recipients on your network.",
+    "option1": "attachment-overload attack",
+    "option2": "email",
+    "option3": "spreadsheet",
+    "option4": "document",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In Blockchain,----------------------------- layer is used in the peer-to-peer communications between the nodes that allow them to discover each other.",
+    "option1": "Application Layer",
+    "option2": "Propogation Layer",
+    "option3": "Consensus Layer",
+    "option4": "Execution Layer",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which Technology can help contract management and audit the origin of a product?",
+    "option1": "Centralized Technology",
+    "option2": "Blockchain Technology",
+    "option3": "Exchange",
+    "option4": "Product to Product",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Why it is important to maintain the Chain of Custody?",
+    "option1": "To preserve the integrity of the evidence",
+    "option2": "To prevent it from contamination",
+    "option3": "To maintain the state of evidence",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Identify Forensic Model in given fig?",
+    "option1": "IDIP",
+    "option2": "EMCI",
+    "option3": "Waterfall",
+    "option4": "ADFM",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Using ______________ on web-based e-mail forms can help minimize the impact of automated attacks and lessen your chances of e-mail flooding and denial of service",
+    "option1": "CAPTCHA",
+    "option2": "Password",
+    "option3": "MESSAGE",
+    "option4": "OTP",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which layer of blockchain assures that all the nodes must get approve on a common state of the shared ledger and also deals with safety and security of the blockchain?",
+    "option1": "Application Layer",
+    "option2": "Semantic Layer",
+    "option3": "Consensus Layer",
+    "option4": "Propagation Layer",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Dried blood, fingerprint, DNA samples are examples of ___?",
+    "option1": "Documented Evidence",
+    "option2": "Substantial Evidence",
+    "option3": "Testimonial Evidence",
+    "option4": "Explainable Evidence",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Bitcoin and Ethereum are examples of _____?",
+    "option1": "Currency",
+    "option2": "Cryptocurrency",
+    "option3": "Cryptography",
+    "option4": "Algorithm",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Categorize the following attack: Entire databases being corrupted or deleted when insecure Windows-based systems are attacked causing serious problems to a tremendous number of computers around the world.",
+    "option1": "Network infrastructure attack",
+    "option2": "Technical attack",
+    "option3": "Operating system attack",
+    "option4": "Application attack",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is function of SMTP Relay?",
+    "option1": "SMTP relay lets users send e-mails through internal servers.",
+    "option2": "SMTP relay lets users send e-mails through external servers.",
+    "option3": "SMTP relay lets people send emails in normal fashion.",
+    "option4": "SMTP relay lets users change the authorities in the networking.",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "What do you understand by Stack based buffer overflow attack?",
+    "option1": "Hacker corrupts data within the heap, and that code change forces your system to overwrite important data.",
+    "option2": "Attacker corrupts the data of program, and that transmission is stored somewhere.",
+    "option3": "Attacker sends data to a program, and that transmission is stored in a too-small stack buffer.",
+    "option4": "Attacker requests for the data, and that transmits that data back to sender.",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Buffer overflow attacks are _____________________",
+    "option1": "often how the hacker can get in to modify system files, read database files, and more.",
+    "option2": "often how the hacker can get in to modify network files and crack password.",
+    "option3": "often how the hacker can get in to modify the IP address",
+    "option4": "often how the hacker can get in to network to disable the functionalities.",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Transmitting malware, Crashing servers, Obtaining remote control of workstations, Capturing and modifying confidential information as it travels across the network can be understood as --------------------",
+    "option1": "hacker attacks against messaging systems",
+    "option2": "hacker attacks against email systems",
+    "option3": "hacker attacks against operating systems",
+    "option4": "hacker attacks against network systems",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Perusing e-mails in e-mail databases on servers and workstations can be understood as --------------",
+    "option1": "hacker attacks against network systems",
+    "option2": "hacker attacks against messaging systems",
+    "option3": "hacker attacks against email systems",
+    "option4": "hacker attacks against operating systems",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "To catch a thief, think like a thief. That’s the basis for _______________",
+    "option1": "Security testing",
+    "option2": "ethical hacking",
+    "option3": "configuration testing",
+    "option4": "performance testing",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "____________ is a form of Internet abuse which is perpetrated through the sending of massive volumes of email to a specific email address with the goal of overflowing the mailbox and overwhelming the mail server hosting the address, making it into some form of denial of service attack.",
+    "option1": "Google dorking",
+    "option2": "Port sweeping",
+    "option3": "An email bomb",
+    "option4": "MAC address spoofing",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "--------------------- is a common, unchallengeable, digital ledger that allows the process of recording transactions and tracking assets in a business network.",
+    "option1": "Blockchain",
+    "option2": "Cryptography",
+    "option3": "Client Server Network",
+    "option4": "Centralized system",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "A buffer overflow attack can be -------------------------------",
+    "option1": "Stack-based or buffer-based",
+    "option2": "Stack based or RAM based",
+    "option3": "Heap-based or buffer based",
+    "option4": "Stack-based or Heap-based",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Use new operating systems, Watch the language, Lean on developers, Apply your patches are performed as countermeasures for ------------------------",
+    "option1": "Operating system attack",
+    "option2": "Network infrastructure attack",
+    "option3": "Application attack",
+    "option4": "Technical attack",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In ADFM model, The preparation of tools, techniques, search warrants are functions of which phase?",
+    "option1": "Collection",
+    "option2": "Preservation",
+    "option3": "Examination",
+    "option4": "Preparation",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Windows attack leads to ----------------------",
+    "option1": "Transmitting malware, Crashing servers, Obtaining remote control of workstations, Capturing and modifying confidential information as it travels across the network",
+    "option2": "Secured networks-secured passwords-obtaining more patches for OS -No DoS attacks",
+    "option3": "No Transmitting malware, No Crashing servers, Not Obtaining remote control of workstations, Non Capturing and non-modifying confidential information as it travels across the network",
+    "option4": "Leakage of confidential information, including files being copied and credit card numbers being stolen, Passwords being cracked and used to carry out other attacks, Systems taken completely offline by DoS attacks",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following are sources of digital evidences?",
+    "option1": "Internet based files",
+    "option2": "Stand-alone computers or devices",
+    "option3": "Mobile devices",
+    "option4": "All of the above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Sequential steps hackers use are: __, ___, __, __ A) Maintaining Access, B) Reconnaissance ,C) Scanning ,D) Gaining Access ",
+    "option1": "B, C, D, A ",
+    "option2": "B, A, C, D ",
+    "option3": " A, B, C, D",
+    "option4": "D, C, B, A ",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "___________________ wireless technology is used to deliver higher multi-Gbps peak data speeds.",
+    "option1": "2G",
+    "option2": "3G",
+    "option3": "4G",
+    "option4": "5G",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Ethical hacking will allow to____ all the massive security breaches.",
+    "option1": "Remove.",
+    "option2": "Measure.",
+    "option3": "Reject.",
+    "option4": "Update",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "_____ system has a centralized control with all administrative rights.",
+    "option1": "Blockchain",
+    "option2": "Cryptography",
+    "option3": "Decentralized",
+    "option4": "Centralized",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Log scales are linear in ______________________.",
+    "option1": "Addition",
+    "option2": "Subtraction",
+    "option3": "Multiplication",
+    "option4": "Division",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "In ----------------- layer in Blockchain, the node gets Synchronized with another node in network and when a transaction is done, then node gets broadcasted to all other nodes in the network.",
+    "option1": "Execution Layer",
+    "option2": "Application Layer",
+    "option3": "Semanitic Layer",
+    "option4": "Propogation Layer",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "In Blockchain, when a transaction is recorded, it cannot be modified. This feature is called as______?",
+    "option1": "Immutability",
+    "option2": "Cryptocurrency",
+    "option3": "VPN",
+    "option4": "Bitcoin",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Attachment overloading attack, connection attack, autoresponder attack are understood as _____________?",
+    "option1": "email bomb attack",
+    "option2": "Heap based buffer overflow attack",
+    "option3": "stack based buffer overflow attack",
+    "option4": "message system attack",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "ADFM stands for ___?",
+    "option1": "Analog Digital Forensic Model",
+    "option2": "Abstract Digital Forensic Model",
+    "option3": "Abstract Descrete Forensic Model",
+    "option4": "Analog Descrete Forensic Model",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In IDIP Model, Which phase is used to put the pieces of digital puzzle together and develop investigative hypotheses?",
+    "option1": "Review phase",
+    "option2": "Presentation phase",
+    "option3": "Reconstruction phase",
+    "option4": "Notification phase",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is/are the procedural steps to establish chain of Custody?",
+    "option1": "Work with original evidence",
+    "option2": "Perform a hash test analysis",
+    "option3": "Alter the state of evidence",
+    "option4": "Declare the confidential matters",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "What is Bandwidth blocking?",
+    "option1": "Multiple large messages can quickly fill the total storage capacity of an e-mail server.",
+    "option2": "An attacker can crash e-mail service or bring it to a crawl by filling the incoming Internet connection with junk.",
+    "option3": "An attack using a flood of e-mails is often carried out in spam attacks and other denial of service attempts.",
+    "option4": "An attacker blocks the internet services on the PC and in the network.",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The general ethical norms for Investigator is ----------------------",
+    "option1": "to discriminate",
+    "option2": "to work on original media",
+    "option3": "to honor property rights , copyrights and patents",
+    "option4": "to display bias or prejudice in findings or observation",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "In the case study of Illegal money transfer where the accused transferred huge amount of money from different accounts to fake accounts using cyber cafe, which digital evidences can be found out by Investigators?",
+    "option1": "System server logs",
+    "option2": "IP addresses of machines in cyber cafe",
+    "option3": "E-mail IDs of accused",
+    "option4": "All of above",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which phase of IDIP model includes Detection & Notification Phase?",
+    "option1": "Deployment Phase",
+    "option2": "Physical Crime Investigation",
+    "option3": "Readiness",
+    "option4": "Review phase",
+    "Answer": "option1",
+    "marks": 1
+  },
+];
+
+const ETEElectronics =[
+    {
+    "question": "Main processor chip in computers is",
+    "option1": "ASIC",
+    "option2": "ASSP",
+    "option3": "CPU",
+    "option4": "CPLD",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "ARM stands for _____________",
+    "option1": "Advanced Rate Machines",
+    "option2": "Advanced RISC Machines",
+    "option3": "Artificial Running Machines",
+    "option4": "Aviary Running Machines",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The CISC stands for ___________.",
+    "option1": "Computer Instruction Set Compliment",
+    "option2": "Complete Instruction Set Compliment",
+    "option3": "Computer Indexed Set Components",
+    "option4": "Complex Instruction set computer",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The GPIO stand for__________________.",
+    "option1": "General Purpose Inner Outer Propeller",
+    "option2": "General Purpose Input Output Pins",
+    "option3": "General Purpose Interested Old People",
+    "option4": "General Purpose Input Output Processor",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The IDE stand for________________.",
+    "option1": "In Deep Environment",
+    "option2": "Integrated Development Environment",
+    "option3": "Internal Deep Escape",
+    "option4": "IDE",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "A program written with the IDE for Arduino is called _______.",
+    "option1": "IDE source",
+    "option2": "Sketch",
+    "option3": "Cryptography",
+    "option4": "Source code",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Arduino IDE consists of 2 functions. What are they?",
+    "option1": "Build() and loop()",
+    "option2": "Setup() and build()",
+    "option3": "Setup() and loop()",
+    "option4": "Loop() and build and setup()",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "ALU of ARM7 TDMI is_____bit.",
+    "option1": "8",
+    "option2": "32",
+    "option3": "64",
+    "option4": "10",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "How many digital pins are there on the UNO board?",
+    "option1": "14",
+    "option2": "12",
+    "option3": "16",
+    "option4": "20",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Most of processors designed by ARM are",
+    "option1": "16 bit",
+    "option2": "32 bit",
+    "option3": "64 bit",
+    "option4": "8 bit",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The function of link register in ARM7TDMI is__________",
+    "option1": "To store return address whenever subroutine is called",
+    "option2": "To store address of I/O device",
+    "option3": "Multiplex the address and data lines",
+    "option4": "Perform addition",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The function of register r15 in ARM7TDMI is as",
+    "option1": "Program Counter",
+    "option2": "CPSR",
+    "option3": "SPSR",
+    "option4": "ALU",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In the ARM Nomenclature ARMxTDMI, D and M stand for",
+    "option1": "Debug and Fast Multiplier units are present",
+    "option2": "Division and Multiplier units are present",
+    "option3": "Debugger and Multiplier units are not present",
+    "option4": "Division and Multiplier units are not present",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The computer architecture aimed at reducing the time of execution of instructions is ________",
+    "option1": "CISC",
+    "option2": "RISC",
+    "option3": "ISA",
+    "option4": "ANNA",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In CISC processor the nature of instruction size is",
+    "option1": "Fixed",
+    "option2": "Variable",
+    "option3": "Both A and B",
+    "option4": "None of the above",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "If the three stages of execution in pipelining are overlapped, how would be the speed of execution?",
+    "option1": "Higher",
+    "option2": "Moderate",
+    "option3": "Lower",
+    "option4": "Unpredictable",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In RISC Processors configuration status of control unit is_______",
+    "option1": "Hardwired",
+    "option2": "Micro programmed",
+    "option3": "Both A and B",
+    "option4": "None of the above",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "A function is a series of programming statements that can be called by name. Which command is called once when the program starts:",
+    "option1": "loop()",
+    "option2": "setup()",
+    "option3": "(output)",
+    "option4": "(input)",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In ATmega328p 'p' refers to?",
+    "option1": "Production",
+    "option2": "Pico-Power",
+    "option3": "Peripheral",
+    "option4": "Programmable on chip",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The throughput of a super scalar processor is _______",
+    "option1": "less than 1",
+    "option2": "1",
+    "option3": "More than 1",
+    "option4": "Not Known",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Each stage in pipelining should be completed within ____ cycle.",
+    "option1": "1",
+    "option2": "2",
+    "option3": "3",
+    "option4": "4",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The main importance of ARM micro-processors is providing operation with ______",
+    "option1": "Low cost and low power consumption",
+    "option2": "Higher degree of multi-tasking",
+    "option3": "Lower error or glitches",
+    "option4": "Efficient memory management",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In ARM processor when Interrupt occurs ARM processor goes into following mode",
+    "option1": "FIQ mode",
+    "option2": "Abort mode",
+    "option3": "Supervisor mode",
+    "option4": "Undefined mode",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The function of Barrel shifter is",
+    "option1": "Shift Operation in same instruction cycle",
+    "option2": "Shift operation in 2 instruction cycle",
+    "option3": "Shift operation in 4 instruction cycle",
+    "option4": "None of the above",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Evaluate the following statements  I. R13 is traditionally used as the stack pointer and stores the head of the stack in the current processor mode  II. R14 is the link register where the core puts the return address on executing a subroutine  III. R15 is the program counter and contains the address of the next instruction to be fetched",
+    "option1": "All the options are true",
+    "option2": "I and II are true",
+    "option3": "II and III are true",
+    "option4": "I and III are true",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "When the processor is executing simple data processing instructions, the pipeline enables one instruction to be completed every clock cycle, this is also called as _____",
+    "option1": "Throughput",
+    "option2": "Latency",
+    "option3": "Execution",
+    "option4": "None of the above",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "It starts with a /* and continues until a */ what does this do?",
+    "option1": "Loads a sketch",
+    "option2": "Makes comments",
+    "option3": "Compiles quicker",
+    "option4": "Makes stars appear",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The function used to execute one or many statements, multiple time_______",
+    "option1": "setup()",
+    "option2": "loop()",
+    "option3": "(input)",
+    "option4": "(output)",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Default boot loader for the Arduino UNO is_______",
+    "option1": "Optibootloader",
+    "option2": "AIR-boot",
+    "option3": "Bare box",
+    "option4": "GAG",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Select proper microcontroller used in Arduino UNO.",
+    "option1": "ATmega328p",
+    "option2": "ATmega2560",
+    "option3": "ATmega32114",
+    "option4": "AT91SAM3x8E",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Pipelining and _______ architecture improve the performance of the processor.",
+    "option1": "Pipelining, super-scalar",
+    "option2": "cost, size",
+    "option3": "memory, size",
+    "option4": "Peripherals, operating voltage",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Increasing the clock speed _______ the power consumption.",
+    "option1": "Decreases",
+    "option2": "Increases",
+    "option3": "Not known",
+    "option4": "Contract",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In battery operated device _______ is important processor selection criteria.",
+    "option1": "Power",
+    "option2": "Memory",
+    "option3": "Size",
+    "option4": "Cost",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Graphic processing unit is also called as ______ unit.",
+    "option1": "ALU",
+    "option2": "Register",
+    "option3": "Visual processing",
+    "option4": "Stack pointer",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "System on chip (SOC) architecture provides _________ peripheral to improve effective data communication.",
+    "option1": "Off chip",
+    "option2": "Side by side",
+    "option3": "Near by",
+    "option4": "On chip",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Suggest processor to handle multimedia applications.",
+    "option1": "Digital signal processor",
+    "option2": "Floating point co-processor",
+    "option3": "Microprocessor",
+    "option4": "Microcontroller",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "CISC includes _______ complex instructions.",
+    "option1": "Double",
+    "option2": "Single",
+    "option3": "Multi clock",
+    "option4": "Triple",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "RISC has _______ performance.",
+    "option1": "Lower",
+    "option2": "Higher",
+    "option3": "Medium",
+    "option4": "Moderate",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "__________ emphasis on software.",
+    "option1": "RISC",
+    "option2": "CISC",
+    "option3": "MISC",
+    "option4": "PISC",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Most of processor designed by ARM are",
+    "option1": "16 bit",
+    "option2": "32 bit",
+    "option3": "64 bit",
+    "option4": "8 bit",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "How much flash memory does the Atmega328 have?",
+    "option1": "13K bytes",
+    "option2": "32K bytes",
+    "option3": "256K bytes",
+    "option4": "16K bytes",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "How many timers does the Atmega328 have?",
+    "option1": "1",
+    "option2": "2",
+    "option3": "3",
+    "option4": "4",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "How many comparators does the Atmega328 have?",
+    "option1": "1",
+    "option2": "2",
+    "option3": "3",
+    "option4": "4",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "There are __ ADC and __ PWM Pins on the Atmega328.",
+    "option1": "9, 7",
+    "option2": "8, 6",
+    "option3": "10, 1",
+    "option4": "5, 18",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which Arduino Boards use the Atmega328?",
+    "option1": "Arduino Uno",
+    "option2": "Arduino Mega",
+    "option3": "Arduino Fio",
+    "option4": "Arduino Due",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is the operating voltage of Atmega328?",
+    "option1": "12V to 9V",
+    "option2": "1.9V to 5V",
+    "option3": "1.8V to 5.5V",
+    "option4": "1.1V to 5V",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The Atmega328 is an _________ bit chip.",
+    "option1": "8",
+    "option2": "16",
+    "option3": "32",
+    "option4": "64",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "How many General-Purpose Registers are present in the Atmega328?",
+    "option1": "12",
+    "option2": "64",
+    "option3": "32",
+    "option4": "9",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The Atmega328 is a ___ SC Microcontroller.",
+    "option1": "RI",
+    "option2": "CI",
+    "option3": "AI",
+    "option4": "BI",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Why is the Arduino Mega more a viable solution when dealing with complex projects, than the Arduino UNO?",
+    "option1": "Higher SRAM on the Arduino Mega",
+    "option2": "More number of GPIO pins on the Arduino Mega",
+    "option3": "More flash memory on the Arduino Mega",
+    "option4": "Higher power rating on the Arduino Mega",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which Arduino board is famous for integration with fabric-based projects?",
+    "option1": "The LilyPad",
+    "option2": "The UNO",
+    "option3": "The Mega",
+    "option4": "The Nano",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which Arduino Product is not just a board but also comes preinstalled with wheels and a motor board.",
+    "option1": "The LilyPad",
+    "option2": "The Robot",
+    "option3": "The Flora",
+    "option4": "The Mega",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which Arduino Board contains an onboard joystick?",
+    "option1": "Arduino Esplora",
+    "option2": "Arduino Nano",
+    "option3": "Arduino Due",
+    "option4": "Arduino UNO",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "For projects where a small microcontroller is required, which boards should we use?",
+    "option1": "Arduino Yun, Leonardo",
+    "option2": "Arduino Esplora, Robot",
+    "option3": "Arduino Due, Mega, Uno",
+    "option4": "Arduino LilyPad, Nano",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which Arduino Board comes with a Linux Distribution?",
+    "option1": "Arduino Nano",
+    "option2": "Arduino Leonardo",
+    "option3": "Arduino Due",
+    "option4": "Arduino Yun",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "With the Arduino Mini, in the absence of an inbuilt USB connector on the board. How is one supposed to connect it to the computer?",
+    "option1": "Ethernet Adapter",
+    "option2": "SPI",
+    "option3": "I2C",
+    "option4": "RS232 to TTL Serial Adapter",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which Arduino Board would one choose if one had to perform network operations in Linux out of the box?",
+    "option1": "Arduino Diecimila",
+    "option2": "Arduino Yun",
+    "option3": "Arduino Uno",
+    "option4": "Arduino Esplora",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which Arduino Board has an XBee Socket inbuilt?",
+    "option1": "Arduino Nano",
+    "option2": "Arduino Micro",
+    "option3": "Arduino Uno",
+    "option4": "Arduino Fio",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which processor supports the Arduino Zero?",
+    "option1": "Atmega328P",
+    "option2": "Atmega32u4",
+    "option3": "ARM Cortex M0+",
+    "option4": "ARM Cortex M3",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is the use of the RESET button on the Arduino UNO?",
+    "option1": "To restart the code present in the Arduino",
+    "option2": "To restore a previous version of a code",
+    "option3": "To erase the code present in the Arduino",
+    "option4": "To erase the SRAM in Arduino Microcontroller",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is the use of the Vin pin present on some Arduino Boards?",
+    "option1": "To provide a 5V output",
+    "option2": "Is used for plugging in 3V supply",
+    "option3": "To power the Arduino Board",
+    "option4": "To ground the Arduino Board",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What does the analogRead() function do physically when invoked in a code?",
+    "option1": "It accepts a digital Input",
+    "option2": "Reads the raw voltage value",
+    "option3": "Activates the ADC Circuit to read voltage values",
+    "option4": "Activates the DAC Circuit to read voltage values",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is the use for the 2 serial pins on the Arduino Diecimila?",
+    "option1": "To send and receive GPIO digital signals",
+    "option2": "To receive analog signals",
+    "option3": "To send PWM signals",
+    "option4": "To send and receive Serial TTL signals",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The pins SS, SCK, MOSI and MISO on the Arduino belong to the ___ bus.",
+    "option1": "I2C",
+    "option2": "SPI",
+    "option3": "GPIO",
+    "option4": "Ethernet",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "What is the full form of the I2C Protocol?",
+    "option1": "Inter-Integrated Circuit",
+    "option2": "Intra-Integrated Circuit",
+    "option3": "Integrated-Inter Circuit",
+    "option4": "Infinite-Integrated Circuit",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is the function of the IOREF pin on the Arduino UNO?",
+    "option1": "To provide a constant 12V DC supply",
+    "option2": "To provide the voltage corresponding to the standard GPIO working voltage of the board",
+    "option3": "To take input voltage and set it as a reference for all GPIO operations",
+    "option4": "To provide ground",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "What is the function of the AREF pin in the Arduino UNO?",
+    "option1": "It is used as a reference voltage for all analog voltage calculations in the board",
+    "option2": "It is used as a reference voltage for all digital voltage calculations in the board",
+    "option3": "It is used as a reference voltage for the power source on the board",
+    "option4": "It is used as a reference voltage for the ground pins on the board",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What are the functions of the SDA and SCL pins of the Arduino UNO?",
+    "option1": "They facilitate I2C communications",
+    "option2": "They facilitate SPI Communications",
+    "option3": "They facilitate USB Communications",
+    "option4": "They facilitate Ethernet Communications",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What language is a typical Arduino code based on?",
+    "option1": "C/C++",
+    "option2": "Java",
+    "option3": "Python",
+    "option4": "Assembly Code",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What language is the Arduino IDE built on?",
+    "option1": "C/C++",
+    "option2": "Python",
+    "option3": "HTML",
+    "option4": "Java",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Is it possible to write code for the Arduino in any other programming language?",
+    "option1": "Yes, you can write",
+    "option2": "No, it only allows the use of Arduino Code",
+    "option3": "Yes, but you must write the code in C/C++ only",
+    "option4": "Yes, but you must write the code in Python Only",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Does the Arduino code get processed by an interpreter or a compiler?",
+    "option1": "The Arduino code is processed by an interpreter",
+    "option2": "The Arduino code is first compiled to C++ and then processed using an interpreter",
+    "option3": "The Arduino code is processed by a compiler",
+    "option4": "The Arduino code is directly executed by the processor",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is the difference between an IDE and a compiler?",
+    "option1": "The IDE executes the code while the compiler gives a graphical environment for writing the code",
+    "option2": "The compiler executes the code while the IDE gives a graphical environment for writing the code",
+    "option3": "The compiler links the code to the respective files and the IDE takes it from there",
+    "option4": "The compiler and the IDE are the same thing",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Can external generic C/C++ libraries be imported to the Arduino IDE and used in the code?",
+    "option1": "Yes, external C/C++ libraries can be used with the Arduino code",
+    "option2": "No, no external libraries can be imported to the Arduino code",
+    "option3": "Yes, but only libraries that are approved by the company can be used",
+    "option4": "Yes, but the libraries must be written in Arduino Code only",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Is the Arduino code an Object-Oriented programming language or a Procedural programming language?",
+    "option1": "The Arduino Code follows the Object-Oriented ideology",
+    "option2": "The Arduino Code follows the Top-Down Procedural ideology",
+    "option3": "The Arduino Code follows the Bottom-Up Procedural ideology",
+    "option4": "The Arduino Code follows a custom Procedural Ideology",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Arduino Codes are referred to as ________ in the Arduino IDE.",
+    "option1": "drawings",
+    "option2": "notes",
+    "option3": "sketches",
+    "option4": "links",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "How many times does the loop() function run on every startup of the Arduino System?",
+    "option1": "1",
+    "option2": "Depends upon the setup() function",
+    "option3": "Infinitely till the power is supplied to the Arduino",
+    "option4": "3",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Can the loop() function be used to call another function that is custom defined by the programmer?",
+    "option1": "Yes, it can call",
+    "option2": "No, it cannot call",
+    "option3": "Yes, it can call but only functions with no return values",
+    "option4": "Yes, it can call but only functions with return values",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Is the loop() function a replacement of the main() function in the Arduino Programming Environment?",
+    "option1": "No, it is a replacement for the constructor",
+    "option2": "Yes, it is a replacement",
+    "option3": "Yes, but only for certain Arduino Boards",
+    "option4": "No, it is not a replacement",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Can a programmer not use the loop function at all in a code?",
+    "option1": "Yes",
+    "option2": "No",
+    "option3": "Yes, but it needs to be called at least once",
+    "option4": "Yes, but it needs to be commented out",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Can the loop() function be used to replace the functionality of the setup() function?",
+    "option1": "Yes, it can",
+    "option2": "No, it cannot",
+    "option3": "Yes, it can, but only for certain Arduino Boards",
+    "option4": "Yes, it can, but only for a limited time frame",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "How to make the loop function run only once but the code inside run infinitely?",
+    "option1": "Create a recursive function call statement",
+    "option2": "Create a nested infinite loop within the loop() function",
+    "option3": "Call the setup() function from the loop() function",
+    "option4": "Call the loop() function from the setup() function",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Can the loop() function be called recursively?",
+    "option1": "Yes, it can be called recursively",
+    "option2": "No, it cannot be called recursively",
+    "option3": "Yes, it can be called recursively but only by the setup() function",
+    "option4": "Yes, it can be called recursively but only twice",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "How many times does the setup() function run on every startup of the Arduino System?",
+    "option1": "1",
+    "option2": "2",
+    "option3": "3",
+    "option4": "4",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Can the setup() function change the value of constant variables?",
+    "option1": "Yes, it can change",
+    "option2": "No, it cannot change",
+    "option3": "Yes, it can change but only integer values",
+    "option4": "Yes, it can change but only byte values",
+    "Answer": "option2"
+  },
+  {
+    "question": "Is it syntactically correct to write the loop() function over the setup() function while writing an Arduino program?",
+    "option1": "No, it is not syntactically correct",
+    "option2": "Yes, it is syntactically correct but will result in the loop() method executing first",
+    "option3": "Yes, it is syntactically correct and the setup() function will execute first",
+    "option4": "It is syntactically correct but logically wrong",
+    "Answer": "option3"
+  },
+  {
+    "question": "What do we need to do if we want to run the setup() function in an infinite loop?",
+    "option1": "Call the setup() function from a custom named function",
+    "option2": "Call the setup() function from a constructor",
+    "option3": "Call the setup() function from the loop() function",
+    "option4": "Call the setup() function from the destructor",
+    "Answer": "option3"
+  },
+  {
+    "question": "What is the meaning of the data returned by the sizeof() function?",
+    "option1": "Length",
+    "option2": "Location",
+    "option3": "Pointer",
+    "option4": "Memory",
+    "Answer": "option1"
+  },
+  {
+    "question": "When the sizeof() function is invoked on an array. What information does it return?",
+    "option1": "Number of elements in the array",
+    "option2": "The largest element in the array",
+    "option3": "The total sum of the ASCII values of the elements in the array",
+    "option4": "The largest ASCII value of any element in the array",
+    "Answer": "option1"
+  },
+  {
+        "question": "What notation should we use for denoting the breadth of an array?",
+        "option1": "sizeof(a[0])",
+        "option2": "sizeof(a)",
+        "option3": "sizeof(a[])",
+        "option4": "sizeof(a.0)",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What does the following code do? int* ptr = (int*)malloc(100 * sizeof(int));",
+        "option1": "Static Memory Allocation",
+        "option2": "Static Memory Clearance",
+        "option3": "Dynamic Memory Allocation",
+        "option4": "Dynamic Memory Clearance",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What are the two modes that the pinMode() method sets for a particular pin?",
+        "option1": "DIGITAL and ANALOG",
+        "option2": "INPUT and OUTPUT",
+        "option3": "TX and RX",
+        "option4": "READ and WRITE",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What are the voltage levels that can be detected if a pin is set to OUTPUT using the pinMode() method and the analogRead() method is used, in the Arduino Uno?",
+        "option1": "0 and 5V",
+        "option2": "0 to 5.1V",
+        "option3": "0 to 5V",
+        "option4": "0 to 10V",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the difference between the INPUT and INPUT_PULLUP arguments in the pinMode() function?",
+        "option1": "They are both the same",
+        "option2": "INPUT supports only analog voltages while INPUT_PULLUP supports only digital voltage readings",
+        "option3": "INPUT takes the default reading as 0 while INPUT_PULLUP takes default reading as 1023",
+        "option4": "INPUT takes the default reading as 1023 while INPUT_PULLUP takes the default reading as 0",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the operating frequency of the Arduino UNO Board?",
+        "option1": "20 MHz",
+        "option2": "16 Mhz",
+        "option3": "6 MHz",
+        "option4": "10 MHz",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the Maximum Operating Voltage of the Arduino Due?",
+        "option1": "20V",
+        "option2": "19V",
+        "option3": "5V",
+        "option4": "3.3V",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Analog Pins in the Arduino boards work on the principle of PWM. What is the full form of PWM?",
+        "option1": "Pin Wide Modulation",
+        "option2": "Pulse Waveform Modulation",
+        "option3": "Pulse Width Modulation",
+        "option4": "Pulse Wave Modulation",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How much Program Memory does the Arduino UNO have?",
+        "option1": "24K bytes",
+        "option2": "256K bytes",
+        "option3": "32K bytes",
+        "option4": "2K bytes",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following boards from the Arduino Family is not powered by a variant of the ATmega processors?",
+        "option1": "Arduino UNO",
+        "option2": "Arduino Nano",
+        "option3": "Arduino Mega",
+        "option4": "Arduino Due",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of EEPROM?",
+        "option1": "Electrically Erasable Programmable Read Only Memory",
+        "option2": "Electrically Encoded Programmable Read Only Memory",
+        "option3": "Electronic Embedded Programmable Read Only Memory",
+        "option4": "Encrypted Electronic Programmable Read Only Memory",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the full form of SRAM?",
+        "option1": "Synchronized Random Access Memory",
+        "option2": "Static Random Access Memory",
+        "option3": "Simplified Random Access Memory",
+        "option4": "Segregated Static Random Access Memory",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The Arduino Diecimila has 14 Digital I/O Pins of which __ pins can provide PWM output.",
+        "option1": "1",
+        "option2": "4",
+        "option3": "6",
+        "option4": "8",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the processor used by ARM7?",
+        "option1": "8-bit CISC",
+        "option2": "8-bit RISC",
+        "option3": "32-bit CISC",
+        "option4": "32-bit RISC",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the instruction set used by ARM7?",
+        "option1": "16-bit instruction set",
+        "option2": "32-bit instruction set",
+        "option3": "64-bit instruction set",
+        "option4": "8-bit instruction set",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many registers are there in ARM7?",
+        "option1": "35 register( 28 GPR and 7 SPR)",
+        "option2": "37 registers(28 GPR and 9 SPR)",
+        "option3": "37 registers(31 GPR and 6 SPR)",
+        "option4": "35 register(30 GPR and 5 SPR)",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the capability of ARM7 for instructions per second?",
+        "option1": "110 MIPS",
+        "option2": "150 MIPS",
+        "option3": "125 MIPS",
+        "option4": "130 MIPS",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following has the same instruction set as ARM7?",
+        "option1": "ARM6",
+        "option2": "ARMv3",
+        "option3": "ARM71a0",
+        "option4": "ARMv4T",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What do the letters T, D, M, I stand for in ARM7TDMI?",
+        "option1": "Timer, Debug, Multiplex, ICE",
+        "option2": "Thumb, Debug, Multiplier, ICE",
+        "option3": "Timer, Debug, Modulation, IS",
+        "option4": "Thumb, Debug, Multiplier, ICE",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "ARM stands for _________",
+        "option1": "Advanced RISC Machine",
+        "option2": "Advanced RISC Methadology",
+        "option3": "Advanced Reduced Machine",
+        "option4": "Advanced Reduced Methadology",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What are the profiles for ARM architecture?",
+        "option1": "A,R",
+        "option2": "A,M",
+        "option3": "A,R,M",
+        "option4": "R,M",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "ARM7DI operates in which mode?",
+        "option1": "Big Endian",
+        "option2": "Little Endian",
+        "option3": "Both big and little Endian",
+        "option4": "Neither big nor little Endian",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In which of the following ARM processors virtual memory is present?",
+        "option1": "ARM7DI",
+        "option2": "ARM7TDMI-S",
+        "option3": "ARM7TDMI",
+        "option4": "ARM7EJ-S",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How many stages of pipelining are used in ARM7EJ-S?",
+        "option1": "3-Stage",
+        "option2": "4-Stage",
+        "option3": "5-Stage",
+        "option4": "2-Stage",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How many bit data bus is used in ARM7EJ-s?",
+        "option1": "32-bit",
+        "option2": "16-bit",
+        "option3": "8-bit",
+        "option4": "Both 16 and 32 bit",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the cache memory for ARM710T?",
+        "option1": "12Kb",
+        "option2": "16Kb",
+        "option3": "32Kb",
+        "option4": "8Kb",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The Sun Microsystems processors usually follow _____ architecture.",
+        "option1": "CISC",
+        "option2": "ISA",
+        "option3": "ULTRA SPARC",
+        "option4": "RISC",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The iconic feature of the RISC machine among the following is _______",
+        "option1": "Reduced number of addressing modes",
+        "option2": "Increased memory size",
+        "option3": "Having a branch delay slot",
+        "option4": "All of the mentioned",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Both the CISC and RISC architectures have been developed to reduce the ______",
+        "option1": "Cost",
+        "option2": "Time delay",
+        "option3": "Semantic gap",
+        "option4": "All of the mentioned",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Out of the following which is not a CISC machine.",
+        "option1": "IBM 370/168",
+        "option2": "VAX 11/780",
+        "option3": "Intel 80486",
+        "option4": "Motorola A567",
+        "Answer": "option4",
+        "marks": 1
+    },
+
+    {
+    "question": "Pipe-lining is a unique feature of _______",
+    "option1": "RISC",
+    "option2": "CISC",
+    "option3": "ISA",
+    "option4": "IANA",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In CISC architecture most of the complex instructions are stored in _____",
+    "option1": "Register",
+    "option2": "Diodes",
+    "option3": "CMOS",
+    "option4": "Transistors",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which of the architecture is power efficient?",
+    "option1": "CISC",
+    "option2": "RISC",
+    "option3": "ISA",
+    "option4": "IANA",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Memory can be accessed in ARM systems by __________ instructions.",
+    "option1": "Store, MOVE, Load",
+    "option2": "Store, MOVE",
+    "option3": "Store, arithmetic, logical",
+    "option4": "Load, arithmetic, logical",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In the ARM, PC is implemented using ___________",
+    "option1": "Caches",
+    "option2": "Heaps",
+    "option3": "General purpose register",
+    "option4": "Stack",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The additional duplicate register used in ARM machines are called as _______",
+    "option1": "Copied-registers",
+    "option2": "Banked registers",
+    "option3": "EXtra registers",
+    "option4": "Extential registers",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Each instruction in ARM machines is encoded into __________ Word.",
+    "option1": "2 byte",
+    "option2": "3 byte",
+    "option3": "4 byte",
+    "option4": "8 byte",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The addressing mode where the EA of the operand is the contents of Rn is ______",
+    "option1": "Pre-indexed mode",
+    "option2": "Pre-indexed with write back mode",
+    "option3": "Post-indexed mode",
+    "option4": "None of the mentioned",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "How many voltage levels are present when a pin uses digitalWrite()?",
+    "option1": "1",
+    "option2": "2",
+    "option3": "3",
+    "option4": "4",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Can the digitalRead() function identify analog voltages?",
+    "option1": "Yes, it can",
+    "option2": "No, it cannot",
+    "option3": "Yes, it can but only 2",
+    "option4": "Yes, it can but only 4",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Can the digitalWrite() function be used from any analog pin?",
+    "option1": "No, it cannot",
+    "option2": "Yes, it can, but only on certain Arduino Boards",
+    "option3": "Yes, it can",
+    "option4": "Yes, it can, but only through certain pins",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "How many arguments does the digitalRead() function have?",
+    "option1": "1",
+    "option2": "2",
+    "option3": "3",
+    "option4": "4",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Can the analogRead() function be used as a replacement for the digitalRead() function?",
+    "option1": "No, it cannot be used",
+    "option2": "Yes, it can be used but only on certain Arduino Boards",
+    "option3": "Yes, it can be used",
+    "option4": "Yes, it can be used but only for certain pins",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is the need for a quantizer in Digital Communications?",
+    "option1": "Break up a sampled signal to a finite dataset",
+    "option2": "Sample a pure analog signal",
+    "option3": "Sample a digital signal",
+    "option4": "Encode an analog signal",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not a Digital Encoding Technique?",
+    "option1": "NRZ (Non-Return to Zero)",
+    "option2": "Amplitude Modulation",
+    "option3": "Manchester",
+    "option4": "RZ (Return to Zero)",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not a method to convert analog signals to digital signals?",
+    "option1": "Pulse Code Modulation",
+    "option2": "Pulse Amplitude Modulation",
+    "option3": "Pulse Width Modulation",
+    "option4": "Frequency Modulation",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What is the numeric base of the math operations performed in binary?",
+    "option1": "1",
+    "option2": "2",
+    "option3": "3",
+    "option4": "4",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "What is the use of the RESET button on the Arduino UNO?",
+    "option1": "To restart the code present in the Arduino",
+    "option2": "To restore a previous version of a code",
+    "option3": "To erase the code present in the Arduino",
+    "option4": "To erase the SRAM in Arduino Microcontroller",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is the use of the Vin pin present on some Arduino Boards?",
+    "option1": "To provide a 5V output",
+    "option2": "Is used for plugging in 3V supply",
+    "option3": "To power the Arduino Board",
+    "option4": "To ground the Arduino Board",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What does the analogRead() function do physically when invoked in a code?",
+    "option1": "It accepts a digital Input",
+    "option2": "Reads the raw voltage value",
+    "option3": "Activates the ADC Circuit to read voltage values",
+    "option4": "Activates the DAC Circuit to read voltage values",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The pins SS, SCK, MOSI and MISO on the Arduino belong to the ___ bus.",
+    "option1": "I2C",
+    "option2": "SPI",
+    "option3": "GPIO",
+    "option4": "Ethernet",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+        "question": "OLED are used to create digital display in devices such as _______",
+        "option1": "Only TV screens",
+        "option2": "Only smart phones",
+        "option3": "Only computer monitors",
+        "option4": "All of above",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In Li-ion battery, the ____________ is/are lithium ion based",
+        "option1": "Positive electrode",
+        "option2": "Negative electrode",
+        "option3": "Positive and negative electrode",
+        "option4": "Electrolyte",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A nuclear battery is a device which uses energy from the ________ to generate electricity.",
+        "option1": "Hydrocarbon",
+        "option2": "Hydrogen",
+        "option3": "Emission of radioactive isotopes",
+        "option4": "Chain reaction of radioactive element",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Compared to other batteries, nuclear batteries are very ______, but have an extremely ____ and high energy density",
+        "option1": "Cheap, long life",
+        "option2": "Costly, long life",
+        "option3": "Cheap, short life",
+        "option4": "Costly, short life",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Surface-mount technology (SMT) is a method for producing ____ in which the components are mounted or placed directly onto the surface of ______",
+        "option1": "Electric circuit, electric board",
+        "option2": "Electronic circuit, printed circuit board",
+        "option3": "Pneumatic circuit, pneumatic bench",
+        "option4": "Instrumentation circuit, control panel",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "OLED stands for ______",
+        "option1": "Organic Light emitting display",
+        "option2": "Optical Light emitting display",
+        "option3": "Organic Light emitting diode",
+        "option4": "Optical Light emitting diode",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In OLED, at least one of the electrode is _______",
+        "option1": "Reactive",
+        "option2": "Transparent",
+        "option3": "Passive",
+        "option4": "Idle",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In Li-ion batteries, lithium ions move from the negative electrode to the positive electrode during discharge. In Li-ion batteries lithium ions move from the positive electrode to the negative electrode during charging.",
+        "option1": "Statement 1 is true but statement 2 is false",
+        "option2": "Statement 2 is true but statement 1 is false",
+        "option3": "Both statements are true",
+        "option4": "Both statements are false",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "An OLED display works without a backlight because OLED emits visible light.",
+        "option1": "Statement 1 is true but statement 2 is false",
+        "option2": "Statement 2 is true but statement 1 is false",
+        "option3": "Both statements are true",
+        "option4": "Both statements are false",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Memristor is defined by relation ______",
+        "option1": "dφ = M*dq",
+        "option2": "dq = C*dv",
+        "option3": "dφ = L*di",
+        "option4": "dv = R*di",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The surface mount components are accurately placed onto the pads with the help of ____________",
+        "option1": "Pick and place machine",
+        "option2": "Manually",
+        "option3": "Reflow Machine",
+        "option4": "Printing Machine",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Desirable feature of electronics components suitable for emerging applications is __________",
+        "option1": "Higher power consumption",
+        "option2": "Miniature size",
+        "option3": "Lower operation speed",
+        "option4": "Low operating frequency",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "_______ allow more number of components placing on both sides of the flexible dielectric film",
+        "option1": "Single sided flexible circuits",
+        "option2": "Single mounted flexible circuits",
+        "option3": "Double access flexible circuits",
+        "option4": "Sculptured Flex circuits",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Memristor features unique properties like _______ and _______.",
+        "option1": "Nonvolatile nature, linearity",
+        "option2": "Volatile nature, non-linearity",
+        "option3": "Volatile nature, linearity",
+        "option4": "Nonvolatile nature, non-linearity",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "_______ is considered as a subset of Memristor",
+        "option1": "ROM",
+        "option2": "ReRAM",
+        "option3": "Static RAM",
+        "option4": "DRAM",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Hysteresis loop and ______ phase shift between current and voltage, at _____ are the significant features of Memristor.",
+        "option1": "0-degree, zero crossing",
+        "option2": "90-degree, zero crossing",
+        "option3": "45 degree, non-zero crossing",
+        "option4": "180 degree, non-zero crossing",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Memristor shows ________ relationship between voltage and current.",
+        "option1": "Linear",
+        "option2": "Nonlinear",
+        "option3": "Exponential",
+        "option4": "Logarithmic",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Currently OLED displays are made by ____________.",
+        "option1": "Evaporating gases in a vacuum chamber",
+        "option2": "Evaporating liquid in a vacuum chamber",
+        "option3": "Evaporating solid in a vacuum chamber",
+        "option4": "Anodization",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "OLED displays are simpler than LCD because they do not require ________ or ________.",
+        "option1": "Power, filtering",
+        "option2": "Power, diffusing",
+        "option3": "Backlight, diffusing",
+        "option4": "Backlight, filtering",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In the cover lay of FPC, to reduce conductor damage from frequent bending, the thickness of the cover lay should be ______",
+        "option1": "Same as the thickness of the dielectric layer",
+        "option2": "More than the thickness of the dielectric layer",
+        "option3": "Less than the thickness of the dielectric layer",
+        "option4": "Independent of the thickness of the dielectric layer",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Printed circuit board are delivered from one place to other place in plastic or paper protection because of development of_______________",
+        "option1": "Leakage current",
+        "option2": "Water drop",
+        "option3": "Dynamic charge",
+        "option4": "Static Charge",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Flex PCB design requires______% of the space and weight of an ordinary circuit board assembly",
+        "option1": "50",
+        "option2": "20",
+        "option3": "10",
+        "option4": "75",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Commonly used dielectric substrate material is_________",
+        "option1": "Polyester",
+        "option2": "Rubber",
+        "option3": "Mica",
+        "option4": "Polymer",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_______ are the heart of Flexible Printed Circuits.",
+        "option1": "Dielectric PCBs",
+        "option2": "Flexible PCBs",
+        "option3": "Double sided PCBs",
+        "option4": "Single sided PCBs",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "___________ material has excellent high temperature characteristics.",
+        "option1": "Phenolic",
+        "option2": "Acrylics",
+        "option3": "Polyimide",
+        "option4": "Polyester",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Identify the symbol of component used for emerging application.",
+        "option1": "Resistor",
+        "option2": "Compact disc",
+        "option3": "Memristor",
+        "option4": "OLED",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In OLED, at least one of the electrode is ________",
+        "option1": "Idle",
+        "option2": "Transparent",
+        "option3": "Active",
+        "option4": "Passive",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "OLED displays provide_____ power consumption compared to LCD",
+        "option1": "Lower",
+        "option2": "Higher",
+        "option3": "Medium",
+        "option4": "Zero",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In SMD the wattage required for soldering iron is______",
+        "option1": "25 to 50 watt",
+        "option2": "15 to 25 watt",
+        "option3": "15 to 30 watt",
+        "option4": "10 to 50 watt",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "For an IC, in a data sheet SMD stands for ______________",
+        "option1": "Surface mount device",
+        "option2": "Synchronous mode device",
+        "option3": "Serial mode data",
+        "option4": "Single memory device",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+    "question": "Identify the SMD component",
+    "option1": "SMD Resistor",
+    "option2": "SMD Resistor network",
+    "option3": "SMD capacitor",
+    "option4": "Leadless Ceramic Chip Carriers",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Surface-mount technology (SMT) is a method for producing_______in which the components are mounted or placed directly onto the surface of ……",
+    "option1": "Electric circuit, electric board",
+    "option2": "Electronic circuit, printed circuit board",
+    "option3": "Pneumatic circuit, pneumatic bench",
+    "option4": "Instrumentation circuit, control pane",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "With surface mount technology(SMT) the devices should ________",
+    "option1": "mount directly",
+    "option2": "have parallel connecting pins",
+    "option3": "requires holes and pads",
+    "option4": "requires PTH",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "________ runs a number of quality checks for the boards visually, such as component alignment and checking for solder bridges",
+    "option1": "reflow oven",
+    "option2": "SMD machine",
+    "option3": "Automatic Optic Inspection machine",
+    "option4": "solder paste printer",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "_______ soldering is the most widely used method of attaching surface mount components to printed circuit boards (PCBs).",
+    "option1": "WAVE",
+    "option2": "Reflow",
+    "option3": "Pick and place",
+    "option4": "Machine",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "A ________ is a machine used primarily for reflow soldering of surface mount electronic components to printed circuit boards (PCB).",
+    "option1": "reflow oven",
+    "option2": "wave oven",
+    "option3": "microwave oven",
+    "option4": "soldering oven",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Preheat is the _____ stage of the reflow process.",
+    "option1": "Second",
+    "option2": "Third",
+    "option3": "First",
+    "option4": "Fourth",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which process is used to deposit metals on glass, ceramic and plastic?",
+    "option1": "Silk plating technique",
+    "option2": "Gas plating technique",
+    "option3": "Electroless plating technique",
+    "option4": "Electroplating technique",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Electroplating technique is suitable for",
+    "option1": "Making conduction films ceramic",
+    "option2": "Coating with considerable thickness",
+    "option3": "Coating without use of electric current",
+    "option4": "Making conduction films of gold or copper",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following process is involve in thick film technology",
+    "option1": "Screen printing",
+    "option2": "Ceramic firing",
+    "option3": "Silk screening",
+    "option4": "All of the mentioned",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "An ancient process used till today for production of circuit films is",
+    "option1": "Silk Screening technique",
+    "option2": "Surface Mount Technology",
+    "option3": "Ceramic Printing technique",
+    "option4": "Screen Printing technique",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following avoids the direct contact of the positive and negative plate in a lithium-ion battery?",
+    "option1": "Electrolyte",
+    "option2": "Separator",
+    "option3": "Load",
+    "option4": "Rectifier",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which is the electrolyte used in Li-ion battery?",
+    "option1": "Lead dioxide",
+    "option2": "Lithium-based gel",
+    "option3": "Sulfur dioxide",
+    "option4": "Cobalt",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following statement is true for the movement of electrons concerning the direction of current?",
+    "option1": "Same as the direction of current",
+    "option2": "Opposite direction of current",
+    "option3": "Does not depend on the direction of current",
+    "option4": "No movement of electrons",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which is the material used to as anode in a lithium-ion battery?",
+    "option1": "Brass foil coated with graphite",
+    "option2": "Aluminum foil coated with graphite",
+    "option3": "Copper foil coated with graphite",
+    "option4": "Stainless steel coated with graphite",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not a disadvantage of a lithium-ion battery?",
+    "option1": "Complex to manufacture",
+    "option2": "Sophisticated chargers",
+    "option3": "More expensive",
+    "option4": "High energy density",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is formed at the graphite electrode during the charging process of a battery when the lithium-ion move through the separator?",
+    "option1": "Water",
+    "option2": "Graphite",
+    "option3": "Lithium hydroxide",
+    "option4": "Lithium carbide",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What is the range of specific energy in Watt-hour per kg in a lithium-ion battery?",
+    "option1": "0-50",
+    "option2": "100-265",
+    "option3": "50-60",
+    "option4": "60-100",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which is the material used as a cathode in a lithium-ion battery?",
+    "option1": "Zinc foils coated lithium metal oxide",
+    "option2": "Brass foil coated with graphite metal oxide",
+    "option3": "Aluminum foils coated with graphite metal oxide",
+    "option4": "Copper foils coated with lithium metal oxide",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What is the maximum storage temperature in degree centigrade of a Li-ion battery?",
+    "option1": "30",
+    "option2": "50",
+    "option3": "60",
+    "option4": "40",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not an advantage of Lithium-ion battery?",
+    "option1": "High specific energy density",
+    "option2": "More expensive",
+    "option3": "Reliability",
+    "option4": "Lower self-discharge rate",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following material is used as separator material in Lithium-ion battery?",
+    "option1": "Brass",
+    "option2": "Metal sheet",
+    "option3": "Paper",
+    "option4": "Plastic",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following circuit is used for cooling of the lithium-ion battery?",
+    "option1": "Air conditioning",
+    "option2": "Heater circuit",
+    "option3": "Ignition circuit",
+    "option4": "EGR circuit",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is the maximum operating temperature in degree centigrade above which the lithium-ion battery should not be operated?",
+    "option1": "10",
+    "option2": "20",
+    "option3": "30",
+    "option4": "40",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "By how much variation in the gravity points cell gravity variation can be found?",
+    "option1": "9",
+    "option2": "5",
+    "option3": "10",
+    "option4": "6",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "To avoid which of the following the water level in the electrolyte should be checked periodically?",
+    "option1": "To control the temperature",
+    "option2": "To control the pressure",
+    "option3": "To avoid the damage of the separator and plates",
+    "option4": "To avoid the damage of the electrodes",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which is the liquid that is used in the cleaning of the battery terminals and clamps to avoid corrosion?",
+    "option1": "Hydrochloric acid",
+    "option2": "Dilute sulphuric acid",
+    "option3": "Liquid ammonia",
+    "option4": "Liquid nitrogen",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not a cause for deterioration of plates?",
+    "option1": "The high specific gravity of the electrolyte",
+    "option2": "Freezing of electrolyte",
+    "option3": "Mechanical damage to the battery",
+    "option4": "The proper mixture of water and acid",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not a reason for the self-discharge of the battery?",
+    "option1": "Contamination of electrolyte",
+    "option2": "Damaged separators",
+    "option3": "Long term storage",
+    "option4": "Use of distilled water for electrolyte",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following increases due to a reduction in the capacity of battery plates due to sulphation?",
+    "option1": "Pressure",
+    "option2": "Internal resistance",
+    "option3": "Temperature",
+    "option4": "Enthalpy",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is the result of long term storage of the battery?",
+    "option1": "Low load",
+    "option2": "variation in pressure",
+    "option3": "Variation in enthalpy",
+    "option4": "Stratification",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "In which type of battery there is no requirement of any water during normal service?",
+    "option1": "Lead-acid",
+    "option2": "Lithium-ion",
+    "option3": "Lead-cadmium grid",
+    "option4": "Zinc-air",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is the reason for the discolouring of electrolyte?",
+    "option1": "Improper water and acid in the electrolyte",
+    "option2": "Plates are disintegrating",
+    "option3": "No proper vent plugs",
+    "option4": "Freezing material in the electrolyte",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which among the following damage leads to internal short-circuiting?",
+    "option1": "Separator",
+    "option2": "Post strap",
+    "option3": "Vent plug",
+    "option4": "Container",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not a precaution to avoid sulphation?",
+    "option1": "Proper electrolyte level",
+    "option2": "Proper specific gravity",
+    "option3": "Rapid discharging",
+    "option4": "Proper water addition",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following lead to the bulged case of a battery?",
+    "option1": "Loss of water",
+    "option2": "Internal short-circuiting",
+    "option3": "Sulphation",
+    "option4": "Overcharging",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Find out the op-amp which does not have same specifications and behaviour as that of N5741?",
+    "option1": "MC1741",
+    "option2": "CA3741",
+    "option3": "SN52741",
+    "option4": "None of the mentioned",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The op-amps 741C and 741E are identical to op-amps",
+    "option1": "741s and 741A",
+    "option2": "741 and 741A",
+    "option3": "741A and 741Sc",
+    "option4": "741 and 741S",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is a military grade op-amp?",
+    "option1": "741",
+    "option2": "741C",
+    "option3": "741S",
+    "option4": "741SC",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is incorrect about first generation op-amp?",
+    "option1": "Consists of hundred transistors/chip",
+    "option2": "Requires an external frequency compensating network for stable operation",
+    "option3": "Have short circuit protection",
+    "option4": "Has latch-up problem",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is the disadvantage of integrated circuit?",
+    "option1": "Parameter within the IC cannot be modified",
+    "option2": "Low power requirement",
+    "option3": "ICs are considered to use minimum number of external connections",
+    "option4": "None of the mentioned",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Whenever an IC is designed manufacturers use a",
+    "option1": "Specific code and manufacturer‘s name",
+    "option2": "Specific code and specific type number",
+    "option3": "Specific code and specific value",
+    "option4": "Specific type number",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "General purpose op-amp cannot be used for the application",
+    "option1": "Integrator",
+    "option2": "Audio power amplifier",
+    "option3": "Differentiation",
+    "option4": "Summing amplifier",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Low volume production methods are best suited to hybrid IC technology because",
+    "option1": "It require stipulated temperature to fabricate a circuit",
+    "option2": "It require several steps to fabricate a circuit",
+    "option3": "It require large components to fabricate a circuit",
+    "option4": "It require various designers to fabricate a circuit",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which is the different version of IC 741C?",
+    "option1": "741A",
+    "option2": "741E",
+    "option3": "741S",
+    "option4": "741SC",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "An example of second generation IC used in greatest percentage of application",
+    "option1": "µA748",
+    "option2": "MC1558",
+    "option3": "µA741",
+    "option4": "LM101",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is the advantage of Hybrid Integrated Circuit?",
+    "option1": "Miniaturized circuits are made of individual components",
+    "option2": "Insulate components by protection",
+    "option3": "Circuit designer can choose the component value",
+    "option4": "All of the mentioned",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following avoids the direct contact of the positive and negative plate in a lithium-ion battery?",
+    "option1": "Electrolyte",
+    "option2": "Separator",
+    "option3": "Load",
+    "option4": "Rectifier",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which is the electrolyte used in Li-ion battery?",
+    "option1": "Lead dioxide",
+    "option2": "Lithium-based gel",
+    "option3": "Sulfur dioxide",
+    "option4": "Cobalt",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following statement is true for the movement of electrons concerning the direction of current?",
+    "option1": "Same as the direction of current",
+    "option2": "Opposite direction of current",
+    "option3": "Does not depend on the direction of current",
+    "option4": "No movement of electrons",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which is the material used as anode in a lithium-ion battery?",
+    "option1": "Brass foil coated with graphite",
+    "option2": "Aluminum foil coated with graphite",
+    "option3": "Copper foil coated with graphite",
+    "option4": "Stainless steel coated with graphite",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not a disadvantage of a lithium-ion battery?",
+    "option1": "Complex to manufacture",
+    "option2": "Sophisticated chargers",
+    "option3": "More expensive",
+    "option4": "High energy density",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is formed at the graphite electrode during the charging process of a battery when the lithium-ion move through the separator?",
+    "option1": "Water",
+    "option2": "Graphite",
+    "option3": "Lithium hydroxide",
+    "option4": "Lithium carbide",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What is the range of specific energy in Watt-hour per kg in a lithium-ion battery?",
+    "option1": "0-50",
+    "option2": "100-265",
+    "option3": "50-60",
+    "option4": "60-100",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which is the material used as a cathode in a lithium-ion battery?",
+    "option1": "Zinc foils coated lithium metal oxide",
+    "option2": "Brass foil coated with graphite metal oxide",
+    "option3": "Aluminum foils coated with graphite metal oxide",
+    "option4": "Copper foils coated with lithium metal oxide",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What is the maximum storage temperature in degree centigrade of a Li-ion battery?",
+    "option1": "30",
+    "option2": "50",
+    "option3": "60",
+    "option4": "40",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not an advantage of Lithium-ion battery?",
+    "option1": "High specific energy density",
+    "option2": "More expensive",
+    "option3": "Reliability",
+    "option4": "Lower self-discharge rate",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following material is used as separator material in Lithium-ion battery?",
+    "option1": "Brass",
+    "option2": "Metal sheet",
+    "option3": "Paper",
+    "option4": "Plastic",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following circuit is used for cooling of the lithium-ion battery?",
+    "option1": "Air conditioning",
+    "option2": "Heater circuit",
+    "option3": "Ignition circuit",
+    "option4": "EGR circuit",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is the maximum operating temperature in degree centigrade above which the lithium-ion battery should not be operated?",
+    "option1": "10",
+    "option2": "20",
+    "option3": "30",
+    "option4": "40",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The automotive battery is also known as __________",
+    "option1": "lithium ion battery",
+    "option2": "lead-acid storage battery",
+    "option3": "zinc carbon battery",
+    "option4": "weston cell battery",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "What is present inside a battery?",
+    "option1": "Electrolyte",
+    "option2": "Fluids",
+    "option3": "Acid",
+    "option4": "Steam",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What do batteries emit while charging?",
+    "option1": "Nitrogen",
+    "option2": "Oxygen",
+    "option3": "Hydrogen",
+    "option4": "Carbon",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The battery cannot be sealed because ____________",
+    "option1": "they emit noxious gases",
+    "option2": "they emit hydrogen",
+    "option3": "to be exposed to air",
+    "option4": "to have the ventilation",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What does CCA stand for in engine starting methods?",
+    "option1": "Circuit card assembly",
+    "option2": "Cold cranking amps",
+    "option3": "Chromated copper arsenate",
+    "option4": "Capital cost allowances",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following problem naturally occurs around the battery?",
+    "option1": "Corrosion",
+    "option2": "Scaling",
+    "option3": "Pore formation",
+    "option4": "Rust",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "How many key switch positions are there in general in ignition switch?",
+    "option1": "2",
+    "option2": "3",
+    "option3": "4",
+    "option4": "5",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "In which switch position are all circuits open?",
+    "option1": "Lock",
+    "option2": "Run",
+    "option3": "Start",
+    "option4": "Accessory",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In which ignition switch position is the power supplied to ignition circuit?",
+    "option1": "Off switch position",
+    "option2": "Run switch position",
+    "option3": "Start switch position",
+    "option4": "Lock switch position",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Neutral safety switch varies due to changes in ________",
+    "option1": "ignition",
+    "option2": "applying clutch",
+    "option3": "gear transmission",
+    "option4": "brakes",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is the colour of a positive plate of a lead-acid battery?",
+    "option1": "White",
+    "option2": "Grey",
+    "option3": "White",
+    "option4": "Brown",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What gets deposited on the plates of a discharged lead-acid battery?",
+    "option1": "PbO2",
+    "option2": "Pb2O4",
+    "option3": "Pb",
+    "option4": "PbSO4",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What is the twenty-minute rating of battery?",
+    "option1": "Rate of current for 20 minutes with a minimum cell voltage of 1.5 V",
+    "option2": "Time for which the battery can supply 25 A at 80℉ with minimum cell voltage 1.75 V",
+    "option3": "The current which the battery can supply continuously for 30 seconds with minimum cell voltage 1.2 V",
+    "option4": "Lasting power of a battery on a small load",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is the reserve capacity of battery?",
+    "option1": "Time for which the battery can supply 25 A at 80℉ with minimum cell voltage 1.75 V",
+    "option2": "The current which the battery can supply continuously for 30 seconds with minimum cell voltage 1.2 V",
+    "option3": "Lasting power of a battery on a small load",
+    "option4": "Rate of current for 20 minutes with a minimum cell voltage of 1.5 V",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is the cold rate of a battery?",
+    "option1": "Lasting power of a battery on a small load",
+    "option2": "Rate of current for 20 minutes with a minimum cell voltage of 1.5 V",
+    "option3": "The current which the battery can supply continuously for 30 seconds with minimum cell voltage 1.2 V",
+    "option4": "Time for which the battery can supply 25 A at 80℉ with minimum cell voltage 1.75 V",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is a twenty-hour rate of a battery?",
+    "option1": "The current which the battery can supply continuously for 30 seconds with minimum cell voltage 1.2 V",
+    "option2": "Lasting power of a battery on a small load",
+    "option3": "Time for which the battery can supply 25 A at 80℉ with minimum cell voltage 1.75 V",
+    "option4": "Rate of current for 20 minutes with a minimum cell voltage of 1.5 V",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "What should a fully-charged 6 cell automotive battery indicate?",
+    "option1": "12 V",
+    "option2": "12.6 V",
+    "option3": "The specific gravity of 1.29 at 32℃",
+    "option4": "12.6 V and the specific gravity of 1.29 at 32℃",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What is the number of positive plates in a battery cell?",
+    "option1": "One more than the negative plates",
+    "option2": "Two less than the negative plates",
+    "option3": "One less than the negative plates",
+    "option4": "Two more than the negative plates",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is a maintenance-free battery?",
+    "option1": "A battery having lead-antimony plate grid",
+    "option2": "A battery having lead-calcium plate grid",
+    "option3": "A battery does not contain acid",
+    "option4": "A battery does not contain water",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is the advantage of alkaline battery?",
+    "option1": "High energy density",
+    "option2": "Good discharge characteristics over a wide range of temperature",
+    "option3": "The specific gravity of electrolyte remains the same",
+    "option4": "Cheap raw materials are used",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "A battery is an arrangement of electrolytic cells.",
+    "option1": "True",
+    "option2": "False",
+    "option3": "",
+    "option4": "",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not a requirement for a useful battery?",
+    "option1": "It should be light and compact",
+    "option2": "It should have a reasonable life span",
+    "option3": "It should ideally have a constant voltage throughout its lifespan",
+    "option4": "It should supply Alternating Current(AC)",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following statements is true regarding a primary cell?",
+    "option1": "The electrode reactions can be reversed",
+    "option2": "It can be recharged",
+    "option3": "An example of a primary cell is a mercury cell",
+    "option4": "An example of a primary cell is a nickel-cadmium storage cell",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Secondary cells are also called storage cells.",
+    "option1": "True",
+    "option2": "False",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is used as an anode in a dry cell?",
+    "option1": "Zinc",
+    "option2": "Graphite",
+    "option3": "Mercury(II) oxide",
+    "option4": "Nickel",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Why do leak proof dry cells have an iron or steel sheet covering the zinc cylinder?",
+    "option1": "It increases the potential difference between the anode and cathode",
+    "option2": "It acts as a barrier around the zinc cylinder which can develop holes during use",
+    "option3": "It makes it waterproof",
+    "option4": "It prevents the leakage of current",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is the electrolyte used in a dry cell?",
+    "option1": "Ammonium chloride",
+    "option2": "Manganese dioxide",
+    "option3": "Potassium hydroxide",
+    "option4": "Sulphuric acid",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "What is the role of manganese dioxide in a dry cell?",
+    "option1": "It acts as an electrolyte",
+    "option2": "It acts as the cathode",
+    "option3": "It acts as an anode",
+    "option4": "It acts as a depolarizer",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What is the final oxidation state of manganese after the electrochemical reactions in a dry cell?",
+    "option1": "+4",
+    "option2": "+3",
+    "option3": "+2",
+    "option4": "+1",
+    "Answer": "option2",
+    "marks": 1
+  },
+
+  {
+        "question": "Which of the following scientists invented the first dry cell?",
+        "option1": "Carl Gassner",
+        "option2": "Nikola Tesla",
+        "option3": "Antione Lavoisier",
+        "option4": "Georges Leclanché",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the final product that zinc forms during the functioning of a mercury cell?",
+        "option1": "ZnO",
+        "option2": "ZnO2",
+        "option3": "Zn",
+        "option4": "Zn(OH)2",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following appliances would not use sodium hydroxide as an electrolyte in their mercury cells?",
+        "option1": "Calculators",
+        "option2": "Hearing aids",
+        "option3": "Electronic watches",
+        "option4": "Photographic cameras with a flash",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is the voltage output of a mercury cell?",
+        "option1": "1.55V",
+        "option2": "1.35V",
+        "option3": "2.55V",
+        "option4": "1V",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following statements is not true with respect to a lead storage cell (or a lead-acid battery)?",
+        "option1": "The electrolyte used is an aqueous solution of sulphuric acid",
+        "option2": "The anode is made up of lead",
+        "option3": "The cathode is made up of lead(IV) oxide",
+        "option4": "It is a primary cell",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following products are formed when a lead storage battery is discharged?",
+        "option1": "SO2",
+        "option2": "Pb",
+        "option3": "PbO2",
+        "option4": "PbSO4",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "A light emitting diode is _________",
+        "option1": "Heavily doped",
+        "option2": "Lightly doped",
+        "option3": "Intrinsic semiconductor",
+        "option4": "Zener diode",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following materials can be used to produce infrared LED?",
+        "option1": "Si",
+        "option2": "GaAs",
+        "option3": "CdS",
+        "option4": "PbS",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The reverse breakdown voltage of LED is very low.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What should be the band gap of the semiconductors to be used as LED?",
+        "option1": "0.5 eV",
+        "option2": "1 eV",
+        "option3": "1.5 eV",
+        "option4": "1.8 eV",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What should be the biasing of the LED?",
+        "option1": "Forward bias",
+        "option2": "Reverse bias",
+        "option3": "Forward bias than Reverse bias",
+        "option4": "No biasing required",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Increase in the forward current always increases the intensity of an LED.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which process of the Electron-hole pair is responsible for emitting of light?",
+        "option1": "Generation",
+        "option2": "Movement",
+        "option3": "Recombination",
+        "option4": "Diffusion",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the bandwidth of the emitted light in an LED?",
+        "option1": "1 nm to 10 nm",
+        "option2": "10 nm to 50 nm",
+        "option3": "50 nm to 100 nm",
+        "option4": "100 nm to 500 nm",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a characteristic of LED?",
+        "option1": "Fast action",
+        "option2": "High Warm-up time",
+        "option3": "Low operational voltage",
+        "option4": "Long life",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "When does an integrated circuit exhibit greater degree of freedom and electrical performance?",
+        "option1": "In thin and thick film technology",
+        "option2": "In semiconductor technology",
+        "option3": "In semiconductor and films technology",
+        "option4": "In thick film technology only",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Give the thickness range of the film used in thin film technology",
+        "option1": "0.5-2.5 mils",
+        "option2": "0.02-8 mils",
+        "option3": "10-20 mils",
+        "option4": "0.05-0.07 mils",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which technology is used to get cheap resistors and capacitors?",
+        "option1": "Thick film technology",
+        "option2": "Thin film technology",
+        "option3": "Thin and thick film technology",
+        "option4": "None of the mentioned",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How is the process of film deposition carried out in cathode sputtering?",
+        "option1": "Slower than evaporation method",
+        "option2": "Faster than evaporation method",
+        "option3": "Similar to same as evaporation method",
+        "option4": "All of the mentioned",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How a uniform film with good crystal structure is attained in cathode sputtering process?",
+        "option1": "By hitting high energy particle directly on the substrate",
+        "option2": "Allowing Less time for the particles to deposit on the substrate",
+        "option3": "High energy particle diffuse through low pressure gas and deposits on the substrate",
+        "option4": "Heavy inert gas is used for film deposition on the substrate",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+    "question": "The E2E optical path in an OTN network is specified by layer",
+    "option1": "ODU",
+    "option2": "OTU",
+    "option3": "OCH",
+    "option4": "OPU",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "In NGN, the interface not supporting media interaction is",
+    "option1": "UNI",
+    "option2": "ANI",
+    "option3": "NNI",
+    "option4": "SNI",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Number of layers in NGN architecture are",
+    "option1": "7",
+    "option2": "6",
+    "option3": "5",
+    "option4": "4",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "In NGN communication is possible",
+    "option1": "Within a city",
+    "option2": "Within a state",
+    "option3": "Within a country",
+    "option4": "Anywhere in world",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Layers of NGN are",
+    "option1": "Access, Transport, Control, Service Layer",
+    "option2": "Physical, Data link, Network, Session Layer",
+    "option3": "Application, Session, Data link, Network, Transport, layer",
+    "option4": "Network, Application Layer",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In NGN CDF (Content Delivery Function) is a function of",
+    "option1": "Transport Stratum",
+    "option2": "Service Stratum",
+    "option3": "Transport and Service stratum",
+    "option4": "Not from above",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The wavelength range of the XG-PON1 downstream signal and the range of upstream signal on a single-fiber system are",
+    "option1": "Same",
+    "option2": "For downstream signal wavelength is greater than that of upstream signal",
+    "option3": "For downstream signal wavelength is lower than that of upstream signal",
+    "option4": "Depends on application it varies",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "---------- multiplexing is used in 3G.",
+    "option1": "FDMA",
+    "option2": "CDMA",
+    "option3": "TDMA",
+    "option4": "Not From Above",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "MPLS header length is a field of ---- bits.",
+    "option1": "32",
+    "option2": "24",
+    "option3": "20",
+    "option4": "8",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "8000 frames/sec are transmitted in 125 µsec, in",
+    "option1": "STM-4",
+    "option2": "STM-64",
+    "option3": "STM-1",
+    "option4": "STM-256",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "The use of EXP (Experimental) bits are",
+    "option1": "Quality of service",
+    "option2": "Avoid a packet being stuck in a routing loop",
+    "option3": "Receiving, transmitting a labeled packet on a data link.",
+    "option4": "Not from above",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The protection scheme in an OTN network is defined by",
+    "option1": "G 709",
+    "option2": "G 873.1",
+    "option3": "G 798",
+    "option4": "G 872",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "SDH is ----------",
+    "option1": "Session layer Protocol",
+    "option2": "Transport layer Protocol",
+    "option3": "Service Protocol",
+    "option4": "Application Protocol",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Data speed in 5G is --------",
+    "option1": "More than 1Gbps",
+    "option2": "64Kbps",
+    "option3": "2 Mbps",
+    "option4": "4 Kbps",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "TTL in a MPLS label is",
+    "option1": "Transistor Transistor Logic",
+    "option2": "Time To Live",
+    "option3": "Technology Transfer Layer",
+    "option4": "Not from above",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "NGN is a _______ Network.",
+    "option1": "Packet-based",
+    "option2": "Message-based",
+    "option3": "IP-based",
+    "option4": "Circuit –based",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In NGN, the interface not supporting media interaction is",
+    "option1": "UNI",
+    "option2": "NNI",
+    "option3": "SNI",
+    "option4": "ANI",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Pick the odd one out of the application of Next Generation Network",
+    "option1": "Emergency Calling Services",
+    "option2": "Intelligent Call Routing",
+    "option3": "Advanced Toll Free",
+    "option4": "ATM",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "__________ Functions provide the connectivity for all components and physically separated units within the NGN.",
+    "option1": "Transport layer",
+    "option2": "Service layer",
+    "option3": "Data link layer",
+    "option4": "Control layer",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Media Gateways are located in _______________ of NGN.",
+    "option1": "Access Layer",
+    "option2": "Transport Layer",
+    "option3": "Control Layer",
+    "option4": "Service Layer",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "____________supports services such as voice or video telephony subscribe and message.",
+    "option1": "Network components",
+    "option2": "Modem",
+    "option3": "PSTN/ISDN emulation service component",
+    "option4": "IP multimedia service component",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "_____________ provides functions such as media conversion and echo control.",
+    "option1": "Trunk Media gateway",
+    "option2": "Access gateway",
+    "option3": "Signaling gateway",
+    "option4": "Border Gateway",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The _________ provides the signaling interface between the VoIP network and the PSTN signaling network",
+    "option1": "Signaling gateway",
+    "option2": "Access gateway",
+    "option3": "Border Gateway",
+    "option4": "Trunk Media gateway",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Pick the odd one out of the NGN Network components",
+    "option1": "Access gateway",
+    "option2": "PSTN",
+    "option3": "GSM",
+    "option4": "Trunk Media gateway",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Session Border Controller provides functions such as ___________.",
+    "option1": "Network Address Translation and Firewall Traversal",
+    "option2": "Call logic and call control functions",
+    "option3": "Packetisation, echo control",
+    "option4": "Announcements and tones, and collect user information",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The radio spectrum is the part of the electromagnetic spectrum with frequencies from -----.",
+    "option1": "87.5 to 108.0 MHz",
+    "option2": "148.5 kHz–283.5 kHz",
+    "option3": "30 Hertz to 300 GHz",
+    "option4": "1.711 MHz–30.0 MHz",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "In licensed radio bands, _____________ frequency range is between 840 MHz, 900MHz.",
+    "option1": "AM broadcast",
+    "option2": "FM broadcast",
+    "option3": "Television",
+    "option4": "Cellular phones",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The ultra-high frequency band of radio waves in the electromagnetic wave is used as in _____.",
+    "option1": "Commercial FM radio",
+    "option2": "Television",
+    "option3": "Cellular phone communication",
+    "option4": "Microwaves",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Industrial, Scientific, Medical type includes several medical monitors and other devices that operate in the _________.",
+    "option1": "900-MHZ, 2.4-GHz",
+    "option2": "500-MHZ, 2.4-MHz",
+    "option3": "100-KHZ, 2.4 KHz",
+    "option4": "900-MHZ, 4.5-GHz",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "_________ manages and sets standards with regard to the spectrum use.",
+    "option1": "Wi-Fi Alliance",
+    "option2": "European Telecommunications Standards Institute",
+    "option3": "Federal Communications Commission",
+    "option4": "WLAN Association",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Identify from the following unlicensed radio band application.",
+    "option1": "Commercial FM radio",
+    "option2": "Aeronautical navigation service",
+    "option3": "Television",
+    "option4": "Cellular phones",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "In FTTH, following protocol is used for up streaming directions.",
+    "option1": "TDMA",
+    "option2": "CDMA",
+    "option3": "FDMA",
+    "option4": "PDMA",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "In FTTH, telemedicine is ------------ service",
+    "option1": "Symmetric",
+    "option2": "Asymmetric",
+    "option3": "balanced",
+    "option4": "Unbalanced",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "FTTx architecture can be applicable for --",
+    "option1": "Symmetric broadband",
+    "option2": "Asynchronous",
+    "option3": "Asymmetric broadband",
+    "option4": "point-to-point or point-to-multipoint",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "The ____________ would include the modulation schemes for both the upstream and downstream channels",
+    "option1": "Transmission Convergence layer",
+    "option2": "ATM layer",
+    "option3": "session layer",
+    "option4": "Physical Media Dependent layer",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+        "question": "FTTx network architecture uses --------medium between ONU and OLT.",
+        "option1": "Copper",
+        "option2": "Fiber",
+        "option3": "Glass",
+        "option4": "Metal",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "OLT provides interface to-----",
+        "option1": "subscriber and the subscribed services.",
+        "option2": "Television to CD player",
+        "option3": "Waveguide to antenna",
+        "option4": "OTDR to waveguide",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In MPLS for TTL (Time to Live) the Number of bits used are ________",
+        "option1": "20",
+        "option2": "3",
+        "option3": "1",
+        "option4": "8",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "In MPLS Network, at the first Edge LSR, label is added to the packet. This process is called____",
+        "option1": "PUSH",
+        "option2": "POP",
+        "option3": "SWAP",
+        "option4": "XCH",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "MPLS technology efficiently supports to",
+        "option1": "Network services",
+        "option2": "IP Based services",
+        "option3": "Circuit based services",
+        "option4": "Packet-based services",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The software substituted for hardware and stored in ROM.",
+        "option1": "Synchronous Software",
+        "option2": "Package Software",
+        "option3": "Firmware",
+        "option4": "Middleware",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Middleware has enabled the production of various types of smart machines having microprocessor chips with embedded software.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A “glue” between client and server parts of application.",
+        "option1": "Middleware",
+        "option2": "Firmware",
+        "option3": "Package",
+        "option4": "System Software",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "MOM stands for?",
+        "option1": "Message oriented middleware",
+        "option2": "Mails oriented middleware",
+        "option3": "Middleware of messages",
+        "option4": "Main object middleware",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Storage of firmware is ___________",
+        "option1": "Cache Memory",
+        "option2": "RAM",
+        "option3": "External",
+        "option4": "ROM",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "DNS stands for?",
+        "option1": "Domain Name System",
+        "option2": "Direct Name System",
+        "option3": "Direct Network System",
+        "option4": "Domain Network System",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "A software that lies between the OS and the applications running on it.",
+        "option1": "Firmware",
+        "option2": "Middleware",
+        "option3": "Utility Software",
+        "option4": "Application Software",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A type of middleware that allows for between the built-in applications and the real-time OS?",
+        "option1": "Firmware",
+        "option2": "Database middleware",
+        "option3": "Portals",
+        "option4": "Embedded Middleware",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What is the other name for object middleware?",
+        "option1": "Object request interface",
+        "option2": "Object enabled interface",
+        "option3": "Object Request broker",
+        "option4": "Object enabled broker",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "The _______ calls certain procedures on remote systems and is used to perform synchronous or asynchronous interactions between systems.",
+        "option1": "Procedure",
+        "option2": "RPC",
+        "option3": "Message Oriented",
+        "option4": "DB",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "What is the name of the web browsing format language supported by 2.5G technology?",
+        "option1": "Wireless Application Protocol",
+        "option2": "Hypertext Markup Language",
+        "option3": "Extensible Markup Language",
+        "option4": "Hypertext Transfer Protocol",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the name of the internet microbrowser technology used by NTT DoCoMo in Japan?",
+        "option1": "Wireless Application Protocol",
+        "option2": "I-mode",
+        "option3": "W-mode",
+        "option4": "Hypertext Markup Language",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "2.5G upgrade path for a particular wireless carrier does not match the original 2G technology choice made earlier by the same carrier.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is not a TDMA standard of 2.5G network?",
+        "option1": "HSCSD",
+        "option2": "GPRS",
+        "option3": "EDGE",
+        "option4": "GSM",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which of the following is a 2.5G CDMA standard?",
+        "option1": "IS-95",
+        "option2": "Cdma2000",
+        "option3": "IS-95B",
+        "option4": "CdmaOne",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "HSCSD supports which 2G standard?",
+        "option1": "GSM",
+        "option2": "IS-136",
+        "option3": "GSM and IS-136",
+        "option4": "PDC",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "How does HSCSD differs from the GSM to obtain higher speed data rate?",
+        "option1": "By allowing single user to use one specific time slot",
+        "option2": "By allowing single user to use consecutive user time slots",
+        "option3": "By using 8-PSK modulation technique",
+        "option4": "By allowing multiple users to use individual time slot",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "GPRS and EDGE supports which 2G standard?",
+        "option1": "GSM only",
+        "option2": "IS-136 only",
+        "option3": "GSM and IS-136 both",
+        "option4": "PDC",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "How is HSCSD different from GPRS?",
+        "option1": "Infrastructure",
+        "option2": "Multiple Access Scheme",
+        "option3": "Modulation technique",
+        "option4": "Switching Technique",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "What changes GPRS need to acquire while upgrading itself from GSM?",
+        "option1": "A whole new base station",
+        "option2": "New transceiver at base station",
+        "option3": "New channel cards",
+        "option4": "New packet overlay including routers and gateways",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "TDD is effective for _________",
+        "option1": "Fixed wireless access and users are stationary",
+        "option2": "Dynamic wireless access and users are stationary",
+        "option3": "Fixed wireless access and users are moving",
+        "option4": "Dynamic wireless access and users are moving",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "In wideband systems, the transmission bandwidth of a single channel _________ coherence bandwidth of the channel.",
+        "option1": "Equal to",
+        "option2": "Not related to",
+        "option3": "Larger than",
+        "option4": "Smaller than",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "In narrowband system, the channels are usually operated using TDD.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Narrowband FDMA allows users to share the same radio channel allocating a unique time slot to each user.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which UE category supports 64 QAM on the uplink?",
+        "option1": "Only category 5",
+        "option2": "Only category 4",
+        "option3": "Only category 3",
+        "option4": "Category 3,4 and 5",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What type of handovers is supported by LTE?",
+        "option1": "Hard handover only",
+        "option2": "Soft handover only",
+        "option3": "Hard and soft handover",
+        "option4": "Hard, soft and softest handover",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "What is the minimum amount of RF spectrum needed for an FDD LTE radio channel?",
+        "option1": "1.4 MHz",
+        "option2": "2.8 MHz",
+        "option3": "5 MHz",
+        "option4": "20 MHz",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which organization is responsible for developing LTE standards?",
+        "option1": "UMTS",
+        "option2": "3GPP",
+        "option3": "3GPP2",
+        "option4": "ISO",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Which channel indicates the number of symbols used by the PDCCH?",
+        "option1": "PHICH",
+        "option2": "PDCCH",
+        "option3": "PBCH",
+        "option4": "PCFICH",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How often can resources be allocated to the UE?",
+        "option1": "Every symbol",
+        "option2": "Every slot",
+        "option3": "Every subframe",
+        "option4": "Every frame",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "What is the largest channel bandwidth a UE is required to support in LTE?",
+        "option1": "10 MHz",
+        "option2": "20 MHz",
+        "option3": "1.4 MHz",
+        "option4": "5 MHz",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "In LTE, what is the benefit of PAPR reduction in the uplink?",
+        "option1": "Improved uplink coverage",
+        "option2": "Lower UE power consumption",
+        "option3": "Reduced equalizer complexity",
+        "option4": "Improved uplink coverage, lower UE power consumption and reduced equalizer",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "Which RLC mode adds the least amount of delay to user traffic?",
+        "option1": "Unacknowledged mode (UM)",
+        "option2": "Acknowledged mode (AM)",
+        "option3": "Low latency mode (LM)",
+        "option4": "Transparent mode (TM)",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "How much bandwidth is required to transmit the primary and secondary synchronization signals?",
+        "option1": "1.08 MHz",
+        "option2": "1.4 MHz",
+        "option3": "930 kHz",
+        "option4": "20 MHz",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_______ is responsible for tunneling multicast packets to the MS‘s currently subscribed FA.",
+        "option1": "Multicast home agent",
+        "option2": "Mobile multicast",
+        "option3": "Mobile station",
+        "option4": "Base station",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Every MS can have only one MHA.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_______ provides a fast and efficient handoff for MSs in foreign networks.",
+        "option1": "MHA",
+        "option2": "MMP",
+        "option3": "CBT",
+        "option4": "MS",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "MMP combines the concepts of _______ and ________",
+        "option1": "Mobile IPs, GSM",
+        "option2": "Core based trees, GSM",
+        "option3": "Mobile IPs, core based trees",
+        "option4": "Core based trees, LTE",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "_______ designed for an Internet work environment with small wireless cells.",
+        "option1": "MMP",
+        "option2": "RMDP",
+        "option3": "RM2",
+        "option4": "Mobicast",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "_______ serve as multicast forwarding agents and are meant to isolate the mobility of the mobile host from the main multicast delivery tree.",
+        "option1": "DFA",
+        "option2": "MHA",
+        "option3": "FA",
+        "option4": "MMP",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Mobicast is based on a method proposed by the IETF to support multicast over Mobile-IP.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "_______ is meant to be implemented for use on the MBONE.",
+        "option1": "MMP",
+        "option2": "RMDP",
+        "option3": "RM2",
+        "option4": "Mobicast",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "__________ is a reliable multicast protocol and is used for both wired and wireless environments.",
+        "option1": "MMP",
+        "option2": "RMDP",
+        "option3": "RM2",
+        "option4": "Mobicast",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "____________ relies on IGMP.",
+        "option1": "MMP",
+        "option2": "RMDP",
+        "option3": "RM2",
+        "option4": "Mobicast",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Each stage of information transfer is required to follow the fundamentals of ____________",
+        "option1": "Optical interconnection",
+        "option2": "Optical hibernation",
+        "option3": "Optical networking",
+        "option4": "Optical regeneration",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "____________ is a multi-functional element of optical network.",
+        "option1": "Hop",
+        "option2": "Optical node",
+        "option3": "Wavelength",
+        "option4": "Optical attenuation",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "A signal carried on a dedicated wavelength from source to destination node is known as a ___________",
+        "option1": "Light path",
+        "option2": "Light wave",
+        "option3": "Light node",
+        "option4": "Light source",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "The fundamentals of optical networking are divided into _______ areas.",
+        "option1": "Two",
+        "option2": "One",
+        "option3": "Four",
+        "option4": "Three",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+        "question": "The optical networking fundamentals are _____________ of the transmission techniques.",
+        "option1": "Dependent",
+        "option2": "Independent",
+        "option3": "Similar",
+        "option4": "Dissimilar",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The network structure formed due to the interconnectivity patterns is known as a ____________",
+        "option1": "Network",
+        "option2": "Struck",
+        "option3": "Topology",
+        "option4": "D-pattern",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+    "question": "In the __________ topology, the data generally circulates bi-directionally.",
+    "option1": "Mesh",
+    "option2": "Bus",
+    "option3": "Star",
+    "option4": "Ring",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "The ring and star topologies are combined in a ________ configuration.",
+    "option1": "Mesh",
+    "option2": "Fringe",
+    "option3": "Data",
+    "option4": "Singular",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "The full-mesh configuration is complex.",
+    "option1": "False",
+    "option2": "True",
+    "option3": "",
+    "option4": "",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "How many networking modes are available to establish a transmission path?",
+    "option1": "Three",
+    "option2": "One",
+    "option3": "Two",
+    "option4": "Four",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Packet switching is also called as ___________",
+    "option1": "Frame switching",
+    "option2": "Cell switching",
+    "option3": "Trans-switching",
+    "option4": "Buffer switching",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "___________ mode is temporary, selective and continuous.",
+    "option1": "Cell switching",
+    "option2": "Buffer switching",
+    "option3": "Cache",
+    "option4": "Circuit switching",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "A _______________ is a series of logical connections between the source and destination nodes.",
+    "option1": "Cell circuit",
+    "option2": "Attenuation circuit",
+    "option3": "Virtual circuit",
+    "option4": "Switched network",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "___________ refers to the process whereby a node finds one or more paths to possible destinations in a network.",
+    "option1": "Routing",
+    "option2": "Framing",
+    "option3": "Lightning",
+    "option4": "Cloning",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "How many stages are possessed by the control plane?",
+    "option1": "Two",
+    "option2": "Three",
+    "option3": "Four",
+    "option4": "Five",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Optical switching can be classified into ________ categories.",
+    "option1": "Two",
+    "option2": "Three",
+    "option3": "Four",
+    "option4": "One",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "__________________ are the array of switches which forms circuit switching fabrics.",
+    "option1": "Packet arrays",
+    "option2": "Optical cross connects",
+    "option3": "Circuit arrays",
+    "option4": "Optical networks",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "__________ is an example of a static circuit-switched network.",
+    "option1": "OXC",
+    "option2": "Circuit regenerator",
+    "option3": "Packet resolver",
+    "option4": "SDH/SONET",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What is the main disadvantage of OCS?",
+    "option1": "Regenerating mechanism",
+    "option2": "Optical session",
+    "option3": "Time permit",
+    "option4": "Disability to handle burst traffic",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Optical electro-conversions takes place in _________________ networks.",
+    "option1": "Sessional",
+    "option2": "Optical packet-switched",
+    "option3": "Optical circuit-switched",
+    "option4": "Circular",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "How many functions are performed by an optical packet switch?",
+    "option1": "Four",
+    "option2": "Three",
+    "option3": "Two",
+    "option4": "One",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "____________ provides data storage for packets to resolve contention problems.",
+    "option1": "Switching",
+    "option2": "Routing",
+    "option3": "Buffering",
+    "option4": "Reversing",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "What is usually required by a packet to ensure that the data is not overwritten?",
+    "option1": "Header",
+    "option2": "Footer",
+    "option3": "Guard band",
+    "option4": "Payload",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Routing technique is faster than the labeling technique.",
+    "option1": "False",
+    "option2": "True",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "______________ provides efficient designation, routing, forwarding, switching of traffic through an optical packet-switched network.",
+    "option1": "Label correlation",
+    "option2": "Multiprotocol label switching",
+    "option3": "Optical correlation",
+    "option4": "Routing",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "MPLS is independent of layer 2 and 3 in the OSI model.",
+    "option1": "True",
+    "option2": "False",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following service is provided by Multiprotocol label switching (MPLS)?",
+    "option1": "Data forwarding",
+    "option2": "Routing",
+    "option3": "VPN‘s",
+    "option4": "Switching",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Burst header cell is also known as _____________",
+    "option1": "Burst channel",
+    "option2": "Burst header circuit",
+    "option3": "Burst regenerator",
+    "option4": "Burst header packet",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "What is the exception in the similarities between the optical Ethernet and the Ethernet LAN?",
+    "option1": "Physical layer",
+    "option2": "Data-link layer",
+    "option3": "Refractive index",
+    "option4": "Attenuation mechanism",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "Which technology is used by optical Ethernet?",
+    "option1": "GP-technology",
+    "option2": "HJ-technology",
+    "option3": "IP-technology",
+    "option4": "GB-technology",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "When was the Gigabit Ethernet network developed?",
+    "option1": "1977",
+    "option2": "1988",
+    "option3": "1990",
+    "option4": "2002",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "Optical Ethernet can operate at the transmission rates as low as ______________",
+    "option1": "10 M bits per second",
+    "option2": "40 M bits per second",
+    "option3": "100 M bits per second",
+    "option4": "1000 M bits per second",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+    "question": "How many types of optical Ethernet connections are developed?",
+    "option1": "Two",
+    "option2": "One",
+    "option3": "Four",
+    "option4": "Three",
+    "Answer": "option4",
+    "marks": 1
+  },
+  {
+    "question": "Which type of connection can be used as an Ethernet switch?",
+    "option1": "Point-to-point",
+    "option2": "Multipoint-to-multipoint",
+    "option3": "Multipoint-to-point",
+    "option4": "Point-to-multipoint",
+    "Answer": "option2",
+    "marks": 1
+  },
+  {
+    "question": "How many aspects are included in the standard Ethernet protocol?",
+    "option1": "One",
+    "option2": "Two",
+    "option3": "Four",
+    "option4": "Three",
+    "Answer": "option3",
+    "marks": 1
+  },
+  {
+    "question": "Which of the following is not included in the Ethernet frame format?",
+    "option1": "MAC",
+    "option2": "Preamble",
+    "option3": "Destination address",
+    "option4": "Source address",
+    "Answer": "option1",
+    "marks": 1
+  },
+  {
+        "question": "The _______________ provides point-to-point access to a bidirectional single-mode optical fiber.",
+        "option1": "Optical regenerator",
+        "option2": "Optical session",
+        "option3": "Optical distribution node",
+        "option4": "Optical buffer",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "_______________ is the de-multiplexing technique used to split SONET bandwidth into logical groups.",
+        "option1": "SDH",
+        "option2": "Virtual concatenation",
+        "option3": "STS-1",
+        "option4": "Optical breakdown",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "Ethernet switches support multiprotocol label switching.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option1",
+        "marks": 1
+    },
+    {
+        "question": "Length field in MAC frame ensures that the frame signals stay on the network in order to detect the frame within the correct time limit.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "",
+        "option4": "",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The ___________ protocol is not used when the Ethernet connections are configured for a full duplex operation.",
+        "option1": "TCP/IP",
+        "option2": "MAC",
+        "option3": "CSMA/CD",
+        "option4": "DTH",
+        "Answer": "option3",
+        "marks": 1
+    },
+    {
+        "question": "Optical Ethernet provides switching capabilities in layers ________",
+        "option1": "1 and 2",
+        "option2": "2 and 3",
+        "option3": "3 and 4",
+        "option4": "1 and 4",
+        "Answer": "option2",
+        "marks": 1
+    },
+    {
+        "question": "The ______________ approach can provide interconnection among multiple site locations within 40 km range.",
+        "option1": "3 Gbe",
+        "option2": "5 Gbe",
+        "option3": "1 Gbe",
+        "option4": "10 Gbe",
+        "Answer": "option4",
+        "marks": 1
+    },
+    {
+    "question": "Agriculture IoT stick is smart gadget work on principle of",
+    "option1": "Plug & sense",
+    "option2": "Plug and play",
+    "option3": "Plug and work",
+    "option4": "Plug and socket",
+    "Answer": "option1"
+  },
+  {
+    "question": "Vehicle communication, driverless car, connected cars are the example of IoT in",
+    "option1": "Agriculture",
+    "option2": "Electronics",
+    "option3": "Automotive",
+    "option4": "Discrete Manufacturing",
+    "Answer": "option3"
+  },
+  {
+    "question": "Real time driver monitor system to detect monitor fatigue level of driver using IoT in automotive includes",
+    "option1": "Sensors to detect eye blinks, gas, impact sensors and alcohol detecting sensors",
+    "option2": "Sensors for GPS",
+    "option3": "Fluid level sensors",
+    "option4": "RFID tags",
+    "Answer": "option1"
+  },
+  {
+    "question": "Movement of materials from suppliers to shop floor and throughout the assembly line can be tracked with the help of",
+    "option1": "GSM",
+    "option2": "GPS",
+    "option3": "Gyroscope",
+    "option4": "RFID",
+    "Answer": "option4"
+  },
+  {
+    "question": "Nut and Bolt manufacturing is an example of discrete manufacturing with",
+    "option1": "High complexity and low volume",
+    "option2": "Low complexity and high volume",
+    "option3": "Low complexity low volume",
+    "option4": "High complexity high volume",
+    "Answer": "option2"
+  },
+  {
+    "question": "The first revolution is about",
+    "option1": "Water and steam to mechanize production",
+    "option2": "Mass production Electronics & IT",
+    "option3": "Electric power",
+    "option4": "Mass Production",
+    "Answer": "option1"
+  },
+  {
+    "question": "Electrical power and locomotives are the inventions of",
+    "option1": "First revolution",
+    "option2": "Second revolution",
+    "option3": "Third Revolution",
+    "option4": "Fourth revolution",
+    "Answer": "option2"
+  },
+  {
+    "question": "What is an industrial revolution?",
+    "option1": "Significant change that affects a single industry only",
+    "option2": "New technologies and novel ways of perceiving the world that trigger a profound change in economic and social structures",
+    "option3": "An event that happened in a previous century and doesn't affect modern society",
+    "option4": "A series of technological advances that may or may not have a profound effect on societies",
+    "Answer": "option2"
+  },
+  {
+    "question": "Which series of events best describes the transformations of the first three industrial revolutions?",
+    "option1": "Mechanization of production; introduction of mass production; the digital revolution",
+    "option2": "Mechanization of production; invention of steamships and railroads; the digital revolution",
+    "option3": "Discovery of electricity; the growth of mass production; the digital revolution",
+    "option4": "Mechanization of production; the agrarian revolution; the digital revolution",
+    "Answer": "option1"
+  },
+  {
+    "question": "Steps to turn big data become smart data. Please choose the correct one.",
+    "option1": "Data > Knowledge > Information > Wisdom > Decisions",
+    "option2": "Data > Information > Knowledge > Wisdom > Decisions",
+    "option3": "Data > Information >> Decisions > Wisdom > Knowledge",
+    "option4": "Data > Information > Wisdom > Knowledge > Decisions",
+    "Answer": "option2"
+  },
+  {
+    "question": "When a mobile user is connected to the mobile service, how many sets of information is exchanged?",
+    "option1": "1",
+    "option2": "2",
+    "option3": "3",
+    "option4": "4",
+    "Answer": "option2"
+  },
+  {
+    "question": "Point out the wrong statement.",
+    "option1": "Each mobile device contains and is capable of transmitting a large amount of information concerning the condition or state of the device and the user who carries the device",
+    "option2": "Location is the prime example of context",
+    "option3": "When we search for something near us, the search engine returns results that are independent of location",
+    "option4": "All of the mentioned",
+    "Answer": "option3"
+  },
+  {
+    "question": "Which of the following context contains information derived from measurements made from the mobile device or its sensors?",
+    "option1": "Physical",
+    "option2": "External",
+    "option3": "Logical",
+    "option4": "All of the mentioned",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which of the following context contains information derived from the user or from the manner in which the user has interacted with services over time?",
+    "option1": "Physical",
+    "option2": "External",
+    "option3": "Logical",
+    "option4": "All of the mentioned",
+    "Answer": "option3"
+  },
+  {
+    "question": "Point out the correct statement.",
+    "option1": "When a phone transmits its GPS coordinates to a service, that service may be able to compare that location to the customer‘s registered home address",
+    "option2": "Only one mechanisms exist for aggregating WSDL documents into a searchable form",
+    "option3": "AJAX is an OASIS standard that is searchable and is in the JSON format",
+    "option4": "All of the mentioned",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which of the following provides a set of methods for using modules to construct loosely coupled complex systems from standard parts?",
+    "option1": "SOA",
+    "option2": "OCCI",
+    "option3": "WCF",
+    "option4": "None of the mentioned",
+    "Answer": "option1"
+  },
+  {
+    "question": "What is the role played by Web service in SOA?",
+    "option1": "service consumer",
+    "option2": "service provider",
+    "option3": "service user",
+    "option4": "none of the mentioned",
+    "Answer": "option2"
+  },
+  {
+    "question": "Which of the following plays the role of the orchestrator providing programmed logic that works with the data parsed by the Context Parser?",
+    "option1": "Context Logic Processor",
+    "option2": "Context Physical Processor",
+    "option3": "Context View Processor",
+    "option4": "All of the mentioned",
+    "Answer": "option1"
+  },
+  {
+    "question": "The specific ontology that applies to a mobile SOA is",
+    "option1": "WOL",
+    "option2": "OWL",
+    "option3": "oXML",
+    "option4": "None of the mentioned",
+    "Answer": "option1"
+  },
+  {
+    "question": "The concept of creating a structured representation of concepts and their relationship in a domain is referred to as",
+    "option1": "analogy",
+    "option2": "ontology",
+    "option3": "generalization",
+    "option4": "all of the mentioned",
+    "Answer": "option2"
+  },
+  {
+    "question": "Identify one that is not the element of IoT",
+    "option1": "People",
+    "option2": "Process",
+    "option3": "Security",
+    "option4": "Things",
+    "Answer": "option1"
+  },
+  {
+    "question": "Recognize the first IoT Device",
+    "option1": "Smart watch",
+    "option2": "ATM",
+    "option3": "Radio",
+    "option4": "Video card",
+    "Answer": "option2"
+  },
+  {
+    "question": "The role of gateway is to",
+    "option1": "Collect data",
+    "option2": "Manage data",
+    "option3": "Security",
+    "option4": "Store data",
+    "Answer": "option1"
+  },
+  {
+    "question": "IoT is evolved from ___ communication",
+    "option1": "M2M",
+    "option2": "B2B",
+    "option3": "M2B",
+    "option4": "M2H",
+    "Answer": "option1"
+  },
+  {
+    "question": "IoT is natural extension of",
+    "option1": "I3.0",
+    "option2": "Smart factory",
+    "option3": "Computer",
+    "option4": "SCADA",
+    "Answer": "option4"
+  },
+  {
+    "question": "_____ are smart devices that uses embedded processors, sensors and communication hardware to collect and send data which is acquired from environment.",
+    "option1": "Computers",
+    "option2": "Networks",
+    "option3": "Things",
+    "option4": "Protocols",
+    "Answer": "option3"
+  },
+  {
+    "question": "Device layer elements are",
+    "option1": "Sensors, Actuators, Transceivers",
+    "option2": "PLC, SCADA",
+    "option3": "Cloud, Data centre",
+    "option4": "Switches, Gateways",
+    "Answer": "option1"
+  },
+  {
+    "question": "Analysis, Storage and Management of data accomplished at",
+    "option1": "IoT Gateway level",
+    "option2": "Data centre/cloud",
+    "option3": "Edge IT",
+    "option4": "Interface of sensors and actuators",
+    "Answer": "option2"
+  },
+  {
+    "question": "Machine Learning and visualization technology generally accomplished at",
+    "option1": "IoT Gateway",
+    "option2": "Sensor level",
+    "option3": "Edge IT",
+    "option4": "Things level",
+    "Answer": "option3"
+  },
+  {
+    "question": "_____ devices are able to intervene the physical reality like switching of the light or adjust the temperature of room.",
+    "option1": "IoT Gateway",
+    "option2": "Cloud",
+    "option3": "Sensor",
+    "option4": "Actuators",
+    "Answer": "option4"
+  },
+  {
+    "question": "Operations on server side is done at_____",
+    "option1": "Device Layer",
+    "option2": "Gateway Layer",
+    "option3": "Platform Layer",
+    "option4": "Data Centre",
+    "Answer": "option2"
+  },
+  {
+    "question": "Data aggregation and Data Acquisition systems takes place at ___ layer",
+    "option1": "Stage 2 Gateway level",
+    "option2": "Stage 1 Sensor level",
+    "option3": "Stage 3 Edge IT level",
+    "option4": "Stage 4 Cloud level",
+    "Answer": "option1"
+  },
+  {
+    "question": "Vehicle Communication, driverless car, connected cars are the examples of IoT in:",
+    "option1": "Agriculture",
+    "option2": "Electronics",
+    "option3": "Automotive",
+    "option4": "Discrete Manufacturing",
+    "Answer": "option3"
+  },
+  {
+    "question": "\"______\" is the industry term for the manufacture of finished products that are distinct items capable of being easily counted, touched or seen",
+    "option1": "Discrete Manufacturing",
+    "option2": "Smart Manufacturing",
+    "option3": "Digital Manufacturing",
+    "option4": "Intelligent Manufacturing",
+    "Answer": "option1"
+  },
+  {
+    "question": "Real time driver monitor system to detect monitor fatigue level of driver using IoT in automotive includes",
+    "option1": "RFID Tags",
+    "option2": "Sensors for GPS",
+    "option3": "Fluid level sensors",
+    "option4": "Sensors to detect eye blinks, gas, impact sensors and alcohol detecting sensors",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of the following is more appropriate about connected cars?",
+    "option1": "Cars with GPS capability",
+    "option2": "Cars with internet surf capabilities",
+    "option3": "Internet enabled cars having communication with other cars",
+    "option4": "Car with infotainment service",
+    "Answer": "option3"
+  },
+  {
+    "question": "Aircraft or satellite manufacturing is an example of discrete manufacturing with",
+    "option1": "High Complexity and Low volume",
+    "option2": "Low Complexity and high volume",
+    "option3": "Low Complexity and low volume",
+    "option4": "High Complexity and high volume",
+    "Answer": "option1"
+  },
+  {
+    "question": "Smart farming can be achieved by using:",
+    "option1": "Humidity sensors",
+    "option2": "IoT stick",
+    "option3": "pH sensors",
+    "option4": "Temperature sensors",
+    "Answer": "option2"
+  },
+  {
+    "question": "____ Technologies enables user to produce more and faster with efficient allocation of resources.",
+    "option1": "I1.0",
+    "option2": "I2.0",
+    "option3": "I3.0",
+    "option4": "I4.0",
+    "Answer": "option2"
+  },
+  {
+    "question": "The aspects like Economy, Business, Society was impacted by____",
+    "option1": "I1.0",
+    "option2": "I2.0",
+    "option3": "I3.0",
+    "option4": "I4.0",
+    "Answer": "option1"
+  },
+  {
+    "question": "What is cyber security?",
+    "option1": "Provides security against malware",
+    "option2": "Provides security against cyber-terrorists",
+    "option3": "Protects a system from cyber attacks",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "What does cyber security protect?",
+    "option1": "Criminals",
+    "option2": "Internet-connected systems",
+    "option3": "Hackers",
+    "option4": "None of the above",
+    "Answer": "option2"
+  },
+  {
+    "question": "Who is the father of computer security?",
+    "option1": "August Kerckhoffs",
+    "option2": "Bob Thomas",
+    "option3": "Robert",
+    "option4": "Charles",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which of the following is an objective of network security?",
+    "option1": "Confidentiality",
+    "option2": "Integrity",
+    "option3": "Availability",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of the following is defined as an attempt to steal, spy, damage or destroy computer systems, networks, or their associated information?",
+    "option1": "Cyberattack",
+    "option2": "Computer security",
+    "option3": "Cryptography",
+    "option4": "Digital hacking",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which of the following is a type of cyber security?",
+    "option1": "Cloud Security",
+    "option2": "Network Security",
+    "option3": "Application Security",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "What are the features of cyber security?",
+    "option1": "Compliance",
+    "option2": "Defense against internal threats",
+    "option3": "Threat Prevention",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of the following is not a cybercrime threat?",
+    "option1": "Denial of Service",
+    "option2": "Man in the Middle",
+    "option3": "Malware",
+    "option4": "AES",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of the following is a component of cyber security?",
+    "option1": "Internet Of Things",
+    "option2": "AI",
+    "option3": "Database",
+    "option4": "Attacks",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which of the following is a type of cyber attack?",
+    "option1": "Phishing",
+    "option2": "SQL Injections",
+    "option3": "Password Attack",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of the following is not an advantage of cyber security?",
+    "option1": "Makes the system slower",
+    "option2": "Minimizes computer freezing and crashes",
+    "option3": "Gives privacy to users",
+    "option4": "Protects system against viruses",
+    "Answer": "option1"
+  },
+  {
+    "question": "“Cyberspace” was coined by _________",
+    "option1": "Richard Stallman",
+    "option2": "William Gibson",
+    "option3": "Andrew Tannenbaum",
+    "option4": "Scott Fahlman",
+    "Answer": "option2"
+  },
+  {
+    "question": "In ____________ hacking became a practical crime and a matter of concern in the field of cyber technology.",
+    "option1": "1991",
+    "option2": "1983",
+    "option3": "1970",
+    "option4": "1964",
+    "Answer": "option3"
+  },
+  {
+    "question": "Governments hired some highly skilled hackers for providing cyber security for the country or state. These types of hackers are termed as _______",
+    "option1": "Nation / State sponsored hackers",
+    "option2": "CIA",
+    "option3": "Special Hackers",
+    "option4": "Government Hackers",
+    "Answer": "option1"
+  },
+  {
+    "question": "The Computer Fraud & Abuse Act was adopted in the United States in the year _______________",
+    "option1": "1985",
+    "option2": "1987",
+    "option3": "1989",
+    "option4": "1984",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of the following act violates cyber security?",
+    "option1": "Exploit",
+    "option2": "Attack",
+    "option3": "Threat",
+    "option4": "Vulnerability",
+    "Answer": "option2"
+  },
+  {
+    "question": "Which of the following actions compromise cyber security?",
+    "option1": "Vulnerability",
+    "option2": "Attack",
+    "option3": "Threat",
+    "option4": "Exploit",
+    "Answer": "option3"
+  },
+  {
+    "question": "Which of the following is the hacking approach where cyber-criminals design fake websites or pages for tricking or gaining additional traffic?",
+    "option1": "Pharming",
+    "option2": "Website-Duplication",
+    "option3": "Mimicking",
+    "option4": "Spamming",
+    "Answer": "option1"
+  },
+  {
+    "question": "_____________ is not a type of peer-to-peer cyber-crime?",
+    "option1": "MiTM",
+    "option2": "Injecting Trojans to a target victim",
+    "option3": "Credit card details leak in the deep web",
+    "option4": "Phishing",
+    "Answer": "option3"
+  },
+  {
+    "question": "Gaining Wi-Fi access dishonestly is not a cyber-crime.",
+    "option1": "False",
+    "option2": "True",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1"
+  },
+  {
+    "question": "A cyber-criminal or penetration tester uses the additional data that stores certain special instructions in the memory for activities to break the system in which of the following attack?",
+    "option1": "Clickjacking",
+    "option2": "Buffer-overflow",
+    "option3": "Phishing",
+    "option4": "MiTM",
+    "Answer": "option2"
+  },
+  {
+    "question": "Which of the following do Cyber attackers commonly target for fetching IP address of a target or victim user?",
+    "option1": "ip tracker",
+    "option2": "emails",
+    "option3": "websites",
+    "option4": "web pages",
+    "Answer": "option3"
+  },
+  {
+    "question": "____________ is defined as an attempt to harm, damage or cause threat to a system or network.",
+    "option1": "Digital crime",
+    "option2": "Threats",
+    "option3": "System hijacking",
+    "option4": "Cyber Attack",
+    "Answer": "option4"
+  },
+  {
+    "question": "They are nefarious hackers, and their main motive is to gain financial profit by doing cyber crimes. Who are 'they' referred to here?",
+    "option1": "White Hat Hackers",
+    "option2": "Black Hat Hackers",
+    "option3": "Hactivists",
+    "option4": "Gray Hat Hackers",
+    "Answer": "option2"
+  },
+  {
+    "question": "IT security in any firm or organization is maintained and handled by ____________________",
+    "option1": "Software Security Specialist",
+    "option2": "CEO of the organization",
+    "option3": "Security Auditor",
+    "option4": "IT Security Engineer",
+    "Answer": "option4"
+  },
+  {
+    "question": "____________ is a information security technology used for avoiding browser-based hacking.",
+    "option1": "Remote browser access",
+    "option2": "Adware remover in browsers",
+    "option3": "Incognito mode in a browser",
+    "option4": "Anti-malware in browsers",
+    "Answer": "option1"
+  },
+  {
+    "question": "Where did the term 'hacker' originate?",
+    "option1": "MIT",
+    "option2": "New York University",
+    "option3": "Harvard University",
+    "option4": "Bell's Lab",
+    "Answer": "option1"
+  },
+  {
+    "question": "Tor is not used by the military, cyber-criminals, activists, journalists, law enforcement officers, etc.",
+    "option1": "False",
+    "option2": "True",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1"
+  },
+  {
+    "question": "What is the existence of weakness in a system or network is known as?",
+    "option1": "Attack",
+    "option2": "Exploit",
+    "option3": "Vulnerability",
+    "option4": "Threat",
+    "Answer": "option3"
+  },
+  {
+    "question": "Which of the following is the oldest phone hacking method used by hackers to make free calls?",
+    "option1": "Clickjacking",
+    "option2": "DMOS",
+    "option3": "Cracking",
+    "option4": "Phreaking",
+    "Answer": "option4"
+  },
+  {
+    "question": "What is legal form of hacking known as?",
+    "option1": "Hactivism",
+    "option2": "Cracking",
+    "option3": "Non ethical Hacking",
+    "option4": "Ethical hacking",
+    "Answer": "option4"
+  },
+  {
+    "question": "Criminal minded individuals who work for terrorist organizations and steal information of nations and other secret intelligence making a cyber crime are _________",
+    "option1": "Red Hat Hackers",
+    "option2": "Cyber Terrorists",
+    "option3": "State sponsored hackers",
+    "option4": "Blue Hat Hackers",
+    "Answer": "option2"
+  },
+  {
+    "question": "Which of the following is an internet scam done by cyber-criminals where the user is convinced digitally to provide confidential information.",
+    "option1": "MiTM attack",
+    "option2": "Phishing attack",
+    "option3": "Website attack",
+    "option4": "DoS attack",
+    "Answer": "option2"
+  },
+  {
+    "question": "_______________ is not a step followed by cyber-criminals in data breaching.",
+    "option1": "Exfiltration",
+    "option2": "Research and info-gathering",
+    "option3": "Attack the system",
+    "option4": "Fixing the bugs",
+    "Answer": "option4"
+  },
+  {
+    "question": "What is the full form of Malware?",
+    "option1": "Malfunctioning of Security",
+    "option2": "Malicious Software",
+    "option3": "Malfunctioned Software",
+    "option4": "Multipurpose Software",
+    "Answer": "option2"
+  },
+  {
+    "question": "Philip Zimmerman released ____________ in 1991, and it is a sophisticated encryption tool.",
+    "option1": "Data Encryption Standard",
+    "option2": "Pretty Good Privacy",
+    "option3": "Protected Good Privacy",
+    "option4": "Advanced Encryption Standard",
+    "Answer": "option2"
+  },
+  {
+    "question": "The ___________ term refers to a group of hackers who are both white and black hat.",
+    "option1": "Yellow Hat hackers",
+    "option2": "Grey Hat hackers",
+    "option3": "Red Hat Hackers",
+    "option4": "White-Black Hat Hackers",
+    "Answer": "option2"
+  },
+  {
+    "question": "__________ is broadly known as CIA triad.",
+    "option1": "AIC (Authenticity, Integrity, Confidentiality)",
+    "option2": "AIN (Availability, Integrity, Non-repudiation)",
+    "option3": "NIC (Non-repudiation, Integrity, Confidentiality)",
+    "option4": "AIC (Availability, Integrity, Confidentiality)",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of the following ethical hacking technique is used for determining which operating system (OS) is running on a remote computer?",
+    "option1": "OS fingerprinting",
+    "option2": "OS penetration testing",
+    "option3": "Digital-printing",
+    "option4": "Footprinting",
+    "Answer": "option1"
+  },
+  {
+    "question": "Under which IT Act does misuse of digital signatures for fraudulent purposes come?",
+    "option1": "section 72",
+    "option2": "section 68",
+    "option3": "section 78",
+    "option4": "section 65",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which of the following is a type of intelligence gathering which is non-interfering & subtle in nature?",
+    "option1": "AI",
+    "option2": "concrete",
+    "option3": "competitive",
+    "option4": "cognitive",
+    "Answer": "option3"
+  },
+  {
+    "question": "_________ is not an email-related hacking tool.",
+    "option1": "Mail Password",
+    "option2": "Email Finder Pro",
+    "option3": "Mail PassView",
+    "option4": "Sendinc",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of the following DDoS in mobile systems wait for the owner to trigger the cyber attack?",
+    "option1": "botnets",
+    "option2": "programs",
+    "option3": "virus",
+    "option4": "worms",
+    "Answer": "option1"
+  },
+  {
+    "question": "The least strong security encryption standard is _______",
+    "option1": "WPA3",
+    "option2": "WPA2",
+    "option3": "WPA",
+    "option4": "WEP",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of the following is defined as a number of Internet-connected systems, where each of them is running one or more bots?",
+    "option1": "Virus",
+    "option2": "Botnet",
+    "option3": "Trojan",
+    "option4": "Worms",
+    "Answer": "option2"
+  },
+  {
+    "question": "_____________ is not an example of DNS hijacking.",
+    "option1": "HTTP-based DNS hacking",
+    "option2": "ISP DNS hijacking",
+    "option3": "DNS hijacking for phishing",
+    "option4": "DNS hijacking for pharming",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which of the following can diminish the chance of data leakage?",
+    "option1": "Steganography",
+    "option2": "Chorography",
+    "option3": "Cryptography",
+    "option4": "Tomography",
+    "Answer": "option1"
+  },
+  {
+    "question": "Abbreviate TOR.",
+    "option1": "The Onion Router",
+    "option2": "Tactical Onion Router",
+    "option3": "The Onion Reader",
+    "option4": "The Open Router",
+    "Answer": "option1"
+  },
+  {
+    "question": "What is the full form of AES?",
+    "option1": "Advanced Encrypted Standard",
+    "option2": "Active Encryption Standard",
+    "option3": "Advanced Encryption Security",
+    "option4": "Advanced Encryption Standard",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of the following can be made functional to diverse aspects of software development & hardware improvement activities?",
+    "option1": "Social engineering",
+    "option2": "Reverse engineering",
+    "option3": "Reverse hacking",
+    "option4": "Cracking",
+    "Answer": "option2"
+  },
+  {
+    "question": "________________ is a paradigm of distributed computing to provide the customers on-demand, utility based computing service.",
+    "option1": "Remote Sensing",
+    "option2": "Remote Invocation",
+    "option3": "Cloud Computing",
+    "option4": "Private Computing",
+    "Answer": "option3"
+  },
+  {
+    "question": "Cloud providers provide cloud services to the cloud users.",
+    "option1": "True",
+    "option2": "False",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which of the following is not a cloud stakeholder?",
+    "option1": "Cloud providers",
+    "option2": "Clients",
+    "option3": "End users",
+    "option4": "Cloud users",
+    "Answer": "option2"
+  },
+  {
+    "question": "These cloud services are of the form of utility computing i.e. the _________ uses these services pay-as-you-go model.",
+    "option1": "Cloud providers",
+    "option2": "Clients",
+    "option3": "End users",
+    "option4": "Cloud users",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of the following is not a type of cloud?",
+    "option1": "Private",
+    "option2": "Public",
+    "option3": "Protected",
+    "option4": "Hybrid",
+    "Answer": "option3"
+  },
+  {
+    "question": "In this type of cloud, an organization rents cloud services from cloud providers on-demand basis.",
+    "option1": "Private",
+    "option2": "Public",
+    "option3": "Protected",
+    "option4": "Hybrid",
+    "Answer": "option2"
+  },
+  {
+    "question": "In this type of cloud, the cloud is composed of multiple internal or external cloud.",
+    "option1": "Private",
+    "option2": "Public",
+    "option3": "Protected",
+    "option4": "Hybrid",
+    "Answer": "option4"
+  },
+  {
+    "question": "_____________ enables the migration of the virtual image from one physical machine to another.",
+    "option1": "visualization",
+    "option2": "virtualization",
+    "option3": "migration",
+    "option4": "virtual transfer",
+    "Answer": "option2"
+  },
+  {
+    "question": "Most of the cloud architectures are built on this type of architecture.",
+    "option1": "skeleton",
+    "option2": "grid",
+    "option3": "linear",
+    "option4": "template",
+    "Answer": "option2"
+  },
+  {
+    "question": "Saas stands for?",
+    "option1": "Software as a service",
+    "option2": "System Software and services",
+    "option3": "Software as a system",
+    "option4": "System as a service",
+    "Answer": "option1"
+  },
+  {
+    "question": "___________ adjusts the segment size to be smaller than MTU.",
+    "option1": "Internet Protocol 6",
+    "option2": "User Datagram Protocol",
+    "option3": "Internet Protocol 4",
+    "option4": "Transmission Control Protocol",
+    "Answer": "option4"
+  },
+  {
+    "question": "What is the use of the MQ2 Gas Sensor?",
+    "option1": "Object Identification",
+    "option2": "To provide 3G Connectivity",
+    "option3": "To measure presence of gas",
+    "option4": "To measure Wi-Fi strength",
+    "Answer": "option3"
+  },
+  {
+    "question": "How many terminals does the MQ2 Gas Sensor have?",
+    "option1": "1",
+    "option2": "3",
+    "option3": "2",
+    "option4": "4",
+    "Answer": "option4"
+  },
+  {
+    "question": "Does the MQ2 Gas Sensor have a fixed sensitivity?",
+    "option1": "Yes",
+    "option2": "No",
+    "option3": "",
+    "option4": "",
+    "Answer": "option2"
+  },
+  {
+    "question": "What will happen if we supply a voltage of 25V to the Vcc of the MQ2 Gas Sensor?",
+    "option1": "Damage is caused",
+    "option2": "Module will shut down",
+    "option3": "Module will not respond for the time the voltage is applied",
+    "option4": "Module will function normally",
+    "Answer": "option1"
+  },
+  {
+    "question": "What is the maximum output voltage that the MQ2 Gas Sensor can put out on its analog output pin?",
+    "option1": "1V",
+    "option2": "140V",
+    "option3": "5V",
+    "option4": "10V",
+    "Answer": "option3"
+  },
+  {
+    "question": "Can the MQ2 Gas Sensor differentiate between two different gases with the same PPM?",
+    "option1": "Yes",
+    "option2": "No",
+    "option3": "",
+    "option4": "",
+    "Answer": "option2"
+  },
+  {
+    "question": "If the PPM concentration of a gas that is being detected by the MQ2 Gas Sensor increases what will happen to its Digital Output pin?",
+    "option1": "Voltage Increases",
+    "option2": "Voltage Decreases",
+    "option3": "Voltage becomes 0",
+    "option4": "Voltage doesn't change",
+    "Answer": "option4"
+  },
+  {
+    "question": "If the PPM concentration of a gas that is being detected by the MQ2 Gas Sensor increases what will happen to its Analog Output pin?",
+    "option1": "Voltage Increases",
+    "option2": "Voltage Decreases",
+    "option3": "Voltage becomes 0",
+    "option4": "Voltage doesn't change",
+    "Answer": "option1"
+  },
+  {
+    "question": "What is the full form of the abbreviation called PPM?",
+    "option1": "Parts Per Million",
+    "option2": "Parts Per Milligram",
+    "option3": "Parts Per Megagram",
+    "option4": "Parts Per Millilitre",
+    "Answer": "option1"
+  },
+  {
+    "question": "What is the name of the mesh surrounding the MQ2 Gas Sensor?",
+    "option1": "Anti-Heat Mesh",
+    "option2": "Anti-Explosion Mesh",
+    "option3": "Anti-Air Mesh",
+    "option4": "Filtration Mesh",
+    "Answer": "option2"
+  },
+  {
+    "question": "Classes used to describe an application's primary elements.",
+    "option1": "Domain Classes",
+    "option2": "Application",
+    "option3": "Context",
+    "option4": "View",
+    "Answer": "option1"
+  },
+  {
+    "question": "In web applications, domain classes are generally the first things to be defined.",
+    "option1": "True",
+    "option2": "False",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1"
+  },
+  {
+    "question": "In Grails, domain classes are placed under:-",
+    "option1": "/grails-app/WEB-INF/",
+    "option2": "/grails-app/domain/",
+    "option3": "/grails-app/domain/WEB-APP",
+    "option4": "/grails-app/",
+    "Answer": "option2"
+  },
+  {
+    "question": "The creation of domain classes by executing a simple command which is:-",
+    "option1": "grails create-domain-class",
+    "option2": "grails create-domain-class domain class name",
+    "option3": "domain class name",
+    "option4": "none of the mentioned",
+    "Answer": "option2"
+  },
+  {
+    "question": "The command domain class name in creation of domain classes generates a file named domain class name.groovy.",
+    "option1": "True",
+    "option2": "False",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1"
+  },
+  {
+    "question": "Corresponding unit tests files are also generated for each domain class while creating domain classes.",
+    "option1": "True",
+    "option2": "False",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1"
+  },
+  {
+    "question": "Static field which defines constraints on the domain class.",
+    "option1": "static{}",
+    "option2": "static field{}",
+    "option3": "static constraint{}",
+    "option4": "static constraints{}",
+    "Answer": "option4"
+  },
+  {
+    "question": "Declaration name which indicates that object's name field can't be blank.",
+    "option1": "blank:false",
+    "option2": "blank:true",
+    "option3": "all of the mentioned",
+    "option4": "none of the mentioned",
+    "Answer": "option1"
+  },
+  {
+    "question": "A variety of constraints can be used to enforce a domain class's structure.",
+    "option1": "True",
+    "option2": "False",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1"
+  },
+  {
+    "question": "A smart home incorporates all the advanced___________.",
+    "option1": "Automation Systems",
+    "option2": "Ignition Systems",
+    "option3": "Backup Systems",
+    "option4": "Traffic Control Systems",
+    "Answer": "option1"
+  },
+  {
+    "question": "______________ provides ability to monitor and control various home devices through wireless connection.",
+    "option1": "Optical Fibre",
+    "option2": "Motor",
+    "option3": "Smart Home",
+    "option4": "Generator",
+    "Answer": "option3"
+  },
+  {
+    "question": "Lights can be turned ON when a photo-electric sensor detects that it's dark. It is possible in one of the following systems.",
+    "option1": "Security System",
+    "option2": "Home Automation System",
+    "option3": "Safety System",
+    "option4": "Networking system",
+    "Answer": "option2"
+  },
+  {
+    "question": "The oldest and best-known smart home automation system is_______________",
+    "option1": "A-10",
+    "option2": "B-10",
+    "option3": "C-10",
+    "option4": "X-10",
+    "Answer": "option4"
+  },
+  {
+    "question": "X-10 home automation system uses___________ to send regular switching signal.",
+    "option1": "Household electricity wiring",
+    "option2": "RF cable",
+    "option3": "Telephone Cable",
+    "option4": "Optic fibre",
+    "Answer": "option1"
+  },
+  {
+    "question": "Name the device that constantly crawls around floors sweeping the dust.",
+    "option1": "Hair dryer",
+    "option2": "Robotic vacuum cleaner",
+    "option3": "Electric oven",
+    "option4": "Refrigerator",
+    "Answer": "option2"
+  },
+  {
+    "question": "___________ are main component of home appliances control system.",
+    "option1": "Amplifier, equaliser, oscillator",
+    "option2": "modulator, mixer, local",
+    "option3": "voltage amplifier, filter, power amplifier",
+    "option4": "Sensors, processors, relay",
+    "Answer": "option4"
+  },
+  {
+    "question": "Video monitoring system for home consists of _____________ and ____________.",
+    "option1": "camera , displays",
+    "option2": "generator, motor",
+    "option3": "heater, compressor",
+    "option4": "oscillator, mixer",
+    "Answer": "option1"
+  },
+  {
+    "question": "The use of ______________ can assure that family will be safe from unforeseen dangers.",
+    "option1": "Smart door",
+    "option2": "Smart meter",
+    "option3": "Smart dustbin",
+    "option4": "Smart TV",
+    "Answer": "option1"
+  },
+  {
+    "question": "Home appliances in smart home can be controlled remotely over long distance is possible due to ________________",
+    "option1": "amplifiers",
+    "option2": "web-based application",
+    "option3": "repeater",
+    "option4": "splitter",
+    "Answer": "option2"
+  },
+  {
+    "question": "\"Hey Google, turn on all lights.\" This voice command is for _______________ used in smart home.",
+    "option1": "Amazon Alexa",
+    "option2": "Google Home",
+    "option3": "Apple's Home Kit",
+    "option4": "Amazon Prime",
+    "Answer": "option2"
+  },
+  {
+    "question": "Identify the one that is not provided in smart home.",
+    "option1": "Comfort, security",
+    "option2": "Remote automation",
+    "option3": "Improving traffic flow on road",
+    "option4": "Save time and effort",
+    "Answer": "option3"
+  },
+  {
+    "question": "Automated traffic signals are part of ____________ .",
+    "option1": "Smart TV",
+    "option2": "Smart Transportation",
+    "option3": "Smart Home",
+    "option4": "Smart Watch",
+    "Answer": "option2"
+  },
+  {
+    "question": "_____________ delivers health information and services to enable data transmission, storage and retrieval for clinical, educational and administrative purposes.",
+    "option1": "E-health",
+    "option2": "E-BIKE",
+    "option3": "E-news paper",
+    "option4": "E-challan",
+    "Answer": "option1"
+  },
+  {
+    "question": "This education system is replacing traditional classroom, and provides the flexibility of learning.",
+    "option1": "Smart TV",
+    "option2": "Smart Transportation",
+    "option3": "Smart Education",
+    "option4": "Smart Watch",
+    "Answer": "option3"
+  },
+  {
+    "question": "Efficient and energy-saving waste management system reduces ___________.",
+    "option1": "Air pollution",
+    "option2": "Natural resources",
+    "option3": "Human Life",
+    "option4": "Road Traffic",
+    "Answer": "option1"
+  },
+  {
+    "question": "Name the detector used for fire safety in smart city.",
+    "option1": "PH detector",
+    "option2": "Moisture Detector",
+    "option3": "Smoke detector",
+    "option4": "Salt detector",
+    "Answer": "option3"
+  },
+  {
+    "question": "M2M communication is a communication between",
+    "option1": "Machine to Machine",
+    "option2": "Motor to Machine",
+    "option3": "Machine to Motor",
+    "option4": "Motor to Motor",
+    "Answer": "option1"
+  },
+  {
+    "question": "Function of device domain in M2M network is____________.",
+    "option1": "Processing of sensor data",
+    "option2": "Analysis of sensor data",
+    "option3": "Collection and transmission of sensor data",
+    "option4": "Interpretation of sensor data",
+    "Answer": "option3"
+  },
+  {
+    "question": "In a --------------- networks, all nodes communicate with each other using some intermediate gateways.",
+    "option1": "Client-server",
+    "option2": "Cooperative",
+    "option3": "Point to point network",
+    "option4": "Fully distributed",
+    "Answer": "option2"
+  },
+  {
+    "question": "The major difference between a multimedia file and a regular file is ___________.",
+    "option1": "the size",
+    "option2": "the attributes",
+    "option3": "the ownership",
+    "option4": "the rate at which the file must be accessed",
+    "Answer": "option4"
+  },
+  {
+    "question": "Video is represented as a series of images formally known as ___________.",
+    "option1": "pics",
+    "option2": "shots",
+    "option3": "frames",
+    "option4": "snaps",
+    "Answer": "option3"
+  },
+  {
+    "question": "The faster the frames are displayed, ___________.",
+    "option1": "the rougher the video appears",
+    "option2": "the smoother the video appears",
+    "option3": "it gets blurry",
+    "option4": "none of the mentioned",
+    "Answer": "option2"
+  },
+  {
+    "question": "The characteristic of the eye to retain the image for a short time after it has been presented is known as ___________.",
+    "option1": "persistence of vision",
+    "option2": "learning power",
+    "option3": "memory mapped input",
+    "option4": "none of the mentioned",
+    "Answer": "option1"
+  },
+  {
+    "question": "When will Local playback be used?",
+    "option1": "the multimedia data are delivered from a local file system",
+    "option2": "a computer next to you is playing something",
+    "option3": "a multimedia file is being played on a system in the local network",
+    "option4": "none of the mentioned",
+    "Answer": "option1"
+  },
+  {
+    "question": "Multimedia files stored on a remote server are delivered to a client across the network using a technique known as ___________.",
+    "option1": "download",
+    "option2": "streaming",
+    "option3": "flowing",
+    "option4": "leaking",
+    "Answer": "option2"
+  },
+  {
+    "question": "What are the two types of streaming techniques?",
+    "option1": "progressive download & real time streaming",
+    "option2": "regular download & real time streaming",
+    "option3": "real time & virtual time streaming",
+    "option4": "virtual time streaming",
+    "Answer": "option1"
+  },
+  {
+    "question": "A media file containing audio or video is downloaded and stored on the client‘s local file system in ___________.",
+    "option1": "progressive download",
+    "option2": "regular download",
+    "option3": "real time streaming",
+    "option4": "virtual time streaming",
+    "Answer": "option1"
+  },
+  {
+    "question": "Progressive download is most useful for ___________.",
+    "option1": "short video clips",
+    "option2": "long video clips",
+    "option3": "extremely long and high quality videos",
+    "option4": "none of the mentioned",
+    "Answer": "option1"
+  },
+  {
+    "question": "The media file is streamed to the client but is only played and not stored by the client in ___________.",
+    "option1": "progressive download",
+    "option2": "regular download",
+    "option3": "real time streaming",
+    "option4": "virtual time streaming",
+    "Answer": "option3"
+  },
+  {
+    "question": "Real time streaming is most useful for ___________.",
+    "option1": "short video clips",
+    "option2": "long video clips",
+    "option3": "extremely short and low quality videos",
+    "option4": "none of the mentioned",
+    "Answer": "option2"
+  },
+  {
+    "question": "Which devices provides positional information to the graphics system?",
+    "option1": "Input devices",
+    "option2": "Output devices",
+    "option3": "Pointing devices",
+    "option4": "Both a and c",
+    "Answer": "option4"
+  },
+  {
+    "question": "The number of pixels stored in the frame buffer of a graphics system is known as",
+    "option1": "Resolution",
+    "option2": "Depth",
+    "option3": "Resalution",
+    "option4": "Only a",
+    "Answer": "option4"
+  },
+  {
+    "question": "In graphical system, the array of pixels in the picture are stored in",
+    "option1": "Memory",
+    "option2": "Frame buffer",
+    "option3": "Processor",
+    "option4": "All of the mentioned",
+    "Answer": "option1"
+  },
+  {
+    "question": "Heat supplied to the cathode by directing a current through a coil of wire is called",
+    "option1": "Electron gun",
+    "option2": "Electron beam",
+    "option3": "Filament",
+    "option4": "Anode and cathode",
+    "Answer": "option3"
+  },
+  {
+    "question": "What is the term C.O.P. referred in terms of refrigeration?",
+    "option1": "Cooling for Performance",
+    "option2": "Coefficient of Performance",
+    "option3": "Capacity of Performance",
+    "option4": "Co-efficient of Plant",
+    "Answer": "option2"
+  },
+  {
+    "question": "How is the refrigerant used in the Air refrigeration cycle?",
+    "option1": "In the compressor",
+    "option2": "In the condenser",
+    "option3": "Directly in contact",
+    "option4": "Not used at all",
+    "Answer": "option1"
+  },
+  {
+    "question": "The Domestic absorption type refrigerator was invented by?",
+    "option1": "Baltzer Von Platan",
+    "option2": "Carl Munters",
+    "option3": "Carl Munters and Baltzer Von Platan",
+    "option4": "Light Foot",
+    "Answer": "option3"
+  },
+  {
+    "question": "What is NOT one of the advantages of using closed Air Refrigeration system?",
+    "option1": "Compact in construction",
+    "option2": "Lower coefficient of performance",
+    "option3": "Lighter in weight",
+    "option4": "Environmental Friendly",
+    "Answer": "option2"
+  },
+  {
+    "question": "The COP of vapor compression having vapor as dry saturated after compression having refrigeration effect (Re) of 58.84 and work done (W) of 17.95 is ________",
+    "option1": "3.865",
+    "option2": "4.234",
+    "option3": "4.39",
+    "option4": "3.278",
+    "Answer": "option4"
+  },
+  {
+    "question": "In lithium bromide absorption refrigeration system it is not necessary to keep the refrigeration temperature above 0°C.",
+    "option1": "False",
+    "option2": "True",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1"
+  },
+  {
+    "question": "The C.O.P for reverse Carnot refrigerator is 2. The ratio of lowest temperature to highest temperature will be _____",
+    "option1": "four times",
+    "option2": "three times",
+    "option3": "twice",
+    "option4": "half",
+    "Answer": "option2"
+  },
+  {
+    "question": "Which is the S.I. unit to measure pressure in refrigeration?",
+    "option1": "Bar",
+    "option2": "Newton",
+    "option3": "Joule",
+    "option4": "Pascal",
+    "Answer": "option4"
+  },
+  {
+    "question": "What is the main disadvantage of natural refrigeration methods?",
+    "option1": "They are dependent on local conditions",
+    "option2": "They are not environment friendly",
+    "option3": "They are expensive",
+    "option4": "They are poisonous",
+    "Answer": "option1"
+  },
+  {
+    "question": "Reduction in operating pressure in the Air refrigeration cycle results in _________",
+    "option1": "decrease in C.O.P.",
+    "option2": "always decreases",
+    "option3": "increase in C.O.P.",
+    "option4": "no change in C.O.P.",
+    "Answer": "option3"
+  },
+  {
+    "question": "What is the key difference between a simple VAR and Electrolux refrigerator?",
+    "option1": "Working mechanism",
+    "option2": "Generator",
+    "option3": "Absorber",
+    "option4": "Liquid pump",
+    "Answer": "option4"
+  },
+  {
+    "question": "The ratio of COP of vapor compression cycle and COP of Carnot cycle is known as?",
+    "option1": "Theoretical COP",
+    "option2": "Performance index",
+    "option3": "Relative COP",
+    "option4": "Ideal COP",
+    "Answer": "option2"
+  },
+  {
+    "question": "Efficiency of the Refrigerator is _________ to the C.O.P of refrigerator.",
+    "option1": "independent",
+    "option2": "directly proportional",
+    "option3": "inversely proportional",
+    "option4": "equal",
+    "Answer": "option1"
+  },
+  {
+    "question": "In a domestic icebox type refrigerator, the ice block is kept at the top because __________",
+    "option1": "hot air can be easily removed from the top",
+    "option2": "cold air can flow down due to buoyancy effect",
+    "option3": "it is easy for the user to operate",
+    "option4": "disposal of water is easier",
+    "Answer": "option2"
+  },
+  {
+    "question": "The COP of refrigerator may be improved by _________",
+    "option1": "keeping the higher (T2) temperature the same while decreasing the lower (T1) temperature",
+    "option2": "decreasing the higher (T2) as well as the lower (T1) temperature",
+    "option3": "decreasing the higher (T2) temperature and increasing the lower (T1) temperature",
+    "option4": "increasing the higher (T2) as well as the lower (T1) temperature",
+    "Answer": "option3"
+  },
+  {
+    "question": "What is the value of Refrigeration effect if m2 = 2 kg/min, m3 = 0.8 kg/min and enthalpies for the refrigerant at saturated vapor and saturated liquid line are 1420 and 1260 kJ/kg?",
+    "option1": "129",
+    "option2": "196",
+    "option3": "194",
+    "option4": "192",
+    "Answer": "option4"
+  },
+  {
+    "question": "What is the other name for Electrolux refrigerator?",
+    "option1": "Three-fluid absorption system",
+    "option2": "Four-fluid absorption system",
+    "option3": "Single-fluid absorption system",
+    "option4": "Two-fluid absorption system",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which of the refrigerant is used as a refrigerant in Lithium Bromide Absorption Refrigeration system?",
+    "option1": "Lithium Bromide",
+    "option2": "Hydrogen",
+    "option3": "Water",
+    "option4": "Ammonia",
+    "Answer": "option3"
+  },
+  {
+    "question": "C.O.P. of the refrigerator is always __________ the C.O.P. of the heat pump when both are working between the same temperature limits.",
+    "option1": "greater than",
+    "option2": "equal to",
+    "option3": "inverse of",
+    "option4": "less than",
+    "Answer": "option4"
+  },
+  {
+    "question": "What is the difference between Heat Pump and Refrigerator?",
+    "option1": "Work is output in refrigerator and work is input in heat pump",
+    "option2": "Both are almost similar, just the desired effect is different",
+    "option3": "Heat Pump Gives efficiency and refrigerator gives C.O.P.",
+    "option4": "Both are similar",
+    "Answer": "option2"
+  },
+  {
+    "question": "The C.O.P for reverse Carnot refrigerator is 2. The ratio of highest temperature to lowest temperature will be _____",
+    "option1": "3 times",
+    "option2": "4 times",
+    "option3": "1/3 times",
+    "option4": "1/2 times",
+    "Answer": "option3"
+  },
+  {
+    "question": "For the systems working on reversed Carnot cycle, what is the relation between C.O.P. of Refrigerator i.e. (C.O.P.)R and Heat Pump i.e. (C.O.P)P?",
+    "option1": "(C.O.P.)R = (C.O.P)P – 1",
+    "option2": "(C.O.P.)R + (C.O.P)P + 1 = 0",
+    "option3": "(C.O.P.)R = (C.O.P)P",
+    "option4": "(C.O.P.)R + (C.O.P)P = 1",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which refrigerants are used in Electrolux and Li-Br water refrigeration system?",
+    "option1": "Water and Bromide",
+    "option2": "Ammonia and Water",
+    "option3": "Ammonia and Lithium",
+    "option4": "Water and Water",
+    "Answer": "option2"
+  },
+  {
+    "question": "What is the value of Refrigeration effect if m1 = 4 kg/min, and enthalpies for the point 1, 2, 4, 5, 9 are 1350, 1550, 1480, 1620, and 280 kJ/kg. If the refrigeration effect is 4280 kJ/min and work done is 15 kW, then what is the value of C.O.P.?",
+    "option1": "4.75",
+    "option2": "6.00",
+    "option3": "5.50",
+    "option4": "4.85",
+    "Answer": "option1"
+  },
+  {
+    "question": "What happens to the COP of a Carnot refrigerator in summer and in winter?",
+    "option1": "The COP remains unaffected",
+    "option2": "The COP fluctuates continuously during winter and summer",
+    "option3": "The COP is more in winter",
+    "option4": "The COP is more in summer",
+    "Answer": "option3"
+  },
+  {
+    "question": "What are the fluids used in the Electrolux refrigerator?",
+    "option1": "Hydrogen, Water, Bromide",
+    "option2": "Hydrogen, Water, Ammonia",
+    "option3": "Hydrogen, Water",
+    "option4": "Hydrogen, Water, Lithium",
+    "Answer": "option2"
+  },
+  {
+    "question": "What is the common application of Air standard refrigeration system?",
+    "option1": "Cold storage",
+    "option2": "Car air conditioning system",
+    "option3": "Domestic refrigerators",
+    "option4": "Aircraft air conditioning",
+    "Answer": "option4"
+  },
+  {
+    "question": "In a domestic vapour compression refrigerator, which of the following refrigerants commonly used?",
+    "option1": "Freon",
+    "option2": "Air",
+    "option3": "NH3",
+    "option4": "CO2",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which of the following process is used in winter air conditioning?",
+    "option1": "Cooling and Dehumidification",
+    "option2": "Heating and Humidification",
+    "option3": "Dehumidification",
+    "option4": "Humidification",
+    "Answer": "option2"
+  },
+  {
+    "question": "A refrigerating machine working on Carnot cycle operates between 300K and 250K. Determine the COP.",
+    "option1": "10",
+    "option2": "4",
+    "option3": "6",
+    "option4": "5",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which type of evaporator is used in household refrigerators?",
+    "option1": "non-frosting evaporator",
+    "option2": "non-corrosive evaporator",
+    "option3": "frosting evaporator",
+    "option4": "defrosting evaporator",
+    "Answer": "option3"
+  },
+  {
+    "question": "In transport aviation, the air conditioning systems are based on ______ cycle.",
+    "option1": "Reversed Joule‘s cycle",
+    "option2": "Otto cycle",
+    "option3": "Reversed Carnot cycle",
+    "option4": "Reversed Brayton cycle",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of the following process is used in summer air conditioning?",
+    "option1": "Heating and Humidification",
+    "option2": "Cooling and Dehumidification",
+    "option3": "Humidification",
+    "option4": "Dehumidification",
+    "Answer": "option2"
+  },
+  {
+    "question": "A psychrometric chart is a graphical representation of various physical properties of dry air.",
+    "option1": "False",
+    "option2": "True",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1"
+  },
+  {
+    "question": "The efficiency of Carnot heat engine is 40%. What is the value of C.O.P. of a refrigerator operating on reversed Carnot cycle?",
+    "option1": "10",
+    "option2": "4",
+    "option3": "1.5",
+    "option4": "2.5",
+    "Answer": "option3"
+  },
+  {
+    "question": "The expansion valve in a refrigerator does not control the flow of refrigerant.",
+    "option1": "True",
+    "option2": "False",
+    "option3": "",
+    "option4": "",
+    "Answer": "option2"
+  },
+  {
+    "question": "Which type of evaporator is generally used to cool drinking water?",
+    "option1": "Plate evaporator",
+    "option2": "Shell and tube evaporator",
+    "option3": "Finned evaporator",
+    "option4": "Shell and coil evaporator",
+    "Answer": "option4"
+  },
+  {
+    "question": "If the Coefficient of performance of a heat pump is 5, then what is the value of the Coefficient of performance of the refrigerator operating under the same conditions?",
+    "option1": "0.2",
+    "option2": "3",
+    "option3": "4",
+    "option4": "6",
+    "Answer": "option3"
+  },
+  {
+    "question": "Two refrigerators M and N operate in series. The refrigerator M absorbs energy at the rate of 1 kW from a body at temperature 400 K and rejects energy as heat to a body at a temperature T. The refrigerator N absorbs the same quantity of energy which is rejected by the refrigerator N from the body at temperature T, and rejects energy as heat to a body at temperature 800 K. If both the refrigerators have the same C.O.P., what is the value temperature T?",
+    "option1": "565.68 K",
+    "option2": "459.21 K",
+    "option3": "200 K",
+    "option4": "600 K",
+    "Answer": "option1"
+  },
+  {
+    "question": "Dense air Bell-Coleman refrigerator is preferred than open cycle air refrigerator.",
+    "option1": "False",
+    "option2": "True",
+    "Answer": "option2"
+  },
+  {
+    "question": "Capillary tube, as an expansion device is used in?",
+    "option1": "Room air conditioners",
+    "option2": "Water coolers",
+    "option3": "Domestic refrigerators",
+    "option4": "All of the mentioned",
+    "Answer": "option4"
+  },
+  {
+    "question": "What of the following uses natural convection air-cooled condensers?",
+    "option1": "High capacity room air conditioners",
+    "option2": "Industrial air conditioners",
+    "option3": "Domestic refrigerators",
+    "option4": "High capacity water coolers",
+    "Answer": "option3"
+  },
+  {
+    "question": "What is the material of tubes used for shell and tube condenser in ammonia refrigeration system?",
+    "option1": "Copper",
+    "option2": "Steel",
+    "option3": "Brass",
+    "option4": "Aluminum",
+    "Answer": "option2"
+  },
+  {
+    "question": "What is the difference between the temperature of entering and leaving water in the cooling tower?",
+    "option1": "Range",
+    "option2": "Approach",
+    "option3": "Wet-bulb temperature",
+    "option4": "Dry bulb temperature",
+    "Answer": "option1"
+  },
+  {
+    "question": "Mechanical Draft cooling towers do not depend on atmospheric air.",
+    "option1": "False",
+    "option2": "True",
+    "Answer": "option2"
+  },
+  {
+    "question": "Which of the following represents sensible cooling on the psychrometric chart?",
+    "option1": "Inclined line",
+    "option2": "Curve",
+    "option3": "Horizontal line",
+    "option4": "Vertical line",
+    "Answer": "option3"
+  },
+  {
+    "question": "How many major sources of solid waste are there based on their origin?",
+    "option1": "10",
+    "option2": "5",
+    "option3": "9",
+    "option4": "6",
+    "Answer": "option3"
+  },
+  {
+    "question": "Which of the below is not an idea behind solid waste management?",
+    "option1": "Control of waste generation",
+    "option2": "Storage and collection",
+    "option3": "Disposal",
+    "option4": "Stop waste generation",
+    "Answer": "option4"
+  },
+  {
+    "question": "The number of functional components of solid waste management is:",
+    "option1": "5",
+    "option2": "3",
+    "option3": "6",
+    "option4": "4",
+    "Answer": "option3"
+  },
+  {
+    "question": "The term ISWM refers to:",
+    "option1": "International Solid Waste Management",
+    "option2": "Integrated Solid Waste Management",
+    "option3": "Integrated Solid Waste Machine",
+    "option4": "International Solid Waste Mechanism",
+    "Answer": "option2"
+  },
+  {
+    "question": "Under which rule of Government, guidelines for solid waste management are followed today?",
+    "option1": "Municipal Solid Waste Rules, 2000",
+    "option2": "Municipal Solid Waste Rules, 2016",
+    "option3": "Solid Waste Rules, 2000",
+    "option4": "Solid Waste Rules, 2016",
+    "Answer": "option4"
+  },
+  {
+    "question": "The average composition of Municipal solid waste is:",
+    "option1": "41% organic, 40% inert & 19% recyclable",
+    "option2": "20% organic, 60% inert & 20% recyclable",
+    "option3": "30% organic, 20% inert & 50% recyclable",
+    "option4": "19% organic, 41% inert & 40% recyclable",
+    "Answer": "option1"
+  },
+  {
+    "question": "There are __________ ways to treat waste thermally.",
+    "option1": "5",
+    "option2": "3",
+    "option3": "2",
+    "option4": "6",
+    "Answer": "option2"
+  },
+  {
+    "question": "How many types of landfills are there?",
+    "option1": "3",
+    "option2": "2",
+    "option3": "5",
+    "option4": "4",
+    "Answer": "option1"
+  },
+  {
+    "question": "Bio-medical waste can be effectively managed by the thermal process.",
+    "option1": "True",
+    "option2": "False",
+    "Answer": "option1"
+  },
+  {
+    "question": "The WHO has classified the bio-medical waste into ___________ categories.",
+    "option1": "5",
+    "option2": "4",
+    "option3": "3",
+    "option4": "2",
+    "Answer": "option2"
+  },
 
 
-module.exports = { data: ETE};
+]
+
+const ETC = [
+    {
+    "question": "In which software floor plans, levels, section and 3d view are automatically updated?",
+    "option1": "REVIT",
+    "option2": "3D ARCHITECT",
+    "option3": "E -TAB",
+    "option4": "Water Gems",
+    "Answer": "option1"
+  },
+  {
+    "question": "……………is a finite element analysis software",
+    "option1": "REVIT",
+    "option2": "Win Est",
+    "option3": "Clear estimate",
+    "option4": "E -TAB",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which software represents the future of earthquake engineering?",
+    "option1": "E –TAB",
+    "option2": "REVIT",
+    "option3": "Quick Grid",
+    "option4": "Tekla",
+    "Answer": "option1"
+  },
+  {
+    "question": "…………software is used for testing the safety and design potential of building.",
+    "option1": "3D ARCHITECT HOME",
+    "option2": "E -TAB",
+    "option3": "STAAD PRO",
+    "option4": "BMS",
+    "Answer": "option1"
+  },
+  {
+    "question": "…………Software used for technical plans such as electrical network, heating etc.",
+    "option1": "Build Master",
+    "option2": "3D ARCHITECT HOME",
+    "option3": "HEC RAS",
+    "option4": "BMS",
+    "Answer": "option2"
+  },
+  {
+    "question": "Clear estimate shall be accessed by mobile Device.",
+    "option1": "yes",
+    "option2": "no",
+    "option3": "",
+    "option4": "",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which software shall be accessed by mobile device?",
+    "option1": "ProCore",
+    "option2": "Win Est",
+    "option3": "Clear estimate",
+    "option4": "BricsCAD",
+    "Answer": "option3"
+  },
+  {
+    "question": "Which software is used for water distribution networking?",
+    "option1": "Water Gems",
+    "option2": "STRAP",
+    "option3": "Build Master",
+    "option4": "State highway",
+    "Answer": "option3"
+  },
+  {
+    "question": "Which software is said to be the superset of Water CAD?",
+    "option1": "Location",
+    "option2": "Function",
+    "option3": "Location and function",
+    "option4": "Annual daily traffic",
+    "Answer": "option3"
+  },
+  {
+    "question": "Which software is used in 20 languages?",
+    "option1": "Tekla",
+    "option2": "Hec Ras",
+    "option3": "E-Tab",
+    "option4": "Revit",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which software is used for the modelling of stadium, factories, bridges and sky scrapers?",
+    "option1": "Water Gems",
+    "option2": "Hec Ras",
+    "option3": "Tekla",
+    "option4": "STAAD Pro",
+    "Answer": "option3"
+  },
+  {
+    "question": "What is the use of HEC RAS software?",
+    "option1": "modelling of water flowing through open channels",
+    "option2": "building modelling",
+    "option3": "Reservoir capacity Estimate",
+    "option4": "Structural Design",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which of the following software is used for flood planning?",
+    "option1": "Hec Ras",
+    "option2": "CAD",
+    "option3": "Tekla",
+    "option4": "E-Tab",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which software is used for static and dynamic analysis of building, bridges, and other structures?",
+    "option1": "STRAP",
+    "option2": "REVIT",
+    "option3": "CAD",
+    "option4": "Tekla",
+    "Answer": "option1"
+  },
+  {
+    "question": "How many bit processor is required to run STRAP software?",
+    "option1": "32 bit",
+    "option2": "16 bit",
+    "option3": "64 bit",
+    "option4": "All of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "RISA is used for",
+    "option1": "Design of towers",
+    "option2": "sky scrapers",
+    "option3": "airports",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "In RISA, the view can be rotated at",
+    "option1": "90",
+    "option2": "180",
+    "option3": "270",
+    "option4": "360",
+    "Answer": "option4"
+  },
+  {
+    "question": "CIVIL 3D is developed by",
+    "option1": "Auto desk",
+    "option2": "Bentley",
+    "option3": "Environmental system research institute",
+    "option4": "none of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "CIVIL 3D is used to create three dimensional models of",
+    "option1": "land",
+    "option2": "water",
+    "option3": "transportation",
+    "option4": "all of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "…………is powerful software tool for 3D engineering design of road scheme and infrastructure.",
+    "option1": "Site 3D",
+    "option2": "Skycir STRUCTURAL 3D",
+    "option3": "SAP2000",
+    "option4": "none of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which one is not a soft computing technique?",
+    "option1": "Fuzzy Logic",
+    "option2": "Machine Learning",
+    "option3": "Evolutionary Computation",
+    "option4": "Traditional Computing",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which of these are software's used in Civil engineering only?",
+    "option1": "AutoCAD, Talky",
+    "option2": "AutoCAD, Talley, WinEst",
+    "option3": "Sap-2000, Talley, Excel",
+    "option4": "Autocad, E-tab, Staad-prof",
+    "Answer": "option3"
+  },
+  {
+    "question": "GUI means",
+    "option1": "Graphical user interface",
+    "option2": "Graphical user intelligently",
+    "option3": "Golden user interface",
+    "option4": "None of these",
+    "Answer": "option1"
+  },
+  {
+    "question": "Software is used for steel calculations",
+    "option1": "STAAD Pro",
+    "option2": "E tabs",
+    "option3": "STRAP",
+    "option4": "All of these",
+    "Answer": "option4"
+  },
+  {
+    "question": "....... Software is used for planning schedule, monitoring, controlling the project.",
+    "option1": "Primavera Pro",
+    "option2": "Microsoft project",
+    "option3": "Both a and b",
+    "option4": "Clear Estimate",
+    "Answer": "option3"
+  },
+  {
+    "question": "........... Automatically update floor plans, Levels, section and 3D views",
+    "option1": "Estimate master",
+    "option2": "Water GEMS",
+    "option3": "Brics CAD",
+    "option4": "Revit",
+    "Answer": "option4"
+  },
+  {
+    "question": "Revit architecture is created by",
+    "option1": "Autodesk",
+    "option2": "Auto cad",
+    "option3": "Oracle",
+    "option4": "CSI",
+    "Answer": "option1"
+  },
+  {
+    "question": "Software can increase In designing and modelling in every subset of the technological field",
+    "option1": "Accuracy",
+    "option2": "Productivity",
+    "option3": "Efficiency",
+    "option4": "All of these",
+    "Answer": "option4"
+  },
+  {
+    "question": "Software develop the communication and collaboration between the engineers and",
+    "option1": "Users",
+    "option2": "engineers",
+    "option3": "Worker",
+    "option4": "All of these",
+    "Answer": "option4"
+  },
+  {
+    "question": "The civil engineering design software helps in getting accurate solution in time so that Structure being constructed within schedule, safe and stable",
+    "option1": "Long",
+    "option2": "Short",
+    "option3": "Any",
+    "option4": "Not to define",
+    "Answer": "option1"
+  },
+  {
+    "question": "Which material is manufactured by patented technologies.",
+    "option1": "Fly ash brick",
+    "option2": "3D printed tiles",
+    "option3": "PVC tiles",
+    "option4": "sensi tile",
+    "Answer": "option4"
+  },
+  {
+    "question": "Artificial sand is alternative of ............",
+    "option1": "river sand",
+    "option2": "cement",
+    "option3": "fly ash",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "Bricks made up of cigarette butt are disinfected at Temperature.",
+    "option1": "105'c",
+    "option2": "100'c",
+    "option3": "150 'c",
+    "option4": "90 'c",
+    "Answer": "option3"
+  },
+  {
+    "question": "...............is the material light weight which is 2/3* weight of steel.",
+    "option1": "Carbon fibre",
+    "option2": "Laminated timber",
+    "option3": "3D printed bricks",
+    "option4": "sensi tile",
+    "Answer": "option1"
+  },
+  {
+    "question": "Aerogel are also called as",
+    "option1": "Frozen Smoke",
+    "option2": "Blue smoke",
+    "option3": "Both a and b",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "The bricks become more porous as the % of butts ..............",
+    "option1": "Increases",
+    "option2": "Decreases",
+    "option3": "Stay constant",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "Thomas Edison used the material as a filament in 1807 was ..........",
+    "option1": "Fibre",
+    "option2": "Carbon fibre",
+    "option3": "Carbon",
+    "option4": "Tungstem",
+    "Answer": "option4"
+  },
+  {
+    "question": "Software used for designing of 3D printed brick is....................",
+    "option1": "Grasshopper",
+    "option2": "All of above",
+    "option3": "glass",
+    "option4": "Pixel stone",
+    "Answer": "option1"
+  },
+  {
+    "question": "Sensi tile are made from",
+    "option1": "Decorative resin",
+    "option2": "Terrazo Material",
+    "option3": "All of above",
+    "option4": "glass",
+    "Answer": "option2"
+  },
+  {
+    "question": "Foreign countries started to use snow melt agent in the year................",
+    "option1": "1930",
+    "option2": "1980",
+    "option3": "1940",
+    "option4": "1975",
+    "Answer": "option1"
+  },
+  {
+    "question": "The cement industry is the second largest producer of ...................in the world.",
+    "option1": "ash",
+    "option2": "CO2",
+    "option3": "Cement",
+    "option4": "H2SO4",
+    "Answer": "option3"
+  },
+  {
+    "question": "To produce cement limestone (calcium Carbonate) is heated to",
+    "option1": "1025'F",
+    "option2": "2600'F",
+    "option3": "1025'C",
+    "option4": "2600'C",
+    "Answer": "option1"
+  },
+  {
+    "question": "Cement alone is responsible for around ...................% of the world's overall CO2 emission",
+    "option1": "50",
+    "option2": "25",
+    "option3": "15",
+    "option4": "5",
+    "Answer": "option1"
+  },
+  {
+    "question": "Firewall or partition wall are used for........................",
+    "option1": "Commercial structure",
+    "option2": "Multi storey apartment",
+    "option3": "Multi storey building",
+    "option4": "Military structure",
+    "Answer": "option3"
+  },
+  {
+    "question": "High resistance to chloride attack which reduces the risk of in concrete.",
+    "option1": "Heat of Hydration",
+    "option2": "Workability",
+    "option3": "Compaction",
+    "option4": "Corrosion",
+    "Answer": "option4"
+  },
+  {
+    "question": ".....................concrete is used in water tight construction.",
+    "option1": "Fibre reinforced concrete",
+    "option2": "High strength concrete",
+    "option3": "Self healing concrete",
+    "option4": "Nano concrete",
+    "Answer": "option2"
+  },
+  {
+    "question": "As per standard specifies the% of fly ash constituent in portland pozzolona cement by mass is.............",
+    "option1": "10 to 15%",
+    "option2": "15 to 35 %",
+    "option3": "25 to 30 %",
+    "option4": "20 to 40 %",
+    "Answer": "option3"
+  },
+  {
+    "question": "..................is responsible for around 80 to 95 %of light absorption in wood.",
+    "option1": "Lignin",
+    "option2": "Chlorophyll",
+    "option3": "None of Above",
+    "option4": "Tannins",
+    "Answer": "option2"
+  },
+  {
+    "question": "Laminated timber is also known as ..............",
+    "option1": "Glulam beam",
+    "option2": "classic glulam",
+    "option3": "Glulam",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "The geo synthetics generally used for drainage purpose are ........................",
+    "option1": "Geotextile",
+    "option2": "Geo composites",
+    "option3": "Both a and b",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "..............are the product generally used for the function of filtration.",
+    "option1": "Geotextile",
+    "option2": "Geo composites",
+    "option3": "Geomembrane",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "..............are the type of geosynthetics generally used for the function of barrier.",
+    "option1": "Geomembrane",
+    "option2": "Both a and b",
+    "option3": "Geosynthetic clay liner",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "Noise reduction by providing double layer porous asphalt is of can be achieved.",
+    "option1": "2dB",
+    "option2": "ldB",
+    "option3": "4dB",
+    "option4": "more than 4 dB",
+    "Answer": "option4"
+  },
+  {
+    "question": "Porous pavement also known as ..............",
+    "option1": "pervious pavement",
+    "option2": "permeable pavement",
+    "option3": "plastic pavement",
+    "option4": "both a and b",
+    "Answer": "option4"
+  },
+  {
+    "question": "........................subgrade is provided in porous pavement to maximize the infiltration rate of soil.",
+    "option1": "compacted",
+    "option2": "semi compacted",
+    "option3": "Uncompacted",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "In wet process of plastic road, roller is used for compaction.",
+    "option1": "8Ton",
+    "option2": "6 Ton",
+    "option3": "4 Ton",
+    "option4": "2Ton",
+    "Answer": "option1"
+  },
+  {
+    "question": "Snow melt agent include.............",
+    "option1": "chlorine salt",
+    "option2": "non chlorine salt",
+    "option3": "mixed salt",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "The standards specifies that the fly ash constituent in PPC by mass of portland pozollana cement",
+    "option1": "greater than 15%",
+    "option2": "Less than 35 %",
+    "option3": "Both a and b",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "..............is a new generation superplasticizer for concrete for extended slump retention.",
+    "option1": "Polycarboxylic Ether",
+    "option2": "MasterGlenium",
+    "option3": "Both a and b",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "....................also known as high range water reducer plasticizer",
+    "option1": "MasterGlenium",
+    "option2": "Polycarboxylic Ether",
+    "option3": "Both a and b",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": ".......................is one of the best ecofriendly technique to heal the crack in concrete structure",
+    "option1": "Stabilization",
+    "option2": "Bio- mineralisation",
+    "option3": "mineralization",
+    "option4": "All of above",
+    "Answer": "option2"
+  },
+  {
+    "question": ".......................is one of the best ecofriendly techniques to heal the crack in concrete structure",
+    "option1": "Stabilization",
+    "option2": "Bio- mineralisation",
+    "option3": "mineralization",
+    "option4": "All of above",
+    "Answer": ""
+  },
+  {
+    "question": "Cement in self healing concrete has capacity of self healing of crack of ..........",
+    "option1": "< 0.2 mm width",
+    "option2": "< 0.4 mm length",
+    "option3": ">0.2 mm width",
+    "option4": "0.4 mm width",
+    "Answer": "option1"
+  },
+  {
+    "question": "..........................is a custom designed bacteria to embedded deep into the crack in concrete.",
+    "option1": "Bacillus Subtilis",
+    "option2": "bio bacillus",
+    "option3": "bacillus hectilis",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "The self healing agent can lie dormant within concrete for upto …….years",
+    "option1": "100",
+    "option2": "200",
+    "option3": "300",
+    "option4": "400",
+    "Answer": "option2"
+  },
+  {
+    "question": "...........................designate as high strength concrete.",
+    "option1": "MlOTO M20",
+    "option2": "M25 TO M60",
+    "option3": "M65TO Ml00",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "High performance concrete will have low water cementing ratio of ...................",
+    "option1": "0.10 to 0.20",
+    "option2": "0.45 to 0.60",
+    "option3": "0.20 to 0.45",
+    "option4": "0.60 to 0.75",
+    "Answer": "option3"
+  },
+  {
+    "question": "Light transmitting concrete abbreviated as................",
+    "option1": "LTC",
+    "option2": "LiTrCo",
+    "option3": "LiTraCon",
+    "option4": "All of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "LiTraCon was developed in by hungarian architect",
+    "option1": "2000",
+    "option2": "2001",
+    "option3": "2002",
+    "option4": "2003",
+    "Answer": "option2"
+  },
+  {
+    "question": "GGBS is a partial replacement of ....................",
+    "option1": "cement",
+    "option2": "sand",
+    "option3": "course aggregate",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "The concrete which is made from concrete waste that are eco friendly known as..............ferrock green",
+    "option1": "concrete",
+    "option2": "GGBS",
+    "option3": "Concrete",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "Green concrete was first invented in.................in year 1998.",
+    "option1": "india",
+    "option2": "africa",
+    "option3": "Denmark",
+    "option4": "London",
+    "Answer": "option3"
+  },
+  {
+    "question": "Ferrock is created from ............",
+    "option1": "waste steel dust",
+    "option2": "waste plastic",
+    "option3": "waste timber",
+    "option4": "rocky material",
+    "Answer": "option1"
+  },
+  {
+    "question": "As compared to portland cement which is leading type in use, Ferrock i……. times stronger.",
+    "option1": "two",
+    "option2": "three",
+    "option3": "four",
+    "option4": "five",
+    "Answer": "option4"
+  },
+  {
+    "question": "What is LiDAR",
+    "option1": "Light detection and rod for levelling",
+    "option2": "Light detection and ranging",
+    "option3": "Laser detection and ranging",
+    "option4": "None of These",
+    "Answer": "option2"
+  },
+  {
+    "question": "LiDAR target",
+    "option1": "Non-metallic object",
+    "option2": "Rocks",
+    "option3": "Chemical compounds",
+    "option4": "All of these",
+    "Answer": "option4"
+  },
+  {
+    "question": "Essential concept of LiDAR was originated by",
+    "option1": "Thomas Edison",
+    "option2": "NASA",
+    "option3": "EH Synge",
+    "option4": "US air force",
+    "Answer": "option3"
+  },
+  {
+    "question": "“GPS” means",
+    "option1": "Gravity pull system",
+    "option2": "Gravity power system",
+    "option3": "Global positioning system",
+    "option4": "None of these",
+    "Answer": "option3"
+  },
+  {
+    "question": "“GPS“ is used for",
+    "option1": "To map forests",
+    "option2": "Helping farmers",
+    "option3": "Navigation of aeroplane",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "“GPS“ is a .. Based navigation system",
+    "option1": "Satellite",
+    "option2": "Remote",
+    "option3": "Light",
+    "option4": "Wavelength",
+    "Answer": "option1"
+  },
+  {
+    "question": "Min. Satellites required to give accurate position of any object",
+    "option1": "I",
+    "option2": "II",
+    "option3": "III",
+    "option4": "IV",
+    "Answer": "option4"
+  },
+  {
+    "question": "“GIS” means",
+    "option1": "Geographical information system",
+    "option2": "Gravity identification system",
+    "option3": "Global positioning system",
+    "option4": "None of these",
+    "Answer": "option1"
+  },
+  {
+    "question": "Output of photogrammetry is",
+    "option1": "Map",
+    "option2": "Drawing",
+    "option3": "Measurement",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "The fundamental principle used by photogrammetry is",
+    "option1": "Circulation",
+    "option2": "Triangulation",
+    "option3": "Traversing",
+    "option4": "None of these",
+    "Answer": "option2"
+  },
+  {
+    "question": "The fundamental principle used by photogrammetry is",
+    "option1": "Circulation",
+    "option2": "Triangulation",
+    "option3": "Traversing",
+    "option4": "None of these",
+    "Answer": "option3"
+  },
+  {
+    "question": "In aerial photogrammetry camera is mounted in an aircraft and is usually pointed towards ground",
+    "option1": "Horizontally",
+    "option2": "Vertically",
+    "option3": "Inclined",
+    "option4": "None of these",
+    "Answer": "option2"
+  },
+  {
+    "question": "In terrestrial photogrammetry camera axis is",
+    "option1": "Horizontally",
+    "option2": "Vertically",
+    "option3": "Inclined",
+    "option4": "None of these",
+    "Answer": "option3"
+  },
+  {
+    "question": "Involves recognizing and identifying object and judging their significance through careful and systematic analysis from photographic images",
+    "option1": "Planimetric mapping",
+    "option2": "Topographical mapping",
+    "option3": "Interpretative photogrammetry",
+    "option4": "Metric photogrammetry",
+    "Answer": "option2"
+  },
+  {
+    "question": "Advantages of photogrammetry is",
+    "option1": "Cover area quickly",
+    "option2": "Low costs",
+    "option3": "Access information from air",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Drones are also known as",
+    "option1": "Unmanned aerial vehicle",
+    "option2": "Manned aerial vehicle",
+    "option3": "Unmanned vehicle",
+    "option4": "None of these",
+    "Answer": "option1"
+  },
+  {
+    "question": "Drones are controlled by",
+    "option1": "Pilot inside",
+    "option2": "Petrol engine and steering",
+    "option3": "Remote ground control system",
+    "option4": "Pilot and helper sitting inside drone",
+    "Answer": "option3"
+  },
+  {
+    "question": "GIS is used for",
+    "option1": "Geographical data storage",
+    "option2": "Geographical data analysis",
+    "option3": "Geographical data segment",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "The science of making measurements of ground of land from photographs is called",
+    "option1": "Photograph",
+    "option2": "Photogrammetry",
+    "option3": "Tachometry",
+    "option4": "Photographical science and technology",
+    "Answer": "option2"
+  },
+  {
+    "question": "Task sheet serves as a review of hydraulic power",
+    "option1": "2",
+    "option2": "4.5",
+    "option3": "6.5",
+    "option4": "None of Above",
+    "Answer": "option1"
+  },
+  {
+    "question": "................are used for a wide range of high definition surveying HDS application",
+    "option1": "LIDAR",
+    "option2": "GPS",
+    "option3": "GIS",
+    "option4": "Scan station",
+    "Answer": "option4"
+  },
+  {
+    "question": "The GPS receive the signal and use them to calculate position in terms of",
+    "option1": "latitude",
+    "option2": "longitude",
+    "option3": "altitude",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Crawler loader is used for .............",
+    "option1": "Digging",
+    "option2": "both a and b",
+    "option3": "Material Remove",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "Trencher is also known as............",
+    "option1": "Excavator",
+    "option2": "Digger",
+    "option3": "Ditcher",
+    "option4": "Elevator",
+    "Answer": "option3"
+  },
+  {
+    "question": "Trenching machine are used to cut .............",
+    "option1": "Hard ground",
+    "option2": "Soft rock",
+    "option3": "None of above",
+    "option4": "both a and b",
+    "Answer": "option4"
+  },
+  {
+    "question": "The method of GPS measurement that are utilised by surveyor are",
+    "option1": "Static GPS Baseline",
+    "option2": "RTK Observation",
+    "option3": "CORS",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Micro trencher can be controlled by .................",
+    "option1": "Radio Controlled",
+    "option2": "Remote controlled",
+    "option3": "Manually controlled",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "The machine can work in hard or soft soil, either homogeneous or heterogeneous ............",
+    "option1": "Ditcher",
+    "option2": "Rock Wheel",
+    "option3": "Crawler loader",
+    "option4": "Chain trencher",
+    "Answer": "option2"
+  },
+  {
+    "question": "Wheel trencher is mounted on .................",
+    "option1": "Chain",
+    "option2": "Tires/track",
+    "option3": "Rubber chain",
+    "option4": "Wheels",
+    "Answer": "option2"
+  },
+  {
+    "question": "..................the machine, used to cut road pavement",
+    "option1": "Rock Wheel",
+    "option2": "Trencher",
+    "option3": "Skid loader",
+    "option4": "Chain trencher",
+    "Answer": "option1"
+  },
+  {
+    "question": "............are also known as unmanned aerial vehicles or remotely piloted vehicle.",
+    "option1": "Drone",
+    "option2": "GPS",
+    "option3": "GIS",
+    "option4": "LIDAR",
+    "Answer": "option1"
+  },
+  {
+    "question": "............are also known as unmanned aerial vehicles or remotely piloted vehicle.",
+    "option1": "Drone",
+    "option2": "GPS",
+    "option3": "GIS",
+    "option4": "LIDAR",
+    "Answer": "option1"
+  },
+  {
+    "question": "Full form of LIDAR",
+    "option1": "Level decision and ranging",
+    "option2": "Light detection and ranging",
+    "option3": "Level detection and ranging",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "Which is correct type of survey equipment.",
+    "option1": "LIDAR",
+    "option2": "Scan station",
+    "option3": "GPS",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which is correct type of survey equipment.",
+    "option1": "LIDAR",
+    "option2": "Scan station",
+    "option3": "GPS",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "The essential concept of LIDAR was originated by EH Synge in ............",
+    "option1": "1930",
+    "option2": "1890",
+    "option3": "1950",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "GPS is a………..based navigation system",
+    "option1": "satellite",
+    "option2": "earth",
+    "option3": "clocks",
+    "option4": "location",
+    "Answer": "option1"
+  },
+  {
+    "question": "The GPS concept is based on which of the correct one",
+    "option1": "Time",
+    "option2": "Position",
+    "option3": "Speed",
+    "option4": "Signal",
+    "Answer": "option1"
+  },
+  {
+    "question": "Full form of GPS",
+    "option1": "Global periodic system",
+    "option2": "Global positioning system",
+    "option3": "Geological positioning system",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "LIDAR is used extensively for ..............and............",
+    "option1": "Atmospheric research, meteorology",
+    "option2": "Ultraviolet, visible",
+    "option3": "Ultraviolet, meteorology",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "Photogrammetry can be classified based on camera are",
+    "option1": "Aerial Photogrammetry",
+    "option2": "Terrestrial Photogrammetry",
+    "option3": "Space Photogrammetry",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "In terrestrial Photogrammetry the camera axis is.........",
+    "option1": "Vertical",
+    "option2": "Horizontal",
+    "option3": "Inclined",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "Photogrammetry describes from three words",
+    "option1": "Photo - light",
+    "option2": "Gram - drawing",
+    "option3": "Metry - measurement",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "In aerial Photogrammetry the camera axis is.........",
+    "option1": "Vertical",
+    "option2": "Horizontal",
+    "option3": "Inclined",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "Types of metric photography are.........",
+    "option1": "Planimetric mapping",
+    "option2": "Topographical mapping",
+    "option3": "Both a and b",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "Taking photographs from at least two different location so called .............",
+    "option1": "Sight",
+    "option2": "Ines",
+    "option3": "Line of sight",
+    "option4": "Sight of line",
+    "Answer": "option3"
+  },
+  {
+    "question": "Full form of DEM",
+    "option1": "Digital electronic machine",
+    "option2": "Digital electronic model",
+    "option3": "Digital elevation model",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "What was one of the first adaptation of GPS",
+    "option1": "Surveying",
+    "option2": "Latitude",
+    "option3": "Surveying and mapping",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "Indoor application of laser level are ...........",
+    "option1": "Levelling floor",
+    "option2": "Masonry alignment",
+    "option3": "Site layout",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "Lower crane is the modern form of ...............",
+    "option1": "Balance crane",
+    "option2": "Mobile crane",
+    "option3": "Telescopic crane",
+    "option4": "Truck mounted crane",
+    "Answer": "option1"
+  },
+  {
+    "question": "Industrial and manufacturing application for belt conveyors include.....",
+    "option1": "Package handling",
+    "option2": "Trash Handling",
+    "option3": "Bag Handling",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Hoist is a device used for ...............",
+    "option1": "Lifting",
+    "option2": "Lowering load",
+    "option3": "Deposit load",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Typical Forklift is called as...........",
+    "option1": "Overhead Crane",
+    "option2": "Road paver",
+    "option3": "Lift truck",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "A co-ordinated development and management of water is called ..........",
+    "option1": "Water resource management",
+    "option2": "Rain water management",
+    "option3": "Water supply management",
+    "option4": "Water saving management",
+    "Answer": "option1"
+  },
+  {
+    "question": "4R'S includes",
+    "option1": "Reduce the waste",
+    "option2": "Reuse the waste",
+    "option3": "Recycle and recover the waste",
+    "option4": "All of these",
+    "Answer": "option4"
+  },
+  {
+    "question": "Benefits of source reduction",
+    "option1": "Save natural resources",
+    "option2": "Reduce toxicity of waste",
+    "option3": "Reduce cost",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which one is not recoverable energy resource area?",
+    "option1": "LPG (Landfill gas)",
+    "option2": "Methane",
+    "option3": "Glass",
+    "option4": "RDF (Refused derived fuel)",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which is Recyclable material",
+    "option1": "Paper",
+    "option2": "Plastic",
+    "option3": "Glass",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Recover in waste management means",
+    "option1": "Convert waste into a compost",
+    "option2": "Convert waste into an energy",
+    "option3": "Convert waste into reusable material",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Demolition waste obtained from construction sites is used for",
+    "option1": "Construction of walls",
+    "option2": "Filling of trenches",
+    "option3": "Construction of slab (R.C.C)",
+    "option4": "Concrete making",
+    "Answer": "option2"
+  },
+  {
+    "question": "Fly ash used for construction in concrete to",
+    "option1": "Increase strength",
+    "option2": "Decrease segregation",
+    "option3": "Increase workability",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Which is not an example of renewable energy",
+    "option1": "Solar",
+    "option2": "Wind",
+    "option3": "Thermal",
+    "option4": "Hydropower",
+    "Answer": "option3"
+  },
+  {
+    "question": "MRFs means",
+    "option1": "Material recovery facilities",
+    "option2": "Material reduce facilities",
+    "option3": "Material reuse facilities",
+    "option4": "All of the above",
+    "Answer": "option3"
+  },
+  {
+    "question": "In last 40 years our population has",
+    "option1": "Same",
+    "option2": "Double",
+    "option3": "Triple",
+    "option4": "None of these",
+    "Answer": "option3"
+  },
+  {
+    "question": "Plastic tubes and lids are used for making",
+    "option1": "Ropes",
+    "option2": "Mats",
+    "option3": "Bags",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Steel slag used in",
+    "option1": "Road construction",
+    "option2": "Ground improvement",
+    "option3": "Raw materials for cement",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Biogas plant have been developed in India during",
+    "option1": "1920 and 1930",
+    "option2": "1930 and 1940",
+    "option3": "1940 and 1950",
+    "option4": "1950 and 1960",
+    "Answer": "option4"
+  },
+  {
+    "question": "The wind power program in India was started during",
+    "option1": "1931-1932",
+    "option2": "1985-1986",
+    "option3": "1983-1984",
+    "option4": "1987-1988",
+    "Answer": "option2"
+  },
+  {
+    "question": "India has about.... Known geothermal sites",
+    "option1": "100",
+    "option2": "150",
+    "option3": "200",
+    "option4": "250",
+    "Answer": "option3"
+  },
+  {
+    "question": "Detailed energy auditing is carried out in ......... phase",
+    "option1": "I",
+    "option2": "II",
+    "option3": "III",
+    "option4": "IV",
+    "Answer": "option2"
+  },
+  {
+    "question": "Blast furnace slag is obtained from.",
+    "option1": "Underground excavation",
+    "option2": "Steel plants",
+    "option3": "Glass",
+    "option4": "None to define",
+    "Answer": "option2"
+  },
+  {
+    "question": "Energy consumed by buildings is equal to energy produce by buildings are called",
+    "option1": "Zero energy building",
+    "option2": "Energy saving building",
+    "option3": "Non-renewable energy",
+    "option4": "None of these",
+    "Answer": "option1"
+  },
+  {
+    "question": "INDIA first net zero energy building is",
+    "option1": "Indira paryavaran building",
+    "option2": "Indira paryavaran bhavan",
+    "option3": "Indira green building",
+    "option4": "None of these",
+    "Answer": "option2"
+  },
+  {
+    "question": "India first net-zero energy building is located in",
+    "option1": "Mumbai",
+    "option2": "Goa",
+    "option3": "New Delhi",
+    "option4": "Hyderabad",
+    "Answer": "option3"
+  },
+  {
+    "question": "India first net zero energy building is inaugurated in",
+    "option1": "2010",
+    "option2": "2011",
+    "option3": "2012",
+    "option4": "2014",
+    "Answer": "option3"
+  },
+  {
+    "question": "Indira paryavaran bhavan was accorded 5 star green building certification by GRIHA under MNR in",
+    "option1": "JANUARY 2014",
+    "option2": "FEBUARY 2014",
+    "option3": "MARCH 2014",
+    "option4": "APRIL 2014",
+    "Answer": "option4"
+  },
+  {
+    "question": "Advantages of zero energy building are",
+    "option1": "It reduce total net monthly cost of living",
+    "option2": "Building owner get isolation from increase in future energy prices",
+    "option3": "Increase comfort",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Initial costs for zero energy building is",
+    "option1": "High",
+    "option2": "Low",
+    "option3": "Medium",
+    "option4": "None of these",
+    "Answer": "option1"
+  },
+  {
+    "question": "IPD Environment code was initiated in",
+    "option1": "JANUARY 2008",
+    "option2": "FEBUARY 2008",
+    "option3": "MARCH 2008",
+    "option4": "APRIL 2008",
+    "Answer": "option1"
+  },
+  {
+    "question": "Components of green building are",
+    "option1": "Solar panel",
+    "option2": "Photovoltaic panel",
+    "option3": "Light coloured exterior wall",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Leadership in energy and environmental design (LEED) is one of the rating system in",
+    "option1": "U.S",
+    "option2": "INDIA",
+    "option3": "MALAYSIA",
+    "option4": "UAE",
+    "Answer": "option1"
+  },
+  {
+    "question": "Green building index (GBI) predominantly used in",
+    "option1": "U.S",
+    "option2": "INDIA",
+    "option3": "MALAYSIA",
+    "option4": "UAE",
+    "Answer": "option2"
+  },
+  {
+    "question": "Green building rating system GRIHA used in",
+    "option1": "U.S",
+    "option2": "INDIA",
+    "option3": "MALAYSIA",
+    "option4": "UAE",
+    "Answer": "option2"
+  },
+  {
+    "question": "When no of houses is constructed to suit the requirements of population of an area or country, then it is termed as",
+    "option1": "Mass homes",
+    "option2": "Modular homes",
+    "option3": "Mass housing",
+    "option4": "Modular housing",
+    "Answer": "option3"
+  },
+  {
+    "question": "INDIA is facing deficiency of.... Housing units presently",
+    "option1": "60 million",
+    "option2": "50 million",
+    "option3": "40 million",
+    "option4": "30 million",
+    "Answer": "option2"
+  },
+  {
+    "question": "Most common precast products are",
+    "option1": "Hollow-core slabs",
+    "option2": "Partition walls",
+    "option3": "Building foundations with precast concrete piles",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Advantage of precast concrete is",
+    "option1": "Save construction time",
+    "option2": "Quality assurance",
+    "option3": "Cost effective",
+    "option4": "All of the above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Prefabricated housing is also known as",
+    "option1": "Prefabs",
+    "option2": "Prefab homes",
+    "option3": "Both a and b",
+    "option4": "None of these",
+    "Answer": "option3"
+  },
+  {
+    "question": "Homes are built on wheeled steel beams and transported in complete section to the home site for assembly",
+    "option1": "Modular homes",
+    "option2": "Manufactured homes",
+    "option3": "Mobile homes",
+    "option4": "Tiny homes",
+    "Answer": "option3"
+  },
+  {
+    "question": "Mobile and manufactured houses are constructed in accordance with .... Building",
+    "option1": "HUD",
+    "option2": "IRC",
+    "option3": "PEB",
+    "option4": "None of these",
+    "Answer": "option1"
+  },
+  {
+    "question": "The buildings which are engineered at a factory and assembled at the site are termed as",
+    "option1": "HUD",
+    "option2": "IRC",
+    "option3": "PEB",
+    "option4": "None of these",
+    "Answer": "option3"
+  },
+  {
+    "question": "...... is a building with zero net energy consumption.",
+    "option1": "ZEN",
+    "option2": "NZEB",
+    "option3": "ZEB",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Full form of NZEB is",
+    "option1": "Net zero energy building",
+    "option2": "New zero energy building",
+    "option3": "Net zero energy building",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "Zero energy building also known as",
+    "option1": "Zero net energy building",
+    "option2": "Net zero energy building",
+    "option3": "Both A & B",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "The amount of energy used by building in ZEB is roughly equal to",
+    "option1": "Amount of energy created on site",
+    "option2": "Renewable energy source elsewhere",
+    "option3": "Both A & B",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "ZEB contribute .... greenhouse gas to atmosphere than that similar non ZNE building.",
+    "option1": "Less",
+    "option2": "Moderate",
+    "option3": "More",
+    "option4": "None",
+    "Answer": "option1"
+  },
+  {
+    "question": "ZEB reduced",
+    "option1": "Energy consumption",
+    "option2": "Energy distribution",
+    "option3": "Greenhouse gas production",
+    "option4": "Only A & C",
+    "Answer": "option4"
+  },
+  {
+    "question": "India's first ZEN building is",
+    "option1": "Indira Paryavaran Bhavan",
+    "option2": "Sonia Paryavaran Bhavan",
+    "option3": "Indian Environmental Prevention",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "Indira Paryavaran Bhavan inaugurated in",
+    "option1": "1997",
+    "option2": "1992",
+    "option3": "2004",
+    "option4": "2014",
+    "Answer": "option4"
+  },
+  {
+    "question": "In zero net energy building,.......... were proposed.",
+    "option1": "Passive solar building design",
+    "option2": "Other greenhouse technologies",
+    "option3": "High efficiency solar panels",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "In which year, ZEB project received an award from Adarsh/GRIHA of MNRE for exemplary demonstration of integration of renewable energy technologies?",
+    "option1": "February 2012",
+    "option2": "February 2013",
+    "option3": "February 2014",
+    "option4": "February 2015",
+    "Answer": "option2"
+  },
+  {
+    "question": "The ZEB project was accorded Green Building Certification by GRIHA under MNR as",
+    "option1": "2-Star",
+    "option2": "3-Star",
+    "option3": "5-Star",
+    "option4": "Brilliant",
+    "Answer": "option3"
+  },
+  {
+    "question": "The ZEB project was accorded 5-Star Green Building Certification in",
+    "option1": "Jan 11",
+    "option2": "Jan 12",
+    "option3": "Jan 13",
+    "option4": "Jan 14",
+    "Answer": "option4"
+  },
+  {
+    "question": "Principle of zero energy building is",
+    "option1": "To reduce carbon emission",
+    "option2": "Reduce dependence on fossil fuel",
+    "option3": "Both A & B",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "The advantage of ZEB is",
+    "option1": "It reduces requirement for energy austerity",
+    "option2": "It reduces risk of loss from grid blackouts",
+    "option3": "It reduces total net monthly cost of living",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Disadvantage of ZEB is",
+    "option1": "Unskilled builder are required",
+    "option2": "Initial cost is high",
+    "option3": "Declination capital invested in energy efficiency",
+    "option4": "Only B and C",
+    "Answer": "option4"
+  },
+  {
+    "question": "Green building is also known as",
+    "option1": "Green construction",
+    "option2": "Sustainable building",
+    "option3": "High performance building",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "............ is a structure that is environmentally responsible and resource efficient throughout its life cycle.",
+    "option1": "High performance building",
+    "option2": "Environmental free building",
+    "option3": "Both A and B",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "The key objective of sustainable building is ........",
+    "option1": "Reducing water consumption",
+    "option2": "Protecting water quality",
+    "option3": "Both A and B",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "The EPA suggest using recycled industrial greed such as .....",
+    "option1": "Coal combustion product",
+    "option2": "Foundry sand",
+    "option3": "Demolition debris",
+    "option4": "All of Above",
+    "Answer": "option4"
+  },
+  {
+    "question": "The IPD environment code was initiated in",
+    "option1": "Feb 2008",
+    "option2": "Feb 2010",
+    "option3": "March 2008",
+    "option4": "April 2008",
+    "Answer": "option1"
+  },
+  {
+    "question": "The objective of IPD environment code is",
+    "option1": "Enable property executive to generate high quality",
+    "option2": "To prevent water quality",
+    "option3": "Both A and B",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "Component of green building are",
+    "option1": "Solar panel",
+    "option2": "Photovoltaic panel",
+    "option3": "Light coloured exterior wall",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "The features of green building are",
+    "option1": "Use of nontoxic and reduced material",
+    "option2": "Use of renewable energy",
+    "option3": "Both A and B",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "Full form of LEED is",
+    "option1": "Leadership in energy and environmental design",
+    "option2": "Layouting energy and environmental design",
+    "option3": "Both A and B",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "When number of houses is constructed to suit the requirement of population of an area or country known as",
+    "option1": "Green house",
+    "option2": "Mass house",
+    "option3": "Town planning",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "Objective of mass housing is",
+    "option1": "To provide sufficient housing to occupy the huge amount of native people living in the society",
+    "option2": "To provide low cost living facilities easily in society",
+    "option3": "To make available the strong and durable houses for a group of people",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Method of mass housing are",
+    "option1": "Precast housing",
+    "option2": "Pre engineered building",
+    "option3": "Prefab homes",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "........ It is one of tool of mass housing in which various precast elements of houses are casted separately in plant.",
+    "option1": "Precast housing",
+    "option2": "Prefab homes",
+    "option3": "Both A and B",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "Most common precast products are",
+    "option1": "Partition mass",
+    "option2": "Wall element form sandwich to Gray Wass",
+    "option3": "Both A and B",
+    "option4": "None of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Advantage of precast concrete are",
+    "option1": "Aesthetics",
+    "option2": "Durability",
+    "option3": "Cost effective",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "Disadvantage of precast concrete are",
+    "option1": "Handling difficulty",
+    "option2": "Aesthetics",
+    "option3": "High initial investment",
+    "option4": "Both A and C",
+    "Answer": "option4"
+  },
+  {
+    "question": "The homes which are casted by using prefabricated element manufactured off site in advance, usually in standard section that can be easily shipped and assembled at site is called",
+    "option1": "Precast housing",
+    "option2": "Pre-engineered building",
+    "option3": "Prefab homes",
+    "option4": "All of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "Prefabricated housing also known as",
+    "option1": "Prefabs homes",
+    "option2": "Prefab",
+    "option3": "Both A and B",
+    "option4": "None of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "........... are little costly but overall it become economical due to less maintenance",
+    "option1": "Precast housing",
+    "option2": "Prefabs",
+    "option3": "Pre-engineered building",
+    "option4": "All of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "Types of prefabricated homes are",
+    "option1": "Modular homes",
+    "option2": "Mobile homes",
+    "option3": "Manufactured homes",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "............ typically installed like a regular house and usually expensive of three types of prefabs.",
+    "option1": "Modular homes",
+    "option2": "Manufactured homes",
+    "option3": "Mobile homes",
+    "option4": "None of above",
+    "Answer": "option1"
+  },
+  {
+    "question": "Manufactured homes are placed on..............",
+    "option1": "Temporary foundation",
+    "option2": "Permanent foundation",
+    "option3": "Shallow & deep foundation",
+    "option4": "All of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "In manufactured homes, the wheels, hitch and axles are removed on site..........",
+    "option1": "Before",
+    "option2": "After",
+    "option3": "Along with",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": ".............. are built on wheels that can be pulled by vehicles.",
+    "option1": "Manufactured homes",
+    "option2": "Precast housing",
+    "option3": "Mobile homes",
+    "option4": "All of above",
+    "Answer": "option3"
+  },
+  {
+    "question": "Mobile homes are considered as.......... Property which is licensed by dept. of motor vehicles.",
+    "option1": "Public",
+    "option2": "Private",
+    "option3": "Government",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "Full form of DMV is",
+    "option1": "Development of movement of vehicles",
+    "option2": "Department of motor vehicle",
+    "option3": "Department of motion of vehicle",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "Tiny homes are within the category of........",
+    "option1": "Manufactured homes",
+    "option2": "Modular homes",
+    "option3": "Mobile homes",
+    "option4": "Precast housing",
+    "Answer": "option3"
+  },
+  {
+    "question": "Among types of prefabricated homes, the houses are constructed in accordance with HUD buildings code except",
+    "option1": "Mobile homes",
+    "option2": "Modular homes",
+    "option3": "Manufactured homes",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "Modular houses are constructed in accordance with",
+    "option1": "IS code",
+    "option2": "IRC",
+    "option3": "HUD",
+    "option4": "Both A and C",
+    "Answer": "option2"
+  },
+  {
+    "question": "Full form of PEB is",
+    "option1": "Pre enter building",
+    "option2": "Pre-exist building",
+    "option3": "Pre-engineered building",
+    "option4": "Post engineered building",
+    "Answer": "option3"
+  },
+  {
+    "question": "PEB's are ..........",
+    "option1": "Concrete structure",
+    "option2": "Steel structure",
+    "option3": "Fibre structure",
+    "option4": "Stone structure",
+    "Answer": "option2"
+  },
+  {
+    "question": "PEB's are built up sections fabricated at.......",
+    "option1": "Site",
+    "option2": "Factory",
+    "option3": "Both A and B",
+    "option4": "None of above",
+    "Answer": "option2"
+  },
+  {
+    "question": "........ concept is generally used for industrial building, metro station, canopies etc.",
+    "option1": "Precast building",
+    "option2": "Prefabs",
+    "option3": "Pre-engineered building",
+    "option4": "Both A and B",
+    "Answer": "option3"
+  },
+  {
+    "question": "Component of PEB's are",
+    "option1": "Haunch",
+    "option2": "Wall grit",
+    "option3": "Corner post",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+  {
+    "question": "PEB's consist of different steel structural member such as",
+    "option1": "Roof & wall panel",
+    "option2": "Sandwich panel",
+    "option3": "Primary framing",
+    "option4": "All of above",
+    "Answer": "option4"
+  },
+
+]
+
+
+module.exports = { data: ETC};

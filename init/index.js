@@ -19,14 +19,14 @@ async function main() {
 }
 
 const initDB = async () => {
-  //await Users.deleteMany({});
-  await Questions.insertMany(initData.data);
+  //await Questions.deleteMany({ subject: "Emerging Trends(Computer)" });
+  //await Questions.insertMany(initData.data);
   // const subjects = await Questions.distinct("subject");
   // console.log(subjects);
-  //await Questions.updateMany({ subject: "ETI" },{ $set: { subject: "Emerging Trends(Computer)" } });
+  await Questions.updateMany({ subject: "ETE" },{ $set: { subject: "ETE(ELECTRICAL)" } });
   //await Users.find({});
   //console.log( await Users.find({}));
-  console.log("Data inserted Successfully")
+  console.log("Data updated Successfully")
 };
 
 initDB();
