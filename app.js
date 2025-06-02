@@ -7,6 +7,8 @@ const crypto = require('crypto');
 const nodemailer = require('nodemailer');
 const express = require("express");
 
+const simpleGit = require("simple-git");
+const { exec } = require("child_process");
 
 const app = express();
 
@@ -716,6 +718,42 @@ app.get('/terms', (req, res) => {
     });
 });
 
+
+const util = require('util');
+const execPromise = util.promisify(exec);
+
+app.get('/git/pull', async (req, res) => {
+    try {
+        const secret = req.query.secret;
+        if (secret !== "mello") {
+            console.error('Unauthorized access attempt to git pull');
+            return res.status(403).send('Unauthorized');
+        }
+
+        const git = simpleGit();
+        await git.pull('origin', 'main');
+        console.log('Git pull successful');
+
+        // Install dependencies
+        console.log('Installing dependencies...');
+        const { stdout, stderr } = await execPromise('npm install');
+        console.log(`Dependencies installed:\n${stdout}`);
+        if (stderr) console.error(`stderr:\n${stderr}`);
+
+        res.send('Git pull successful, dependencies installed. Restarting Docker container... ');
+        console.log('Initiated Docker Restart ✨');
+
+        // Gracefully shut down after response
+        setTimeout(() => process.exit(0), 1000);
+
+    } catch (err) {
+        console.error('Error during pull/install/restart:', err);
+        return res.status(500).send('Git pull or install failed');
+    }
+});
+
+
+
 // Catch-all route for undefined routes
 app.all('*', (req, res, next) => {
     next(new ExpressError('Page Not Found', 404));
@@ -727,6 +765,7 @@ app.use((err, req, res, next) => {
     let { statusCode = 500, message = "Something went wrong" } = err;
     res.status(statusCode).render("testapp/error.ejs", { message });
 });
+
 
 // Start the server
 app.listen(8080, () => {
