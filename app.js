@@ -273,7 +273,7 @@ app.post('/auth/reset-password/:token', async (req, res) => {
 });
 
 
-app.get("/courses", isLoggedIn, async (req, res) => {
+app.get("/courses", async (req, res) => {
     const allCourses = await courses.find({});
     res.render("testapp/courses.ejs", {
         allCourses,
@@ -390,7 +390,7 @@ app.get("/auth/logout", (req, res, next) => {
 });
 
 
-app.get("/practice/:id",  isLoggedIn, async (req, res) => {
+app.get("/practice/:id",  async (req, res) => {
     let { id } = req.params;
     const allquestions = await Questions.find({ subject: id });
     const subject = await subjects.findOne({ title: id });
@@ -410,7 +410,7 @@ app.get("/practice/:id",  isLoggedIn, async (req, res) => {
     });
 });
 
-app.get("/test/:id", isLoggedIn, async (req, res) => {
+app.get("/test/:id",  async (req, res) => {
     let { id } = req.params;
     const examquestions = await Questions.find({ subject: id });
     const max = examquestions.length;
@@ -439,7 +439,7 @@ app.get("/test/:id", isLoggedIn, async (req, res) => {
     });
 });
 
-app.get("/subjects", isLoggedIn, async (req, res) => {
+app.get("/subjects", async (req, res) => {
     const allSubjects = await subjects.find({});
     res.render("testapp/subjects.ejs", {
         allSubjects,
@@ -449,7 +449,7 @@ app.get("/subjects", isLoggedIn, async (req, res) => {
     });
 });
 
-app.get("/subjects/new", isLoggedIn, async (req, res) => {
+app.get("/subjects/new", async (req, res) => {
     res.render("testapp/subjectNew.ejs", {
         title: "Add New Subject - MSBTE MCQ Practice",
         description: "Add a new subject to practice MCQs for ETI, Management, EST, AJP and more on msbtemcq.in.",
@@ -457,7 +457,7 @@ app.get("/subjects/new", isLoggedIn, async (req, res) => {
     });
 });
 
-app.post('/subjects', isLoggedIn, async (req, res) => {
+app.post('/subjects', async (req, res) => {
     try {
         const { title, description, image, questions } = req.body;
         const newSubject = new subjects({ title, description, image });
@@ -487,7 +487,7 @@ app.post('/subjects', isLoggedIn, async (req, res) => {
 });
 
 
-app.get("/courses/:id", isLoggedIn, async (req, res) => {
+app.get("/courses/:id", async (req, res) => {
     try {
         let { id } = req.params;
         const allSubjects = await subjects.find({ course: id });
@@ -498,7 +498,7 @@ app.get("/courses/:id", isLoggedIn, async (req, res) => {
     }
 });
 
-app.get("/TestApp/:id", isLoggedIn, async (req, res) => {
+app.get("/TestApp/:id", async (req, res) => {
     let { id } = req.params;
     const allSubjects = await subjects.find({});
     res.render("testapp/testOrPractice.ejs", {
@@ -510,7 +510,7 @@ app.get("/TestApp/:id", isLoggedIn, async (req, res) => {
     });
 });
 
-app.get("/subjects/:id", isLoggedIn, async (req, res) => {
+app.get("/subjects/:id", async (req, res) => {
     try {
         let { id } = req.params;
         res.render("testapp/cards.ejs", {
@@ -525,7 +525,7 @@ app.get("/subjects/:id", isLoggedIn, async (req, res) => {
     }
 });
 
-app.get('/new', isLoggedIn, (req, res) => {
+app.get('/new', (req, res) => {
     res.render('testapp/new.ejs', {
         title: "New MCQ - MSBTE MCQ Practice",
         description: "Add new MCQs for ETI, Management, EST, AJP and more on msbtemcq.in.",
@@ -533,7 +533,7 @@ app.get('/new', isLoggedIn, (req, res) => {
     });
 });
 
-app.post("/questions", isLoggedIn, async (req, res) => {
+app.post("/questions", async (req, res) => {
     const que = req.body;
     const newQuestion = new Questions(que);
     
@@ -547,7 +547,7 @@ app.post("/questions", isLoggedIn, async (req, res) => {
 });
 
 // Route to render user profile page
-app.get('/profile', isLoggedIn, async (req, res) => {
+app.get('/profile', async (req, res) => {
     try {
         const user = await User.findById(req.user._id).select('username email phone progress timeSpent');
         res.render('testapp/profile', { currentUser: user, progress: user.progress });
@@ -559,7 +559,7 @@ app.get('/profile', isLoggedIn, async (req, res) => {
 });
 
 // API route to get user progress data
-app.get('/api/user/progress', isLoggedIn, async (req, res) => {
+app.get('/api/user/progress', async (req, res) => {
     try {
         const user = await User.findById(req.user._id).select('progress');
         res.json({ progress: user.progress });
@@ -570,7 +570,7 @@ app.get('/api/user/progress', isLoggedIn, async (req, res) => {
 });
 
 // API route to update user progress data after test/practice completion
-app.post('/api/user/progress', isLoggedIn, async (req, res) => {
+app.post('/api/user/progress', async (req, res) => {
     try {
         const { subject, score, outof, details } = req.body;
         const user = await User.findById(req.user._id);
@@ -641,7 +641,7 @@ app.post('/Contact', async (req, res) => {
     }
 });
 
-app.post('/user/timeSpent', isLoggedIn, async (req, res) => {
+app.post('/user/timeSpent', async (req, res) => {
     try {
         const { timeSpent } = req.body;
         if (!timeSpent || isNaN(timeSpent)) {
@@ -755,7 +755,7 @@ app.get('/git/pull', async (req, res) => {
 
 
 // Catch-all route for undefined routes
-app.all('*', isLoggedIn, (req, res, next) => {
+app.all('*', (req, res, next) => {
     next(new ExpressError('Page Not Found', 404));
 });
 
