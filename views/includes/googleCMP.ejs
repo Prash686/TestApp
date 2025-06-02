@@ -1,64 +1,123 @@
 <!-- Google CMP Banner -->
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap');
+
   #google-cmp-banner {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #fff;
-    border-top: 1px solid #ccc;
-    padding: 15px;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: linear-gradient(to right, #f5f7fa, #e4ecf7);
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     font-family: 'Plus Jakarta Sans', sans-serif;
     z-index: 10000;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 20px;
+    animation: slideUp 0.6s ease-in-out;
+    max-width: 900px;
+    margin: 0 auto;
   }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
   #google-cmp-banner p {
     margin: 0;
-    flex: 1 1 300px;
-    font-size: 14px;
+    font-size: 15px;
     color: #333;
+    flex: 1;
   }
+
   #google-cmp-buttons {
-    flex: 0 0 auto;
     display: flex;
-    gap: 10px;
+    gap: 12px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
   }
+
   #google-cmp-buttons button {
-    background-color: #007bff;
     border: none;
-    color: white;
-    padding: 8px 14px;
+    padding: 10px 18px;
     font-size: 14px;
-    border-radius: 4px;
+    font-weight: 600;
+    border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
   }
-  #google-cmp-buttons button:hover {
-    background-color: #0056b3;
+
+  #consent-accept {
+    background-color: #4caf50;
+    color: white;
   }
-  #google-cmp-buttons button.manage {
-    background-color: #6c757d;
+  #consent-accept:hover {
+    background-color: #45a047;
   }
-  #google-cmp-buttons button.manage:hover {
-    background-color: #5a6268;
+
+  #consent-decline {
+    background-color: #f44336;
+    color: white;
+  }
+  #consent-decline:hover {
+    background-color: #d32f2f;
+  }
+
+  #consent-manage {
+    background-color: #607d8b;
+    color: white;
+  }
+  #consent-manage:hover {
+    background-color: #455a64;
+  }
+
+  @media (max-width: 768px) {
+    #google-cmp-banner {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 16px;
+    }
+
+    #google-cmp-buttons {
+      width: 100%;
+      justify-content: flex-start;
+      gap: 10px;
+    }
   }
 </style>
 
 <div id="google-cmp-banner" role="dialog" aria-live="polite" aria-label="Cookie consent banner">
-  <p>We use cookies to enhance your experience. Please choose your preference.</p>
+  <p>
+    We use cookies to personalize content, analyze traffic, and deliver the best experience. Please select your preferences.
+  </p>
   <div id="google-cmp-buttons">
-    <button id="consent-accept">Consent</button>
-    <button id="consent-decline">Do Not Consent</button>
-    <button id="consent-manage" class="manage">Manage Options</button>
+    <button id="consent-accept">
+      ✅ Accept
+    </button>
+    <button id="consent-decline">
+      ❌ Decline
+    </button>
+    <button id="consent-manage">
+      ⚙️ Manage
+    </button>
   </div>
 </div>
 
 <script>
-  (function() {
+  (function () {
     const banner = document.getElementById('google-cmp-banner');
     const acceptBtn = document.getElementById('consent-accept');
     const declineBtn = document.getElementById('consent-decline');
@@ -67,7 +126,6 @@
     function setConsentStatus(status) {
       localStorage.setItem('googleCMPConsent', status);
       banner.style.display = 'none';
-      // Here you can add integration with Google CMP or Tag Manager if needed
       console.log('Consent status set to:', status);
     }
 
@@ -80,17 +138,11 @@
       }
     }
 
-    acceptBtn.addEventListener('click', function() {
-      setConsentStatus('consent');
-    });
+    acceptBtn.addEventListener('click', () => setConsentStatus('consent'));
+    declineBtn.addEventListener('click', () => setConsentStatus('do_not_consent'));
 
-    declineBtn.addEventListener('click', function() {
-      setConsentStatus('do_not_consent');
-    });
-
-    manageBtn.addEventListener('click', function() {
-      alert('Manage options clicked. Implement your preferences modal here.');
-      // Optionally open a modal or redirect to a preferences page
+    manageBtn.addEventListener('click', () => {
+      alert('You clicked Manage. Open a modal here with your preferences UI.');
     });
 
     document.addEventListener('DOMContentLoaded', checkConsent);
