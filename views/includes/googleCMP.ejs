@@ -1,0 +1,98 @@
+<!-- Google CMP Banner -->
+<style>
+  #google-cmp-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #google-cmp-banner p {
+    margin: 0;
+    flex: 1 1 300px;
+    font-size: 14px;
+    color: #333;
+  }
+  #google-cmp-buttons {
+    flex: 0 0 auto;
+    display: flex;
+    gap: 10px;
+  }
+  #google-cmp-buttons button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  #google-cmp-buttons button:hover {
+    background-color: #0056b3;
+  }
+  #google-cmp-buttons button.manage {
+    background-color: #6c757d;
+  }
+  #google-cmp-buttons button.manage:hover {
+    background-color: #5a6268;
+  }
+</style>
+
+<div id="google-cmp-banner" role="dialog" aria-live="polite" aria-label="Cookie consent banner">
+  <p>We use cookies to enhance your experience. Please choose your preference.</p>
+  <div id="google-cmp-buttons">
+    <button id="consent-accept">Consent</button>
+    <button id="consent-decline">Do Not Consent</button>
+    <button id="consent-manage" class="manage">Manage Options</button>
+  </div>
+</div>
+
+<script>
+  (function() {
+    const banner = document.getElementById('google-cmp-banner');
+    const acceptBtn = document.getElementById('consent-accept');
+    const declineBtn = document.getElementById('consent-decline');
+    const manageBtn = document.getElementById('consent-manage');
+
+    function setConsentStatus(status) {
+      localStorage.setItem('googleCMPConsent', status);
+      banner.style.display = 'none';
+      // Here you can add integration with Google CMP or Tag Manager if needed
+      console.log('Consent status set to:', status);
+    }
+
+    function checkConsent() {
+      const consent = localStorage.getItem('googleCMPConsent');
+      if (consent) {
+        banner.style.display = 'none';
+      } else {
+        banner.style.display = 'flex';
+      }
+    }
+
+    acceptBtn.addEventListener('click', function() {
+      setConsentStatus('consent');
+    });
+
+    declineBtn.addEventListener('click', function() {
+      setConsentStatus('do_not_consent');
+    });
+
+    manageBtn.addEventListener('click', function() {
+      alert('Manage options clicked. Implement your preferences modal here.');
+      // Optionally open a modal or redirect to a preferences page
+    });
+
+    document.addEventListener('DOMContentLoaded', checkConsent);
+  })();
+</script>
