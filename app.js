@@ -106,14 +106,14 @@ app.use((req, res, next) => {
     next();
 });
 
-const isLoggedIn = (req, res, next) => {
+/*const isLoggedIn = (req, res, next) => {
     if (!req.isAuthenticated()) {
         req.session.redirectUrl = req.originalUrl;
         req.flash("error", "Please Signup");
         return res.redirect("/auth/signup");
     }
     next();
-};
+};*/
 
 // Routes
 // app.get("/", async (req, res) => {
