@@ -763,7 +763,7 @@ app.all('*', (req, res, next) => {
 // Global error handler
 app.use((err, req, res, next) => {
     let { statusCode = 500, message = "Something went wrong" } = err;
-    res.status(statusCode).render("testapp/error.ejs", { message });
+    res.status(statusCode).render("testapp/error.ejs", { message, showAds: false });
 });
 
 

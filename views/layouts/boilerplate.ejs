@@ -105,6 +105,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPJKTZJ4"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+<% if (typeof showAds === 'undefined' || showAds) { %>
 <!-- Google AdSense Ad -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -121,6 +122,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
   });
 </script>
+<% } %>
 
 <%- include("../includes/navbar.ejs") %>
 <%- include("../includes/googleCMP.ejs") %>
@@ -140,6 +142,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="/js/test.js"></script>
 
 <!-- Additional Ads -->
+<% if (typeof showAds === 'undefined' || showAds) { %>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
      data-ad-layout="in-article"
@@ -161,7 +164,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
   });
 </script>
-
+<% } %>
   
 </body>
 </html>
